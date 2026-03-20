@@ -1,0 +1,50 @@
+{
+  "id": "a16z-2026-03-17-ai-agents-enterprise",
+  "slug": "2026-03-17-a16z-podcast",
+  "podcast": "a16z Podcast",
+  "category": "VC / Business",
+  "title": "Why Every Enterprise Will Have an AI Agent Army",
+  "published": "2026-03-17T08:00:00Z",
+  "link": "https://a16z.com/podcast",
+  "summary_ko": "a16z 파트너 마틴 카사도가 기업용 AI 에이전트의 현재 상태를 분석합니다. 포춘 500대 기업의 40%가 이미 에이전트 파일럿을 운영 중이지만, 대부분이 '데모 단계'에 머물러 있습니다. 프로덕션까지 가는 기업과 그렇지 못한 기업을 가르는 핵심 요인은 기술이 아니라 조직 구조와 데이터 거버넌스입니다.",
+  "summary_en": "a16z partner Martin Casado analyzes the current state of enterprise AI agents. 40% of Fortune 500 companies are running agent pilots, but most are stuck in 'demo phase.' The key differentiator between companies that reach production and those that don't isn't technology — it's organizational structure and data governance.",
+  "key_points_ko": [
+    {
+      "heading": "데모에서 프로덕션까지의 간극",
+      "body": "에이전트 파일럿의 90%가 프로덕션에 도달하지 못합니다. 가장 큰 장벽은 AI 기술 자체가 아니라 데이터 사일로와 부서 간 협업 부재입니다."
+    },
+    {
+      "heading": "새로운 미들웨어 계층",
+      "body": "에이전트 오케스트레이션은 기업 소프트웨어의 새로운 미들웨어 계층이 되고 있으며, 이 시장을 선점하는 스타트업이 다음 ServiceNow가 될 것입니다."
+    },
+    {
+      "heading": "비용 구조의 변화",
+      "body": "에이전트가 반복 업무를 처리하면서 기업의 운영 비용 구조가 근본적으로 바뀌고 있습니다. 인건비가 AI 인프라 비용으로 전환되는 추세입니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "The demo-to-production gap",
+      "body": "90% of agent pilots never reach production. The biggest barrier isn't AI technology itself — it's data silos and lack of cross-departmental collaboration."
+    },
+    {
+      "heading": "A new middleware layer",
+      "body": "Agent orchestration is becoming the new middleware layer of enterprise software. The startup that owns this layer becomes the next ServiceNow."
+    },
+    {
+      "heading": "Cost structure transformation",
+      "body": "As agents handle repetitive tasks, the fundamental cost structure of enterprises is shifting. Labor costs are converting to AI infrastructure costs."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "에이전트를 배포하는 모든 기업이 본질적으로 소프트웨어 회사가 되고 있습니다 — 단지 그 사실을 아직 모르고 있을 뿐입니다.",
+    "attribution": "마틴 카사도, a16z 제너럴 파트너"
+  },
+  "notable_quote_en": {
+    "text": "Every company deploying agents is essentially becoming a software company — they just don't know it yet.",
+    "attribution": "Martin Casado, a16z General Partner"
+  },
+  "keywords_ko": ["AI 에이전트", "기업용 AI", "a16z", "미들웨어", "자동화"],
+  "keywords_en": ["AI agents", "enterprise AI", "a16z", "middleware", "automation"],
+  "generated_at": "2026-03-20T06:22:00Z"
+}

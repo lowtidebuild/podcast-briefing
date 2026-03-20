@@ -1,0 +1,50 @@
+{
+  "id": "hard-fork-2026-03-18-open-source-ai",
+  "slug": "2026-03-18-hard-fork",
+  "podcast": "Hard Fork",
+  "category": "AI / Tech",
+  "title": "The Open Source AI Licensing War",
+  "published": "2026-03-18T14:00:00Z",
+  "link": "https://www.nytimes.com/hardfork",
+  "summary_ko": "케빈 루스와 케이시 뉴턴이 Meta의 최신 움직임을 분석합니다. Llama 4를 매출 100억 달러 이상 기업의 사용을 금지하는 라이선스로 공개한 것입니다. 이것이 진정한 '오픈소스'인지, 아니면 관대함으로 위장한 전략적 해자인지를 두고 논쟁이 벌어집니다. Open Source Initiative는 이 라이선스가 핵심 정의를 위반한다며 인증을 거부했습니다.",
+  "summary_en": "Kevin Roose and Casey Newton debate Meta's latest move: releasing Llama 4 under a license that prohibits use by companies with >$10B revenue. Is this truly \"open source\" or a strategic moat disguised as generosity? The Open Source Initiative has refused to certify the license, arguing the revenue cap violates the core definition.",
+  "key_points_ko": [
+    {
+      "heading": "OSI 정의 논쟁",
+      "body": "Open Source Initiative는 매출 상한이 핵심 정의를 위반한다며 Llama 4를 오픈소스로 인증하기를 거부했습니다. Meta는 '충분히 오픈'하다고 반박합니다."
+    },
+    {
+      "heading": "전략적 함의",
+      "body": "이 라이선스는 사실상 스타트업(잠재 고객)에게는 AI를 무료로 제공하면서 경쟁사는 차단합니다. 천재적 유통 전략일까, 독약 조항일까?"
+    },
+    {
+      "heading": "개발자 생태계의 반응",
+      "body": "대부분의 개발자들은 실용적으로 반응하고 있습니다 — 라이선스 논쟁에 관계없이 모델이 좋으면 사용한다는 입장입니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "The OSI definition debate",
+      "body": "The Open Source Initiative has refused to certify Llama 4 as open source, arguing the revenue cap violates the core definition. Meta calls it \"open enough.\""
+    },
+    {
+      "heading": "Strategic implications",
+      "body": "The license effectively gives Meta's AI away to startups (potential customers) while blocking competitors. A brilliant distribution strategy or a poison pill?"
+    },
+    {
+      "heading": "Developer ecosystem response",
+      "body": "Most developers are responding pragmatically — if the model is good, they'll use it regardless of the licensing debate."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "오픈소스는 한때 자유를 의미했습니다. 이제는 '당신이 우리를 위협하기 전까지는 무료'라는 뜻이 되었습니다.",
+    "attribution": "케이시 뉴턴"
+  },
+  "notable_quote_en": {
+    "text": "Open source used to mean freedom. Now it means 'free until you threaten us.'",
+    "attribution": "Casey Newton"
+  },
+  "keywords_ko": ["오픈소스", "Meta", "Llama 4", "AI 라이선스", "OSI"],
+  "keywords_en": ["open source", "Meta", "Llama 4", "AI licensing", "OSI"],
+  "generated_at": "2026-03-20T06:18:00Z"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "2026-03-19-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "Why the Bond Market Is Ignoring the Fed",
+    "published": "2026-03-19T10:00:00Z"
+  },
+  {
+    "slug": "2026-03-18-hard-fork",
+    "podcast": "Hard Fork",
+    "category": "AI / Tech",
+    "title": "The Open Source AI Licensing War",
+    "published": "2026-03-18T14:00:00Z"
+  },
+  {
+    "slug": "2026-03-17-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "Why Every Enterprise Will Have an AI Agent Army",
+    "published": "2026-03-17T08:00:00Z"
+  },
+  {
+    "slug": "2026-03-16-fareed-zakaria-gps",
+    "podcast": "Fareed Zakaria GPS",
+    "category": "Geopolitics",
+    "title": "India's Semiconductor Gamble",
+    "published": "2026-03-16T12:00:00Z"
+  },
+  {
+    "slug": "2026-03-15-ezra-klein-show",
+    "podcast": "Ezra Klein Show",
+    "category": "Politics / Policy",
+    "title": "The Housing Crisis Is a Democracy Crisis",
+    "published": "2026-03-15T09:00:00Z"
+  }
+]

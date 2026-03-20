@@ -1,0 +1,38 @@
+---
+interface Props {
+  categories: string[];
+}
+
+const { categories } = Astro.props;
+---
+
+<div class="filter-bar" id="category-filter">
+  <button class="filter-btn active" data-filter="all">All</button>
+  {categories.map((cat) => (
+    <button class="filter-btn" data-filter={cat}>{cat}</button>
+  ))}
+</div>
+
+<script>
+  const filterBar = document.getElementById('category-filter');
+  const buttons = filterBar?.querySelectorAll('.filter-btn');
+  const episodes = document.querySelectorAll('.episode');
+
+  buttons?.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      buttons.forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const filter = btn.getAttribute('data-filter');
+
+      episodes.forEach((ep) => {
+        const article = ep as HTMLElement;
+        if (filter === 'all' || article.dataset.category === filter) {
+          article.style.display = '';
+        } else {
+          article.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>

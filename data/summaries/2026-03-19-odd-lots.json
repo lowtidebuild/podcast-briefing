@@ -1,0 +1,50 @@
+{
+  "id": "odd-lots-2026-03-19-bond-market",
+  "slug": "2026-03-19-odd-lots",
+  "podcast": "Odd Lots",
+  "category": "Macro / Markets",
+  "title": "Why the Bond Market Is Ignoring the Fed",
+  "published": "2026-03-19T10:00:00Z",
+  "link": "https://www.bloomberg.com/oddlots",
+  "summary_ko": "트레이시 앨로웨이와 조 와이젠탈이 연방준비제도의 정책 가이던스와 장기 국채 수익률 사이의 점증하는 괴리를 탐구합니다. 12월 이후 세 차례 금리 인하에도 불구하고 10년물 수익률은 40bp 상승했으며, 이는 채권 시장이 연준이 인지하지 못하는 인플레이션 위험을 감지하고 있음을 시사합니다. 게스트 토르스텐 슬뢰크는 재정 불확실성으로 인해 텀 프리미엄이 영구적으로 재평가되었다고 주장합니다.",
+  "summary_en": "Tracy Alloway and Joe Weisenthal explore the growing disconnect between Federal Reserve guidance and long-term Treasury yields. Despite three rate cuts since December, the 10-year yield has climbed 40 basis points — signaling that the bond market sees inflation risks the Fed doesn't. Guest Torsten Sløk argues the term premium has permanently re-priced due to fiscal uncertainty, making pre-2020 yield models obsolete.",
+  "key_points_ko": [
+    {
+      "heading": "텀 프리미엄의 귀환",
+      "body": "게스트 토르스텐 슬뢰크는 재정 불확실성으로 인해 텀 프리미엄이 영구적으로 재평가되어 2020년 이전의 수익률 모델이 무용화되었다고 주장합니다."
+    },
+    {
+      "heading": "외국인 매수자의 이탈",
+      "body": "일본과 중국이 2025년 중반 이후 미국 국채 보유량을 2,000억 달러 줄여, 국내 매수자가 더 높은 수익률로 더 많은 공급을 소화해야 하는 상황입니다."
+    },
+    {
+      "heading": "연준의 신뢰도 문제",
+      "body": "시장 참여자들은 연준의 인플레이션 전망이 구조적으로 낙관적이라고 판단하며, 이는 금리 인하에도 장기 금리가 상승하는 이유를 설명합니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Term premium is back",
+      "body": "Guest Torsten Sløk argues the term premium has permanently re-priced due to fiscal uncertainty, making pre-2020 yield models obsolete."
+    },
+    {
+      "heading": "Foreign buyers are pulling back",
+      "body": "Japan and China have reduced Treasury holdings by $200B since mid-2025, forcing domestic buyers to absorb more supply at higher yields."
+    },
+    {
+      "heading": "Fed credibility gap",
+      "body": "Market participants view the Fed's inflation forecasts as structurally optimistic, explaining why long-term rates rise even as the Fed cuts."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "채권시장은 고장 난 것이 아닙니다 — 적자가 다시 중요해진 세상을 가격에 반영하고 있는 것입니다.",
+    "attribution": "토르스텐 슬뢰크, 아폴로 수석 이코노미스트"
+  },
+  "notable_quote_en": {
+    "text": "The bond market isn't broken — it's pricing in a world where deficits matter again.",
+    "attribution": "Torsten Sløk, Apollo Chief Economist"
+  },
+  "keywords_ko": ["채권", "연준 정책", "텀 프리미엄", "국채 수익률", "재정 적자"],
+  "keywords_en": ["bonds", "Fed policy", "term premium", "Treasury yields", "fiscal deficit"],
+  "generated_at": "2026-03-20T06:15:00Z"
+}

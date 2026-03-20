@@ -1,0 +1,22 @@
+---
+// Client-side island for KO/EN language toggle
+---
+
+<button class="lang-toggle" id="lang-toggle" aria-label="Toggle language">
+  한국어 ↔ EN
+</button>
+
+<script>
+  const toggle = document.getElementById('lang-toggle');
+  const saved = localStorage.getItem('podcast-briefing-lang');
+
+  if (saved === 'en') {
+    document.body.classList.add('lang-en');
+  }
+
+  toggle?.addEventListener('click', () => {
+    document.body.classList.toggle('lang-en');
+    const isEn = document.body.classList.contains('lang-en');
+    localStorage.setItem('podcast-briefing-lang', isEn ? 'en' : 'ko');
+  });
+</script>

@@ -1,0 +1,96 @@
+---
+import QuoteBlock from './QuoteBlock.astro';
+
+interface KeyPoint {
+  heading: string;
+  body: string;
+}
+
+interface Quote {
+  text: string;
+  attribution: string;
+}
+
+interface Props {
+  podcast: string;
+  category: string;
+  title: string;
+  published: string;
+  summaryKo: string;
+  summaryEn: string;
+  keyPointsKo: KeyPoint[];
+  keyPointsEn: KeyPoint[];
+  quoteKo: Quote;
+  quoteEn: Quote;
+  keywordsKo: string[];
+  keywordsEn: string[];
+}
+
+const {
+  podcast,
+  category,
+  title,
+  published,
+  summaryKo,
+  summaryEn,
+  keyPointsKo,
+  keyPointsEn,
+  quoteKo,
+  quoteEn,
+  keywordsKo,
+  keywordsEn,
+} = Astro.props;
+
+const dateStr = new Date(published).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'short',
+  day: 'numeric',
+});
+---
+
+<article class="episode" data-category={category}>
+  <div class="episode-category">{category}</div>
+  <h2 class="episode-title">{title}</h2>
+  <div class="episode-meta">{podcast} · {dateStr}</div>
+
+  <!-- Summary -->
+  <div class="episode-summary" data-lang="ko">
+    <p>{summaryKo}</p>
+  </div>
+  <div class="episode-summary" data-lang="en">
+    <p>{summaryEn}</p>
+  </div>
+
+  <!-- Key Points -->
+  <div class="key-points" data-lang="ko">
+    {keyPointsKo.map((point) => (
+      <div>
+        <h3>{point.heading}</h3>
+        <p>{point.body}</p>
+      </div>
+    ))}
+  </div>
+  <div class="key-points" data-lang="en">
+    {keyPointsEn.map((point) => (
+      <div>
+        <h3>{point.heading}</h3>
+        <p>{point.body}</p>
+      </div>
+    ))}
+  </div>
+
+  <!-- Quote -->
+  <QuoteBlock quoteKo={quoteKo} quoteEn={quoteEn} />
+
+  <!-- Keywords -->
+  <div class="keywords" data-lang="ko">
+    {keywordsKo.map((kw) => (
+      <span class="keyword-pill">{kw}</span>
+    ))}
+  </div>
+  <div class="keywords" data-lang="en">
+    {keywordsEn.map((kw) => (
+      <span class="keyword-pill">{kw}</span>
+    ))}
+  </div>
+</article>

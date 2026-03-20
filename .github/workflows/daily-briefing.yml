@@ -1,0 +1,68 @@
+name: Daily Podcast Briefing
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Daily at 06:00 UTC (15:00 KST)
+  workflow_dispatch:       # Manual trigger
+
+concurrency:
+  group: briefing
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Python pipeline
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python pipeline/main.py
+
+      # Copy data for Astro build
+      - name: Copy summaries to web
+        run: |
+          mkdir -p web/public/data
+          cp -r data/summaries/ web/public/data/
+
+      # Astro build
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build Astro site
+        run: cd web && npm install && npm run build
+
+      # Commit data changes back to repo
+      - name: Commit data
+        run: |
+          git config user.name "podcast-bot"
+          git config user.email "bot@example.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "briefing: $(date +%Y-%m-%d)"
+          git pull --rebase origin main || (echo "Rebase conflict" && exit 1)
+          git push
+
+      # Deploy to GitHub Pages
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./web/dist
+
+      - uses: actions/deploy-pages@v4
