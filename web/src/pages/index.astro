@@ -96,6 +96,7 @@ const sources = [
   { name: 'Ezra Klein Show', org: 'NYT', category: 'Politics / Policy / Philosophy', freq: '주 1-2회', url: 'https://www.nytimes.com/column/ezra-klein-podcast' },
   { name: 'All-In Podcast', org: '', category: 'Tech × Politics × Economics', freq: '주 1-2회', url: 'https://www.allinpodcast.co' },
   { name: 'Exponential View', org: '', category: 'Tech × Politics × Economics', freq: '주 1회', url: 'https://www.exponentialview.co' },
+  { name: 'Making Sense', org: 'Sam Harris', category: 'Philosophy / AI Ethics', freq: '격주', url: 'https://www.samharris.org/podcasts' },
 ];
 
 function formatDateHeader(dateStr: string): string {
@@ -109,7 +110,7 @@ function formatDateHeader(dateStr: string): string {
     <h1 class="site-title">Podcast Briefing</h1>
     <div class="site-subtitle">AI-curated intelligence from 9 sources</div>
     <details class="sources-disclosure">
-      <summary>9 Sources ▾</summary>
+      <summary>10 Sources ▾</summary>
       <ul class="sources-list">
         {sources.map(s => (
           <li>

@@ -61,3 +61,10 @@ podcasts:
     rss: "https://feeds.simplecast.com/e_GRxR9a"
     frequency: "weekly"
     transcript_source: "whisper"
+
+  - name: "Making Sense"
+    display_category: "Philosophy / AI Ethics"
+    homepage: "https://www.samharris.org/podcasts"
+    rss: "https://wakingup.libsyn.com/rss"
+    frequency: "biweekly"
+    transcript_source: "whisper"
