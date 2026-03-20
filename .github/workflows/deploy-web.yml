@@ -1,0 +1,33 @@
+name: Deploy Web App
+
+on:
+  push:
+    paths:
+      - 'web/**'
+      - 'data/summaries/**'
+  workflow_dispatch:
+
+permissions:
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Build Astro site
+        run: cd web && npm install && npm run build
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./web/dist
+
+      - uses: actions/deploy-pages@v4
