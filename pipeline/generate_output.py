@@ -49,6 +49,8 @@ def generate_episode_json(episode, summary):
         "title": episode["title"],
         "published": episode["published"],
         "link": episode.get("link", ""),
+        "podcast_url": episode.get("podcast_url", ""),
+        "guest": summary.get("guest", None),
         "summary_ko": summary.get("summary_ko", ""),
         "summary_en": summary.get("summary_en", ""),
         "key_points_ko": summary.get("key_points_ko", []),

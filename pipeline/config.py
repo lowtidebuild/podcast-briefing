@@ -9,6 +9,7 @@ CONFIG_PATH = REPO_ROOT / "config" / "feeds.yaml"
 STATE_PATH = REPO_ROOT / "data" / "state.json"
 SUMMARIES_DIR = REPO_ROOT / "data" / "summaries"
 AUDIO_DIR = REPO_ROOT / "data" / "audio"
+TRANSCRIPTS_DIR = REPO_ROOT / "data" / "transcripts"
 
 # API settings
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")

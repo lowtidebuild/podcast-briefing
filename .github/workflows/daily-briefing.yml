@@ -2,7 +2,7 @@ name: Daily Podcast Briefing
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Daily at 06:00 UTC (15:00 KST)
+    - cron: '0 6 * * 1,3,5'  # Mon/Wed/Fri at 06:00 UTC (15:00 KST)
   workflow_dispatch:       # Manual trigger
 
 concurrency:
@@ -59,7 +59,7 @@ jobs:
         run: |
           git config user.name "podcast-bot"
           git config user.email "bot@example.com"
-          git add data/
+          git add data/ || true
           git diff --cached --quiet || git commit -m "briefing: $(date +%Y-%m-%d)"
           git pull --rebase origin main || (echo "Rebase conflict" && exit 1)
           git push

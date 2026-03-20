@@ -117,6 +117,7 @@ def fetch_new_episodes(feeds, state):
                     "id": episode_id,
                     "podcast": pod["name"],
                     "category": pod["display_category"],
+                    "podcast_url": pod.get("homepage", ""),
                     "title": entry.get("title", "Untitled"),
                     "published": pub_dt.isoformat(),
                     "audio_url": audio_url,

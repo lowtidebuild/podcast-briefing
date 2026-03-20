@@ -15,7 +15,8 @@ from fetch_feeds import load_feeds, load_state, save_state, fetch_new_episodes
 from download_audio import download_audio, cleanup_audio
 from transcribe import get_transcript
 from summarize import summarize_episode
-from generate_output import generate_episode_json, rebuild_feed_index
+from generate_output import generate_episode_json, rebuild_feed_index, make_slug
+from config import TRANSCRIPTS_DIR
 
 
 def main():
@@ -45,12 +46,19 @@ def main():
             print("  [2/4] Transcribing...")
             transcript = get_transcript(ep, audio_path)
 
-            # Step 3: Summarize (bilingual)
-            print("  [3/4] Generating bilingual summary...")
+            # Step 3: Save transcript
+            print("  [3/5] Saving transcript...")
+            slug = make_slug(ep)
+            TRANSCRIPTS_DIR.mkdir(parents=True, exist_ok=True)
+            with open(TRANSCRIPTS_DIR / f"{slug}.txt", "w", encoding="utf-8") as f:
+                f.write(transcript["text"])
+
+            # Step 4: Summarize (bilingual)
+            print("  [4/5] Generating bilingual summary...")
             summary = summarize_episode(ep, transcript["text"])
 
-            # Step 4: Write output
-            print("  [4/4] Writing output...")
+            # Step 5: Write output
+            print("  [5/5] Writing output...")
             output_path = generate_episode_json(ep, summary)
             print(f"  Output: {output_path}")
 

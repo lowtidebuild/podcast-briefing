@@ -21,36 +21,50 @@ Published: {published}
 
 Generate a structured bilingual summary. Korean should use formal register (했습니다/합니다 체). English should be concise and analytical.
 
-Output STRICTLY as a valid JSON object with this exact structure (no markdown, no code fences, just JSON):
+CRITICAL Korean text rules:
+- Person names: ALWAYS keep in English (e.g., "Torsten Sløk", NOT "토르스텐 슬뢰크")
+- Company/organization names: ALWAYS keep in English (e.g., "Apollo", "Federal Reserve", NOT "아폴로", "연방준비제도")
+- Technical terms with no standard Korean translation: keep in English
+- attribution fields: ALWAYS in English for both languages
+
+Output STRICTLY as a valid JSON object (no markdown, no code fences, just JSON):
 
 {{
-  "summary_ko": "3-5 sentences summarizing the core arguments in Korean",
-  "summary_en": "3-5 sentences summarizing the core arguments in English",
+  "guest": {{
+    "name": "Guest full name in English (or null if no guest / hosts-only episode)",
+    "title": "One-line role/affiliation in English (e.g., 'Chief Economist, Apollo Global Management')"
+  }},
+  "summary_ko": "5-8 sentences summarizing the core arguments in Korean (~300 words)",
+  "summary_en": "5-8 sentences summarizing the core arguments in English (~250 words)",
   "key_points_ko": [
-    {{"heading": "Korean subheading", "body": "2-3 sentence explanation in Korean"}},
-    {{"heading": "Korean subheading", "body": "2-3 sentence explanation in Korean"}}
+    {{"heading": "Korean subheading", "body": "3-4 sentence explanation in Korean"}},
+    {{"heading": "Korean subheading", "body": "3-4 sentence explanation in Korean"}},
+    {{"heading": "Korean subheading", "body": "3-4 sentence explanation in Korean"}}
   ],
   "key_points_en": [
-    {{"heading": "English subheading", "body": "2-3 sentence explanation in English"}},
-    {{"heading": "English subheading", "body": "2-3 sentence explanation in English"}}
+    {{"heading": "English subheading", "body": "3-4 sentence explanation in English"}},
+    {{"heading": "English subheading", "body": "3-4 sentence explanation in English"}},
+    {{"heading": "English subheading", "body": "3-4 sentence explanation in English"}}
   ],
   "notable_quote_ko": {{
-    "text": "Translated notable quote in Korean",
-    "attribution": "Speaker name in Korean"
+    "text": "Notable quote translated to Korean (keep names in English)",
+    "attribution": "Speaker Name, Role (always English)"
   }},
   "notable_quote_en": {{
     "text": "Original notable quote in English",
-    "attribution": "Speaker name"
+    "attribution": "Speaker Name, Role"
   }},
-  "keywords_ko": ["keyword1", "keyword2", "keyword3"],
-  "keywords_en": ["keyword1", "keyword2", "keyword3"]
+  "keywords_ko": ["keyword1", "keyword2", "keyword3", "keyword4"],
+  "keywords_en": ["keyword1", "keyword2", "keyword3", "keyword4"]
 }}
 
 Requirements:
-- 2-4 key points per language
-- 3-5 keywords per language
+- guest: extract the primary guest. Set to null if hosts-only (no guest)
+- 3-5 key points per language
+- 4-6 keywords per language
 - Pick the single most impactful quote from the episode
-- Korean summaries should be ~150 words, English ~120 words
+- Korean summaries: ~300 words, English: ~250 words
+- Each key point body: 3-4 sentences with specific details
 - Output ONLY the JSON object, nothing else"""
 
 
@@ -69,7 +83,7 @@ def summarize_episode(episode, transcript_text):
 
     response = client.messages.create(
         model=CLAUDE_MODEL,
-        max_tokens=4000,
+        max_tokens=6000,
         messages=[{
             "role": "user",
             "content": SUMMARY_PROMPT.format(
@@ -97,8 +111,8 @@ def _parse_summary(text):
         return json.loads(text)
     except json.JSONDecodeError as e:
         print(f"    Warning: Failed to parse summary JSON: {e}")
-        # Fallback: return raw text as summary
         return {
+            "guest": None,
             "summary_ko": text[:500],
             "summary_en": "",
             "key_points_ko": [],

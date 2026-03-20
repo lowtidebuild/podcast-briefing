@@ -5,13 +5,19 @@ import LangToggle from '../components/LangToggle.astro';
 import CategoryFilter from '../components/CategoryFilter.astro';
 import '../styles/editorial.css';
 
-// Load all episode JSON files at build time (path relative to repo root via Vite alias)
-import { readFileSync, readdirSync } from 'node:fs';
+// Load all episode JSON files at build time
+import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 
 const dataDir = join(process.cwd(), '..', 'data', 'summaries');
+const transcriptDir = join(process.cwd(), '..', 'data', 'transcripts');
 const files = readdirSync(dataDir).filter(f => f.endsWith('.json') && f !== 'feed.json');
 const episodeFiles = files.map(f => JSON.parse(readFileSync(join(dataDir, f), 'utf-8')));
+
+interface Guest {
+  name: string;
+  title: string;
+}
 
 interface Episode {
   slug: string;
@@ -19,6 +25,9 @@ interface Episode {
   category: string;
   title: string;
   published: string;
+  link: string;
+  podcast_url?: string;
+  guest?: Guest | null;
   summary_ko: string;
   summary_en: string;
   key_points_ko: { heading: string; body: string }[];
@@ -35,6 +44,23 @@ const episodes: Episode[] = episodeFiles
   .sort((a: any, b: any) => new Date(b.published).getTime() - new Date(a.published).getTime())
   .slice(0, 50);
 
+// Group episodes by date
+const grouped = new Map<string, Episode[]>();
+episodes.forEach(ep => {
+  const date = ep.published.slice(0, 10);
+  if (!grouped.has(date)) grouped.set(date, []);
+  grouped.get(date)!.push(ep);
+});
+
+// Load transcript availability map
+const transcriptMap = new Map<string, string>();
+if (existsSync(transcriptDir)) {
+  readdirSync(transcriptDir).filter(f => f.endsWith('.txt')).forEach(f => {
+    const slug = f.replace('.txt', '');
+    transcriptMap.set(slug, readFileSync(join(transcriptDir, f), 'utf-8'));
+  });
+}
+
 // Extract unique categories for filter
 const categories = [...new Set(episodes.map((ep) => ep.category))];
 
@@ -46,14 +72,42 @@ const today = new Date().toLocaleDateString('en-US', {
   day: 'numeric',
 });
 
-// Latest episode for OG description
 const latestTitle = episodes[0]?.title || 'AI-curated podcast intelligence';
+
+// Sources data for disclosure
+const sources = [
+  { name: 'Odd Lots', org: 'Bloomberg', category: 'Macro / Markets', freq: '주 2-3회', url: 'https://www.bloomberg.com/oddlots' },
+  { name: 'Dwarkesh Podcast', org: '', category: 'AI / Tech Deep Dive', freq: '격주', url: 'https://www.dwarkeshpatel.com' },
+  { name: 'Lex Fridman Podcast', org: '', category: 'AI / Tech Deep Dive', freq: '격주', url: 'https://lexfridman.com/podcast' },
+  { name: 'Fareed Zakaria GPS', org: 'CNN', category: 'Geopolitics / Foreign Affairs', freq: '주 1회', url: 'https://www.cnn.com/shows/fareed-zakaria-gps' },
+  { name: 'Hard Fork', org: 'NYT', category: 'Tech / AI Current Affairs', freq: '주 1회', url: 'https://www.nytimes.com/column/hard-fork' },
+  { name: 'a16z Podcast', org: '', category: 'Tech / AI Current Affairs', freq: '주 2-3회', url: 'https://a16z.com/podcasts' },
+  { name: 'Ezra Klein Show', org: 'NYT', category: 'Politics / Policy / Philosophy', freq: '주 1-2회', url: 'https://www.nytimes.com/column/ezra-klein-podcast' },
+  { name: 'All-In Podcast', org: '', category: 'Tech × Politics × Economics', freq: '주 1-2회', url: 'https://www.allinpodcast.co' },
+  { name: 'Exponential View', org: '', category: 'Tech × Politics × Economics', freq: '주 1회', url: 'https://www.exponentialview.co' },
+];
+
+function formatDateHeader(dateStr: string): string {
+  const d = new Date(dateStr + 'T00:00:00Z');
+  return d.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+}
 ---
 
 <BaseLayout title="Podcast Briefing" description={`Latest: ${latestTitle} — AI-curated bilingual intelligence from 9 podcast sources`}>
   <header class="site-header">
     <h1 class="site-title">Podcast Briefing</h1>
     <div class="site-subtitle">AI-curated intelligence from 9 sources</div>
+    <details class="sources-disclosure">
+      <summary>9 Sources ▾</summary>
+      <ul class="sources-list">
+        {sources.map(s => (
+          <li>
+            <a href={s.url} target="_blank" rel="noopener">{s.name}{s.org ? ` (${s.org})` : ''}</a>
+            <span class="source-meta">{s.category} · {s.freq}</span>
+          </li>
+        ))}
+      </ul>
+    </details>
     <div class="header-nav">
       <span>{today}</span>
       <LangToggle />
@@ -63,26 +117,35 @@ const latestTitle = episodes[0]?.title || 'AI-curated podcast intelligence';
   <CategoryFilter categories={categories} />
 
   <main>
-    {episodes.map((ep) => (
-      <EpisodeCard
-        podcast={ep.podcast}
-        category={ep.category}
-        title={ep.title}
-        published={ep.published}
-        summaryKo={ep.summary_ko}
-        summaryEn={ep.summary_en}
-        keyPointsKo={ep.key_points_ko}
-        keyPointsEn={ep.key_points_en}
-        quoteKo={ep.notable_quote_ko}
-        quoteEn={ep.notable_quote_en}
-        keywordsKo={ep.keywords_ko}
-        keywordsEn={ep.keywords_en}
-      />
+    {[...grouped.entries()].map(([date, eps], i) => (
+      <div>
+        <h2 class={`date-header ${i === 0 ? 'first' : ''}`}>{formatDateHeader(date)}</h2>
+        {eps.map((ep) => (
+          <EpisodeCard
+            podcast={ep.podcast}
+            category={ep.category}
+            title={ep.title}
+            published={ep.published}
+            link={ep.link || ''}
+            podcastUrl={ep.podcast_url || ''}
+            guest={ep.guest || null}
+            summaryKo={ep.summary_ko}
+            summaryEn={ep.summary_en}
+            keyPointsKo={ep.key_points_ko}
+            keyPointsEn={ep.key_points_en}
+            quoteKo={ep.notable_quote_ko}
+            quoteEn={ep.notable_quote_en}
+            keywordsKo={ep.keywords_ko}
+            keywordsEn={ep.keywords_en}
+            transcript={transcriptMap.get(ep.slug) || ''}
+          />
+        ))}
+      </div>
     ))}
   </main>
 
   <footer class="site-footer">
-    Auto-generated by Podcast Briefing Pipeline · Updated daily at 15:00 KST<br />
+    Auto-generated by Podcast Briefing Pipeline · Updated Mon/Wed/Fri at 15:00 KST<br />
     9 sources · AI-curated · KO/EN bilingual
   </footer>
 </BaseLayout>

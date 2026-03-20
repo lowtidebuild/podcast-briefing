@@ -11,11 +11,19 @@ interface Quote {
   attribution: string;
 }
 
+interface Guest {
+  name: string;
+  title: string;
+}
+
 interface Props {
   podcast: string;
   category: string;
   title: string;
   published: string;
+  link: string;
+  podcastUrl: string;
+  guest: Guest | null;
   summaryKo: string;
   summaryEn: string;
   keyPointsKo: KeyPoint[];
@@ -24,6 +32,7 @@ interface Props {
   quoteEn: Quote;
   keywordsKo: string[];
   keywordsEn: string[];
+  transcript: string;
 }
 
 const {
@@ -31,6 +40,9 @@ const {
   category,
   title,
   published,
+  link,
+  podcastUrl,
+  guest,
   summaryKo,
   summaryEn,
   keyPointsKo,
@@ -39,6 +51,7 @@ const {
   quoteEn,
   keywordsKo,
   keywordsEn,
+  transcript,
 } = Astro.props;
 
 const dateStr = new Date(published).toLocaleDateString('en-US', {
@@ -46,12 +59,46 @@ const dateStr = new Date(published).toLocaleDateString('en-US', {
   month: 'short',
   day: 'numeric',
 });
+
+const hasTranscript = transcript.length > 0;
+const episodeId = `ep-${published.slice(0, 10)}-${podcast.toLowerCase().replace(/\s+/g, '-').slice(0, 20)}`;
+
+// Build Obsidian markdown for download
+const obsidianMd = hasTranscript ? `---
+podcast: "${podcast}"
+title: "${title}"
+date: ${published.slice(0, 10)}
+category: "${category}"
+${guest ? `guest: "${guest.name}"` : ''}
+---
+
+# ${title}
+> **${podcast}** | ${category} | ${published.slice(0, 10)}
+${guest ? `> with ${guest.name} — ${guest.title}` : ''}
+
+## Transcript
+
+${transcript}
+` : '';
 ---
 
 <article class="episode" data-category={category}>
   <div class="episode-category">{category}</div>
   <h2 class="episode-title">{title}</h2>
-  <div class="episode-meta">{podcast} · {dateStr}</div>
+  <div class="episode-meta">
+    {podcastUrl ? (
+      <a href={podcastUrl} target="_blank" rel="noopener" class="podcast-link">{podcast}</a>
+    ) : (
+      <span>{podcast}</span>
+    )}
+    <span> · {dateStr}</span>
+  </div>
+
+  {guest && (
+    <div class="episode-guest">
+      with <strong>{guest.name}</strong> — <em>{guest.title}</em>
+    </div>
+  )}
 
   <!-- Summary -->
   <div class="episode-summary" data-lang="ko">
@@ -93,4 +140,55 @@ const dateStr = new Date(published).toLocaleDateString('en-US', {
       <span class="keyword-pill">{kw}</span>
     ))}
   </div>
+
+  <!-- Action Bar -->
+  <div class="action-bar">
+    {link && (
+      <a href={link} target="_blank" rel="noopener" class="action-item">Listen to episode →</a>
+    )}
+    {hasTranscript && (
+      <>
+        <span class="separator">·</span>
+        <button class="action-item action-btn" data-copy-id={episodeId}>Copy transcript</button>
+        <span class="separator">·</span>
+        <button class="action-item action-btn" data-download-id={episodeId}>Download .md</button>
+      </>
+    )}
+  </div>
+
+  {hasTranscript && (
+    <script type="application/json" id={`transcript-${episodeId}`} set:html={JSON.stringify({ text: transcript, md: obsidianMd, title: `${published.slice(0, 10)}-${podcast.toLowerCase().replace(/\s+/g, '-')}.md` })} />
+  )}
 </article>
+
+<script>
+  document.querySelectorAll('[data-copy-id]').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const id = (btn as HTMLElement).dataset.copyId;
+      const dataEl = document.getElementById(`transcript-${id}`);
+      if (!dataEl) return;
+      const { text } = JSON.parse(dataEl.textContent || '{}');
+      try {
+        await navigator.clipboard.writeText(text);
+        const original = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(() => { btn.textContent = original; }, 2000);
+      } catch {}
+    });
+  });
+
+  document.querySelectorAll('[data-download-id]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const id = (btn as HTMLElement).dataset.downloadId;
+      const dataEl = document.getElementById(`transcript-${id}`);
+      if (!dataEl) return;
+      const { md, title } = JSON.parse(dataEl.textContent || '{}');
+      const blob = new Blob([md], { type: 'text/markdown' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = title;
+      a.click();
+      URL.revokeObjectURL(a.href);
+    });
+  });
+</script>
