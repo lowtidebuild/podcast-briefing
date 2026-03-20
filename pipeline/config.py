@@ -16,6 +16,8 @@ ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
 # Model choice — switch between sonnet and haiku
 CLAUDE_MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-5-20250514")
+# Fallback models if the above is unavailable:
+# "claude-sonnet-4-5-20250514", "claude-haiku-4-5-20251001"
 
 # Whisper settings
 WHISPER_MODEL = "whisper-1"
