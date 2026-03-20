@@ -23,3 +23,7 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Design docs
+podcast-briefing-pipeline-design.md
+.gstack/
