@@ -17,6 +17,7 @@ from transcribe import get_transcript
 from summarize import summarize_episode
 from generate_output import generate_episode_json, rebuild_feed_index, make_slug
 from config import TRANSCRIPTS_DIR
+from sheets import append_episode
 
 
 def main():
@@ -58,9 +59,13 @@ def main():
             summary = summarize_episode(ep, transcript["text"])
 
             # Step 5: Write output
-            print("  [5/5] Writing output...")
+            print("  [5/6] Writing output...")
             output_path = generate_episode_json(ep, summary)
             print(f"  Output: {output_path}")
+
+            # Step 6: Google Sheets
+            print("  [6/6] Updating Google Sheet...")
+            append_episode(ep, summary, slug)
 
             # Mark as processed
             state["processed"].append(ep["id"])
