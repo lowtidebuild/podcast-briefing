@@ -5,7 +5,7 @@ Automated bilingual (KO/EN) podcast summarization pipeline + premium editorial w
 ## Architecture
 
 - **Web app**: Astro static site in `web/` — editorial layout (Georgia serif, 720px column, #fafaf8 bg, #b44 accents)
-- **Pipeline**: Python scripts in `pipeline/` — RSS → Whisper → Claude Sonnet → JSON
+- **Pipeline**: Python scripts in `pipeline/` — RSS → OpenAI STT (gpt-4o-mini-transcribe) → Claude Sonnet → JSON
 - **Data**: Episode summaries as JSON in `data/summaries/`
 - **Config**: Podcast feeds in `config/feeds.yaml`
 - **CI/CD**: GitHub Actions daily cron → pipeline → Astro build → GitHub Pages

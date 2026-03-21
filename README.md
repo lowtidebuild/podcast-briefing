@@ -42,7 +42,7 @@ The reading experience is designed to feel like **The Economist meets Stratecher
 RSS Feeds ──→ New Episode Detection ──→ Audio Download
                                             │
                                             ▼
-                                    Whisper API (STT)
+                                    OpenAI STT (gpt-4o-mini-transcribe)
                                             │
                                             ▼
                                    Claude Sonnet (LLM)
@@ -61,7 +61,7 @@ RSS Feeds ──→ New Episode Detection ──→ Audio Download
 The pipeline runs **Mon/Thu at 06:00 UTC** via GitHub Actions:
 
 1. **Detect** — parse 10 RSS feeds, identify new episodes since last run
-2. **Transcribe** — download audio, preprocess with ffmpeg, transcribe via Whisper API
+2. **Transcribe** — download audio, preprocess with ffmpeg, transcribe via OpenAI Speech-to-Text
 3. **Analyze** — Claude generates Economist-style bilingual briefings with claim-based key points, notable quotes, and automatic guest identification
 4. **Publish** — JSON to repo, row to Google Sheets, Astro rebuild, GitHub Pages deploy
 
@@ -69,10 +69,10 @@ The pipeline runs **Mon/Thu at 06:00 UTC** via GitHub Actions:
 
 ```
 podcast-briefing/
-├── pipeline/              # Python: RSS → Whisper → Claude → JSON
+├── pipeline/              # Python: RSS → OpenAI STT → Claude → JSON
 │   ├── fetch_feeds.py     # RSS parsing + new episode detection
 │   ├── download_audio.py  # Audio download + ffmpeg mono 16kHz conversion
-│   ├── transcribe.py      # Whisper API with chunking + Substack text fallback
+│   ├── transcribe.py      # OpenAI STT (gpt-4o-mini-transcribe) + Substack fallback
 │   ├── summarize.py       # Claude Economist-style analytical briefing prompt
 │   ├── generate_output.py # Structured JSON + feed index generation
 │   ├── sheets.py          # Google Sheets dashboard integration
@@ -139,7 +139,7 @@ python pipeline/main.py
 
 <div align="center">
 
-Built with [Astro](https://astro.build) · [Claude](https://anthropic.com) · [Whisper](https://openai.com)
+Built with [Astro](https://astro.build) · [Claude](https://anthropic.com) · [OpenAI STT](https://openai.com)
 
 Designed in the spirit of The Economist
 
