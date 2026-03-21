@@ -61,9 +61,8 @@ def append_episode(episode, summary, slug):
             f"/blob/main/data/transcripts/{slug}.txt"
         )
 
-        # Korean summary preview (first 200 chars)
+        # Full Korean summary
         summary_ko = summary.get("summary_ko", "")
-        summary_preview = summary_ko[:200] + ("..." if len(summary_ko) > 200 else "")
 
         sheet.append_row([
             episode["published"][:10],       # Date
@@ -75,7 +74,7 @@ def append_episode(episode, summary, slug):
             "",                              # ✔읽음 (user-editable)
             episode.get("link", ""),         # Episode Link
             transcript_url,                  # Transcript
-            summary_preview,                 # 한글요약
+            summary_ko,                      # 한글요약 (전문)
             "",                              # Notes (user-editable)
         ])
         print("    Added to Google Sheet")
