@@ -19,7 +19,7 @@ ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 CLAUDE_MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-6")
 
 # Whisper settings
-WHISPER_MODEL = "whisper-1"
+WHISPER_MODEL = "gpt-4o-mini-transcribe"
 MAX_AUDIO_SIZE_MB = 25
 
 # Feed limits
