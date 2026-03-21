@@ -15,10 +15,8 @@ TRANSCRIPTS_DIR = REPO_ROOT / "data" / "transcripts"
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
-# Model choice — switch between sonnet and haiku
-CLAUDE_MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-5-20250514")
-# Fallback models if the above is unavailable:
-# "claude-sonnet-4-5-20250514", "claude-haiku-4-5-20251001"
+# Model choice — use CLAUDE_MODEL env var to override
+CLAUDE_MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-6")
 
 # Whisper settings
 WHISPER_MODEL = "whisper-1"
