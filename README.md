@@ -38,24 +38,37 @@ The reading experience is designed to feel like **The Economist meets Stratecher
 
 ## How It Works
 
-```
-RSS Feeds ──→ New Episode Detection ──→ Audio Download
-                                            │
-                                            ▼
-                                    OpenAI STT (gpt-4o-mini-transcribe)
-                                            │
-                                            ▼
-                                   Claude Sonnet (LLM)
-                                     │            │
-                                     ▼            ▼
-                              Korean Brief   English Brief
-                                     │            │
-                                     ▼            ▼
-                    ┌─────────────────────────────────────┐
-                    │  Astro Static Site (GitHub Pages)    │
-                    │  Google Sheets Dashboard             │
-                    │  Transcript Archive (GitHub Repo)    │
-                    └─────────────────────────────────────┘
+```mermaid
+flowchart TD
+    subgraph INGEST["🎙️ Ingest"]
+        A[/"10 Podcast RSS Feeds"/] --> B{"New episodes\nsince last run?"}
+        B -->|Yes| C["Audio Download\n+ ffmpeg mono 16kHz"]
+        B -->|No| Z["Skip — nothing new"]
+    end
+
+    subgraph PROCESS["⚙️ Process"]
+        C --> D["OpenAI STT\ngpt-4o-mini-transcribe"]
+        D --> E[/"Full Transcript Text"/]
+        E --> F["Claude Sonnet\nEconomist-style analysis"]
+    end
+
+    subgraph OUTPUT["🌐 Output"]
+        F --> G["Korean Briefing\n한국어 분석 브리핑"]
+        F --> H["English Briefing\nAnalytical summary"]
+        G & H --> I[("Structured JSON\nper episode")]
+        I --> J["📄 GitHub Pages\nAstro editorial site"]
+        I --> K["📊 Google Sheets\nPersonal dashboard"]
+        E --> L["📝 Transcript Archive\nGitHub repo"]
+    end
+
+    subgraph SCHEDULE["⏰ Schedule"]
+        S["GitHub Actions\nMon/Thu 06:00 UTC"] -.->|triggers| A
+    end
+
+    style INGEST fill:#f9f9f7,stroke:#b44,stroke-width:2px
+    style PROCESS fill:#f9f9f7,stroke:#1a1a1a,stroke-width:2px
+    style OUTPUT fill:#f9f9f7,stroke:#2a7d4f,stroke-width:2px
+    style SCHEDULE fill:#f9f9f7,stroke:#888,stroke-width:1px,stroke-dasharray: 5 5
 ```
 
 The pipeline runs **Mon/Thu at 06:00 UTC** via GitHub Actions:
