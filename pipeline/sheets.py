@@ -9,7 +9,7 @@ from google.oauth2.service_account import Credentials
 HEADER_ROW = [
     "Date", "Podcast", "Title", "Guest", "Category",
     "⭐", "✔읽음", "Episode Link", "Transcript",
-    "한글요약", "Notes",
+    "Summary (EN)", "한글요약", "Notes",
 ]
 
 REPO_OWNER = "lowtidebuild"
@@ -61,7 +61,8 @@ def append_episode(episode, summary, slug):
             f"/blob/main/data/transcripts/{slug}.txt"
         )
 
-        # Full Korean summary
+        # Full summaries
+        summary_en = summary.get("summary_en", "")
         summary_ko = summary.get("summary_ko", "")
 
         sheet.append_row([
@@ -74,6 +75,7 @@ def append_episode(episode, summary, slug):
             "",                              # ✔읽음 (user-editable)
             episode.get("link", ""),         # Episode Link
             transcript_url,                  # Transcript
+            summary_en,                      # Summary (EN) (전문)
             summary_ko,                      # 한글요약 (전문)
             "",                              # Notes (user-editable)
         ])
