@@ -32,6 +32,16 @@ WRITING STYLE:
 - Analytical, not descriptive — don't summarize what was said, analyze what it means
 - Specific over vague — use concrete numbers, names, examples from the episode
 - Opinionated where warranted — if the guest's argument has a flaw, note it
+- Every sentence must carry information — zero filler, zero throat-clearing
+
+BANNED PHRASES (never use these — they waste the reader's time):
+- "이 에피소드가 중요한 이유는 단순합니다" / "The reason this episode matters is simple"
+- "한 마디로 요약하자면" / "In a nutshell"
+- "흥미로운 점은" / "What's interesting is"
+- "주목할 만한 것은" / "What's noteworthy is"
+- "결론적으로" / "In conclusion"
+- Any sentence that announces what you're about to say instead of just saying it
+- Any generic transition that could appear in any briefing about any topic
 
 KOREAN TEXT RULES (CRITICAL):
 - Person names: ALWAYS keep in English (e.g., "Torsten Sløk", NOT "토르스텐 슬뢰크")
