@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import LangToggle from '../components/LangToggle.astro';
 import CategoryFilter from '../components/CategoryFilter.astro';
 import '../styles/editorial.css';
 
@@ -61,10 +60,6 @@ function formatShortDate(dateStr: string): string {
     </div>
     <h1 class="site-title">Archive</h1>
     <div class="site-subtitle">{episodes.length} briefings from {[...grouped.keys()].length} weeks</div>
-    <div class="header-nav">
-      <span></span>
-      <LangToggle />
-    </div>
   </header>
 
   <CategoryFilter categories={categories} />
