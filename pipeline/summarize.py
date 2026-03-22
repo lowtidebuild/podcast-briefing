@@ -56,8 +56,8 @@ Output STRICTLY as a valid JSON object (no markdown, no code fences):
     "name": "Guest full name in English (null if hosts-only)",
     "title": "Role, Organization (e.g., 'Chief Economist, Apollo Global Management')"
   }},
-  "summary_ko": "KOREAN: Scale length to transcript size. Short transcript (<5000 words): 200-300 words. Medium (5000-15000): 350-450 words. Long (>15000): 450-600 words. Open with why this matters (So what?). Then: core thesis, key evidence, practical implications. Write as if briefing a CEO.",
-  "summary_en": "ENGLISH: Scale length to transcript size. Short (<5000 words): 150-250 words. Medium (5000-15000): 300-400 words. Long (>15000): 400-500 words. Same structure: So what → thesis → evidence → implications. Economist tone.",
+  "summary_ko": "KOREAN: Scale length to transcript size. Short (<5000 words): 200-300 words. Medium (5000-15000): 350-450 words. Long (>15000): 450-600 words. IMPORTANT: Use \\n\\n to separate into 2-4 paragraphs by meaning (e.g., context → thesis → evidence → implications). Never write one giant block. Open with why this matters (So what?).",
+  "summary_en": "ENGLISH: Scale length to transcript size. Short (<5000 words): 150-250 words. Medium (5000-15000): 300-400 words. Long (>15000): 400-500 words. IMPORTANT: Use \\n\\n to separate into 2-4 paragraphs by meaning. Same structure: So what → thesis → evidence → implications. Economist tone.",
   "key_points_ko": [
     {{"heading": "Concise Korean subheading (the claim, not the topic)", "body": "KOREAN: 4-5 sentences. Claim → evidence → implication. Use concrete numbers and names."}}
   ],
