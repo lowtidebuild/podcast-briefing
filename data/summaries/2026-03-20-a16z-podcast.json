@@ -1,0 +1,85 @@
+{
+  "id": "5f117324-ba75-4af2-b75f-a419a177b639",
+  "slug": "2026-03-20-a16z-podcast",
+  "podcast": "a16z Podcast",
+  "category": "VC / Business",
+  "title": "Inside Palantir: Building Software That Matters with Shyam Sankar",
+  "published": "2026-03-20T10:00:00+00:00",
+  "link": "https://a16z.simplecast.com/episodes/inside-palantir-building-software-that-matters-with-shyam-sankar-mSRYC1eQ",
+  "podcast_url": "https://a16z.com/podcasts",
+  "guest": {
+    "name": "Shyam Sankar",
+    "title": "Chief Technology Officer, Palantir Technologies"
+  },
+  "summary_ko": "America의 방위 산업 위기는 기술이나 예산의 문제가 아니라 의지와 인재의 문제입니다. Palantir의 CTO Shyam Sankar는 이 에피소드에서 미국이 스스로 자초한 전략적 쇠퇴를 진단하고, 그 처방을 제시합니다. 1989년에는 주요 무기 체계 지출의 단 6%만이 전문 방위 기업에 돌아갔지만, 오늘날 그 수치는 86%에 달합니다. 이 수치는 단순한 산업 집중 현상이 아니라 Chrysler가 Minuteman 미사일을 만들고, 모든 시리얼 박스 하나하나가 국가 안보를 보조하던 시대의 종말을 의미합니다. 1990년대 냉전 종식 이후 단행된 방위 산업 통폐합은 '이단아(heretics)'들을 Silicon Valley로 몰아냈고, Pentagon은 혁신의 문을 닫아버렸습니다.\n\nSankar의 핵심 주장은 미국의 최대 위협이 중국의 공격이 아니라 미국 자신의 의지 상실이라는 것입니다. 그는 이를 '자살 대 타살(suicide vs. homicide)'의 프레임으로 정의합니다. FDR이 1930년대 후반 Lend-Lease를 통해 여론의 지지 없이도 선제적으로 산업 동원을 시작했듯, 오늘날도 국가적 의지가 먼저 형성되어야 한다는 것입니다. 그가 책 『Mobilize』를 저술하고, 미 육군에 임관하며, 영화 제작사를 설립한 것은 모두 이 단일한 진단에서 비롯된 행동입니다. Bob McGrew(전 OpenAI 최고연구책임자), Boz(META CTO), Andrew Wheel(전 OpenAI 최고제품책임자)과 함께 민간 전문가로 육군에 합류한 것은 이스라엘이 2023년 10월 7일 이후 예비군 동원을 통해 보여준 '민군 융합'의 미국판 실험입니다.\n\nAI와 SaaS 산업에 대한 그의 분석도 날카롭습니다. 그는 소프트웨어를 '베타(beta)'와 '알파(alpha)'로 구분합니다. 베타 소프트웨어란 모든 기업을 더 비슷하게 만드는 것이고, 알파 소프트웨어란 경쟁 우위를 표현하게 해주는 것입니다. AI 시대에 베타 SaaS는 압박을 받겠지만, 알파에 집중한 플랫폼은 오히려 순풍을 받을 것입니다. 가치는 칩 레이어와 AI 인프라 레이어(온톨로지)에 집중될 것이며, 모델 자체는 상품화 압력을 피하기 어렵다고 봅니다.\n\n가장 중요한 함의는 이것입니다. 기술 혁명의 방향은 기술을 발명한 사람이 아니라 기술을 '휘두르는' 사람이 결정합니다. Galileo가 망원경을 발명한 것이 아니라 그것을 이용해 행성 운동을 발견했듯, AI의 미래는 AI 연구소가 아니라 현장의 Intel 분석관, 공장 바닥의 엔지니어, 그리고 미국의 제도적 의지에 달려 있습니다.",
+  "summary_en": "America's defence crisis is a crisis of will, not capability — and Palantir's CTO Shyam Sankar argues the country is doing it to itself. That is the uncomfortable thesis running through this wide-ranging conversation, which covers industrial policy, AI strategy, SaaS disruption, and the soft power of Hollywood in a single coherent argument.\n\nSankar's historical evidence is damning. In 1989, only 6% of major weapons-system spending went to dedicated defence contractors; today the figure is 86%. The consolidation triggered by the post-Cold War 'Last Supper' dinner did not merely reduce competition — it financialised the defence industrial base, expelled the founder-heretics who drove innovation, and sent them to build the internet instead. The Pentagon lost its front door. Sankar's prescription, embodied in his book Mobilize and his own Army commission alongside former OpenAI and Meta executives, is to reverse this through deliberate civil-military fusion — mirroring Israel's post-October 7th mobilisation of 360,000 reservists who returned to the IDF with two decades of industry experience and modernised it faster in four months than in the prior ten years.\n\nOn AI and markets, Sankar offers a cleaner framework than most: software that makes companies more similar to each other ('beta') will face existential pressure; software that expresses competitive differentiation ('alpha') will be a net beneficiary of AI. Value in the stack will accrue at the chip layer and the AI infrastructure layer — not in models, which face commoditisation — and not in generic SaaS. His COVID-era observation that no CEO cited a billion-dollar ERP implementation as a supply-chain lifeline is a pointed indictment of how much enterprise software spending has been mimetic rather than strategic.\n\nThe broadest implication is about agency. Sankar insists that 'AI is going to do X' is a category error — humans wielding AI will do X, and the choice of what to build is a normative one. The inventors of a technology have historically been poor predictors of its consequences: it was not Galileo who made the telescope, but he who used it to discover planetary motion. Whether America captures the productivity gains of AI or fritters them away on 'AI slop' is, in Sankar's framing, a matter of national will — the same will that is either present or absent in the defence industrial base, in Hollywood, and in the willingness to recommission the heretics.",
+  "key_points_ko": [
+    {
+      "heading": "방위 산업 통폐합이 혁신을 죽인 것이 아니라, 이단아들을 Silicon Valley로 내쫓았다",
+      "body": "냉전 종식 후 51개 방위 주계약사(prime contractor)가 5개로 줄어든 것을 두고 많은 사람들은 '경쟁 감소'를 문제로 지목합니다. 그러나 Sankar의 진단은 다릅니다. 방위 산업은 원래부터 단일 구매자(monopsony) 구조였고, 혁신을 이끈 것은 기업 간 경쟁이 아니라 군 내부의 경쟁이었습니다. 진짜 문제는 통폐합이 '순응의 문화'를 낳았고, Lockheed Martin이나 Northrop Grumman 같은 기업들이 성장보다 배당과 자사주 매입에 집중하는 금융 공학 기업으로 변모했다는 것입니다. 그 결과 Glenn Martin, Jack Northrop 같은 창업자형 인재들이 사라지고, 그 후계자들은 인터넷 혁명으로 향했습니다. 1989년 6% 대 오늘날 86%라는 방위 전문 기업 의존도 수치는 이 전환의 규모를 압축적으로 보여줍니다."
+    },
+    {
+      "heading": "민군 융합은 선택이 아니라 전략적 비대칭 우위의 원천이다",
+      "body": "중국은 민군 융합을 법적으로 강제하는 반면, 미국은 그것을 자발적으로 불가능하게 만들어왔습니다. Sankar는 이스라엘의 사례에서 해법을 찾습니다. 2023년 10월 7일 이후 동원된 36만 명의 예비군 중 다수는 20년의 산업 경력을 가진 기술자들이었고, 이들은 4개월 만에 IDF를 지난 10년보다 더 빠르게 현대화했습니다. 이에 영감을 받아 Sankar는 Bob McGrew(전 OpenAI 최고연구책임자), Boz(META CTO), Andrew Wheel(전 OpenAI 최고제품책임자)과 함께 육군에 임관했습니다. 이들이 집중하는 것은 '작전 데이터 팀(operational data teams)'으로, 정규 컴퓨터 과학 교육 없이도 AI 애플리케이션을 직접 구축하는 junior 군인들을 지원하는 것입니다. 2차 세계대전 당시 10만 명에 달하는 민간 전문가를 직접 임관시킨 역사적 선례가 법적 근거로 이미 존재합니다."
+    },
+    {
+      "heading": "SaaS의 위기는 AI가 만든 것이 아니라, AI가 드러낸 것이다",
+      "body": "Sankar는 소프트웨어를 '베타(모든 기업을 더 비슷하게 만드는 것)'와 '알파(경쟁 우위를 표현하게 해주는 것)'로 구분하는 프레임을 제시합니다. 베타 SaaS — 대표적으로 monday.com, 일부 Atlassian 제품군 — 는 AI 코딩 도구의 등장으로 전환 비용이 무너지면서 구조적 압박에 직면합니다. 그 증거는 COVID에서 이미 드러났습니다. 어떤 CEO도 수십억 달러짜리 ERP 구현이 공급망을 지켰다고 말하지 않았습니다. 모두 Zoom과 Teams를 언급했습니다. AI 스택의 가치는 칩 레이어와 AI 인프라(온톨로지) 레이어에 집중될 것이며, 모델 자체는 상품화 압력을 피하기 어렵습니다. 모델 기업들은 위로 확장하여 소프트웨어 레이어를 구축 중이고, 수직적 AI 솔루션 기업들은 아래로 확장하여 인프라를 내재화하는 방향으로 수렴하고 있습니다."
+    },
+    {
+      "heading": "AI의 미래는 연구소가 아니라 '사용자'가 결정한다 — 그리고 그것은 선택의 문제다",
+      "body": "Sankar는 AI 담론에서 인간의 주체성(agency)이 사라지고 있다는 점을 지적합니다. 'AI가 X를 할 것이다'는 틀린 문장이며, '인간이 AI를 사용해 X를 할 것이다'가 올바른 문장입니다. 역사적으로 기술 혁명의 방향은 발명가가 아닌 사용자가 결정했습니다. 망원경을 발명한 것은 Galileo가 아니지만, 그것으로 행성 운동을 발견한 것은 Galileo입니다. AI 연구소들이 AGI를 신앙의 대상으로 삼는 동안, 실제 가치는 Intel 분석관, 공장 바닥의 엔지니어, 의료 현장의 임상가처럼 특정 도메인 전문 지식을 가진 사람들이 AI를 '휘두르는' 방식에서 창출됩니다. 1970년대 이후 GDP 성장과 임금 성장의 괴리를 좁힐 역사적 기회가 여기 있습니다. 그것을 활용할지 여부는 기술의 문제가 아니라 의지의 문제입니다."
+    },
+    {
+      "heading": "소프트 파워 — Hollywood와 제조업 재건은 같은 문제의 두 얼굴이다",
+      "body": "Sankar가 영화 제작사를 설립한 것은 방위 전략가로서의 일관된 논리의 연장입니다. 300 개봉 후 Navy SEAL 지원자가 급증했고, Top Gun Maverick은 친미 서사 콘텐츠의 흥행 가능성을 입증했습니다. George Lucas가 Vietnam 이후의 냉소 문화에 대한 반발로 1973년 American Graffiti를 만들었듯, Sankar는 지금이 유사한 문화적 전환점이라고 봅니다. 제조업 재건 역시 같은 논리입니다. 혁신은 생산과 분리될 수 없습니다. SpaceX가 R&D 엔지니어를 생산 라인에 배치하는 이유가 바로 이것이고, WuXi를 단순 외주 기관으로 여기다가 전체 임상시험의 50%가 중국에서 이루어지게 된 것이 그 역설의 증거입니다. Hadrian 같은 기업들이 기술을 활용해 생산성을 50~100배 높이는 방식으로 재산업화를 추진하는 것이 Sankar가 그리는 미국 재건의 청사진입니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Post-Cold War consolidation didn't reduce competition — it expelled the heretics who drove innovation",
+      "body": "The conventional reading of the 1990s defence 'Last Supper' — where 51 prime contractors collapsed to five — blames reduced competition for stagnation. Sankar's diagnosis is more structural: defence has always been a monopsony, and innovation was never driven by firms competing against each other but by the services competing internally. What consolidation actually produced was financialisation. Companies like Lockheed Martin and Northrop Grumman optimised for dividends, buybacks, and cash flow rather than growth, creating a Galapagos-island ecosystem where founder-type personalities could not survive. The heretics — the Hyman Rickovers and Jack Northrops of the present generation — left for Silicon Valley, and the Pentagon lost its front door to outside innovation. The shift from 6% to 86% of major weapons spending going to dedicated defence contractors between 1989 and today quantifies the scale of that capture."
+    },
+    {
+      "heading": "Civil-military fusion is America's asymmetric advantage — if it chooses to use it",
+      "body": "China mandates civil-military fusion by law; America has made voluntary fusion functionally impossible. Sankar's model is Israel post-October 7th: 360,000 reservists, most with 20 years of industry experience acquired since their compulsory service, returned to the IDF and modernised it faster in four months than in the prior decade. His response was to commission into the Army alongside Bob McGrew (former Chief Research Officer, OpenAI), Boz (CTO, Meta), and Andrew Wheel (former Chief Product Officer, OpenAI). Their focus is 'operational data teams' — junior soldiers with no formal computer science training who are now building the most compelling AI applications Sankar has seen anywhere, commercial or public sector. The legal authority for direct commissioning of 100,000 civilian experts already exists from World War II precedent; it is simply lying dormant."
+    },
+    {
+      "heading": "The SaaS apocalypse is real — but only for software that made companies more similar to each other",
+      "body": "Sankar's alpha/beta framework cuts through the noise around AI and SaaS disruption. Beta software — tools that make every company look more alike — faces structural pressure as AI coding tools collapse switching costs. Alpha software — platforms that let companies express and operationalise their competitive differentiation — will benefit from AI as a tailwind. The COVID episode is his sharpest evidence: not one CEO cited a multi-billion-dollar ERP implementation as having saved their supply chain; all cited Zoom and Teams. In the AI stack, value will concentrate at the chip layer and the AI infrastructure (ontology) layer. Model companies are being commoditised and expanding upward into software; vertical AI applications are earning their way down into infrastructure. The middle — undifferentiated SaaS — faces compression from both directions."
+    },
+    {
+      "heading": "The inventors of AI will not determine its consequences — the wielders will",
+      "body": "Sankar's most important epistemological point is that AI labs conflate articles of faith with empirical claims. AGI, in his framing, has become a 'God-shaped hole' for researchers — a belief system that distorts their predictions about real-world implications. The historical pattern is clear: Galileo did not invent the telescope, but he used it to discover planetary motion; the power loom's consequences were determined by the textile workers who wielded it, not its inventor. The practical implication is that the most valuable AI applications are being built not by model companies but by domain experts — an intel warrant officer who knows their target set, a clinician on an ICU floor — who now have tools to build in two weeks what would previously have required a PowerPoint and a programme bureaucrat. America has the agency to direct this toward closing the wage-GDP growth gap that opened in the 1970s. Whether it does so is a question of will, not capability."
+    },
+    {
+      "heading": "Soft power and reindustrialisation are the same strategic problem",
+      "body": "Sankar's film production venture is not a hobby — it is the logical extension of his defence thesis applied to culture. Navy SEAL recruitment spiked after 300; Top Gun Maverick proved the commercial appetite for unironic American heroism. His historical parallel is George Lucas making American Graffiti in 1973 as a deliberate palate cleanser after Vietnam-era cynicism — a cultural reset that set the conditions for the 1980s canon. The manufacturing argument runs on identical logic: innovation cannot be offshored from production. SpaceX co-locates R&D engineers on the production floor for exactly this reason. The WuXi case is the cautionary tale in reverse — treating a Chinese contract research organisation as a cost-arbitrage play in pharmaceutical pipetting arms resulted in 50% of all clinical trials now running through China. Hadrian-style reindustrialisation, using AI to make workers 50-100x more productive, is Sankar's template for reclaiming the feedback loop between making things and knowing how to make them better."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "우리나라의 가장 큰 위험은 타살이 아니라 자살입니다. 우리가 직면한 문제들을 실제로 해결하고 있는가, 우리 국민의 주체성을 북돋아 세상이 더 나아질 수 있다고 믿게 하고 있는가 — 그것이 핵심입니다.",
+    "attribution": "Shyam Sankar, Chief Technology Officer, Palantir Technologies"
+  },
+  "notable_quote_en": {
+    "text": "Our biggest risk as a country is suicide, not homicide. Are we actually addressing the problems that we face? Are we encouraging the agency in our people to believe the world can be better?",
+    "attribution": "Shyam Sankar, Chief Technology Officer, Palantir Technologies"
+  },
+  "keywords_ko": [
+    "민군 융합",
+    "방위 산업 기반",
+    "알파 vs 베타 소프트웨어",
+    "민주주의의 병기창",
+    "AI 주체성",
+    "재산업화"
+  ],
+  "keywords_en": [
+    "civil-military fusion",
+    "defence industrial base",
+    "alpha vs beta software",
+    "arsenal of democracy",
+    "AI agency",
+    "reindustrialisation"
+  ],
+  "generated_at": "2026-03-22T15:30:59.570020"
+}
