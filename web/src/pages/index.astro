@@ -109,6 +109,7 @@ function formatDateHeader(dateStr: string): string {
   <header class="site-header">
     <h1 class="site-title">Podcast Briefing</h1>
     <div class="site-subtitle">AI-curated intelligence from 10 sources</div>
+    <div class="site-credit">Curated by <a href="https://github.com/lowtidebuild" target="_blank" rel="noopener">lowtidebuild</a> with <a href="https://claude.com/product/claude-code" target="_blank" rel="noopener">Claude Code</a></div>
     <details class="sources-disclosure">
       <summary>10 Sources ▾</summary>
       <ul class="sources-list">
@@ -122,7 +123,10 @@ function formatDateHeader(dateStr: string): string {
     </details>
     <div class="header-nav">
       <span>{today}</span>
-      <LangToggle />
+      <div class="header-nav-right">
+        {hasArchive && <a href={`${import.meta.env.BASE_URL}/archive/`} class="header-archive-link">Archive →</a>}
+        <LangToggle />
+      </div>
     </div>
   </header>
 
@@ -156,14 +160,7 @@ function formatDateHeader(dateStr: string): string {
     ))}
   </main>
 
-  {hasArchive && (
-    <div class="archive-nav">
-      <a href={`${import.meta.env.BASE_URL}/archive/`} class="archive-link">View all briefings →</a>
-    </div>
-  )}
-
   <footer class="site-footer">
-    Curated by <a href="https://github.com/lowtidebuild" target="_blank" rel="noopener" class="footer-link">lowtidebuild</a> with <a href="https://claude.ai/claude-code" target="_blank" rel="noopener" class="footer-link">Claude Code</a> · Updated Mon/Thu at 15:00 KST<br />
-    10 sources · AI-curated · KO/EN bilingual
+    Updated Mon/Thu at 15:00 KST · 10 sources · KO/EN bilingual
   </footer>
 </BaseLayout>

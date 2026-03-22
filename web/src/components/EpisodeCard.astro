@@ -101,12 +101,20 @@ ${transcript}
   )}
 
   <!-- Summary -->
-  <div class="episode-summary" data-lang="ko">
-    <p>{summaryKo}</p>
-  </div>
-  <div class="episode-summary" data-lang="en">
-    <p>{summaryEn}</p>
-  </div>
+  {summaryKo || summaryEn ? (
+    <>
+      <div class="episode-summary" data-lang="ko">
+        <p>{summaryKo || summaryEn}</p>
+      </div>
+      <div class="episode-summary" data-lang="en">
+        <p>{summaryEn || summaryKo}</p>
+      </div>
+    </>
+  ) : (
+    <div class="episode-pending">
+      Summary available at next pipeline run.
+    </div>
+  )}
 
   <!-- Key Points -->
   <div class="key-points" data-lang="ko">
