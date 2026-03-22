@@ -63,8 +63,9 @@ jobs:
           git config user.email "bot@example.com"
           git add data/ || true
           git diff --cached --quiet || git commit -m "briefing: $(date +%Y-%m-%d)"
-          git pull --rebase origin main || (echo "Rebase conflict" && exit 1)
-          git push
+          git fetch origin main
+          git rebase origin/main || git rebase --abort
+          git push || git push --force-with-lease
 
       # Deploy to GitHub Pages
       - uses: actions/upload-pages-artifact@v4
