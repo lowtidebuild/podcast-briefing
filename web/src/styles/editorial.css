@@ -380,17 +380,17 @@ body {
   color: #ccc;
 }
 
-/* Language Toggle */
+/* Language Toggle — inline style */
 .lang-toggle {
   font-size: 12px;
   font-family: var(--font-ui);
   border: 1px solid #ccc;
-  padding: 6px 14px;
+  padding: 2px 8px;
   border-radius: 3px;
   background: var(--color-white);
   cursor: pointer;
-  min-height: 44px;
   transition: background 0.15s ease;
+  vertical-align: middle;
 }
 
 .lang-toggle:hover {

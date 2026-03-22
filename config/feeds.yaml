@@ -14,7 +14,7 @@ podcasts:
     transcript_source: "substack_fallback"
 
   - name: "Fareed Zakaria GPS"
-    display_category: "Geopolitics"
+    display_category: "Politics / Geopolitics"
     homepage: "https://www.cnn.com/shows/fareed-zakaria-gps"
     rss: "https://feeds.megaphone.fm/WMHY7703459968"
     frequency: "weekly"
@@ -35,14 +35,14 @@ podcasts:
     transcript_source: "whisper"
 
   - name: "Ezra Klein Show"
-    display_category: "Politics / Policy"
+    display_category: "Politics / Geopolitics"
     homepage: "https://www.nytimes.com/column/ezra-klein-podcast"
     rss: "https://feeds.simplecast.com/82FI35Px"
     frequency: "1-2/week"
     transcript_source: "whisper"
 
   - name: "All-In Podcast"
-    display_category: "Politics / Policy"
+    display_category: "Politics / Geopolitics"
     homepage: "https://www.allinpodcast.co"
     rss: "https://rss.libsyn.com/shows/254861/destinations/1928300.xml"
     frequency: "1-2/week"

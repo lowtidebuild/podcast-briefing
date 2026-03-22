@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import EpisodeCard from '../components/EpisodeCard.astro';
+import LangToggle from '../components/LangToggle.astro';
 import CategoryFilter from '../components/CategoryFilter.astro';
 import '../styles/editorial.css';
 
@@ -89,10 +90,10 @@ const sources = [
   { name: 'Odd Lots', org: 'Bloomberg', category: 'Macro / Markets', freq: '2-3x/week', url: 'https://www.bloomberg.com/oddlots' },
   { name: 'Dwarkesh Podcast', org: '', category: 'AI / Tech Deep Dive', freq: 'Biweekly', url: 'https://www.dwarkeshpatel.com' },
   { name: 'Lex Fridman Podcast', org: '', category: 'AI / Tech Deep Dive', freq: 'Biweekly', url: 'https://lexfridman.com/podcast' },
-  { name: 'Fareed Zakaria GPS', org: 'CNN', category: 'Geopolitics / Foreign Affairs', freq: 'Weekly', url: 'https://www.cnn.com/shows/fareed-zakaria-gps' },
+  { name: 'Fareed Zakaria GPS', org: 'CNN', category: 'Politics / Geopolitics', freq: 'Weekly', url: 'https://www.cnn.com/shows/fareed-zakaria-gps' },
   { name: 'Hard Fork', org: 'NYT', category: 'Tech / AI Current Affairs', freq: 'Weekly', url: 'https://www.nytimes.com/column/hard-fork' },
   { name: 'a16z Podcast', org: '', category: 'Tech / AI Current Affairs', freq: '2-3x/week', url: 'https://a16z.com/podcasts' },
-  { name: 'Ezra Klein Show', org: 'NYT', category: 'Politics / Policy / Philosophy', freq: '1-2x/week', url: 'https://www.nytimes.com/column/ezra-klein-podcast' },
+  { name: 'Ezra Klein Show', org: 'NYT', category: 'Politics / Geopolitics', freq: '1-2x/week', url: 'https://www.nytimes.com/column/ezra-klein-podcast' },
   { name: 'All-In Podcast', org: '', category: 'Tech × Politics × Economics', freq: '1-2x/week', url: 'https://www.allinpodcast.co' },
   { name: 'Exponential View', org: '', category: 'Tech × Politics × Economics', freq: 'Weekly', url: 'https://www.exponentialview.co' },
   { name: 'Making Sense', org: 'Sam Harris', category: 'Philosophy / AI Ethics', freq: 'Biweekly', url: 'https://www.samharris.org/podcasts' },
@@ -121,7 +122,7 @@ function formatDateHeader(dateStr: string): string {
       </ul>
     </details>
     <div class="header-nav">
-      <span>{today}</span>
+      <span>{today} · <LangToggle /></span>
       <div class="header-nav-right">
         {hasArchive && <a href={`${import.meta.env.BASE_URL}/archive/`} class="header-archive-link">Archive →</a>}
       </div>
