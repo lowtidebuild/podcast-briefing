@@ -1,0 +1,29 @@
+{
+  "id": "2026-03-18-exponential-view",
+  "slug": "2026-03-18-exponential-view",
+  "podcast": "Exponential View",
+  "category": "AI / Tech",
+  "title": "Why I changed my mind about Apple and AI",
+  "published": "2026-03-18T06:00:00Z",
+  "link": "https://www.exponentialview.co",
+  "podcast_url": "",
+  "guest": {
+    "name": "None",
+    "title": "Host monologue, Exponential View"
+  },
+  "summary_ko": "AI 경쟁을 벤치마크 점수와 데이터센터 투자로만 측정하는 분석가들은 Apple이 패배하고 있다고 결론짓습니다. 그 판단은 틀렸습니다. Apple은 다른 경기를 뛰고 있으며, 그 경기에서 조용히 앞서나가고 있습니다.\n\nEpisode의 핵심 주장은 이렇습니다. Apple은 프론티어 모델 개발 경쟁에 참여하지 않았지만, AI 추론이 실제로 실행되는 하드웨어 레이어를 장악함으로써 모든 제3자 모델의 가치를 포획하는 구조를 구축했습니다. 호스트 자신도 매일 ChatGPT와 Claude를 사용하면서도 Apple 기기를 통한다는 사실을 간과했다고 솔직하게 인정합니다. 모델은 바뀌었지만 기기는 바뀌지 않았습니다.\n\n증거는 구체적입니다. OpenCL—Pete Steinberger가 2025년 11월 출시한 로컬 AI 에이전트 프레임워크로 GitHub 역사상 가장 빠른 속도로 350,000 스타를 기록—이 Mac Mini 품절 사태를 일거에 촉발했습니다. Tom's Hardware는 이를 'OpenCL 주문 광풍'이라 불렀고, Best Buy 직원이 텅 빈 Mac Mini 진열대를 TikTok에 올렸습니다. Perplexity는 Mac Mini 위에서 돌아가는 월 200달러짜리 상시 구동 AI 에이전트 'Perplexity Personal Computer'를 출시하며 이 트렌드를 제품화했습니다. 중국에서는 Tencent 엔지니어들이 선전 본사 앞에 접이식 테이블을 펼치고 행인들의 기기에 무료로 OpenCL을 설치해줬고, 선전·하이페이·항저우·난징 등 여러 지방정부가 AI 에이전트 배포 지원을 위해 총 280만 달러 규모의 보조금을 지급했습니다.\n\nApple 하드웨어가 로컬 AI에 유리한 이유는 구조적입니다. 통합 메모리 아키텍처는 GPU, CPU, Neural Engine 간 메모리를 공유해 대역폭을 극대화하고, Neural Engine은 트랜스포머 모델의 핵심 연산인 행렬 곱셈을 초당 40조 회 처리합니다. App Store 생태계와 프라이버시 아키텍처까지 더하면, Apple은 어떤 모델이 최종 승자가 되든 그 모델이 소비자에게 닿는 경로를 통제합니다.\n\n시사점은 명확합니다. AI 인프라 투자 논리에서 클라우드 GPU만 주목하는 것은 절반의 그림입니다. 로컬 추론 하드웨어 수요가 중국 지방정부의 보조금 정책까지 바꾸고 있다는 사실은, AI 밸류체인에서 엣지 디바이스 레이어의 전략적 비중이 빠르게 상승하고 있음을 보여줍니다.",
+  "summary_en": "Analysts tracking AI by benchmark scores, data center capex, and frontier model releases have concluded Apple is losing. That verdict is wrong — and it reflects a category error about which race Apple is actually running.\n\nThe host's central argument is that Apple has deliberately avoided the frontier model arms race and instead entrenched control over the hardware layer where AI inference actually executes. Every third-party model — OpenAI, Anthropic, Google — ultimately runs on infrastructure Apple controls, and Apple captures value from that relationship without owning a single foundation model. The host admits he spent months hammering Claude and ChatGPT daily before recognizing that his device never changed even as his models did.\n\nThe evidence is unusually concrete. OpenCL, the local AI agent framework released by developer Pete Steinberger in November 2025, accumulated 350,000 GitHub stars faster than any project in the platform's history — and promptly triggered a Mac Mini shortage. Tom's Hardware ran the headline; a Best Buy employee posted empty shelves to TikTok. Perplexity formalized the thesis by launching its 'Personal Computer' product — a $200/month persistent AI agent running on a Mac Mini. In China, Tencent engineers set up folding tables outside their Shenzhen HQ to install OpenCL on strangers' devices; a thousand people showed up, some carrying Mac Minis under their arms. Multiple Chinese municipal governments — Shenzhen, Hefei, Hangzhou, Nanjing — subsequently announced $2.8 million subsidy programmes targeting individual AI-agent operators, competing for them the way they once competed for factory relocations.\n\nThe structural advantage is real: Apple's unified memory architecture gives the GPU, CPU, and Neural Engine shared, high-bandwidth access to RAM, while the Neural Engine executes matrix multiplication — the core operation of transformer models — at nearly 40 trillion operations per second. The App Store and privacy enclave extend Apple's capture mechanism further: regardless of which model wins the frontier race, Apple taxes the last mile.",
+  "key_points_ko": [],
+  "key_points_en": [],
+  "notable_quote_ko": {
+    "text": "",
+    "attribution": ""
+  },
+  "notable_quote_en": {
+    "text": "",
+    "attribution": ""
+  },
+  "keywords_ko": [],
+  "keywords_en": [],
+  "generated_at": "2026-03-18T06:00:00Z"
+}
