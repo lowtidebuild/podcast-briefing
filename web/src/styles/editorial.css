@@ -461,6 +461,16 @@ body.lang-en [data-lang="ko"] { display: none; }
 }
 
 /* Footer */
+.footer-link {
+  color: inherit;
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+}
+
+.footer-link:hover {
+  text-decoration: underline solid;
+}
+
 .site-footer {
   margin-top: 60px;
   padding-top: 20px;
