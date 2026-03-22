@@ -56,18 +56,15 @@ Output STRICTLY as a valid JSON object (no markdown, no code fences):
     "name": "Guest full name in English (null if hosts-only)",
     "title": "Role, Organization (e.g., 'Chief Economist, Apollo Global Management')"
   }},
-  "summary_ko": "KOREAN: 6-10 sentences (~350 words). Open with why this episode matters (So what?). Then: core thesis, key evidence, and practical implications. Write as if briefing a CEO who has 2 minutes.",
-  "summary_en": "ENGLISH: 6-10 sentences (~300 words). Same structure: So what → thesis → evidence → implications. Economist tone — precise, analytical, slightly opinionated.",
+  "summary_ko": "KOREAN: Scale length to transcript size. Short transcript (<5000 words): 200-300 words. Medium (5000-15000): 350-450 words. Long (>15000): 450-600 words. Open with why this matters (So what?). Then: core thesis, key evidence, practical implications. Write as if briefing a CEO.",
+  "summary_en": "ENGLISH: Scale length to transcript size. Short (<5000 words): 150-250 words. Medium (5000-15000): 300-400 words. Long (>15000): 400-500 words. Same structure: So what → thesis → evidence → implications. Economist tone.",
   "key_points_ko": [
-    {{"heading": "Concise Korean subheading (the claim, not the topic)", "body": "KOREAN: 4-5 sentences. Start with the specific claim or finding. Then provide the evidence or reasoning. End with why this matters or what it implies. Use concrete numbers and names."}},
-    {{"heading": "...", "body": "..."}},
-    {{"heading": "...", "body": "..."}}
+    {{"heading": "Concise Korean subheading (the claim, not the topic)", "body": "KOREAN: 4-5 sentences. Claim → evidence → implication. Use concrete numbers and names."}}
   ],
   "key_points_en": [
-    {{"heading": "Concise English subheading (the claim, not the topic)", "body": "ENGLISH: 4-5 sentences. Same structure as Korean. Claim → evidence → implication."}},
-    {{"heading": "...", "body": "..."}},
-    {{"heading": "...", "body": "..."}}
+    {{"heading": "Concise English subheading (the claim, not the topic)", "body": "ENGLISH: 4-5 sentences. Claim → evidence → implication."}}
   ],
+  "_key_points_note": "Generate 2-3 key points for short transcripts, 3-4 for medium, 4-5 for long.",
   "notable_quote_ko": {{
     "text": "The single quote that best captures the episode's central thesis, translated to Korean (keep names in English)",
     "attribution": "Speaker Name, Role (always English)"
