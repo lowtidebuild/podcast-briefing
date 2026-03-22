@@ -65,21 +65,34 @@ def append_episode(episode, summary, slug):
         summary_en = summary.get("summary_en", "")
         summary_ko = summary.get("summary_ko", "")
 
+        # Detect summary failure
+        has_en = bool(summary_en and len(summary_en) > 50)
+        has_ko = bool(summary_ko and len(summary_ko) > 50 and not summary_ko.strip().startswith('{'))
+        if not has_en or not has_ko:
+            status = "⚠️ SUMMARY FAILED"
+            notes = f"Missing: {'EN' if not has_en else ''} {'KO' if not has_ko else ''}".strip()
+        else:
+            status = ""
+            notes = ""
+
         sheet.append_row([
             episode["published"][:10],       # Date
             episode["podcast"],              # Podcast
             episode["title"],                # Title
             guest_name,                      # Guest
             episode["category"],             # Category
-            "",                              # ⭐ (user-editable)
+            status,                          # ⭐ (or ⚠️ SUMMARY FAILED)
             "",                              # ✔읽음 (user-editable)
             episode.get("link", ""),         # Episode Link
             transcript_url,                  # Transcript
             summary_en,                      # Summary (EN) (전문)
             summary_ko,                      # 한글요약 (전문)
-            "",                              # Notes (user-editable)
+            notes,                           # Notes (error detail or user-editable)
         ])
-        print("    Added to Google Sheet")
+        if status:
+            print(f"    ⚠️ Added to Google Sheet with SUMMARY FAILED flag")
+        else:
+            print("    Added to Google Sheet")
 
     except Exception as e:
         print(f"    Google Sheets error (non-fatal): {e}")
