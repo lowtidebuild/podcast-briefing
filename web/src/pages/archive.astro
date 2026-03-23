@@ -1,14 +1,22 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import CategoryFilter from '../components/CategoryFilter.astro';
+import LangToggle from '../components/LangToggle.astro';
+import ArchiveEpisode from '../components/ArchiveEpisode.astro';
 import '../styles/editorial.css';
 
-import { readFileSync, readdirSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 
 const dataDir = join(process.cwd(), '..', 'data', 'summaries');
+const transcriptDir = join(process.cwd(), '..', 'data', 'transcripts');
 const files = readdirSync(dataDir).filter(f => f.endsWith('.json') && f !== 'feed.json');
 const episodeFiles = files.map(f => JSON.parse(readFileSync(join(dataDir, f), 'utf-8')));
+
+interface Guest {
+  name: string;
+  title: string;
+}
 
 interface Episode {
   slug: string;
@@ -18,11 +26,29 @@ interface Episode {
   published: string;
   link: string;
   podcast_url?: string;
+  guest?: Guest | null;
+  summary_ko: string;
+  summary_en: string;
+  key_points_ko: { heading: string; body: string }[];
+  key_points_en: { heading: string; body: string }[];
+  notable_quote_ko: { text: string; attribution: string };
+  notable_quote_en: { text: string; attribution: string };
+  keywords_ko: string[];
+  keywords_en: string[];
 }
 
 const episodes: Episode[] = episodeFiles
   .filter((ep: any) => ep.slug)
   .sort((a: any, b: any) => new Date(b.published).getTime() - new Date(a.published).getTime());
+
+// Load transcript availability map
+const transcriptMap = new Map<string, string>();
+if (existsSync(transcriptDir)) {
+  readdirSync(transcriptDir).filter(f => f.endsWith('.txt')).forEach(f => {
+    const slug = f.replace('.txt', '');
+    transcriptMap.set(slug, readFileSync(join(transcriptDir, f), 'utf-8'));
+  });
+}
 
 // Group by week (Monday start)
 function getWeekStart(dateStr: string): string {
@@ -47,10 +73,6 @@ function formatWeekHeader(mondayStr: string): string {
   const d = new Date(mondayStr + 'T00:00:00Z');
   return `Week of ${d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}`;
 }
-
-function formatShortDate(dateStr: string): string {
-  return new Date(dateStr).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-}
 ---
 
 <BaseLayout title="Archive — Podcast Briefing" description="All podcast briefings, organized by week">
@@ -60,6 +82,9 @@ function formatShortDate(dateStr: string): string {
     </div>
     <h1 class="site-title">Archive</h1>
     <div class="site-subtitle">{episodes.length} briefings from {[...grouped.keys()].length} weeks</div>
+    <div class="header-nav">
+      <span><LangToggle /></span>
+    </div>
   </header>
 
   <CategoryFilter categories={categories} />
@@ -68,26 +93,32 @@ function formatShortDate(dateStr: string): string {
     {[...grouped.entries()].map(([weekStart, eps], i) => (
       <div>
         <h2 class={`archive-week-header ${i === 0 ? 'first' : ''}`}>{formatWeekHeader(weekStart)}</h2>
-        <ul class="archive-list">
-          {eps.map(ep => (
-            <li class="archive-item" data-category={ep.category}>
-              <span class="archive-podcast">{ep.podcast}</span>
-              <span class="archive-title">
-                {ep.link ? (
-                  <a href={ep.link} target="_blank" rel="noopener">{ep.title}</a>
-                ) : (
-                  <span>{ep.title}</span>
-                )}
-              </span>
-              <span class="archive-date">{formatShortDate(ep.published)}</span>
-            </li>
-          ))}
-        </ul>
+        {eps.map(ep => (
+          <ArchiveEpisode
+            podcast={ep.podcast}
+            category={ep.category}
+            title={ep.title}
+            published={ep.published}
+            link={ep.link || ''}
+            podcastUrl={ep.podcast_url || ''}
+            guest={ep.guest || null}
+            summaryKo={ep.summary_ko}
+            summaryEn={ep.summary_en}
+            keyPointsKo={ep.key_points_ko}
+            keyPointsEn={ep.key_points_en}
+            quoteKo={ep.notable_quote_ko}
+            quoteEn={ep.notable_quote_en}
+            keywordsKo={ep.keywords_ko}
+            keywordsEn={ep.keywords_en}
+            transcript={transcriptMap.get(ep.slug) || ''}
+          />
+        ))}
       </div>
     ))}
   </main>
 
   <footer class="site-footer">
     Updated Sun/Thu at 15:00 KST · 10 sources · KO/EN bilingual
+    <div class="site-credit">By <a href="https://github.com/lowtidebuild" target="_blank" rel="noopener">lowtidebuild</a>, powered by <a href="https://claude.com/product/claude-code" target="_blank" rel="noopener">Claude Code</a></div>
   </footer>
 </BaseLayout>

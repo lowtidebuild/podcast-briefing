@@ -496,6 +496,48 @@ body.lang-en [data-lang="ko"] { display: none; }
   line-height: 1.6;
 }
 
+.site-footer .site-credit {
+  margin-top: 6px;
+}
+
+/* Archive Collapsible Episodes */
+.archive-episode {
+  border-bottom: 1px solid var(--color-pill-bg);
+}
+
+.archive-episode:last-child {
+  border-bottom: none;
+}
+
+.archive-episode-header {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 8px 0;
+  font-size: 14px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.archive-episode-header::-webkit-details-marker {
+  display: none;
+}
+
+.archive-episode-header:hover {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.archive-episode-body {
+  padding: 8px 0 24px;
+}
+
+/* Hide redundant header inside expanded card */
+.archive-episode-body .episode-category,
+.archive-episode-body .episode-title,
+.archive-episode-body .episode-meta {
+  display: none;
+}
+
 /* Mobile responsive */
 @media (max-width: 720px) {
   html {
@@ -562,6 +604,15 @@ body.lang-en [data-lang="ko"] { display: none; }
   }
 
   .archive-podcast {
+    min-width: auto;
+    width: 100%;
+  }
+
+  .archive-episode-header {
+    flex-wrap: wrap;
+  }
+
+  .archive-episode-header .archive-podcast {
     min-width: auto;
     width: 100%;
   }

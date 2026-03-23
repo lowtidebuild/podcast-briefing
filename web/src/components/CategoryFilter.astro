@@ -16,7 +16,7 @@ const { categories } = Astro.props;
 <script>
   const filterBar = document.getElementById('category-filter');
   const buttons = filterBar?.querySelectorAll('.filter-btn');
-  const episodes = document.querySelectorAll('.episode');
+  const episodes = document.querySelectorAll('[data-category]');
 
   buttons?.forEach((btn) => {
     btn.addEventListener('click', () => {

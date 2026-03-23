@@ -1,0 +1,72 @@
+---
+import EpisodeCard from './EpisodeCard.astro';
+
+interface KeyPoint {
+  heading: string;
+  body: string;
+}
+
+interface Quote {
+  text: string;
+  attribution: string;
+}
+
+interface Guest {
+  name: string;
+  title: string;
+}
+
+interface Props {
+  podcast: string;
+  category: string;
+  title: string;
+  published: string;
+  link: string;
+  podcastUrl: string;
+  guest: Guest | null;
+  summaryKo: string;
+  summaryEn: string;
+  keyPointsKo: KeyPoint[];
+  keyPointsEn: KeyPoint[];
+  quoteKo: Quote;
+  quoteEn: Quote;
+  keywordsKo: string[];
+  keywordsEn: string[];
+  transcript: string;
+}
+
+const props = Astro.props;
+
+const dateStr = new Date(props.published).toLocaleDateString('en-US', {
+  month: 'short',
+  day: 'numeric',
+});
+---
+
+<details class="archive-episode" data-category={props.category}>
+  <summary class="archive-episode-header">
+    <span class="archive-podcast">{props.podcast}</span>
+    <span class="archive-title">{props.title}</span>
+    <span class="archive-date">{dateStr}</span>
+  </summary>
+  <div class="archive-episode-body">
+    <EpisodeCard
+      podcast={props.podcast}
+      category={props.category}
+      title={props.title}
+      published={props.published}
+      link={props.link}
+      podcastUrl={props.podcastUrl}
+      guest={props.guest}
+      summaryKo={props.summaryKo}
+      summaryEn={props.summaryEn}
+      keyPointsKo={props.keyPointsKo}
+      keyPointsEn={props.keyPointsEn}
+      quoteKo={props.quoteKo}
+      quoteEn={props.quoteEn}
+      keywordsKo={props.keywordsKo}
+      keywordsEn={props.keywordsEn}
+      transcript={props.transcript}
+    />
+  </div>
+</details>
