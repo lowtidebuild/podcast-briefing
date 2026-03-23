@@ -47,7 +47,7 @@ flowchart TD
     end
 
     subgraph PROCESS["⚙️ Process"]
-        C --> D["OpenAI STT\ngpt-4o-mini-transcribe"]
+        C --> D["OpenAI Whisper\nwhisper-1"]
         D --> E[/"Full Transcript Text"/]
         E --> F["Claude Sonnet\nEconomist-style analysis"]
     end
@@ -74,7 +74,7 @@ flowchart TD
 The pipeline runs **Mon/Thu at 06:00 UTC** via GitHub Actions:
 
 1. **Detect** — parse 10 RSS feeds, identify new episodes since last run
-2. **Transcribe** — download audio, preprocess with ffmpeg, transcribe via OpenAI Speech-to-Text
+2. **Transcribe** — download audio, preprocess with ffmpeg, transcribe via OpenAI Whisper
 3. **Analyze** — Claude generates Economist-style bilingual briefings with claim-based key points, notable quotes, and automatic guest identification
 4. **Publish** — JSON to repo, row to Google Sheets, Astro rebuild, GitHub Pages deploy
 
@@ -82,10 +82,10 @@ The pipeline runs **Mon/Thu at 06:00 UTC** via GitHub Actions:
 
 ```
 podcast-briefing/
-├── pipeline/              # Python: RSS → OpenAI STT → Claude → JSON
+├── pipeline/              # Python: RSS → OpenAI Whisper → Claude → JSON
 │   ├── fetch_feeds.py     # RSS parsing + new episode detection
 │   ├── download_audio.py  # Audio download + ffmpeg mono 16kHz conversion
-│   ├── transcribe.py      # OpenAI STT (gpt-4o-mini-transcribe) + Substack fallback
+│   ├── transcribe.py      # OpenAI Whisper (whisper-1) + Substack fallback
 │   ├── summarize.py       # Claude Economist-style analytical briefing prompt
 │   ├── generate_output.py # Structured JSON + feed index generation
 │   ├── sheets.py          # Google Sheets dashboard integration
