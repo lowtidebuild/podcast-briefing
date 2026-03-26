@@ -3,24 +3,53 @@
   "slug": "2026-03-20-hard-fork",
   "podcast": "Hard Fork",
   "category": "AI / Tech",
-  "title": "‘A.I.-Washing’ Layoffs? + Why L.L.M.s Can’t Write Well + Tokenmaxxing",
+  "title": "'A.I.-Washing' Layoffs? + Why L.L.M.s Can't Write Well + Tokenmaxxing",
   "published": "2026-03-20T11:00:00+00:00",
   "link": "https://www.nytimes.com/column/hard-fork",
   "podcast_url": "https://www.nytimes.com/column/hard-fork",
-  "guest": null,
-  "summary_ko": "{\n  \"guest\": {\n    \"name\": \"Jasmine Sun\",\n    \"title\": \"Freelance Journalist and Writer, The Atlantic / Jasmi.news\"\n  },\n  \"summary_ko\": \"AI가 대규모 인력 감축의 원인인지, 아니면 단지 편리한 명분인지의 질문이 기업들의 행동과 주식시장의 반응 사이에서 점점 더 중요해지고 있습니다. Atlassian(1,600명 감축), Block(4,000명 감축), Meta(최대 16,000명 감축 예정)가 AI를 구조조정의 이유로 제시하고 있지만, 실상은 복잡합니다. Block은 감원 발표 5개월 전 Jay-Z 공연에 6,800만 달러를 지출했고, Atlassian의 주가는 SaaS 경쟁 심화로 이미 폭락한 상태였습니다. 그러나 이를 단순한 'AI 워싱'으로 치부하기도 어렵습니다. Meta는 올해 AI 인프라에 1,350억 달러를 투자하면서 동시에 인력을 줄이고 있으며, Mark Zuc",
-  "summary_en": "",
-  "key_points_ko": [],
-  "key_points_en": [],
+  "guest": {
+    "name": "Jasmine Sun",
+    "title": "Freelance Journalist and Writer, The Atlantic / Jasmi.news"
+  },
+  "summary_ko": "Atlassian(1,600명), Block(4,000명), Meta(최대 16,000명)가 잇따라 대규모 인력 감축을 발표하면서 AI를 구조조정의 이유로 내세우고 있지만, 각 사례를 들여다보면 'AI 워싱'과 실제 구조적 전환이 뒤섞여 있습니다. Block은 감원 5개월 전 Jay-Z 공연에 6,800만 달러를 지출했고, Atlassian 주가는 SaaS 경쟁 심화로 이미 급락한 상태였습니다. 그러나 Meta의 경우 올해 AI 인프라에 1,350억 달러를 투자하면서 인력을 줄이는 것은 인건비를 AI 인프라 비용으로 전환하는 실질적 구조 변화를 시사합니다.\n\n두 번째 주제에서 게스트 Jasmine Sun은 LLM이 코딩과 수학에서 급속한 발전을 이루었음에도 창의적 글쓰기에서는 여전히 뒤처지는 이유를 분석합니다. 핵심 원인은 post-training 과정에서 모델이 '도움이 되는 어시스턴트'로 길들여지면서 초기 GPT-2/3가 가졌던 독특하고 예측 불가능한 문체를 잃었다는 점입니다. RLHF 평가자들이 느낌표 개수나 사실 정확성 같은 부적절한 기준으로 글을 평가하고 있으며, 근본적으로 '좋은 글'이 무엇인지 검증 가능한 기준을 만들기 어렵습니다.\n\n세 번째 주제인 'Tokenmaxxing'은 테크 기업들이 직원의 AI 토큰 사용량 리더보드를 만들어 경쟁시키는 현상을 다룹니다. OpenAI 직원 중 한 명은 7일간 2,100억 토큰을 사용했고, Claude Code 최다 사용자는 월 15만 달러 이상을 지출하고 있습니다. Goodhart의 법칙이 우려되지만, 일부 기업에서는 토큰 사용량이 이미 성과 평가에 반영되고 있습니다.",
+  "summary_en": "Atlassian (1,600 jobs), Block (4,000), and Meta (up to 16,000) are citing AI as the reason for mass layoffs, but each case reveals a messy mix of genuine structural shift and convenient narrative. Block spent $68 million on a Jay-Z concert five months before its cuts; Atlassian's stock had already cratered from SaaS competition. Meta's case is more substantive — the company is investing $135 billion in AI infrastructure this year while cutting headcount, signaling a real conversion of labor costs into AI compute costs.\n\nGuest Jasmine Sun examines why LLMs still can't write well creatively, despite rapid progress in coding and math. The culprit is post-training: RLHF and safety alignment have stripped models of the surprising, voice-rich output that GPT-2 and GPT-3 produced. Human evaluators grade AI writing on criteria like exclamation mark counts rather than literary quality, and the fundamental problem is that good writing — rooted in lived experience, personal voice, and taste — resists the kind of verifiable reward signals that drive progress in code.\n\n'Tokenmaxxing' is the emerging phenomenon of tech companies creating leaderboards tracking employee AI token consumption. One OpenAI employee used 210 billion tokens in a single week. The top individual Claude Code user spent over $150,000 in a month. While some managers see token usage as a proxy for productivity, Goodhart's Law applies — when a measure becomes a target, it ceases to be a good measure. Some employees are already gaming leaderboards, and the practice is spreading into non-technical roles where AI usage is now part of performance reviews.",
+  "key_points_ko": [
+    {
+      "heading": "AI 감원의 실상: 구조적 전환과 'AI 워싱'의 경계",
+      "body": "Atlassian, Block, Meta의 대규모 감원 사례를 분석하면 AI가 실제 원인인 경우와 주가 부양을 위한 서사 도구로 활용되는 경우가 공존합니다. Block은 감원 발표 후 주가가 17% 급등했고, 이는 시장이 'AI 전환' 서사에 보상을 제공한다는 증거입니다. 그러나 Meta의 경우 1,350억 달러 AI 인프라 투자와 동시 감원은 인건비→AI 비용 전환이라는 구조적 변화를 시사합니다. 해고된 근로자의 입장에서는 원인이 AI든 아니든 결과는 동일하지만, 이 구분은 향후 노동시장 대응 전략에 중대한 차이를 만듭니다."
+    },
+    {
+      "heading": "LLM의 창의적 글쓰기 실패는 기술적 한계가 아니라 설계 선택",
+      "body": "GPT-2와 GPT-3는 예측 불가능하고 독특한 문체를 보여줬지만, post-training(RLHF, 안전 정렬)을 거치면서 '도움이 되는 어시스턴트' 페르소나에 갇혔습니다. RLHF 평가자들이 느낌표 개수나 사실 정확성처럼 글쓰기의 본질과 무관한 기준으로 모델을 평가하고 있으며, 코딩처럼 정답이 있는 영역과 달리 '좋은 글'은 검증 가능한 보상 신호를 만들기 어렵습니다. Jasmine Sun은 Claude를 자신의 과거 작품과 자기 평가 노트로 훈련시켜 개인화된 편집 어시스턴트로 활용하는 방법이 현재 가장 효과적이라고 제안합니다."
+    },
+    {
+      "heading": "Tokenmaxxing: 생산성 측정의 새로운 함정",
+      "body": "OpenAI, Anthropic 등의 직원들이 AI 토큰 사용량 리더보드에서 경쟁하고 있으며, 최상위 사용자는 주당 2,100억 토큰(Wikipedia 33배 분량)을 소비합니다. Claude Code 최다 사용자는 월 15만 달러 이상을 지출 중입니다. 일부 기업에서는 토큰 사용량이 성과 평가에 반영되기 시작했지만, 이는 Goodhart의 법칙에 정면으로 충돌합니다. 1960년대 '코드 줄 수'로 프로그래머 생산성을 측정하려던 시도와 마찬가지로, 토큰 소비량은 실제 생산성과의 상관관계가 불분명합니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "The AI layoff narrative is part structural shift, part stock market theater",
+      "body": "Block's stock jumped 17% the day after announcing AI-framed layoffs, proving markets reward the narrative. But Block spent $68 million on a Jay-Z concert five months prior — hardly the behavior of a company forced into cuts by technological disruption. Meta's case is more credible: $135 billion in AI capex alongside headcount reduction represents a genuine conversion from labor costs to AI infrastructure costs. The distinction matters for policy — if layoffs are truly AI-driven, retraining programs and potentially unionization become urgent. If they're narrative-driven, the labor market disruption narrative is running ahead of reality."
+    },
+    {
+      "heading": "Post-training killed LLM creativity — and the labs know it",
+      "body": "GPT-2 and GPT-3 produced genuinely surprising, voice-rich text. RLHF and safety alignment trained that out of them. RLHF evaluators are grading writing on criteria like exclamation mark counts and factuality of fan fiction — fundamentally unsuitable rubrics. Sam Altman himself concedes that ChatGPT might only ever write 'a real poet's okay poem.' The core technical problem: good writing resists verifiable reward signals. Unlike code (which runs or doesn't), literary quality is subjective and ineffable. Companies won't invest the same resources in creative writing models as they do in coding agents because the economic incentives point elsewhere."
+    },
+    {
+      "heading": "Token leaderboards are the new 'lines of code' — and will fail for the same reasons",
+      "body": "Tech companies are creating internal leaderboards tracking employee AI token consumption. The top OpenAI employee used 210 billion tokens in seven days — roughly 33 Wikipedias. The top individual Claude Code user exceeded $150,000 in monthly spending. Goodhart's Law predicts the outcome: when token usage becomes a target, employees will game it. Some already are — one source speculated top leaderboard entries are people running side projects on company infrastructure. The practice is spreading to non-technical roles, where marketing professionals now have 'AI usage' sections in performance reviews."
+    }
+  ],
   "notable_quote_ko": {
-    "text": "",
-    "attribution": ""
+    "text": "프로그래밍 진척도를 코드 줄 수로 측정하는 것은 항공기 건조 진척도를 무게로 측정하는 것과 같습니다.",
+    "attribution": "Kevin Roose, citing early programming industry wisdom"
   },
   "notable_quote_en": {
-    "text": "",
-    "attribution": ""
+    "text": "Measuring programming progress by lines of code is like measuring aircraft building progress by weight.",
+    "attribution": "Kevin Roose, citing early programming industry wisdom"
   },
-  "keywords_ko": [],
-  "keywords_en": [],
-  "generated_at": "2026-03-22T15:26:07.182359"
+  "keywords_ko": ["AI 워싱", "대규모 해고", "LLM 글쓰기", "RLHF", "tokenmaxxing", "Goodhart의 법칙"],
+  "keywords_en": ["AI washing", "mass layoffs", "LLM creative writing", "RLHF", "tokenmaxxing", "Goodhart's Law"],
+  "generated_at": "2026-03-23T01:40:00.000000"
 }
