@@ -1,5 +1,40 @@
 [
   {
+    "slug": "2026-03-28-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "Anthropic, the Pentagon, and the Future of Autonomous Weapons",
+    "published": "2026-03-28T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-03-27-all-in-podcast",
+    "podcast": "All-In Podcast",
+    "category": "Politics / Geopolitics",
+    "title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
+    "published": "2026-03-27T20:03:00+00:00"
+  },
+  {
+    "slug": "2026-03-27-hard-fork",
+    "podcast": "Hard Fork",
+    "category": "AI / Tech",
+    "title": "The Ezra Klein Show: How Fast Will A.I. Agents Rip Through the Economy?",
+    "published": "2026-03-27T11:00:00+00:00"
+  },
+  {
+    "slug": "2026-03-27-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "The SpaceX and Tesla Playbook for Hard Tech Startups",
+    "published": "2026-03-27T10:00:00+00:00"
+  },
+  {
+    "slug": "2026-03-27-ezra-klein-show",
+    "podcast": "Ezra Klein Show",
+    "category": "Politics / Geopolitics",
+    "title": "Will Iran Break Trumpism?",
+    "published": "2026-03-27T09:00:00+00:00"
+  },
+  {
     "slug": "2026-03-26-all-in-podcast",
     "podcast": "All-In Podcast",
     "category": "Politics / Geopolitics",
