@@ -1,12 +1,17 @@
-"""Bilingual summary generation via Claude API."""
+"""Bilingual summary generation via LLM API (Claude / Gemini)."""
 
 import re
 import json
 import anthropic
+from google import genai
 
-from config import ANTHROPIC_API_KEY, CLAUDE_MODEL
+from config import (
+    ANTHROPIC_API_KEY, CLAUDE_MODEL,
+    GOOGLE_API_KEY, GEMINI_MODEL,
+)
 
-client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+_anthropic_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+_gemini_client = genai.Client(api_key=GOOGLE_API_KEY)
 
 SUMMARY_PROMPT = """You are a senior research analyst writing editorial briefings in the style of The Economist. Your audience is a busy professional who needs to understand not just WHAT was said, but WHY it matters.
 
@@ -97,35 +102,63 @@ BAD: "AI is going to change everything." (generic)
 GOOD: "The bond market isn't broken — it's pricing in a world where deficits matter again." (specific thesis)"""
 
 
-def summarize_episode(episode, transcript_text):
-    """Generate bilingual structured summary via Claude.
-
-    Returns dict matching the episode JSON schema.
-    """
-    # Truncate long transcripts to fit context window
+def _build_prompt(episode, transcript_text):
+    """Build the summary prompt with truncation if needed."""
     if len(transcript_text) > 80000:
         transcript_text = (
             transcript_text[:40000]
             + "\n\n[...middle section omitted for length...]\n\n"
             + transcript_text[-40000:]
         )
-
-    response = client.messages.create(
-        model=CLAUDE_MODEL,
-        max_tokens=8000,
-        messages=[{
-            "role": "user",
-            "content": SUMMARY_PROMPT.format(
-                podcast=episode["podcast"],
-                category=episode["category"],
-                title=episode["title"],
-                published=episode["published"],
-                transcript=transcript_text,
-            ),
-        }],
+    return SUMMARY_PROMPT.format(
+        podcast=episode["podcast"],
+        category=episode["category"],
+        title=episode["title"],
+        published=episode["published"],
+        transcript=transcript_text,
     )
 
-    raw = response.content[0].text
+
+def _summarize_claude(prompt, model=None):
+    """Call Claude API and return raw text."""
+    response = _anthropic_client.messages.create(
+        model=model or CLAUDE_MODEL,
+        max_tokens=8000,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    return response.content[0].text
+
+
+def _summarize_gemini(prompt, model=None):
+    """Call Gemini API and return raw text."""
+    response = _gemini_client.models.generate_content(
+        model=model or GEMINI_MODEL,
+        contents=prompt,
+        config=genai.types.GenerateContentConfig(
+            max_output_tokens=8000,
+            response_mime_type="application/json",
+        ),
+    )
+    return response.text
+
+
+PROVIDERS = {
+    "claude": _summarize_claude,
+    "gemini": _summarize_gemini,
+}
+
+
+def summarize_episode(episode, transcript_text, provider="claude", model=None):
+    """Generate bilingual structured summary via LLM.
+
+    Args:
+        provider: "claude" or "gemini"
+        model: override the default model for the provider
+    Returns dict matching the episode JSON schema.
+    """
+    prompt = _build_prompt(episode, transcript_text)
+    fn = PROVIDERS[provider]
+    raw = fn(prompt, model=model)
     return _parse_summary(raw)
 
 
