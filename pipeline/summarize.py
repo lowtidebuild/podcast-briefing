@@ -11,7 +11,14 @@ from config import (
 )
 
 _anthropic_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-_gemini_client = genai.Client(api_key=GOOGLE_API_KEY)
+_gemini_client = None
+
+
+def _get_gemini_client():
+    global _gemini_client
+    if _gemini_client is None:
+        _gemini_client = genai.Client(api_key=GOOGLE_API_KEY)
+    return _gemini_client
 
 SUMMARY_PROMPT = """You are a senior research analyst writing editorial briefings in the style of The Economist. Your audience is a busy professional who needs to understand not just WHAT was said, but WHY it matters.
 
@@ -131,7 +138,8 @@ def _summarize_claude(prompt, model=None):
 
 def _summarize_gemini(prompt, model=None):
     """Call Gemini API and return raw text."""
-    response = _gemini_client.models.generate_content(
+    client = _get_gemini_client()
+    response = client.models.generate_content(
         model=model or GEMINI_MODEL,
         contents=prompt,
         config=genai.types.GenerateContentConfig(
@@ -148,39 +156,61 @@ PROVIDERS = {
 }
 
 
-def summarize_episode(episode, transcript_text, provider="claude", model=None):
+def summarize_episode(episode, transcript_text, provider="claude", model=None,
+                      max_retries=2):
     """Generate bilingual structured summary via LLM.
 
     Args:
         provider: "claude" or "gemini"
         model: override the default model for the provider
+        max_retries: number of retries on JSON parse failure
     Returns dict matching the episode JSON schema.
     """
     prompt = _build_prompt(episode, transcript_text)
     fn = PROVIDERS[provider]
-    raw = fn(prompt, model=model)
-    return _parse_summary(raw)
+
+    for attempt in range(1 + max_retries):
+        raw = fn(prompt, model=model)
+        result = _parse_summary(raw)
+        if result is not None:
+            return result
+        if attempt < max_retries:
+            print(f"    Retrying summary ({attempt + 1}/{max_retries})...")
+
+    # All retries exhausted — return fallback with raw text
+    print(f"    Error: All {1 + max_retries} summary attempts failed to produce valid JSON")
+    return {
+        "guest": None,
+        "summary_ko": "",
+        "summary_en": "",
+        "key_points_ko": [],
+        "key_points_en": [],
+        "notable_quote_ko": {"text": "", "attribution": ""},
+        "notable_quote_en": {"text": "", "attribution": ""},
+        "keywords_ko": [],
+        "keywords_en": [],
+    }
 
 
 def _parse_summary(text):
-    """Parse Claude's JSON output into summary dict."""
-    # Strip any markdown code fences if present
+    """Parse LLM JSON output into summary dict. Returns None on failure."""
     text = text.strip()
     text = re.sub(r'^```(?:json)?\s*', '', text)
     text = re.sub(r'\s*```$', '', text)
 
+    # Try parsing directly
     try:
         return json.loads(text)
-    except json.JSONDecodeError as e:
-        print(f"    Warning: Failed to parse summary JSON: {e}")
-        return {
-            "guest": None,
-            "summary_ko": text[:500],
-            "summary_en": "",
-            "key_points_ko": [],
-            "key_points_en": [],
-            "notable_quote_ko": {"text": "", "attribution": ""},
-            "notable_quote_en": {"text": "", "attribution": ""},
-            "keywords_ko": [],
-            "keywords_en": [],
-        }
+    except json.JSONDecodeError:
+        pass
+
+    # Try extracting JSON object if LLM added surrounding text
+    match = re.search(r'\{[\s\S]*\}', text)
+    if match:
+        try:
+            return json.loads(match.group())
+        except json.JSONDecodeError:
+            pass
+
+    print(f"    Warning: Failed to parse summary JSON")
+    return None
