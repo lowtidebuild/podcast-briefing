@@ -25,6 +25,6 @@ WHISPER_MODEL = "whisper-1"
 MAX_AUDIO_SIZE_MB = 25
 
 # Feed limits
-MAX_ENTRIES_PER_FEED = 1
+MAX_ENTRIES_PER_FEED = 2
 MIN_EPISODE_DURATION_SEC = 600  # Skip episodes shorter than 10 min
 MAX_FEED_INDEX_SIZE = 50

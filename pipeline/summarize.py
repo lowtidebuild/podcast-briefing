@@ -3,12 +3,8 @@
 import re
 import json
 import anthropic
-from google import genai
 
-from config import (
-    ANTHROPIC_API_KEY, CLAUDE_MODEL,
-    GOOGLE_API_KEY, GEMINI_MODEL,
-)
+from config import ANTHROPIC_API_KEY, CLAUDE_MODEL
 
 _anthropic_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 _gemini_client = None
@@ -17,7 +13,9 @@ _gemini_client = None
 def _get_gemini_client():
     global _gemini_client
     if _gemini_client is None:
-        _gemini_client = genai.Client(api_key=GOOGLE_API_KEY)
+        from google import genai as _genai
+        from config import GOOGLE_API_KEY
+        _gemini_client = _genai.Client(api_key=GOOGLE_API_KEY)
     return _gemini_client
 
 SUMMARY_PROMPT = """You are a senior research analyst writing editorial briefings in the style of The Economist. Your audience is a busy professional who needs to understand not just WHAT was said, but WHY it matters.
@@ -138,9 +136,11 @@ def _summarize_claude(prompt, model=None):
 
 def _summarize_gemini(prompt, model=None):
     """Call Gemini API and return raw text."""
+    from google import genai
+    from config import GEMINI_MODEL as _default_model
     client = _get_gemini_client()
     response = client.models.generate_content(
-        model=model or GEMINI_MODEL,
+        model=model or _default_model,
         contents=prompt,
         config=genai.types.GenerateContentConfig(
             max_output_tokens=8000,
