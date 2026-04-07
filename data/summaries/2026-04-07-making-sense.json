@@ -1,0 +1,77 @@
+{
+  "id": "deb33bbd-ae10-4bb5-812f-f2cef1a1e4d3",
+  "slug": "2026-04-07-making-sense",
+  "podcast": "Making Sense",
+  "category": "Philosophy / AI Ethics",
+  "title": "#468 — More From Sam: Gratitude, Bad Conversations, Conspiracy Addiction, Waffle House Teleportation, and More",
+  "published": "2026-04-07T17:55:00+00:00",
+  "link": "https://wakingup.libsyn.com/468-more-from-sam-gratitude-bad-conversations-conspiracy-addiction-waffle-house-teleportation-and-more",
+  "podcast_url": "https://www.samharris.org/podcasts",
+  "guest": {
+    "name": null,
+    "title": "Hosts-only episode — Sam Harris in conversation with a moderator"
+  },
+  "summary_ko": "AI로 인한 대규모 실업, 음모론 중독, 그리고 무책임한 미디어 생태계가 동시에 진행되는 시대에, Sam Harris는 단순한 사회 비평을 넘어 하나의 통합된 진단을 제시합니다: 우리를 망가뜨리는 것은 나쁜 정보 자체가 아니라, 정보 소비 방식에 대한 훈련의 부재입니다.\n\nHarris의 핵심 주장은 두 층위로 구성됩니다. 첫째, AI로 인한 일자리 소멸은 '행복한 이야기(happy talk)'로 회피할 수 없는 구조적 현실이며, 사회 차원의 해법 없이 개인이 감당할 수 없는 규모로 도래할 것입니다. 둘째, Joe Rogan과 같은 수억 명의 청중을 가진 인플루언서들이 음모론을 '그냥 재미로' 유포하는 행위는 단순한 무책임이 아니라 그 결과를 고려할 때 '악의 한 종류(a species of evil)'라고 명확히 규정합니다. Brett Weinstein이 백신으로 1,700만 명이 사망했다는 주장을 Rogan 앞에서 펼쳤을 때, Harris가 ChatGPT로 팩트체크한 결과를 직접 Rogan에게 전송했으나 Rogan은 이를 무시했다는 일화는 이 생태계가 얼마나 교정 불가능한지를 보여줍니다.\n\n마음챙김(mindfulness)에 관한 논의는 자기계발적 충고처럼 들릴 수 있지만, Harris는 이를 AI 불안에 대한 유일하게 실용적인 대응으로 위치시킵니다. 행동이 필요한 순간에는 행동하고, 그렇지 않은 순간의 고통은 잉여라는 논리는 수술 대기 14일, 혹은 일자리가 사라지기까지의 유예 기간 모두에 동일하게 적용됩니다. 다만 이 처방은 이미 mindfulness 훈련을 갖춘 사람에게만 실질적으로 유효하다는 점에서, 당장 구직 중인 paralegal이나 junior lawyer에게는 다소 공허하게 들릴 수 있습니다.\n\n가장 광범위한 함의는 미디어 생태계에 있습니다. Harris는 기존 기관들의 신뢰 상실이 음모론 팟캐스트의 면죄부가 될 수 없다고 주장합니다. 해독제는 더 좋은 과학과 더 진지한 저널리즘이며, 의심의 포르노그래피(pornography of doubt)의 확산은 실제로 사람들을 죽이고 있다는 것이 그의 결론입니다. 이는 Rogan, Elon Musk처럼 수천만~수억 명의 청중을 가진 이들에게 직접적인 책임을 묻는 주장입니다.",
+  "summary_en": "Sam Harris's central claim in this episode is uncomfortable precisely because it resists easy partisanship: the forces most corroding Western epistemic culture — conspiracy-addicted mega-podcasters, reflexive contrarianism, and the 'pornography of doubt' — constitute, in his words, 'a species of evil' whose perpetrators are often personally decent people who simply believe they are playing a game with no stakes.\n\nThe argument runs on two parallel tracks. On AI displacement, Harris rejects the 'new jobs will emerge' analogy to previous technological revolutions as 'happy talk,' predicting structural unemployment at a scale only solvable at the societal level. His practical advice — make AI your collaborator — is sound for knowledge workers with expertise and taste, but he concedes it offers little to paralegals, junior lawyers, or recent graduates who lack the domain authority to direct AI tools effectively.\n\nOn the misinformation ecosystem, Harris is at his most specific and most damning. He describes sending Joe Rogan a ChatGPT fact-check of Brett Weinstein's claim that 17 million people were killed outright by COVID vaccines — Rogan ignored it. He frames this not as a failure of intelligence but of incentive structure: Rogan and Theo Vaughn lighting conspiratorial matches on an audience they spent years soaking in gasoline. The scale is the offense; what was merely irresponsible at thousands of listeners becomes genuinely dangerous at tens of millions.\n\nThe mindfulness framework Harris applies to AI job anxiety is intellectually coherent — suffering is always 'extra,' whether before surgery or unemployment — but functions as a privileged-position prescription. It works best for those who already have a practice, which is precisely not the audience most vulnerable to disruption. His refusal to platform figures like Hasan Piker or RFK Jr. is defensible on asymmetric-warfare grounds (it is easier to create confusion than to dispel it), but the subscriber question he half-concedes is valid: Harris's demonstrated strength has always been modelling rigorous engagement under pressure, and retreating to the echo-chamber of agreement forfeits that comparative advantage.",
+  "key_points_ko": [
+    {
+      "heading": "AI 일자리 소멸은 '행복한 이야기'로 피할 수 없는 구조적 전환이다",
+      "body": "Harris는 AI가 기존 기술 혁명처럼 새로운 일자리를 창출할 것이라는 낙관론을 명확히 '행복한 이야기(happy talk)'로 일축합니다. 그의 진단은 생산성 향상이 근로자의 생산성 증가로 이어지지 않고, AI가 직접 그 역할을 대체하는 '일자리 소멸(job cancellation)' 시나리오입니다. Paralegal, junior lawyer, 행정 조정 업무 종사자들은 이미 이 압박을 체감하고 있습니다. 개인 차원의 대응책(AI를 친구로 삼아라)은 전문성과 판단력을 갖춘 사람에게는 유효하지만, 그 조언을 실행할 기반이 없는 구직자에게는 공허하며, Harris 스스로도 이 간극을 인정합니다."
+    },
+    {
+      "heading": "Rogan식 음모론 유포는 규모가 커지면 개인의 선의와 무관하게 악이 된다",
+      "body": "Harris는 Joe Rogan과 Theo Vaughn이 CIA 음모론 영상을 검증 없이 수천만 청중에게 방영하는 행위를 '수년간 가솔린에 흠뻑 적신 땅에 성냥을 던지는 것'으로 묘사합니다. 결정적인 사례는 Brett Weinstein의 백신 1,700만 명 사망 주장입니다. Harris가 ChatGPT 팩트체크 결과를 직접 Rogan에게 전달했음에도 Rogan은 이를 무시했습니다. Harris의 핵심 윤리적 명제는, 수억 명의 청중을 가진 인플루언서가 '그냥 재미로' 음모론을 유통하는 것은 결과의 규모상 악의 범주에 들어간다는 것입니다. Rogan, Elon Musk 등이 이에 해당하며, 이는 개인의 악의가 아닌 구조적 무책임의 문제입니다."
+    },
+    {
+      "heading": "'나쁜 대화를 피하는 것'은 지적 회피가 아니라 비대칭 전쟁에 대한 합리적 대응이다",
+      "body": "Harris는 Hasan Piker, RFK Jr., Brett Weinstein과의 토론을 거부하는 이유를 명확히 밝힙니다: 혼란을 만드는 것이 혼란을 정리하는 것보다 비교할 수 없이 쉽기 때문입니다. 특히 Brett Weinstein처럼 외형적으로 차분하고 합리적으로 보이면서 동시에 검증 불가한 주장을 확신에 차 구사하는 상대방은 실시간 팩트체크가 불가능한 팟캐스트 형식에서 특히 위험합니다. 다만 Harris가 절반쯤 인정하듯, 이는 그의 가장 강력한 비교 우위인 '압박 속 엄밀한 토론 모델링'을 스스로 포기하는 결과를 낳으며, Ben Shapiro와의 예정된 대화가 이 균형을 되찾을 수 있는지가 관건입니다."
+    },
+    {
+      "heading": "Mindfulness는 AI 불안에 대한 처방이지만, 이미 훈련된 자에게만 실효성이 있다",
+      "body": "Harris는 mindfulness를 AI 시대의 불안에 대한 유일하게 실용적인 대응으로 제시합니다. 논리는 명확합니다: 행동이 요구되는 순간에는 행동하고, 그렇지 않은 순간의 고통은 상황을 개선하지 않으므로 '잉여'입니다. 수술 대기 14일, 혹은 AI로 인한 일자리 상실 앞에서의 불안 모두 동일한 구조입니다. 그러나 이 처방의 결정적 약점은 Harris 자신도 인정합니다: mindfulness 훈련이 없으면 생각에 '완전히 인질로 잡힌(mere hostage)' 상태가 되며, 이 훈련은 위기가 오기 전에 쌓아야 합니다. 당장 구직 중인 paralegal에게 이 조언은 도착이 늦은 처방전입니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "AI job displacement is structural, not cyclical — and society, not individuals, must absorb it",
+      "body": "Harris explicitly rejects the historical analogy that technological disruption always creates equivalent new employment, calling it 'happy talk.' His model is one of direct job cancellation: AI performs the work, productivity gains do not flow to workers, and the delta between disruption and recovery must be absorbed at a societal level. His individual prescription — make AI your collaborator — is valid for knowledge workers with domain expertise, but he concedes it is nearly useless for the paralegal, junior lawyer, or recent graduate who lacks the experiential authority to direct AI tools. The honest implication is that the most vulnerable workers have no individual escape route from the transition."
+    },
+    {
+      "heading": "Rogan's conspiratorial entertainment is a species of evil precisely because the perpetrators are decent people who think the stakes are zero",
+      "body": "Harris's most analytically precise charge is not that Joe Rogan is malicious but that benign intent provides no moral insulation when audience scale transforms entertainment into an epistemically combustible act. The concrete evidence: Harris sent Rogan a ChatGPT fact-check of Brett Weinstein's claim that COVID vaccines killed 17 million people outright — Rogan ignored it. The 'just asking questions' routine Harris describes Rogan and Theo Vaughn performing around CIA conspiracy theories reaches tens of millions of listeners who treat the podcast as a trusted information source. Harris's ethical framework here is consequentialist: the tennis game analogy — if every point lost caused deaths, the game's rules would change — applies directly to Rogan, Musk, and anyone commanding audiences in the hundreds of millions."
+    },
+    {
+      "heading": "Refusing bad-faith debates is rational asymmetric warfare, not intellectual retreat — but it forfeits Harris's strongest comparative advantage",
+      "body": "Harris's case for avoiding Hasan Piker, RFK Jr., and Brett Weinstein rests on a sound asymmetry: generating confusion is categorically easier than resolving it in real time. Weinstein is particularly dangerous by this logic — he delivers factually indefensible claims with the affect of a measured academic, which is maximally confusing in a podcast format without pause for verification. The counterargument Harris half-concedes, surfaced by a subscriber question, is that his demonstrated strength has always been modelling rigorous engagement under pressure — the early religion debates are the evidence. His planned conversation with Ben Shapiro, where he anticipates genuine friction over Trump and American politics, is the test case for whether selective engagement can recover that function."
+    },
+    {
+      "heading": "Mindfulness is the only scalable response to AI anxiety — but it is a prescription that arrives too late for the most exposed workers",
+      "body": "Harris frames mindfulness not as wellness advice but as the only cognitive technology that allows a person to separate the decision (what must be done) from the suffering (which adds nothing to executing the decision). The logic holds across contexts: a surgery scheduled in 14 days, a job made redundant by AI, a career pivot forced by structural displacement. The critical limitation, which Harris acknowledges, is that without prior practice, the mind remains a 'hostage' to anxiety — and the training must precede the emergency to be useful. For a paralegal currently searching for work in an AI-disrupted market, the prescription is technically correct and practically inaccessible, which is the unresolved tension at the center of his argument."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "이것은 악의 한 종류입니다. 우리 사회에서 무엇이 문제인지의 목록 최상단에 있습니다. 실제 문제들을 해결하지 못하게 막는 바로 그것입니다. 의심할 여지 없이 사람들을 죽이고 있고 앞으로도 계속 죽일 것입니다. 그리고 이 모든 것에 참여하는 사람들 중 많은 이들은 그냥 재미있게 즐기고 있는 좋은 사람들입니다.",
+    "attribution": "Sam Harris, Philosopher and Podcast Host"
+  },
+  "notable_quote_en": {
+    "text": "It is a species of evil. It is at the top of the list of what ails us in our society. It is the thing that is preventing us from solving real problems in this world. There's no question it is getting people killed and will continue to get people killed. And yet many of the people participating in this are just good guys who are just having fun.",
+    "attribution": "Sam Harris, Philosopher and Podcast Host"
+  },
+  "keywords_ko": [
+    "인식론적 책임",
+    "AI 일자리 소멸",
+    "음모론 중독",
+    "인지 기술로서의 mindfulness",
+    "비대칭 토론 전략",
+    "대규모 허위정보"
+  ],
+  "keywords_en": [
+    "epistemic responsibility",
+    "AI displacement",
+    "conspiracy addiction",
+    "mindfulness as cognitive technology",
+    "asymmetric debate warfare",
+    "misinformation at scale"
+  ],
+  "generated_at": "2026-04-07T23:30:18.429162"
+}

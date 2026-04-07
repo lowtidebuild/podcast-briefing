@@ -1,0 +1,77 @@
+{
+  "id": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/v6BQkboTz4LM/v7.mp3",
+  "slug": "2026-04-06-odd-lots",
+  "podcast": "Odd Lots",
+  "category": "Macro / Markets",
+  "title": "Odd Lots: Gina Raimondo on How European Industry Is Getting Crushed (Podcast)",
+  "published": "2026-04-06T08:00:00+00:00",
+  "link": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/v6BQkboTz4LM/v7.mp3",
+  "podcast_url": "https://www.bloomberg.com/oddlots",
+  "guest": {
+    "name": "Gina Raimondo",
+    "title": "Distinguished Fellow, Council on Foreign Relations; Former U.S. Secretary of Commerce; Former Governor of Rhode Island"
+  },
+  "summary_ko": "미국의 대중국 전략에서 가장 치명적인 실수는 기술 격차나 반도체 자급률이 아니다. Gina Raimondo의 핵심 주장은 명확하다: 동맹국을 소외시키는 것 자체가 중국에 대한 최대의 양보다. 중국은 홀로 상대하기엔 너무 크고, 너무 집요하다. 그런데 현 행정부는 정확히 그 실수를 반복하고 있다.\n\n유럽 산업의 붕괴는 이 논리의 가장 가시적인 피해다. 중국산 수입품이 올해 들어 유럽에 20~30% 급증했다. 이는 미국의 관세 정책으로 인해 중국의 수출 물량이 유럽으로 전환된 결과이며, 독일 화학·자동차 산업의 기반을 잠식하고 있다. Raimondo는 이를 '냄비 속 개구리' 현상으로 진단한다. 수십 년에 걸쳐 공급망이 조용히 허물어지듯, 유럽의 산업 기반도 소리 없이 무너지고 있다는 것이다. NATO 지출 논쟁이 주목을 독점하는 사이, 유럽의 기술 생태계와 제조업 경쟁력이라는 더 근본적인 문제는 방치되고 있다.\n\nChips Act의 성과는 그나마 희망적이지만, Raimondo 본인도 한계를 인정한다. 미국은 2030년까지 글로벌 첨단 반도체 생산의 20% 확보를 목표로 하고 있으며, Arizona의 TSMC 공장은 이 경로 위에 있다. 그러나 고급 패키징 공정은 여전히 Taiwan에 의존하고, 인쇄 회로 기판의 약 30%는 중국에서 수입된다. 반도체 공급망의 원자재와 화학 기판 대부분도 중국 및 아시아에서 조달된다. 즉, 칩을 Arizona에서 만들어도 공급망의 핵심 취약점은 해소되지 않는다.\n\nAI 전환의 사회적 충격은 Raimondo가 가장 긴 시간을 할애한 주제다. 그는 AI 혁신을 늦추는 것도, 대량 실업을 방치하는 것도 모두 '패배'라고 규정한다. AI 우위를 확보하면서도 시민적 혼란과 15% 실업률을 낳는다면, 그것은 기술 승리가 아니라 '미국의 쇠퇴를 자동화하는 것'이다. 해법으로는 실업급여 수급 중 창업 허용, 기업의 재배치 인센티브, AI 이익의 노동자 전환 투자 의무화 등 주·지방 정부 차원의 실험적 정책을 제안한다. 단, 구체적인 재원 조달 방식과 규모는 여전히 불분명하다는 점에서 이 논의는 아직 청사진 단계에 머물러 있다.",
+  "summary_en": "The most damaging element of America's China strategy is not a chip shortage or a technology gap — it is the systematic alienation of the allies without whom no effective competition with China is possible. That is Gina Raimondo's central argument, and it carries real weight coming from the architect of the CHIPS Act and the U.S. export control regime.\n\nThe consequences are already visible in Europe. Chinese imports into Europe have surged 20-30% year-to-date, a direct consequence of trade diversion triggered by U.S. tariff policy. Germany's chemical and automotive industrial base is absorbing the shock. Raimondo frames this as a slow-boil crisis: European policymakers fixate on NATO spending while the underlying industrial and technological foundation quietly erodes — mirroring exactly how America hollowed out its own supply chains over three decades before COVID made the vulnerability undeniable.\n\nOn semiconductors, Raimondo defends the CHIPS Act's trajectory — TSMC is producing leading-edge chips in Arizona, and the U.S. is on track for 20% of global advanced chip capacity by 2030 — but is candid about what remains unresolved. Advanced packaging still routes through Taiwan. Roughly 30% of printed circuit boards are imported from China. The chemicals and substrates underpinning chip fabrication remain heavily Asia-sourced. Achieving the chip in Arizona while losing the supply chain around it is a partial solution at best.\n\nOn AI, Raimondo advances her sharpest argument: winning the AI race requires winning the social transition, not just the technology race. Sky-high unemployment and civil unrest do not constitute victory — they constitute, in her phrase, 'automating America's decline.' Her proposed mechanisms — collecting unemployment insurance while starting a business, corporate redeployment incentives, state-level experimentation — are directionally compelling but still light on implementation specifics, a gap she acknowledges.",
+  "key_points_ko": [
+    {
+      "heading": "동맹 훼손이 곧 중국에 대한 전략적 양보다",
+      "body": "Raimondo는 현 행정부의 대중국 전략에서 가장 큰 실수로 '동맹국과의 관계 악화'를 꼽는다. 중국은 GDP 기준 세계 2위 경제권으로, 수출 통제나 기술 규제가 미국 단독으로는 효과를 낼 수 없다. 그는 상무장관 재임 시 반도체 수출 통제가 유럽·일본·한국 등 동맹국의 동참 없이는 반쪽짜리 조치에 불과하다는 점을 직접 경험했다고 밝혔다. 유럽 국가들이 트럼프 행정부에 반발해 중국에 접근하는 현실은, 전략적 오판이 정치적으로 어떻게 자기강화되는지를 보여주는 사례다. 그 결과는 미국의 약화이자, 역설적으로 중국의 반사이익이다."
+    },
+    {
+      "heading": "중국의 덤핑이 독일 산업을 조용히 해체하고 있다",
+      "body": "중국산 수입품의 유럽 유입이 올해 들어 20~30% 급증했다. 이는 미국의 관세 정책에 따른 수출 전환 효과이며, 중국이 보조금을 통해 제품을 글로벌 시장에 덤핑하는 오랜 전략의 반복이다. 독일의 화학·자동차 산업이 직격탄을 맞고 있지만, 국제 논의의 초점은 여전히 NATO 지출에 머물러 있다. Raimondo는 이를 '냄비 속 개구리'에 비유한다: 미국이 수십 년에 걸쳐 공급망을 방치하다 COVID로 취약성이 폭발했듯, 유럽의 산업 기반도 지금 같은 방식으로 서서히 잠식되고 있다. 유럽 경제의 약화는 미국의 동맹 네트워크 전체를 약화시킨다는 점에서, 이는 유럽만의 문제가 아니다."
+    },
+    {
+      "heading": "Chips Act는 방향은 맞았지만 공급망 전체를 커버하지 못한다",
+      "body": "TSMC의 Arizona 공장은 가동 중이며, 미국은 2030년까지 글로벌 첨단 반도체 생산의 20%를 목표로 순항하고 있다. 그러나 Raimondo 본인도 핵심 취약점을 인정한다: 고급 패키징 공정은 여전히 Taiwan에서 이루어지고, 인쇄 회로 기판의 약 30%는 중국산이며, 반도체 제조에 필요한 화학물질·기판 대부분은 중국 및 아시아에서 조달된다. 칩 자체를 미국에서 만들어도 공급망의 나머지 고리가 취약하면 안보 효과는 반감된다. Chips Act가 초당적 지지를 받아 행정부 교체에도 살아남은 반면, Inflation Reduction Act가 빠르게 후퇴한 것은 산업 정책의 지속성이 기술적 설계만큼이나 정치적 설계에 달려 있음을 보여준다."
+    },
+    {
+      "heading": "AI 전환의 사회적 충격을 방치하면 기술 우위가 무의미해진다",
+      "body": "Raimondo는 AI 혁신의 속도를 늦추는 것도, 대량 실업을 방치하는 것도 모두 패배라고 규정한다. 그의 표현을 빌리면, 세계 최고의 AI 모델을 보유하면서도 15% 실업률과 시민 불안을 낳는다면 그것은 '미국의 쇠퇴를 자동화하는 것'이다. 대기업 CEO들조차 대규모 즉각적 감원보다는 점진적 인력 재배치를 예상하고 있어 전환 시간은 존재하지만, 현재의 실업보험·직업 재교육 시스템은 고소득 화이트칼라 노동자의 전환을 지원하도록 설계되어 있지 않다. Raimondo는 실업급여 수급 중 창업 허용, 기업의 재배치 인센티브 등 주·지방 수준의 실험적 정책을 제안하지만, 재원 규모와 조달 방식은 구체화되지 않았다는 점이 이 논의의 한계로 남는다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Alienating allies is America's single biggest strategic gift to China",
+      "body": "Raimondo identifies the current administration's treatment of allies — not any technology shortfall — as the primary vulnerability in the U.S.-China competition. China's economy is simply too large and too determined to be contained unilaterally: export controls on semiconductors only work if Japan, the Netherlands, and European partners enforce equivalent restrictions. She observed this dynamic firsthand as Commerce Secretary. The political logic of European leaders drifting toward China — reacting to Trump's public hostility while Xi Jinping stays silent on Europe — is understandable but self-destructive, and Raimondo doesn't spare them the criticism. The net result is a weaker Western coalition, which is precisely what Beijing's strategy is designed to produce."
+    },
+    {
+      "heading": "Chinese dumping is quietly dismantling German industry while Europe debates NATO budgets",
+      "body": "Chinese exports into Europe surged 20-30% year-to-date, a predictable consequence of U.S. tariff policy diverting Chinese supply. Germany's chemical and automotive sectors — the backbone of European industrial identity — are absorbing the impact. Raimondo's 'boiling frog' diagnosis is apt: America spent three decades ignoring supply chain atrophy until COVID forced a reckoning; Europe risks the same trajectory with its industrial base. The danger is compounded by the fact that political attention remains monopolized by NATO defense spending, leaving the underlying economic erosion largely unaddressed at the policy level."
+    },
+    {
+      "heading": "The CHIPS Act is on track, but chip independence is an illusion without supply chain depth",
+      "body": "TSMC's Arizona facility is producing leading-edge chips comparable to its Taiwan operations, and the U.S. is on course for 20% of global advanced chip capacity by 2030 — a genuine achievement. But Raimondo is direct about what remains unresolved: advanced packaging still flows through Taiwan, approximately 30% of printed circuit boards are imported from China, and the chemicals and substrates underpinning fabrication remain heavily Asia-sourced. Producing the chip while importing the ecosystem around it is a partial hedge, not a strategic solution. The Act's survival across administrations — unlike the Inflation Reduction Act — validates her core lesson: industrial policy requires bipartisan architecture from the start, not just bipartisan votes at the finish."
+    },
+    {
+      "heading": "Winning the AI race requires winning the social transition — not just the technology race",
+      "body": "Raimondo's sharpest argument is that AI supremacy paired with mass unemployment and civil unrest is not victory — it is, in her words, 'automating America's decline.' The current incentive structure pushes companies toward immediate workforce cuts to maximize short-term share price, but agents without income don't buy products, which ultimately undermines the companies doing the cutting. She points to a genuine window: large enterprises are still mid-cloud-migration, meaning mass displacement is years away rather than imminent. Her proposed interventions — collecting unemployment insurance while starting a business, corporate redeployment incentives, state-level experimentation — are directionally sound but remain underspecified on funding mechanism and scale, which is the critical gap between diagnosis and policy."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "세계 최고의 모델, 최고의 칩, 최대의 데이터 센터를 보유하고 있어도, 하늘 높이 치솟는 실업률에 전환 시스템 하나 없다면 그건 이기는 게 아닙니다. 미국의 쇠퇴를 자동화하는 것입니다.",
+    "attribution": "Gina Raimondo, Distinguished Fellow, Council on Foreign Relations; Former U.S. Secretary of Commerce"
+  },
+  "notable_quote_en": {
+    "text": "Even if all we have is the best models, the best chips, the biggest data centers, but sky-high unemployment and no transition system, that's not winning. That's automating America's decline.",
+    "attribution": "Gina Raimondo, Distinguished Fellow, Council on Foreign Relations; Former U.S. Secretary of Commerce"
+  },
+  "keywords_ko": [
+    "동맹 분열",
+    "CHIPS Act",
+    "중국 산업 덤핑",
+    "AI 노동 전환",
+    "반도체 공급망",
+    "수출 통제"
+  ],
+  "keywords_en": [
+    "ally fragmentation",
+    "CHIPS Act",
+    "Chinese industrial dumping",
+    "AI labor transition",
+    "semiconductor supply chain",
+    "export controls"
+  ],
+  "generated_at": "2026-04-07T22:33:14.403045"
+}

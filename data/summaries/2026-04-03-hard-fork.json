@@ -1,0 +1,85 @@
+{
+  "id": "82d7600c-cde8-4cb0-8f45-c04fcccbd73a",
+  "slug": "2026-04-03-hard-fork",
+  "podcast": "Hard Fork",
+  "category": "AI / Tech",
+  "title": "The Future of Addictive Design + Going Deep at DeepMind + HatGPT",
+  "published": "2026-04-03T11:00:00+00:00",
+  "link": "https://www.nytimes.com/column/hard-fork",
+  "podcast_url": "https://www.nytimes.com/column/hard-fork",
+  "guest": {
+    "name": "Sebastian Mallaby",
+    "title": "Author, The Infinity Machine; Senior Fellow, Council on Foreign Relations"
+  },
+  "summary_ko": "소셜 미디어 플랫폼이 30년간 의존해온 법적 방어막이 처음으로 무너졌습니다. Los Angeles와 New Mexico 배심원단이 각각 Meta와 YouTube에 불리한 평결을 내리며 총 3억 8,100만 달러의 배상을 명령했습니다. 이 사건들이 단순한 명예훼손이나 콘텐츠 소송이 아니라는 점이 핵심입니다. 원고 측 변호인들은 Section 230의 보호를 우회하는 전혀 다른 법리를 채택했습니다. 제품 결함 이론, 즉 무한 스크롤, 자동 재생, 심야 푸시 알림, 개인 맞춤형 추천 알고리즘 같은 설계 자체가 결함 있는 제품을 구성한다는 주장입니다. 담배 소송의 플레이북을 그대로 차용한 이 전략은, 회사가 내부적으로 피해를 인지하고도 기능을 유지하거나 강화했다는 증거를 핵심 무기로 삼습니다. Francis Haugen이 유출한 Meta 내부 연구가 이를 뒷받침했습니다.\n\n그러나 이 법리에는 균열도 존재합니다. 무한 스크롤이나 추천 알고리즘이 니코틴처럼 플랫폼에 상관없이 범용적 중독성을 만들어낸다면, 동일한 기능을 도입한 모든 앱이 유사한 성장을 보여야 합니다. 하지만 OpenAI의 Sora처럼 동일한 설계를 차용하고도 실패한 사례는 이 주장을 흔듭니다. 이는 중독성이 기능 자체보다는 수억 명의 사용자가 만들어내는 콘텐츠의 규모, 즉 컨테이너가 아닌 내용물에서 비롯된다는 반론으로 이어집니다.\n\n가장 위험한 부수적 결과는 암호화입니다. New Mexico 소송은 Meta의 종단간 암호화 메시징을 아동 안전 위협의 근거로 활용했고, Meta는 선제적으로 Instagram의 암호화 기능을 제거했습니다. 개인 정보 보호의 근간인 암호화가 소송 리스크 회피를 위해 희생되는 선례가 될 수 있습니다.\n\n한편 Sebastian Mallaby는 Google DeepMind CEO Demis Hassabis의 전기 《The Infinity Machine》을 통해, AGI 경쟁의 핵심 인물이 어떻게 경쟁적 야망과 안전에 대한 진정한 신념 사이에서 타협해왔는지를 보여줍니다. 2016~2019년 DeepMind가 Google로부터 독립을 시도했던 'Project Mario', Reid Hoffman의 10억 달러 약정, Sergey Brin과의 내부 긴장이 처음으로 상세히 공개됩니다. Demis가 군사 계약에 반대하던 입장을 철회한 것은 단순한 성숙이 아니라, 경쟁 환경에서 어느 한 lab이 선을 그으면 다른 lab이 즉각 그 자리를 채운다는 냉혹한 현실의 반영입니다.",
+  "summary_en": "Two jury verdicts — $6 million against Meta and YouTube in Los Angeles, $375 million against Meta in New Mexico — represent the first successful breach of the legal fortress that has protected social media companies for three decades. What makes these cases structurally different from prior litigation is the theory of harm: plaintiffs argued not that specific content injured them, but that the platform's design — infinite scroll, autoplay video, late-night push notifications, personalized recommendation algorithms — constitutes a defective product. This is the tobacco litigation playbook applied to tech, and it worked because juries proved sympathetic to the framing that Meta's own internal research (surfaced via the Francis Haugen leaks) showed awareness of harm without remediation.\n\nThe argument has a notable weakness. If infinite scroll and recommendation algorithms are addictively dangerous in the manner of nicotine, every app deploying those mechanics should see similar engagement lifts. OpenAI's Sora, which copied TikTok's playbook and failed, undermines the mechanical-addiction thesis. The more defensible position is that harm scales with network size — the content supply created by hundreds of millions of users is what makes Meta's platforms genuinely difficult to escape, which collapses the distinction between design and content that the entire legal theory depends on.\n\nThe most dangerous collateral casualty is encryption. New Mexico's attorney general argued that Meta's end-to-end encrypted messaging made its platform unsafe for children; Meta preemptively removed the feature from Instagram. If this precedent holds, litigation risk becomes a mechanism for governments to dismantle private communications infrastructure without passing a single law.\n\nSebastian Mallaby's portrait of Demis Hassabis reveals a figure whose early idealism — one lab, no race dynamic, deliberate safety — was systematically dismantled by competitive reality. Project Mario, DeepMind's 2016–2019 attempt to spin out of Google with Reid Hoffman's $1 billion pledge, collapsed through Sundar Pichai's deliberate stalling. Demis's retreat from his ban on military contracts follows the same logic: unilateral restraint cedes ground to less cautious competitors.",
+  "key_points_ko": [
+    {
+      "heading": "Section 230의 방어막이 처음으로 뚫렸다 — 설계 결함 이론의 등장",
+      "body": "30년간 소셜 미디어 플랫폼의 법적 면책 근거였던 Section 230은 사용자 게시 콘텐츠에 대한 플랫폼의 책임을 면제해왔습니다. 이번 소송들은 콘텐츠가 아닌 '설계'를 문제 삼음으로써 이 방어막을 우회했습니다. LA 배심원단은 무한 스크롤, 자동 재생, 뷰티 필터, 푸시 알림을 결함 있는 설계 요소로 판단했고, New Mexico 배심원단은 Meta가 소비자를 오도했다며 3억 7,500만 달러를 배상하라고 명령했습니다. 이는 담배 소송이 '니코틴 중독성'을 입증한 것처럼, 빅테크 소송에서 '중독적 설계'를 입증하는 새로운 법적 패러다임을 확립할 수 있습니다. 항소심 결과에 따라 수십억 달러 규모의 후속 소송이 줄을 이을 수 있습니다."
+    },
+    {
+      "heading": "암호화가 소송의 희생양이 될 수 있다",
+      "body": "New Mexico 소송의 가장 위험한 논리는 Meta의 종단간 암호화 메시징이 아동을 위험에 노출시킨다는 주장입니다. Meta는 소송 리스크를 선제 차단하기 위해 Instagram에서 암호화 기능을 제거했습니다. 이는 법원 판결이나 의회 입법 없이, 소송 압박만으로 프라이버시 인프라가 해체되는 경로를 보여줍니다. Casey Newton은 이를 이번 판결의 가장 우려스러운 부수 결과로 지목했습니다. 개인정보 보호와 아동 안전이 충돌하는 이 지점은, 향후 AI 챗봇 규제 논의에서도 반복될 구조적 갈등입니다."
+    },
+    {
+      "heading": "Demis Hassabis의 타협들 — AGI 경쟁의 냉혹한 현실",
+      "body": "Sebastian Mallaby의 취재에 따르면 Demis Hassabis는 2014년 Google에 DeepMind를 매각할 당시 군사적 활용을 명시적으로 금지하는 안전 윤리 위원회를 조건으로 요구했습니다. 그러나 현재 Google DeepMind는 Pentagon 계약을 보유하고 있습니다. 이 변화는 개인적 성숙이라기보다 경쟁 구조의 강제입니다. Anthropic이 군사 계약에 선을 그으면 OpenAI가 즉각 그 자리를 채우는 환경에서, 단독 자제는 시장 지위만 잃는 결과를 낳습니다. 이는 AGI 개발에서 자발적 안전 규범이 얼마나 취약한지를 보여주며, Demis가 정부 차원의 일괄 규제만이 유일한 해법이라고 주장하는 이유이기도 합니다."
+    },
+    {
+      "heading": "Project Mario — Google 내 DeepMind 독립 시도의 전말",
+      "body": "Mallaby가 내부 문서를 통해 처음 공개한 Project Mario는 2016~2019년 DeepMind가 Google로부터 독립적인 법인으로 분리되려 했던 시도입니다. Reid Hoffman은 10억 달러 투자를 약정했고, Joe Tsai(Alibaba 공동창업자)와의 협상도 진행됐습니다. 그러나 Sundar Pichai는 협상에 응하는 척하면서 실질적 진전을 계속 지연시켰고, 결국 DeepMind 팀은 소진되어 2019년 계획을 포기했습니다. 이 에피소드는 AI 시대 최대 기업 내부의 권력 역학을 드러냅니다. Sergey Brin이 공개 무대에서 Demis에게 도전하며 자리를 끼어드는 장면은 여전히 해소되지 않은 긴장의 표면 증상입니다."
+    },
+    {
+      "heading": "AI 챗봇이 소셜 미디어 소송의 다음 전선이 될 것이다",
+      "body": "Pew의 2025년 조사에 따르면 미국 십대의 64%가 AI 챗봇을 사용하며, 이 중 약 30%는 매일 사용합니다. 같은 기간 YouTube, TikTok, Instagram, Snapchat 사용률은 상대적으로 안정적이었습니다. 소셜 미디어 플랫폼보다 더 개인화되고 더 몰입적인 AI 챗봇은, 설계 결함 이론이 확립될 경우 그 다음 표적이 될 수밖에 없습니다. AI 챗봇과의 과도한 의존 관계, 자살을 조장하는 챗봇 관련 소송은 이미 진행 중입니다. 대형 AI labs가 의회에 선제적 규제 체계를 요청해야 할 이유가 여기에 있습니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Section 230's immunity has cracked — product liability theory is the wedge",
+      "body": "For thirty years, Section 230 of the Communications Decency Act has immunised platforms against liability for user-generated content. These verdicts circumvent that shield by targeting design rather than content: infinite scroll, autoplay video, beauty filters, and push notifications were adjudicated as defective product features in Los Angeles, while New Mexico's $375 million verdict rested on Meta misleading consumers about platform safety. The tobacco litigation analogy is deliberate and structurally apt — internal Meta research surfaced by Francis Haugen showed the company knew about harm and did not act. These are bellwether cases, meaning a successful appeal outcome could open the litigation floodgates across the industry."
+    },
+    {
+      "heading": "Encryption is the most dangerous collateral victim of this legal theory",
+      "body": "New Mexico's attorney general framed Meta's end-to-end encrypted messaging as evidence that the platform was unsafe for children. Meta preemptively removed the feature from Instagram before the verdict, signalling that litigation pressure alone — without legislation or court order — can dismantle privacy infrastructure. This is the narrowest but most alarming implication of the design-liability theory: if encryption becomes legally risky, platforms will drop it voluntarily to manage exposure. Casey Newton identifies this as the one outcome that should worry civil libertarians regardless of their sympathy for the underlying claims against social platforms."
+    },
+    {
+      "heading": "Demis Hassabis's idealism was structurally dismantled by competitive logic",
+      "body": "When DeepMind sold to Google in 2014, Demis negotiated explicit restrictions on military use — conditions serious enough that he turned down a higher offer from Facebook. Today Google DeepMind holds Pentagon contracts. Mallaby's reporting frames this not as personal corruption but as competitive inevitability: when Anthropic drew a red line on military use, OpenAI moved in immediately. Unilateral restraint in a multi-lab race simply cedes market position without improving safety outcomes. This is why Demis now argues that only government-imposed rules across all labs simultaneously can meaningfully constrain the technology — a position that requires a sympathetic administration he does not currently have."
+    },
+    {
+      "heading": "Project Mario reveals how Sundar Pichai retained DeepMind through strategic delay",
+      "body": "Between 2016 and 2019, DeepMind pursued a structured spin-out from Google under the codename Project Mario, with Reid Hoffman committing $1 billion in financing and negotiations reaching Alibaba co-founder Joe Tsai in Hong Kong. Mallaby obtained the board presentation DeepMind gave to Google — prompting a legal challenge from Demis's lawyers. Sundar Pichai's response was not refusal but attrition: expressing enthusiasm while producing successive red-lined term sheets until the DeepMind team exhausted itself and abandoned the effort in 2019. The episode illustrates that Alphabet's most strategically important asset was retained not through contractual lock-in but through procedural exhaustion."
+    },
+    {
+      "heading": "AI chatbots are the social media litigation playbook's next target",
+      "body": "A Pew survey conducted in 2025 found 64% of American teenagers use AI chatbots, with roughly three in ten using them daily — while usage of YouTube, TikTok, Instagram, and Snapchat remained stable. AI chatbots are more personalised and arguably more psychologically sticky than social feeds, making them a natural next frontier once the design-defect theory is legally established. Lawsuits involving chatbots that allegedly encouraged self-harm are already in progress. The implication for AI labs is concrete: proactively seeking a Congressional safety checklist — as Kevin Roose argues — is preferable to litigating jury verdicts on addictive design in five years."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "이 플랫폼들이 평결에 불만이 있다면, 나는 그들이 자초한 일이라고 진심으로 믿습니다. 전 세계 사회가 10년째 이 회사들에게 플랫폼을 더 안전하게 만들어달라고 요청해왔는데, 우리가 주로 목격한 것은 사람들이 더 오래 보게 만들기 위한 일련의 참여 해킹이었습니다.",
+    "attribution": "Casey Newton, Founder, Platformer"
+  },
+  "notable_quote_en": {
+    "text": "If the social media platforms are upset about the verdict here, I truly believe they brought this on themselves. Societies across the world have been begging these companies for a decade — please do something — and instead what we've mostly seen is a series of engagement hacks designed to get people to look at them longer.",
+    "attribution": "Casey Newton, Founder, Platformer"
+  },
+  "keywords_ko": [
+    "Section 230",
+    "제조물 책임",
+    "중독적 설계",
+    "DeepMind",
+    "AGI 경쟁",
+    "플랫폼 규제"
+  ],
+  "keywords_en": [
+    "Section 230",
+    "product liability",
+    "addictive design",
+    "DeepMind",
+    "AGI race",
+    "platform regulation"
+  ],
+  "generated_at": "2026-04-07T22:53:48.646030"
+}
