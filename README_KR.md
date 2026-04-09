@@ -183,6 +183,10 @@ python pipeline/main.py
     transcript_source: "whisper"
 ```
 
+## 라이선스
+
+[Apache License 2.0](LICENSE) 하에 배포됩니다.
+
 ---
 
 <div align="center">

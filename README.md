@@ -148,6 +148,10 @@ pip install -r requirements.txt
 python pipeline/main.py
 ```
 
+## License
+
+Licensed under the [Apache License, Version 2.0](LICENSE).
+
 ---
 
 <div align="center">
