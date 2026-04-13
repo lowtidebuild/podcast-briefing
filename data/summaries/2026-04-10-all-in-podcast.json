@@ -1,0 +1,85 @@
+{
+  "id": "f1ea8b73-bd46-4e52-b187-cc8462694399",
+  "slug": "2026-04-10-all-in-podcast",
+  "podcast": "All-In Podcast",
+  "category": "Politics / Geopolitics",
+  "title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
+  "published": "2026-04-10T22:17:00+00:00",
+  "link": "https://allinchamathjason.libsyn.com/anthropics-30b-ramp-mythos-doomsday-openclaw-ankled-iran-war-ceasefire-israels-influence",
+  "podcast_url": "https://www.allinpodcast.co",
+  "guest": {
+    "name": "Brad Gershner",
+    "title": "Founder & CEO, Altimeter Capital (guest host, replacing David Friedberg)"
+  },
+  "summary_ko": "AI 군비 경쟁이 실험실 단계를 넘어 실제 인프라 전쟁으로 전환되고 있습니다. Anthropic의 신모델 Mythos 비공개 결정, OpenClaw 접근 차단, 그리고 Anthropic의 $30B 연간 반복 매출 달성은 단순한 기업 뉴스가 아니라 AI 산업의 권력 구조가 재편되고 있다는 신호입니다.\n\nAnthropic이 Mythos를 공개하지 않은 결정을 둘러싸고 패널의 의견이 엇갈렸습니다. Brad Gershner는 이를 시장 자율 규제의 모범 사례로 평가했고, David Sacks는 사이버 보안 위협만큼은 실제라며 조건부 신뢰를 보냈습니다. 반면 Chamath Palihapitiya는 이를 Dario Amodei가 GPT-2 시절부터 반복해온 공포 마케팅의 연장선으로 분석했습니다. 중요한 것은 세 사람 모두 이 전술이 효과적이라는 데 동의했다는 점입니다. Anthropic은 Apple, Microsoft, Google, JP Morgan 등 40개 기업을 포함한 'Project Glasswing'을 구성해 100일간 취약점 패치 작업을 진행합니다. 동시에 OpenClaw의 API 접근을 차단하고 자체 에이전트 기술을 출시함으로써 오픈소스 생태계의 산소를 차단하는 전략을 구사했습니다.\n\n매출 측면에서 Altimeter는 Anthropic과 OpenAI 양사에 수십억 달러를 투자했으며, Anthropic의 $130-150B 라운드 진입 기준으로 현재 5-7배 수익을 기록 중입니다. 추론 비용이 전년 대비 90% 하락하면서 총마진은 '매우 긍정적'으로 전환됐고, 2,500명의 인력으로 Google이 12만 명 시절 달성했던 매출 수준에 도달했습니다. Polymarket은 Anthropic의 IPO 전 $600B 이상 밸류에이션 가능성을 78%로 책정했습니다.\n\n이란 전쟁 섹션에서는 2주 휴전 합의와 JD Vance의 이슬라마바드 협상 파견이 다뤄졌습니다. 패널은 시장이 이미 이를 '단기 충격'으로 소화했다고 분석했으며(S&P·Nasdaq 최대 낙폭 5-7%), Netanyahu의 과도한 대미 영향력이 미국 내 반이스라엘 정서를 악화시키고 있다는 점에 공감대를 형성했습니다. Brad Gershner는 우크라이나, 베네수엘라, 쿠바에서의 동시 진행 협상이 성공할 경우 7월 4일 전후 시장이 강하게 반등할 수 있다는 낙관론을 제시했습니다.",
+  "summary_en": "Anthropic's decision to withhold its most capable model, Mythos, is the clearest signal yet that the AI industry has crossed a threshold where self-imposed restraint — not government regulation — is becoming the competitive norm. The episode's central argument, made most forcefully by Brad Gershner, is that AI model companies are no longer racing purely to release; they are now racing to harden, and that this shift is commercially rational, not altruistic.\n\nThe panel was divided on whether Anthropic's cybersecurity warnings are genuine or performative. Sacks acknowledged the threat as structurally credible — as coding models improve, their capacity to chain software vulnerabilities into novel exploits follows logically — while Palihapitiya dismissed it as a reprise of the GPT-2 scare tactic Dario Amodei pioneered at OpenAI in 2019. The more revealing data point: Anthropic simultaneously blocked OpenClaw's access to its $200/month subscription tier and launched its own competing agent product. Whether framed as rational pricing or anti-competitive bundling, the move illustrates that at 50%+ coding token market share, Anthropic is now playing defense as much as offense.\n\nOn financials, Gershner disclosed Altimeter holds billions in both Anthropic and OpenAI, with Anthropic entry at the $130-150B round implying a 5-7x unrealized return. Inference costs have fallen 90% year-over-year, pushing gross margins from deeply negative to an estimated 50-60%, a trajectory that suggests accidental profitability may arrive before anyone expects. Polymarket assigns a 78% probability that Anthropic's IPO values the company above $600B.\n\nThe Iran ceasefire discussion centered on a structural concern that transcends the immediate conflict: whether Netanyahu has acquired excessive influence over U.S. foreign policy. The market's verdict — an S&P drawdown of only 5-7% versus 15% for tariffs — suggests investors price Trump's stated 'get in and get out' doctrine as credible. If JD Vance lands a deal in Islamabad and Ukraine talks close simultaneously, Gershner argued markets could materially rally into July 4th.",
+  "key_points_ko": [
+    {
+      "heading": "Mythos 비공개는 규제 회피가 아니라 새로운 경쟁 전략이다",
+      "body": "Anthropic은 Mythos가 20년 이상 묵혀있던 취약점들을 자동으로 발굴하고 복수의 취약점을 연쇄 결합해 새로운 공격 벡터를 만들 수 있다고 밝혔습니다. Brad Gershner는 이를 정부 규제 없이 산업이 스스로 조율한 '시장 자율 규제의 교과서 사례'로 평가했으며, Apple·Microsoft·Google·JP Morgan 등 40개 기업으로 구성된 'Project Glasswing'이 100일간 취약점 패치에 집중합니다. David Sacks는 코딩 모델이 강해질수록 사이버 취약점 탐지 능력도 함께 강해진다는 논리가 구조적으로 타당하다고 인정하면서도, Anthropic에게는 공포 마케팅을 반복해온 패턴이 있다고 지적했습니다. 핵심 함의는 이것입니다: 모델 출시 경쟁이 '빠른 출시' 단계를 넘어 '안전한 출시' 단계로 진입했다면, 향후 모든 프론티어 모델 기업은 사전 샌드박싱 비용을 상시 경쟁 비용으로 내재화해야 합니다."
+    },
+    {
+      "heading": "OpenClaw 차단은 가격 정책이 아니라 에이전트 시장 선점 전쟁이다",
+      "body": "Anthropic은 $200/월 구독자가 실제로는 $2,000~$20,000 상당의 토큰을 소비하는 OpenClaw 사용자들의 접근을 차단하고, 동일 시점에 자체 에이전트 기술 'Claude Managed Agents'를 출시했습니다. 겉으로는 비용 구조 정상화처럼 보이지만, 자사 에이전트에 번들 요금을 적용하고 서드파티에는 종량제를 부과한다면 이는 반독점법상 번들링 또는 가격 덤핑 혐의를 받을 수 있습니다. Jason Calacanis는 Sam Altman의 OpenClaw 창업자 Peter Steinberger 영입 역시 오픈소스 프로젝트의 모멘텀을 흡수하려는 의도라고 분석했습니다. 현재 Anthropic·OpenAI·Perplexity·Alibaba·xAI·Amazon·Apple 전부가 OpenClaw 대체재를 개발 중이라는 사실은, 에이전트 레이어가 다음 10년의 핵심 전장이 됐음을 방증합니다."
+    },
+    {
+      "heading": "Anthropic의 총마진 반전은 AI 거품론에 대한 첫 번째 실증 반박이다",
+      "body": "Brad Gershner에 따르면 Anthropic의 추론 비용은 전년 대비 90% 하락했고, 총마진은 18개월 전의 '심각한 마이너스'에서 현재 추정치 50~60%로 급반전했습니다. 인력 2,500명으로 Google이 12만 명 시절 달성했던 매출 수준에 도달했다는 사실은, '이 CapEx가 정당화될 수 있는가'라는 거품론의 핵심 질문에 대한 구체적 답변입니다. Altimeter는 $130~150B 라운드에 진입해 현재 5~7배 수익을 기록 중이며, Polymarket은 IPO 시 $600B 이상 밸류에이션 확률을 78%로 책정합니다. 다만 Chamath는 실제 엔터프라이즈 환경에서 AI 기반 코드 생성이 전체 코딩 시장의 5%에 불과하고, 50년치 기술 부채를 AI가 단기간에 해소하는 것은 불가능하다고 경고하며 총마진 개선이 시장 크기를 과장해서는 안 된다고 견제했습니다."
+    },
+    {
+      "heading": "이란 휴전은 시장이 'Trump 독트린'을 신뢰한다는 증거다",
+      "body": "S&P와 Nasdaq의 이란 관련 최대 낙폭이 5~7%에 그친 반면, 관세 충격 때는 최대 15~22%까지 하락했습니다. 이 비대칭성은 시장이 Trump의 '들어가서 부수고 나온다'는 접근을 실제로 신뢰하고 있음을 시사합니다. New York Times 보도에 따르면 JD Vance는 전쟁이 MAGA 연합을 분열시킬 위험을 사전에 경고했고, Dan Caine 합참의장은 Netanyahu의 전쟁 계획이 '이스라엘이 미국의 개입이 필요할 때 쓰는 표준 과장 전술'이라고 평가했습니다. Gershner는 이슬라마바드 협상, 우크라이나·러시아 협상, 베네수엘라·쿠바 이슈가 동시에 해결될 경우 7월 4일 전후 시장이 강하게 반등할 수 있다고 전망했으며, 이는 현재의 지정학적 리스크 프리미엄이 과도하게 반영됐을 가능성을 암시합니다."
+    },
+    {
+      "heading": "오픈소스 AI가 프론티어 모델을 위협하는 속도는 기존 예측을 뛰어넘는다",
+      "body": "BitTensor 네트워크의 Subnet 62 프로젝트 'Ridges AI'는 약 $1M 상당의 TAO 보상으로 45일 만에 Claude 4 성능의 80%에 도달했으며, 구독료는 월 $29입니다. Chamath는 전체 코딩 토큰 시장에서 AI 기반 비중이 아직 5%에 불과하고, 엔터프라이즈 고객의 핵심 코드베이스는 여전히 수십 년치 기술 부채를 안고 있어 어떤 모델도 단기간에 해결할 수 없다고 지적했습니다. 그러나 Jason Calacanis는 Linux·Kubernetes·Postgres의 역사가 보여주듯 오픈소스는 항상 스타트업을 통해 엔터프라이즈에 침투해 왔으며, $29짜리 오픈소스 코딩 도구가 $200짜리 Claude를 잠식하는 것은 시간문제라고 주장했습니다. 이 논쟁의 결론은 하나입니다: 프론티어 모델 기업들은 오픈소스 대비 성능 우위가 아니라 보안·규정 준수·엔터프라이즈 통합이라는 비기술적 해자를 구축해야 생존할 수 있습니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Withholding Mythos is a competitive strategy, not a regulatory concession",
+      "body": "Anthropic's decision to sandbox Mythos rather than release it follows a structurally logical argument: a model capable of chaining three to five software vulnerabilities into novel exploits — including a 27-year-old OpenBSC flaw and a 16-year-old FFmpeg bug missed by five million automated scans — creates asymmetric risk if released before incumbent systems are patched. Project Glasswing, a coalition of 40 companies including Apple, Microsoft, Google, and JP Morgan, has 100 days to harden existing codebases. Critically, Anthropic did not seek a government moratorium, as Elon Musk did in 2023, choosing instead a market-coordinated solution. If this model becomes standard practice, every subsequent frontier release will carry a mandatory pre-deployment hardening cost, permanently altering the economics of model releases."
+    },
+    {
+      "heading": "Blocking OpenClaw is an antitrust question dressed as a pricing decision",
+      "body": "Anthropic cut off OpenClaw users — who consumed $2,000-$20,000 worth of tokens on $200/month plans — from its subscription tier and simultaneously launched its own competing agent product, Claude Managed Agents. If Anthropic subsidizes its own agent through bundled flat-rate pricing while charging metered API rates for third-party equivalents, the arrangement fits a textbook bundling argument under antitrust law, conditional on Anthropic's dominant market position (estimated at 50-60% of coding tokens). The move is strategically rational: OpenClaw was the fastest-growing open-source project in GitHub history, threatening to commoditize the agent layer before Anthropic could monetize it. Seven competing agent products are now in development across Anthropic, OpenAI, Perplexity, Alibaba, xAI, Amazon, and Apple."
+    },
+    {
+      "heading": "Anthropic's margin reversal is the first hard data point against the AI bubble thesis",
+      "body": "Inference costs have fallen 90% year-over-year, and gross margins have swung from deeply negative 18 months ago to an estimated 50-60%, according to Gershner. Anthropic generates revenues at a scale Google achieved with 120,000 employees, using only 2,500 people — a capital efficiency ratio that makes the $350B annual hyperscaler CapEx figure look more defensible. Altimeter entered at the $130-150B round and sits on a 5-7x unrealized return; Polymarket prices an above-$600B IPO valuation at 78% probability. The counterargument from Palihapitiya deserves weight: AI-assisted coding still represents roughly 5% of the total coding market, and enterprise-grade software built entirely by AI models remains, in his words, 'shit,' meaning the margin improvement reflects a small addressable base that has not yet been stress-tested at scale."
+    },
+    {
+      "heading": "Markets are pricing the Iran conflict as a Trump doctrine trade, not a geopolitical crisis",
+      "body": "The S&P and Nasdaq drew down only 5-7% during the Iran campaign versus 15-22% during the tariff shock — a gap that implies investors have internalized Trump's 'destroy and exit' doctrine as credible policy rather than escalation risk. The New York Times account of the February 11th Netanyahu briefing reveals that JD Vance warned of coalition fracture, Joint Chiefs Chairman Dan Caine called the Israeli pitch 'standard operating procedure oversell,' and Chief of Staff Susie Wiles raised gas price concerns before midterms — suggesting institutional resistance to entanglement was present from the start. Naftali Bennett's public acknowledgment that Israel's U.S. popularity is in serious decline is the clearest signal yet that Israeli political leadership recognizes the alliance cost of Netanyahu's approach. Gershner's bull case — simultaneous resolution of Iran, Ukraine, Venezuela, and Cuba heading into July 4th — represents a legitimate upside scenario the market has not yet priced."
+    },
+    {
+      "heading": "Open-source AI is disrupting frontier models faster than the incumbents anticipated",
+      "body": "Ridges AI, a BitTensor subnet project, reached 80% of Claude 4's coding performance in 45 days with approximately $1M in token incentives and charges $29/month versus Claude's $200. This follows the historical pattern Calacanis identified: Linux, Kubernetes, Postgres, and Terraform all penetrated enterprises through startups before becoming infrastructure defaults, despite identical 'enterprises will never adopt open-source' predictions at the time. Palihapitiya's rebuttal — that no serious enterprise will route production code through an open-source project, and that 50 years of accumulated technical debt cannot be resolved by any current model — identifies the real moat: not raw performance, but security compliance, audit trails, and enterprise integration. The strategic implication for Anthropic and OpenAI is that performance leadership alone will not be sufficient; the durable competitive advantage must be built at the enterprise trust layer, not the model layer."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "Anthropic은 멀티모달도, 비디오도, 하드웨어도, 칩도, 데이터센터 구축도 하지 않겠다고 결정했습니다. 그들은 '코딩과 협업에만 집중하겠다, 이것이 AGI와 ASI로 가는 길이라고 생각한다'고 했습니다. 그리고 그들은 완벽하게 실행했습니다.",
+    "attribution": "Brad Gershner, Founder & CEO, Altimeter Capital"
+  },
+  "notable_quote_en": {
+    "text": "Anthropic made choices — no multimodal, no video, no hardware, no chips, no building data centers. They said, 'We're just going to focus on coding and co-work, we think that is the path to AGI and ASI.' They executed their butts off.",
+    "attribution": "Brad Gershner, Founder & CEO, Altimeter Capital"
+  },
+  "keywords_ko": [
+    "Anthropic Mythos 비공개 전략",
+    "AI 사이버보안 군비 경쟁",
+    "OpenClaw 반독점 번들링",
+    "프론티어 모델 총마진 반전",
+    "이란 휴전 Trump 독트린",
+    "오픈소스 AI 시장 잠식"
+  ],
+  "keywords_en": [
+    "Anthropic Mythos sandboxing",
+    "AI cybersecurity arms race",
+    "OpenClaw antitrust bundling",
+    "frontier model gross margins",
+    "Iran ceasefire Trump doctrine",
+    "open-source AI disruption"
+  ],
+  "generated_at": "2026-04-13T08:24:04.198446"
+}

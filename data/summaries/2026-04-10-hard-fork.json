@@ -1,0 +1,77 @@
+{
+  "id": "0f36a6e1-f828-41f0-8e1e-9c3319bf21e6",
+  "slug": "2026-04-10-hard-fork",
+  "podcast": "Hard Fork",
+  "category": "AI / Tech",
+  "title": "Anthropic’s Cybersecurity Shock Wave + Ronan Farrow and Andrew Marantz on Their Sam Altman Investigation + One Good Thing",
+  "published": "2026-04-10T11:00:00+00:00",
+  "link": "https://www.nytimes.com/column/hard-fork",
+  "podcast_url": "https://www.nytimes.com/column/hard-fork",
+  "guest": {
+    "name": "Ronan Farrow & Andrew Marantz",
+    "title": "Investigative Journalists, The New Yorker"
+  },
+  "summary_ko": "민간 AI 기업 Anthropic이 공개를 유보한 모델 Claude Mythos가 27년 된 운영체제 보안 결함과 500만 번의 자동화 스캔을 통과한 동영상 소프트웨어 취약점을 발견했다는 사실은, AI 역량이 조용히 임계점을 넘었음을 시사합니다. 이는 단순한 제품 발표가 아니라, 사이버 보안의 공격·방어 균형이 근본적으로 재편되는 순간입니다.\n\nAnthropicは 이 모델이 주요 운영체제와 브라우저 전반에 걸쳐 취약점을 발굴할 능력이 있다고 주장하며, Cisco, Microsoft, Apple, Amazon 등 주요 인프라 기업들로 구성된 컨소시엄에만 방어적 보안 테스트 목적으로 접근권을 부여했습니다. 모델을 공개하지 않은 이유는 마케팅 전략이 아닙니다. 공개할 경우 법적 책임 노출, 의회 청문회, 그리고 실질적인 사이버 무기 확산으로 이어질 수 있기 때문입니다. 현재 미국은 이란과 긴장 상태에 있으며, 이란은 이미 Mythos급 모델 없이도 수도·에너지 인프라 해킹에 성공한 것으로 보고되었습니다.\n\n구조적 문제는 더 심각합니다. 2019년 GPT-2 공개 유보 이후 처음으로, 일반 대중이 접근할 수 없는 수준의 AI 모델이 실존하는 격차가 다시 열렸습니다. 그러나 이 격차를 관리하는 어떤 규제 체계도 존재하지 않습니다. 전임 행정부가 마련했던 AI 행정명령은 폐기되었고, 현 행정부는 Anthropic을 '공급망 위험'으로 지정해 연방 기관의 Claude 사용을 금지했습니다. 세계에서 가장 강력한 사이버 보안 도구가 샌프란시스코의 민간 기업 서버에 있고, 미국 정부는 그것에 접근할 수 없습니다.\n\n이번 에피소드의 두 번째 핵심 주제인 The New Yorker의 Sam Altman 탐사보도는, 16,000단어에 걸쳐 OpenAI CEO가 반복적으로 다른 청중에게 다른 말을 해왔다는 다수 증언을 정리합니다. OpenAI 이사회 멤버는 그를 '진실에 구애받지 않는다'고 표현했고, Microsoft 임원은 'Bernie Madoff급 사기꾼이 될 가능성이 있다'고 언급했습니다. 핵심은 개인의 도덕성이 아니라 구조의 부재입니다. AGI를 통제할 규제 체계가 없는 상황에서, 그 기술을 만드는 사람의 신뢰도는 유일한 안전장치가 됩니다.",
+  "summary_en": "Anthropic's decision to withhold its new Claude Mythos model from public release — on the grounds that it autonomously discovered a 27-year-old flaw in OpenBSD and a critical exploit in FFmpeg that survived five million automated security scans — signals that AI capability has crossed a threshold quietly and without regulatory oversight to match.\n\nThe company has granted access exclusively to a consortium of infrastructure firms including Cisco, Microsoft, Apple, and Amazon, for defensive security hardening only. The rationale is not theatrical safety posturing: a company that sells a tool allowing non-experts to discover novel Linux kernel exploits faces genuine legal and legislative exposure. More pressingly, Iran is currently hacking U.S. water and energy infrastructure without a Mythos-class model. The gap between what AI labs possess and what adversaries can access is the central risk variable — and it is narrowing asymmetrically.\n\nThe structural problem is acute. For the first time since OpenAI withheld GPT-2 in 2019, a meaningful capability gap exists between what frontier labs hold and what the public can access. No regulatory framework governs this gap. The Biden-era AI executive order has been revoked, and the current administration has designated Anthropic a supply chain risk, barring federal agencies from using Claude — meaning the U.S. government cannot access the most powerful known cybersecurity tool, which sits on a private company's servers in San Francisco.\n\nThe episode's second thread — Ronan Farrow and Andrew Marantz's 16,000-word New Yorker investigation into Sam Altman — reinforces the structural argument. Multiple sources, including an OpenAI board member who described Altman as having 'an almost sociopathic lack of concern for the consequences of deceiving someone' and a Microsoft executive who raised the spectre of a Bernie Madoff-level fraud, point to a pattern of telling different audiences different things. The investigators' core finding: a law firm was brought in after Altman's 2023 reinstatement, but produced no written report — just an 800-word press release. When the most consequential technology in decades lacks regulatory guardrails, the trustworthiness of the individuals building it becomes the only check in the system.",
+  "key_points_ko": [
+    {
+      "heading": "AI가 발견한 27년 된 보안 결함 — 사이버 보안의 공격·방어 균형이 붕괴되고 있다",
+      "body": "Claude Mythos는 보안을 목적으로 설계된 오픈소스 운영체제 OpenBSD에서 27년간 전문 연구자들이 발견하지 못한 취약점을 찾아냈고, 동영상 처리 소프트웨어 FFmpeg에서는 500만 번의 자동화 보안 스캔을 통과한 결함을 식별했습니다. 이는 단순히 도구가 빨라졌다는 이야기가 아닙니다. 인간 연구자가 구조적으로 도달할 수 없는 영역에서 취약점을 발굴하는 새로운 종류의 역량이 등장한 것입니다. 보안 전문가 Alex Stamos는 두 가지 시나리오를 제시했습니다. 하나는 패치 가능한 유한한 수의 취약점이 존재한다는 낙관적 시나리오이고, 다른 하나는 이 모델이 기존에 존재하지 않던 새로운 익스플로잇을 무한히 생성할 수 있다는 비관적 시나리오입니다. 어느 쪽이든, 향후 6개월은 전 세계 주요 소프트웨어가 일괄 재검토되는 시기가 될 가능성이 높습니다."
+    },
+    {
+      "heading": "미국 정부는 가장 강력한 사이버 방어 도구에 접근할 수 없다",
+      "body": "Anthropic은 현재 Trump 행정부로부터 '공급망 위험'으로 지정된 상태이며, 연방 기관은 Claude 사용이 금지되어 있습니다. 동시에, Anthropic이 보유한 Mythos는 주요 운영체제와 브라우저 전반에 걸쳐 취약점을 자율적으로 발굴할 수 있다고 주장됩니다. 이란은 Mythos 없이도 이미 미국 수도·에너지 인프라 해킹에 성공했다는 보도가 이번 주 Wired에 실렸습니다. 즉, 민간 기업이 국가 수준의 공격 역량을 상회하는 방어 도구를 보유하고 있는데, 정치적 갈등으로 인해 국가 안보 기관이 그것을 활용할 수 없는 역설적 상황이 펼쳐지고 있습니다. 이 공백은 추상적 위험이 아닙니다."
+    },
+    {
+      "heading": "The New Yorker 탐사보도: Sam Altman의 패턴은 개인 문제가 아니라 구조의 문제다",
+      "body": "Ronan Farrow와 Andrew Marantz의 16,000단어 탐사보도는 Altman이 다양한 청중에게 다른 이야기를 해왔다는 다수의 증언을 체계적으로 정리합니다. OpenAI 이사회 멤버는 그를 '진실에 구애받지 않는 사람'이라고 표현했고, Microsoft 임원은 'Bernie Madoff 또는 Sam Bankman-Fried급 사기꾼으로 기억될 작지만 실질적인 가능성이 있다'고 언급했습니다. 2023년 해임 후 복귀 과정에서 외부 법무법인이 조사를 수행했지만, 결과물은 상세 보고서가 아닌 800단어짜리 보도자료뿐이었다는 사실이 이번 보도에서 처음 확인되었습니다. 보고서가 없는 조사는 책임의 외양만 만들고 실질적 감시는 회피하는 구조입니다. AGI를 향한 경쟁에서 제도적 견제가 없다면, 리더의 신뢰도가 유일한 안전장치가 됩니다."
+    },
+    {
+      "heading": "규제 공백 속 능력 격차 재개 — 2019년 GPT-2 이후 처음",
+      "body": "2019년 GPT-2 공개 유보 이후, AI 기업이 보유한 모델과 일반 대중이 접근할 수 있는 모델 사이의 격차는 사실상 존재하지 않았습니다. Claude Mythos의 비공개 출시로 그 격차가 다시 열렸고, 이번에는 사이버 보안이라는 고위험 영역에서입니다. 이전 행정부가 만든 AI 행정명령은 폐지되었고, 대안적 규제 체계는 존재하지 않습니다. Anthropic은 스스로 '안전한 프론티어를 구축해 가이드하겠다'는 철학으로 설립된 기업이지만, 이 접근법 자체가 위험한 시스템을 먼저 구축한 다음 통제를 시도하는 논리적 순환을 내포합니다. 규제 없이 능력 격차가 지속된다면, 그 격차는 안보 자산이 아니라 안보 취약점이 됩니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "AI-discovered 27-year-old security flaw signals a fundamental shift in cyber offense-defense balance",
+      "body": "Claude Mythos identified a vulnerability in OpenBSD — an operating system designed specifically to resist attack — that had evaded professional security researchers for 27 years, and found a critical flaw in FFmpeg that survived five million automated scans. This is not incremental speed improvement; it represents a qualitatively new capability operating beyond the structural reach of human researchers. Security expert Alex Stamos frames the choice: either there is a finite set of patchable vulnerabilities and defenders have a runway to fix them, or the model can generate novel exploits without bound. Either scenario implies that the next six months will likely see the largest coordinated software patching effort in internet history — and the human bottleneck in reviewing AI-submitted fixes is already a known constraint."
+    },
+    {
+      "heading": "The U.S. government cannot access the most powerful known cyber defense tool — a structural absurdity",
+      "body": "The Trump administration has designated Anthropic a supply chain risk and barred federal agencies from using Claude, while simultaneously Anthropic claims Mythos can autonomously find critical vulnerabilities across every major operating system and browser. Iran, as reported by Wired this week, is successfully hacking U.S. water and energy infrastructure without a Mythos-class model. A private San Francisco company holds a defensive capability that exceeds what national security agencies can deploy, and political antagonism is the reason for the gap. This is not a theoretical risk: the asymmetry between what attackers will eventually obtain and what defenders currently have access to is the operative danger variable."
+    },
+    {
+      "heading": "The New Yorker's Sam Altman investigation reveals a structural accountability vacuum, not just a personality flaw",
+      "body": "Farrow and Marantz's 16,000-word piece documents through multiple sourced accounts that Altman systematically tells different audiences different things — a pattern one OpenAI board member describes as 'an almost sociopathic lack of concern for the consequences of deceiving someone,' and a Microsoft executive links to a 'small but real' Bernie Madoff-level risk. The most consequential new finding: the law firm investigation that legitimized Altman's 2023 reinstatement produced no written report — only an 800-word press release. A process designed to create the appearance of accountability while leaving no auditable record is not incidental; it is the mechanism by which constraints are sidelined. At a 501(c)(3) nonprofit claiming to build AGI for humanity's benefit, this is not normal corporate governance."
+    },
+    {
+      "heading": "The capability gap between AI labs and the public has reopened for the first time since GPT-2 — without any regulatory framework to manage it",
+      "body": "Between 2019 and now, the lag between what frontier labs built and what the public could access was minimal — months at most, and usually in lower-stakes domains. Claude Mythos represents the first meaningful gap reopening, and it falls squarely in critical infrastructure security. The Biden AI executive order that might have governed this has been revoked. Anthropic's founding thesis — build at the frontier in order to guide it safely — contains an unresolved internal tension: you must build the dangerous thing before you can control it. If this gap persists and widens without regulatory structure, it functions not as a security asset but as a concentrated, ungoverned security liability."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "이 기술이 그 어마어마한 영향을 미칠 수 있다면 — 국가 안보, 경제, 인류의 미래 — 그것을 만드는 개인들을 감시하는 구조적 안전장치가 없다는 것이 핵심 문제입니다. 개인의 성실성은 그 구조의 약점을 드러낼 뿐입니다.",
+    "attribution": "Ronan Farrow, Investigative Journalist, The New Yorker"
+  },
+  "notable_quote_en": {
+    "text": "We don't have the regulatory guardrails to keep an eye on these folks. We are completely ceding the power to these individual companies and their whims, the mud fight between them, the quality control that each of them has or lacks. The integrity of an individual figures in that — but it reveals the weaknesses in the system.",
+    "attribution": "Ronan Farrow, Investigative Journalist, The New Yorker"
+  },
+  "keywords_ko": [
+    "zero-day 취약점",
+    "Claude Mythos",
+    "AI 역량 격차",
+    "OpenAI 지배구조",
+    "사이버 보안 규제",
+    "Sam Altman 책임성"
+  ],
+  "keywords_en": [
+    "zero-day exploits",
+    "Claude Mythos",
+    "AI capability gap",
+    "OpenAI governance",
+    "cybersecurity regulation",
+    "Sam Altman accountability"
+  ],
+  "generated_at": "2026-04-13T08:07:49.977970"
+}

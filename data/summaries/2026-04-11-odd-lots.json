@@ -1,0 +1,85 @@
+{
+  "id": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/vDrZIRbDkhWM/v7.mp3",
+  "slug": "2026-04-11-odd-lots",
+  "podcast": "Odd Lots",
+  "category": "Macro / Markets",
+  "title": "The Big Macro Force That's Been Driving Stocks Higher for Years",
+  "published": "2026-04-11T08:00:00+00:00",
+  "link": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/vDrZIRbDkhWM/v7.mp3",
+  "podcast_url": "https://www.bloomberg.com/oddlots",
+  "guest": {
+    "name": "Jonathan Heathcote",
+    "title": "Economist, Federal Reserve Bank of Minneapolis"
+  },
+  "summary_ko": "주식 시장이 수십 년간 '거품'이라는 경고에도 불구하고 고평가 상태를 유지해 온 이유를 설명하는 거시경제학적 근거가 있습니다. 그 근거가 지금 이 순간 근본적으로 흔들리고 있다는 점에서 이 연구는 단순한 학문적 논의가 아닙니다.\n\nMinneapolis Fed의 economist Jonathan Heathcote는 공동 저술한 논문 'A Macroeconomic Perspective on Stock Market Valuation Ratios'에서 핵심 논거를 제시합니다. Shiller CAPE처럼 주가수익비율(P/E)을 기반으로 한 전통적 밸류에이션 지표는 1952년 이후 지속적으로 역사적 평균을 상회하며 '과열' 신호를 보내왔습니다. 그러나 주가를 잉여현금흐름(free cash flow)과 비교하면 전혀 다른 그림이 나타납니다. 이 비율은 장기적 상승 추세 없이 역사적 범위 내에서 등락을 반복했으며, 1980년의 저점과 2022년 2분기의 수치가 사실상 동일합니다. 주가가 '근거 없이' 오른 것이 아니라, 현금흐름이 그만큼 빠르게 성장했다는 의미입니다.\n\n이 현금흐름 급증의 배경에는 두 가지 구조적 힘이 있습니다. 첫째, 1980년 이후 기업 부문에서 노동소득 비중이 약 8퍼센트포인트 하락했습니다. 기업이 동일한 매출에서 더 많은 몫을 자본 소유자에게 돌린 것입니다. 둘째, 특히 대형 기술기업들은 막대한 수익을 내면서도 자본지출을 최소화함으로써 잉여현금흐름을 극대화했습니다. 시가총액 상위 약 50개 기업에서 주가 상승과 현금흐름 증가는 거의 정확히 연동되어 있었습니다.\n\n문제는 이 구조가 지금 전환점에 와 있다는 것입니다. 대형 기술기업들이 AI 인프라에 수천억 달러를 쏟아붓기 시작하면서 잉여현금흐름이 급격히 줄어들고, 일부 기업은 순현금 유출 상태에 진입하고 있습니다. 이 투자가 장기적으로 결실을 맺는다면 AI가 노동소득 비중을 더욱 낮추고 현금흐름을 다시 폭발적으로 키울 수 있습니다. 그러나 투자 회수가 지연되거나 실패한다면, 고평가를 정당화해온 바로 그 논거가 무너집니다. Heathcote의 프레임은 낙관론도 비관론도 아닌, 지금 가장 필요한 질문을 던집니다. AI 투자는 과연 현금흐름으로 돌아올 것인가.",
+  "summary_en": "Stock market valuations have looked dangerously stretched by traditional metrics for decades — and yet markets kept rising. Jonathan Heathcote of the Minneapolis Fed offers a rigorous macroeconomic explanation for why, and that explanation carries an uncomfortable implication for the current AI investment boom.\n\nHeathcote's central argument, drawn from his paper 'A Macroeconomic Perspective on Stock Market Valuation Ratios,' is that the Shiller CAPE and conventional P/E ratios are the wrong measuring stick. When you replace earnings with free cash flow in the denominator — stripping out capital expenditure rather than just depreciation — the apparent overvaluation largely disappears. The price-to-free-cash-flow ratio in 1980 and Q2 2022 were essentially identical, both near the historical average. Stocks weren't irrationally expensive; free cash flow was growing fast enough to justify the prices.\n\nTwo structural forces drove that cash flow surge. First, labor's share of corporate output fell roughly 8 percentage points between 1980 and 2022, redirecting income from workers to capital owners. Second, dominant tech firms generated extraordinary profits with minimal capital expenditure — a 'magic tree' model, in Heathcote's phrase. At the firm level, the top ~50 companies by market cap saw stock value and free cash flow rise in near-perfect lockstep, suggesting high valuations reflected real cash generation, not speculative excess. The dot-com era stands as the counterexample: cash flows were weak while prices soared, and investors eventually paid the price.\n\nThe research lands at a precarious moment. The same tech giants now deploying hundreds of billions into AI data centers are compressing the very free cash flow that justified their valuations. Whether this resolves optimistically — AI automating labor costs further while investments pay off — or pessimistically, with prolonged cash flow drains, is the defining investment question of the next several years. Heathcote's framework doesn't answer it, but it clarifies exactly what investors should be watching.",
+  "key_points_ko": [
+    {
+      "heading": "P/E 비율이 아닌 잉여현금흐름으로 보면 주식시장은 역사적 범위 안에 있다",
+      "body": "Shiller CAPE는 수십 년간 '극도의 과열'을 경고해왔지만, 분모를 순이익(earnings)에서 잉여현금흐름(free cash flow)으로 바꾸면 전혀 다른 결론이 나옵니다. 잉여현금흐름은 매출에서 인건비, 세금, 자본지출을 모두 차감한 순수하게 주주에게 귀속되는 금액입니다. 이 기준으로 보면 1980년과 2022년 2분기의 주가 대비 현금흐름 비율은 거의 동일하며, 60~70년 역사적 범위를 크게 벗어나지 않았습니다. P/E 비율이 지속적으로 상승한 것은 주식이 비싸진 것이 아니라 현금흐름이 이익보다 훨씬 빠르게 증가했기 때문입니다. 이는 전통적 밸류에이션 경고론 전체를 재검토해야 함을 의미합니다."
+    },
+    {
+      "heading": "노동소득 비중 8%p 하락이 주주 수익의 숨겨진 엔진이었다",
+      "body": "1980년부터 2022년까지 기업 부문의 노동소득 비중은 약 8퍼센트포인트 하락했습니다. GDP 대비 8퍼센트포인트는 수조 달러 규모의 소득이 임금에서 자본 수익으로 이전된 것을 의미합니다. 기업들은 동일한 매출을 올리면서도 더 적은 비용을 인건비에 지출했고, 그 차액이 주주 귀속 현금흐름을 키웠습니다. 스톡옵션이나 무형자산 측정 방식의 기술적 논란은 있지만, Heathcote는 Bureau of Economic Analysis의 국민계정 데이터를 사용해 이 추세가 강건하다고 평가합니다. 주식시장 호황이 광범위한 번영을 반영하는 것이 아니라 소득 분배의 구조적 변화에서 비롯되었다는 뜻입니다."
+    },
+    {
+      "heading": "AI 투자 붐은 고평가를 정당화했던 바로 그 논거를 침식한다",
+      "body": "대형 기술기업의 고밸류에이션을 뒷받침했던 핵심은 최소한의 자본지출로 최대의 현금흐름을 창출하는 능력이었습니다. 시가총액 상위 50여 개 기업에서 주가와 잉여현금흐름은 거의 완벽하게 연동되어 움직였습니다. 그러나 AI 데이터센터 구축에 수천억 달러가 투입되면서 이 방정식이 역전되고 있습니다. Heathcote의 2025년 3분기까지 집계된 거시 데이터에서는 아직 전체 기업 부문의 현금흐름 감소가 두드러지지 않지만, 개별 대형 기술기업 수준에서는 이미 진행 중입니다. 투자가 결실을 맺어 AI가 노동 비용을 추가로 절감시킨다면 현금흐름은 다시 폭발적으로 성장할 수 있지만, 회수 기간이 길어지면 고평가의 근거 자체가 흔들립니다."
+    },
+    {
+      "heading": "닷컴 버블이 보여준 유일한 진짜 비이성적 과열의 기준",
+      "body": "Heathcote의 프레임에서 역사적으로 밸류에이션이 실제로 비이성적이었던 순간은 명확합니다. 2000년 닷컴 버블 당시에는 현금흐름이 취약한 상태에서 주가만 급등했고, 이것이 자유현금흐름 기준으로도 과열을 명확히 보여준 유일한 사례입니다. 역설적으로 그 기술들은 10년 후 실제로 엄청난 가치를 창출했지만, 당시 시장은 그 가치를 현금흐름이 뒷받침되기 전에 미리 가격에 반영했습니다. 현재 AI 투자 국면이 이 패턴을 반복할지, 아니면 현금흐름 성장이 실제로 뒤따를지가 핵심 판단 포인트입니다. 이는 전략적 인내와 투기적 선행 사이의 경계를 어디에 긋느냐의 문제입니다."
+    },
+    {
+      "heading": "AI는 불평등 구조를 반전시킬 수도 있지만 그 방향이 불편하다",
+      "body": "과거 자동화 서사는 저숙련 노동자를 위협하고 고학력 지식 노동자에게는 유리하다는 것이었습니다. AI는 이 구도를 뒤집어, 간호사나 건설 노동자 등 육체 노동자는 상대적으로 안전하고 지식 노동자가 대체 위험에 노출되는 방향으로 전개되고 있습니다. Heathcote는 이것이 역설적으로 소득 불평등을 축소할 수도 있다고 지적합니다. 그러나 이는 고소득 지식 노동자의 임금이 낮아지는 방식의 수렴이지, 저소득층이 올라오는 방식이 아닙니다. 주식 보유 집중도를 감안하면, 노동소득 비중이 추가로 하락하고 기업 이익이 증가하더라도 그 혜택은 여전히 자산 보유 계층에 집중될 가능성이 높습니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Switch the denominator from earnings to free cash flow, and the overvaluation largely vanishes",
+      "body": "The Shiller CAPE has flashed danger for decades, but the signal may be measuring the wrong thing. Free cash flow — revenue minus labor costs, taxes, and capital expenditure — is what actually flows to shareholders, and the price-to-free-cash-flow ratio has not exhibited a persistent upward drift since 1952. The ratio in 1980 and Q2 2022 were essentially identical, both near the historical mean. Earnings grew fast, but free cash flow grew faster, because firms were generating that income without proportional increases in investment. The implication is that much of the apparent overvaluation story is an artifact of using earnings, which deduct depreciation but not actual capex, as the benchmark."
+    },
+    {
+      "heading": "An 8-percentage-point shift in labor's share of income was the silent engine of equity returns",
+      "body": "Between 1980 and 2022, the wage and salary share of corporate output fell approximately 8 percentage points — a transfer of income worth trillions of dollars from workers to capital owners. This structural shift, documented in Bureau of Economic Analysis national accounts data, directly explains why free cash flow grew faster than the broader economy. Firms extracted more from each dollar of revenue while holding labor costs down. Stock-based compensation complicates the measurement at the margins, but Heathcote regards the trend as robust. The stock market boom, in this reading, is not a story of broad economic vitality but of a durable redistribution in who captures the returns from corporate activity."
+    },
+    {
+      "heading": "The AI capex boom directly erodes the mechanism that justified high valuations",
+      "body": "The defining characteristic of the top ~50 firms by market cap — where value growth and free cash flow growth moved in near-perfect lockstep — was their ability to generate cash without heavy capital investment. That model is now reversing: the same tech giants now deploying hundreds of billions into AI infrastructure are shrinking the free cash flow that underpinned their valuations. Heathcote's macro data through Q3 2025 doesn't yet show a decline at the aggregate corporate level, but the firm-level picture for major tech names is already shifting. The optimistic scenario is that AI cuts labor costs further and investments pay off within a few years; the pessimistic one is a prolonged drag on cash flows with no guarantee of return."
+    },
+    {
+      "heading": "The dot-com era is the only clear historical case of genuine irrational exuberance on this measure",
+      "body": "Heathcote's framework produces a relatively clean verdict on past market extremes: the late 1990s dot-com boom is the standout case where prices disconnected from free cash flow in a way that proved unsustainable. In every other cycle, including the often-feared high-valuation environment of the 2010s, the free cash flow ratio remained within historical bounds. The irony is that dot-com technologies did eventually generate enormous value — just not on the timeline the market had priced in. The question investors must now answer about AI is whether this is 1999 (pricing in returns before cash flows materialize) or something more grounded."
+    },
+    {
+      "heading": "AI may compress inequality, but through the wrong mechanism",
+      "body": "Previous automation narratives threatened low-skilled workers and benefited knowledge workers; AI inverts this, with manual and care workers likely more resilient and white-collar professionals more exposed. Heathcote notes this could theoretically compress wage inequality, as high earners face more competition from AI. However, the relevant inequality is not just within labor — it is between labor and capital. If AI further reduces labor's share of income while boosting corporate profits, those gains will flow disproportionately to shareholders, who are already heavily concentrated among the wealthiest households. A narrowing of the wage distribution alongside a widening of the capital-labor divide would be a poor trade for most workers."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "잉여현금흐름 대비 밸류에이션을 보면, 오늘날 시장이 그렇게 과대평가되어 있다고 말하기 어렵습니다. 아마도 이 비율 기준으로는 가격이 역사적 범위 안에 있을 것입니다.",
+    "attribution": "Jonathan Heathcote, Economist, Federal Reserve Bank of Minneapolis"
+  },
+  "notable_quote_en": {
+    "text": "If you look at that ratio — the value of all the firms in the US relative to the total cash flow they're generating — it bounces around a bunch over time, but it doesn't have a long-term drift. Maybe the market's not so overvalued today.",
+    "attribution": "Jonathan Heathcote, Economist, Federal Reserve Bank of Minneapolis"
+  },
+  "keywords_ko": [
+    "잉여현금흐름 밸류에이션",
+    "노동소득 비중",
+    "Shiller CAPE 비판",
+    "AI 자본지출",
+    "기업 이익률",
+    "주식시장 밸류에이션 비율"
+  ],
+  "keywords_en": [
+    "free cash flow valuation",
+    "labor share of income",
+    "Shiller CAPE critique",
+    "AI capital expenditure",
+    "corporate profit margins",
+    "stock market valuation ratios"
+  ],
+  "generated_at": "2026-04-13T07:58:55.420931"
+}
