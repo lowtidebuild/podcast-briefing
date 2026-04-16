@@ -1,5 +1,33 @@
 [
   {
+    "slug": "2026-04-15-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
+    "published": "2026-04-15T10:00:00+00:00"
+  },
+  {
+    "slug": "2026-04-15-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "Odd Lots: War in Iran Is Already Reshaping East Asia's Energy Future (Podcast)",
+    "published": "2026-04-15T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-04-14-ezra-klein-show",
+    "podcast": "Ezra Klein Show",
+    "category": "Politics / Geopolitics",
+    "title": "Reckoning With Israel’s ‘One-State Reality’",
+    "published": "2026-04-14T09:00:00+00:00"
+  },
+  {
+    "slug": "2026-04-13-making-sense",
+    "podcast": "Making Sense",
+    "category": "Philosophy / AI Ethics",
+    "title": "#470 — Democrats at a Crossroads",
+    "published": "2026-04-13T17:55:00+00:00"
+  },
+  {
     "slug": "2026-04-12-fareed-zakaria-gps",
     "podcast": "Fareed Zakaria GPS",
     "category": "Politics / Geopolitics",
