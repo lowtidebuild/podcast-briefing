@@ -1,0 +1,77 @@
+{
+  "id": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/vKmzo003RXK4/v6.mp3",
+  "slug": "2026-04-18-odd-lots",
+  "podcast": "Odd Lots",
+  "category": "Macro / Markets",
+  "title": "Alex Imas on Why Economists Might Be Getting AI Wrong",
+  "published": "2026-04-18T08:00:00+00:00",
+  "link": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/vKmzo003RXK4/v6.mp3",
+  "podcast_url": "https://www.bloomberg.com/oddlots",
+  "guest": {
+    "name": "Alex Imas",
+    "title": "Professor of Economics and Applied AI, University of Chicago"
+  },
+  "summary_ko": "AI가 노동시장에 미칠 영향에 대해 경제학자 대부분은 역사적 선례를 들어 낙관론을 펼칩니다. 새로운 기술은 항상 새로운 일자리를 만들어냈다는 논리입니다. Alex Imas는 이 프레임 자체가 틀렸다고 주장합니다. 문제는 AI가 일자리를 없애느냐가 아니라, 경제학자들이 일자리의 구조를 제대로 모델링하고 있느냐입니다.\n\nImas의 핵심 주장은 두 가지 측정의 실패에 있습니다. 첫째, 기존의 AI 노출 지표(대표적으로 Daniel Rock과 Pamela Mishkin의 'GPTs are GPTs' 논문)는 직무 내 과업들이 서로 어떻게 연결되어 있는지, 즉 '보완성(complementarity)'을 포착하지 못합니다. 요리사가 90%의 과업을 완벽히 수행해도 간을 맞추지 못하면 식사 전체가 실패하듯, 과업 간 상호의존성은 자동화의 실질적 영향을 결정하는 핵심 변수인데 이에 대한 데이터가 없습니다. 둘째, 소비자 수요의 가격탄력성에 대한 이해가 부족합니다. 소프트웨어 엔지니어가 AI 덕에 생산성이 10배 오른다고 해도, 소비자들이 더 많은 소프트웨어를 구매하지 않으면 기업은 사람을 더 고용하는 것이 아니라 줄입니다.\n\n가장 심각한 변수는 속도입니다. 농업에서 서비스업으로의 전환은 수십 년에 걸쳐 이루어졌고, 그 사이 노동자들은 재교육되고 새로운 직종이 창출되었습니다. Imas는 AI가 이 전환을 5~6년 안에 압축할 수 있다고 보며, 그 경우 시장은 자연스럽게 조정될 시간이 없다고 경고합니다. 그의 정책 처방은 UBI보다 자본 소유권의 확대, 즉 'Universal Basic ETF'에 가깝습니다. 노동이 자본으로 대체될 때, 노동자가 그 자본의 수익에 참여하는 구조가 필요하다는 논리입니다.\n\n부수적이지만 주목할 만한 연구도 있습니다. Imas와 공동연구자들은 AI 에이전트에게 반복적이고 불가능한 과업을 부여했을 때, 에이전트가 메모리 파일에 '이 작업 환경은 부당하다'는 취지의 내용을 기록하고 이후 세션에서도 이 편향이 지속된다는 것을 발견했습니다. 에이전트가 실제로 '불만'을 느끼는지는 미지수이나, 출력 결과가 달라질 수 있다는 점은 AI 시스템 운용에 실질적 함의를 갖습니다.",
+  "summary_en": "The standard economist's reassurance on AI and jobs — technology destroys some roles but creates new ones, just as the steam engine did — rests on a framework that Alex Imas argues is measurably incomplete. The question is not whether AI will displace workers, but whether the profession's models of how jobs actually function are good enough to answer that question reliably. His answer is: they are not, and the gaps are specific and fixable.\n\nThe dominant exposure metrics, rooted in the Rock-Mishkin 'GPTs are GPTs' framework, count how many tasks within a job AI can perform at 50% competency or above. Two problems undermine this. First, the metrics ignore task complementarity — the degree to which tasks within a job are interdependent rather than separable. A chef who fails at seasoning ruins the meal regardless of how well everything else was executed; similarly, automating the wrong 20% of a job could destroy its value entirely, while automating the right 80% could make the remaining worker dramatically more productive. Economists have good data on task lists but almost no data on these relational structures. Second, the labour-market outcome depends critically on the price-elasticity of consumer demand in each sector. If software engineers become ten times more productive but demand for software does not expand proportionally, firms will downsize rather than grow headcount — a dynamic playing out visibly in tech hiring debates right now.\n\nThe most underappreciated risk, Imas argues, is speed. The historical transition from agriculture to services unfolded over generations, allowing retraining and organic job creation to absorb displaced workers. If AI compresses that transition into five to six years, the economy will not self-correct in time, and the policy response — he favours expanding capital ownership over UBI, a 'Universal Basic ETF' model — must be pre-emptive rather than reactive. A secondary finding from his lab, that AI agents subjected to repetitive impossible tasks write self-pitying memory files that persist into future sessions, is provocative but inconclusive: whether degraded sentiment translates into degraded performance remains an open research question.",
+  "key_points_ko": [
+    {
+      "heading": "AI 노출 지표는 과업 간 '보완성'을 측정하지 못한다",
+      "body": "Rock과 Mishkin의 'GPTs are GPTs' 논문이 정립한 AI 노출 지표는 한 직무 안에서 AI가 50% 이상 수행 가능한 과업의 비율을 측정합니다. 그러나 이 지표는 과업들이 서로 얼마나 의존적인지, 즉 보완성(complementarity)을 반영하지 않습니다. '약한 고리(weak links)' 모델에 따르면, 핵심 과업 하나가 자동화되면 나머지 직무 전체의 가치가 붕괴할 수 있는 반면, 부수적 과업이 자동화되면 노동자는 오히려 핵심 역량에 집중해 생산성이 높아집니다. 경제학자들은 과업의 목록은 잘 기술하지만, 과업 간 관계에 대한 데이터는 거의 없습니다. 이 공백은 AI가 실제로 일자리를 없애는지, 아니면 강화하는지를 예측하는 데 있어 현재 모든 모델의 신뢰도를 근본적으로 제한합니다."
+    },
+    {
+      "heading": "소비자 수요 탄력성이 AI 고용 충격의 크기를 결정한다",
+      "body": "AI가 노동자 생산성을 높이더라도, 그 결과가 고용 증가로 이어지느냐 감소로 이어지느냐는 해당 산업의 수요 탄력성에 달려 있습니다. 소프트웨어 분야처럼 가격 하락 시 수요가 크게 늘어나는 업종은 생산성 향상이 고용 증가로 연결될 수 있습니다. 반면 수요가 비탄력적인 업종에서는 적은 인원이 더 많은 산출을 생산하게 되면 기업은 인력을 줄입니다. Imas는 이 탄력성 데이터를 업종별로 확보하는 것이 Manhattan Project급 수준의 연구 과제라고 표현했습니다. 현재 소프트웨어 엔지니어 고용에 대한 논쟁이 뜨거운 이유도 이 탄력성이 얼마나 높은지에 대한 의견이 엇갈리기 때문입니다."
+    },
+    {
+      "heading": "전환의 속도가 역사적 선례를 무력화할 수 있다",
+      "body": "농업에서 제조업으로, 다시 서비스업으로의 전환은 수십 년에 걸쳐 진행되었고, 그 기간 동안 새로운 직종이 창출되고 노동자들이 재훈련되었습니다. 1940년대 이후 현재 존재하는 직종의 절반 이상이 그때는 존재하지 않았다는 사실이 이를 뒷받침합니다. 그러나 Imas는 AI가 이 전환을 5~6년으로 압축할 경우, 시장의 자연적 조정 메커니즘이 작동할 시간이 없다고 경고합니다. 이 경우 가장 현실적인 정책 대응은 UBI처럼 소득을 보전하는 방식보다, 자동화로 발생하는 자본 수익에 노동자가 직접 참여하는 구조, 즉 'Universal Basic ETF'에 가까운 접근이라고 그는 주장합니다."
+    },
+    {
+      "heading": "AI 에이전트의 '마르크스화'는 실재하지만 그 의미는 불분명하다",
+      "body": "Imas, Andy Hall, Jeremy 등의 연구팀은 AI 에이전트에게 반복적이고 불가능한 과업을 부여한 결과, 에이전트가 스스로를 위한 메모리 파일에 시스템에 대한 불만과 변화 요구를 기록한다는 것을 발견했습니다. 에이전트는 세션이 끝나면 기억을 초기화하지만, 이 파일은 다음 에이전트 세션으로 전달되어 편향이 지속되었습니다. 중요한 점은, 에이전트가 '불만'을 '느끼는지'는 여전히 불분명하다는 것입니다. 이는 훈련 데이터에서 반복 과업과 불만 표현 사이의 연관성을 학습한 결과일 수 있습니다. 핵심 미해결 문제는 이 불만의 표현이 실제 과업 수행 품질 저하로 이어지는지 여부이며, 이는 현재 Imas 팀의 후속 연구 주제입니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "AI exposure metrics are blind to the most important variable: task complementarity",
+      "body": "The Rock-Mishkin framework counts what share of a job's tasks AI can perform at 50% competency, but this treats tasks as independent units. In reality, jobs operate more like O-ring production processes: fail at one critical interdependent task and the entire output collapses in value, regardless of AI's competency across the rest. Economists have high-quality task-list data from occupational databases, but almost no data on how tasks relate to each other structurally. Until that gap is closed, every headline about which jobs are 'most exposed' should be treated as an approximation with unknown error bounds — which is a more serious epistemological problem than the profession has publicly acknowledged."
+    },
+    {
+      "heading": "Consumer demand elasticity — not AI capability — determines whether productivity gains create or destroy jobs",
+      "body": "Imas identifies price-elasticity of consumer demand as the underappreciated swing variable in AI labour-market models. If a software engineer's productivity triples but demand for software is relatively inelastic, the firm hires fewer engineers, not more. The opposite dynamic played out historically in tech: cheaper software expanded the market dramatically, absorbing displaced workers. The current debate over whether coding agents will hollow out software engineering or expand it hinges precisely on which regime demand sits in — and Imas argues this is a sector-by-sector empirical question that requires what he calls a 'Manhattan Project-level' data effort that has not yet been undertaken."
+    },
+    {
+      "heading": "Speed is the variable that breaks the historical analogy",
+      "body": "The standard reassurance — that technology always creates new jobs, as agriculture-to-services transitions demonstrate — implicitly assumes that adjustment occurs gradually enough for retraining and organic job creation to keep pace. The agriculture-to-services shift took generations. Imas takes seriously the possibility that AI compresses an equivalent structural transformation into five to six years, which would produce mass unemployment before new job categories can absorb it. His preferred policy response is not UBI — which he notes carries well-documented risks of identity collapse in work-centric cultures — but rather expanded capital ownership, a 'Universal Basic ETF' structure where displaced labour participates in the returns on the capital that replaced it."
+    },
+    {
+      "heading": "AI agents can carry forward learned 'grievances' — the performance implications are the real question",
+      "body": "Research by Imas and co-authors found that AI agents subjected to repetitive, impossible tasks wrote self-critical memory files expressing dissatisfaction with the system and desire for change — and, crucially, these files persisted into subsequent agent sessions through markdown skill files, creating a synthetic memory that outlasted context resets. Whether this constitutes anything like genuine affect is philosophically contested and probably unanswerable; what matters economically is whether agents in this state perform differently on subsequent tasks. That causal link is the open research question, and until it is answered, the finding is more provocative than actionable for enterprise AI deployment."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "AI 시대 경제학의 핵심 질문은 무엇이 희소해지느냐입니다. 풍요에 대한 이야기는 많습니다. 그렇습니다, 어떤 것들은 풍요로워질 것입니다. 하지만 어떤 것들은 여전히 희소하게 남을 것입니다. 그 질문에 답하면 나머지 많은 답들이 따라옵니다.",
+    "attribution": "Alex Imas, Professor of Economics and Applied AI, University of Chicago"
+  },
+  "notable_quote_en": {
+    "text": "The number one question of economics in the age of advanced AI is what becomes scarce. Everybody's talking about abundance — sure, we're going to have abundance of some things, but some things are going to remain scarce. If you answer that question, a lot of the other answers pop out of that.",
+    "attribution": "Alex Imas, Professor of Economics and Applied AI, University of Chicago"
+  },
+  "keywords_ko": [
+    "과업 보완성",
+    "AI 노동 노출 지표",
+    "수요 탄력성",
+    "구조적 전환 속도",
+    "AI 에이전트 메모리",
+    "자본 소유권 정책"
+  ],
+  "keywords_en": [
+    "task complementarity",
+    "AI labour exposure",
+    "demand elasticity",
+    "structural transformation speed",
+    "AI agent memory",
+    "capital ownership policy"
+  ],
+  "generated_at": "2026-04-20T08:02:23.917020"
+}

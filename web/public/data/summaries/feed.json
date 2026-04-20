@@ -1,5 +1,61 @@
 [
   {
+    "slug": "2026-04-19-fareed-zakaria-gps",
+    "podcast": "Fareed Zakaria GPS",
+    "category": "Politics / Geopolitics",
+    "title": "Vali Nasr on the Ceasefires in Iran and Lebanon; Orbán’s Defeat in Hungary",
+    "published": "2026-04-19T16:59:00"
+  },
+  {
+    "slug": "2026-04-19-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
+    "published": "2026-04-19T10:00:00+00:00"
+  },
+  {
+    "slug": "2026-04-18-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "Alex Imas on Why Economists Might Be Getting AI Wrong",
+    "published": "2026-04-18T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-04-17-all-in-podcast",
+    "podcast": "All-In Podcast",
+    "category": "Politics / Geopolitics",
+    "title": "OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
+    "published": "2026-04-17T20:35:00+00:00"
+  },
+  {
+    "slug": "2026-04-17-hard-fork",
+    "podcast": "Hard Fork",
+    "category": "AI / Tech",
+    "title": "A.I. Backlash Turns Violent + Kara Swisher on Healthmaxxing + The Zuck Bot Is Coming",
+    "published": "2026-04-17T11:00:00+00:00"
+  },
+  {
+    "slug": "2026-04-17-ezra-klein-show",
+    "podcast": "Ezra Klein Show",
+    "category": "Politics / Geopolitics",
+    "title": "Our Tax System Should Make You Furious",
+    "published": "2026-04-17T09:00:00+00:00"
+  },
+  {
+    "slug": "2026-04-16-making-sense",
+    "podcast": "Making Sense",
+    "category": "Philosophy / AI Ethics",
+    "title": "#471 — The End of History, Revisited",
+    "published": "2026-04-16T18:00:00+00:00"
+  },
+  {
+    "slug": "2026-04-16-exponential-view",
+    "podcast": "Exponential View",
+    "category": "AI / Tech",
+    "title": "AI, writing and artisanal media – inside Exponential View with Greg and Azeem",
+    "published": "2026-04-16T13:59:33+00:00"
+  },
+  {
     "slug": "2026-04-15-a16z-podcast",
     "podcast": "a16z Podcast",
     "category": "VC / Business",
@@ -292,54 +348,5 @@
     "category": "VC / Business",
     "title": "Inside Palantir: Building Software That Matters with Shyam Sankar",
     "published": "2026-03-20T10:00:00+00:00"
-  },
-  {
-    "slug": "2026-03-20-ezra-klein-show",
-    "podcast": "Ezra Klein Show",
-    "category": "Politics / Geopolitics",
-    "title": "Naomi Klein on Trumpism and Our Age of ‘Unlikely Bedfellows’",
-    "published": "2026-03-20T09:00:00+00:00"
-  },
-  {
-    "slug": "2026-03-20-odd-lots",
-    "podcast": "Odd Lots",
-    "category": "Macro / Markets",
-    "title": "Odd Lots: Greg Brew on Surging Energy and the 'Strategic Trap' of the War in Iran (Podcast)",
-    "published": "2026-03-20T08:00:00+00:00"
-  },
-  {
-    "slug": "2026-03-19-all-in-podcast",
-    "podcast": "All-In Podcast",
-    "category": "Politics / Geopolitics",
-    "title": "Jensen Huang LIVE: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-    "published": "2026-03-19T20:42:00+00:00"
-  },
-  {
-    "slug": "2026-03-18-making-sense",
-    "podcast": "Making Sense",
-    "category": "Philosophy / AI Ethics",
-    "title": "#465 — More From Sam: Iran, Jihadism, Conspiracism, AI Disruption, the Manosphere, and More",
-    "published": "2026-03-18T20:00:00+00:00"
-  },
-  {
-    "slug": "2026-03-18-exponential-view",
-    "podcast": "Exponential View",
-    "category": "AI / Tech",
-    "title": "Why I changed my mind about Apple and AI",
-    "published": "2026-03-18T16:31:50+00:00"
-  },
-  {
-    "slug": "2026-03-15-fareed-zakaria-gps",
-    "podcast": "Fareed Zakaria GPS",
-    "category": "Politics / Geopolitics",
-    "title": "Exclusive Interview with Ukrainian President Volodymyr Zelensky; What’s Next on the War in Iran",
-    "published": "2026-03-15T16:52:00"
-  },
-  {
-    "slug": "2026-03-11-lex-fridman-podcast",
-    "podcast": "Lex Fridman Podcast",
-    "category": "AI / Tech",
-    "title": "#493 – Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming",
-    "published": "2026-03-11T20:37:33+00:00"
   }
 ]
