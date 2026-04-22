@@ -19,11 +19,22 @@ interface EpisodeData {
   category: string;
   title: string;
   published: string; // ISO 8601 with TZ
-  link: string;
+  link?: string;
+  podcast_url?: string;
 }
 
 const SITE_URL = "https://lowtidebuild.github.io/podcast-briefing/";
 const MAX_ITEMS = 10;
+
+// Some episodes (e.g. Fareed Zakaria GPS — TV show with no MP3 URL) ship
+// with an empty `link`. Fall back to the podcast's home page so the
+// briefing-hub aggregator's manifest validator (which requires a non-empty
+// url string) doesn't reject the entry.
+function resolveItemUrl(ep: EpisodeData): string {
+  if (ep.link && ep.link.length > 0) return ep.link;
+  if (ep.podcast_url && ep.podcast_url.length > 0) return ep.podcast_url;
+  return SITE_URL;
+}
 
 export const GET: APIRoute = async () => {
   const dataDir = join(process.cwd(), "..", "data", "summaries");
@@ -43,7 +54,7 @@ export const GET: APIRoute = async () => {
   const items = episodes.slice(0, MAX_ITEMS).map((ep) => ({
     title: ep.title,
     source: ep.podcast,
-    url: ep.link,
+    url: resolveItemUrl(ep),
     published_at: new Date(ep.published).toISOString(),
   }));
 
