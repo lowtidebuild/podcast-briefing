@@ -1,4 +1,6 @@
 ---
+import HubChip from '../components/HubChip.astro';
+
 interface Props {
   title?: string;
   description?: string;
@@ -32,6 +34,7 @@ const siteUrl = Astro.site?.toString() || '';
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 </head>
 <body>
+  <HubChip />
   <slot />
 </body>
 </html>
