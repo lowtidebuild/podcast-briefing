@@ -1,0 +1,85 @@
+{
+  "id": "71641db6-33e7-454c-a095-bb01cfb2f0eb",
+  "slug": "2026-04-21-ezra-klein-show",
+  "podcast": "Ezra Klein Show",
+  "category": "Politics / Geopolitics",
+  "title": "Why Are Palantir and OpenAI Scared of Alex Bores?",
+  "published": "2026-04-21T09:00:00+00:00",
+  "link": "https://www.nytimes.com/2026/04/21/opinion/ezra-klein-podcast-alex-bores.html",
+  "podcast_url": "https://www.nytimes.com/column/ezra-klein-podcast",
+  "guest": {
+    "name": "Alex Bores",
+    "title": "Member, New York State Assembly; Congressional Candidate, NY-12"
+  },
+  "summary_ko": "AI 산업이 자신들을 규제하려는 정치인을 돈으로 찍어 누를 수 있다면, 민주주의적 감시는 사실상 불가능해집니다. Palantir 공동창업자 Joe Lonsdale, OpenAI 공동창업자 Greg Brockman, Andreessen Horowitz가 자금을 댄 SuperPAC 'Leading the Future'는 뉴욕 12선거구 민주당 경선에서 Alex Bores를 상대로 250만 달러를 이미 집행했고, 최대 1,000만 달러까지 쏟아부을 의향을 공개적으로 밝혔습니다. Bores의 죄목은 단 하나입니다. AI 안전 공개 계획, 핵심 사고 정부 보고, 제3자 감사를 골자로 한 뉴욕주 RAISE Act를 실제로 통과시켰다는 것입니다. 이 PAC이 내세우는 공격의 핵심 아이러니는 Palantir 관련 경력을 문제 삼는다는 점인데, 정작 Palantir 공동창업자가 그 PAC의 주요 후원자입니다.\n\nBores의 핵심 주장은 기술적이라기보다 정치경제학적입니다. AI 기업들이 지금 당장 규제 입법자들에게 충분한 정치적 고통을 안겨줄 수 있다면, 경쟁이 심화되고 자본이 더 축적될 미래에는 이 싸움 자체가 불가능해진다는 것입니다. 그는 현직 의원들이 조용히 이 경선을 주시하며, 결과에 따라 AI 규제를 아예 건드리지 않겠다고 결심할 것이라고 말합니다. SuperPAC이 승리하면 학습되는 교훈은 명확합니다. 연설은 해도 좋지만, 법안을 통과시키려 하면 커리어가 끝난다는 것입니다.\n\nBores의 정책 프레임은 단순한 AI 위험 축소에 머물지 않습니다. 그는 AI 배당금(AI로 창출된 가치의 공적 지분), 데이터센터 건설사에 전력망 현대화 비용을 부담시키는 인센티브 구조, 정부 AI 역량 확충을 제안합니다. 동시에 완전 자동화와 초지능 출현 가능성을 현실로 받아들이며, 국제 검증 체계와 정렬 문제 해결 이전까지의 속도 조절을 요구합니다. 그러나 이 광범위한 정책 어젠다의 설득력은 결국 그가 의회에 입성하느냐에 달려 있고, 바로 그 입성을 AI 업계의 자본이 막으려 하고 있다는 역설이 이 에피소드의 핵심입니다.\n\nAI 규제의 기술적 내용보다 더 중요한 질문이 여기 있습니다. 거대 자본이 특정 기술 영역의 입법 자체를 정치적으로 금지 구역으로 만들 수 있는가. 이 경선은 그 질문에 대한 첫 번째 실험대입니다.",
+  "summary_en": "The most consequential question this episode raises is not about AI policy design — it is about whether democratic legislatures can govern AI at all before the industry accumulates enough capital to make doing so politically lethal. Alex Bores, a New York State Assembly member who co-authored the RAISE Act — the most substantive AI safety bill passed by any US state — is running for Congress in NY-12 and has become a test case for exactly that question. The SuperPAC Leading the Future, funded by Palantir co-founder Joe Lonsdale, OpenAI co-founder Greg Brockman, and Andreessen Horowitz, has already spent $2.5 million against him and signaled willingness to deploy up to $10 million. Its stated goal, made explicit publicly, is to inflict enough pain that future legislators avoid AI regulation entirely.\n\nBores's core argument is structural, not technical: the window for democratic governance of AI is closing in real time. AI companies currently have enough money to punish individual legislators; in two election cycles, when their capital and political influence will be vastly larger, the fight may be unwinnable. The RAISE Act itself is, by Bores's own admission, a weak bill — requiring public safety plans, incident reporting, and third-party audits — yet even this mild framework provoked a nine-figure opposition campaign. That disproportionality is the data point that matters.\n\nOn substance, Bores proposes an AI dividend (public equity in AI-generated value), grid modernization fees levied on data center developers, expanded government AI capacity, and international verification regimes to slow the arms-race dynamic. He accepts full automation and superintelligence as serious probabilities while rejecting both blanket prohibition and laissez-faire acceleration. The weakness in his framework is the same one afflicting most AI governance proposals: the positive public agenda — directing AI toward drug discovery, tax administration, benefits enrollment — requires overhauling archaic government data infrastructure that has defeated reformers for decades.\n\nThe meta-lesson is pointed: Sam Altman writes that democratic processes must remain more powerful than companies, while his co-founder Greg Brockman funds a SuperPAC designed to ensure the opposite. The gap between what AI executives say and what their money does is the sharpest diagnostic tool available for understanding where this industry actually intends to go.",
+  "key_points_ko": [
+    {
+      "heading": "AI 업계는 규제 입법 자체를 정치적으로 불가능하게 만들려 한다 — 정책 내용이 아니라 입법 행위를 표적으로 삼고 있다",
+      "body": "Leading the Future PAC이 Bores를 공격하는 표면적 이유는 그가 ICE 관련 기술을 개발했다는 주장이지만, 실제 자금 출처는 Palantir 공동창업자입니다. 이 모순 자체가 목적을 드러냅니다. PAC은 Bores의 정책이 극단적이어서가 아니라, 그가 실제로 법안을 통과시켰기 때문에 표적이 됐다고 공개적으로 인정했습니다. OpenAI조차 최근 제3자 감사를 포함한 정책 문서를 발표했는데, 이는 RAISE Act의 핵심 조항과 일치합니다. 즉, 이 싸움은 정책의 옳고 그름이 아니라 누가 정책을 결정할 권한을 갖느냐의 싸움입니다. 현직 의원들이 조용히 이 경선을 지켜보며 결과로부터 교훈을 얻으려 한다는 Bores의 관찰은, 이 경선이 단일 의석을 넘어선 선례 싸움임을 보여줍니다."
+    },
+    {
+      "heading": "AI 낙관론의 붕괴는 기술에 대한 회의가 아니라 통제권 상실에 대한 공포에서 비롯된다",
+      "body": "미국인의 약 80%가 AI의 일부 혜택을 원하지만 속도가 너무 빠르고 방향 결정에 발언권이 없다고 느낍니다. 단 10%만이 AI를 완전히 원상복귀하기를 원하고, 역시 10%만이 완전한 무규제를 지지합니다. Bores는 이 정서 변화의 핵심을 '엘리트 정치 프로젝트로서의 AI' 인식으로 진단합니다. AI 창업자들은 피해에 대해서는 구체적으로 말하고(화이트칼라 일자리 50% 자동화, 실존적 위험) 이익에 대해서는 모호하게 말합니다(약물 개발, 물질적 풍요). 일반 시민은 자녀의 AI 챗봇 중독, 고용 동결, 전기요금 인상은 직접 경험하면서 약속된 혜택은 체감하지 못하고 있습니다. Sam Altman에 대한 화염병 투척 사건 이후 온라인에서 가해자를 지지하는 반응이 나온 것은 이 분노가 이미 정치적 폭력의 문턱을 넘고 있음을 시사합니다."
+    },
+    {
+      "heading": "RAISE Act는 미국에서 가장 강력한 AI 안전법이지만 — 그 사실 자체가 문제다",
+      "body": "RAISE Act의 실제 내용은 공개 안전 계획 수립, 중대 사고 정부 보고, 제3자 감사 세 가지입니다. 원안에 포함됐던 두 조항 — 자체 안전 테스트 실패 모델의 출시 금지, 구속력 있는 제3자 감사 — 은 최종안에서 삭제됐습니다. Bores 본인도 이 법이 충분히 강력하지 않다고 인정합니다. 그럼에도 이 온건한 법안이 2억 달러 규모 SuperPAC의 반격을 유발했다는 사실은, AI 업계가 수용 가능한 규제의 하한선이 사실상 '아무것도 없음'임을 드러냅니다. Trump 행정부의 행정명령은 AI 규제를 시도하는 주에 연방 자금 삭감과 소송을 예고하며 RAISE Act를 명시적으로 표적으로 삼았습니다."
+    },
+    {
+      "heading": "공적 혜택 없는 AI는 단순히 노동 대체 기계다 — 그 전환을 막으려면 정부 데이터 인프라 재건이 선행되어야 한다",
+      "body": "Bores는 AI 배당금, 데이터센터 전력망 분담금, Empire AI 방식의 공공 GPU 클러스터 등 긍정적 공공 어젠다를 제안합니다. 그러나 이 비전의 근본적 약점은 정부 데이터 인프라의 후진성입니다. 뉴욕주 의회 의장은 아직도 Fortran으로 코딩하고, 주정부 세무 데이터는 너무 부정확해서 사전 세금 신고조차 불가능하며, 기관 간 데이터 공유는 법적으로 제한됩니다. Bores는 뉴욕주 전체 법령을 LLM에 통과시켜 시대착오적 규제를 식별하고 60페이지 분량의 개혁 법안을 마련하는 실용적 접근을 시도했습니다. 그러나 약물 개발 파이프라인 가속화, IRS 세금 신고 자동화, 복지 혜택 자동 등록 같은 AI의 진정한 공적 이익은 수십 년간 개혁에 실패해온 정부 데이터 시스템 현대화 없이는 실현 불가능합니다."
+    },
+    {
+      "heading": "AI 기업들의 말과 돈이 가리키는 방향은 정반대다",
+      "body": "Sam Altman은 '민주적 과정이 기업보다 강력하게 유지되는 것이 중요하다'고 공개적으로 씁니다. 그의 공동창업자 Greg Brockman은 그 과정을 기업에 종속시키기 위해 설계된 SuperPAC의 최대 후원자입니다. OpenAI는 최근 제3자 감사를 포함한 정책 문서를 발표했지만, 같은 주에 이 조항을 이미 통과시킨 입법자를 무너뜨리기 위한 자금을 집행했습니다. Anthropic은 Leading the Future와 다른 친규제 PAC 양쪽에 자금을 대고 있어, 업계 내 분열을 보여주지만 동시에 AI 기업들이 정치 과정 자체를 후원하는 구조적 문제를 심화시킵니다. AI를 규제하려면 AI 후원자가 필요한 세계는 민주주의적 감시의 실패입니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "The AI industry is targeting the act of legislating, not the content of any specific bill",
+      "body": "Leading the Future's public justification for attacking Bores — his Palantir work — is funded by a Palantir co-founder, a contradiction that reveals the actual strategy. The PAC has stated explicitly that it wants to make an example of Bores so that future legislators run from AI regulation entirely. OpenAI itself recently published a policy document endorsing third-party audits, one of RAISE Act's core provisions, while simultaneously funding a campaign against the legislator who passed it. This is not a policy disagreement — it is an attempt to establish legislative no-go zones before democratic institutions develop the expertise and institutional muscle to enforce them. Sitting members of Congress, Bores reports, are quietly watching this race and will draw conclusions about the career risks of engaging with AI governance."
+    },
+    {
+      "heading": "The AI backlash is driven by loss of control, not technological skepticism — and it is bipartisan in ways that should alarm the industry",
+      "body": "Roughly 80% of Americans want AI's benefits but feel it is moving too fast without their input; only 10% want to ban it and 10% want no regulation whatsoever. Bores frames this as 'AI populism' — the perception that AI is an elite political project being forced on an unwilling public. The key asymmetry: AI founders are specific about harms (50% of entry-level white-collar jobs automated, existential risk) and vague about benefits (drug development, material abundance). Citizens experience AI concretely — children forming relationships with chatbots, hiring freezes, rising utility bills from data centers — while promised gains remain abstract. That Sam Altman was targeted in two separate violent incidents in the week before recording, and that some online commenters celebrated, indicates the political temperature is already past the point of comfortable policy debate."
+    },
+    {
+      "heading": "RAISE Act is the strongest AI safety law in the United States — and that is an indictment of where US governance stands",
+      "body": "RAISE Act requires three things: public safety plans, government reporting of critical incidents, and third-party audits. Two stronger provisions from the original draft — prohibiting release of models that fail a company's own safety tests, and mandatory binding audits — were stripped before passage. Bores openly describes the final bill as embarrassingly weak. Yet this mild framework triggered a nine-figure political opposition campaign and was named explicitly in a Trump executive order threatening states with funding cuts and litigation. The disproportionality is diagnostic: the industry's minimum acceptable regulatory threshold is functionally zero. The preemption strategy — first attempting a federal bill with preemption language that would have overridden state laws, then pivoting to executive action when that failed — reveals a coordinated playbook, not isolated corporate lobbying."
+    },
+    {
+      "heading": "AI's public benefits require government infrastructure that has defeated reformers for decades",
+      "body": "Bores's positive agenda — AI dividend, data center grid fees, Empire AI-style public GPU clusters, IRS pre-filled tax returns, automatic benefits enrollment — is coherent in design but runs directly into a structural obstacle he identifies himself: New York's Assembly Speaker codes in Fortran, state tax data is too inaccurate to enable pre-filing, and inter-agency data sharing is legally restricted. He fed the entire New York State statutory code through an LLM to identify obsolete regulations and produced a 60-page reform bill — a promising tactic. But the deeper challenge is that AI's most transformative public applications, accelerating drug trials, automating government services, improving benefits access, all require modernizing data infrastructure that has resisted overhaul through the Recovery Act, the Inflation Reduction Act, and the bipartisan infrastructure bill. The technology is now capable; the institutions are not."
+    },
+    {
+      "heading": "What AI executives say and what their money does point in opposite directions — that gap is the most useful diagnostic tool available",
+      "body": "Sam Altman writes publicly that 'the democratic process must remain more powerful than companies'; Greg Brockman funds a SuperPAC engineered to subordinate it. OpenAI releases a policy paper endorsing third-party audits while spending to defeat the legislator who enacted them. Anthropic funds both Leading the Future's opponents and more pro-regulation PACs simultaneously, suggesting internal division but deepening the structural problem of AI companies financing the political process itself. Bores's conclusion is that a world where regulating AI requires recruiting your own AI industry patron is a democratic failure — and that the window to prevent that world from becoming permanent is measured in one or two election cycles, not decades."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "그들이 나를 표적으로 삼는 이유는 내가 실제로 법안을 통과시킬 수 있기 때문입니다. 프레임워크는 얼마든지 만들 수 있습니다. 싸게 먹히죠. 하지만 실제로 정치적 자본을 투입해서 무언가를 해내는 사람은 누구입니까?",
+    "attribution": "Alex Bores, Member, New York State Assembly"
+  },
+  "notable_quote_en": {
+    "text": "They're coming after me because I might actually get a bill passed. Frameworks — there are lots of frameworks. Those are cheap. Who's going to put political capital forward and get something actually done?",
+    "attribution": "Alex Bores, Member, New York State Assembly"
+  },
+  "keywords_ko": [
+    "AI 거버넌스",
+    "규제 포획",
+    "SuperPAC 선거 자금",
+    "RAISE Act",
+    "AI 배당금",
+    "민주적 정당성"
+  ],
+  "keywords_en": [
+    "AI governance",
+    "regulatory capture",
+    "SuperPAC spending",
+    "RAISE Act",
+    "AI dividend",
+    "democratic legitimacy"
+  ],
+  "generated_at": "2026-04-23T07:49:01.074858"
+}

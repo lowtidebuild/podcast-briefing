@@ -1,5 +1,26 @@
 [
   {
+    "slug": "2026-04-22-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "Balaji Srinivasan: Prove Correct, Not Just Go Direct",
+    "published": "2026-04-22T10:00:00+00:00"
+  },
+  {
+    "slug": "2026-04-22-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "Odd Lots: Daniel Yergin Sees a 'Different World' Emerging After the Hormuz Crisis (Podcast)",
+    "published": "2026-04-22T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-04-21-ezra-klein-show",
+    "podcast": "Ezra Klein Show",
+    "category": "Politics / Geopolitics",
+    "title": "Why Are Palantir and OpenAI Scared of Alex Bores?",
+    "published": "2026-04-21T09:00:00+00:00"
+  },
+  {
     "slug": "2026-04-19-fareed-zakaria-gps",
     "podcast": "Fareed Zakaria GPS",
     "category": "Politics / Geopolitics",
@@ -327,26 +348,5 @@
     "category": "AI / Tech",
     "title": "#494 – Jensen Huang: NVIDIA – The $4 Trillion Company & the AI Revolution",
     "published": "2026-03-23T16:28:42+00:00"
-  },
-  {
-    "slug": "2026-03-22-fareed-zakaria-gps",
-    "podcast": "Fareed Zakaria GPS",
-    "category": "Politics / Geopolitics",
-    "title": "War in Iran Intensifies; Will Oil Prices Keep Rising?",
-    "published": "2026-03-22T17:00:00"
-  },
-  {
-    "slug": "2026-03-20-hard-fork",
-    "podcast": "Hard Fork",
-    "category": "AI / Tech",
-    "title": "'A.I.-Washing' Layoffs? + Why L.L.M.s Can't Write Well + Tokenmaxxing",
-    "published": "2026-03-20T11:00:00+00:00"
-  },
-  {
-    "slug": "2026-03-20-a16z-podcast",
-    "podcast": "a16z Podcast",
-    "category": "VC / Business",
-    "title": "Inside Palantir: Building Software That Matters with Shyam Sankar",
-    "published": "2026-03-20T10:00:00+00:00"
   }
 ]
