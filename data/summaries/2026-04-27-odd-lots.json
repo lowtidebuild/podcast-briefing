@@ -1,0 +1,85 @@
+{
+  "id": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/vsCnmM3B8T9s/v8.mp3",
+  "slug": "2026-04-27-odd-lots",
+  "podcast": "Odd Lots",
+  "category": "Macro / Markets",
+  "title": "What's Actually Going On With Private Credit",
+  "published": "2026-04-27T08:00:00+00:00",
+  "link": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/vsCnmM3B8T9s/v8.mp3",
+  "podcast_url": "https://www.bloomberg.com/oddlots",
+  "guest": {
+    "name": "John Sheehan & Craig Manchuk",
+    "title": "Portfolio Managers, Strategic Income Fund, Osterweiss"
+  },
+  "summary_ko": "Private credit 시장이 단순한 미디어 과장인지, 아니면 진짜 구조적 균열인지를 판단하려는 투자자와 금융 시장 관찰자라면 이 대화에 주목해야 합니다. Osterweiss의 두 포트폴리오 매니저 John Sheehan과 Craig Manchuk은 30~40년의 채권 시장 경력을 바탕으로, 현재 private credit의 문제가 자산(대출) 측이 아니라 부채(자금 조달) 구조에서 비롯된다는 핵심 진단을 내립니다.\n\n이들의 중심 주장은 다음과 같습니다: 2008년 금융위기 이후 은행 규제가 레버리지 6배 이상 기업에 대한 대출을 사실상 차단하면서 생겨난 private credit은, ZIRP 시대의 수익률 갈증과 맞물려 급성장했습니다. 문제는 기관용 drawdown 펀드 구조가 아니라, 소매 투자자를 겨냥한 BDC(Business Development Company) 및 interval fund 구조입니다. 이 구조는 자금을 먼저 받고 투자처를 나중에 찾아야 하기 때문에, NAV 희석을 막기 위해 서둘러 자금을 집행해야 하는 압박이 생깁니다. 그 결과 언더라이팅 기준이 느슨해졌고, 소프트웨어·SaaS 기업처럼 실물 담보가 거의 없는 기업에 7~8배 레버리지를 허용하는 구조적 취약성이 누적되었습니다.\n\n이를 뒷받침하는 증거는 구체적입니다. 고수익채권(high yield) 시장에서 트리플C 등급 비중이 과거 20% 이상에서 현재 9%로 줄었는데, 이는 위험이 사라진 게 아니라 private credit으로 이전된 것입니다. 일부 월가 애널리스트는 private credit 디폴트율이 15%에 달할 수 있다고 전망하며, Sheehan은 이를 '불가능하지 않다'고 인정합니다. 또한 2022년 금리 인상 이후 floating rate 대출의 이자 부담이 급증하면서 2020~2021년 빈티지 LBO들이 특히 취약한 상태입니다.\n\n투자자에게 실질적인 함의는 명확합니다. 환매 제한(gate)은 패닉을 늦출 수 있지만, 자산 측의 손실을 막지는 못합니다. 자금 유입이 둔화되면 펀드는 우량 자산부터 매각해야 하고, 이는 포트폴리오 품질을 악화시키는 악순환으로 이어집니다. Private credit 시장이 고수익채권 시장보다 커진 지금, 이 시장의 신용 경색은 미국 전역 수많은 중소기업의 자금 조달 자체를 위협하는 거시경제적 사건이 됩니다.",
+  "summary_en": "Private credit's problems are not primarily about bad loans — they are about a structurally flawed funding model that was designed for institutional investors but retrofitted, badly, for retail. That is the central diagnosis from John Sheehan and Craig Manchuk of Osterweiss, two veterans with three to four decades in fixed income who offer some of the most analytically precise commentary available on the space.\n\nThe core thesis: post-2008 bank regulation effectively barred lending to companies with leverage above six times, creating a vacuum that private credit filled. The growth was turbocharged by ZIRP-era yield hunger and private equity sponsors seeking guaranteed financing. The structure that worked — institutional drawdown funds matched to long-duration LP capital — was then copied into retail-facing BDCs and interval funds, where money arrives before deals are found. That mismatch forces rapid deployment, which degrades underwriting: the fund cannot afford NAV drag, so it lends at whatever terms the market offers. The result is seven-to-eight times leverage extended to software companies with virtually no hard asset collateral.\n\nThe evidence is structurally revealing. The triple-C share of the high-yield market has collapsed from over 20% to roughly 9% — not because risk disappeared, but because it migrated into private credit. The double-B share has risen from 35% to nearly 60%, meaning the public bond market has actually become safer as the riskiest paper moved off-index. Some sell-side analysts project private credit default rates reaching 15%; Sheehan does not dismiss this. Floating-rate structures mean that every basis point of Fed tightening since 2022 has compounded the debt burden on 2020-21 vintage LBOs that were underwritten against near-zero base rates.\n\nThe systemic concern is not a 2008-style bank run — liability structures are more resilient — but a credit crunch. If retail redemption pressure forces funds to sell their best assets first, portfolio quality deteriorates in exactly the wrong direction. Private credit is now larger than the entire junk-bond market. A sustained contraction would constitute a meaningful tightening of financing conditions for thousands of American companies that have no alternative funding channel.",
+  "key_points_ko": [
+    {
+      "heading": "위험은 자산이 아닌 자금 조달 구조에 있다",
+      "body": "Private credit 위기 서사의 대부분은 부실 대출에 초점을 맞추지만, Sheehan과 Manchuk은 문제의 뿌리가 부채 측, 즉 자금 조달 구조에 있다고 진단합니다. 기관 투자자 대상의 drawdown 펀드는 LP 약정을 투자 기회가 생길 때만 호출하므로 자금 집행 압박이 없습니다. 반면 소매 투자자 대상 interval fund와 BDC는 자금을 먼저 받고 투자처를 나중에 찾아야 하며, 미투자 자금은 즉시 NAV를 희석시킵니다. 이 압박이 언더라이팅 기준 완화를 구조적으로 강제하며, Cliffwater Corporate Lending Fund(CCLFX)처럼 최근 5년간 자산이 수배로 불어난 펀드들이 대표 사례입니다. 결국 시장에서 가장 빠르게 성장한 채널이 가장 취약한 신용 기준을 가졌을 가능성이 높습니다."
+    },
+    {
+      "heading": "고수익채권 시장의 품질 개선은 private credit으로의 위험 이전을 의미한다",
+      "body": "High yield 시장의 더블B 등급 비중이 35%에서 60% 가까이 상승하고, 트리플C 비중이 20% 이상에서 9%로 감소한 것은 채권 시장이 건전해진 것처럼 보입니다. 그러나 Sheehan은 이를 위험의 소멸이 아닌 이전으로 해석합니다. 과거라면 트리플C 등급으로 공개 시장에 나왔을 기업들이 지금은 private credit 포트폴리오 안에 숨어 있고, 이 대출들은 정기적인 시가 평가(mark-to-market)를 받지 않습니다. 2022년 금리 인상기에 private credit 펀드의 NAV가 안정적으로 보였던 것은 자산 건전성 때문이 아니라 단순히 평가를 하지 않았기 때문이며, 이것이 오히려 소매 투자자들의 자금 유입을 가속시켰습니다. 보이지 않는 곳에 누적된 위험이 더 위험한 법입니다."
+    },
+    {
+      "heading": "소프트웨어 기업 담보 대출은 private credit의 새로운 취약 지점이다",
+      "body": "Private credit의 역사적 뿌리는 GE Capital의 항공기 엔진, 철도차량, 의료장비처럼 실물 자산 담보 대출이었습니다. 그런데 지난 10년간 SaaS·소프트웨어 기업이 private credit 포트폴리오의 주요 구성 요소가 되었는데, 이 기업들은 파산 시 회수할 수 있는 유형 자산이 거의 없습니다. 스폰서들은 기업 가치의 40%를 에쿼티로 투입하는 조건으로 16~17배 EBITDA 멀티플을 정당화했고, 대출자들은 현금 이자 지급 대신 PIK(payment-in-kind) 구조를 수용했습니다. AI에 의해 사업 모델이 붕괴된 소프트웨어 기업의 채권 회수율은 사실상 0에 수렴할 수 있으며, 이는 디폴트율만큼이나 회수율이 이번 사이클의 핵심 변수임을 의미합니다."
+    },
+    {
+      "heading": "환매 제한(gate)은 시간을 벌지만 자산 손실을 막지 못한다",
+      "body": "Private credit 옹호론자들은 interval fund의 분기별 5% 환매 제한이 시스템 안정성을 보장한다고 주장합니다. 상업용 부동산 interval fund가 2023년 환매 제한 사태를 겪은 후 실제로 회복한 사례는 이 주장을 일부 뒷받침합니다. 그러나 Manchuk은 결정적 차이를 지적합니다: gate는 부채 측 패닉을 늦출 뿐, 자산 측 디폴트는 막지 못합니다. 유입이 줄어들면 펀드는 가장 유동적인, 즉 가장 우량한 자산부터 매각해야 하고, 남은 포트폴리오는 레버리지가 높아진 채 품질은 낮아집니다. Oaktree 같은 distressed 투자자들이 별도 기회 펀드를 모집하고 있다는 신호는 이미 시장이 다음 단계를 준비하고 있음을 시사합니다."
+    },
+    {
+      "heading": "Private credit 시장의 위축은 거시경제적 신용 경색으로 이어진다",
+      "body": "Private credit은 이제 고수익채권 시장보다 큰 규모로 성장했으며, 공개 자본시장 접근이 어려운 중소기업들의 사실상 유일한 외부 자금 조달 창구입니다. 이 시장이 위축되면 단순한 투자 손실이 아니라 미국 전역 수천 개 기업의 자금 조달 자체가 막히는 신용 경색이 발생합니다. Tracy Alloway가 지적하듯, 헤드라인 리스크 → 소매 환매 증가 → 우량 자산 매각 → 포트폴리오 품질 저하 → 추가 헤드라인 리스크라는 경로 의존적 악순환이 이미 가시화되고 있습니다. 2008년식 금융위기와는 다르지만, 레버리지 기업들에 대한 조용하고 지속적인 신용 경색은 그 자체로 경기 침체의 촉매가 될 수 있습니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "The funding structure — not the loans — is private credit's primary vulnerability",
+      "body": "Conventional crisis narratives focus on bad assets, but Sheehan and Manchuk locate the deeper problem on the liability side of private credit fund balance sheets. Institutional drawdown funds can call capital only when deals are found, eliminating deployment pressure. Retail-facing BDCs and interval funds take money first and hunt for assets second — uninvested cash immediately dilutes NAV, creating structural pressure to lend fast at whatever terms the market offers. The Cliffwater Corporate Lending Fund (CCLFX), which grew several times over in the past five years, illustrates the scale of this dynamic. The fastest-growing channel in private credit is almost certainly the channel with the weakest underwriting."
+    },
+    {
+      "heading": "The high-yield market's improving quality represents risk transfer, not risk reduction",
+      "body": "The double-B share of the high-yield market has risen from roughly 35% to nearly 60%, while the triple-C share has fallen from over 20% to around 9% — a picture of a healthier public bond market. Sheehan's interpretation is more unsettling: the riskiest borrowers didn't clean up their balance sheets, they simply moved into private credit portfolios that are not subject to regular mark-to-market pricing. The NAV stability that private credit funds reported through the 2022 rate-hiking cycle — which drove retail inflows sharply higher — reflected valuation opacity, not portfolio resilience. Risk that cannot be seen cannot be priced, which means the eventual repricing will be more abrupt."
+    },
+    {
+      "heading": "Software-collateralised private credit loans may have near-zero recovery values",
+      "body": "Private credit's historical roots were in hard-asset lending — GE Capital financing jet engines, rail cars, and MRI machines. Over the past decade, SaaS and software companies became a major component of private credit portfolios, entities that carry almost no tangible collateral recoverable in bankruptcy. Sponsors justified valuations of 16-17x EBITDA by contributing 40% equity rather than the typical 20%, and lenders accepted PIK (payment-in-kind) structures that deferred cash interest. An AI-disrupted software company that has lost its revenue base will yield recovery rates approaching zero — meaning recovery values, not just default rates, are the critical variable this cycle."
+    },
+    {
+      "heading": "Redemption gates slow the bleeding but cannot prevent asset deterioration",
+      "body": "The standard defence of interval fund structures is that quarterly redemption caps of around 5% prevent destabilising runs, and commercial real estate interval funds that survived their 2023 redemption surge provide some empirical support. But Manchuk draws the crucial distinction: gates manage liability-side panic; they cannot prevent asset-side default. As inflows slow, funds must sell their most liquid — typically their highest-quality — positions to meet redemptions, leaving a more leveraged portfolio of lower-quality assets. The fact that Oaktree-style distressed funds are already raising dedicated vehicles to buy stressed private credit loans signals that sophisticated capital has already priced in the next phase."
+    },
+    {
+      "heading": "Private credit contraction would be a macroeconomic credit crunch, not just an asset-class correction",
+      "body": "Private credit has grown larger than the entire US high-yield market and now functions as the primary external financing channel for leveraged companies that cannot access public capital markets. A sustained contraction is therefore not merely an investor loss event — it is a financing cutoff for thousands of American businesses with no viable alternative. The path dependency is already visible: negative headlines trigger retail redemptions, which force sales of quality assets, which degrades portfolio optics, which generates more headlines. This need not replicate 2008's bank-run dynamics to cause real economic damage; a quiet, persistent tightening of credit for highly leveraged firms is a recession catalyst in its own right."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "어떤 회사가 레버리지 6배에 도달하면 그 밑에서 빠져나오기가 매우, 매우 어렵습니다. 이건 2000년대 초, 금리가 정상이었을 때의 이야기입니다. 지금 우리는 그 환경으로 돌아왔고, 6배, 7배 레버리지는 현재 차입 금리에서 갑자기 대부분의 기업 재무제표에 심각한 부담이 됩니다.",
+    "attribution": "Craig Manchuk, Portfolio Manager, Osterweiss Strategic Income Fund"
+  },
+  "notable_quote_en": {
+    "text": "Once a company gets to six times levered, it's very, very difficult to get out from under that — and this is back in the early 2000s, in a normal rate environment. Now that we're back where we are today, six, seven times leverage all of a sudden at the current borrowing rates becomes a real strain on most companies' balance sheets.",
+    "attribution": "Craig Manchuk, Portfolio Manager, Osterweiss Strategic Income Fund"
+  },
+  "keywords_ko": [
+    "private credit",
+    "interval fund 환매 제한",
+    "LBO 언더라이팅",
+    "PIK 대출",
+    "BDC 구조",
+    "신용 사이클 디폴트율"
+  ],
+  "keywords_en": [
+    "private credit",
+    "interval fund redemption gates",
+    "leveraged buyout underwriting",
+    "PIK loans",
+    "BDC structure",
+    "credit cycle default rates"
+  ],
+  "generated_at": "2026-04-27T08:17:56.429456"
+}

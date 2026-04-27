@@ -1,5 +1,54 @@
 [
   {
+    "slug": "2026-04-27-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "What's Actually Going On With Private Credit",
+    "published": "2026-04-27T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-04-26-fareed-zakaria-gps",
+    "podcast": "Fareed Zakaria GPS",
+    "category": "Politics / Geopolitics",
+    "title": "Shooting at the White House Correspondents’ Dinner",
+    "published": "2026-04-26T15:30:00"
+  },
+  {
+    "slug": "2026-04-24-all-in-podcast",
+    "podcast": "All-In Podcast",
+    "category": "Politics / Geopolitics",
+    "title": "SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
+    "published": "2026-04-24T21:20:00+00:00"
+  },
+  {
+    "slug": "2026-04-24-making-sense",
+    "podcast": "Making Sense",
+    "category": "Philosophy / AI Ethics",
+    "title": "#472 — Strange Days on the Right",
+    "published": "2026-04-24T16:15:00+00:00"
+  },
+  {
+    "slug": "2026-04-24-hard-fork",
+    "podcast": "Hard Fork",
+    "category": "AI / Tech",
+    "title": "Tim Cook’s Legacy + The Future of U.B.I. With Andrew Yang + HatGPT",
+    "published": "2026-04-24T11:00:00+00:00"
+  },
+  {
+    "slug": "2026-04-24-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "AI Inside the Enterprise",
+    "published": "2026-04-24T10:00:00+00:00"
+  },
+  {
+    "slug": "2026-04-24-ezra-klein-show",
+    "podcast": "Ezra Klein Show",
+    "category": "Politics / Geopolitics",
+    "title": "Stewart Brand, Silicon Valley’s Favorite Prophet, on Life’s Most Important Principle",
+    "published": "2026-04-24T09:00:00+00:00"
+  },
+  {
     "slug": "2026-04-22-a16z-podcast",
     "podcast": "a16z Podcast",
     "category": "VC / Business",
@@ -299,54 +348,5 @@
     "category": "Politics / Geopolitics",
     "title": "Will Iran Break Trumpism?",
     "published": "2026-03-27T09:00:00+00:00"
-  },
-  {
-    "slug": "2026-03-26-all-in-podcast",
-    "podcast": "All-In Podcast",
-    "category": "Politics / Geopolitics",
-    "title": "Are Psychedelics the Key to Living Forever? (ft. Bryan Johnson)",
-    "published": "2026-03-26T00:10:00+00:00"
-  },
-  {
-    "slug": "2026-03-25-exponential-view",
-    "podcast": "Exponential View",
-    "category": "AI / Tech",
-    "title": "What NVIDIA’s bet on OpenClaw means for the future of AI and your token budget",
-    "published": "2026-03-25T16:22:55+00:00"
-  },
-  {
-    "slug": "2026-03-25-a16z-podcast",
-    "podcast": "a16z Podcast",
-    "category": "VC / Business",
-    "title": "Submarines and the Future of Defense Manufacturing",
-    "published": "2026-03-25T10:00:00+00:00"
-  },
-  {
-    "slug": "2026-03-25-odd-lots",
-    "podcast": "Odd Lots",
-    "category": "Macro / Markets",
-    "title": "Odd Lots: The Petrochemicals Shock That's Already Rippling Through Plastics (Podcast)",
-    "published": "2026-03-25T08:00:00+00:00"
-  },
-  {
-    "slug": "2026-03-24-making-sense",
-    "podcast": "Making Sense",
-    "category": "Philosophy / AI Ethics",
-    "title": "#466 — What Is Technology Doing to Us?",
-    "published": "2026-03-24T18:10:00+00:00"
-  },
-  {
-    "slug": "2026-03-24-ezra-klein-show",
-    "podcast": "Ezra Klein Show",
-    "category": "Politics / Geopolitics",
-    "title": "How Bad Could the Iran Oil Crisis Get?",
-    "published": "2026-03-24T09:00:00+00:00"
-  },
-  {
-    "slug": "2026-03-23-lex-fridman-podcast",
-    "podcast": "Lex Fridman Podcast",
-    "category": "AI / Tech",
-    "title": "#494 – Jensen Huang: NVIDIA – The $4 Trillion Company & the AI Revolution",
-    "published": "2026-03-23T16:28:42+00:00"
   }
 ]
