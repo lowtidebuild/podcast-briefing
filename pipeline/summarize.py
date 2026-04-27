@@ -2,12 +2,21 @@
 
 import re
 import json
-import anthropic
+from dataclasses import dataclass, field
 
-from config import ANTHROPIC_API_KEY, CLAUDE_MODEL
+from config import ANTHROPIC_API_KEY, CLAUDE_MODEL, GEMINI_MODEL
+from schema import empty_summary
 
-_anthropic_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+_anthropic_client = None
 _gemini_client = None
+
+
+def _get_anthropic_client():
+    global _anthropic_client
+    if _anthropic_client is None:
+        import anthropic as _anthropic
+        _anthropic_client = _anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+    return _anthropic_client
 
 
 def _get_gemini_client():
@@ -126,7 +135,8 @@ def _build_prompt(episode, transcript_text):
 
 def _summarize_claude(prompt, model=None):
     """Call Claude API and return raw text."""
-    response = _anthropic_client.messages.create(
+    client = _get_anthropic_client()
+    response = client.messages.create(
         model=model or CLAUDE_MODEL,
         max_tokens=8000,
         messages=[{"role": "user", "content": prompt}],
@@ -156,40 +166,129 @@ PROVIDERS = {
 }
 
 
-def summarize_episode(episode, transcript_text, provider="claude", model=None,
-                      max_retries=2):
-    """Generate bilingual structured summary via LLM.
+@dataclass
+class SummaryGenerationResult:
+    """Raw and parsed result from a summary generation attempt."""
 
-    Args:
-        provider: "claude" or "gemini"
-        model: override the default model for the provider
-        max_retries: number of retries on JSON parse failure
-    Returns dict matching the episode JSON schema.
-    """
-    prompt = _build_prompt(episode, transcript_text)
+    summary: dict | None
+    raw_text: str
+    provider: str
+    model: str
+    attempts: int
+    parse_succeeded: bool
+    stage: str = "summary_generation"
+    errors: list[str] = field(default_factory=list)
+    warnings: list[str] = field(default_factory=list)
+    artifacts: dict = field(default_factory=dict)
+    usage: dict = field(default_factory=dict)
+
+
+def _effective_model(provider, model):
+    if model:
+        return model
+    if provider == "claude":
+        return CLAUDE_MODEL
+    if provider == "gemini":
+        return GEMINI_MODEL
+    return ""
+
+
+def _artifact_slug(episode, transcript_text):
+    """Build a stable artifact slug when orchestration has not made one yet."""
+    if episode.get("slug"):
+        return episode["slug"]
+    date_str = str(episode.get("published", ""))[:10] or "unknown-date"
+    podcast = re.sub(r'[^\w\s-]', '', str(episode.get("podcast", "episode")).lower())
+    podcast = re.sub(r'[\s]+', '-', podcast).strip("-")[:60] or "episode"
+    return f"{date_str}-{podcast}"
+
+
+def _generate_json_with_result(prompt, provider="claude", model=None,
+                               max_retries=2, label="summary"):
+    """Generate a JSON object from a prompt and preserve raw output metadata."""
     fn = PROVIDERS[provider]
+    raw = ""
 
     for attempt in range(1 + max_retries):
         raw = fn(prompt, model=model)
         result = _parse_summary(raw)
         if result is not None:
-            return result
+            return SummaryGenerationResult(
+                summary=result,
+                raw_text=raw,
+                provider=provider,
+                model=_effective_model(provider, model),
+                attempts=attempt + 1,
+                parse_succeeded=True,
+                stage=label,
+            )
         if attempt < max_retries:
-            print(f"    Retrying summary ({attempt + 1}/{max_retries})...")
+            print(f"    Retrying {label} ({attempt + 1}/{max_retries})...")
 
-    # All retries exhausted — return fallback with raw text
-    print(f"    Error: All {1 + max_retries} summary attempts failed to produce valid JSON")
-    return {
-        "guest": None,
-        "summary_ko": "",
-        "summary_en": "",
-        "key_points_ko": [],
-        "key_points_en": [],
-        "notable_quote_ko": {"text": "", "attribution": ""},
-        "notable_quote_en": {"text": "", "attribution": ""},
-        "keywords_ko": [],
-        "keywords_en": [],
-    }
+    error = f"all {1 + max_retries} {label} attempts failed to produce valid JSON"
+    print(f"    Error: {error}")
+    return SummaryGenerationResult(
+        summary=None,
+        raw_text=raw,
+        provider=provider,
+        model=_effective_model(provider, model),
+        attempts=1 + max_retries,
+        parse_succeeded=False,
+        stage=label,
+        errors=[error],
+    )
+
+
+def summarize_episode_with_result(episode, transcript_text, provider="claude",
+                                  model=None, max_retries=2, slug=None):
+    """Generate a bilingual summary and preserve raw output metadata.
+
+    Args:
+        provider: "claude" or "gemini"
+        model: override the default model for the provider
+        max_retries: number of retries on JSON parse failure
+    Returns SummaryGenerationResult.
+    """
+    from extraction import should_use_chunked_summary
+
+    if should_use_chunked_summary(transcript_text):
+        from synthesis import summarize_long_episode_with_result
+        return summarize_long_episode_with_result(
+            episode,
+            transcript_text,
+            slug=slug or _artifact_slug(episode, transcript_text),
+            provider=provider,
+            model=model,
+            max_retries=max_retries,
+        )
+
+    prompt = _build_prompt(episode, transcript_text)
+    return _generate_json_with_result(
+        prompt,
+        provider=provider,
+        model=model,
+        max_retries=max_retries,
+        label="summary_generation",
+    )
+
+
+def summarize_episode(episode, transcript_text, provider="claude", model=None,
+                      max_retries=2):
+    """Generate bilingual structured summary via LLM.
+
+    Compatibility wrapper returning the legacy summary dict shape.
+    New orchestration should use summarize_episode_with_result.
+    """
+    result = summarize_episode_with_result(
+        episode,
+        transcript_text,
+        provider=provider,
+        model=model,
+        max_retries=max_retries,
+    )
+    if result.summary is not None:
+        return result.summary
+    return empty_summary()
 
 
 def _parse_summary(text):

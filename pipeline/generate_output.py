@@ -6,7 +6,7 @@ import re
 from datetime import datetime
 from pathlib import Path
 
-from config import SUMMARIES_DIR, MAX_FEED_INDEX_SIZE
+from config import REPORTS_DIR, SUMMARIES_DIR, MAX_FEED_INDEX_SIZE
 
 
 def slugify(text):
@@ -35,11 +35,11 @@ def make_slug(episode):
     return slug
 
 
-def generate_episode_json(episode, summary):
+def generate_episode_json(episode, summary, slug=None):
     """Write a single episode summary JSON file."""
     SUMMARIES_DIR.mkdir(parents=True, exist_ok=True)
 
-    slug = make_slug(episode)
+    slug = slug or make_slug(episode)
 
     entry = {
         "id": episode["id"],
@@ -57,6 +57,7 @@ def generate_episode_json(episode, summary):
         "key_points_en": summary.get("key_points_en", []),
         "notable_quote_ko": summary.get("notable_quote_ko", {"text": "", "attribution": ""}),
         "notable_quote_en": summary.get("notable_quote_en", {"text": "", "attribution": ""}),
+        "notable_quote": summary.get("notable_quote", None),
         "keywords_ko": summary.get("keywords_ko", []),
         "keywords_en": summary.get("keywords_en", []),
         "generated_at": datetime.now().isoformat(),
@@ -76,10 +77,13 @@ def rebuild_feed_index():
     keeps the latest MAX_FEED_INDEX_SIZE entries.
     """
     episodes = []
+    skipped = []
+    scanned = 0
 
     for f in SUMMARIES_DIR.glob("*.json"):
         if f.name == "feed.json":
             continue
+        scanned += 1
         try:
             with open(f, encoding="utf-8") as fh:
                 ep = json.load(fh)
@@ -91,7 +95,9 @@ def rebuild_feed_index():
                         "title": ep["title"],
                         "published": ep["published"],
                     })
-        except (json.JSONDecodeError, KeyError):
+        except (json.JSONDecodeError, KeyError) as e:
+            print(f"  Warning: Skipping invalid summary file {f.name}: {e}")
+            skipped.append({"file": f.name, "error": str(e)})
             continue
 
     # Sort newest first, limit size
@@ -101,5 +107,21 @@ def rebuild_feed_index():
     feed_path = SUMMARIES_DIR / "feed.json"
     with open(feed_path, "w", encoding="utf-8") as f:
         json.dump(episodes, f, ensure_ascii=False, indent=2)
+
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    report_path = REPORTS_DIR / "feed_index_report.json"
+    with open(report_path, "w", encoding="utf-8") as f:
+        json.dump(
+            {
+                "scanned_files": scanned,
+                "indexed_count": len(episodes),
+                "skipped_count": len(skipped),
+                "skipped": skipped,
+                "generated_at": datetime.now().isoformat(),
+            },
+            f,
+            ensure_ascii=False,
+            indent=2,
+        )
 
     return str(feed_path)

@@ -2,20 +2,34 @@
 interface Props {
   quoteKo: { text: string; attribution: string };
   quoteEn: { text: string; attribution: string };
+  groundedQuote?: {
+    source_text_en: string;
+    translation_ko: string;
+    attribution: string;
+    is_verbatim: boolean;
+  } | null;
 }
 
-const { quoteKo, quoteEn } = Astro.props;
+const { quoteKo, quoteEn, groundedQuote } = Astro.props;
+const showQuote = Boolean(groundedQuote?.is_verbatim && groundedQuote.source_text_en);
+const quoteKoText = groundedQuote?.translation_ko || quoteKo.text;
+const quoteEnText = groundedQuote?.source_text_en || quoteEn.text;
+const quoteAttribution = groundedQuote?.attribution || quoteEn.attribution || quoteKo.attribution;
 ---
 
-<div data-lang="ko">
-  <blockquote class="quote-block">
-    <p>{quoteKo.text}</p>
-    <div class="quote-attribution">— {quoteKo.attribution}</div>
-  </blockquote>
-</div>
-<div data-lang="en">
-  <blockquote class="quote-block">
-    <p>{quoteEn.text}</p>
-    <div class="quote-attribution">— {quoteEn.attribution}</div>
-  </blockquote>
-</div>
+{showQuote && (
+  <>
+    <div data-lang="ko">
+      <blockquote class="quote-block">
+        <p>{quoteKoText}</p>
+        <div class="quote-attribution">— {quoteAttribution}</div>
+      </blockquote>
+    </div>
+    <div data-lang="en">
+      <blockquote class="quote-block">
+        <p>{quoteEnText}</p>
+        <div class="quote-attribution">— {quoteAttribution}</div>
+      </blockquote>
+    </div>
+  </>
+)}

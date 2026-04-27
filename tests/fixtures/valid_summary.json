@@ -1,0 +1,38 @@
+{
+  "guest": {
+    "name": "Jasmine Sun",
+    "title": "Writer, The Atlantic"
+  },
+  "summary_ko": "AI를 이유로 한 기술기업 감원은 단순한 비용 절감이 아니라 투자자에게 새로운 성장 서사를 제시하려는 움직임입니다. Atlassian과 Block의 사례는 AI 전환이라는 말이 실제 자동화와 시장용 메시지 사이에 걸쳐 있음을 보여줍니다. Meta의 대규모 인프라 투자는 인건비를 컴퓨팅 비용으로 바꾸는 더 구조적인 변화를 암시합니다.",
+  "summary_en": "AI-framed layoffs in technology companies are not merely cost cutting; they are also a way to tell investors a new productivity story. The Atlassian and Block examples sit between genuine automation pressure and market narrative management. Meta's infrastructure spending points to a deeper shift from labor costs toward compute costs.",
+  "key_points_ko": [
+    {
+      "heading": "AI 감원 서사는 실제 변화와 시장용 메시지가 섞여 있습니다",
+      "body": "Atlassian과 Block은 AI를 언급했지만 기존 사업 압박과 주가 관리의 성격도 강합니다. Block의 주가는 감원 발표 뒤 올랐고, 이는 시장이 AI 전환 서사에 보상한다는 신호입니다. 독자는 감원의 원인을 자동화 하나로 단정하기보다 기업별 재무 압박과 투자자 커뮤니케이션을 함께 봐야 합니다."
+    },
+    {
+      "heading": "토큰 사용량은 생산성 지표가 되기 어렵습니다",
+      "body": "토큰 리더보드는 AI 사용을 장려하지만 Goodhart의 법칙을 피하기 어렵습니다. 사용량이 목표가 되면 직원은 산출물보다 소비량을 최적화할 수 있습니다. 따라서 토큰 비용은 output quality, shipped work, revenue impact와 함께 측정해야 합니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "The AI layoff story mixes real change with investor messaging",
+      "body": "Atlassian and Block invoked AI, but their cases also reflect existing business pressure and market positioning. Block's stock rose after its layoff announcement, showing that investors reward the AI-transition narrative. Readers should separate automation evidence from financial storytelling."
+    },
+    {
+      "heading": "Token usage is a poor standalone productivity metric",
+      "body": "Token leaderboards can encourage AI adoption, but they invite Goodhart's Law. Once usage becomes the target, employees can optimize consumption rather than outcomes. Token budgets should be evaluated beside shipped work, output quality, and business impact."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "프로그래밍 진척도를 코드 줄 수로 측정하는 것은 항공기 건조 진척도를 무게로 측정하는 것과 같습니다.",
+    "attribution": "Kevin Roose"
+  },
+  "notable_quote_en": {
+    "text": "Measuring programming progress by lines of code is like measuring aircraft building progress by weight.",
+    "attribution": "Kevin Roose"
+  },
+  "keywords_ko": ["AI 감원", "tokenmaxxing", "Goodhart의 법칙", "LLM 글쓰기"],
+  "keywords_en": ["AI layoffs", "tokenmaxxing", "Goodhart's Law", "LLM writing"]
+}

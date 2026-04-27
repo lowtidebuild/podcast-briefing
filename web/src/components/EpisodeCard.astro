@@ -11,12 +11,25 @@ interface Quote {
   attribution: string;
 }
 
+interface GroundedQuote {
+  source_text_en: string;
+  translation_ko: string;
+  speaker: string;
+  attribution: string;
+  is_verbatim: boolean;
+  translation_is_verbatim: boolean;
+  source_char_start: number | null;
+  source_char_end: number | null;
+  match_score: number;
+}
+
 interface Guest {
   name: string;
   title: string;
 }
 
 interface Props {
+  slug: string;
   podcast: string;
   category: string;
   title: string;
@@ -30,12 +43,15 @@ interface Props {
   keyPointsEn: KeyPoint[];
   quoteKo: Quote;
   quoteEn: Quote;
+  groundedQuote?: GroundedQuote | null;
   keywordsKo: string[];
   keywordsEn: string[];
-  transcript: string;
+  hasTranscript: boolean;
+  transcriptUrl: string;
 }
 
 const {
+  slug,
   podcast,
   category,
   title,
@@ -49,9 +65,11 @@ const {
   keyPointsEn,
   quoteKo,
   quoteEn,
+  groundedQuote,
   keywordsKo,
   keywordsEn,
-  transcript,
+  hasTranscript,
+  transcriptUrl,
 } = Astro.props;
 
 const dateStr = new Date(published).toLocaleDateString('en-US', {
@@ -60,29 +78,21 @@ const dateStr = new Date(published).toLocaleDateString('en-US', {
   day: 'numeric',
 });
 
-const hasTranscript = transcript.length > 0;
-const episodeId = `ep-${published.slice(0, 10)}-${podcast.toLowerCase().replace(/\s+/g, '-').slice(0, 20)}`;
+const episodeId = `ep-${slug.replace(/[^\w-]/g, '-')}`;
 
-// Build Obsidian markdown for download
-const obsidianMd = hasTranscript ? `---
-podcast: "${podcast}"
-title: "${title}"
-date: ${published.slice(0, 10)}
-category: "${category}"
-${guest ? `guest: "${guest.name}"` : ''}
+const downloadTitle = `${published.slice(0, 10)}-${podcast.toLowerCase().replace(/\s+/g, '-')}.md`;
 ---
 
-# ${title}
-> **${podcast}** | ${category} | ${published.slice(0, 10)}
-${guest ? `> with ${guest.name} — ${guest.title}` : ''}
-
-## Transcript
-
-${transcript}
-` : '';
----
-
-<article class="episode" data-category={category}>
+<article
+  class="episode"
+  data-category={category}
+  data-slug={slug}
+  data-podcast={podcast}
+  data-title={title}
+  data-published-date={published.slice(0, 10)}
+  data-guest-name={guest?.name || ''}
+  data-guest-title={guest?.title || ''}
+>
   <div class="episode-category">{category}</div>
   <h2 class="episode-title">{title}</h2>
   <div class="episode-meta">
@@ -147,7 +157,7 @@ ${transcript}
   )}
 
   <!-- Quote -->
-  <QuoteBlock quoteKo={quoteKo} quoteEn={quoteEn} />
+  <QuoteBlock quoteKo={quoteKo} quoteEn={quoteEn} groundedQuote={groundedQuote || null} />
 
   <!-- Keywords -->
   <div class="keywords" data-lang="ko">
@@ -169,46 +179,188 @@ ${transcript}
     {hasTranscript && (
       <>
         <span class="separator">·</span>
-        <button class="action-item action-btn" data-copy-id={episodeId}>Copy transcript</button>
+        <button class="action-item action-btn" data-copy-id={episodeId} data-transcript-url={transcriptUrl}>Copy transcript</button>
         <span class="separator">·</span>
-        <button class="action-item action-btn" data-download-id={episodeId}>Download .md</button>
+        <button class="action-item action-btn" data-download-id={episodeId} data-transcript-url={transcriptUrl} data-download-title={downloadTitle}>Download .md</button>
       </>
     )}
   </div>
-
-  {hasTranscript && (
-    <script type="application/json" id={`transcript-${episodeId}`} set:html={JSON.stringify({ text: transcript, md: obsidianMd, title: `${published.slice(0, 10)}-${podcast.toLowerCase().replace(/\s+/g, '-')}.md` })} />
-  )}
 </article>
 
 <script>
+  const transcriptCache = new Map<string, string>();
+
+  async function fetchTranscript(url: string) {
+    if (transcriptCache.has(url)) return transcriptCache.get(url) || '';
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`Transcript fetch failed: ${response.status}`);
+    const text = await response.text();
+    transcriptCache.set(url, text);
+    return text;
+  }
+
+  function yamlString(value: string) {
+    return JSON.stringify(value || '');
+  }
+
+  function setTemporaryLabel(btn: Element, label: string, original: string | null) {
+    btn.textContent = label;
+    setTimeout(() => { btn.textContent = original; }, 2000);
+  }
+
+  function paragraphText(root: Element, selector: string) {
+    return Array.from(root.querySelectorAll(selector))
+      .map((el) => el.textContent?.trim())
+      .filter(Boolean)
+      .join('\n\n');
+  }
+
+  function keyPointsMarkdown(root: Element, lang: string) {
+    return Array.from(root.querySelectorAll(`.key-points[data-lang="${lang}"] > div`))
+      .map((item) => {
+        const heading = item.querySelector('h3')?.textContent?.trim();
+        const body = paragraphText(item, 'p');
+        if (!heading && !body) return '';
+        return heading ? `### ${heading}\n\n${body}` : body;
+      })
+      .filter(Boolean)
+      .join('\n\n');
+  }
+
+  function quoteMarkdown(root: Element, lang: string) {
+    const quote = root.querySelector(`[data-lang="${lang}"] .quote-block`);
+    const text = quote?.querySelector('p')?.textContent?.trim();
+    const attribution = quote
+      ?.querySelector('.quote-attribution')
+      ?.textContent
+      ?.replace(/^—\s*/, '')
+      .trim();
+    if (!text) return '';
+    return attribution ? `> ${text}\n>\n> — ${attribution}` : `> ${text}`;
+  }
+
+  function keywordsMarkdown(root: Element, lang: string) {
+    return Array.from(root.querySelectorAll(`.keywords[data-lang="${lang}"] .keyword-pill`))
+      .map((pill) => pill.textContent?.trim())
+      .filter(Boolean)
+      .map((keyword) => `- ${keyword}`)
+      .join('\n');
+  }
+
+  function buildMarkdown(article: HTMLElement, transcript: string) {
+    const {
+      slug = '',
+      podcast = '',
+      title = '',
+      category = '',
+      publishedDate = '',
+      guestName = '',
+      guestTitle = '',
+    } = article.dataset;
+
+    const summaryKo = paragraphText(article, '.episode-summary[data-lang="ko"] p');
+    const summaryEn = paragraphText(article, '.episode-summary[data-lang="en"] p');
+    const keyPointsKo = keyPointsMarkdown(article, 'ko');
+    const keyPointsEn = keyPointsMarkdown(article, 'en');
+    const quoteKo = quoteMarkdown(article, 'ko');
+    const quoteEn = quoteMarkdown(article, 'en');
+    const keywordsKo = keywordsMarkdown(article, 'ko');
+    const keywordsEn = keywordsMarkdown(article, 'en');
+
+    return `---
+podcast: ${yamlString(podcast)}
+title: ${yamlString(title)}
+date: ${publishedDate}
+category: ${yamlString(category)}
+slug: ${yamlString(slug)}
+${guestName ? `guest: ${yamlString(guestName)}` : ''}
+---
+
+# ${title}
+> **${podcast}** | ${category} | ${publishedDate}
+${guestName ? `> with ${guestName}${guestTitle ? ` — ${guestTitle}` : ''}` : ''}
+
+## Briefing
+
+### Korean
+
+${summaryKo}
+
+### English
+
+${summaryEn}
+
+## Key Points
+
+### Korean
+
+${keyPointsKo}
+
+### English
+
+${keyPointsEn}
+
+## Quote
+
+${quoteKo}
+
+${quoteEn}
+
+## Keywords
+
+### Korean
+
+${keywordsKo}
+
+### English
+
+${keywordsEn}
+
+## Transcript
+
+${transcript}`;
+  }
+
   document.querySelectorAll('[data-copy-id]').forEach(btn => {
     btn.addEventListener('click', async () => {
-      const id = (btn as HTMLElement).dataset.copyId;
-      const dataEl = document.getElementById(`transcript-${id}`);
-      if (!dataEl) return;
-      const { text } = JSON.parse(dataEl.textContent || '{}');
+      const el = btn as HTMLElement;
+      const transcriptUrl = el.dataset.transcriptUrl;
+      if (!transcriptUrl) return;
+      const original = btn.textContent;
+      btn.textContent = 'Copying...';
       try {
+        const text = await fetchTranscript(transcriptUrl);
         await navigator.clipboard.writeText(text);
-        const original = btn.textContent;
-        btn.textContent = 'Copied!';
-        setTimeout(() => { btn.textContent = original; }, 2000);
-      } catch {}
+        setTemporaryLabel(btn, 'Copied!', original);
+      } catch {
+        setTemporaryLabel(btn, 'Unavailable', original);
+      }
     });
   });
 
   document.querySelectorAll('[data-download-id]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const id = (btn as HTMLElement).dataset.downloadId;
-      const dataEl = document.getElementById(`transcript-${id}`);
-      if (!dataEl) return;
-      const { md, title } = JSON.parse(dataEl.textContent || '{}');
-      const blob = new Blob([md], { type: 'text/markdown' });
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = title;
-      a.click();
-      URL.revokeObjectURL(a.href);
+    btn.addEventListener('click', async () => {
+      const el = btn as HTMLElement;
+      const id = el.dataset.downloadId;
+      const transcriptUrl = el.dataset.transcriptUrl;
+      if (!id || !transcriptUrl) return;
+      const article = el.closest('.episode') as HTMLElement | null;
+      if (!article) return;
+      const original = btn.textContent;
+      btn.textContent = 'Preparing...';
+      try {
+        const transcript = await fetchTranscript(transcriptUrl);
+        const md = buildMarkdown(article, transcript);
+        const blob = new Blob([md], { type: 'text/markdown' });
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = el.dataset.downloadTitle || 'episode.md';
+        a.click();
+        URL.revokeObjectURL(a.href);
+        setTemporaryLabel(btn, 'Downloaded', original);
+      } catch {
+        setTemporaryLabel(btn, 'Unavailable', original);
+      }
     });
   });
 </script>

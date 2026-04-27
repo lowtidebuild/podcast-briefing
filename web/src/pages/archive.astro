@@ -4,51 +4,15 @@ import CategoryFilter from '../components/CategoryFilter.astro';
 import LangToggle from '../components/LangToggle.astro';
 import ArchiveEpisode from '../components/ArchiveEpisode.astro';
 import '../styles/editorial.css';
+import { loadEpisodes, loadTranscriptSlugSet } from '../lib/episodes';
+import type { Episode } from '../lib/episodes';
 
-import { readFileSync, readdirSync, existsSync } from 'node:fs';
-import { join } from 'node:path';
-
-const dataDir = join(process.cwd(), '..', 'data', 'summaries');
-const transcriptDir = join(process.cwd(), '..', 'data', 'transcripts');
-const files = readdirSync(dataDir).filter(f => f.endsWith('.json') && f !== 'feed.json');
-const episodeFiles = files.map(f => JSON.parse(readFileSync(join(dataDir, f), 'utf-8')));
-
-interface Guest {
-  name: string;
-  title: string;
-}
-
-interface Episode {
-  slug: string;
-  podcast: string;
-  category: string;
-  title: string;
-  published: string;
-  link: string;
-  podcast_url?: string;
-  guest?: Guest | null;
-  summary_ko: string;
-  summary_en: string;
-  key_points_ko: { heading: string; body: string }[];
-  key_points_en: { heading: string; body: string }[];
-  notable_quote_ko: { text: string; attribution: string };
-  notable_quote_en: { text: string; attribution: string };
-  keywords_ko: string[];
-  keywords_en: string[];
-}
-
-const episodes: Episode[] = episodeFiles
-  .filter((ep: any) => ep.slug)
-  .sort((a: any, b: any) => new Date(b.published).getTime() - new Date(a.published).getTime());
-
-// Load transcript availability map
-const transcriptMap = new Map<string, string>();
-if (existsSync(transcriptDir)) {
-  readdirSync(transcriptDir).filter(f => f.endsWith('.txt')).forEach(f => {
-    const slug = f.replace('.txt', '');
-    transcriptMap.set(slug, readFileSync(join(transcriptDir, f), 'utf-8'));
-  });
-}
+const episodes: Episode[] = loadEpisodes();
+const transcriptSlugs = loadTranscriptSlugSet();
+const basePath = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
+const transcriptUrl = (slug: string) => `${basePath}data/transcripts/${slug}.txt`;
 
 // Group by week (Monday start)
 function getWeekStart(dateStr: string): string {
@@ -95,6 +59,7 @@ function formatWeekHeader(mondayStr: string): string {
         <h2 class={`archive-week-header ${i === 0 ? 'first' : ''}`}>{formatWeekHeader(weekStart)}</h2>
         {eps.map(ep => (
           <ArchiveEpisode
+            slug={ep.slug}
             podcast={ep.podcast}
             category={ep.category}
             title={ep.title}
@@ -108,9 +73,11 @@ function formatWeekHeader(mondayStr: string): string {
             keyPointsEn={ep.key_points_en}
             quoteKo={ep.notable_quote_ko}
             quoteEn={ep.notable_quote_en}
+            groundedQuote={ep.notable_quote || null}
             keywordsKo={ep.keywords_ko}
             keywordsEn={ep.keywords_en}
-            transcript={transcriptMap.get(ep.slug) || ''}
+            hasTranscript={transcriptSlugs.has(ep.slug)}
+            transcriptUrl={transcriptUrl(ep.slug)}
           />
         ))}
       </div>

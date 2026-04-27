@@ -3,7 +3,10 @@
 import json
 import os
 import gspread
+from dataclasses import dataclass
 from google.oauth2.service_account import Credentials
+
+from quality import summary_text_errors
 
 
 HEADER_ROW = [
@@ -14,6 +17,13 @@ HEADER_ROW = [
 
 REPO_OWNER = "lowtidebuild"
 REPO_NAME = "podcast-briefing"
+
+
+@dataclass
+class SheetsAppendResult:
+    ok: bool
+    configured: bool
+    error: str | None = None
 
 
 def get_sheet():
@@ -41,7 +51,7 @@ def append_episode(episode, summary, slug):
         sheet = get_sheet()
         if not sheet:
             print("    Google Sheets not configured, skipping")
-            return
+            return SheetsAppendResult(ok=True, configured=False)
 
         # Create header row if sheet is empty
         if not sheet.row_values(1):
@@ -65,12 +75,11 @@ def append_episode(episode, summary, slug):
         summary_en = summary.get("summary_en", "")
         summary_ko = summary.get("summary_ko", "")
 
-        # Detect summary failure
-        has_en = bool(summary_en and len(summary_en) > 50)
-        has_ko = bool(summary_ko and len(summary_ko) > 50 and not summary_ko.strip().startswith('{'))
-        if not has_en or not has_ko:
+        # Detect summary failure. Keep this aligned with pipeline/quality.py.
+        text_errors = summary_text_errors(summary, min_chars=50)
+        if text_errors:
             status = "⚠️ SUMMARY FAILED"
-            notes = f"Missing: {'EN' if not has_en else ''} {'KO' if not has_ko else ''}".strip()
+            notes = "; ".join(text_errors)
         else:
             status = ""
             notes = ""
@@ -93,6 +102,8 @@ def append_episode(episode, summary, slug):
             print(f"    ⚠️ Added to Google Sheet with SUMMARY FAILED flag")
         else:
             print("    Added to Google Sheet")
+        return SheetsAppendResult(ok=True, configured=True)
 
     except Exception as e:
         print(f"    Google Sheets error (non-fatal): {e}")
+        return SheetsAppendResult(ok=False, configured=True, error=str(e))

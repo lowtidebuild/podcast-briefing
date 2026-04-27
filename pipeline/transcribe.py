@@ -1,14 +1,20 @@
 """Transcript generation via Whisper API with Substack fallback."""
 
-import os
-import openai
 import requests
 from bs4 import BeautifulSoup
 
 from config import OPENAI_API_KEY, WHISPER_MODEL
 from download_audio import get_audio_chunks
 
-client = openai.OpenAI(api_key=OPENAI_API_KEY)
+_openai_client = None
+
+
+def _get_openai_client():
+    global _openai_client
+    if _openai_client is None:
+        import openai
+        _openai_client = openai.OpenAI(api_key=OPENAI_API_KEY)
+    return _openai_client
 
 
 def transcribe_audio(audio_path):
@@ -19,6 +25,7 @@ def transcribe_audio(audio_path):
     """
     chunks = get_audio_chunks(audio_path)
     all_text = []
+    client = _get_openai_client()
 
     for chunk_path in chunks:
         with open(chunk_path, "rb") as f:

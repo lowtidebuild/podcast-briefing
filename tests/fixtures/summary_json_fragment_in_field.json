@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "summary_ko": "{\n  \"guest\": {\n    \"name\": \"Jeff Kaplan\",\n    \"title\": \"Former Game Director, Blizzard Entertainment\"\n  },\n  \"summary_ko\": \"게임 산업이 기업화와 단기 수익 극대화의 논리에 잠식되는 시대에, 창작자가 왜 자신의 작품에 대한 통제권을 지켜야 하는가를 보여주는 사례입니다. 이 문장은 길어 보이지만 실제로는 JSON 객체가 잘려 들어간 실패 산출물입니다.\"\n}",
+  "summary_en": "This is a deliberately valid-length English summary so the test isolates the Korean field that contains a JSON fragment. The pipeline should reject this shape because it would render a plausible-looking broken artifact to the public site.",
+  "key_points_ko": [
+    {
+      "heading": "JSON 조각은 요약문이 아닙니다",
+      "body": "요약 필드가 JSON 객체처럼 시작하면 모델 출력이 중간에 잘렸거나 파서가 잘못 복구했을 가능성이 큽니다. 이런 데이터는 사용자에게 보여주면 안 됩니다. 품질 게이트는 길이만 보지 않고 구조적 실패를 잡아야 합니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "A JSON fragment is not a summary",
+      "body": "When a summary field starts like a JSON object, the model output was likely truncated or incorrectly recovered. This data should not be published to users. The quality gate must catch structural failure, not just length."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "검증되지 않은 인용문입니다.",
+    "attribution": "Unknown"
+  },
+  "notable_quote_en": {
+    "text": "This is an unverified quote.",
+    "attribution": "Unknown"
+  },
+  "keywords_ko": ["검증", "JSON", "요약 실패", "품질 게이트"],
+  "keywords_en": ["validation", "JSON", "summary failure", "quality gate"]
+}

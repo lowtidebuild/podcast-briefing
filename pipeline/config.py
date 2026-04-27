@@ -10,6 +10,10 @@ STATE_PATH = REPO_ROOT / "data" / "state.json"
 SUMMARIES_DIR = REPO_ROOT / "data" / "summaries"
 AUDIO_DIR = REPO_ROOT / "data" / "audio"
 TRANSCRIPTS_DIR = REPO_ROOT / "data" / "transcripts"
+FAILURES_DIR = REPO_ROOT / "data" / "failures"
+INTERMEDIATE_DIR = REPO_ROOT / "data" / "intermediate"
+EXTRACTION_CACHE_DIR = REPO_ROOT / "data" / "cache" / "extractions"
+REPORTS_DIR = REPO_ROOT / "data" / "reports"
 
 # API settings
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")

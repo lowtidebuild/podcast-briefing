@@ -7,6 +7,7 @@ from datetime import datetime
 from email.utils import parsedate_to_datetime
 
 from config import CONFIG_PATH, STATE_PATH, MAX_ENTRIES_PER_FEED
+from state import is_episode_complete, normalize_state
 
 
 def load_feeds():
@@ -16,22 +17,19 @@ def load_feeds():
 
 
 def load_state():
-    """Load processed episode IDs. Re-initialize if missing or corrupt."""
+    """Load pipeline state. Re-initialize if missing or corrupt."""
     try:
         with open(STATE_PATH) as f:
-            state = json.load(f)
-            if "processed" not in state:
-                return {"processed": []}
-            return state
+            return normalize_state(json.load(f))
     except (FileNotFoundError, json.JSONDecodeError):
-        return {"processed": []}
+        return normalize_state({})
 
 
 def save_state(state):
     """Write state back to disk."""
     STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(STATE_PATH, "w") as f:
-        json.dump(state, f, indent=2)
+        json.dump(normalize_state(state), f, indent=2)
 
 
 def _get_episode_id(entry):
@@ -99,7 +97,7 @@ def fetch_new_episodes(feeds, state):
 
             for entry in feed.entries[:MAX_ENTRIES_PER_FEED]:
                 episode_id = _get_episode_id(entry)
-                if not episode_id or episode_id in state["processed"]:
+                if not episode_id or is_episode_complete(state, episode_id):
                     continue
 
                 audio_url = _get_audio_url(entry)

@@ -11,12 +11,25 @@ interface Quote {
   attribution: string;
 }
 
+interface GroundedQuote {
+  source_text_en: string;
+  translation_ko: string;
+  speaker: string;
+  attribution: string;
+  is_verbatim: boolean;
+  translation_is_verbatim: boolean;
+  source_char_start: number | null;
+  source_char_end: number | null;
+  match_score: number;
+}
+
 interface Guest {
   name: string;
   title: string;
 }
 
 interface Props {
+  slug: string;
   podcast: string;
   category: string;
   title: string;
@@ -30,9 +43,11 @@ interface Props {
   keyPointsEn: KeyPoint[];
   quoteKo: Quote;
   quoteEn: Quote;
+  groundedQuote?: GroundedQuote | null;
   keywordsKo: string[];
   keywordsEn: string[];
-  transcript: string;
+  hasTranscript: boolean;
+  transcriptUrl: string;
 }
 
 const props = Astro.props;
@@ -51,6 +66,7 @@ const dateStr = new Date(props.published).toLocaleDateString('en-US', {
   </summary>
   <div class="archive-episode-body">
     <EpisodeCard
+      slug={props.slug}
       podcast={props.podcast}
       category={props.category}
       title={props.title}
@@ -64,9 +80,11 @@ const dateStr = new Date(props.published).toLocaleDateString('en-US', {
       keyPointsEn={props.keyPointsEn}
       quoteKo={props.quoteKo}
       quoteEn={props.quoteEn}
+      groundedQuote={props.groundedQuote || null}
       keywordsKo={props.keywordsKo}
       keywordsEn={props.keywordsEn}
-      transcript={props.transcript}
+      hasTranscript={props.hasTranscript}
+      transcriptUrl={props.transcriptUrl}
     />
   </div>
 </details>
