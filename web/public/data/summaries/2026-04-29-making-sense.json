@@ -1,0 +1,88 @@
+{
+  "id": "1595906c-815d-4845-9ad8-a3a3a6aa5a02",
+  "slug": "2026-04-29-making-sense",
+  "podcast": "Making Sense",
+  "category": "Philosophy / AI Ethics",
+  "title": "#473 — Money, Power, and Moral Failure",
+  "published": "2026-04-29T17:00:00+00:00",
+  "link": "https://wakingup.libsyn.com/473-money-power-and-moral-failure",
+  "podcast_url": "https://www.samharris.org/podcasts",
+  "guest": {
+    "name": "Lloyd Blankfein",
+    "title": "Former CEO, Goldman Sachs"
+  },
+  "summary_ko": "금융 위기, 불평등, 그리고 정치적 혼란이 동시에 심화되는 지금, Goldman Sachs의 전 CEO Lloyd Blankfein이 던지는 경고는 단순한 회고가 아닙니다. 그는 현재의 시장 과열, 트럼프발 정책 불확실성, 그리고 부의 집중이 서로 맞물려 민주주의 자체를 위협하는 구조적 위기를 형성하고 있다고 진단합니다.\n\nBlankfein의 핵심 주장은 이렇습니다. 2008년 금융 위기와 COVID-19 팬데믹 모두 당시 의사결정자들은 '알 수 없는 것'을 다루고 있었기 때문에, 사후적 비판은 공정하지 않다는 것입니다. 그러나 역설적으로, 위기 이후의 과도한 규제 반응이 다음 위기 대응 능력을 오히려 약화시켰습니다. 위기를 막기 위한 방어막이 성장 동력인 '동물적 본능(animal spirits)'을 억누르고, 동시에 다음 위기에 쓸 정책 도구마저 제거해버렸기 때문입니다.\n\n시장에 대한 분석도 날카롭습니다. 그는 300배 주가수익비율(PER)을 정당화하는 논리 — 미래 고성장을 현재 가치로 할인한 것 — 를 설명하면서도, 밈 주식(meme stock) 현상이 '존경받는 시장'으로 문화적으로 침투하고 있다는 점을 우려합니다. Liberation Day 관세 발표 이후 트럼프가 일부 철회하자 시장이 급등한 사례는, 시장이 이성적 기대치가 아닌 감정적 안도감을 가격에 반영하고 있음을 보여줍니다.\n\n가장 긴 파장을 가진 함의는 부의 불평등입니다. Blankfein은 경제가 '거시적으로는 잘 돌아가지만, 절반 이상의 사람들에게는 나쁜 경제'라는 분열 구조를 직시합니다. 자산을 가진 자는 자산 인플레이션으로 부가 늘고, 자산 없는 자는 그 성장에서 배제됩니다. 이 격차를 해소하는 것은 금융의 영역이 아닌 정치의 영역이며, 곧 트리리오네어(조만장자)가 등장할 수 있는 시대에 '피치포크(민중의 분노)'는 더 이상 은유가 아닙니다.",
+  "summary_en": "Lloyd Blankfein, who steered Goldman Sachs through the 2008 crisis, arrives on Making Sense not to defend Wall Street but to deliver a structural diagnosis: the feedback loops between financial markets, policy failure, and wealth concentration are now threatening political stability in ways that no single crisis response can fix.\n\nHis central argument is a defence of decision-making under genuine uncertainty. Both 2008 and COVID demanded action before the facts were knowable — stimulus checks that could have been better-targeted given more time were nonetheless correct given the time available. The more troubling legacy, he argues, is that post-crisis over-regulation strips away the very policy tools needed for the next emergency, while the years of enforced caution suppress the risk-taking that generates growth in the interim.\n\nOn markets, Blankfein draws a critical distinction: a 300x price-to-earnings ratio is not inherently irrational if it prices in compounding hypergrowth across a multi-decade horizon — but the cultural bleed from meme-stock gambling into mainstream equity markets is something he cannot defend. The post-Liberation Day rally, where markets surged on partial tariff relief despite aggregate uncertainty being higher than before the announcement, illustrates his point that sentiment and fundamentals can decouple dangerously.\n\nThe sharpest implication is distributional. Blankfein is explicit that a macro-level strong economy is compatible with — and indeed producing — deteriorating conditions for the majority of households without assets. Closing that gap is a political problem, not a financial one. With the first trillionaires potentially months away, his warning that \"the pitchforks are coming\" is less a prediction than an observation of a threshold already crossed.",
+  "key_points_ko": [
+    {
+      "heading": "위기 당시의 결정은 사후적으로 평가할 수 없다 — 단, 다음 위기 대응력은 이미 훼손됐다",
+      "body": "Blankfein은 2008년과 COVID 대응을 모두 '당시 가용한 도구와 속도를 고려했을 때 잘 한 것'으로 평가합니다. 핵심은 '현재 알고 있는 정보'와 '당시 알 수 없었던 정보'를 구분하는 것입니다. 그러나 위기 이후 정치적 반발로 인해 규제당국의 재량적 개입 권한이 축소되었고, 이는 다음 위기 때 쓸 수 있는 정책 도구 상자를 비워버렸습니다. COVID 이후 공중보건 메시지에 대한 사회적 불신이 높아진 것처럼, 금융 위기 이후의 과잉 규제 반응도 미래의 위기 대응 능력을 역설적으로 약화시킵니다. 투자자와 정책 입안자 모두, '우리가 다음을 잘 준비했는가'라는 질문에 Blankfein은 조심스러운 회의론을 표명합니다."
+    },
+    {
+      "heading": "시장은 미래를 현재 가치로 할인하지만, 지금은 감정을 할인하고 있다",
+      "body": "300배 PER은 단순한 거품이 아닐 수 있습니다. Blankfein의 설명에 따르면, 이는 시장이 해당 기업의 수익이 향후 수년간 매년 100% 성장할 것이라는 기대를 현재 주가에 반영한 결과입니다. 그러나 트럼프의 Liberation Day 이후 나타난 시장 반응은 다른 문제를 드러냅니다. 관세 일부 철회라는 '안도감'이 Liberation Day 이전보다 높은 불확실성 속에서도 시장 급등을 이끌었습니다. Blankfein은 이를 '합리적 기대'가 아닌 '감정적 안도'의 가격 반영으로 진단합니다. 밈 주식 현상의 문화적 침투와 결합될 경우, 시장은 점점 카지노에 가까워지고 있다는 그의 우려는 근거가 있습니다."
+    },
+    {
+      "heading": "Goldman Sachs의 Paulson 트레이드 논란은 수탁자 역할과 시장 조성자 역할의 혼동에서 비롯됐다",
+      "body": "2008년 위기 당시 Goldman Sachs는 John Paulson의 모기지 시장 공매도 포지션을 구성하고 반대편 거래 상대방을 찾아준 것으로 비판받았습니다. Blankfein의 반론은 명확합니다. 거래 양측 모두 '과부나 고아'가 아닌 정교한 기관 투자자였으며, Goldman의 역할은 수탁자(fiduciary)가 아닌 시장 조성자(market maker)였습니다. 시장 조성자는 한쪽의 리스크를 인수했다가 반대편을 찾을 때까지 그 포지션을 보유합니다. 이 구분이 흐려지면, 자본 시장의 작동 원리 자체가 오해됩니다. 그러나 이 설명이 완전히 설득력 있는지는 의문입니다. 정보 비대칭 문제 — 즉 Goldman이 모기지 증권의 질에 대해 반대편 거래 상대방보다 더 많이 알고 있었는가 — 는 이 대화에서 충분히 다뤄지지 않았습니다."
+    },
+    {
+      "heading": "부의 불평등은 금융이 해결할 수 없다 — 그리고 정치는 해결하지 않고 있다",
+      "body": "Blankfein은 경제 성과의 이중성을 솔직하게 인정합니다. 거시 지표는 긍정적이지만, 자산 인플레이션의 수혜는 자산을 가진 계층에게 집중됩니다. 자산 없는 절반 이상의 인구에게 '좋은 경제'는 공허한 수사입니다. 그는 부의 창출(GDP 성장)과 부의 분배를 분리하며, 후자는 금융 기관이 아닌 정치 영역의 책임이라고 선을 긋습니다. 그러나 바로 그 정치 영역이 기능하지 않고 있다는 점에서, 이 진단은 해결책 없는 문제 정의에 머뭅니다. Elon Musk가 수개월 내 조만장자(trillionaire)가 될 수도 있는 시대에, Blankfein 스스로 '피치포크가 오고 있다'고 말하는 것은 경고를 넘어 불가피성의 인정입니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Crisis-era decisions were defensible — but the regulatory backlash has degraded the next response toolkit",
+      "body": "Blankfein's defence of 2008 and COVID policymakers rests on a clean epistemic distinction: you cannot judge decisions by information that was unknowable at the time. Stimulus checks sent to people who didn't need them were an acceptable price for speed. The more damaging legacy is the political backlash: post-2008 reforms curtailed regulators' discretionary authority to intervene, emptying the toolkit for the next crisis. The parallel with COVID is precise — a society that lost trust in public health messaging will be harder to mobilise next time. Blankfein doesn't name a successor crisis, but the implication is that the institutional capacity to absorb one has been quietly hollowed out."
+    },
+    {
+      "heading": "Markets are pricing sentiment, not fundamentals — and the distinction is becoming dangerously blurred",
+      "body": "A 300x price-to-earnings ratio is theoretically defensible if the underlying company can sustain near-100% annual earnings growth for several years — the market is discounting a future where that multiple compresses to 12x. But the post-Liberation Day rally exposed a different dynamic: markets surged on the partial rollback of Trump's tariff announcement despite aggregate uncertainty being measurably higher than before the announcement. Blankfein frames this as relief-pricing rather than rational expectation-updating. Combined with the cultural contagion of meme-stock behaviour into mainstream equities, his casino analogy is not rhetorical — it describes a market where sentiment and price discovery have partially decoupled."
+    },
+    {
+      "heading": "The Paulson trade controversy was a category error — but Blankfein sidesteps the information asymmetry question",
+      "body": "Goldman Sachs was vilified for structuring John Paulson's short position against mortgage securities and finding an institutional counterparty on the other side. Blankfein's rebuttal — that Goldman was acting as market maker, not fiduciary, and that both sides were sophisticated institutions — is technically sound. Market makers routinely take on and warehouse risk until a matching counterparty is found; this is the mechanism by which capital markets function. The argument's weakness is what goes unaddressed: whether Goldman possessed material information about mortgage security quality that the counterparty lacked. That information asymmetry question, not the market-making role itself, was the substantive allegation, and it receives no serious treatment here."
+    },
+    {
+      "heading": "Wealth inequality is a political problem that politics is failing to solve — and the window is closing",
+      "body": "Blankfein draws a clean line between wealth creation (GDP growth, which the economy is delivering) and wealth distribution (which it is not). Asset inflation benefits only those who hold assets; for the majority without them, macroeconomic strength is an abstraction. He explicitly assigns the distribution problem to the political sphere and away from finance — a defensible boundary that nevertheless functions as an abdication when the political sphere is visibly dysfunctional. With Elon Musk potentially months from becoming the world's first trillionaire, Blankfein's remark that \"the pitchforks are coming\" reads less as warning than as acknowledgment that a threshold of political sustainability may already have been crossed."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "제가 피치포크가 오고 있다는 느낌을 받아왔는데, 우리는 이제 곧 트리리오네어가 등장하는 시대에 살고 있습니다. Elon은 몇 달 안에 거기 도달할 수도 있어요. 이건 결국 정치적으로 재앙이 될 겁니다.",
+    "attribution": "Sam Harris, Podcast Host"
+  },
+  "notable_quote_en": {
+    "text": "I've had the sense that the pitchforks are coming, and we're now living in the age of soon-to-be trillionaires. Elon might be there in a few months. It's ultimately going to be disastrous politically",
+    "attribution": "Sam Harris, Podcast Host"
+  },
+  "notable_quote": {
+    "source_text_en": "I've had the sense that the pitchforks are coming, and we're now living in the age of soon-to-be trillionaires. Elon might be there in a few months. It's ultimately going to be disastrous politically",
+    "translation_ko": "제가 피치포크가 오고 있다는 느낌을 받아왔는데, 우리는 이제 곧 트리리오네어가 등장하는 시대에 살고 있습니다. Elon은 몇 달 안에 거기 도달할 수도 있어요. 이건 결국 정치적으로 재앙이 될 겁니다.",
+    "speaker": "Sam Harris",
+    "attribution": "Sam Harris, Podcast Host",
+    "is_verbatim": true,
+    "translation_is_verbatim": false,
+    "source_char_start": 22009,
+    "source_char_end": 22208,
+    "match_score": 1.0
+  },
+  "keywords_ko": [
+    "부의 불평등",
+    "시장 조성자 vs 수탁자",
+    "2008 금융 위기",
+    "위기 이후 규제 반발",
+    "감정 주도 시장",
+    "유동성 위기"
+  ],
+  "keywords_en": [
+    "wealth inequality",
+    "market-maker vs fiduciary",
+    "2008 financial crisis",
+    "post-crisis regulatory backlash",
+    "sentiment-driven markets",
+    "systemic liquidity risk"
+  ],
+  "generated_at": "2026-04-30T08:39:54.923758"
+}

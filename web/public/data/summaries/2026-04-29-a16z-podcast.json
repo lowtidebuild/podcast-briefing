@@ -1,0 +1,96 @@
+{
+  "id": "e9c09545-4c76-4210-bf00-214b1f7f7ba9",
+  "slug": "2026-04-29-a16z-podcast",
+  "podcast": "a16z Podcast",
+  "category": "VC / Business",
+  "title": "The Shift in Global Drug Development",
+  "published": "2026-04-29T10:00:00+00:00",
+  "link": "https://a16z.simplecast.com/episodes/the-shift-in-global-drug-development-Ch15YbK8",
+  "podcast_url": "https://a16z.com/podcasts",
+  "guest": {
+    "name": "Cremieux Recueil",
+    "title": "Independent Researcher, Genetics/Metrics/Demographics"
+  },
+  "summary_ko": "미국은 전 세계 신약 개발의 리더 자리를 중국에 내주고 있습니다. 이는 단순한 규모의 문제가 아니라 제도 설계의 문제이며, 그 결과는 미국 환자들이 어떤 치료를 받을 수 있는지, 그리고 얼마를 지불하는지에 직접적인 영향을 미칩니다.\n\nCremieux Recueil의 핵심 주장은 이것입니다: 중국은 2016년 임상시험 규제 개혁 이후 단 몇 년 만에 미국을 추월했으며, 이는 단순한 복제약(me-too) 전략이 아니라 진정한 혁신으로 이루어졌다는 것입니다. 중국은 현재 Phase I 신규 유전자치료제 착수 건수에서 미국의 6배를 기록하고 있으며, 항체 기반 약물, 소분자 약물, 그리고 완전히 새로운 치료 영역 전반에 걸쳐 미국을 앞서고 있습니다. 2016년 이전 중국의 임상시험 승인 심사에는 평균 600일 이상이 소요됐지만, 개혁 이후 목표 심사 기간은 65일로 단축됐습니다.\n\n중국이 채택한 핵심 제도 혁신은 세 가지입니다. 첫째, ICH 회원국의 해외 임상 데이터 수용을 허용하여 중복 시험을 제거했습니다. 둘째, 병렬 IRB(기관생명윤리위원회) 승인 시스템을 도입해 한 기관의 승인이 전국 모든 기관에 자동 적용됩니다. 셋째, 혁신적인 통제군 설계(innovative control arms)를 허용하여 시험 기간과 비용을 대폭 줄였습니다. 여기에 더해 중국의 약가 협상 모델은 서방과 근본적으로 다릅니다. 협상을 통해 가격을 낮추되 판매량 확대를 보장함으로써 제약사의 이익을 오히려 늘리는 구조입니다. 그 결과 정부 지출은 줄고, 기업 수익은 개선되며, 해당 치료 영역의 임상시험 투자가 늘어나는 선순환이 발생합니다.\n\n반면 미국은 헤드윈드가 쌓이고 있습니다. Trump 행정부의 최혜국(MFN) 약가 정책은 이미 낮은 제약업계 자본 수익률을 더욱 압박할 위험이 있습니다. 규제 완화는 진행 중이지만 시장 인지도가 낮아 기업들이 새로운 기회를 활용하지 못하고 있습니다. 중기적으로 미국 제약사들이 중국에서 임상시험을 운영하는 의존도가 높아질수록, 중국이 데이터 및 시장 접근을 차단할 경우의 전략적 취약성도 함께 커집니다.",
+  "summary_en": "America's dominance in biomedical innovation is ending — not gradually, but abruptly. China surpassed the United States in total clinical trial volume during COVID and has not looked back. More consequentially, China now leads in genuinely novel drug development: it is initiating six times as many first-ever Phase I gene therapy trials as the U.S., and is ahead in antibody-based drugs, small molecules, and entirely new therapeutic categories. This is not a story about cheap labour or copycat drugs.\n\nCremieux Recueil's central argument is that the shift is institutional, not demographic. China's 2016 regulatory reforms dismantled a bureaucracy that had imposed average approval review times of over 600 days and six-year drug approval timelines. Key changes include accepting overseas ICH-compliant trial data, implementing parallel IRB approvals (one ethics committee approval automatically covers all trial sites nationally), and permitting innovative adaptive control arm designs that sharply reduce trial cost and duration. The market authorisation holder system replaced iterative government inspections with a single end-of-process audit, allowing companies to plan and execute without regulatory interruption.\n\nChina's drug pricing reform is the most structurally underappreciated element. Unlike European reference pricing, which compresses pharmaceutical profits, China's model negotiates prices down while guaranteeing volume increases — leaving drug company revenues intact or improved, reducing government expenditure, and directing clinical trial investment toward the negotiated therapeutic areas. The data show no negative spillover effects on competing firms. It is market design that simultaneously serves consumers, firms, and the state.\n\nThe U.S. faces compounding headwinds: pharmaceutical returns already below the cost of capital, MFN pricing policy that risks further profit compression, and a deregulatory effort whose market impact is blunted by low awareness among the companies it is meant to benefit. The near-term risk is not Chinese military seizure of drug patents — it is a quiet structural shift where American firms run their trials in China because it is cheaper and faster, creating a dependency that Beijing could exploit at will.",
+  "key_points_ko": [
+    {
+      "heading": "중국은 이미 미국을 추월했다 — 복제약이 아니라 진짜 혁신으로",
+      "body": "중국은 2016년 임상시험 개혁 이후 단기간에 미국을 임상시험 총량에서 추월했으며, EU와 미국을 합산해야 겨우 앞서는 수준입니다. 결정적인 것은 중국의 혁신이 선행 약물 모방에 그치지 않는다는 점입니다. 2025년 기준 중국의 신규 Phase I 유전자치료제 착수 건수는 미국의 6배이며, 항체 기반 약물과 소분자 약물에서도 모두 앞서 있습니다. 서방에서 중국 제약을 '모방국'으로 보는 통념은 적어도 프런티어 영역에서는 더 이상 유효하지 않습니다. 이는 글로벌 의약품 혁신의 지리적 중심이 이동하고 있음을 의미하며, 치료 접근성과 전략적 기술 통제권 모두에 영향을 미칩니다."
+    },
+    {
+      "heading": "중국의 격차는 자원이 아니라 제도 설계에서 비롯됐다",
+      "body": "2016년 이전 중국의 임상시험 심사 대기 기간은 평균 600일 이상, 신약 승인 기간은 평균 6년이었습니다. 개혁 이후 심사 목표는 65일로 단축됐고 더 줄이는 것을 추진 중입니다. 핵심 제도 혁신은 세 가지입니다: ① ICH 회원국 해외 데이터 수용으로 중복 시험 제거, ② 병렬 IRB 승인 시스템으로 전국 동시 적용, ③ 시험 후 단일 감사로 전환하는 시장허가보유자(MAH) 제도 도입. 미국이 각 시험 단계마다 반복적인 규제 검토를 요구하는 것과 대조적으로, 중국은 기준 준수를 기업에게 위임하고 결과를 사후 검증하는 방식을 채택했습니다. 이 구조적 차이가 임상시험 실행 속도와 비용에서 현격한 격차를 만들어냈습니다."
+    },
+    {
+      "heading": "중국의 약가 협상 모델은 제약사 이익을 높이면서 정부 지출을 줄인다",
+      "body": "서방 국가들의 약가 협상은 통상적으로 제약사 이익을 압박하고, 미국이 그 손실을 보전하는 구조입니다. 중국은 이 메커니즘을 역전시켰습니다. 협상을 통해 단가를 낮추는 대신 판매량 확대를 보장함으로써 제약사의 총수익을 유지하거나 늘립니다. 데이터에 따르면 협상 대상 기업의 이익이 증가했고 경쟁사에 대한 부정적 파급 효과도 나타나지 않았습니다. 그 결과 협상 대상 치료 영역에 대한 임상시험 투자가 증가하는 공급 반응이 발생하며, 이는 다시 경쟁 심화와 추가 가격 하락으로 이어집니다. 미국 Medicare가 특정 질환의 약가를 지원하자 관련 연구 투자가 급증했던 것과 유사한 논리인데, 중국은 이를 의도적으로 설계해 적용했습니다."
+    },
+    {
+      "heading": "미국의 MFN 약가 정책은 혁신 투자 기반을 무너뜨릴 수 있다",
+      "body": "Cremieux는 미국 제약업계의 자본 수익률이 이미 자본 비용을 하회하고 있으며 이 상황이 2025년 들어 더 악화됐다고 지적합니다. Trump 행정부가 추진 중인 최혜국(MFN) 약가 정책은 미국 약가를 주요국 수준에 맞추는 것을 목표로 하는데, 이는 이미 낮은 수익률을 더욱 압박할 위험이 있습니다. 규제 완화는 진행 중이지만, 시장 인지도 부족으로 인해 기업들이 새로운 기회를 활용하지 못하고 있습니다. 가장 현실적인 위험 시나리오는 중국의 적대적 차단이 아니라, 미국 제약사들이 비용과 속도 측면의 이점 때문에 임상시험을 중국으로 이전하고, 그 결과 중국이 핵심 의약품 공급망에서 레버리지를 갖게 되는 점진적인 의존 심화입니다."
+    },
+    {
+      "heading": "단기 낙관론: AI가 타겟을 발굴하고 중국이 임상시험을 실행하는 분업",
+      "body": "중기적으로 가능성 있는 시나리오는 Apple-Foxconn 모델의 제약 버전입니다. AI 모델이 신약 후보물질을 발굴하고 미국 기업이 이를 소유하며, 실제 임상시험은 더 빠르고 저렴한 중국에서 실행하는 구조입니다. 이 분업은 단기적으로 양측 모두에게 이익이 될 수 있습니다. 그러나 이 구조는 중국이 데이터 접근이나 시장 판매를 차단할 경우 미국이 임상 실행 역량 없이 발굴 역량만 보유하는 취약한 상태로 전락할 위험을 내포합니다. CZI(Chan Zuckerberg Initiative)의 세포·장기 수준 시뮬레이션 연구처럼 임상시험 자체를 가상화하는 방향이 궁극적 해법이 될 수 있지만, 그 시점은 여전히 불확실합니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "China has already surpassed the U.S. in drug innovation — not by copying, but by leading",
+      "body": "China crossed the United States in total clinical trial volume during COVID and has continued to extend its lead. More importantly, this is not a me-too story: China is initiating six times as many novel Phase I gene therapy trials as the U.S. in 2025, and leads in antibody-based drugs, small molecules, and entirely new therapeutic categories. The conventional Western framing of China as a pharmaceutical copier is empirically obsolete for frontier drug development. The combined U.S. and EU trial volume still exceeds China's, but both Western trajectories are flat while China's is steeply ascending."
+    },
+    {
+      "heading": "China's lead is a product of deliberate institutional design, not demographic scale",
+      "body": "Before 2016, China's investigational new drug review averaged over 600 days and drug approval timelines averaged six years. Post-reform, the review target is 65 days, with ambitions to reach 40. Three structural innovations drove this: accepting ICH-compliant overseas trial data (eliminating redundant trials), parallel IRB approvals (one ethics committee sign-off applies nationally), and the Market Authorisation Holder system (replacing iterative government inspections with a single post-trial audit). China also permits innovative adaptive control arms — such as borrowing placebo data from a prior trial with identical eligibility criteria — that the U.S. has not yet approved. Each reform reduces the time and capital required to bring a drug to market."
+    },
+    {
+      "heading": "China's drug pricing model increases pharmaceutical profits while cutting government costs",
+      "body": "The standard European reference pricing model compresses drug company margins and offloads the shortfall to the U.S. market. China has engineered the opposite: negotiate prices down, guarantee volume increases, and leave company revenues intact or improved. Empirical data show that negotiated firms saw profit increases with no negative spillovers to competitors. The mechanism then triggers a supply response — more clinical trial investment in targeted therapeutic areas — which drives further competition and price reductions. This is the same dynamic that drove U.S. research investment when Medicare and Medicaid began covering specific conditions, but applied as intentional market design rather than an accidental consequence of coverage expansion."
+    },
+    {
+      "heading": "MFN drug pricing could destroy the U.S. innovation funding base at precisely the wrong moment",
+      "body": "Cremieux notes that U.S. pharmaceutical returns already fall below the cost of capital — a condition that worsened through 2025. The Trump administration's most-favoured-nation pricing policy, which would align U.S. drug prices with peer-country levels, risks compressing these margins further at a moment when China is accelerating. Regulatory deregulation is occurring but suffers from a market awareness gap: companies do not know the new rules exist and are therefore not exploiting the new pathways. The realistic near-term risk is not Chinese military expropriation of drug patents but a quiet structural drift — American firms moving trials to China for cost and speed advantages, gradually creating a dependency that Beijing could leverage at will."
+    },
+    {
+      "heading": "The near-term equilibrium may be AI-discovered targets, Chinese-executed trials — with serious strategic risk",
+      "body": "The optimistic scenario is an Apple-Foxconn analogue: U.S. AI models identify drug candidates, American firms retain IP, Chinese infrastructure runs the trials cheaply and quickly. This division of labour could benefit both parties in the short run, and is already emerging as U.S. companies increasingly conduct trials in China. The structural vulnerability is that if China restricts data access or market sales, the U.S. would be left with discovery capacity but no execution infrastructure. Computational biology efforts like the Chan Zuckerberg Initiative's cell-and-organ simulation work could eventually virtualise parts of clinical trials, but the timeline remains uncertain and the window for strategic drift is open now."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "중국은 '우리가 당신을 수익성 있게 만들겠다'고 말합니다. 당신이 비용을 낮추면 더 많이 팔 수 있도록 도와주겠다고. 그래서 이익이 줄지 않고 오히려 늘어나고, 우리는 돈을 덜 내고, 모두가 더 나아집니다.",
+    "attribution": "Cremieux Recueil, Independent Researcher"
+  },
+  "notable_quote_en": {
+    "text": "China says, we're going to make you profitable. If you lower those costs, we're going to help you sell more so that you don't have a reduction in profit — so that you become more profitable, and we pay less money, and everybody's just better off in general.",
+    "attribution": "Cremieux Recueil, Independent Researcher"
+  },
+  "notable_quote": {
+    "source_text_en": "China says, we're going to make you profitable. If you lower those costs, we're going to help you sell more so that you don't have a reduction in profit — so that you become more profitable, and we pay less money, and everybody's just better off in general.",
+    "translation_ko": "중국은 '우리가 당신을 수익성 있게 만들겠다'고 말합니다. 당신이 비용을 낮추면 더 많이 팔 수 있도록 도와주겠다고. 그래서 이익이 줄지 않고 오히려 늘어나고, 우리는 돈을 덜 내고, 모두가 더 나아집니다.",
+    "speaker": "Cremieux Recueil",
+    "attribution": "Cremieux Recueil, Independent Researcher",
+    "is_verbatim": false,
+    "translation_is_verbatim": false,
+    "source_char_start": null,
+    "source_char_end": null,
+    "match_score": 0.7517
+  },
+  "keywords_ko": [
+    "임상시험 제도 개혁",
+    "신약 혁신 지형 변화",
+    "drug pricing market design",
+    "규제 차익거래",
+    "유전자치료제 pipeline",
+    "중국 제약 정책"
+  ],
+  "keywords_en": [
+    "clinical trial reform",
+    "biomedical innovation",
+    "drug pricing market design",
+    "regulatory arbitrage",
+    "gene therapy pipeline",
+    "China pharma policy"
+  ],
+  "generated_at": "2026-04-30T08:21:05.362675"
+}

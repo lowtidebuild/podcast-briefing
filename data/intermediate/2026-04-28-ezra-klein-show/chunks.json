@@ -1,0 +1,460 @@
+[
+  {
+    "chunk_index": 0,
+    "char_start": 0,
+    "char_end": 38105,
+    "topics": [
+      "Abundance movement: vibes vs. legislation vs. outcomes",
+      "California housing policy and construction barriers",
+      "Progressive political philosophy and the shift from oversight to delivery",
+      "Populism-abundance synthesis in Democratic politics",
+      "Corporate/billionaire critique of the abundance agenda"
+    ],
+    "claims": [
+      {
+        "claim": "The abundance concept has achieved broad political penetration at the level of vibes but has not yet produced measurable housing construction outcomes, especially in California.",
+        "evidence": [
+          "Governors Kathy Hochul and J.B. Pritzker are publicly advocating supply-side solutions to housing and energy crises.",
+          "California housing starts data from FRED (2015–2026) do not show any uptick attributable to the YIMBY movement or the book Abundance.",
+          "One bill Gavin Newsom signed is literally titled the 'Abundant and Affordable Homes Near Transit Act.'"
+        ],
+        "speakers": [
+          "Derek Thompson"
+        ]
+      },
+      {
+        "claim": "California's failure to increase housing starts reflects a 'Russian nesting doll' of problems: 50 years of restrictive rules, 20 years of post-Great Recession macroeconomic damage, and 5 years of pandemic/inflation/financing crisis.",
+        "evidence": [
+          "The 2010s were the decade with fewest houses built per capita on record, attributed to decimation of the construction industry after the Great Recession.",
+          "Roughly 40% of construction workers in California are foreign-born, and Trump's immigration enforcement is restricting that labor supply.",
+          "Elevated interest rates have made financing for developers harder even as zoning reforms have passed."
+        ],
+        "speakers": [
+          "Derek Thompson",
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "Austin and Dallas demonstrate that building sufficient housing supply actually lowers rents, refuting the argument that new construction only benefits wealthy newcomers without reducing prices.",
+        "evidence": [
+          "Average rents in Austin have declined over the last 18–24 months after large-scale homebuilding in the 2010s and early 2020s.",
+          "Dallas added a population equivalent to urban Boston between 2019 and the early 2020s, yet housing prices have declined over the last three and a half years.",
+          "Dallas builds more housing today than any other metro in the country."
+        ],
+        "speakers": [
+          "Derek Thompson"
+        ]
+      },
+      {
+        "claim": "Progressive political culture from the late 1950s onward shifted the movement's core identity from centralized government delivery to 'speaking truth to power,' creating a structural bias toward blocking rather than building.",
+        "evidence": [
+          "C. Wright Mills's 'The Power Elite,' the SDS Port Huron Statement, Silent Spring, and Robert Caro's 'The Power Broker' are cited as intellectual milestones seeding anti-centralized-power thinking.",
+          "This shift culminated in a 50-year accumulation of zoning, permitting, and environmental laws that added veto points to housing and infrastructure construction.",
+          "Mark Dunkelman argues abundance is the first major effort since the 1970s to reopen the question of whether progressivism needs strong government delivery capacity."
+        ],
+        "speakers": [
+          "Marc Dunkelman"
+        ]
+      },
+      {
+        "claim": "The most politically effective Democratic messaging combines populist and abundance themes simultaneously—what Ezra Klein calls 'the abundance mullet'—rather than choosing one frame over the other.",
+        "evidence": [
+          "Blue Rose polling found the top-performing message was: 'Working Americans can't afford the basics. And it's because we stopped building them… Democrats will build an America that works for everyone, not just those at the top.'",
+          "Zohran Mamdani ran on rent freezes but simultaneously launched the Neighborhood Builders Fast Track, cutting pre-development time from 18 months to 10 months.",
+          "New Jersey Governor Mikey Sherrill ran on freezing utility increases (front) while her second executive order expanded solar and storage supply (back)."
+        ],
+        "speakers": [
+          "Marc Dunkelman",
+          "Ezra Klein",
+          "Derek Thompson"
+        ]
+      },
+      {
+        "claim": "A major internal risk to the abundance movement is that it becomes redefined as mere 'efficiency' or 'cutting red tape' rather than a radical vision of plenitude, losing its transformative political appeal.",
+        "evidence": [
+          "Ezra Klein notes he hears people say 'I don't disagree with cutting red tape' as if abundance is only about deregulation.",
+          "Klein states neither Abundance nor Why Nothing Works adequately described what an abundant future would concretely look like for ordinary people.",
+          "Klein also identifies the AI conversation and growing anger at AI companies as moving the progressive politics of technology further away, not closer."
+        ],
+        "speakers": [
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "Elizabeth Warren and progressive critics argue that the abundance movement fails to confront corporate power and is being co-opted by wealthy donors to push the Democratic Party toward big-business interests.",
+        "evidence": [
+          "Warren stated: 'Many in the abundance movement are doing little to call out corporate culpability and billionaire influence in creating and defending those very inefficiencies.'",
+          "Warren characterized abundance as 'a rallying cry… for wealthy donors and other corporate aligned Democrats who are putting big time muscle behind making Democrats more favorable to big businesses.'"
+        ],
+        "speakers": [
+          "Elizabeth Warren",
+          "Ezra Klein"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "At the level of vibes, this is a 0.1 percentile outcome, given where I was March 1st of 2025, the degree to which the concept of Abundance has reached something like full penetration of the political discourse, certainly the discourse of the Democratic Party.",
+        "speaker": "Derek Thompson",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "judge political movements by their outcomes. The bright side is maybe you could say it's too early to count our outcome successes. But the very fair criticism of our movement right now is where are the outcomes, especially in states like California, where the volume of abundance has been the loudest",
+        "speaker": "Derek Thompson",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "We need a liberalism that builds and we have to own that. And I'm very much part of this sort of new nomenclature we call this abundance agenda.",
+        "speaker": "Gavin Newsom",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "abundance ends up as a synonym for efficiency, that we've rebranded an agenda for capacity, that it's just I always hear people like I don't disagree with cutting red tape as if like all abundance is is about cutting red tape as opposed to an actual radical vision of plenitude.",
+        "speaker": "Ezra Klein",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Dallas built so much that construction increased per capita throughout this period. Dallas builds more housing today than any other metro in the country. That is a triumph of allowing the housing market to work.",
+        "speaker": "Derek Thompson",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "We have something better than a rent freeze. We have rents going down because we've made it easier to build.",
+        "speaker": "Derek Thompson",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Derek Thompson",
+        "title": "Contributing Writer, The Atlantic; Co-author, Abundance"
+      },
+      {
+        "name": "Marc Dunkelman",
+        "title": "Fellow, Searchlight Institute and Brown University; Author, Why Nothing Works"
+      }
+    ],
+    "keyword_candidates": [
+      "abundance movement",
+      "housing starts",
+      "YIMBY",
+      "supply-side housing policy",
+      "rent freeze",
+      "Dallas housing market",
+      "progressive politics",
+      "abundance mullet"
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "char_start": 38105,
+    "char_end": 76028,
+    "topics": [
+      "Abundance movement vs. corporate power critique",
+      "AI and labor market implications",
+      "GLP-1 drugs and government policy",
+      "Climate change, green energy buildout, and Trump-era setbacks",
+      "Campaign finance, billionaire influence, and government capacity"
+    ],
+    "claims": [
+      {
+        "claim": "Corporate power is not the primary reason for many infrastructure failures cited in the abundance framework; local and governmental decision-making failures are more often responsible.",
+        "evidence": [
+          "A clean energy transmission line through Maine proposed in 2016 was not blocked by corporate power but by debates over a pristine forest, taking until 2026 to be constructed",
+          "The high cost of connecting Grand Central to the Long Island Railroad was partly due to public union staffing levels in NYC being four times higher than in typical European cities"
+        ],
+        "speakers": [
+          "Mark"
+        ]
+      },
+      {
+        "claim": "The abundance framework is more aligned with the Rooseveltian tradition of building strong government capacity to regulate corporations than with the Brandeisian anti-monopoly tradition of breaking up concentrations.",
+        "evidence": [
+          "Theodore Roosevelt proposed the Bureau of Corporations; the Federal Trade Commission and Interstate Commerce Commission were built to regulate monopolies through centralized government power",
+          "The CFPB is cited as an 'abundance before abundance' agency that consolidated dispersed regulatory authority to help consumers against corporate power"
+        ],
+        "speakers": [
+          "Mark",
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "A more powerful government becomes more dangerous when political financing is as porous to money as the current U.S. system.",
+        "evidence": [
+          "A super PAC funded by co-founders of Palantir, OpenAI, and Andreessen Horowitz was spending money to defeat congressional candidate Alex Borris, who wanted to regulate AI",
+          "Billionaires contributed an estimated 10–25% of total 2024 campaign spending and received a president who cut taxes for the top 0.1% by an average of $300,000, paid for by the largest cuts to Medicaid in American history"
+        ],
+        "speakers": [
+          "Ezra Klein",
+          "Derek"
+        ]
+      },
+      {
+        "claim": "AI profits should be taxed and redistributed, and labor market policy should ensure AI productivity gains translate into shorter workweeks rather than mass unemployment.",
+        "evidence": [
+          "The book's sci-fi vignette states that AI profits are taxed and redistributed and that the workweek has shrunk",
+          "Derek argues for an 'abundance AI message' taxing corporations that may be among the most profitable in capitalism's history and building labor market policies for a four-day workweek"
+        ],
+        "speakers": [
+          "Derek"
+        ]
+      },
+      {
+        "claim": "Trump's policies have worsened the cost-of-living and affordability problems he was elected to fix, effectively governing as a 'scarcity candidate.'",
+        "evidence": [
+          "Legal and undocumented immigration has fallen sharply, barely growing the labor market",
+          "Tariffs on inputs like transformer hardware have raised electricity costs, with energy experts attributing rising electricity prices more to tariffed grid hardware than to AI data center demand",
+          "Oil prices are high partly due to chaos in the Strait of Hormuz"
+        ],
+        "speakers": [
+          "Derek"
+        ]
+      },
+      {
+        "claim": "The federal government should pursue something like an Operation Warp Speed for GLP-1 drugs, using advanced market commitments and bulk purchasing to distribute them to the public at cost.",
+        "evidence": [
+          "GLP-1s are described as the most popular drug category in 20–30 years with potential implications for neurodegenerative disease, inflammation, and cardiovascular disease",
+          "The COVID vaccine model—government buying drugs and distributing at cost—is cited as a precedent"
+        ],
+        "speakers": [
+          "Derek"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "I am not a populist. I am a liberal. I am concerned not about corporate power specifically, but about power, about how power can manifest in strange places.",
+        "speaker": "Ezra Klein",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The more powerful government is, the more worried you have to be about the distorting influence of money inside of it.",
+        "speaker": "Ezra Klein",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "He is governed often very explicitly as a scarcity candidate.",
+        "speaker": "Derek",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Too often we adopt a technology and then we adopt that technology's values without thinking about incorporating that technology into our values.",
+        "speaker": "Mark",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "What we saw between 2024 and 2025 is that billionaires contributed by some estimations between 10, 15 and 25 percent of total campaign spending and got a president that cut taxes for the top point one percent by an average of three hundred thousand dollars and paid for it by the largest cuts to Medicaid healthcare for low income people in American history.",
+        "speaker": "Mark",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I would frankly be interested in something like an operation warp speed for GLP-1s.",
+        "speaker": "Derek",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Mark",
+        "title": "Author, Abundance-adjacent book (full last name not identified in chunk)"
+      },
+      {
+        "name": "Derek",
+        "title": "Co-author/contributor, Abundance-adjacent discussion (full last name not identified in chunk)"
+      }
+    ],
+    "keyword_candidates": [
+      "abundance liberalism",
+      "GLP-1 Operation Warp Speed",
+      "campaign finance billionaires",
+      "AI labor displacement four-day workweek",
+      "transmission line Maine permitting",
+      "Brandeisian anti-monopoly",
+      "Consumer Financial Protection Bureau",
+      "green energy buildout IRA"
+    ]
+  },
+  {
+    "chunk_index": 2,
+    "char_start": 76028,
+    "char_end": 118273,
+    "topics": [
+      "Clean energy abundance vs. affordability framing",
+      "State capacity and progressive governance reform",
+      "NIH and scientific bureaucracy inefficiency",
+      "Transmission infrastructure and siting conflicts",
+      "Abundance ideology vs. good government vision"
+    ],
+    "claims": [
+      {
+        "claim": "Climate politics has proven difficult because motivating people around a disaster they cannot feel day-to-day is inherently hard, and the public does not consistently prioritize it.",
+        "evidence": [
+          "Long-running attempt to create political motivation by warning of future disasters that have not yet materially affected most people",
+          "Observation that the degree to which the public doesn't prioritize climate has been 'a difficult lesson to learn'"
+        ],
+        "speakers": [
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "Transmission infrastructure, not generation technology, is now the central bottleneck to clean energy deployment.",
+        "evidence": [
+          "Clean energy is generated far from load centers, requiring new long-distance transmission lines",
+          "Siting those lines requires passing through wealthy neighborhoods, pristine forests, or marginalized communities, creating unresolvable conflicts",
+          "Interconnection queues and transformer delays of months and years currently block grid electrification"
+        ],
+        "speakers": [
+          "Mark Dunkelman",
+          "Derek Thompson"
+        ]
+      },
+      {
+        "claim": "The Biden administration failed to spend authorized infrastructure money because personnel prioritized delay over expeditious spending, not just because of legal constraints.",
+        "evidence": [
+          "Tens of billions in rural broadband money and several billion in EV charger money went unspent",
+          "State-level officials reported federal counterparts seemed to create 'more instruments of delay than were necessary, by the rules inscribed by the law itself'"
+        ],
+        "speakers": [
+          "Derek Thompson"
+        ]
+      },
+      {
+        "claim": "American scientists funded by NIH spend up to 40% of their time filling out paperwork, representing a systemic failure of the institution's mission.",
+        "evidence": [
+          "Scientists' own testimony cited as source of the 40% figure",
+          "Described as 'cover your ass rules that force scientists to essentially become bureaucrats'"
+        ],
+        "speakers": [
+          "Derek Thompson"
+        ]
+      },
+      {
+        "claim": "Bernie Sanders's community health clinics, funded by the Affordable Care Act in 2010, were still not fully built as of 2026—illustrating that bureaucratic dysfunction is a left-priority issue, not just a right-wing talking point.",
+        "evidence": [
+          "ACA passed in 2010; Sanders in 2026 interview said one of two Vermont clinics is 'still not built'",
+          "Sanders himself called the bureaucracy 'horrendous'"
+        ],
+        "speakers": [
+          "Ezra Klein",
+          "Bernie Sanders"
+        ]
+      },
+      {
+        "claim": "The Democratic Party risks becoming the coalition of the status quo by reflexively defending institutions that have failed many people, which is politically dangerous.",
+        "evidence": [
+          "Left-of-center coalition is now disproportionately college graduates who succeeded inside institutions",
+          "DOGE triggered liberal rallying around institutions even where those institutions were failing",
+          "Pete Buttigieg warned Democrats would 'make a terrible mistake' trying to restore everything to 2023"
+        ],
+        "speakers": [
+          "Ezra Klein",
+          "Mark Dunkelman"
+        ]
+      },
+      {
+        "claim": "Abundance is distinguished from mere reform by requiring a positive vision of a radically different future—e.g., clean energy wealth, affordable urban housing for workers, high-speed rail—not just fixing present inefficiencies.",
+        "evidence": [
+          "A firefighter in San Francisco or Brooklyn being able to afford a home described as 'no less radical than Medicare for All'",
+          "High-speed rail cited as an example of a possibility currently unavailable in the US",
+          "Book opens with a four-page 2050 vignette of what abundance achieved would look like"
+        ],
+        "speakers": [
+          "Ezra Klein",
+          "Mark Dunkelman"
+        ]
+      },
+      {
+        "claim": "Legitimacy for most citizens comes from government outcomes, not procedural compliance—a core argument Nick Bagley makes about the 'procedural fetish' of lawyers who dominate the Democratic Party.",
+        "evidence": [
+          "Nick Bagley cited as a lawyer who trains administrative law students and served as chief counsel for Gretchen Whitmer",
+          "Bagley's argument: for most people, legitimacy is attained through outcomes, not rule-following"
+        ],
+        "speakers": [
+          "Ezra Klein"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "My word of warning to my own political party is that we would make a terrible mistake if we thought that our job was to just take power somehow and then put everything back the way it was. That's not what we're here to do.",
+        "speaker": "Pete Buttigieg",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "We need a system where everyone has a voice and not no one has a veto. And we get to a decision expeditiously and then it's not subject to endless litigation.",
+        "speaker": "Mark Dunkelman",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The institutions are not the point of government. Delivery is the point of government. And so the point of the institutions is to deliver. And if they are not delivering, and if we don't know if they're delivering, then the institutions are not the thing we defend. The institutions are the thing we upend, change, remake.",
+        "speaker": "Ezra Klein",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "If the argument is that we have a horrendous bureaucracy, absolutely correct, it is terrible... But that is not an ideology, that is common sense.",
+        "speaker": "Bernie Sanders",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "It sounds to me like you're saying that Democrats cannot ask government to add more functions until it proves to the public that government can function in the first place.",
+        "speaker": "Mark Dunkelman",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "What do we do for almost half of their time, force them to check boxes? That's a failure. And it's a failure that we inscribed with decades of cover your ass rules that force scientists to essentially become bureaucrats.",
+        "speaker": "Derek Thompson",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Derek Thompson",
+        "title": "Staff Writer, The Atlantic; Co-author, Abundance"
+      },
+      {
+        "name": "Mark Dunkelman",
+        "title": "Author; Fellow, Brown University Watson Institute"
+      },
+      {
+        "name": "Pete Buttigieg",
+        "title": "Former U.S. Secretary of Transportation"
+      },
+      {
+        "name": "Bernie Sanders",
+        "title": "U.S. Senator, Vermont"
+      },
+      {
+        "name": "Nick Bagley",
+        "title": "Law Professor; Former Chief Counsel, Governor Gretchen Whitmer"
+      }
+    ],
+    "keyword_candidates": [
+      "clean energy abundance",
+      "transmission infrastructure",
+      "NIH bureaucracy",
+      "DOGE state capacity",
+      "procedural fetish",
+      "Strait of Hormuz",
+      "Administrative Procedures Act",
+      "abundance ideology"
+    ]
+  }
+]

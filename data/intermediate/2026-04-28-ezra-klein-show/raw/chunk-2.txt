@@ -1,0 +1,147 @@
+```json
+{
+  "topics": [
+    "Clean energy abundance vs. affordability framing",
+    "State capacity and progressive governance reform",
+    "NIH and scientific bureaucracy inefficiency",
+    "Transmission infrastructure and siting conflicts",
+    "Abundance ideology vs. good government vision"
+  ],
+  "claims": [
+    {
+      "claim": "Climate politics has proven difficult because motivating people around a disaster they cannot feel day-to-day is inherently hard, and the public does not consistently prioritize it.",
+      "evidence": [
+        "Long-running attempt to create political motivation by warning of future disasters that have not yet materially affected most people",
+        "Observation that the degree to which the public doesn't prioritize climate has been 'a difficult lesson to learn'"
+      ],
+      "speakers": ["Ezra Klein"]
+    },
+    {
+      "claim": "Transmission infrastructure, not generation technology, is now the central bottleneck to clean energy deployment.",
+      "evidence": [
+        "Clean energy is generated far from load centers, requiring new long-distance transmission lines",
+        "Siting those lines requires passing through wealthy neighborhoods, pristine forests, or marginalized communities, creating unresolvable conflicts",
+        "Interconnection queues and transformer delays of months and years currently block grid electrification"
+      ],
+      "speakers": ["Mark Dunkelman", "Derek Thompson"]
+    },
+    {
+      "claim": "The Biden administration failed to spend authorized infrastructure money because personnel prioritized delay over expeditious spending, not just because of legal constraints.",
+      "evidence": [
+        "Tens of billions in rural broadband money and several billion in EV charger money went unspent",
+        "State-level officials reported federal counterparts seemed to create 'more instruments of delay than were necessary, by the rules inscribed by the law itself'"
+      ],
+      "speakers": ["Derek Thompson"]
+    },
+    {
+      "claim": "American scientists funded by NIH spend up to 40% of their time filling out paperwork, representing a systemic failure of the institution's mission.",
+      "evidence": [
+        "Scientists' own testimony cited as source of the 40% figure",
+        "Described as 'cover your ass rules that force scientists to essentially become bureaucrats'"
+      ],
+      "speakers": ["Derek Thompson"]
+    },
+    {
+      "claim": "Bernie Sanders's community health clinics, funded by the Affordable Care Act in 2010, were still not fully built as of 2026—illustrating that bureaucratic dysfunction is a left-priority issue, not just a right-wing talking point.",
+      "evidence": [
+        "ACA passed in 2010; Sanders in 2026 interview said one of two Vermont clinics is 'still not built'",
+        "Sanders himself called the bureaucracy 'horrendous'"
+      ],
+      "speakers": ["Ezra Klein", "Bernie Sanders"]
+    },
+    {
+      "claim": "The Democratic Party risks becoming the coalition of the status quo by reflexively defending institutions that have failed many people, which is politically dangerous.",
+      "evidence": [
+        "Left-of-center coalition is now disproportionately college graduates who succeeded inside institutions",
+        "DOGE triggered liberal rallying around institutions even where those institutions were failing",
+        "Pete Buttigieg warned Democrats would 'make a terrible mistake' trying to restore everything to 2023"
+      ],
+      "speakers": ["Ezra Klein", "Mark Dunkelman"]
+    },
+    {
+      "claim": "Abundance is distinguished from mere reform by requiring a positive vision of a radically different future—e.g., clean energy wealth, affordable urban housing for workers, high-speed rail—not just fixing present inefficiencies.",
+      "evidence": [
+        "A firefighter in San Francisco or Brooklyn being able to afford a home described as 'no less radical than Medicare for All'",
+        "High-speed rail cited as an example of a possibility currently unavailable in the US",
+        "Book opens with a four-page 2050 vignette of what abundance achieved would look like"
+      ],
+      "speakers": ["Ezra Klein", "Mark Dunkelman"]
+    },
+    {
+      "claim": "Legitimacy for most citizens comes from government outcomes, not procedural compliance—a core argument Nick Bagley makes about the 'procedural fetish' of lawyers who dominate the Democratic Party.",
+      "evidence": [
+        "Nick Bagley cited as a lawyer who trains administrative law students and served as chief counsel for Gretchen Whitmer",
+        "Bagley's argument: for most people, legitimacy is attained through outcomes, not rule-following"
+      ],
+      "speakers": ["Ezra Klein"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "My word of warning to my own political party is that we would make a terrible mistake if we thought that our job was to just take power somehow and then put everything back the way it was. That's not what we're here to do.",
+      "speaker": "Pete Buttigieg",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "We need a system where everyone has a voice and not no one has a veto. And we get to a decision expeditiously and then it's not subject to endless litigation.",
+      "speaker": "Mark Dunkelman",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The institutions are not the point of government. Delivery is the point of government. And so the point of the institutions is to deliver. And if they are not delivering, and if we don't know if they're delivering, then the institutions are not the thing we defend. The institutions are the thing we upend, change, remake.",
+      "speaker": "Ezra Klein",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "If the argument is that we have a horrendous bureaucracy, absolutely correct, it is terrible... But that is not an ideology, that is common sense.",
+      "speaker": "Bernie Sanders",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "It sounds to me like you're saying that Democrats cannot ask government to add more functions until it proves to the public that government can function in the first place.",
+      "speaker": "Mark Dunkelman",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "What do we do for almost half of their time, force them to check boxes? That's a failure. And it's a failure that we inscribed with decades of cover your ass rules that force scientists to essentially become bureaucrats.",
+      "speaker": "Derek Thompson",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Nobody should be angrier than the left if we have what Sanders calls a horrendous bureaucracy.",
+      "speaker": "Ezra Klein",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Abundance is not just a set of ideas and laws and rules. It's the people who execute them.",
+      "speaker": "Derek Thompson",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {"name": "Derek Thompson", "title": "Staff Writer, The Atlantic; Co-author, Abundance"},
+    {"name": "Mark Dunkelman", "title": "Author; Fellow, Brown University Watson Institute"},
+    {"name": "Pete Buttigieg", "title": "Former U.S. Secretary of Transportation"},
+    {"name": "Bernie Sanders", "title": "U.S. Senator, Vermont"},
+    {"name": "Nick Bagley", "title": "Law Professor; Former Chief Counsel, Governor Gretchen Whitmer"}
+  ],
+  "keyword_candidates": [
+    "clean energy abundance",
+    "transmission infrastructure",
+    "NIH bureaucracy",
+    "DOGE state capacity",
+    "procedural fetish",
+    "Strait of Hormuz",
+    "Administrative Procedures Act",
+    "abundance ideology"
+  ]
+}
+```

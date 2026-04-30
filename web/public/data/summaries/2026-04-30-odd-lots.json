@@ -1,0 +1,96 @@
+{
+  "id": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/vRq7tXzP0XbA/v7.mp3",
+  "slug": "2026-04-30-odd-lots",
+  "podcast": "Odd Lots",
+  "category": "Macro / Markets",
+  "title": "BlackRock's Rob Goldstein on the Next Megatrends in Finance",
+  "published": "2026-04-30T08:00:00+00:00",
+  "link": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/vRq7tXzP0XbA/v7.mp3",
+  "podcast_url": "https://www.bloomberg.com/oddlots",
+  "guest": {
+    "name": "Rob Goldstein",
+    "title": "Chief Operating Officer, BlackRock"
+  },
+  "summary_ko": "BlackRock의 COO Rob Goldstein과의 대화는 AI가 금융 산업에 미치는 영향을 단순한 생산성 향상 차원이 아닌, 산업 구조 자체의 재편이라는 시각으로 분석합니다. 현재 시장에서 '대형사가 더 커지는' 현상은 단순한 규모의 경제가 아니라, 기술력을 기반으로 더 나은 가치를 제공하는 기업이 살아남는 경쟁의 결과입니다. BlackRock이 1994년 Sun Workstation 10대를 연결해 수퍼컴퓨터를 대체했던 창업 정신은, 오늘날 AI 에이전트가 Aladdin 플랫폼을 대신 조작하는 세계로 이어집니다.\n\nGoldstein의 핵심 주장은 기업 수준의 AI 도입이 아직 1회 초도 시작하지 않았다는 것입니다. AI는 현재까지 개인 생산성 향상에는 기여했지만, 조직 설계와 비즈니스 프로세스 재설계를 요구하는 진정한 기업 도입은 사실상 미착수 상태입니다. 금요일 오후 데모에서 목격한 사례가 이를 상징합니다. 포트폴리오 매니저, 리스크 전문가, 엔지니어가 수 시간 논의한 내용이 녹음 → 기능 문서 → AI 코딩 툴 → 작동 프로토타입으로 전환되는 데 걸린 시간이 '수개월'에서 '수일'로 단축되었습니다.\n\nAladdin의 경쟁 해자에 대한 분석은 특히 주목됩니다. '누군가 vibe coding으로 리스크 관리 시스템을 만들 수 있지 않냐'는 질문에 Goldstein은 규제, 고객의 민감 데이터, 복잡한 권한 통제 체계가 결합된 생태계는 AI 시대에 오히려 더 강력한 해자가 된다고 반박합니다. 반면 독자 데이터가 없고 워크플로에 깊이 통합되지 않은 'SaaS 편의 레이어'는 AI 원주민 기업들에게 빠르게 대체될 것이라고 경고합니다.\n\n투자 엣지의 미래와 관련해 Goldstein은 세 가지를 제시합니다. 전체 포트폴리오 시각 제공 능력, AI 툴 활용 역량, 그리고 디지털화되지 않은 정보를 현장에서 수집하는 네트워크입니다. 마지막 요소는 역설적입니다. AI가 공개 데이터를 완전히 처리하는 세상에서, 아직 모델에 입력되지 않은 정보를 발굴하는 인간의 현장 역량이 오히려 더 귀해진다는 의미입니다.",
+  "summary_en": "Rob Goldstein, BlackRock's COO, makes a counterintuitive argument that cuts against the current AI hype cycle: enterprise-level AI adoption hasn't actually started yet. Individual productivity gains are real, but genuine organisational transformation — the kind that requires business-process reengineering and redesigned workflows — remains in a pre-launch phase. That gap between what frontier models can do and what firms have actually implemented is the central tension the industry has yet to confront.\n\nGoldstein's credibility on this point is grounded in BlackRock's own history. The firm's founding thesis in the early 1990s — that Sun Workstations strung together could replicate supercomputer-level risk analytics — mirrors today's AI moment precisely. Aladdin, now a platform maintained by roughly 5,000 engineers and data analysts, still has an infinite to-do list; AI's most mature enterprise use case is accelerating code velocity through that backlog. A Friday demo illustrated the point concretely: a multi-hour discussion among portfolio managers and engineers was recorded, converted into a functional specification via AI transcription, fed into coding tools, and produced a working prototype in days rather than months.\n\nThe most analytically useful part of the conversation concerns competitive moats. Goldstein argues, persuasively, that regulated financial infrastructure — with its proprietary data, complex permission architectures, and zero-fault tolerances — becomes more defensible, not less, as AI proliferates. The firms at genuine risk are what he calls 'convenience SaaS': platforms that aggregate public information without deep workflow integration. Those will be disintermediated by AI agents directly. Aladdin's decade-old Open Aladdin API strategy, which pushed for programmatic access within a closed permission ecosystem, looks prescient in hindsight.\n\nOn the future of investment edge, Goldstein's most provocative claim is that the premium will shift toward what cannot yet be modelled: on-the-ground networks, undigitised information, and the imagination to articulate ideas that AI can now implement in days rather than years. In a world where all public information is priced in by AI, the analyst on the road performing channel checks may be the highest-alpha role in finance.",
+  "key_points_ko": [
+    {
+      "heading": "기업 수준 AI 도입은 아직 시작도 안 했다 — 국가는 지금 국가를 부르는 중",
+      "body": "Goldstein은 현재 AI가 개인 생산성에는 기여하지만 실질적인 기업 도입은 시작조차 하지 않았다고 단언합니다. 조직 설계 변경, 비즈니스 프로세스 재설계, 기술 구현이 함께 이루어져야 하는데, 이 과정이 전혀 시작되지 않았다는 것입니다. 그는 '지금은 국가를 부르는 중이고, 1회 초는 아직 시작하지 않았다'고 표현합니다. 이는 AI 생산성 효과를 이미 주가에 반영하고 있는 시장 내러티브와 정면으로 배치됩니다. 2030년이 되면 지금과 근본적으로 다른 모습의 회사가 될 것이라는 Goldstein의 전망은, 현재의 AI 도입 논의가 얼마나 초기 단계인지를 방증합니다."
+    },
+    {
+      "heading": "규제와 데이터 통제가 AI 시대의 진짜 해자다 — 'SaaS 편의 레이어'는 위험하다",
+      "body": "Goldstein은 Aladdin의 경쟁 우위가 AI 시대에 오히려 강화된다고 주장합니다. 핵심 근거는 세 가지입니다. 고객의 민감 데이터, 복잡한 사용자 권한 통제 체계, 그리고 금융 규제 환경이 만드는 무결성 요구입니다. API를 통해 Aladdin을 호출할 때 사용자 권한이 자동으로 적용되는 구조는, 수천 명의 사용자를 관리하는 자산운용사에서 코드 기반 접근이 늘어날수록 더 가치가 높아집니다. 반면 독자 데이터 없이 공개 정보를 집계하는 SaaS 기업들은 AI 에이전트가 직접 대체할 수 있기 때문에 가치 명제를 근본적으로 재정립해야 합니다. 이는 현재 수백억 달러 밸류에이션을 받는 다수의 핀테크 기업들에 대한 직접적 경고입니다."
+    },
+    {
+      "heading": "공개 데이터가 완전히 모델화되면, 현장 정보가 알파의 원천이 된다",
+      "body": "Goldstein은 투자 엣지의 미래를 세 축으로 정의합니다. 전체 포트폴리오 시각, AI 툴 활용 역량, 그리고 현장 네트워크입니다. 세 번째 축이 역설적입니다. AI가 모든 공개 정보를 즉시 처리하는 세상에서는, 아직 디지털화되지 않은 정보를 수집하는 인간의 역량이 오히려 더 희소해집니다. Goldstein이 Gulf 지역 출장 대신 가상 투어로 대체한 경험에서 직접 언급하듯, 현지 네트워크를 통해 얻는 정보는 Bloomberg나 팟캐스트로 접할 수 없습니다. 효율적 시장 가설의 논리를 AI에 적용하면, 학습 데이터에 포함되지 않은 정보만이 진정한 알파를 만들어냅니다. 이는 채널 체크 애널리스트, 현지 전문가, 지정학 네트워크의 가치가 재평가될 것임을 시사합니다."
+    },
+    {
+      "heading": "공모·사모의 경계는 기술에 의해 스펙트럼으로 바뀐다 — 유동성 프리미엄 재정의 불가피",
+      "body": "Goldstein은 사모 자산의 '유동성 프리미엄'을 '노력 프리미엄'으로 재정의합니다. Aladdin이 사모 자산의 투명성을 공모 시장 수준으로 끌어올릴수록, 그 프리미엄의 근거 중 하나가 약해집니다. 공모 채권 시장도 한때 투자자가 직접 정보를 입력해야 했지만 지금은 당연히 자동화되어 있습니다. 10년 후 사모 시장도 같은 방향으로 움직일 것이라는 Goldstein의 전망은, 현재 사모 시장 전략을 구사하는 자산운용사들이 수수료 구조와 가치 명제를 재검토해야 함을 의미합니다. 동시에 토큰화를 통해 공모·사모의 이분법이 '유동성과 공시의 스펙트럼'으로 대체될 것이라는 전망은, 자본 시장 인프라 전반에 걸친 구조적 변화를 예고합니다."
+    },
+    {
+      "heading": "세계 코드 양이 2030년까지 100만 배로 늘어난다 — 상상력이 새로운 코딩이다",
+      "body": "BlackRock의 기술 포트폴리오 매니저 Tony Kim은 2030년 세계 코드의 총량이 지금의 100만 배에 달할 것이라고 전망합니다. Goldstein이 처음에는 황당하게 여겼지만, AI 코딩 툴이 매년 수배씩 코드 생산량을 늘린다면 이 복리 효과는 수학적으로 가능합니다. 이 맥락에서 Goldstein이 채용 인터뷰에서 'English 전공자'를 선호한다고 말한 것은 단순한 수사가 아닙니다. 아이디어를 명확하게 언어로 표현하는 능력이 구현의 병목이 될 때, 상상력과 커뮤니케이션 역량이 기술 역량만큼 중요해집니다. BlackRock이 약 5,000명의 엔지니어를 보유하면서도 매년 더 많은 엔지니어를 채용하는 이유는, 코드 생산의 마찰이 줄수록 오히려 만들어야 할 것의 목록이 더 빠르게 늘어나기 때문입니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Enterprise AI adoption hasn't begun — the national anthem is still playing",
+      "body": "Goldstein's most important claim is that AI's enterprise transformation is entirely pre-launch. Individual productivity gains — faster first drafts, accelerated coding — are real but superficial relative to what's coming. Genuine enterprise implementation requires organisational redesign and business-process reengineering that no major financial firm has seriously started. A concrete Friday demo at BlackRock illustrated the near-term potential: a recorded discussion among portfolio managers and engineers was transcribed, converted to a functional spec by AI, and turned into a working prototype in days rather than months. Goldstein's implication is that the productivity gains currently priced into AI investment narratives are the prologue, not the story."
+    },
+    {
+      "heading": "Regulation and proprietary data are a moat, not a friction — 'convenience SaaS' faces existential risk",
+      "body": "Goldstein inverts the conventional view that financial regulation handicaps AI adoption. BlackRock's decade-old Open Aladdin strategy — API access within a closed permission ecosystem — means that as more users interact with systems through code rather than interfaces, the value of Aladdin's permission control layer grows proportionally. When you call an Aladdin API, your permissions travel with the call; managing that complexity for thousands of users across thousands of portfolios is irreplaceable infrastructure. The firms that should be worried are what Goldstein calls 'convenience SaaS': platforms that aggregate public information without deep workflow integration. AI agents disintermediate those directly, and their value propositions need fundamental reinvention."
+    },
+    {
+      "heading": "When AI prices in all public information, undigitised field knowledge becomes the scarce alpha",
+      "body": "Goldstein identifies three sources of future investment edge: whole-portfolio capability, AI tool fluency, and on-the-ground networks. The third is the most counterintuitive. In a world where AI instantly processes all public information, the efficient market logic implies that only information not yet in any model can generate alpha. Goldstein noted that a virtual tour of Gulf clients produced a materially different picture than reading Bloomberg — and that gap will widen as AI colonises the digitised information space. The channel-check analyst, the geopolitical network, the person in the room: these roles may appreciate in value precisely because AI cannot yet reach them."
+    },
+    {
+      "heading": "The public-private divide will dissolve into a liquidity spectrum — illiquidity premiums need repricing",
+      "body": "Goldstein reframes the private-market 'illiquidity premium' as an 'effort premium' — compensation for the opacity and operational complexity of managing private assets. As Aladdin extends public-market-style transparency to private portfolios, that effort premium compresses. The historical analogy is instructive: fixed-income investors once manually typed bond terms into computers from prospectuses; that friction is now unimaginable. Goldstein is explicit that private markets will become 'more transparent — that is certain.' Combined with tokenisation enabling digital wallets alongside traditional custody accounts, the industry's fundamental organisational unit — the asset-class silo — faces structural obsolescence."
+    },
+    {
+      "heading": "World code volume will increase 1,000,000x by 2030 — imagination is the new bottleneck",
+      "body": "BlackRock's technology portfolio manager Tony Kim projected that global lines of code will reach one million times today's volume by 2030 — a number Goldstein initially dismissed but now endorses given compounding annual multiples from AI coding tools. The implication restructures the talent market: when implementation friction collapses, the constraint shifts to ideation and articulation. Goldstein's half-serious claim that he now prefers hiring English majors captures a real dynamic — those who can imagine and precisely describe what should be built will find that AI can construct it in days. BlackRock's 5,000-strong engineering team grows every year not despite falling coding friction but because of it: the to-do list expands faster than the tools can clear it."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "지금은 국가가 불리는 중입니다. 1회 초는 아직 시작하지 않았습니다. 모델이 할 수 있는 것과 실제로 구현된 것 사이의 간극 — 기술 구현은 어렵고 시간이 걸립니다 — 그 기업 도입은 아직 시작조차 하지 않았습니다.",
+    "attribution": "Rob Goldstein, COO, BlackRock"
+  },
+  "notable_quote_en": {
+    "text": "The national anthem is still being played. The actual overhang between what the models can do and the fact that this is technology that needs to be implemented — it requires organizational design, business process reengineering — we haven't even started that enterprise implementation yet.",
+    "attribution": "Rob Goldstein, COO, BlackRock"
+  },
+  "notable_quote": {
+    "source_text_en": "The national anthem is still being played. The actual overhang between what the models can do and the fact that this is technology that needs to be implemented — it requires organizational design, business process reengineering — we haven't even started that enterprise implementation yet.",
+    "translation_ko": "지금은 국가가 불리는 중입니다. 1회 초는 아직 시작하지 않았습니다. 모델이 할 수 있는 것과 실제로 구현된 것 사이의 간극 — 기술 구현은 어렵고 시간이 걸립니다 — 그 기업 도입은 아직 시작조차 하지 않았습니다.",
+    "speaker": "Rob Goldstein",
+    "attribution": "Rob Goldstein, COO, BlackRock",
+    "is_verbatim": false,
+    "translation_is_verbatim": false,
+    "source_char_start": null,
+    "source_char_end": null,
+    "match_score": 0.7993
+  },
+  "keywords_ko": [
+    "Aladdin",
+    "기업 수준 AI 도입",
+    "유동성 프리미엄",
+    "금융 인프라 해자",
+    "토큰화",
+    "권한 통제 체계"
+  ],
+  "keywords_en": [
+    "Aladdin",
+    "enterprise AI adoption",
+    "illiquidity premium",
+    "financial infrastructure moat",
+    "tokenisation",
+    "permission architecture"
+  ],
+  "generated_at": "2026-04-30T08:16:26.922875"
+}

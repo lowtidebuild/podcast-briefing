@@ -1,0 +1,163 @@
+{
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_hash": "ca4ff194505d70f7a029340d7a8a6b930cee975516a9656451f6bcfc40477d91",
+  "chunk_hash": "e64082d23c15995d8aa9234acdb60e5b1c41d9c217c6e85ee68921339caa6c03",
+  "chunk_index": 0,
+  "char_start": 0,
+  "char_end": 38105,
+  "extraction": {
+    "chunk_index": 0,
+    "char_start": 0,
+    "char_end": 38105,
+    "topics": [
+      "Abundance movement: vibes vs. legislation vs. outcomes",
+      "California housing policy and construction barriers",
+      "Progressive political philosophy and the shift from oversight to delivery",
+      "Populism-abundance synthesis in Democratic politics",
+      "Corporate/billionaire critique of the abundance agenda"
+    ],
+    "claims": [
+      {
+        "claim": "The abundance concept has achieved broad political penetration at the level of vibes but has not yet produced measurable housing construction outcomes, especially in California.",
+        "evidence": [
+          "Governors Kathy Hochul and J.B. Pritzker are publicly advocating supply-side solutions to housing and energy crises.",
+          "California housing starts data from FRED (2015–2026) do not show any uptick attributable to the YIMBY movement or the book Abundance.",
+          "One bill Gavin Newsom signed is literally titled the 'Abundant and Affordable Homes Near Transit Act.'"
+        ],
+        "speakers": [
+          "Derek Thompson"
+        ]
+      },
+      {
+        "claim": "California's failure to increase housing starts reflects a 'Russian nesting doll' of problems: 50 years of restrictive rules, 20 years of post-Great Recession macroeconomic damage, and 5 years of pandemic/inflation/financing crisis.",
+        "evidence": [
+          "The 2010s were the decade with fewest houses built per capita on record, attributed to decimation of the construction industry after the Great Recession.",
+          "Roughly 40% of construction workers in California are foreign-born, and Trump's immigration enforcement is restricting that labor supply.",
+          "Elevated interest rates have made financing for developers harder even as zoning reforms have passed."
+        ],
+        "speakers": [
+          "Derek Thompson",
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "Austin and Dallas demonstrate that building sufficient housing supply actually lowers rents, refuting the argument that new construction only benefits wealthy newcomers without reducing prices.",
+        "evidence": [
+          "Average rents in Austin have declined over the last 18–24 months after large-scale homebuilding in the 2010s and early 2020s.",
+          "Dallas added a population equivalent to urban Boston between 2019 and the early 2020s, yet housing prices have declined over the last three and a half years.",
+          "Dallas builds more housing today than any other metro in the country."
+        ],
+        "speakers": [
+          "Derek Thompson"
+        ]
+      },
+      {
+        "claim": "Progressive political culture from the late 1950s onward shifted the movement's core identity from centralized government delivery to 'speaking truth to power,' creating a structural bias toward blocking rather than building.",
+        "evidence": [
+          "C. Wright Mills's 'The Power Elite,' the SDS Port Huron Statement, Silent Spring, and Robert Caro's 'The Power Broker' are cited as intellectual milestones seeding anti-centralized-power thinking.",
+          "This shift culminated in a 50-year accumulation of zoning, permitting, and environmental laws that added veto points to housing and infrastructure construction.",
+          "Mark Dunkelman argues abundance is the first major effort since the 1970s to reopen the question of whether progressivism needs strong government delivery capacity."
+        ],
+        "speakers": [
+          "Marc Dunkelman"
+        ]
+      },
+      {
+        "claim": "The most politically effective Democratic messaging combines populist and abundance themes simultaneously—what Ezra Klein calls 'the abundance mullet'—rather than choosing one frame over the other.",
+        "evidence": [
+          "Blue Rose polling found the top-performing message was: 'Working Americans can't afford the basics. And it's because we stopped building them… Democrats will build an America that works for everyone, not just those at the top.'",
+          "Zohran Mamdani ran on rent freezes but simultaneously launched the Neighborhood Builders Fast Track, cutting pre-development time from 18 months to 10 months.",
+          "New Jersey Governor Mikey Sherrill ran on freezing utility increases (front) while her second executive order expanded solar and storage supply (back)."
+        ],
+        "speakers": [
+          "Marc Dunkelman",
+          "Ezra Klein",
+          "Derek Thompson"
+        ]
+      },
+      {
+        "claim": "A major internal risk to the abundance movement is that it becomes redefined as mere 'efficiency' or 'cutting red tape' rather than a radical vision of plenitude, losing its transformative political appeal.",
+        "evidence": [
+          "Ezra Klein notes he hears people say 'I don't disagree with cutting red tape' as if abundance is only about deregulation.",
+          "Klein states neither Abundance nor Why Nothing Works adequately described what an abundant future would concretely look like for ordinary people.",
+          "Klein also identifies the AI conversation and growing anger at AI companies as moving the progressive politics of technology further away, not closer."
+        ],
+        "speakers": [
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "Elizabeth Warren and progressive critics argue that the abundance movement fails to confront corporate power and is being co-opted by wealthy donors to push the Democratic Party toward big-business interests.",
+        "evidence": [
+          "Warren stated: 'Many in the abundance movement are doing little to call out corporate culpability and billionaire influence in creating and defending those very inefficiencies.'",
+          "Warren characterized abundance as 'a rallying cry… for wealthy donors and other corporate aligned Democrats who are putting big time muscle behind making Democrats more favorable to big businesses.'"
+        ],
+        "speakers": [
+          "Elizabeth Warren",
+          "Ezra Klein"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "At the level of vibes, this is a 0.1 percentile outcome, given where I was March 1st of 2025, the degree to which the concept of Abundance has reached something like full penetration of the political discourse, certainly the discourse of the Democratic Party.",
+        "speaker": "Derek Thompson",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "judge political movements by their outcomes. The bright side is maybe you could say it's too early to count our outcome successes. But the very fair criticism of our movement right now is where are the outcomes, especially in states like California, where the volume of abundance has been the loudest",
+        "speaker": "Derek Thompson",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "We need a liberalism that builds and we have to own that. And I'm very much part of this sort of new nomenclature we call this abundance agenda.",
+        "speaker": "Gavin Newsom",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "abundance ends up as a synonym for efficiency, that we've rebranded an agenda for capacity, that it's just I always hear people like I don't disagree with cutting red tape as if like all abundance is is about cutting red tape as opposed to an actual radical vision of plenitude.",
+        "speaker": "Ezra Klein",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Dallas built so much that construction increased per capita throughout this period. Dallas builds more housing today than any other metro in the country. That is a triumph of allowing the housing market to work.",
+        "speaker": "Derek Thompson",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "We have something better than a rent freeze. We have rents going down because we've made it easier to build.",
+        "speaker": "Derek Thompson",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Derek Thompson",
+        "title": "Contributing Writer, The Atlantic; Co-author, Abundance"
+      },
+      {
+        "name": "Marc Dunkelman",
+        "title": "Fellow, Searchlight Institute and Brown University; Author, Why Nothing Works"
+      }
+    ],
+    "keyword_candidates": [
+      "abundance movement",
+      "housing starts",
+      "YIMBY",
+      "supply-side housing policy",
+      "rent freeze",
+      "Dallas housing market",
+      "progressive politics",
+      "abundance mullet"
+    ]
+  },
+  "created_at": "2026-04-30T08:28:36.152532"
+}

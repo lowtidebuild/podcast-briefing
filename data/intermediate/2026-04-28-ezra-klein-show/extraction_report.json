@@ -1,0 +1,15 @@
+{
+  "slug": "2026-04-28-ezra-klein-show",
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_chars": 118273,
+  "chunk_count": 3,
+  "extracted_chunk_count": 3,
+  "cache_hits": 0,
+  "attempts": 3,
+  "prompt_input_chars": 122668,
+  "errors": [],
+  "warnings": [],
+  "created_at": "2026-04-30T08:29:43.286787"
+}
