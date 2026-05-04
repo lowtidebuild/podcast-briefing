@@ -1,0 +1,166 @@
+{
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_hash": "be1744e5adbe3cadaac6964e2c0e0f306802ad04bfb988df06e15d0864778527",
+  "chunk_hash": "f34bcf25249fb7bb469be3e9a667570b43086b1b88ec4c7b3deda9b864002fbd",
+  "chunk_index": 0,
+  "char_start": 0,
+  "char_end": 39236,
+  "extraction": {
+    "chunk_index": 0,
+    "char_start": 0,
+    "char_end": 39236,
+    "topics": [
+      "OpenAI missing user and revenue targets",
+      "AI compute and power supply constraints",
+      "AI cybersecurity capabilities (Mythos vs GPT-5.5 Cyber)",
+      "Elon Musk vs OpenAI/Altman lawsuit",
+      "AI model competition (OpenAI vs Anthropic vs Google)"
+    ],
+    "claims": [
+      {
+        "claim": "OpenAI expected to hit 1 billion weekly active users before end of 2025 but missed that target and still hasn't hit it four months into 2026",
+        "evidence": [
+          "Wall Street Journal investigative report cited",
+          "OpenAI at ~900 million weekly users per Freeberg",
+          "Still hasn't hit milestone four months into 2026"
+        ],
+        "speakers": [
+          "Jason Calacanis",
+          "David Sacks",
+          "Chamath Palihapitiya"
+        ]
+      },
+      {
+        "claim": "OpenAI has $600 billion in compute spending commitments, roughly equal to its secondary market valuation",
+        "evidence": [
+          "$600 billion in spending commitments for compute",
+          "That's about what they're trading for on secondary markets",
+          "CFO Sarah Friar reportedly worried revenue isn't growing fast enough"
+        ],
+        "speakers": [
+          "Jason Calacanis"
+        ]
+      },
+      {
+        "claim": "The primary constraint limiting AI model deployment is power/energy supply, not demand",
+        "evidence": [
+          "Anthropic is token-constrained and engaging in compute gating with Opus 4.7",
+          "Less than half of announced gigawatt projects are actually being built due to red tape and supply chain delays",
+          "Anthropic induced Amazon to give them capacity outside Bedrock routing"
+        ],
+        "speakers": [
+          "Chamath Palihapitiya"
+        ]
+      },
+      {
+        "claim": "Anthropic's Opus 4.7 release was received poorly, with users rolling back to 4.6 due to compute rationing and reduced thinking time",
+        "evidence": [
+          "People complaining about Opus 4.7 rationing compute",
+          "Users reducing thinking time",
+          "Bugs in Claude reported",
+          "Developers shifting coding usage from Opus to GPT 5.5"
+        ],
+        "speakers": [
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "GPT 5.5 Cyber is the second model to complete an AI Security Institute multi-step cyber attack simulation end-to-end, matching Mythos capability",
+        "evidence": [
+          "Testing done by the AI Security Institute",
+          "GPT 5.5 Cyber completed multi-step cyber attack simulations end-to-end",
+          "Mythos not yet commercially released due to compute constraints"
+        ],
+        "speakers": [
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "Google has captured significant enterprise AI market share and its consumer Gemini product has ~700-750 million weekly users",
+        "evidence": [
+          "Google claims 75% of GCP customers are active Vertex users",
+          "Gemini at 700-750 million users",
+          "Google stock has 'absolutely ripped' over the last couple of months"
+        ],
+        "speakers": [
+          "David Freeberg",
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "Greg Brockman's diary entries, revealed in the Musk vs OpenAI trial, explicitly document intent to remove Elon and convert OpenAI to for-profit",
+        "evidence": [
+          "Diary quote: 'The true answer is that we want Elon out'",
+          "Diary quote: 'In the end, it's still about wanting a for-profit just without him'",
+          "Diary quote: 'This story will correctly be that we weren't honest with him'"
+        ],
+        "speakers": [
+          "Jason Calacanis"
+        ]
+      },
+      {
+        "claim": "MIT researchers published a paper showing neural network pruning can reduce model size by 90% with same accuracy, cutting inference costs by 10x",
+        "evidence": [
+          "MIT paper on pruning techniques",
+          "90% size reduction with no loss of accuracy",
+          "10x reduction in inference costs per energy unit"
+        ],
+        "speakers": [
+          "David Freeberg"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "Sam may end up being right, but for the wrong reason... he missed on consumer but enterprise is going gangbusters and is giving him the ability now I think to catch up on Codex",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Everything in this market is power constrained. The reason that these folks may miss a number or a forecast have nothing to do with demand. It is entirely 100% due to the supply of the power necessary to generate the output token.",
+        "speaker": "Chamath Palihapitiya",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "conclusion, we truly want the B Corp. The true answer is that we want Elon out. If three months later, we're doing B Corp, then it was a lie. Can't see us turning this into a for-profit without a nasty fight.",
+        "speaker": "Jason Calacanis",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "If we make it okay to loot a charity, the entire foundation of charitable giving in America will be destroyed. That's my concern.",
+        "speaker": "Jason Calacanis",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Mythos or GPT-5.5, it doesn't create the vulnerabilities. It just discovers them. The bugs are already in the code. They were sitting there waiting for some hacker to discover.",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "In the next phase, it'll be machines versus machines. And so I think the nature of cyber is going to completely change. Probably in the next five or six years, there'll be so much reason to rewrite all of the software that runs the world.",
+        "speaker": "Chamath Palihapitiya",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [],
+    "keyword_candidates": [
+      "OpenAI GPT 5.5",
+      "Anthropic Opus 4.7",
+      "Mythos cyber model",
+      "Sarah Friar CFO",
+      "Greg Brockman diary",
+      "Judge Rogers bench trial",
+      "neural network pruning",
+      "Polymarket OpenAI IPO"
+    ]
+  },
+  "created_at": "2026-05-04T08:45:38.820492"
+}

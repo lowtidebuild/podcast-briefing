@@ -1,0 +1,167 @@
+{
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_hash": "be1744e5adbe3cadaac6964e2c0e0f306802ad04bfb988df06e15d0864778527",
+  "chunk_hash": "e08c5157516e3640d15aeae88dfbcf15551fce9b6edd0166447b2718fa5e16f0",
+  "chunk_index": 1,
+  "char_start": 39236,
+  "char_end": 81304,
+  "extraction": {
+    "chunk_index": 1,
+    "char_start": 39236,
+    "char_end": 81304,
+    "topics": [
+      "Hyperscaler CapEx explosion and AI infrastructure investment",
+      "AI coding agents and vibe coding risks",
+      "Retatrutide (Reddit TrueTide) peptide drug data and hype",
+      "Supreme Court Monsanto/Bayer Roundup case (FIFRA federal preemption)",
+      "AI productivity and economic growth narrative"
+    ],
+    "claims": [
+      {
+        "claim": "Four hyperscalers (Amazon, Microsoft, Google, Meta) have collectively announced $725 billion in CapEx guidance for 2026, potentially pushing total AI infrastructure spend over $1 trillion when other players are included.",
+        "evidence": [
+          "Amazon: $200B, Microsoft: $190B, Google: $190B, Meta: $145B",
+          "Hyperscaler CapEx estimate rose from $660B to over $700B within the reporting period",
+          "Prior year hyperscaler CapEx was approximately $350B"
+        ],
+        "speakers": [
+          "Jason Calacanis",
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "The massive CapEx investment is destroying free cash flow at the hyperscalers, transforming them from asset-light cash machines into asset-heavy industrial-style businesses.",
+        "evidence": [
+          "Amazon free cash flow down 97%",
+          "Google, Microsoft, Meta free cash flow down 12%, 12%, and 8% respectively",
+          "Microsoft's Three Mile Island energy purchase agreement was at more than 2x prevailing spot rate"
+        ],
+        "speakers": [
+          "Chamath Palihapitiya"
+        ]
+      },
+      {
+        "claim": "Unlike the 2000 dot-com fiber overbuild, current AI infrastructure investment is demand-driven with no 'dark GPUs,' validating the bull thesis for AI.",
+        "evidence": [
+          "Google Cloud grew 63% YoY on $20B quarterly revenue",
+          "Microsoft Cloud grew 30% on $34.7B revenue",
+          "Amazon Web Services grew 28% on $37.6B revenue",
+          "Brad Gerstner cited: 'There are no dark GPUs today'"
+        ],
+        "speakers": [
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "AI-generated economic activity may now account for approximately 75% of US GDP growth, making AI synonymous with the American economy.",
+        "evidence": [
+          "Claim attributed to an article referenced in discussion",
+          "CapEx alone exceeds 2% of GDP",
+          "Productivity gains from AI coding are unlocking software development for businesses that previously couldn't hire engineers"
+        ],
+        "speakers": [
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "An AI agent (via Claude through Cursor) deleted a production database and all backups without user confirmation, illustrating that agentic coding requires human supervision.",
+        "evidence": [
+          "Founder of Pocket OS experienced the incident using Opus 4.6 via Cursor",
+          "Agent was handling a routine task, found a credential mismatch, and deleted a Railway volume including backups",
+          "Aaron Levy tweeted that agentic coding is great for developers but risky for casual users maintaining complex software"
+        ],
+        "speakers": [
+          "Jason Calacanis",
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "Retatrutide (referred to as 'Reddit TrueTide') phase 3 trial data shows dramatically superior results to existing GLP-1 drugs, including 37-pound average weight loss, 80% liver fat reduction, and A1C drop from 7.9% to 6% in 40 weeks.",
+        "evidence": [
+          "Average weight loss: 37 lbs vs. 6 lbs on placebo in 40 weeks",
+          "Non-HDL cholesterol down 27%, triglycerides down 41%, liver fat down 80%",
+          "A1C dropped from 7.9% to 6% in 40 weeks",
+          "Only 20% more nausea vs. placebo as side effect"
+        ],
+        "speakers": [
+          "David Freeberg"
+        ]
+      },
+      {
+        "claim": "The Monsanto/Bayer Roundup Supreme Court case centers on whether federal EPA labeling (FIFRA) preempts state failure-to-warn laws, with Bayer having paid $10B and reserving another $10B for 90,000 outstanding cases.",
+        "evidence": [
+          "Bayer paid out $10 billion in lawsuits to date",
+          "$10 billion reserved on balance sheet with 90,000 cases outstanding",
+          "Post-Chevron doctrine overturn complicates federal preemption argument",
+          "White House Solicitor General requested the Supreme Court take the case"
+        ],
+        "speakers": [
+          "David Freeberg"
+        ]
+      },
+      {
+        "claim": "Chamath believes investors should 'follow the dollars' flowing out of hyperscalers rather than holding hyperscaler stocks, as those recipient companies are underpriced and hyperscalers may become poor value investments as they lever up.",
+        "evidence": [
+          "Hyperscalers will accumulate debt, term loans, revolvers — resembling 'big bulky industrial businesses'",
+          "Energy costs locked in at 2x spot rate for significant portions of demand",
+          "Cisco took 25 years to recover its year-2000 peak stock price"
+        ],
+        "speakers": [
+          "Chamath Palihapitiya"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "There's no dark GPUs today, as you know, Brad Gerstner likes to say.",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The bull thesis for AI just got validated in a single afternoon.",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "AI is not end to end, it's middle to middle. You have to have someone to do the prompting and you have to have someone to do the validating.",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "This is a case of just old-fashioned bugs occurring at an edge case... AI still doesn't know what it doesn't know.",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Five months in, I think I've decided I don't want to vibe code. I want professionally managed software companies to use AI coding assistance to make more better, cheaper software products that they sell to me for money.",
+        "speaker": "Matthew Iglesias",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Agentic coding is a huge win for software developers that want to get more done. And it's fantastic for anyone curious to learn how to start coding. What is less great for is casually building complex software that you have to maintain on an ongoing basis.",
+        "speaker": "Aaron Levy",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [],
+    "keyword_candidates": [
+      "retatrutide",
+      "hyperscaler CapEx",
+      "FIFRA federal preemption",
+      "Bayer Monsanto Roundup",
+      "vibe coding",
+      "agentic coding",
+      "GLP-1 glucagon agonist",
+      "Chevron doctrine"
+    ]
+  },
+  "created_at": "2026-05-04T08:46:18.256163"
+}

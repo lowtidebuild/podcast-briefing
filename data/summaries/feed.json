@@ -1,5 +1,40 @@
 [
   {
+    "slug": "2026-05-04-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "How Baltimore's Mayor Is Fighting the City's Vacant Housing Crisis",
+    "published": "2026-05-04T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-03-fareed-zakaria-gps",
+    "podcast": "Fareed Zakaria GPS",
+    "category": "Politics / Geopolitics",
+    "title": "War, Markets, and Power Shifts”",
+    "published": "2026-05-03T16:10:00"
+  },
+  {
+    "slug": "2026-05-01-all-in-podcast",
+    "podcast": "All-In Podcast",
+    "category": "Politics / Geopolitics",
+    "title": "OpenAI Misses Targets, Codex vs Claude, Elon vs Sam Trial, Big Hyperscaler Beats, Peptide Craze",
+    "published": "2026-05-01T21:37:00+00:00"
+  },
+  {
+    "slug": "2026-05-01-hard-fork",
+    "podcast": "Hard Fork",
+    "category": "AI / Tech",
+    "title": "OpenAI’s Big Reset + A.I. in the Doctor’s Office + Talkie, a pre-1930s LLM",
+    "published": "2026-05-01T11:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-01-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "Balaji and Taylor Lorenz on AI and Media",
+    "published": "2026-05-01T10:00:21+00:00"
+  },
+  {
     "slug": "2026-04-30-odd-lots",
     "podcast": "Odd Lots",
     "category": "Macro / Markets",
@@ -313,40 +348,5 @@
     "category": "Politics / Geopolitics",
     "title": "Why Iran Believes It Has the Upper Hand",
     "published": "2026-04-03T09:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-03-odd-lots",
-    "podcast": "Odd Lots",
-    "category": "Macro / Markets",
-    "title": "Odd Lots: Scott Bok Explains What Investment Bankers Actually Do All Day (Podcast)",
-    "published": "2026-04-03T08:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-01-exponential-view",
-    "podcast": "Exponential View",
-    "category": "AI / Tech",
-    "title": "Karpathy’s autoresearch could make scientists of us all",
-    "published": "2026-04-01T15:13:30+00:00"
-  },
-  {
-    "slug": "2026-03-31-ezra-klein-show",
-    "podcast": "Ezra Klein Show",
-    "category": "Politics / Geopolitics",
-    "title": "Michael Pollan’s Journey to the Borderlands of Consciousness",
-    "published": "2026-03-31T09:00:00+00:00"
-  },
-  {
-    "slug": "2026-03-30-making-sense",
-    "podcast": "Making Sense",
-    "category": "Philosophy / AI Ethics",
-    "title": "#467 — EA, AI, and the End of Work",
-    "published": "2026-03-30T17:40:00+00:00"
-  },
-  {
-    "slug": "2026-03-29-fareed-zakaria-gps",
-    "podcast": "Fareed Zakaria GPS",
-    "category": "Politics / Geopolitics",
-    "title": "UN Nuclear Chief on Iran’s Nuclear Program; Where is the War with Iran Headed?",
-    "published": "2026-03-29T15:48:00"
   }
 ]
