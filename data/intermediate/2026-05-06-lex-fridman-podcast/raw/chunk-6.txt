@@ -1,0 +1,141 @@
+```json
+{
+  "topics": [
+    "VLC privacy and government surveillance resistance",
+    "FFmpeg and VLC long-term archival mission",
+    "Future of multimedia: spatial audio, XR, brain-computer interfaces",
+    "FFmpeg deployment in extreme environments (Mars, CERN, military)",
+    "Open source maintenance philosophy"
+  ],
+  "claims": [
+    {
+      "claim": "VLC has no telemetry and the international distributed nature of its contributors makes it structurally resistant to government surveillance mandates",
+      "evidence": [
+        "No telemetry in VLC by design",
+        "Contributors in UK, Germany, US would all be able to see any surveillance code",
+        "French government cannot mandate what content VLC blocks or tracks"
+      ],
+      "speakers": ["Jean-Baptiste Kempf"]
+    },
+    {
+      "claim": "FFmpeg is used by the Mars 2020 rover to compress pictures, making it a multi-planetary open source library",
+      "evidence": [
+        "Mars 2020 rover team wrote a paper about wanting to use commercial off-the-shelf technology",
+        "FFmpeg was chosen as part of that approach",
+        "Kieran Cunha described FFmpeg as 'a multi-planetary open source library'"
+      ],
+      "speakers": ["Kieran Cunha"]
+    },
+    {
+      "claim": "The archival community, led by Dave Rice from City University of New York, funded development of the FFv1 lossless codec and GPU encoding in FFmpeg specifically for preservation purposes",
+      "evidence": [
+        "FFv1 is a lossless codec designed for fast software-based encoding",
+        "GPU encoding in FFmpeg was funded by the archiving community to speed up FFv1 encoding",
+        "Archiving community is concerned about lossy compression changing historical material"
+      ],
+      "speakers": ["Kieran Cunha"]
+    },
+    {
+      "claim": "The BBC's New Doomsday Book, archived on BBC microcomputers, became unplayable within 10-20 years because no one had the right software, illustrating the risk FFmpeg is designed to prevent",
+      "evidence": [
+        "Archive stored on BBC microcomputers",
+        "Unplayable within 10-15 or 20 years",
+        "Someone had to reverse engineer it to recover the content"
+      ],
+      "speakers": ["Kieran Cunha"]
+    },
+    {
+      "claim": "FFmpeg and VLC are being expanded toward volumetric video, XR streaming, spatial audio, haptic tracks, and eventually brain-computer interface codecs as multimedia expands to all human senses",
+      "evidence": [
+        "VLC already has a VR and XR version",
+        "Kyber streams XR content to low-power glasses including Apple Vision and Quest",
+        "VLC has a haptic plugin for 4D cinema systems with hydraulic arms",
+        "Spatial audio demo already completed with architecture changes in VLC"
+      ],
+      "speakers": ["Jean-Baptiste Kempf", "Kieran Cunha"]
+    },
+    {
+      "claim": "VLC is operated with a core legal responsibility held by a single person, Jean-Baptiste Kempf, despite millions of users and military/government interactions",
+      "evidence": [
+        "Six to eight core contributors",
+        "Everything legally is only Jean-Baptiste Kempf",
+        "US military used VLC on laptops after someone in the military reviewed the open source code"
+      ],
+      "speakers": ["Jean-Baptiste Kempf"]
+    },
+    {
+      "claim": "C is the ideal language for thousand-year archival software because it is closest to mathematics and logic, and will endure like Latin",
+      "evidence": [
+        "FFmpeg is written in C",
+        "Kieran Cunha argued C will be like Latin: learnable from the past and still usable",
+        "Mathematical notation and stable languages persist across centuries"
+      ],
+      "speakers": ["Kieran Cunha"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "FFmpeg, nothing is beyond our reach.",
+      "speaker": "Kieran Cunha",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Talk is cheap, send patches.",
+      "speaker": "Kieran Cunha",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "C will be like Latin. It will be a thing that you learn from the past, but it will still be usable in certain contexts.",
+      "speaker": "Kieran Cunha",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "FFmpeg runs on Mars, so we are a multi-planetary open source library.",
+      "speaker": "Kieran Cunha",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Regrets are attacks on your mind. Learn from your mistakes, but don't regret, because you've done it.",
+      "speaker": "Jean-Baptiste Kempf",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "In a thousand years, we may be drowning in AI slop. This stuff needs to be important and archived.",
+      "speaker": "Kieran Cunha",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Multimedia is a digital representation of several streams for the human senses. And we will do that.",
+      "speaker": "Jean-Baptiste Kempf",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Am I dead? Yes or no. And I do that nonstop. And that's also how I do my startups.",
+      "speaker": "Jean-Baptiste Kempf",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {"name": "Jean-Baptiste Kempf", "title": "President, VideoLAN / Lead Developer, VLC"},
+    {"name": "Kieran Cunha", "title": "FFmpeg contributor / Co-founder, Kyber"}
+  ],
+  "keyword_candidates": [
+    "FFv1 lossless codec",
+    "Dave Rice",
+    "Mars 2020 rover",
+    "CERN LHC",
+    "volumetric video",
+    "point cloud",
+    "haptic plugin",
+    "digital archival preservation"
+  ]
+}
+```

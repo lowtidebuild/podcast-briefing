@@ -1,0 +1,1088 @@
+[
+  {
+    "chunk_index": 0,
+    "char_start": 0,
+    "char_end": 36245,
+    "topics": [
+      "FFmpeg and VLC open source media infrastructure",
+      "Video codec compression and decoding pipeline",
+      "Container formats vs. codec distinctions",
+      "VLC's fault-tolerant design philosophy",
+      "Open source engineering culture and community"
+    ],
+    "claims": [
+      {
+        "claim": "FFmpeg underlies the video processing pipelines of YouTube, Netflix, Chrome, Firefox, VLC, Discord, and the vast majority of video platforms, with over 90% of video processing workflows estimated to involve it.",
+        "evidence": [
+          "Named platforms: YouTube, Netflix, Chrome, Firefox, VLC, Discord, OBS",
+          "'It is estimated that over 90% of video processing workflows online and offline involve FFmpeg'",
+          "'You're on YouTube. Well, it's FFmpeg on the client side. Well, on the server side, the client side is probably Chrome. Well, you're using FFmpeg also.'"
+        ],
+        "speakers": [
+          "Lex Fridman",
+          "Jean-Baptiste Kempf",
+          "Kieran Cunha"
+        ]
+      },
+      {
+        "claim": "VLC has been downloaded over 6.5 billion times, and the true number is likely higher because downloads cannot be fully counted.",
+        "evidence": [
+          "'VLC has been downloaded over six billion times'",
+          "'VLC has been downloaded at least 6.5 billion times. But likely that number, because it's impossible to really count the number, is much higher than that.'"
+        ],
+        "speakers": [
+          "Lex Fridman"
+        ]
+      },
+      {
+        "claim": "Video compression ratios of 100x to 1000x are achieved by exploiting spatial and temporal redundancy and modeling human perceptual limitations, not by lossless methods like ZIP.",
+        "evidence": [
+          "'When you move to video, you need 100 times, 200 times'",
+          "'The target is 1000x'",
+          "'Compression is not like a zip... Here, we are degrading the signal'",
+          "'We move to YUV, which is basically one is luminance, brightness, and the other are colors. And this matches your eyes'"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf",
+          "Kieran Cunha"
+        ]
+      },
+      {
+        "claim": "Each new generation of video codec achieves approximately 30% better compression at the same quality, but requires orders of magnitude more computational power to encode.",
+        "evidence": [
+          "'Each generation of the codec is like 30% less for the same quality'",
+          "'It's 30% better, but an order of magnitude, perhaps even two orders of magnitude, more compression power'"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf",
+          "Kieran Cunha"
+        ]
+      },
+      {
+        "claim": "VLC's resilience to broken and malformed files stems from its origin as a client for UDP-based streaming, where packet loss is expected, instilling a 'don't trust your inputs' philosophy from the start.",
+        "evidence": [
+          "'VLC is just a client of a streaming solution called VideoLAN from a very long time ago, from the late 90s'",
+          "'When you're playing video, which are on UDP, right, in network, they might be damaged'",
+          "'VLC was just like, hey, this file is broken, but I'm still going to try to interpret it. And this was very useful' (regarding pirated AVI files with metadata at end)"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "VLC and FFmpeg probe file contents rather than trusting file extensions, because real-world files frequently have incorrect or misleading extensions.",
+        "evidence": [
+          "'In VLC and FFmpeg, we discard the file format, right? We look into the file to understand what's in it'",
+          "'We analyze in real time everything that we have, and we don't trust the format'",
+          "'The file may say .mp4, but it may be something completely different'"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf",
+          "Kieran Cunha"
+        ]
+      },
+      {
+        "claim": "Up to 45% of video files are not GPU-decodable and require software fallback decoding in VLC.",
+        "evidence": [
+          "'I think it's up to 45% of files are not GPU decodable. So these need to be probed. They need to be detected.'"
+        ],
+        "speakers": [
+          "Kieran Cunha"
+        ]
+      },
+      {
+        "claim": "Modern codecs like AV1 and VVC are not single codecs but collections of tools tailored to different content types such as screen sharing, animation, and live video.",
+        "evidence": [
+          "'Modern codecs like AV1, AV2 or VVC are actually not codecs, they are a collection of tools'",
+          "'You may be on Zoom and sharing your PowerPoint, and then you need to show the audience a video. That codec needs to start changing its tool set depending on the content'",
+          "AV1, AV2, VVC named explicitly"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf",
+          "Kieran Cunha"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "Compression is not like a zip, right? A zip, you have data in, you get data out, right? And you try with all the zip compression to arrive with the limit. Here, we are degrading the signal, right? And so we need to degrade both the audio and the video signal in the best way possible.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Everything in VLC is prepared to work with broken files. And it's a philosophical idea from the beginning, and everything is engineered into that. And it's a culture.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The real world is a completely different place to a three-letter file format.",
+        "speaker": "Kieran Cunha",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "It wouldn't be a surprise, you know, these big companies just have 3,000-line FFmpeg commands.",
+        "speaker": "Kieran Cunha",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Every sentence is someone's lifetime's work. There are books about every sentence. So the level of complexity in many cases is inordinate.",
+        "speaker": "Kieran Cunha",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "From a philosophical level, I think it's incredible that your home videos, your grandmother's home videos and trillion-dollar corporations effectively are on a level playing field using the same technologies.",
+        "speaker": "Lex Fridman",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Jean-Baptiste Kempf",
+        "title": "President, VideoLAN; Lead Developer, VLC"
+      },
+      {
+        "name": "Kieran Cunha",
+        "title": "FFmpeg Contributor; FFmpeg Twitter Account Operator"
+      }
+    ],
+    "keyword_candidates": [
+      "FFmpeg",
+      "VLC",
+      "VideoLAN",
+      "video codec",
+      "AV1",
+      "H.264",
+      "demuxer",
+      "YUV color space",
+      "open source media",
+      "video compression"
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "char_start": 36245,
+    "char_end": 73413,
+    "topics": [
+      "Open source licensing and community governance",
+      "VLC and VideoLAN origin story",
+      "FFmpeg volunteer developer culture and code quality standards",
+      "Google AI-generated security reports controversy",
+      "Monetization decisions and ethical trade-offs in open source"
+    ],
+    "claims": [
+      {
+        "claim": "FFmpeg and VLC democratized video technology that previously required hundreds of thousands of dollars of equipment the size of a car, enabling the podcast and YouTube revolution.",
+        "evidence": [
+          "In the 90s, compression equipment cost hundreds of thousands of dollars and was the size of a car",
+          "FFmpeg described as 'a big player' in the podcast and streaming revolution",
+          "Tools like FFmpeg created 'almost an exact level playing field'"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "Relicensing an open source project with thousands of contributors is practically and emotionally extremely difficult because copyright is held by all individual contributors.",
+        "evidence": [
+          "JB had to contact more than 350 people to relicense VLC's core from GPL to LGPL",
+          "JB physically traveled to find contributors, including visiting the father of a deceased contributor",
+          "Some contributors whose code was deleted still hold copyright because subsequent work was based on theirs"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "VLC originated from a 1990s student network project at École Centrale Paris, not from a single founder's creation.",
+        "evidence": [
+          "Network 2000 project built to stream MPEG-2 satellite video over an ATM network at 155 Mbps",
+          "VideoLAN project started by students including Christophe Mathieu around 1995-1996",
+          "VLC made open source in early 2001; JB joined only in 2003"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "Jean-Baptiste Kempf repeatedly refused tens of millions of dollars in offers to bundle spyware, toolbars, or ads into VLC to keep it free and ethical.",
+        "evidence": [
+          "Offers included bundling toolbars described as 'basically spyware' and changing search engines",
+          "JB states: 'The last offer I had was obscene'",
+          "JB says accepting would have destroyed the project within three years through community forking"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "Google used AI to generate high-volume security bug reports on FFmpeg, including on obscure 1990s game codecs, and went to media before fixes could be made, creating a de facto denial-of-service on volunteer maintainers.",
+        "evidence": [
+          "Reports described as 'very wordy' and 'almost a denial of service by AI generated bug reports'",
+          "Google provided a standard 90-day industry deadline without accounting for volunteer-driven development",
+          "Vulnerability was on 'an obscure 1990s game codec'",
+          "Google announced AI capabilities to media before issues could be fixed"
+        ],
+        "speakers": [
+          "Kieran (speaker referenced but not fully named)",
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "The core maintenance teams of VLC and FFmpeg are tiny relative to their contributor bases, requiring very high code quality standards to remain maintainable.",
+        "evidence": [
+          "Core community of VLC is five people; core community of FFmpeg is 10 to 15",
+          "Only ~1% of contributors stay long-term",
+          "Thousands of contributors over the lifetime but only a handful maintain continuously"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "Linus Torvalds' creation of Git is argued to be more significant than his creation of the Linux kernel.",
+        "evidence": [
+          "Linux powers ~70-80% of Microsoft Azure servers and all Android phones",
+          "Speaker states 'what he did on Git is more interesting than what he did on the Linux kernel'"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "In open source, we make, we give you everything. And that managed to get a lot of people work together.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The license is a social contract in terms of Rousseau de facto of the community. The community does not agree on much besides the license.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I do not feel that I'm completely legitimate to do that.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I arrived to the work of a person who was a factory worker. And I said, well, I need you to sign that because it was his son who died, who actually wrote the code.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "We care about excellent code. We don't care who you are. Maybe you're a dog. I don't care.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The last offer I had was obscene and they say, yeah, but imagine with all that money, you could build something new. Open source, right? It was like the mind trick was it was difficult.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Jean-Baptiste Kempf",
+        "title": "President, VideoLAN; Lead Developer, VLC"
+      },
+      {
+        "name": "Kieran",
+        "title": "FFmpeg developer/contributor (surname not given in chunk)"
+      }
+    ],
+    "keyword_candidates": [
+      "FFmpeg",
+      "VLC",
+      "VideoLAN",
+      "GPL vs LGPL licensing",
+      "open source relicensing",
+      "École Centrale Paris",
+      "Google AI security reports",
+      "Linus Torvalds"
+    ]
+  },
+  {
+    "chunk_index": 2,
+    "char_start": 73413,
+    "char_end": 110873,
+    "topics": [
+      "Open source funding and security researcher incentives",
+      "FFmpeg/VLC binary star system and ecosystem interdependencies",
+      "Reverse engineering proprietary video codecs",
+      "Key historical contributors and eras of FFmpeg",
+      "Open source community motivation and contribution culture"
+    ],
+    "claims": [
+      {
+        "claim": "Google uses FFmpeg at a scale of millions of CPU cores but contributes disproportionately little outside its own product areas like VP9 and AV1",
+        "evidence": [
+          "Google funds students and Google Summer of Code but contributions are mostly regarding their own products",
+          "After a debacle Google started sending patches and introduced reward tools for fixing issues"
+        ],
+        "speakers": [
+          "Kieran",
+          "JB"
+        ]
+      },
+      {
+        "claim": "Security researchers are incentivized to hype vulnerabilities while open source maintainers receive no recognition for fixing them, creating misaligned incentives",
+        "evidence": [
+          "Alex Strange's Hacker News post: 'security people are rampant self-promoters'—Google gives million dollar bounties, Defcon prizes, while fixers get nothing",
+          "A pixel wrong-color integer overflow was marked high 7.5 severity in red",
+          "A 16-year-old contributor (Rukai Peng) found and fixed issues without creating a CVE drama, fixing within three days"
+        ],
+        "speakers": [
+          "Kieran",
+          "JB",
+          "Alex Strange"
+        ]
+      },
+      {
+        "claim": "Microsoft Teams posted on the FFmpeg bug tracker treating it like a vendor SLA, then offered only a one-time payment of a few thousand dollars when asked for a support contract",
+        "evidence": [
+          "FFmpeg tweet: 'trillion dollar corporations expect free and urgent support from volunteers'",
+          "Microsoft Teams name-dropped their product as high priority on the public bug tracker",
+          "After requesting a long-term support contract, Microsoft offered a one-time payment of a few thousand dollars"
+        ],
+        "speakers": [
+          "Kieran",
+          "JB"
+        ]
+      },
+      {
+        "claim": "VLC is to FFmpeg as Android is to Linux—they are a binary star system that co-exist and succeed because of each other",
+        "evidence": [
+          "Over 80% of FFmpeg pipelines depend on x264, a VideoLAN project",
+          "VLC uses FFmpeg, gives it reach and exposure to weird files, and historically used donation money to fund FFmpeg development",
+          "Many developers are shared between FFmpeg and VLC"
+        ],
+        "speakers": [
+          "Kieran",
+          "JB"
+        ]
+      },
+      {
+        "claim": "FFmpeg is likely running on 100 million to a billion CPUs simultaneously, making every instruction optimization have massive real-world impact",
+        "evidence": [
+          "JB: 'we should expand ffmpeg is probably one of the biggest cpu users in the world'",
+          "'easily 100 order of magnitude 100 million maybe even a billion cpus as we speak'"
+        ],
+        "speakers": [
+          "JB"
+        ]
+      },
+      {
+        "claim": "Reverse engineering a 20-30 megabyte binary blob, as Kostya Shishkov did for codecs like Go To Meeting, represents an order of magnitude more difficulty than a 1 MB blob which itself takes roughly a month of work",
+        "evidence": [
+          "'one megabyte binary blob to reverse engineer is probably order of magnitude a month of work'",
+          "Kostya reverse engineered Go To Meeting codec alone in approximately two months",
+          "Process involves disassembly, hooking modules, dumping raw YUV data, and debugging instruction by instruction"
+        ],
+        "speakers": [
+          "Kieran",
+          "JB"
+        ]
+      },
+      {
+        "claim": "The spicy FFmpeg/VideoLAN tweets about corporate exploitation produced positive results including substantially increased donations and greater technical awareness",
+        "evidence": [
+          "VLC Android update was blocked for over a year due to a Play Store bug; a threatening tweet got Android team to respond",
+          "VLC has ~100 million users on Android",
+          "Donations increased substantially though still not enough for a single full-time developer"
+        ],
+        "speakers": [
+          "Kieran",
+          "JB"
+        ]
+      },
+      {
+        "claim": "Andrew Kelley, creator of the Zig programming language, was an FFmpeg developer before starting Zig",
+        "evidence": [
+          "JB: 'andrew kelly started zig he was an ffmpeg developer and started zig after ffmpeg school'"
+        ],
+        "speakers": [
+          "JB"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "the problem with security reports in general is security people are rampant self-promoters in parentheses Linus once called them something worse imagine you're a humble volunteer open source developer if a security researcher finds a bug in your code they're going to make up a cute name for it start a website with a logo Google is going to give them a million dollar bounty they're going to go to Defcon and get a prize and I assume there's some kind of secret security people orgy where everyone is dressed like they're in the matrix nobody is going to do any of this for you when you fix it",
+        "speaker": "Alex Strange",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "the xz fiasco has shown how a dependence on unpaid volunteers can cause major problems trillion dollar corporations expect free and urgent support from volunteers",
+        "speaker": "Kieran",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "we are not your supplier if you want me to be a supplier i'm very happy right i would send you a contract",
+        "speaker": "JB",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "if you're good in c in ffmpeg if you know how to write assembly are you sure you you're going to be one of the best programmers ever even if you're working on writing type 3 because this is the most amazing thing to do and you will like have to get reviews by some of the most seasoned programmer ever who are going to look at every part of your code and tell you why it's not great it's like we are the best teachers that you've ever had in programming right",
+        "speaker": "JB",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "He looked at the world as a binary specification. He didn't need documentation or anything It's I have a binary and I can figure all of this out and he regularly used the phrase Binary specification. I know it's not a problem",
+        "speaker": "Kieran",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "many things in the world only happen because an awesome person decides to do it",
+        "speaker": "Tim Sweeney",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Jean-Baptiste Kempf",
+        "title": "President, VideoLAN / VLC Developer"
+      },
+      {
+        "name": "Kieran Kunhya",
+        "title": "FFmpeg Developer / Open Broadcast Systems"
+      }
+    ],
+    "keyword_candidates": [
+      "FFmpeg",
+      "VideoLAN",
+      "x264",
+      "Kostya Shishkov",
+      "reverse engineering",
+      "bit exactness",
+      "Go To Meeting codec",
+      "CVE security inflation",
+      "Andrew Kelley Zig",
+      "binary star system"
+    ]
+  },
+  {
+    "chunk_index": 3,
+    "char_start": 110873,
+    "char_end": 146861,
+    "topics": [
+      "FATE automated testing infrastructure for FFmpeg",
+      "Handwritten SIMD assembly optimization vs compiler auto-vectorization",
+      "dav1d AV1 software decoder development",
+      "Assembly programming pedagogy and community",
+      "Rust language debate in multimedia/open-source context"
+    ],
+    "claims": [
+      {
+        "claim": "FFmpeg's FATE testing system runs on a massive volunteer-hosted matrix of OS, compiler, and architecture combinations, catching miscompilations that break correctness.",
+        "evidence": [
+          "fate.ffmpeg.org shows dozens of configurations including Mac OS, iOS, tvOS, PowerPC, RISC, DEC Alpha, Visual Studio, Intel compiler, Apple Clang",
+          "All systems are volunteer-hosted; the speaker hosts Mac variants in his own office",
+          "Even a small miscompilation can cascade into large glitches because video frames have dependencies"
+        ],
+        "speakers": [
+          "Kieran O'Leary",
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "Handwritten SIMD assembly in FFmpeg achieves 10x–62x speed improvements over equivalent C code, far exceeding compiler auto-vectorization.",
+        "evidence": [
+          "A specific function shown achieves 62x speedup over C",
+          "Speakers state auto-vectorization is 'not even close' and 'multiple times slower', not 5–10% slower",
+          "Open Broadcast's internal pixel-format conversion matrix is entirely in handwritten assembly with documented speedups"
+        ],
+        "speakers": [
+          "Kieran O'Leary",
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "The dav1d AV1 decoder contains 240,000 lines of handwritten assembly against only 30,000 lines of C, more assembly than all other FFmpeg codecs combined.",
+        "evidence": [
+          "FFmpeg total assembly across all codecs is ~100,000 lines; dav1d alone has 240,000 lines",
+          "30% of Netflix traffic and 50% of YouTube traffic is AV1; dav1d runs on ~3 billion devices",
+          "With dav1d, 720p decoding is achievable with one or two CPU cores"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf",
+          "Kieran O'Leary"
+        ]
+      },
+      {
+        "claim": "dav1d deliberately violates standard OS calling conventions in its internal assembly to avoid unnecessary register saves/loads and gain additional speed.",
+        "evidence": [
+          "Standard calling conventions require saving registers when entering a function; dav1d skips this for intra-library calls",
+          "At least four calling conventions exist on x86 alone (Linux 32/64, Windows 32/64); dav1d bypasses them internally",
+          "This avoids loading and saving registers to L1/L2 cache, improving throughput"
+        ],
+        "speakers": [
+          "Kieran O'Leary",
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "VLC supports a wider range of operating systems than Microsoft, Google, or Apple, including Windows XP, macOS 10.7, iOS 9, OS/2, BSD, and Solaris, with a comparatively tiny team.",
+        "evidence": [
+          "The last VLC version still runs on OS/2, which has roughly 10 users worldwide",
+          "Supporting iOS 9 requires Frankenstein-mixing multiple Xcode/SDK versions to compile for ARM32",
+          "This is possible in part because of FATE and FFmpeg's broad codec/platform support"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "Rust is unsuitable for rewriting assembly-optimized codecs like dav1d because inline/handwritten assembly destroys Rust's memory-safety guarantees regardless of how the C parts are rewritten.",
+        "evidence": [
+          "Handwritten assembly can jump anywhere in memory, breaking Rust's security model",
+          "Speakers argue secure assembly needs compile-time instrumentation checking memory access patterns",
+          "JB's startup Kyber uses Rust for new projects but he opposes rewrites of existing assembly-heavy codebases"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf",
+          "Kieran O'Leary"
+        ]
+      },
+      {
+        "claim": "Reading code is significantly harder than writing it, making rewrites dangerous because developers lose undocumented business logic and edge-case wisdom embedded in existing code.",
+        "evidence": [
+          "JB states it is 'an order of magnitude easier to write code than read code'",
+          "LLMs can write code but struggle to analyze existing complex code",
+          "JB jokes he cannot understand his own code six months after writing it"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "Every new codec added is actually worth more than the value of that codec itself because it makes the whole thing better.",
+        "speaker": "Kieran O'Leary",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "We use the machine in ways that the creator didn't expect. Sometimes we use an instruction that's completely unrelated to what we do. We use a cryptography instruction in video processing to do nothing related.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "30,000 lines of C, but 240,000 lines of handwritten assembly.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "It's like flying a Spitfire. It's really aviation at its purest, but also pushing the aircraft beyond what the designer thought was possible.",
+        "speaker": "Kieran O'Leary",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "It is an order of magnitude easier to write code than read code.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Even if I rewrite the C part in Rust for security reason, you break all the security when you write handwritten assembly because we can jump anywhere.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Jean-Baptiste Kempf",
+        "title": "Co-founder/President, VideoLAN; Co-founder, Open Broadcast; Founder, Kyber"
+      },
+      {
+        "name": "Kieran O'Leary",
+        "title": "FFmpeg developer; Co-founder, Open Broadcast"
+      }
+    ],
+    "keyword_candidates": [
+      "dav1d",
+      "SIMD assembly",
+      "FATE (FFmpeg Automated Testing Environment)",
+      "AV1",
+      "x86inc",
+      "calling convention",
+      "Henrik Gramner",
+      "auto-vectorization"
+    ]
+  },
+  {
+    "chunk_index": 4,
+    "char_start": 146861,
+    "char_end": 182722,
+    "topics": [
+      "FFmpeg/LibAV fork and open source governance",
+      "Open source maintainer burnout and AI slop",
+      "x264 encoder and psychovisual compression",
+      "Video codec evolution: H.264 to AV1",
+      "VLC security incidents and fake software distribution"
+    ],
+    "claims": [
+      {
+        "claim": "The FFmpeg/LibAV split in 2011 was driven by governance and leadership disputes rather than technical disagreements, and LibAV's work was eventually merged back into FFmpeg, making FFmpeg stronger.",
+        "evidence": [
+          "FFmpeg and LibAV split in 2011, mainly over project governance, leadership style, and development processes",
+          "FFmpeg effectively absorbed LibAV's work, while LibAV withered and most distributions and developers moved back to FFmpeg",
+          "Ubuntu temporarily switched to LibAV around 2012-2014 before switching back"
+        ],
+        "speakers": [
+          "JB (Jean-Baptiste Kempf)",
+          "Lex Fridman"
+        ]
+      },
+      {
+        "claim": "AI-generated low-quality bug reports and patches are increasing maintenance burden on open source developers, contributing to burnout.",
+        "evidence": [
+          "Daniel Steinberg, maintainer of Curl, coined the term 'AI slop' for fake/bad AI-generated reports and patches",
+          "The XZ fiasco occurred because one maintainer was hammered by two attackers asking questions nonstop at night until he gave them commit access"
+        ],
+        "speakers": [
+          "JB (Jean-Baptiste Kempf)"
+        ]
+      },
+      {
+        "claim": "x264 revolutionized video encoding by prioritizing psychovisual quality over mathematical metrics like PSNR, which had caused widespread blurring in prior encoders.",
+        "evidence": [
+          "Industry and academia were obsessed with peak signal-to-noise ratio (PSNR/mean-squared error) for 20 years, leading to blurring artifacts",
+          "x264 introduced psychovisual rate distortion and adaptive quantization, developed partly through iterative feedback with anime fan communities",
+          "Lauren Merrick's stated goal: 'I don't want to test this on a $30,000 screen. I want this to look good on someone's laptop at home'"
+        ],
+        "speakers": [
+          "Kieran",
+          "JB (Jean-Baptiste Kempf)"
+        ]
+      },
+      {
+        "claim": "AV1 achieves 40–60% bandwidth savings compared to H.264 at equivalent visual quality, but requires roughly two orders of magnitude more CPU cycles to encode.",
+        "evidence": [
+          "AV1 saves between 40 and 60% less bandwidth than H.264 for the same quality at a given bit rate",
+          "AV1 encoding is two orders of magnitude more CPU-intensive than H.264",
+          "YouTube re-encodes only popular videos in AV1 due to cost, while encoding most content in H.264"
+        ],
+        "speakers": [
+          "JB (Jean-Baptiste Kempf)",
+          "Kieran"
+        ]
+      },
+      {
+        "claim": "The CIA used a modified version of VLC with an added DLL to conduct surveillance operations, and Chinese hackers similarly exploited a signed VLC DLL to target Indian users, leading India to temporarily ban VLC.",
+        "evidence": [
+          "CIA Vault 7 documents revealed a custom VLC build with a plugin (PSAPI.DLL) that read the document folder, encrypted it, and sent it out",
+          "Chinese hackers used a legitimate signed VLC DLL with a fake libvlc to target Indian users",
+          "VLC was banned in India until JB fought in Indian court to get it unbanned"
+        ],
+        "speakers": [
+          "JB (Jean-Baptiste Kempf)",
+          "Lex Fridman"
+        ]
+      },
+      {
+        "claim": "A fake VLC installer has been circulating in Germany for over 12 years, ranks above VideoLAN in German Google results, and deliberately delays malicious activity for three weeks to evade detection.",
+        "evidence": [
+          "Fake German VLC website reported for 12 years with Google failing to act because the binary is too large for their virus analyzer",
+          "The fake installer activates a background service only after three weeks to evade detection windows"
+        ],
+        "speakers": [
+          "JB (Jean-Baptiste Kempf)"
+        ]
+      },
+      {
+        "claim": "JB received a death threat with powder included in a letter after deciding to drop PowerPC support for VLC around 2009–2010.",
+        "evidence": [
+          "VLC was approaching version 1.0 with only four developers when the decision was made",
+          "The letter included powder reminiscent of Anthrax threats and stated 'PowerPC forever'",
+          "JB had to go to the police with his mother over the incident"
+        ],
+        "speakers": [
+          "JB (Jean-Baptiste Kempf)"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "forks are even, they're important because they change the status quo of a community",
+        "speaker": "JB (Jean-Baptiste Kempf)",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "the XZ fiasco was because there was one guy maintaining it and he got basically hammered by two attackants who were asking him questions nonstop at weird times at night to block him",
+        "speaker": "JB (Jean-Baptiste Kempf)",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I don't want to test this on a $30,000 screen. I want this to look good on someone's laptop at home.",
+        "speaker": "Kieran",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "AV1 encoding is two order of magnitude more than H.264 in terms of CPU cycle",
+        "speaker": "JB (Jean-Baptiste Kempf)",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "the only safe source for getting VLC media player is the official VideoLan website",
+        "speaker": "JB (Jean-Baptiste Kempf)",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "you encode once and you have hundreds of millions of users",
+        "speaker": "JB (Jean-Baptiste Kempf)",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Jean-Baptiste Kempf",
+        "title": "President, VideoLAN / VLC developer"
+      },
+      {
+        "name": "Kieran Kunhya",
+        "title": "Contributor, x264 / Open Broadcast Systems"
+      }
+    ],
+    "keyword_candidates": [
+      "x264",
+      "psychovisual rate distortion",
+      "AV1",
+      "LibAV",
+      "CIA Vault 7",
+      "Daniel Steinberg",
+      "Park Joy sample",
+      "intra-refresh"
+    ]
+  },
+  {
+    "chunk_index": 5,
+    "char_start": 182722,
+    "char_end": 217398,
+    "topics": [
+      "VLC sandboxing and security architecture",
+      "Kyber: ultra-low latency video SDK for robotics and teleoperation",
+      "Next-generation codecs: AV2, H.266/VVC, and the patent landscape",
+      "Open source licensing and European tech entrepreneurship",
+      "Adaptive streaming and multimedia delivery"
+    ],
+    "claims": [
+      {
+        "claim": "VLC is being split into multiple sandboxed processes (decoding, de-muxing, filters) to improve security without sacrificing performance, analogous to Chrome's tab isolation.",
+        "evidence": [
+          "VLC has around 500 plugins including FFmpeg, GPU drivers, and third-party codecs running inside the same process",
+          "The sandbox must sustain gigabits per second of memory copies, far exceeding typical web application demands",
+          "Comparison made to Chrome crashing a tab without crashing the whole browser"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "Kyber achieves 7 milliseconds glass-to-glass latency currently, with a target of 4 milliseconds, using a single QUIC/UDP socket for multiplexed audio, video, and control streams.",
+        "evidence": [
+          "NVIDIA hardware encoder takes ~3.5ms, Intel decoder ~2ms, totaling ~6ms for codec alone",
+          "4 milliseconds corresponds to 240Hz refresh equivalent",
+          "Demo at CES showed a 3D-printed rover controlled from France over the internet"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "AV2 achieves approximately 30% bandwidth reduction over AV1 at equivalent quality, continuing the generational ~30% improvement trend across codec generations.",
+        "evidence": [
+          "HEVC is ~30% better than H.264; H.266 is ~30% better than H.265",
+          "AV2 specification is complete and VLC demonstrated first AV2 demo at CES",
+          "The AV2 decoder is called DAV2D (David 2), a recursive acronym"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "HEVC licensing became commercially untenable due to fragmented patent pools, motivating large companies to create the royalty-free AV1/AV2 codecs via the Alliance for Open Media.",
+        "evidence": [
+          "HEVC had multiple patent pools: MPEG-LA, HEVC Advance, Nokia separately outside pools",
+          "HP reportedly removed HEVC support from Windows laptops due to increasing patent costs",
+          "YouTube/Netflix licensing costs could reach hundreds of millions of dollars per year"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf",
+          "Kiran"
+        ]
+      },
+      {
+        "claim": "Kyber uses forward error correction and clock drift compensation to ensure coherent multi-sensor data synchronization for robot AI training.",
+        "evidence": [
+          "Over-transmitting a few percent of data allows packet loss recovery without adding latency",
+          "All robot sensors (cameras, GPS, captors) need synchronized timestamps for valid AI model training",
+          "Existing solutions work with one camera but become unreliable with five or more cameras"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "VLC's build process is intentionally air-gapped and paranoid, compiling on offline machines that bootstrap the compiler, with double signing, after detecting what they believe was a state actor attempting to inject a fake binary.",
+        "evidence": [
+          "Compile boxes start by compiling the compiler and are never connected to the internet",
+          "A believed non-Western governmental agency attempted to push a fake binary to VLC's servers",
+          "Double signature process is used for release signing"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "Kyber is dual-licensed under AGPL and a commercial license, making it free for open-source projects but paid for proprietary commercial use.",
+        "evidence": [
+          "If you use Kyber in a product, the full product must be open source under AGPL",
+          "Large companies pay for the commercial license to get support, IP rights, and modification rights",
+          "Described as same model referenced earlier in the conversation about licenses"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "The goal of kyber is to make distance disappear because it is a projection of skills or projection of power.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "4 milliseconds means 240 hertz, right? Yeah, it's nuts.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "There is no code that gets into VLC that we don't control.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "If I had to pay all the license fee for VLC, I needed to pay more than 200 euros per user.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "You shouldn't be able to patent math and matrices. Like this is wrong.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "multimedia is what we call a patent minefield. There is two places where you have the most patents. It's everything related to 3G, 4G, 5G, RF, and multimedia",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Jean-Baptiste Kempf",
+        "title": "President, VideoLAN; Founder, Kyber"
+      },
+      {
+        "name": "Kiran",
+        "title": "Codec/streaming engineer (company unspecified)"
+      }
+    ],
+    "keyword_candidates": [
+      "Kyber",
+      "AV2",
+      "DAV2D",
+      "glass-to-glass latency",
+      "forward error correction",
+      "Alliance for Open Media",
+      "HEVC patent pool",
+      "VLC sandbox"
+    ]
+  },
+  {
+    "chunk_index": 6,
+    "char_start": 217398,
+    "char_end": 239052,
+    "topics": [
+      "VLC privacy and government surveillance resistance",
+      "FFmpeg and VLC long-term archival mission",
+      "Future of multimedia: spatial audio, XR, brain-computer interfaces",
+      "FFmpeg deployment in extreme environments (Mars, CERN, military)",
+      "Open source maintenance philosophy"
+    ],
+    "claims": [
+      {
+        "claim": "VLC has no telemetry and the international distributed nature of its contributors makes it structurally resistant to government surveillance mandates",
+        "evidence": [
+          "No telemetry in VLC by design",
+          "Contributors in UK, Germany, US would all be able to see any surveillance code",
+          "French government cannot mandate what content VLC blocks or tracks"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "FFmpeg is used by the Mars 2020 rover to compress pictures, making it a multi-planetary open source library",
+        "evidence": [
+          "Mars 2020 rover team wrote a paper about wanting to use commercial off-the-shelf technology",
+          "FFmpeg was chosen as part of that approach",
+          "Kieran Cunha described FFmpeg as 'a multi-planetary open source library'"
+        ],
+        "speakers": [
+          "Kieran Cunha"
+        ]
+      },
+      {
+        "claim": "The archival community, led by Dave Rice from City University of New York, funded development of the FFv1 lossless codec and GPU encoding in FFmpeg specifically for preservation purposes",
+        "evidence": [
+          "FFv1 is a lossless codec designed for fast software-based encoding",
+          "GPU encoding in FFmpeg was funded by the archiving community to speed up FFv1 encoding",
+          "Archiving community is concerned about lossy compression changing historical material"
+        ],
+        "speakers": [
+          "Kieran Cunha"
+        ]
+      },
+      {
+        "claim": "The BBC's New Doomsday Book, archived on BBC microcomputers, became unplayable within 10-20 years because no one had the right software, illustrating the risk FFmpeg is designed to prevent",
+        "evidence": [
+          "Archive stored on BBC microcomputers",
+          "Unplayable within 10-15 or 20 years",
+          "Someone had to reverse engineer it to recover the content"
+        ],
+        "speakers": [
+          "Kieran Cunha"
+        ]
+      },
+      {
+        "claim": "FFmpeg and VLC are being expanded toward volumetric video, XR streaming, spatial audio, haptic tracks, and eventually brain-computer interface codecs as multimedia expands to all human senses",
+        "evidence": [
+          "VLC already has a VR and XR version",
+          "Kyber streams XR content to low-power glasses including Apple Vision and Quest",
+          "VLC has a haptic plugin for 4D cinema systems with hydraulic arms",
+          "Spatial audio demo already completed with architecture changes in VLC"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf",
+          "Kieran Cunha"
+        ]
+      },
+      {
+        "claim": "VLC is operated with a core legal responsibility held by a single person, Jean-Baptiste Kempf, despite millions of users and military/government interactions",
+        "evidence": [
+          "Six to eight core contributors",
+          "Everything legally is only Jean-Baptiste Kempf",
+          "US military used VLC on laptops after someone in the military reviewed the open source code"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "C is the ideal language for thousand-year archival software because it is closest to mathematics and logic, and will endure like Latin",
+        "evidence": [
+          "FFmpeg is written in C",
+          "Kieran Cunha argued C will be like Latin: learnable from the past and still usable",
+          "Mathematical notation and stable languages persist across centuries"
+        ],
+        "speakers": [
+          "Kieran Cunha"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "FFmpeg, nothing is beyond our reach.",
+        "speaker": "Kieran Cunha",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Talk is cheap, send patches.",
+        "speaker": "Kieran Cunha",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "C will be like Latin. It will be a thing that you learn from the past, but it will still be usable in certain contexts.",
+        "speaker": "Kieran Cunha",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "FFmpeg runs on Mars, so we are a multi-planetary open source library.",
+        "speaker": "Kieran Cunha",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Regrets are attacks on your mind. Learn from your mistakes, but don't regret, because you've done it.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "In a thousand years, we may be drowning in AI slop. This stuff needs to be important and archived.",
+        "speaker": "Kieran Cunha",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Jean-Baptiste Kempf",
+        "title": "President, VideoLAN / Lead Developer, VLC"
+      },
+      {
+        "name": "Kieran Cunha",
+        "title": "FFmpeg contributor / Co-founder, Kyber"
+      }
+    ],
+    "keyword_candidates": [
+      "FFv1 lossless codec",
+      "Dave Rice",
+      "Mars 2020 rover",
+      "CERN LHC",
+      "volumetric video",
+      "point cloud",
+      "haptic plugin",
+      "digital archival preservation"
+    ]
+  }
+]

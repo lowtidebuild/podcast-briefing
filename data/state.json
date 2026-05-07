@@ -760,12 +760,12 @@
       "slug": "2026-04-29-dwarkesh-podcast",
       "status": "download_failed",
       "last_stage": "download",
-      "attempts": 2,
+      "attempts": 3,
       "last_error": "403 Client Error: Forbidden for url: https://api.substack.com/feed/podcast/195859978/d0ec0edfef14862f0fc2e095a1ee64b0.mp3",
       "warnings": [],
       "artifacts": {},
       "usage": {},
-      "updated_at": "2026-05-04T08:27:44.634629"
+      "updated_at": "2026-05-07T08:31:15.249961"
     },
     "e9c09545-4c76-4210-bf00-214b1f7f7ba9": {
       "slug": "2026-04-29-a16z-podcast",
@@ -950,6 +950,89 @@
         "sheets_configured": true
       },
       "updated_at": "2026-05-04T08:49:36.390012"
+    },
+    "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/vKojldFADT9E/v15.mp3": {
+      "slug": "2026-05-07-odd-lots",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-07-odd-lots/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-05-07-odd-lots.json"
+      },
+      "usage": {
+        "quote_is_verbatim": true,
+        "quote_match_score": 0.9689,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-05-07T08:31:15.088609"
+    },
+    "5071aa4a-a2d8-4595-8602-e9ab3952bd54": {
+      "slug": "2026-05-06-a16z-podcast",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-06-a16z-podcast/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-05-06-a16z-podcast.json"
+      },
+      "usage": {
+        "quote_is_verbatim": false,
+        "quote_match_score": 0.7263,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-05-07T08:34:15.824385"
+    },
+    "1aaef72f-d984-453b-a204-c961ac514484": {
+      "slug": "2026-05-05-ezra-klein-show",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-05-ezra-klein-show/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-05-05-ezra-klein-show.json"
+      },
+      "usage": {
+        "quote_is_verbatim": true,
+        "quote_match_score": 0.8551,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-05-07T08:39:08.558473"
+    },
+    "https://lexfridman.com/?p=6450": {
+      "slug": "2026-05-06-lex-fridman-podcast",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "chunks": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-06-lex-fridman-podcast/chunks.json",
+        "extraction_report": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-06-lex-fridman-podcast/extraction_report.json",
+        "raw_dir": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-06-lex-fridman-podcast/raw",
+        "synthesis": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-06-lex-fridman-podcast/synthesis.json",
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-06-lex-fridman-podcast/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-05-06-lex-fridman-podcast.json"
+      },
+      "usage": {
+        "transcript_chars": 239052,
+        "chunk_count": 7,
+        "extracted_chunk_count": 7,
+        "cache_hits": 0,
+        "extraction_prompt_input_chars": 249417,
+        "synthesis_prompt_chars": 40608,
+        "synthesis_input_reduction_ratio": 0.8301,
+        "quote_is_verbatim": true,
+        "quote_match_score": 1.0,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-05-07T09:01:12.726241"
     }
   }
 }

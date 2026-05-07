@@ -1,5 +1,33 @@
 [
   {
+    "slug": "2026-05-07-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "How an American City Can Become a Manufacturing Hub",
+    "published": "2026-05-07T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-06-lex-fridman-podcast",
+    "podcast": "Lex Fridman Podcast",
+    "category": "AI / Tech",
+    "title": "#496 – FFmpeg: The Incredible Technology Behind Video on the Internet",
+    "published": "2026-05-06T22:06:47+00:00"
+  },
+  {
+    "slug": "2026-05-06-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
+    "published": "2026-05-06T10:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-05-ezra-klein-show",
+    "podcast": "Ezra Klein Show",
+    "category": "Politics / Geopolitics",
+    "title": "The Book That Changed How I Think About Liberalism",
+    "published": "2026-05-05T09:00:00+00:00"
+  },
+  {
     "slug": "2026-05-04-odd-lots",
     "podcast": "Odd Lots",
     "category": "Macro / Markets",
@@ -320,33 +348,5 @@
     "category": "Macro / Markets",
     "title": "Odd Lots: Gina Raimondo on How European Industry Is Getting Crushed (Podcast)",
     "published": "2026-04-06T08:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-05-fareed-zakaria-gps",
-    "podcast": "Fareed Zakaria GPS",
-    "category": "Politics / Geopolitics",
-    "title": "Escalation in the War with Iran",
-    "published": "2026-04-05T17:26:00"
-  },
-  {
-    "slug": "2026-04-03-all-in-podcast",
-    "podcast": "All-In Podcast",
-    "category": "Politics / Geopolitics",
-    "title": "SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportunity",
-    "published": "2026-04-03T21:08:00+00:00"
-  },
-  {
-    "slug": "2026-04-03-hard-fork",
-    "podcast": "Hard Fork",
-    "category": "AI / Tech",
-    "title": "The Future of Addictive Design + Going Deep at DeepMind + HatGPT",
-    "published": "2026-04-03T11:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-03-ezra-klein-show",
-    "podcast": "Ezra Klein Show",
-    "category": "Politics / Geopolitics",
-    "title": "Why Iran Believes It Has the Upper Hand",
-    "published": "2026-04-03T09:00:00+00:00"
   }
 ]

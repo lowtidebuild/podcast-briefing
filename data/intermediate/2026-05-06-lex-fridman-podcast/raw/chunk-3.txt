@@ -1,0 +1,140 @@
+```json
+{
+  "topics": [
+    "FATE automated testing infrastructure for FFmpeg",
+    "Handwritten SIMD assembly optimization vs compiler auto-vectorization",
+    "dav1d AV1 software decoder development",
+    "Assembly programming pedagogy and community",
+    "Rust language debate in multimedia/open-source context"
+  ],
+  "claims": [
+    {
+      "claim": "FFmpeg's FATE testing system runs on a massive volunteer-hosted matrix of OS, compiler, and architecture combinations, catching miscompilations that break correctness.",
+      "evidence": [
+        "fate.ffmpeg.org shows dozens of configurations including Mac OS, iOS, tvOS, PowerPC, RISC, DEC Alpha, Visual Studio, Intel compiler, Apple Clang",
+        "All systems are volunteer-hosted; the speaker hosts Mac variants in his own office",
+        "Even a small miscompilation can cascade into large glitches because video frames have dependencies"
+      ],
+      "speakers": ["Kieran O'Leary", "Jean-Baptiste Kempf"]
+    },
+    {
+      "claim": "Handwritten SIMD assembly in FFmpeg achieves 10x–62x speed improvements over equivalent C code, far exceeding compiler auto-vectorization.",
+      "evidence": [
+        "A specific function shown achieves 62x speedup over C",
+        "Speakers state auto-vectorization is 'not even close' and 'multiple times slower', not 5–10% slower",
+        "Open Broadcast's internal pixel-format conversion matrix is entirely in handwritten assembly with documented speedups"
+      ],
+      "speakers": ["Kieran O'Leary", "Jean-Baptiste Kempf"]
+    },
+    {
+      "claim": "The dav1d AV1 decoder contains 240,000 lines of handwritten assembly against only 30,000 lines of C, more assembly than all other FFmpeg codecs combined.",
+      "evidence": [
+        "FFmpeg total assembly across all codecs is ~100,000 lines; dav1d alone has 240,000 lines",
+        "30% of Netflix traffic and 50% of YouTube traffic is AV1; dav1d runs on ~3 billion devices",
+        "With dav1d, 720p decoding is achievable with one or two CPU cores"
+      ],
+      "speakers": ["Jean-Baptiste Kempf", "Kieran O'Leary"]
+    },
+    {
+      "claim": "dav1d deliberately violates standard OS calling conventions in its internal assembly to avoid unnecessary register saves/loads and gain additional speed.",
+      "evidence": [
+        "Standard calling conventions require saving registers when entering a function; dav1d skips this for intra-library calls",
+        "At least four calling conventions exist on x86 alone (Linux 32/64, Windows 32/64); dav1d bypasses them internally",
+        "This avoids loading and saving registers to L1/L2 cache, improving throughput"
+      ],
+      "speakers": ["Kieran O'Leary", "Jean-Baptiste Kempf"]
+    },
+    {
+      "claim": "VLC supports a wider range of operating systems than Microsoft, Google, or Apple, including Windows XP, macOS 10.7, iOS 9, OS/2, BSD, and Solaris, with a comparatively tiny team.",
+      "evidence": [
+        "The last VLC version still runs on OS/2, which has roughly 10 users worldwide",
+        "Supporting iOS 9 requires Frankenstein-mixing multiple Xcode/SDK versions to compile for ARM32",
+        "This is possible in part because of FATE and FFmpeg's broad codec/platform support"
+      ],
+      "speakers": ["Jean-Baptiste Kempf"]
+    },
+    {
+      "claim": "Rust is unsuitable for rewriting assembly-optimized codecs like dav1d because inline/handwritten assembly destroys Rust's memory-safety guarantees regardless of how the C parts are rewritten.",
+      "evidence": [
+        "Handwritten assembly can jump anywhere in memory, breaking Rust's security model",
+        "Speakers argue secure assembly needs compile-time instrumentation checking memory access patterns",
+        "JB's startup Kyber uses Rust for new projects but he opposes rewrites of existing assembly-heavy codebases"
+      ],
+      "speakers": ["Jean-Baptiste Kempf", "Kieran O'Leary"]
+    },
+    {
+      "claim": "Reading code is significantly harder than writing it, making rewrites dangerous because developers lose undocumented business logic and edge-case wisdom embedded in existing code.",
+      "evidence": [
+        "JB states it is 'an order of magnitude easier to write code than read code'",
+        "LLMs can write code but struggle to analyze existing complex code",
+        "JB jokes he cannot understand his own code six months after writing it"
+      ],
+      "speakers": ["Jean-Baptiste Kempf"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "Every new codec added is actually worth more than the value of that codec itself because it makes the whole thing better.",
+      "speaker": "Kieran O'Leary",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "We use the machine in ways that the creator didn't expect. Sometimes we use an instruction that's completely unrelated to what we do. We use a cryptography instruction in video processing to do nothing related.",
+      "speaker": "Jean-Baptiste Kempf",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "30,000 lines of C, but 240,000 lines of handwritten assembly.",
+      "speaker": "Jean-Baptiste Kempf",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "It's like flying a Spitfire. It's really aviation at its purest, but also pushing the aircraft beyond what the designer thought was possible.",
+      "speaker": "Kieran O'Leary",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "It is an order of magnitude easier to write code than read code.",
+      "speaker": "Jean-Baptiste Kempf",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Even if I rewrite the C part in Rust for security reason, you break all the security when you write handwritten assembly because we can jump anywhere.",
+      "speaker": "Jean-Baptiste Kempf",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Henrik knows better. He knows all the cycles of almost all the SIMD instruction by all the CPU generation.",
+      "speaker": "Jean-Baptiste Kempf",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "We are also arriving at a point where we've done so many great things, but the hardware is getting back to us, right? Because cost is increasing because we need more power.",
+      "speaker": "Jean-Baptiste Kempf",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {"name": "Jean-Baptiste Kempf", "title": "Co-founder/President, VideoLAN; Co-founder, Open Broadcast; Founder, Kyber"},
+    {"name": "Kieran O'Leary", "title": "FFmpeg developer; Co-founder, Open Broadcast"}
+  ],
+  "keyword_candidates": [
+    "dav1d",
+    "SIMD assembly",
+    "FATE (FFmpeg Automated Testing Environment)",
+    "AV1",
+    "x86inc",
+    "calling convention",
+    "Henrik Gramner",
+    "auto-vectorization"
+  ]
+}
+```

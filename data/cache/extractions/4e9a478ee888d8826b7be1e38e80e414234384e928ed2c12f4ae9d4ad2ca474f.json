@@ -1,0 +1,161 @@
+{
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_hash": "ede90a72e908fe4cf8ea0487d2e215d776b50be83d6616238d85482e6df01ba9",
+  "chunk_hash": "d5e294dc5b56d68473649ea61b676df677af092e3b6850317dedb751de69ebaf",
+  "chunk_index": 1,
+  "char_start": 36245,
+  "char_end": 73413,
+  "extraction": {
+    "chunk_index": 1,
+    "char_start": 36245,
+    "char_end": 73413,
+    "topics": [
+      "Open source licensing and community governance",
+      "VLC and VideoLAN origin story",
+      "FFmpeg volunteer developer culture and code quality standards",
+      "Google AI-generated security reports controversy",
+      "Monetization decisions and ethical trade-offs in open source"
+    ],
+    "claims": [
+      {
+        "claim": "FFmpeg and VLC democratized video technology that previously required hundreds of thousands of dollars of equipment the size of a car, enabling the podcast and YouTube revolution.",
+        "evidence": [
+          "In the 90s, compression equipment cost hundreds of thousands of dollars and was the size of a car",
+          "FFmpeg described as 'a big player' in the podcast and streaming revolution",
+          "Tools like FFmpeg created 'almost an exact level playing field'"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "Relicensing an open source project with thousands of contributors is practically and emotionally extremely difficult because copyright is held by all individual contributors.",
+        "evidence": [
+          "JB had to contact more than 350 people to relicense VLC's core from GPL to LGPL",
+          "JB physically traveled to find contributors, including visiting the father of a deceased contributor",
+          "Some contributors whose code was deleted still hold copyright because subsequent work was based on theirs"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "VLC originated from a 1990s student network project at École Centrale Paris, not from a single founder's creation.",
+        "evidence": [
+          "Network 2000 project built to stream MPEG-2 satellite video over an ATM network at 155 Mbps",
+          "VideoLAN project started by students including Christophe Mathieu around 1995-1996",
+          "VLC made open source in early 2001; JB joined only in 2003"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "Jean-Baptiste Kempf repeatedly refused tens of millions of dollars in offers to bundle spyware, toolbars, or ads into VLC to keep it free and ethical.",
+        "evidence": [
+          "Offers included bundling toolbars described as 'basically spyware' and changing search engines",
+          "JB states: 'The last offer I had was obscene'",
+          "JB says accepting would have destroyed the project within three years through community forking"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "Google used AI to generate high-volume security bug reports on FFmpeg, including on obscure 1990s game codecs, and went to media before fixes could be made, creating a de facto denial-of-service on volunteer maintainers.",
+        "evidence": [
+          "Reports described as 'very wordy' and 'almost a denial of service by AI generated bug reports'",
+          "Google provided a standard 90-day industry deadline without accounting for volunteer-driven development",
+          "Vulnerability was on 'an obscure 1990s game codec'",
+          "Google announced AI capabilities to media before issues could be fixed"
+        ],
+        "speakers": [
+          "Kieran (speaker referenced but not fully named)",
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "The core maintenance teams of VLC and FFmpeg are tiny relative to their contributor bases, requiring very high code quality standards to remain maintainable.",
+        "evidence": [
+          "Core community of VLC is five people; core community of FFmpeg is 10 to 15",
+          "Only ~1% of contributors stay long-term",
+          "Thousands of contributors over the lifetime but only a handful maintain continuously"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      },
+      {
+        "claim": "Linus Torvalds' creation of Git is argued to be more significant than his creation of the Linux kernel.",
+        "evidence": [
+          "Linux powers ~70-80% of Microsoft Azure servers and all Android phones",
+          "Speaker states 'what he did on Git is more interesting than what he did on the Linux kernel'"
+        ],
+        "speakers": [
+          "Jean-Baptiste Kempf"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "In open source, we make, we give you everything. And that managed to get a lot of people work together.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The license is a social contract in terms of Rousseau de facto of the community. The community does not agree on much besides the license.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I do not feel that I'm completely legitimate to do that.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I arrived to the work of a person who was a factory worker. And I said, well, I need you to sign that because it was his son who died, who actually wrote the code.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "We care about excellent code. We don't care who you are. Maybe you're a dog. I don't care.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The last offer I had was obscene and they say, yeah, but imagine with all that money, you could build something new. Open source, right? It was like the mind trick was it was difficult.",
+        "speaker": "Jean-Baptiste Kempf",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Jean-Baptiste Kempf",
+        "title": "President, VideoLAN; Lead Developer, VLC"
+      },
+      {
+        "name": "Kieran",
+        "title": "FFmpeg developer/contributor (surname not given in chunk)"
+      }
+    ],
+    "keyword_candidates": [
+      "FFmpeg",
+      "VLC",
+      "VideoLAN",
+      "GPL vs LGPL licensing",
+      "open source relicensing",
+      "École Centrale Paris",
+      "Google AI security reports",
+      "Linus Torvalds"
+    ]
+  },
+  "created_at": "2026-05-07T08:56:46.242389"
+}

@@ -1,0 +1,140 @@
+```json
+{
+  "topics": [
+    "VLC sandboxing and security architecture",
+    "Kyber: ultra-low latency video SDK for robotics and teleoperation",
+    "Next-generation codecs: AV2, H.266/VVC, and the patent landscape",
+    "Open source licensing and European tech entrepreneurship",
+    "Adaptive streaming and multimedia delivery"
+  ],
+  "claims": [
+    {
+      "claim": "VLC is being split into multiple sandboxed processes (decoding, de-muxing, filters) to improve security without sacrificing performance, analogous to Chrome's tab isolation.",
+      "evidence": [
+        "VLC has around 500 plugins including FFmpeg, GPU drivers, and third-party codecs running inside the same process",
+        "The sandbox must sustain gigabits per second of memory copies, far exceeding typical web application demands",
+        "Comparison made to Chrome crashing a tab without crashing the whole browser"
+      ],
+      "speakers": ["Jean-Baptiste Kempf"]
+    },
+    {
+      "claim": "Kyber achieves 7 milliseconds glass-to-glass latency currently, with a target of 4 milliseconds, using a single QUIC/UDP socket for multiplexed audio, video, and control streams.",
+      "evidence": [
+        "NVIDIA hardware encoder takes ~3.5ms, Intel decoder ~2ms, totaling ~6ms for codec alone",
+        "4 milliseconds corresponds to 240Hz refresh equivalent",
+        "Demo at CES showed a 3D-printed rover controlled from France over the internet"
+      ],
+      "speakers": ["Jean-Baptiste Kempf"]
+    },
+    {
+      "claim": "AV2 achieves approximately 30% bandwidth reduction over AV1 at equivalent quality, continuing the generational ~30% improvement trend across codec generations.",
+      "evidence": [
+        "HEVC is ~30% better than H.264; H.266 is ~30% better than H.265",
+        "AV2 specification is complete and VLC demonstrated first AV2 demo at CES",
+        "The AV2 decoder is called DAV2D (David 2), a recursive acronym"
+      ],
+      "speakers": ["Jean-Baptiste Kempf"]
+    },
+    {
+      "claim": "HEVC licensing became commercially untenable due to fragmented patent pools, motivating large companies to create the royalty-free AV1/AV2 codecs via the Alliance for Open Media.",
+      "evidence": [
+        "HEVC had multiple patent pools: MPEG-LA, HEVC Advance, Nokia separately outside pools",
+        "HP reportedly removed HEVC support from Windows laptops due to increasing patent costs",
+        "YouTube/Netflix licensing costs could reach hundreds of millions of dollars per year"
+      ],
+      "speakers": ["Jean-Baptiste Kempf", "Kiran"]
+    },
+    {
+      "claim": "Kyber uses forward error correction and clock drift compensation to ensure coherent multi-sensor data synchronization for robot AI training.",
+      "evidence": [
+        "Over-transmitting a few percent of data allows packet loss recovery without adding latency",
+        "All robot sensors (cameras, GPS, captors) need synchronized timestamps for valid AI model training",
+        "Existing solutions work with one camera but become unreliable with five or more cameras"
+      ],
+      "speakers": ["Jean-Baptiste Kempf"]
+    },
+    {
+      "claim": "VLC's build process is intentionally air-gapped and paranoid, compiling on offline machines that bootstrap the compiler, with double signing, after detecting what they believe was a state actor attempting to inject a fake binary.",
+      "evidence": [
+        "Compile boxes start by compiling the compiler and are never connected to the internet",
+        "A believed non-Western governmental agency attempted to push a fake binary to VLC's servers",
+        "Double signature process is used for release signing"
+      ],
+      "speakers": ["Jean-Baptiste Kempf"]
+    },
+    {
+      "claim": "Kyber is dual-licensed under AGPL and a commercial license, making it free for open-source projects but paid for proprietary commercial use.",
+      "evidence": [
+        "If you use Kyber in a product, the full product must be open source under AGPL",
+        "Large companies pay for the commercial license to get support, IP rights, and modification rights",
+        "Described as same model referenced earlier in the conversation about licenses"
+      ],
+      "speakers": ["Jean-Baptiste Kempf"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "The goal of kyber is to make distance disappear because it is a projection of skills or projection of power.",
+      "speaker": "Jean-Baptiste Kempf",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "4 milliseconds means 240 hertz, right? Yeah, it's nuts.",
+      "speaker": "Jean-Baptiste Kempf",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "There is no code that gets into VLC that we don't control.",
+      "speaker": "Jean-Baptiste Kempf",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "If I had to pay all the license fee for VLC, I needed to pay more than 200 euros per user.",
+      "speaker": "Jean-Baptiste Kempf",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "You shouldn't be able to patent math and matrices. Like this is wrong.",
+      "speaker": "Jean-Baptiste Kempf",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "multimedia is what we call a patent minefield. There is two places where you have the most patents. It's everything related to 3G, 4G, 5G, RF, and multimedia",
+      "speaker": "Jean-Baptiste Kempf",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "You need to have double creativity, right? Creativity in terms of being more efficient, but creativity of being sure that you don't infringe existing patents.",
+      "speaker": "Jean-Baptiste Kempf",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "a sandbox that needs to sustain gigabits per seconds of mem copies. Now, it's not a website which is five megabytes or 10 megabytes. We're talking about hundreds of megabits per second.",
+      "speaker": "Jean-Baptiste Kempf",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {"name": "Jean-Baptiste Kempf", "title": "President, VideoLAN; Founder, Kyber"},
+    {"name": "Kiran", "title": "Codec/streaming engineer (company unspecified)"}
+  ],
+  "keyword_candidates": [
+    "Kyber",
+    "AV2",
+    "DAV2D",
+    "glass-to-glass latency",
+    "forward error correction",
+    "Alliance for Open Media",
+    "HEVC patent pool",
+    "VLC sandbox"
+  ]
+}
+```

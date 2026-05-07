@@ -1,0 +1,12 @@
+{
+  "slug": "2026-05-06-a16z-podcast",
+  "transcript_chars": 32794,
+  "is_verbatim": false,
+  "match_score": 0.7263,
+  "source_char_start": null,
+  "source_char_end": null,
+  "warnings": [
+    "notable_quote_en was not grounded in transcript (best score=0.73)"
+  ],
+  "created_at": "2026-05-07T08:34:14.424977"
+}

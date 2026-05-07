@@ -1,0 +1,74 @@
+```json
+{
+  "guest": {
+    "name": "Jean-Baptiste Kempf & Kieran Cunha",
+    "title": "President, VideoLAN / Lead Developer, VLC; FFmpeg Contributor & Co-founder, Open Broadcast Systems"
+  },
+  "summary_ko": "이 에피소드의 핵심 주장은 다음과 같다: FFmpeg와 VLC는 인터넷 동영상의 보이지 않는 근간으로, 전 세계 동영상 처리 워크플로우의 90% 이상에 관여하며 YouTube, Netflix, Chrome, Discord 등 모든 주요 플랫폼의 서버 및 클라이언트 양쪽에서 작동한다. 그러나 이 엄청난 영향력은 수십 명도 안 되는 자원봉사자 핵심 개발팀이 유지하고 있으며, 이들은 수조 달러 규모 기업들의 무상 지원 요구와 AI가 생성한 저품질 버그 리포트라는 이중 압박에 시달리고 있다.\n\nJean-Baptiste Kempf는 VLC의 탄생이 1990년대 École Centrale Paris 학생들의 네트워크 스트리밍 프로젝트에서 비롯되었음을 설명하며, 현재까지 최소 65억 회 이상 다운로드되었다고 밝혔다. 그는 수천만 달러 규모의 스파이웨어 번들 제안을 수차례 거절했으며, GPL에서 LGPL로의 라이선스 전환을 위해 350명 이상의 기여자에게 직접 연락해야 했던 과정은 오픈소스 거버넌스의 복잡성을 생생히 보여준다. 한편 Microsoft Teams가 공개 버그 트래커에서 SLA 수준의 지원을 요구하다가 장기 지원 계약 제안에 단 몇천 달러의 일회성 지불을 제시한 사례는, 대형 기업과 오픈소스 커뮤니티 사이의 근본적인 인식 차이를 드러낸다.\n\n기술적 심층부에서는 dav1d AV1 디코더가 C 코드 3만 줄 대비 24만 줄의 손으로 작성된 어셈블리를 포함하며, 이를 통해 동일 기능의 C 코드 대비 최대 62배의 성능 향상을 달성한다는 사실이 소개된다. AV1은 H.264 대비 40~60%의 대역폭 절감을 제공하지만 인코딩에는 두 자릿수 배 이상의 CPU 사이클이 필요하다. 차세대 코덱 AV2는 AV1 대비 추가로 30% 개선을 목표로 하며, VLC는 이미 CES에서 최초 AV2 데모를 시연했다. HEVC의 특허 풀 분열이 Alliance for Open Media 설립의 직접적 동인이 된 역사적 배경도 상세히 다루어졌다.\n\n에피소드 후반부에서는 Kempf의 신생 스타트업 Kyber가 7밀리초의 글래스-투-글래스 레이턴시를 달성하며 로봇 원격조작과 XR 스트리밍을 목표로 하고 있음이 공개된다. FFmpeg는 Mars 2020 로버에서도 사용되며 다행성 오픈소스 라이브러리임이 확인된다. Kieran Cunha는 C 언어가 수천 년 후에도 라틴어처럼 살아남을 것이라 주장하며, 디지털 아카이빙을 위한 FFv1 코덱과 장기 보존 사명을 강조한다. 전체를 관통하는 메시지는, 인류의 시청각 기억을 보존하고 전달하는 핵심 인프라가 소수의 헌신적 자원봉사자에게 의존하고 있다는 아이러니다.",
+  "summary_en": "The core thesis of this episode is that FFmpeg and VLC constitute the invisible plumbing of the internet's video infrastructure—present in over 90% of video workflows globally and running simultaneously on perhaps a billion CPUs—yet sustained by a volunteer core team of fewer than fifteen people who face structural exploitation by trillion-dollar corporations and an accelerating flood of AI-generated noise. The so-what is stark: the digital world's most critical media layer is chronically underfunded and fragile in ways its scale does not suggest.\n\nJean-Baptiste Kempf traces VLC's origins to a late-1990s student network project at École Centrale Paris, explaining how its \"don't trust your inputs\" engineering philosophy—forged in UDP packet-loss environments—made it uniquely resilient to the broken, mislabeled files of the early internet. He recounts turning down obscene offers to bundle spyware into VLC, physically tracking down 350-plus contributors to relicense the codebase, and fighting in Indian court after the CIA and Chinese state-linked actors weaponized VLC's trusted brand for surveillance operations. The project's refusal to monetize through compromise is both its ethical backbone and its financial constraint.\n\nTechnically, the conversation is dense and illuminating. The dav1d AV1 decoder—running on roughly three billion devices—contains 240,000 lines of handwritten SIMD assembly against only 30,000 lines of C, delivering up to 62x speed gains over equivalent C code. AV1 cuts bandwidth by 40–60% versus H.264 but demands two orders of magnitude more encoding compute, which is why YouTube re-encodes only its most popular videos in AV1. The next-generation AV2 codec, whose first demo VLC showed at CES, continues the generational 30% compression improvement trend, while HEVC's fragmented patent pools—which could have cost YouTube and Netflix hundreds of millions annually—are held up as the cautionary tale that motivated the royalty-free Alliance for Open Media.\n\nThe episode closes with expansive visions: Kempf's startup Kyber targets 4-millisecond glass-to-glass latency for robotics teleoperation; FFmpeg runs on the Mars 2020 rover; and Kieran Cunha argues that C, like Latin, will remain the language of archival software for centuries. The archival mission—preventing a repeat of the BBC's unreadable Doomsday Book—anchors the project's identity as something more than a utility: a bet that human memory should not depend on proprietary formats or corporate goodwill.",
+  "key_points_ko": [
+    {
+      "heading": "FFmpeg·VLC는 인터넷 동영상의 보이지 않는 근간이며 그 영향력은 과소평가되어 있다",
+      "body": "전 세계 동영상 처리 워크플로우의 90% 이상이 FFmpeg를 거치며, YouTube·Netflix·Chrome·Discord 등 주요 플랫폼의 서버와 클라이언트 양쪽에 동시에 존재한다. VLC는 최소 65억 회 이상 다운로드되었으며 실제 수치는 더 높을 것으로 추정된다. FFmpeg는 동시에 1억~10억 개의 CPU에서 실행 중일 가능성이 있어, 단 하나의 명령어 최적화도 전 지구적 에너지 절감 효과를 낳는다. 이 규모는 핵심 유지보수팀이 VLC 기준 5명, FFmpeg 기준 10~15명에 불과하다는 사실과 극명한 대조를 이룬다.",
+      "source_chunks": [0, 2]
+    },
+    {
+      "heading": "오픈소스 거버넌스는 기술 문제가 아닌 사회적 계약의 문제다",
+      "body": "Jean-Baptiste Kempf는 VLC 코어 라이선스를 GPL에서 LGPL로 전환하기 위해 350명 이상의 기여자에게 직접 연락했으며, 사망한 기여자의 부친을 공장까지 찾아가 서명을 받아야 했다. 라이선스는 루소적 의미의 사회적 계약으로, 커뮤니티가 합의하는 거의 유일한 공통 규범이다. 수천만 달러 규모의 스파이웨어 번들 제안을 거절한 것은 커뮤니티 포크를 방지하고 프로젝트 정체성을 수호하기 위한 결정이었다. Microsoft Teams의 공개 버그 트래커 SLA 요구와 이에 대한 단호한 거절('우리는 당신의 공급자가 아니다')은 대기업과 오픈소스 자원봉사자 사이의 구조적 인식 격차를 상징적으로 보여준다.",
+      "source_chunks": [1, 2]
+    },
+    {
+      "heading": "손으로 작성한 어셈블리는 오픈소스 멀티미디어 성능의 핵심이며 Rust 전환으로 대체 불가능하다",
+      "body": "dav1d AV1 디코더는 C 코드 3만 줄 대비 24만 줄의 손으로 작성된 SIMD 어셈블리를 포함하며, 특정 함수에서 C 대비 최대 62배의 속도 향상을 달성한다. 이는 컴파일러 자동 벡터화와는 비교 자체가 불가능한 수준이다. dav1d는 내부 함수 호출 시 표준 운영체제 호출 규약을 의도적으로 위반해 레지스터 저장/로드 오버헤드를 제거한다. Rust로 C 부분을 재작성하더라도 손으로 작성한 어셈블리가 메모리 어디든 점프할 수 있기 때문에 Rust의 메모리 안전성 보장이 무의미해진다는 것이 Kempf의 핵심 반론이다.",
+      "source_chunks": [3]
+    },
+    {
+      "heading": "코덱 세대교체는 30% 압축 개선을 제공하지만 인코딩 비용은 기하급수적으로 증가한다",
+      "body": "H.264에서 HEVC, AV1으로 이어지는 각 코덱 세대는 동일 화질 대비 약 30%의 대역폭 절감을 달성하지만 인코딩 연산량은 한두 자릿수 배씩 증가한다. AV1은 H.264 대비 40~60% 대역폭 절감을 제공하지만 인코딩은 두 자릿수 배 더 많은 CPU 사이클을 요구해, YouTube조차 인기 동영상에 한해서만 AV1 재인코딩을 수행한다. HEVC의 복수 특허 풀 분열(MPEG-LA, HEVC Advance, Nokia 개별 풀)이 Alliance for Open Media 창설과 로열티 프리 AV1·AV2 개발의 직접적 동인이 되었다. 차세대 AV2는 AV1 대비 추가 30% 개선을 목표로 하며 VLC는 이미 CES에서 최초 데모를 시연했다.",
+      "source_chunks": [0, 4, 5]
+    },
+    {
+      "heading": "FFmpeg·VLC의 사명은 현재의 효율성을 넘어 인류의 디지털 기억 보존으로 확장된다",
+      "body": "BBC가 BBC 마이크로컴퓨터에 보관한 'New Doomsday Book'이 10~20년 만에 재생 불가 상태가 된 사례는, 독점 포맷 의존이 초래하는 문화적 손실을 상징한다. FFv1 무손실 코덱과 GPU 인코딩은 아카이빙 커뮤니티의 자금 지원으로 개발되었으며, FFmpeg는 Mars 2020 로버에서도 사용되는 다행성 오픈소스 라이브러리다. Kieran Cunha는 C 언어가 라틴어처럼 수천 년 후에도 살아남을 것이라 주장하며, 이를 장기 보존 소프트웨어의 이상적 언어로 꼽는다. VLC는 볼류메트릭 비디오, 공간 오디오, 햅틱 트랙, 그리고 궁극적으로는 뇌-컴퓨터 인터페이스 코덱으로의 확장을 준비하고 있다.",
+      "source_chunks": [5, 6]
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "FFmpeg and VLC are the unseen infrastructure of internet video, operating at a scale that dwarfs public awareness",
+      "body": "FFmpeg is estimated to be involved in over 90% of video processing workflows globally, embedded on both the server and client sides of YouTube, Netflix, Chrome, and Discord simultaneously. VLC has been downloaded at least 6.5 billion times, with the true number likely higher. FFmpeg may be running on 100 million to a billion CPUs at any given moment, meaning a single instruction-level optimization has planet-scale energy implications. The paradox is that this infrastructure is maintained by a core team of roughly five people for VLC and ten to fifteen for FFmpeg.",
+      "source_chunks": [0, 2]
+    },
+    {
+      "heading": "Open-source governance is a social contract problem, not a technical one, and relicensing reveals that starkly",
+      "body": "Jean-Baptiste Kempf had to personally contact over 350 contributors to relicense VLC's core from GPL to LGPL, including traveling to find the factory-worker father of a deceased developer to obtain a signature. The license functions as a Rousseauian social contract—almost the only norm the community agrees on. Kempf repeatedly refused offers worth tens of millions of dollars to bundle spyware into VLC, judging that acceptance would trigger community forking and destroy the project within three years. Microsoft Teams' use of the public bug tracker as a vendor SLA, followed by an offer of a few thousand dollars for a support contract, illustrates the structural mismatch in expectations between large corporations and volunteer maintainers.",
+      "source_chunks": [1, 2]
+    },
+    {
+      "heading": "Handwritten SIMD assembly is non-negotiable for multimedia performance and cannot be replaced by Rust rewrites",
+      "body": "The dav1d AV1 decoder contains 240,000 lines of handwritten assembly against only 30,000 lines of C, achieving up to 62x speed improvements over equivalent C code—a gap compiler auto-vectorization cannot approach. dav1d deliberately violates standard OS calling conventions internally to eliminate register save/load overhead, a level of optimization invisible to any high-level language. Kempf's counter-argument to Rust rewrites is decisive: even if C code is replaced, handwritten assembly can jump anywhere in memory, nullifying Rust's memory-safety guarantees entirely. The assembly codebase across FFmpeg and dav1d represents decades of irreplaceable human expertise that no rewrite can safely replicate.",
+      "source_chunks": [3]
+    },
+    {
+      "heading": "Each codec generation delivers ~30% compression gains but at exponentially higher encoding costs, reshaping the economics of streaming",
+      "body": "AV1 achieves 40–60% bandwidth savings over H.264 at equivalent quality, but encoding requires roughly two orders of magnitude more CPU cycles, which is why YouTube re-encodes only its most popular videos in AV1 while encoding the long tail in H.264. The fragmentation of HEVC patent pools—MPEG-LA, HEVC Advance, and Nokia all separately licensing—made HEVC commercially untenable and directly motivated the formation of the Alliance for Open Media and the royalty-free AV1/AV2 codec family. The next-generation AV2 continues the ~30% generational improvement, with VLC having already demonstrated the world's first AV2 playback at CES. x264 revolutionized the prior era by abandoning PSNR-optimized blurring in favor of psychovisual rate distortion, showing that human perception, not mathematical metrics, should drive codec design.",
+      "source_chunks": [0, 4, 5]
+    },
+    {
+      "heading": "The mission of FFmpeg and VLC extends beyond efficiency to the preservation of human digital memory across centuries",
+      "body": "The BBC's New Doomsday Book—archived on BBC microcomputers and unplayable within two decades—stands as the cautionary archetype FFmpeg is designed to prevent. FFv1, a lossless archival codec, and GPU-accelerated encoding were funded by the archiving community specifically for preservation workflows. FFmpeg's reach is literally interplanetary: the Mars 2020 rover uses it to compress images, leading Kieran Cunha to call it 'a multi-planetary open source library.' Cunha argues that C will endure like Latin—learnable from historical codebases and still deployable—making it the ideal language for software intended to remain readable in a thousand years, long after today's fashionable languages have faded.",
+      "source_chunks": [5, 6]
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "철학적 수준에서 생각해보면, 여러분의 홈 비디오, 할머니의 홈 비디오와 수조 달러 규모의 기업들이 실질적으로 동일한 기술을 사용하며 같은 출발선에 서 있다는 것이 정말 놀랍습니다.",
+    "attribution": "Lex Fridman, 팟캐스트 진행자"
+  },
+  "notable_quote_en": {
+    "text": "From a philosophical level, I think it's incredible that your home videos, your grandmother's home videos and trillion-dollar corporations effectively are on a level playing field using the same technologies.",
+    "attribution": "Lex Fridman, Podcast Host"
+  },
+  "keywords_en": ["FFmpeg", "VLC / VideoLAN", "dav1d / AV1 codec", "SIMD assembly optimization", "open-source governance", "Kyber low-latency streaming"],
+  "keywords_ko": ["FFmpeg", "VLC / VideoLAN", "dav1d / AV1 코덱", "SIMD 어셈블리 최적화", "오픈소스 거버넌스", "Kyber 저지연 스트리밍"]
+}
+```

@@ -1,0 +1,161 @@
+```json
+{
+  "topics": [
+    "Open source funding and security researcher incentives",
+    "FFmpeg/VLC binary star system and ecosystem interdependencies",
+    "Reverse engineering proprietary video codecs",
+    "Key historical contributors and eras of FFmpeg",
+    "Open source community motivation and contribution culture"
+  ],
+  "claims": [
+    {
+      "claim": "Google uses FFmpeg at a scale of millions of CPU cores but contributes disproportionately little outside its own product areas like VP9 and AV1",
+      "evidence": [
+        "Google funds students and Google Summer of Code but contributions are mostly regarding their own products",
+        "After a debacle Google started sending patches and introduced reward tools for fixing issues"
+      ],
+      "speakers": ["Kieran", "JB"]
+    },
+    {
+      "claim": "Security researchers are incentivized to hype vulnerabilities while open source maintainers receive no recognition for fixing them, creating misaligned incentives",
+      "evidence": [
+        "Alex Strange's Hacker News post: 'security people are rampant self-promoters'—Google gives million dollar bounties, Defcon prizes, while fixers get nothing",
+        "A pixel wrong-color integer overflow was marked high 7.5 severity in red",
+        "A 16-year-old contributor (Rukai Peng) found and fixed issues without creating a CVE drama, fixing within three days"
+      ],
+      "speakers": ["Kieran", "JB", "Alex Strange"]
+    },
+    {
+      "claim": "Microsoft Teams posted on the FFmpeg bug tracker treating it like a vendor SLA, then offered only a one-time payment of a few thousand dollars when asked for a support contract",
+      "evidence": [
+        "FFmpeg tweet: 'trillion dollar corporations expect free and urgent support from volunteers'",
+        "Microsoft Teams name-dropped their product as high priority on the public bug tracker",
+        "After requesting a long-term support contract, Microsoft offered a one-time payment of a few thousand dollars"
+      ],
+      "speakers": ["Kieran", "JB"]
+    },
+    {
+      "claim": "VLC is to FFmpeg as Android is to Linux—they are a binary star system that co-exist and succeed because of each other",
+      "evidence": [
+        "Over 80% of FFmpeg pipelines depend on x264, a VideoLAN project",
+        "VLC uses FFmpeg, gives it reach and exposure to weird files, and historically used donation money to fund FFmpeg development",
+        "Many developers are shared between FFmpeg and VLC"
+      ],
+      "speakers": ["Kieran", "JB"]
+    },
+    {
+      "claim": "FFmpeg is likely running on 100 million to a billion CPUs simultaneously, making every instruction optimization have massive real-world impact",
+      "evidence": [
+        "JB: 'we should expand ffmpeg is probably one of the biggest cpu users in the world'",
+        "'easily 100 order of magnitude 100 million maybe even a billion cpus as we speak'"
+      ],
+      "speakers": ["JB"]
+    },
+    {
+      "claim": "Reverse engineering a 20-30 megabyte binary blob, as Kostya Shishkov did for codecs like Go To Meeting, represents an order of magnitude more difficulty than a 1 MB blob which itself takes roughly a month of work",
+      "evidence": [
+        "'one megabyte binary blob to reverse engineer is probably order of magnitude a month of work'",
+        "Kostya reverse engineered Go To Meeting codec alone in approximately two months",
+        "Process involves disassembly, hooking modules, dumping raw YUV data, and debugging instruction by instruction"
+      ],
+      "speakers": ["Kieran", "JB"]
+    },
+    {
+      "claim": "The spicy FFmpeg/VideoLAN tweets about corporate exploitation produced positive results including substantially increased donations and greater technical awareness",
+      "evidence": [
+        "VLC Android update was blocked for over a year due to a Play Store bug; a threatening tweet got Android team to respond",
+        "VLC has ~100 million users on Android",
+        "Donations increased substantially though still not enough for a single full-time developer"
+      ],
+      "speakers": ["Kieran", "JB"]
+    },
+    {
+      "claim": "Andrew Kelley, creator of the Zig programming language, was an FFmpeg developer before starting Zig",
+      "evidence": [
+        "JB: 'andrew kelly started zig he was an ffmpeg developer and started zig after ffmpeg school'"
+      ],
+      "speakers": ["JB"]
+    },
+    {
+      "claim": "Bit exactness—the requirement that all decoder implementations produce identical output bits for the same input—was not enforced in 1990s standards like MPEG-2 and was considered one of the biggest mistakes in the video industry",
+      "evidence": [
+        "Kieran: 'One of the biggest mistakes the video industry made' regarding MPEG-2's lack of bit exactness",
+        "From about the 2000s onwards most video codecs have a bit exact definition"
+      ],
+      "speakers": ["Kieran"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "the problem with security reports in general is security people are rampant self-promoters in parentheses Linus once called them something worse imagine you're a humble volunteer open source developer if a security researcher finds a bug in your code they're going to make up a cute name for it start a website with a logo Google is going to give them a million dollar bounty they're going to go to Defcon and get a prize and I assume there's some kind of secret security people orgy where everyone is dressed like they're in the matrix nobody is going to do any of this for you when you fix it",
+      "speaker": "Alex Strange",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "the xz fiasco has shown how a dependence on unpaid volunteers can cause major problems trillion dollar corporations expect free and urgent support from volunteers",
+      "speaker": "Kieran",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "we are not your supplier if you want me to be a supplier i'm very happy right i would send you a contract",
+      "speaker": "JB",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "if you're good in c in ffmpeg if you know how to write assembly are you sure you you're going to be one of the best programmers ever even if you're working on writing type 3 because this is the most amazing thing to do and you will like have to get reviews by some of the most seasoned programmer ever who are going to look at every part of your code and tell you why it's not great it's like we are the best teachers that you've ever had in programming right",
+      "speaker": "JB",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "He looked at the world as a binary specification. He didn't need documentation or anything It's I have a binary and I can figure all of this out and he regularly used the phrase Binary specification. I know it's not a problem",
+      "speaker": "Kieran",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "many things in the world only happen because an awesome person decides to do it",
+      "speaker": "Tim Sweeney",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "the world is a museum of passion projects",
+      "speaker": "John Collinson",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "andrew kelly started zig he was an ffmpeg developer and started zig after ffmpeg school",
+      "speaker": "JB",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "it's a rap battle at the end of the day nobody we say stuff we say stuff yeah but we can we can leave it on x is the perfect place for you know international rap battle",
+      "speaker": "Kieran",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {"name": "Jean-Baptiste Kempf", "title": "President, VideoLAN / VLC Developer"},
+    {"name": "Kieran Kunhya", "title": "FFmpeg Developer / Open Broadcast Systems"}
+  ],
+  "keyword_candidates": [
+    "FFmpeg",
+    "VideoLAN",
+    "x264",
+    "Kostya Shishkov",
+    "reverse engineering",
+    "bit exactness",
+    "Go To Meeting codec",
+    "CVE security inflation",
+    "Andrew Kelley Zig",
+    "binary star system"
+  ]
+}
+```
