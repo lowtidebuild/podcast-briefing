@@ -1,0 +1,96 @@
+{
+  "id": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/voE8ITuRp7pM/v8.mp3",
+  "slug": "2026-05-11-odd-lots",
+  "podcast": "Odd Lots",
+  "category": "Macro / Markets",
+  "title": "The BoE's Megan Greene on Monetary Policy in a World of Supply Shocks",
+  "published": "2026-05-11T08:00:00+00:00",
+  "link": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/voE8ITuRp7pM/v8.mp3",
+  "podcast_url": "https://www.bloomberg.com/oddlots",
+  "guest": {
+    "name": "Megan Greene",
+    "title": "External Member, Bank of England Monetary Policy Committee"
+  },
+  "summary_ko": "중앙은행이 수요 충격에만 대응하도록 설계된 도구를 들고 공급 충격의 시대에 진입했다는 것, 이것이 이 에피소드의 핵심이다. Bank of England MPC 외부 위원인 Megan Greene은 단순히 현재의 금리 결정을 설명하는 데 그치지 않고, 중앙은행의 기존 운영 프레임워크 자체가 새로운 거시경제 현실과 충돌하고 있음을 솔직하게 인정한다.\n\nGreene의 핵심 주장은 '일시적 충격'이라는 개념 자체가 붕괴되고 있다는 것이다. COVID, 러시아의 우크라이나 침공, 그리고 이란 전쟁으로 인한 에너지 충격까지, 충격이 연속적으로 발생하면 가계와 기업의 기대 인플레이션이 구조적으로 높아진다. 영국에서는 인플레이션이 지난 5년 중 거의 매달 2% 목표를 상회했으며, 가계의 인플레이션 민감도 임계치가 기존 4%에서 3~3.5%로 하락했다. 기업들은 팬데믹 이전의 '일정 기반 가격 책정'에서 '상태 의존적 가격 책정'으로 전환했고, 이는 비용 상승이 소비자 가격에 훨씬 빠르게 전가됨을 의미한다. Greene은 5월 금리 동결 표결을 2차 효과(second-round effects)가 이미 내재화됐는지 판단하기 위한 추가 데이터 확보 전략으로 정당화하지만, 스스로도 인플레이션 리스크가 하방보다 상방에 있다고 인정한다.\n\n구조적 함의는 더 심층적이다. 경제 패권 경쟁에서 무역 제재, 수출 통제, 투자 제한 등 경제적 도구를 외교 정책 수단으로 활용하는 '경제적 국정운영(economic statecraft)'이 상시화되면, 공급 충격은 일회성 사건이 아니라 새로운 기저 조건이 된다. 기후 변화의 물리적 리스크 역시 같은 방향을 가리킨다. 그런데도 중앙은행은 공급 측 문제를 직접 해결할 도구가 없으며, 그 역할은 민주적으로 선출된 정부의 몫이라는 것이 Greene의 결론이다. 이 고백은 중앙은행의 한계를 드러냄과 동시에, 재정 정책과 통화 정책의 조율 필요성을 부각시킨다. 투자자와 정책 담당자 모두에게, 금리 경로보다 이 구조적 마찰이 더 중요한 변수가 되고 있다.",
+  "summary_en": "The central bank toolkit was built for demand shocks. Megan Greene, external member of the Bank of England's Monetary Policy Committee, makes a striking admission: the framework central bankers have relied on for decades is poorly equipped for an era of serial supply disruptions — and that era has already arrived.\n\nGreene's core argument is that the 'transitory shock' defence is collapsing under its own repetition. When inflation hits 11%, as it did in the UK, households and firms don't forget. The Bank of England's research shows the threshold at which UK consumers become acutely sensitive to inflation has fallen from 4% to roughly 3–3.5%. Firms have shifted from calendar-based to state-dependent pricing since the pandemic, meaning cost pass-through to consumers is now faster and more reflexive. Against this backdrop, Greene was already worried about second-round effects from the Ukraine energy shock before Iran was invaded — the current crisis has simply confirmed those fears. She defends her vote to hold rates in May as a tactical pause to gather six weeks of energy-price data before committing, while openly conceding that inflation risks are skewed upward.\n\nThe deeper implication extends well beyond the UK's next rate decision. Greene identifies economic statecraft — the use of tariffs, export controls, and investment restrictions as instruments of geopolitical competition — as a structural source of recurring supply shocks, not a cyclical one. Add climate transition risk, and the 'look through it, it's temporary' doctrine becomes untenable. Yet central banks have no tools to fix supply-side problems without crossing into the territory of elected governments picking industrial winners. The honest answer Greene offers is scenario analysis and risk management rather than precise point forecasts — a significant philosophical shift from the confidence interval–obsessed central banking of the 2010s. For markets, the takeaway is that the rate path matters less than the structural friction beneath it.",
+  "key_points_ko": [
+    {
+      "heading": "공급 충격의 연속성이 '일시적' 프레임을 무너뜨리고 있다",
+      "body": "Greene의 핵심 우려는 개별 충격의 크기가 아니라 충격의 반복성이다. 영국은 지난 5년 중 한두 달을 제외하고 매달 2% 인플레이션 목표를 초과했으며, COVID→우크라이나 침공→이란 전쟁으로 이어지는 연속 충격이 그 배경이다. 가계 인플레이션 기대치는 역사적 관계로 설명 가능한 수준을 상회했고, 기업들은 팬데믹 이전의 '일정 기반 가격 책정'에서 '상태 의존적 가격 책정'으로 전환해 비용 상승을 더 빠르게 소비자에게 전가하고 있다. 단발성 충격을 '일시적'으로 간주하고 통과시키는 기존 교리는, 충격이 구조적으로 반복될 때 인플레이션 기대를 고착시키는 위험을 내포한다."
+    },
+    {
+      "heading": "2차 효과(second-round effects)는 측정이 불가능할 때 이미 작동 중이다",
+      "body": "Greene은 통화정책의 가장 어려운 딜레마를 명확히 짚는다. 직접적 에너지 가격 효과와 간접적 효과(식품·운송 등)는 측정 가능하지만, 임금·가격 설정 행동의 변화인 2차 효과는 구체적 증거가 나올 때쯤 이미 대응이 늦다. Bank of England의 Decision Makers Panel 조사에 따르면 기업들의 1년 후 자체 가격 기대가 하락을 멈춘 상태이며, 임금 상승률 둔화 속도도 예상보다 느리다. 2022년과 달리 현재 영국 노동시장에는 slack이 존재하므로 2차 효과의 규모는 제한적일 수 있지만, 2011년(실업률 8%)에도 2차 효과가 발생했다는 점에서 완전한 안심은 금물이다. Greene이 5월에 동결을 택한 것은 6주간의 에너지 가격 데이터를 확인하며 반응함수를 보정하겠다는 전략적 판단이지, 인플레이션 우려가 해소됐다는 신호가 아니다."
+    },
+    {
+      "heading": "'경제적 국정운영'의 상시화가 중앙은행의 도구 한계를 드러낸다",
+      "body": "Greene은 반복적 공급 충격의 구조적 원인으로 경제적 국정운영(economic statecraft)을 지목한다. 관세, 수출 통제, 투자 제한이 지정학적 경쟁의 일상적 수단이 되면, 이는 특정 국가에 항상 부정적 공급 충격으로 작용한다. 기후 변화의 물리적·전환적 리스크도 같은 방향을 가리킨다. 문제는 중앙은행이 금리라는 수요 측 도구밖에 없다는 점이다. 공급 측 구조 문제 해결은 민주적으로 선출된 정부의 몫이며, 중앙은행이 산업 정책 영역에 개입하는 것은 독립성의 근본 전제를 훼손한다. 이 고백은 재정-통화 정책 조율에 대한 더 진지한 논의가 필요함을 시사한다."
+    },
+    {
+      "heading": "영국 소비자는 금리 인하 사이클에서도 지출을 늘리지 않고 있다",
+      "body": "통화 전달 메커니즘이 예상대로 작동하지 않는다는 증거가 영국에서 누적되고 있다. 2년·5년 고정 모기지가 지배적인 영국 시장에서는, 금리가 내려가도 고정 기간이 끝난 가계의 실질 부채 상환 비용은 오히려 급등한다. 여기에 과거 인플레이션 충격으로 인한 소비자 심리 위축이 겹쳐, Greene은 소비와 성장이 현재 예상보다 더 약해질 가능성을 경고한다. 분기 0.2% 수준의 잠재성장률에서 이 수요 위축이 가시화되면, 중앙은행은 인플레이션 억제와 경기 지지라는 두 목표 사이에서 더욱 좁은 운신 폭에 갇히게 된다."
+    },
+    {
+      "heading": "중앙은행 운영 방식이 점 예측에서 시나리오 분석으로 전환되고 있다",
+      "body": "Bank of England는 이번 5월 분기 인플레이션 보고서에서 단일 중앙 예측을 포기하고 에너지 가격 경로와 2차 효과 규모에 따른 세 가지 시나리오를 제시했다. Greene은 이를 단순한 불확실성 표현이 아니라, '0.2%포인트 차이를 두고 씨름하는' 정밀 예측 방식에서 벗어나 리스크 관리와 반응 함수 설계 중심으로 의사결정 방식이 변화하고 있다는 신호로 설명한다. 이 변화는 전 세계적으로 나타나고 있으며, Bank of Korea 총재 Hyun Song Shin도 유사한 문제의식을 제기한 바 있다. 시장 참여자들은 중앙은행의 단일 금리 경로 예측보다 다양한 시나리오 하에서의 반응 함수를 이해하는 것이 더 중요해졌다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Serial supply shocks are destroying the 'look-through' doctrine",
+      "body": "Greene's fundamental concern is not the magnitude of any individual shock but their compounding frequency. The UK has exceeded its 2% inflation target in all but one or two months over five years, driven by the sequence of COVID, the Ukraine invasion, and now the Iran war energy shock. Household inflation expectations were running above levels explainable by historical relationships even before Iran was invaded, and firms have migrated from calendar-based to state-dependent pricing since the pandemic, making cost pass-through faster and more reflexive. The old doctrine of treating each shock as temporary and looking through it carries a specific danger when shocks are structural and recurring: inflation expectations embed at a higher level before policymakers can respond."
+    },
+    {
+      "heading": "Second-round effects are already in motion before they can be measured",
+      "body": "Greene articulates the central banker's sharpest dilemma: direct and indirect energy effects are quantifiable, but second-round effects — changes in wage and price-setting behaviour — only become measurable after it is too late to respond. The Bank of England's Decision Makers Panel shows corporate own-price expectations stalling rather than continuing their descent, and wage growth is decelerating more slowly than forecast. Current UK labour market slack should limit second-round effects relative to 2022, but Greene notes that even in 2011, when unemployment was 8%, second-round effects materialised. Her May hold vote is therefore a tactical six-week pause to gather energy-price data, not a signal that inflation risk has abated — she explicitly says the risks are skewed upward."
+    },
+    {
+      "heading": "Economic statecraft as permanent policy exposes the limits of the central bank toolkit",
+      "body": "Greene identifies economic statecraft — tariffs, export controls, investment restrictions deployed as geopolitical instruments — as the structural engine of recurring supply shocks. When great powers routinely weaponise economic interdependence, every move creates a negative supply shock for someone, somewhere, indefinitely. Climate transition risk compounds this in the same direction. The problem is that central banks hold only demand-side tools: interest rates cannot rebuild a supply chain or reroute an energy grid. Greene is explicit that supply-side solutions require democratically elected governments, not independent central banks. This is an important admission: it implicitly calls for closer fiscal-monetary coordination that the current institutional architecture was specifically designed to prevent."
+    },
+    {
+      "heading": "UK consumers are not responding to rate cuts — and that cuts both ways",
+      "body": "The monetary transmission mechanism is misfiring in the UK. With two- and five-year fixed mortgages dominant, households rolling off old fixes are seeing debt-servicing costs surge even as the policy rate falls — a ratchet that suppresses consumption in a cutting cycle. Greene adds behavioural scarring from past inflation bouts as a further drag, warning that consumption and growth could undershoot current forecasts. At a trend growth rate of just 0.2% per quarter, any further demand weakness would normally argue for faster cuts. But because the supply side is equally weak, softer demand does not straightforwardly reduce inflationary pressure — it merely compresses the margin for error."
+    },
+    {
+      "heading": "The shift from point forecasts to scenario analysis is a fundamental change in how central banks operate",
+      "body": "The Bank of England abandoned a single central forecast in its May Monetary Policy Report, replacing it with three energy-price scenarios without assigned probabilities. Greene frames this not as a one-off concession to uncertainty but as a durable shift in the philosophy of monetary policymaking — away from precision-obsessed point estimates toward risk management and reaction-function design. The practical implication for markets is significant: reading a central bank's next move from its published forecast becomes less informative than understanding its conditional responses across scenarios. Investors and analysts who still anchor to a single rate path are working with an outdated model of how the Bank of England — and arguably other major central banks — now makes decisions."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "이 오래된 격언, 즉 공급 충격을 직접 해결할 수 없으니 그냥 통과시켜야 한다는 말은, 충격이 파도처럼 계속 밀려올 때는 작동하지 않습니다.",
+    "attribution": "Megan Greene, External Member, Bank of England Monetary Policy Committee"
+  },
+  "notable_quote_en": {
+    "text": "this old adage that you should just look through negative supply shocks because you can't address them directly, I don't think it works when you keep having them wave after wave",
+    "attribution": "Megan Greene, External Member, Bank of England Monetary Policy Committee"
+  },
+  "notable_quote": {
+    "source_text_en": "this old adage that you should just look through negative supply shocks because you can't address them directly, I don't think it works when you keep having them wave after wave",
+    "translation_ko": "이 오래된 격언, 즉 공급 충격을 직접 해결할 수 없으니 그냥 통과시켜야 한다는 말은, 충격이 파도처럼 계속 밀려올 때는 작동하지 않습니다.",
+    "speaker": "Megan Greene",
+    "attribution": "Megan Greene, External Member, Bank of England Monetary Policy Committee",
+    "is_verbatim": true,
+    "translation_is_verbatim": false,
+    "source_char_start": 43377,
+    "source_char_end": 43554,
+    "match_score": 1.0
+  },
+  "keywords_ko": [
+    "2차 효과 (second-round effects)",
+    "경제적 국정운영 (economic statecraft)",
+    "상태 의존적 가격 책정",
+    "공급 충격 지속성",
+    "시나리오 분석",
+    "통화 전달 메커니즘"
+  ],
+  "keywords_en": [
+    "second-round effects",
+    "economic statecraft",
+    "state-dependent pricing",
+    "supply shock persistence",
+    "scenario analysis",
+    "monetary transmission mechanism"
+  ],
+  "generated_at": "2026-05-11T09:36:08.197240"
+}

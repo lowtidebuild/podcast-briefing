@@ -1,5 +1,54 @@
 [
   {
+    "slug": "2026-05-11-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "The BoE's Megan Greene on Monetary Policy in a World of Supply Shocks",
+    "published": "2026-05-11T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-10-all-in-podcast",
+    "podcast": "All-In Podcast",
+    "category": "Politics / Geopolitics",
+    "title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
+    "published": "2026-05-10T21:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-10-fareed-zakaria-gps",
+    "podcast": "Fareed Zakaria GPS",
+    "category": "Politics / Geopolitics",
+    "title": "Former Israeli Intelligence Officer On the Prospects for Peace in Iran",
+    "published": "2026-05-10T16:28:00"
+  },
+  {
+    "slug": "2026-05-08-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "Ben Horowitz on the Next Technology Era",
+    "published": "2026-05-08T16:19:02+00:00"
+  },
+  {
+    "slug": "2026-05-08-hard-fork",
+    "podcast": "Hard Fork",
+    "category": "AI / Tech",
+    "title": "Can the U.S. Rein in Prediction Markets? + Joanna Stern on Her Year of A.I. Experiments + Our Producer Goes to Attention School",
+    "published": "2026-05-08T11:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-08-ezra-klein-show",
+    "podcast": "Ezra Klein Show",
+    "category": "Politics / Geopolitics",
+    "title": "GLP-1s and the ‘Wild West’ of Wellness",
+    "published": "2026-05-08T09:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-07-making-sense",
+    "podcast": "Making Sense",
+    "category": "Philosophy / AI Ethics",
+    "title": "#474 — More From Sam: Hasan Piker, Islamism, Making Sense Community, and More",
+    "published": "2026-05-07T19:45:00+00:00"
+  },
+  {
     "slug": "2026-05-07-odd-lots",
     "podcast": "Odd Lots",
     "category": "Macro / Markets",
@@ -299,54 +348,5 @@
     "category": "Politics / Geopolitics",
     "title": "Fareed Zakaria on the Moral Cost of Trump’s War",
     "published": "2026-04-10T09:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-09-lex-fridman-podcast",
-    "podcast": "Lex Fridman Podcast",
-    "category": "AI / Tech",
-    "title": "#495 – Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age",
-    "published": "2026-04-09T17:43:17+00:00"
-  },
-  {
-    "slug": "2026-04-08-all-in-podcast",
-    "podcast": "All-In Podcast",
-    "category": "Politics / Geopolitics",
-    "title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
-    "published": "2026-04-08T15:52:00+00:00"
-  },
-  {
-    "slug": "2026-04-07-making-sense",
-    "podcast": "Making Sense",
-    "category": "Philosophy / AI Ethics",
-    "title": "#468 — More From Sam: Gratitude, Bad Conversations, Conspiracy Addiction, Waffle House Teleportation, and More",
-    "published": "2026-04-07T17:55:00+00:00"
-  },
-  {
-    "slug": "2026-04-07-a16z-podcast",
-    "podcast": "a16z Podcast",
-    "category": "VC / Business",
-    "title": "Balaji on Why AI Raises the Cost of Verification",
-    "published": "2026-04-07T10:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-06-a16z-podcast",
-    "podcast": "a16z Podcast",
-    "category": "VC / Business",
-    "title": "Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
-    "published": "2026-04-06T15:45:00+00:00"
-  },
-  {
-    "slug": "2026-04-06-all-in-podcast",
-    "podcast": "All-In Podcast",
-    "category": "Politics / Geopolitics",
-    "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
-    "published": "2026-04-06T12:51:00+00:00"
-  },
-  {
-    "slug": "2026-04-06-odd-lots",
-    "podcast": "Odd Lots",
-    "category": "Macro / Markets",
-    "title": "Odd Lots: Gina Raimondo on How European Industry Is Getting Crushed (Podcast)",
-    "published": "2026-04-06T08:00:00+00:00"
   }
 ]
