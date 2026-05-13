@@ -51,9 +51,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+          cache: pnpm
+          cache-dependency-path: web/pnpm-lock.yaml
+
+      - name: Enable pnpm
+        run: corepack prepare pnpm@10.33.0 --activate
 
       - name: Build Astro site
-        run: cd web && npm ci && npm run build
+        run: cd web && pnpm install --frozen-lockfile && pnpm run build
 
       # Commit data changes back to repo
       - name: Commit data
