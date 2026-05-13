@@ -48,14 +48,15 @@ jobs:
           cp -r data/summaries/ web/public/data/
 
       # Astro build
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.33.0
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: pnpm
           cache-dependency-path: web/pnpm-lock.yaml
-
-      - name: Enable pnpm
-        run: corepack prepare pnpm@10.33.0 --activate
 
       - name: Build Astro site
         run: cd web && pnpm install --frozen-lockfile && pnpm run build
