@@ -1,5 +1,26 @@
 [
   {
+    "slug": "2026-05-14-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "Odd Lots: Martin Wolf on the 'Terrifying' Superpower That the US Wields (Podcast)",
+    "published": "2026-05-14T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-13-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "Energy, Minerals, and the Physical Stack Behind AI",
+    "published": "2026-05-13T10:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-12-making-sense",
+    "podcast": "Making Sense",
+    "category": "Philosophy / AI Ethics",
+    "title": "#475 — The Hard Problem of Consciousness",
+    "published": "2026-05-12T17:30:00+00:00"
+  },
+  {
     "slug": "2026-05-11-odd-lots",
     "podcast": "Odd Lots",
     "category": "Macro / Markets",
@@ -327,26 +348,5 @@
     "category": "Philosophy / AI Ethics",
     "title": "#469 — Escaping an Anti-Human Future",
     "published": "2026-04-10T17:25:00+00:00"
-  },
-  {
-    "slug": "2026-04-10-hard-fork",
-    "podcast": "Hard Fork",
-    "category": "AI / Tech",
-    "title": "Anthropic’s Cybersecurity Shock Wave + Ronan Farrow and Andrew Marantz on Their Sam Altman Investigation + One Good Thing",
-    "published": "2026-04-10T11:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-10-a16z-podcast",
-    "podcast": "a16z Podcast",
-    "category": "VC / Business",
-    "title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
-    "published": "2026-04-10T10:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-10-ezra-klein-show",
-    "podcast": "Ezra Klein Show",
-    "category": "Politics / Geopolitics",
-    "title": "Fareed Zakaria on the Moral Cost of Trump’s War",
-    "published": "2026-04-10T09:00:00+00:00"
   }
 ]

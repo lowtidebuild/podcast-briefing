@@ -1,0 +1,164 @@
+```json
+{
+  "topics": [
+    "California housing construction costs",
+    "Modular/offsite construction technology",
+    "Labor policy and prevailing wage trade-offs",
+    "Local government resistance to state housing mandates",
+    "Prop 13 and fiscalization of land use"
+  ],
+  "claims": [
+    {
+      "claim": "The cost per square foot of constructing an apartment in California is over twice that of constructing it in Texas, according to a RAND study.",
+      "evidence": ["RAND study cited by Ezra Klein", "California multifamily takes 49 months vs 27 months in Texas and 37 months in Colorado"],
+      "speakers": ["Ezra Klein"]
+    },
+    {
+      "claim": "Speed of permitting and approval—not labor or materials alone—is the primary driver of higher construction costs in California.",
+      "evidence": ["RAND study shows California takes 49 months vs Colorado's 27 months", "Faster timelines could cut 10-20% off market-rate housing price", "Katie Porter argues others haven't read the RAND study closely enough"],
+      "speakers": ["Katie Porter"]
+    },
+    {
+      "claim": "Paying prevailing wage in residential construction increases the cost per unit by approximately $94,000.",
+      "evidence": ["Analysis from the Turner Center cited by Ezra Klein"],
+      "speakers": ["Ezra Klein"]
+    },
+    {
+      "claim": "Affordable housing costs roughly four times as much per square foot to construct in California as market-rate housing costs in Texas.",
+      "evidence": ["RAND study data cited by Ezra Klein: market-rate California is 2x Texas; affordable housing in California is 4x Texas market-rate"],
+      "speakers": ["Ezra Klein"]
+    },
+    {
+      "claim": "San Jose approved 22,000 homes that largely were not built because the economics didn't work, but cutting fees by over two-thirds led to 2,000 homes getting under construction in one year.",
+      "evidence": ["Mayor Matt Mahan's account of San Jose fee reductions", "2,000 additional homes securing financing after fee cuts"],
+      "speakers": ["Matt Mahan"]
+    },
+    {
+      "claim": "Local impact fees add 10-20% to the cost of housing and are a primary lever that cities and counties control.",
+      "evidence": ["Matt Mahan cites over 10 pages of fees in San Jose", "Tom Steyer states cities charge fees up to 20% of construction cost", "Antonio Villaraigosa says impact fees are 'killing us'"],
+      "speakers": ["Matt Mahan", "Tom Steyer", "Antonio Villaraigosa"]
+    },
+    {
+      "claim": "Modular/offsite construction companies have repeatedly failed because they lacked sufficient orders, not because the technology doesn't work.",
+      "evidence": ["Katerra raised $2 billion in private capital and went bankrupt", "Veve and Intecra also failed", "Factory OS was rebranded and recapitalized", "Tom Steyer argues state orders and building code changes can fix the revenue problem"],
+      "speakers": ["Ezra Klein", "Tom Steyer"]
+    },
+    {
+      "claim": "There are 40,000 permitted and zoned housing units in San Francisco that are not being built because construction costs make them financially unviable.",
+      "evidence": ["Cited by both Tom Steyer and Javier Becerra", "Becerra links the $10 billion Wicks bond to unlocking these shovel-ready projects"],
+      "speakers": ["Tom Steyer", "Javier Becerra"]
+    },
+    {
+      "claim": "Prop 13 has shifted property tax burden from commercial to residential properties and incentivizes cities to prefer commercial over residential development.",
+      "evidence": ["Before Prop 13: commercial paid 60%, homeowners 40%; now reversed", "Villaraigosa cites 'fiscalization of land use' as a direct consequence", "Steyer proposes closing a corporate real estate tax loophole worth over $20 billion"],
+      "speakers": ["Antonio Villaraigosa", "Tom Steyer"]
+    },
+    {
+      "claim": "Lawsuits against cities like Huntington Beach have not resulted in meaningful new housing construction and are insufficient enforcement tools.",
+      "evidence": ["Huntington Beach case described as 'years of legal wrangling, not new build'", "Becerra acknowledges fines become 'cost of doing business'", "Mahan argues builder's remedy is more effective than lawsuits"],
+      "speakers": ["Ezra Klein", "Javier Becerra", "Matt Mahan"]
+    },
+    {
+      "claim": "Affordable housing financing complexity—piecing together funding from seven different sources—significantly drives up costs and delays.",
+      "evidence": ["Katie Porter describes developers losing a funding tranche at the last moment", "Porter advocates for one consolidated pot of money similar to market-rate Wall Street financing"],
+      "speakers": ["Katie Porter"]
+    },
+    {
+      "claim": "Katie Porter was the only candidate at the Labor Federation forum to oppose applying prevailing wage and skilled-and-trained requirements to residential housing.",
+      "evidence": ["Porter states she took heat from labor and from Lorena Gonzalez directly", "She argues this stance would drive up construction costs"],
+      "speakers": ["Katie Porter"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "A RAND study found that the cost per square foot of constructing an apartment in California is over twice that of constructing it in Texas.",
+      "speaker": "Ezra Klein",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "There are 40,000 units in San Francisco, California that are permitted, that are zoned, that are not being built because they can't afford to build them to a price that people can afford to buy them.",
+      "speaker": "Tom Steyer",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "We should not believe that we have to build homes by making it so it's impossible for the carpenter who builds a home to never be able to afford to buy it.",
+      "speaker": "Javier Becerra",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The study is very, very clear that the speed is the driver.",
+      "speaker": "Katie Porter",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "I am not scared of anybody because I've got three teenagers that I do not want living on my couch.",
+      "speaker": "Katie Porter",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "We cut the fees by over two-thirds and 2,000 homes got under construction last year.",
+      "speaker": "Matt Mahan",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Nobody's getting $65,000 worth of value out of the neighborhood park. I'm sorry, I love our parks.",
+      "speaker": "Matt Mahan",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Impact fees are killing us.",
+      "speaker": "Antonio Villaraigosa",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "In your book, the essence of your book is that Democrats don't build anymore because we're looking for perfect. And perfect doesn't exist.",
+      "speaker": "Antonio Villaraigosa",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The difficulty with enforcement is sometimes the penalties, the fines are never enough. It's almost the cost of doing business to violate the law.",
+      "speaker": "Javier Becerra",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "I feel very strongly that our next governor cannot bring a lawyer's mindset to this problem.",
+      "speaker": "Matt Mahan",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The same reason kids have to eat their broccoli. I mean, we all have to live by rules.",
+      "speaker": "Javier Becerra",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {"name": "Tom Steyer", "title": "Democratic Candidate for Governor of California"},
+    {"name": "Javier Becerra", "title": "Democratic Candidate for Governor of California; former California Attorney General"},
+    {"name": "Katie Porter", "title": "Democratic Candidate for Governor of California; U.S. Representative"},
+    {"name": "Matt Mahan", "title": "Democratic Candidate for Governor of California; Mayor of San Jose"},
+    {"name": "Antonio Villaraigosa", "title": "Democratic Candidate for Governor of California; former Mayor of Los Angeles"}
+  ],
+  "keyword_candidates": [
+    "California housing crisis",
+    "RAND construction cost study",
+    "modular offsite construction",
+    "prevailing wage residential",
+    "builder's remedy",
+    "Prop 13 fiscalization of land use",
+    "impact fees",
+    "housing element RHNA"
+  ]
+}
+```

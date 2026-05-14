@@ -1,0 +1,152 @@
+{
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_hash": "d490da43e933449ce8d233ffd332c754d293731315bf9923d9d210ae60186193",
+  "chunk_hash": "d2ca169eefffeb6bee2d64db292e1bedb4d62731c0b1c2bb529bbe4e9e8a4b34",
+  "chunk_index": 0,
+  "char_start": 0,
+  "char_end": 32638,
+  "extraction": {
+    "chunk_index": 0,
+    "char_start": 0,
+    "char_end": 32638,
+    "topics": [
+      "Koch Industries business evolution and growth strategy",
+      "Capability-based diversification vs. industry-bounded thinking",
+      "Failure, creative destruction, and experimental discovery",
+      "Culture change through principle-based management",
+      "Major acquisitions: Georgia Pacific and refinery turnaround"
+    ],
+    "claims": [
+      {
+        "claim": "Koch Industries has grown 9,000 times in value since the early 1960s, from 300 employees to 130,000+ in 60 countries.",
+        "evidence": [
+          "300 employees in early 1960s",
+          "130,000+ employees across 60 countries today",
+          "9,000x increase in value over the period"
+        ],
+        "speakers": [
+          "Charles Koch"
+        ]
+      },
+      {
+        "claim": "Koch's diversification success stems from being 'capability bounded, not industry bounded,' applying core competencies to new industries rather than following vertical integration logic.",
+        "evidence": [
+          "Moved from crude oil gathering to natural gas, chemicals, fertilizers, consumer products via same core capabilities",
+          "Georgia Pacific acquisition brought branding as a new capability",
+          "Contrasted with conventional wisdom of becoming an integrated oil company"
+        ],
+        "speakers": [
+          "Charles Koch",
+          "Chase Koch"
+        ]
+      },
+      {
+        "claim": "Koch nearly went bankrupt or suffered massive losses twice due to hiring leaders with bad values who were 'destructively motivated'—seeking power and hiding failures.",
+        "evidence": [
+          "1973 Middle East war period: reckless trades nearly bankrupted the company",
+          "Late 1990s: destructively motivated leaders in ag and refining nearly wiped out all of Koch's earnings",
+          "Gas-to-bread spread strategy collapsed, including undisclosed hundreds of millions in out-of-the-money hog contracts"
+        ],
+        "speakers": [
+          "Charles Koch",
+          "Chase Koch"
+        ]
+      },
+      {
+        "claim": "Koch's acquisition of Georgia Pacific for $20 billion in 2005 was a bet-the-company move that succeeded by rapidly dismantling top-down bureaucratic culture.",
+        "evidence": [
+          "Purchased at a time Koch was 'much smaller'",
+          "Georgia Pacific had a 51-story Atlanta headquarters with private executive elevator requiring coat and tie",
+          "New CEO Joe Muller fired bureaucratic management and converted executive floor to open meeting rooms"
+        ],
+        "speakers": [
+          "Charles Koch",
+          "Chase Koch"
+        ]
+      },
+      {
+        "claim": "Koch rejects the conglomerate model (unlike Berkshire Hathaway) in favor of an integrated set of capabilities it calls a 'Republic of Science.'",
+        "evidence": [
+          "Chase Koch explicitly distinguished Koch from Berkshire Hathaway's siloed independent-business model",
+          "Molex (electrical connectors) turnaround attributed to applying Koch's principles after management change"
+        ],
+        "speakers": [
+          "Chase Koch",
+          "Charles Koch"
+        ]
+      },
+      {
+        "claim": "Culture change through 'sheep dipping' (mass seminars) failed; Koch succeeded by finding willing groups, coaching them intensively, and letting demonstrated success drive social mimicry.",
+        "evidence": [
+          "Referenced Michael Polanyi's 'Personal Knowledge' on rewiring habits",
+          "Principle-based management group now in high demand across Koch businesses",
+          "Success drives other business units to voluntarily adopt principles"
+        ],
+        "speakers": [
+          "Charles Koch"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "my father, we lived on a farm, and he told me at age six he didn't want me to be a country club bum, so he made me work in all my spare time, which I hated",
+        "speaker": "Charles Koch",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I got three degrees at MIT in engineering, and I sucked as an engineer.",
+        "speaker": "Charles Koch",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "you need to be in the part of it, of the industry, in the part of the value chain where you can create more value than others. Otherwise you're going to fail.",
+        "speaker": "Charles Koch",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "If you're not failing at everything, you're not doing anything new.",
+        "speaker": "Charles Koch",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "What if you could have a business and a culture, small, medium or large, where everyone knew what to do without being told?",
+        "speaker": "Chase Koch",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "A good experiment is where the value you what you learn from this is higher value from this failure than the cost of the experiment.",
+        "speaker": "Charles Koch",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Charles Koch",
+        "title": "Chairman & CEO, Koch Industries"
+      },
+      {
+        "name": "Chase Koch",
+        "title": "President, Koch Disruptive Technologies / Koch Industries"
+      }
+    ],
+    "keyword_candidates": [
+      "Koch Industries",
+      "principle-based management",
+      "capability bounded",
+      "Georgia Pacific acquisition",
+      "creative destruction",
+      "experimental discovery",
+      "Koch Disruptive Technologies",
+      "virtuous cycles of mutual benefit"
+    ]
+  },
+  "created_at": "2026-05-14T08:56:38.401331"
+}

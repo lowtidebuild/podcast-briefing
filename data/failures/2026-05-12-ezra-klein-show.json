@@ -1,0 +1,36 @@
+{
+  "slug": "2026-05-12-ezra-klein-show",
+  "episode_id": "f6fe7245-3bf2-4857-ae26-17f2fceb878c",
+  "podcast": "Ezra Klein Show",
+  "title": "I Have Some Questions for the Democrats Who Want to Run California",
+  "published": "2026-05-12T09:00:00+00:00",
+  "stage": "episode_synthesis",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "attempts": 6,
+  "errors": [
+    "summary parsing failed"
+  ],
+  "warnings": [],
+  "generation_errors": [
+    "all 3 episode_synthesis attempts failed to produce valid JSON"
+  ],
+  "generation_warnings": [],
+  "artifacts": {
+    "chunks": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-12-ezra-klein-show/chunks.json",
+    "extraction_report": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-12-ezra-klein-show/extraction_report.json",
+    "raw_dir": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-12-ezra-klein-show/raw",
+    "synthesis": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-12-ezra-klein-show/synthesis.json"
+  },
+  "usage": {
+    "transcript_chars": 88349,
+    "chunk_count": 3,
+    "extracted_chunk_count": 3,
+    "cache_hits": 0,
+    "extraction_prompt_input_chars": 92803,
+    "synthesis_prompt_chars": 18424,
+    "synthesis_input_reduction_ratio": 0.7915
+  },
+  "raw_output_path": "/home/runner/work/podcast-briefing/podcast-briefing/data/failures/raw/2026-05-12-ezra-klein-show.txt",
+  "created_at": "2026-05-14T08:51:41.311956"
+}

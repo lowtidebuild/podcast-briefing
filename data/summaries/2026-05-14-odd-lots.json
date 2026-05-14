@@ -1,0 +1,96 @@
+{
+  "id": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/ve.pVBqk5t50/v8.mp3",
+  "slug": "2026-05-14-odd-lots",
+  "podcast": "Odd Lots",
+  "category": "Macro / Markets",
+  "title": "Odd Lots: Martin Wolf on the 'Terrifying' Superpower That the US Wields (Podcast)",
+  "published": "2026-05-14T08:00:00+00:00",
+  "link": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/ve.pVBqk5t50/v8.mp3",
+  "podcast_url": "https://www.bloomberg.com/oddlots",
+  "guest": {
+    "name": "Martin Wolf",
+    "title": "Chief Economics Commentator, Financial Times"
+  },
+  "summary_ko": "미국은 세계 경제 시스템의 최대 수혜자임에도 불구하고, 그 시스템을 가장 적극적으로 파괴하려 하고 있습니다. Martin Wolf가 이 에피소드에서 전달하는 핵심 메시지는 단순한 트럼프 비판이 아닙니다. 세계 최강대국이 전략적 일관성 없이 행동할 때 발생하는 구조적 공포, 즉 예측 불가능성 그 자체가 지정학적 위협이 된다는 명제입니다.\n\nWolf는 시장이 현재의 혼돈을 '소음'으로 처리하는 이유를 두 가지로 설명합니다. 첫째는 이른바 'TACO 이론'(Trump Always Chickens Out)으로, 트럼프는 결국 물러선다는 경험적 기대입니다. 둘째는 세계 경제의 놀라운 복원력입니다. 1950년 이후 세계 GDP가 실제로 감소한 해는 단 두 번, 2009년과 2020년뿐이었습니다. 이란 사태로 인한 에너지 충격도 마찬가지입니다. 석유 의존도가 과거보다 낮아진 데다, 중동산 원유 수출 감소의 최대 피해자는 중국과 유럽이지 미국이 아닙니다.\n\n유럽에 관해서는, 역사적 진단이 날카롭습니다. 유럽은 국가 간 경쟁과 기독교 문명이라는 공유된 기반 위에서 세계를 정복했지만, 바로 그 경쟁이 두 차례의 세계대전과 홀로코스트로 귀결되었습니다. 그 결과 유럽은 이념 자체에 지쳐버렸고, 안보와 정체성을 미국에 위탁했습니다. 지금 트럼프 행정부가 그 위탁 관계를 철회하고 있지만, 유럽은 대안을 찾기에도 내부 합의에 도달하기에도 역사적으로 너무 분열되어 있습니다.\n\nAI에 대한 Wolf의 입장은 파우스트적 거래라는 은유로 압축됩니다. 단기적 생산성 혜택은 명백하지만, 인공일반지능(AGI)이 실현되는 순간 인류는 자신의 존재 목적을 재정의해야 하는 실존적 질문에 직면합니다. 현재 이 거래는 네다섯 명의 천재와 그들의 기업이 인류를 대신해 체결하고 있습니다. Wolf가 가장 두려워하는 것은 AI나 전쟁이나 관세가 아닙니다. 이 모든 것들을 다루어야 할 미국이, 지금 무엇을 원하는지 스스로도 모른다는 사실입니다.",
+  "summary_en": "The most powerful country in the world no longer knows what it wants — and that bewilderment, Martin Wolf argues, is itself the defining geopolitical threat of the moment. This is not a conventional critique of Trump's policies. It is a structural argument: unpredictability from a superpower is categorically more dangerous than predictable adversarial behavior, because allies and markets cannot price it.\n\nWolf offers two reasons why markets have largely shrugged at the chaos. First, the empirical TACO thesis (Trump Always Chickens Out): the pattern of announcing radical moves and then retreating has conditioned investors to discount the signal. Second, and more fundamentally, the world economy is extraordinarily resilient — in the entire post-1950 data set, global GDP has contracted in only two years: 2009 and 2020. The Gulf energy shock follows the same logic: oil matters less than it did in the 1970s, the primary damage falls on China and Europe rather than the US, and long-run pipeline infrastructure can absorb much of the disruption.\n\nOn Europe, Wolf delivers a compressed but precise historical argument. European dynamism derived from state competition within a shared civilizational framework — but that same competition produced two world wars and the Holocaust. The continent responded by outsourcing security, identity, and ideology to the United States, and by becoming exhausted with belief systems altogether. Now that the US is withdrawing that guarantee, Europe faces a structural trap: it cannot easily rearm or centralize because the last Europeans who tried to build a continental power by force of will were Napoleon and Hitler. The mild centrist integrationist impulse exists, but it competes with nationalist movements that are, by definition, not European.\n\nOn AI, Wolf reaches for the Faustian metaphor deliberately: short-term gains are real, but the arrival of AGI poses an existential question about human purpose that current politics — incoherent, resentment-driven, and captured by a handful of tech founders — is structurally incapable of addressing. His Dune reference is not whimsy; it is a genuine hypothesis that future generations may conclude the technology should have been prohibited.",
+  "key_points_ko": [
+    {
+      "heading": "혼돈 속 시장 강세: '소리와 분노'가 아직은 아무것도 의미하지 않는 이유",
+      "body": "S&P 500이 사상 최고치를 경신한 배경에는 두 가지 합리적 근거가 있습니다. 하나는 트럼프의 행동 패턴, 즉 강하게 밀어붙이다 결국 후퇴한다는 TACO(Trump Always Chickens Out) 경험칙이고, 다른 하나는 세계 경제의 구조적 복원력입니다. Angus Maddison의 데이터에 따르면 1950년 이후 세계 GDP가 실제로 역성장한 해는 2009년과 2020년, 단 두 번뿐입니다. 트럼프의 관세 체계는 높은 세율에도 불구하고 베트남, 멕시코 등을 통한 무역 우회를 허용하는 구멍이 많아, Apple 같은 대형 기업들은 협상을 통해 예외를 확보했습니다. 기술 대기업들의 이익 구조는 이번 충격에 가장 덜 노출되어 있으며, 전 세계적으로 노동의 협상력이 약한 상태에서 기업 이익률은 방어적 위치를 유지하고 있습니다. 시장이 틀릴 수도 있지만, 현재로서는 틀렸다고 단정하기 어렵습니다."
+    },
+    {
+      "heading": "미국이 가장 두려운 이유는 적대적이어서가 아니라 이해 불가능하기 때문이다",
+      "body": "Wolf의 핵심 논제는 트럼프 행정부가 나쁘다는 것이 아니라, 일관된 전략 목표 자체가 없다는 것입니다. MAGA 연합은 Peter Thiel류의 AI 미래주의자, Pete Hegseth 같은 기독교 십자군, J.D. Vance류의 고립주의자를 동시에 포함하며 이들 사이에 공유된 세계관이 존재하지 않습니다. 트럼프 개인은 법과 규범의 구속을 받지 않는 절대 권력, 즉 '왕'이 되고 싶다는 욕망이 일관되지만, 그것은 이념이 아니라 기질입니다. Wolf는 이를 Nero에 비유하며, 예측 가능한 적국 중국보다 예측 불가능한 동맹 미국이 더 다루기 어렵다고 진단합니다. 70년간 미국에 안보·기술·이념을 위탁해온 유럽 입장에서 이는 신뢰할 수 있는 배우자가 갑자기 '폭력적인 불량배'로 돌변한 충격입니다."
+    },
+    {
+      "heading": "유럽의 전략적 마비는 나약함이 아니라 역사적 학습의 결과다",
+      "body": "유럽이 전략적 자율성을 갖지 못하는 이유를 Wolf는 단순한 제도적 분열이 아니라 역사적 트라우마로 설명합니다. 30년 전쟁(1618~1648)에서 독일 인구의 약 30%가 사망했고, 20세기 두 차례의 세계대전은 유럽 전역에서 수천만 명의 목숨을 앗아갔습니다. 이 경험이 이념적 열정 자체에 대한 깊은 불신을 낳았고, 유럽 통합 프로젝트는 사실상 '탈이념 실험'입니다. 문제는 이 실험이 외부 보증인, 즉 미국 없이는 작동하기 어렵게 설계되었다는 점입니다. 중도 통합파는 존재하지만, 우파 민족주의자들은 '유럽 민족주의자'가 아니라 프랑스인, 이탈리아인으로서의 민족주의자입니다. Wolf는 유럽의 미래를 예측하기를 거부하면서도, 미국의 압박이 유럽 통합의 외부 동인이 될 가능성만큼은 열어둡니다."
+    },
+    {
+      "heading": "AI는 파우스트적 거래다: 단기 이익과 실존적 위험의 교환",
+      "body": "Wolf는 AI를 핵무기에 비유하며, Einstein이 원자폭탄 개발 후 느꼈던 공포와 동일한 성격의 위험이라고 봅니다. AGI가 실현되면 인류는 지적 역량의 모든 차원에서 기계에 열등해지는 순간을 맞게 되며, 이는 '인류는 무엇을 위해 존재하는가'라는 실존적 질문을 강제합니다. 현재 이 기술의 방향은 네다섯 명의 창업자와 그들의 기업이 결정하고 있으며, 민주적 통제 메커니즘은 사실상 부재합니다. Wolf는 Frank Herbert의 Dune에 등장하는 '버틀레리안 지하드', 즉 생각하는 기계를 금지한 인류의 과거 결정을 언급하며, 100년 후 인류가 그 결정을 따랐어야 했다고 후회할 가능성을 진지하게 제기합니다. 이는 단순한 기술 회의론이 아니라, 규제 불가능성에 대한 구조적 진단입니다."
+    },
+    {
+      "heading": "영국의 Brexit: 작은 나라가 스스로를 작은 나라임을 몰랐던 실험",
+      "body": "Wolf는 Brexit을 '자신이 소국임을 깨닫지 못한 나라의 실험'으로 규정합니다. Brexit 지지자들은 EU 탈퇴로 이민 통제와 독자적 무역 협상 능력을 얻겠다고 약속했습니다. 그러나 실제로는 EU 회원국으로부터의 이민이 줄어든 자리를 전 세계로부터의 이민이 더 큰 규모로 채웠고, 미국과의 자유무역협정은 실현되지 않았습니다. 영국 경제의 구조적 과제, 즉 탈산업화, 기술 역량 부재, 중국 경쟁력에 대한 취약성은 독일과 프랑스가 직면한 것과 본질적으로 동일합니다. Wolf의 결론은 냉정합니다. 영국은 그냥 또 하나의 유럽 국가이며, 도버 해협이라는 지리적 조건 외에 대륙과 근본적으로 다른 선택지를 가져본 적이 없습니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Markets are right to shrug — for now — but not for the reasons most assume",
+      "body": "The S&P 500 hitting record highs amid geopolitical turmoil reflects two defensible positions, not mere complacency. The TACO thesis (Trump Always Chickens Out) has empirical backing: the pattern of aggressive posturing followed by retreat has repeated consistently. More fundamentally, the world economy has contracted in only two calendar years since 1950 — 2009 and 2020 — a resilience that even two major oil shocks in the 1970s could not break. Trump's tariff architecture, despite its headline severity, is structurally porous: trade has diverted through Vietnam and Mexico rather than disappearing, and large firms like Apple have negotiated carve-outs. Tech giants, which generate the lion's share of index profits, are the least exposed to these shocks. The risk is that this analysis is correct until it suddenly isn't — but Wolf concedes the market's logic is internally coherent."
+    },
+    {
+      "heading": "America is terrifying not because it is hostile, but because it has become incomprehensible",
+      "body": "Wolf's sharpest argument is not that Trump's policies are wrong, but that the administration lacks a coherent strategic objective — and that vacuum is the actual threat. The MAGA coalition contains AI futurists (the Peter Thiel wing), Christian crusaders (Pete Hegseth), and isolationists (J.D. Vance) with no shared world-view beyond personal loyalty to Trump. Trump himself is consistent in one thing only: the desire to operate without legal or institutional constraint — a temperament Wolf likens to Nero rather than an ideology. The implication is structural: China, despite being adversarial, is predictable and therefore manageable. A bewildered superpower with unmatched financial and military reach is not. For Europe, which delegated security, technology infrastructure, and ideological framing to the US for 70 years, this is not a policy disagreement — it is an identity crisis."
+    },
+    {
+      "heading": "Europe's strategic paralysis is the rational output of a continent that learned ideology kills",
+      "body": "Wolf reframes European 'weakness' as a deliberate, historically grounded choice rather than institutional failure. The Thirty Years' War (1618–1648) killed roughly 30% of Germany's population; two World Wars cost tens of millions of European lives. The EU project was explicitly post-ideological — an attempt to build cooperative structures precisely because every time Europeans got passionate about a belief system, mass death followed. The problem is that this architecture was designed with a silent external guarantor: the United States. The moderate integrationist impulse exists within Europe today, but it competes with right-wing nationalist movements that are, by definition, French or Italian nationalists — not European ones. Wolf refuses to predict the outcome but leaves open the possibility that American pressure may prove to be the external shock that finally forces genuine European strategic autonomy."
+    },
+    {
+      "heading": "AI is a Faustian bargain being struck by five people on behalf of eight billion",
+      "body": "Wolf treats AI not as a productivity story but as an existential governance failure in progress. The near-term business case is clear and the productivity gains real — he acknowledges that within ten years, AI may produce better economic commentary than human analysts. But the arrival of AGI forces a question that no current political institution is equipped to answer: what is humanity for when machines outperform humans in every intellectual dimension? Unlike nuclear weapons, which were subject to immediate state-level governance frameworks, AI development is being directed by four or five founder-CEOs with no meaningful democratic oversight. Wolf invokes Frank Herbert's Butlerian Jihad — the fictional prohibition on thinking machines — not as fantasy but as a hypothesis future generations may vindicate. His core structural claim is that AI is unregulatable under competitive market conditions, and current politics are too incoherent to even attempt it."
+    },
+    {
+      "heading": "Brexit confirmed that Britain is just another European country — one that forgot it was small",
+      "body": "Wolf's verdict on Brexit is precise and unsentimental. Brexiteers promised two things: control of immigration and an independent trade deal with the US. Neither materialized as advertised: EU migration was replaced by larger flows from elsewhere, and the US trade deal never arrived. The structural challenges facing the British economy — deindustrialization, technological weakness, exposure to Chinese competition — are identical to those facing Germany and France. No British political leader across the full spectrum, Wolf argues with evident confidence, has offered a coherent strategy for solving these problems. The English Channel provided genuine strategic independence for centuries, but it has never provided a fundamentally different economic opportunity set from the continent it borders."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "완전히 당혹스러운 초강대국은 절대적으로 공포스럽습니다. 아무도 중국을 좋아하지 않지만, 중국이 무엇을 원하는지는 압니다. 그것은 예측 가능하고, 체제가 어떻게 작동하는지 알 수 있으며, Xi가 무엇을 하려는지 알 수 있습니다. 그것과는 함께 살 수 있습니다. 이만한 힘을 가지고 이처럼 완전히 당혹스러운 나라와 함께 사는 것은 매우 어렵습니다.",
+    "attribution": "Martin Wolf, Chief Economics Commentator, Financial Times"
+  },
+  "notable_quote_en": {
+    "text": "a completely bewildering superpower is absolutely terrifying nobody likes China nobody really but they know what it's about it's predictable it you know how the regime works you know how the system works you know what she's trying to do that one can live with it's very difficult to live with a country with this power which is as completely bewildering as this one has become and I've tried to give you",
+    "attribution": "Martin Wolf, Chief Economics Commentator, Financial Times"
+  },
+  "notable_quote": {
+    "source_text_en": "a completely bewildering superpower is absolutely terrifying nobody likes China nobody really but they know what it's about it's predictable it you know how the regime works you know how the system works you know what she's trying to do that one can live with it's very difficult to live with a country with this power which is as completely bewildering as this one has become and I've tried to give you",
+    "translation_ko": "완전히 당혹스러운 초강대국은 절대적으로 공포스럽습니다. 아무도 중국을 좋아하지 않지만, 중국이 무엇을 원하는지는 압니다. 그것은 예측 가능하고, 체제가 어떻게 작동하는지 알 수 있으며, Xi가 무엇을 하려는지 알 수 있습니다. 그것과는 함께 살 수 있습니다. 이만한 힘을 가지고 이처럼 완전히 당혹스러운 나라와 함께 사는 것은 매우 어렵습니다.",
+    "speaker": "Martin Wolf",
+    "attribution": "Martin Wolf, Chief Economics Commentator, Financial Times",
+    "is_verbatim": true,
+    "translation_is_verbatim": false,
+    "source_char_start": 39906,
+    "source_char_end": 40309,
+    "match_score": 0.8954
+  },
+  "keywords_ko": [
+    "초강대국 예측 불가능성",
+    "유럽 전략적 자율성",
+    "TACO 이론",
+    "AGI 실존적 위험",
+    "탈이념 자유주의",
+    "달러 기축통화 시스템"
+  ],
+  "keywords_en": [
+    "superpower unpredictability",
+    "European strategic autonomy",
+    "TACO thesis",
+    "AGI existential risk",
+    "post-ideological liberalism",
+    "dollar reserve system"
+  ],
+  "generated_at": "2026-05-14T08:37:33.213277"
+}

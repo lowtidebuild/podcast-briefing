@@ -1,0 +1,180 @@
+{
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_hash": "6cf5e414c1f3db089fda68d30119595ce3f737acf863ff93dc6a001cc2cc221d",
+  "chunk_hash": "96cade70c151001d37776bb9c7084c70918a26abc96e891f864c48508ea97021",
+  "chunk_index": 1,
+  "char_start": 39370,
+  "char_end": 78836,
+  "extraction": {
+    "chunk_index": 1,
+    "char_start": 39370,
+    "char_end": 78836,
+    "topics": [
+      "California housing policy and CEQA reform",
+      "Homelessness prevention and interim housing strategies",
+      "State-city relations and fiscal incentives for housing",
+      "California Forever and master-planned community development",
+      "Mental health, coercion, and Housing First accountability"
+    ],
+    "claims": [
+      {
+        "claim": "Litigation as a housing enforcement tool is not particularly effective at actually getting housing built",
+        "evidence": [
+          "Huntington Beach is not building more housing despite legal pressure",
+          "A San Diego County project with 2,000 units sued under AG Becerra still hasn't been built"
+        ],
+        "speakers": [
+          "Matt (likely Matt Mahan)"
+        ]
+      },
+      {
+        "claim": "Measure ULA caused an 84% drop in construction in Los Angeles according to a RAND/UCLA study",
+        "evidence": [
+          "ULA is a transfer tax on properties over $5 million including multifamily and commercial, not just mansions",
+          "RAND and UCLA study cited showing 84% construction drop"
+        ],
+        "speakers": [
+          "Mr. Villaraigosa (Antonio Villaraigosa)"
+        ]
+      },
+      {
+        "claim": "California's $24 billion spent on homelessness from 2018 to 2023 failed because outcomes were not tracked and accountability was absent",
+        "evidence": [
+          "$24 billion spent mostly within Housing First framework",
+          "Unsheltered population continued to grow",
+          "Becerra: 'We didn't focus on outcomes'"
+        ],
+        "speakers": [
+          "Mr. Becerra (Xavier Becerra)"
+        ]
+      },
+      {
+        "claim": "Only one in seven people who becomes homeless has a pre-existing mental health problem, but virtually everyone who stays on the street long-term develops one",
+        "evidence": [
+          "Being homeless is described as 'incredibly stressful, vulnerable and dangerous'",
+          "Steyer uses this to argue for rapid removal from streets as a mental health intervention"
+        ],
+        "speakers": [
+          "Mr. Steyer (Tom Steyer)"
+        ]
+      },
+      {
+        "claim": "Direct cash assistance is the most effective and cost-efficient way to prevent eviction and foreclosure",
+        "evidence": [
+          "Median cost of cash-based eviction/foreclosure prevention is $6,000 per family",
+          "Compare to $750,000–$1 million per unit for permanent assisted housing",
+          "Audacious Foundation funded pilots across California"
+        ],
+        "speakers": [
+          "Ms. Porter (Katie Porter)"
+        ]
+      },
+      {
+        "claim": "Emergency interim housing—with private rooms, keys, pet allowances, and wraparound services—gets approximately 70% of unsheltered people off the street, far more than traditional shelters",
+        "evidence": [
+          "Traditional shelters seen as dangerous, no privacy, no pets allowed",
+          "Steyer claims emergency interim housing acceptance rate around 70%",
+          "Permanent assisted housing costs $750,000–$1 million per key"
+        ],
+        "speakers": [
+          "Mr. Steyer (Tom Steyer)"
+        ]
+      },
+      {
+        "claim": "San Jose's prevention model, partnered with Destination Home, kept over 92% of assisted households housed without ongoing public subsidy",
+        "evidence": [
+          "Notre Dame University longitudinal study over 3–4 years",
+          "One-time rental assistance paired with case management",
+          "San Jose reduced inflow by 50% from streets"
+        ],
+        "speakers": [
+          "Mayor Mayhem (Mayor Matt Mahan of San Jose)"
+        ]
+      },
+      {
+        "claim": "CEQA is broken because, unlike NEPA, it does not require environmental standing to sue, allowing anyone from anywhere to sue California projects",
+        "evidence": [
+          "'You can sue from Richmond, Virginia for a project in Richmond, California'",
+          "Stone Ranch project had 33 CEQA objections; after resolving 29, lost on one and had to restart all 33"
+        ],
+        "speakers": [
+          "Mr. Villaraigosa (Antonio Villaraigosa)",
+          "Ms. Porter (Katie Porter)"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "If you want to be popular, get a dog.",
+        "speaker": "Mr. Villaraigosa (Antonio Villaraigosa)",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Only one in seven people who becomes homeless has a mental health problem. But virtually everyone who stays on the street for a long time develops one.",
+        "speaker": "Mr. Steyer (Tom Steyer)",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "You can sue from Richmond, Virginia for a project in Richmond, California. Yes, you can. It's broken.",
+        "speaker": "Mr. Villaraigosa (Antonio Villaraigosa)",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The opposite perception that we can't trust people with cash, we can't give low income people cash is racist. It's sexist and it's wrong. And it costs us a fortune.",
+        "speaker": "Ms. Porter (Katie Porter)",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "We didn't focus on outcomes. There was the accountability wasn't there. Twenty four billion dollars was there, but the outcomes didn't result.",
+        "speaker": "Mr. Becerra (Xavier Becerra)",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "No one gets well on the street.",
+        "speaker": "Mr. Steyer (Tom Steyer)",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Antonio Villaraigosa",
+        "title": "Former Mayor of Los Angeles, California Governor Candidate"
+      },
+      {
+        "name": "Xavier Becerra",
+        "title": "Former California Attorney General and U.S. Secretary of HHS, Governor Candidate"
+      },
+      {
+        "name": "Tom Steyer",
+        "title": "Businessman and Activist, California Governor Candidate"
+      },
+      {
+        "name": "Katie Porter",
+        "title": "Former U.S. Representative, California Governor Candidate"
+      },
+      {
+        "name": "Matt Mahan",
+        "title": "Mayor of San Jose, California Governor Candidate"
+      }
+    ],
+    "keyword_candidates": [
+      "CEQA reform",
+      "Measure ULA",
+      "California Forever",
+      "Housing First",
+      "emergency interim housing",
+      "tax increment financing / redevelopment",
+      "988 mental health crisis line",
+      "SB-79 transit density"
+    ]
+  },
+  "created_at": "2026-05-14T08:46:19.980125"
+}

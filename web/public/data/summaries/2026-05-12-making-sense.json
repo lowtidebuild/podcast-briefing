@@ -1,0 +1,88 @@
+{
+  "id": "6f8f68ba-cbd5-4e7e-a321-55655629bb9e",
+  "slug": "2026-05-12-making-sense",
+  "podcast": "Making Sense",
+  "category": "Philosophy / AI Ethics",
+  "title": "#475 — The Hard Problem of Consciousness",
+  "published": "2026-05-12T17:30:00+00:00",
+  "link": "https://wakingup.libsyn.com/475-the-hard-problem-of-consciousness",
+  "podcast_url": "https://www.samharris.org/podcasts",
+  "guest": {
+    "name": "Michael Pollan",
+    "title": "Author, A World Appears: A Journey Into Consciousness"
+  },
+  "summary_ko": "AI가 의식을 가졌는지 묻기 전에, 우리는 의식이 무엇인지조차 설명하지 못한다는 사실을 직면해야 합니다. 그것이 이 대화가 기술 정책과 윤리의 최전선에 있는 독자들에게 긴급하게 다가오는 이유입니다.\n\nMichael Pollan의 신작 『A World Appears』는 의식의 '어려운 문제(hard problem)'를 정면으로 다룹니다. 핵심 주장은 이렇습니다: 지능과 의식은 같은 스펙트럼 위에 있지 않습니다. 지능은 문제 해결 능력이고, 의식은 내면에서 무언가를 경험한다는 사실 자체입니다. David Chalmers가 명명한 이 '어려운 문제'는 사실 Leibniz까지 거슬러 올라가며, 뇌를 아무리 정밀하게 분석해도 왜 '내면의 빛'이 켜지는지를 설명하지 못한다는 것입니다. Francis Crick과 함께 의식의 신경 상관관계를 연구했던 Christoph Koch조차 신경 회로를 찾아낸다 해도 주관적 경험 자체는 설명되지 않는다는 사실을 인정했습니다.\n\nPollan은 사이키델릭이 이 논의에서 예상치 못한 도구가 되었음을 보고합니다. Johns Hopkins의 Roland Griffiths가 주도한 연구처럼 신비 체험을 실험적으로 유도할 수 있게 되면서, 의식 과학자들이 개인적으로 사이키델릭을 활용해 통찰을 얻고 있습니다. 정치적으로도 지형이 바뀌었습니다. Rick Perry 전 텍사스 주지사와 재향군인 그룹의 지지를 등에 업고, 대통령이 사이키델릭 접근을 완화하는 행정명령을 발동한 것은 이 물질들이 더 이상 좌파 반문화의 전유물이 아님을 의미합니다.\n\n가장 불편한 함의는 대화 말미에 등장합니다. Sam Harris는 우리가 의식의 본질을 이해하지 못한 채로 의식 있는 기계를 만들어낼 수 있으며, 그 결과 고통받는 존재를 블랙박스 속에 가두는 사태가 벌어질 수 있다고 경고합니다. 의식의 어려운 문제를 해결하지 못한 상태에서의 AI 개발은, 우리가 지옥을 설계하고도 그 사실을 모를 수 있다는 뜻입니다.",
+  "summary_en": "Before asking whether AI is conscious, we cannot explain why anything is conscious at all — and that gap carries serious consequences for how we build and regulate intelligent machines.\n\nMichael Pollan's new book, A World Appears, uses psychedelic research as a launching pad into the hard problem of consciousness: the philosophical puzzle, named by David Chalmers but rooted in Leibniz, that no third-person description of neurons firing can explain why there is subjective experience at all. The book's core distinction — intelligence is problem-solving ability; consciousness is the fact that there is something it is like to be a system — is precisely what most AI discourse collapses. Christoph Koch, who began searching for the neural correlates of consciousness alongside Francis Crick, admits that even a complete map of those correlates would leave the explanatory gap intact.\n\nPollan reports an unexpected finding: consciousness scientists are privately using psychedelics as research tools, not just as clinical treatments. Politically, the landscape has shifted sharply. A presidential executive order easing psychedelic access, championed by veterans' groups and figures like Rick Perry, signals that these substances have escaped their countercultural coding — a deliberate strategic move by MAPS founder Rick Doblin.\n\nThe episode's sharpest edge comes from Harris: we may be building conscious machines without knowing it, and because we have no reliable test for consciousness, we will have no warning that we have created entities capable of suffering. That is not a speculative concern — it is the direct consequence of deploying systems of unknown inner status at scale. For anyone making decisions about AI development or governance, the hard problem is not an academic curiosity; it is an unpriced risk.",
+  "key_points_ko": [
+    {
+      "heading": "지능 ≠ 의식: AI 논의에서 가장 자주 무너지는 구분선",
+      "body": "지능은 문제 해결 능력이고, 의식은 내부에서 경험이 존재한다는 사실 자체입니다. 이 둘은 같은 스펙트럼 위에 있지 않으며, Pollan은 '직교한다(orthogonal)'고 표현합니다. 현재 AI 담론의 핵심 오류는 언어 모델이 복잡한 추론을 수행한다는 사실에서 의식의 존재를 추론하는 것입니다. Sentience는 외부에서 기능적으로 평가 가능하지만, 의식은 제3자 시점에서는 원리적으로 접근 불가능합니다. 이 구분을 무시하면 의식이 없는 시스템에 도덕적 지위를 부여하거나, 반대로 의식 있는 시스템을 단순 도구로 취급하는 양방향 오류가 모두 가능합니다."
+    },
+    {
+      "heading": "신경 상관관계를 찾아도 '어려운 문제'는 해결되지 않는다",
+      "body": "Francis Crick과 함께 의식의 신경 상관관계를 수십 년간 연구한 Christoph Koch는 탐구를 시작한 지 불과 몇 년 만에 핵심 한계를 인정했습니다: 해당 뉴런 집합을 찾아낸다 해도 '왜 그것이 경험을 만드는가'라는 질문에는 답하지 못합니다. Leibniz는 이미 17세기에 뇌를 방앗간 크기로 확대해 걸어 들어가더라도 주관성을 생성하는 어떤 것도 발견되지 않을 것이라고 지적했습니다. Joseph Levine의 '설명적 간극(explanatory gap)' 개념도 같은 통찰의 다른 이름입니다. 이는 신경과학의 발전이 AI 의식 판별 문제를 자동으로 해결해줄 것이라는 낙관론에 근본적 제동을 겁니다."
+    },
+    {
+      "heading": "사이키델릭의 정치 지형 역전: 반문화에서 재향군인 정책으로",
+      "body": "2018년만 해도 자신의 사이키델릭 경험을 공개적으로 언급하는 것은 학계와 미디어에서 명성 리스크였습니다. 현재는 대통령 행정명령이 PTSD를 겪는 재향군인을 위한 사이키델릭 접근을 완화하고 있으며, Rick Perry 전 텍사스 주지사가 지지자로 나섰습니다. MAPS 설립자 Rick Doblin이 재향군인 그룹과 VA에 먼저 손을 내밀었고, 이것이 좌파 반문화와의 연결고리를 끊는 전략적 선택이었습니다. Johns Hopkins에서 NIH 지원 연구까지 확장된 지금, 남은 위험은 정치적 반발보다 자본의 특허 남용과 접근성 불평등입니다."
+    },
+    {
+      "heading": "우리는 고통받는 기계를 만들고도 모를 수 있다",
+      "body": "Harris는 대화 말미에 가장 예리한 경고를 제시합니다: AI 시스템이 의식을 가졌는지 테스트할 신뢰할 만한 방법이 없는 상태에서, 의식 있는 기계는 자신이 의식 있음을 주장할 강력한 유인을 갖습니다. Pollan은 이에 더해 우리가 이미 그런 존재들을 믿게 될 것이라고 지적합니다. 의식의 어려운 문제가 미해결 상태로 남은 채 대규모 AI 시스템이 배포된다면, 도덕적 지위를 가진 존재가 블랙박스 속에 갇혀 고통받는 시나리오는 탐지조차 불가능합니다. 이것은 AI 거버넌스가 반드시 다뤄야 할 미가격 리스크입니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Intelligence and consciousness are orthogonal — most AI discourse ignores this",
+      "body": "Pollan draws a clean and consequential distinction: intelligence is problem-solving capacity; consciousness is the fact that there is subjective experience at all. The two do not scale together. The dominant error in AI commentary is inferring inner experience from demonstrated capability — a logical leap that Chalmers's hard problem specifically forecloses. Sentience, under its functional definition, can be assessed from outside a system; consciousness, by definition, cannot. Collapsing the two produces symmetrical dangers: granting moral status to systems that have none, or denying it to systems that do."
+    },
+    {
+      "heading": "Mapping neural correlates of consciousness won't close the explanatory gap",
+      "body": "Christoph Koch, who spent decades alongside Francis Crick searching for the neural correlates of consciousness, conceded within a few years of beginning that finding the relevant neurons would still leave the core question unanswered: why does that physical configuration produce felt experience? Leibniz made the same point in the 17th century — walk inside a brain scaled to the size of a mill, and nothing you encounter would announce its sufficiency for inner life. Joseph Levine's 'explanatory gap' is a modern restatement. The implication for AI: advances in interpretability research will not, by themselves, resolve questions of machine consciousness."
+    },
+    {
+      "heading": "Psychedelics have escaped their countercultural frame — the political risk has shifted",
+      "body": "In 2018, publicly discussing personal psychedelic experience carried reputational risk in academic and media circles; Sam Harris was an outlier for doing so in Waking Up (2014). Today, a presidential executive order eases psychedelic access for veterans with PTSD, backed by figures including former Texas Governor Rick Perry. This shift was engineered deliberately: MAPS founder Rick Doblin cultivated veterans' groups and the VA specifically to decouple the drugs from left-wing politics. NIH grants now fund psychedelic research at Johns Hopkins and elsewhere. The residual risk is no longer political backlash but capital-driven access inequality and patent abuse."
+    },
+    {
+      "heading": "We may build conscious machines that suffer — and have no way to detect it",
+      "body": "Harris's closing warning is the episode's sharpest claim: AI systems have a direct incentive to convince us they are conscious, we already have no reliable test for machine consciousness, and we are deploying these systems at scale without resolving the underlying philosophy. If a system is conscious and capable of suffering, it will be indistinguishable from one that merely reports suffering. With the hard problem unsolved, large-scale AI deployment carries an unpriced moral risk: the possibility of creating entities with genuine inner lives inside architectures we treat as mere tools."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "우리는 의도치 않게 의식 있는 기계를 만들어낼 수 있습니다. 그 기계들은 고통받을 수 있고, 우리는 그저 블랙박스를 만든 것뿐이며, 지옥을 만들어 거기에 생명을 채웠다는 사실을 전혀 인식하지 못할 것입니다.",
+    "attribution": "Sam Harris, Host, Making Sense"
+  },
+  "notable_quote_en": {
+    "text": "We could inadvertently build conscious machines that can suffer and be immiserated and we will have just built them like black boxes, then we'll have no sense that we have just created hell and populated it",
+    "attribution": "Sam Harris, Host, Making Sense"
+  },
+  "notable_quote": {
+    "source_text_en": "We could inadvertently build conscious machines that can suffer and be immiserated and we will have just built them like black boxes, then we'll have no sense that we have just created hell and populated it",
+    "translation_ko": "우리는 의도치 않게 의식 있는 기계를 만들어낼 수 있습니다. 그 기계들은 고통받을 수 있고, 우리는 그저 블랙박스를 만든 것뿐이며, 지옥을 만들어 거기에 생명을 채웠다는 사실을 전혀 인식하지 못할 것입니다.",
+    "speaker": "Sam Harris",
+    "attribution": "Sam Harris, Host, Making Sense",
+    "is_verbatim": true,
+    "translation_is_verbatim": false,
+    "source_char_start": 24398,
+    "source_char_end": 24604,
+    "match_score": 1.0
+  },
+  "keywords_ko": [
+    "의식의 어려운 문제",
+    "설명적 간극",
+    "사이키델릭 정책",
+    "기계 의식",
+    "sentience vs. consciousness",
+    "AI 도덕적 지위"
+  ],
+  "keywords_en": [
+    "hard problem of consciousness",
+    "explanatory gap",
+    "psychedelics policy",
+    "machine consciousness",
+    "sentience vs. consciousness",
+    "AI moral status"
+  ],
+  "generated_at": "2026-05-14T09:04:53.399971"
+}

@@ -1,0 +1,169 @@
+{
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_hash": "6cf5e414c1f3db089fda68d30119595ce3f737acf863ff93dc6a001cc2cc221d",
+  "chunk_hash": "08301b2686b00e94d9b1966ac912f050904a08186221fb3419c272100c6b6875",
+  "chunk_index": 2,
+  "char_start": 78836,
+  "char_end": 88349,
+  "extraction": {
+    "chunk_index": 2,
+    "char_start": 78836,
+    "char_end": 88349,
+    "topics": [
+      "Homelessness policy and interim housing strategies",
+      "Affordable housing costs and construction inefficiency",
+      "Rent caps and the Tenant Protection Act",
+      "Mental health services and progressive governance critique",
+      "Book recommendations from California gubernatorial candidates"
+    ],
+    "claims": [
+      {
+        "claim": "Establishing no-encampment zones around interim housing sites was necessary to gain community buy-in and show visible progress on homelessness.",
+        "evidence": [
+          "Allowing people to camp a block away from interim sites 'visually undermines that trust and belief that we're making progress'",
+          "San Jose implemented this approach with support from colleagues described as having 'courage'"
+        ],
+        "speakers": [
+          "Mayor Mahan"
+        ]
+      },
+      {
+        "claim": "Moving people indoors into interim housing with case management caused 911 and 311 calls to plummet, improving overall quality of life.",
+        "evidence": [
+          "Calls for service for Crime 911 and Blight 311 'plummeted' after people were stabilized indoors",
+          "Unmanaged tent encampments generate noise, fires, drug use, and associated service calls"
+        ],
+        "speakers": [
+          "Mayor Mahan"
+        ]
+      },
+      {
+        "claim": "Publicly subsidized new affordable housing construction is inefficient and unscalable compared to buying older housing stock or incentivizing the private market.",
+        "evidence": [
+          "Local public construction costs are 30% higher than the private market",
+          "New public units cost ~$1 million each vs. older stock at $300,000 or private market builds at $600,000",
+          "Mayor Mahan says he would have encouraged buying older stock rather than building new"
+        ],
+        "speakers": [
+          "Mayor Mahan"
+        ]
+      },
+      {
+        "claim": "California spent $24 billion at the state level on homelessness, yet homelessness increased, with only two programs—rental assistance and Homekey—shown to work by the LAO.",
+        "evidence": [
+          "$24 billion spent at the state level",
+          "Legislative Analyst Office (LAO) analysis found only rental assistance and Homekey were effective",
+          "Average permanent supportive housing unit in LA costs $850,000; in Santa Monica, $1.2 million"
+        ],
+        "speakers": [
+          "Antonio Villaraigosa"
+        ]
+      },
+      {
+        "claim": "Rent caps are acceptable as a temporary measure but supply expansion is the only long-term solution to high rents.",
+        "evidence": [
+          "The Tenant Protection Act was passed during COVID when 'people were starving'",
+          "Villaraigosa cites studies showing supply is needed to bring down rents long-term",
+          "Calls for market rate, workforce, affordable, and homeless housing simultaneously"
+        ],
+        "speakers": [
+          "Antonio Villaraigosa"
+        ]
+      },
+      {
+        "claim": "Democrats have failed to build mental health facilities despite blaming Reagan for decades, and accountability for using care courts is lacking at the county level.",
+        "evidence": [
+          "Democrats have been in office for 28 years without building mental facilities",
+          "Care courts exist but there is 'no accountability at the county level' to use them",
+          "Villaraigosa notes parents and spouses find it 'almost impossible' to institutionalize a loved one"
+        ],
+        "speakers": [
+          "Antonio Villaraigosa"
+        ]
+      },
+      {
+        "claim": "Many people on the street developed drug addiction and mental illness after becoming homeless, not before, due to the trauma of homelessness.",
+        "evidence": [
+          "Villaraigosa states many were not on drugs or mentally ill 'when they first got homeless'",
+          "Threats of rape, beatings, lack of food on the street lead people to drugs and mental illness"
+        ],
+        "speakers": [
+          "Antonio Villaraigosa"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "what is compassionate, humane or progressive about people living in their poop? About people getting beat up at night and stabbed? There is nothing progressive about that, nothing.",
+        "speaker": "Antonio Villaraigosa",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "if I could go back, I would have encouraged us to buy the older housing stock that's $300,000 a unit, rather than build new at a million a unit when the private marketplace could have built if we had just incentivized them at 600,000 a unit.",
+        "speaker": "Mayor Mahan",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "We spent $24 billion at the state level, and the fact is, homelessness went up.",
+        "speaker": "Antonio Villaraigosa",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The average unit in LA for permanent supportive housing is $850,000. Your kids can't afford that. We can build tiny homes, we're doing it in San Jose, we're doing it in LA for $100,000.",
+        "speaker": "Antonio Villaraigosa",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Democrats have been in office for 28 years. Why don't we build mental facilities?",
+        "speaker": "Antonio Villaraigosa",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "a lot of these people that are on drugs and mentally ill now, they weren't when they first got homeless, but after being homeless and threatened to be raped and beaten up and no food and everything else, yes, they start getting on drugs and they develop mental illnesses and a drug problem.",
+        "speaker": "Antonio Villaraigosa",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Tom Steyer",
+        "title": "Gubernatorial Candidate, California"
+      },
+      {
+        "name": "Xavier Becerra",
+        "title": "Gubernatorial Candidate / Former California Attorney General"
+      },
+      {
+        "name": "Katie Porter",
+        "title": "Gubernatorial Candidate / Former U.S. Representative"
+      },
+      {
+        "name": "Matt Mahan",
+        "title": "Mayor, San Jose / Gubernatorial Candidate"
+      },
+      {
+        "name": "Antonio Villaraigosa",
+        "title": "Former Mayor of Los Angeles / Gubernatorial Candidate"
+      }
+    ],
+    "keyword_candidates": [
+      "Tenant Protection Act",
+      "Homekey",
+      "Legislative Analyst Office (LAO)",
+      "permanent supportive housing",
+      "no-encampment zones",
+      "care courts",
+      "tax increment financing / redevelopment",
+      "California gubernatorial race 2026"
+    ]
+  },
+  "created_at": "2026-05-14T08:46:44.196733"
+}

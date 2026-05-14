@@ -1,0 +1,92 @@
+```json
+{
+  "guest": {
+    "name": null,
+    "title": "Panel of five California Democratic gubernatorial candidates: Tom Steyer, Xavier Becerra, Katie Porter, Matt Mahan, Antonio Villaraigosa"
+  },
+  "summary_ko": "이 에피소드는 2026년 캘리포니아 주지사 선거에 출마한 5명의 민주당 후보들—Tom Steyer, Xavier Becerra, Katie Porter, Matt Mahan, Antonio Villaraigosa—을 대상으로 Ezra Klein이 진행한 정책 집중 인터뷰다. 핵심 질문은 단순하다: 민주당이 장기 집권한 캘리포니아에서 왜 주택 공급과 노숙자 문제가 악화되었는가, 그리고 차기 주지사는 무엇을 다르게 할 것인가.\n\n주택 건설 비용 문제는 에피소드 전반부를 지배한다. RAND 연구에 따르면 캘리포니아의 아파트 건설 단가는 텍사스의 두 배 이상이며, 캘리포니아의 착공부터 완공까지 걸리는 기간은 49개월로 텍사스(27개월)를 크게 상회한다. 후보들은 영향 부담금(impact fees), 인허가 속도, 노동 임금 정책, CEQA 남용 등 비용 상승 요인을 각각 강조하며 서로 다른 진단을 내렸다. Matt Mahan 산호세 시장은 수수료를 3분의 2 이상 삭감한 결과 1년 만에 2,000채가 착공에 들어갔다고 밝혔고, Villaraigosa는 CEQA의 소송 구조가 리치먼드, 버지니아에 있는 사람도 캘리포니아 리치먼드의 프로젝트를 소송할 수 있도록 허용한다며 제도의 근본적 결함을 지적했다.\n\n노숙자 정책 논쟁은 중반부와 후반부에 걸쳐 전개된다. 2018년부터 2023년까지 캘리포니아 주 차원에서 240억 달러가 지출되었지만 노숙자 수는 오히려 증가했으며, 입법분석실(LAO)은 임대 보조와 Homekey 두 프로그램만 효과적이었다고 평가했다. Steyer는 '노숙 생활 자체가 정신 건강을 파괴한다'며 거리 생활을 신속히 종료하는 긴급 임시 주택 모델을 지지했고, Porter는 퇴거 예방을 위한 현금 직접 지원이 가구당 6,000달러로 영구 지원 주택 단위당 75만~100만 달러에 비해 압도적으로 효율적이라고 주장했다. Mahan은 임시 주택 입주 후 911·311 신고가 급감했다는 산호세의 실증 사례를 제시했다.\n\n에피소드는 민주당의 자기비판으로 마무리된다. Villaraigosa는 "민주당이 28년간 집권했는데 왜 정신 건강 시설을 짓지 않았냐"고 반문하며, 진보적 거버넌스의 실패에 대한 책임을 당 내부에서 물어야 한다고 주장했다. Becerra는 24억 달러 지출에도 성과 추적이 없었다고 인정했다. 전체적으로 이 에피소드는 캘리포니아의 주택·노숙자 위기가 이념 문제가 아니라 제도 설계와 집행 실패의 문제임을 드러낸다.",
+
+  "summary_en": "This episode of the Ezra Klein Show convenes five Democratic candidates for the 2026 California governorship—Tom Steyer, Xavier Becerra, Katie Porter, Matt Mahan, and Antonio Villaraigosa—for a policy stress test on the state's two most visible governance failures: catastrophically expensive housing construction and a homelessness crisis that worsened despite $24 billion in state spending.\n\nOn housing costs, the central empirical anchor is a RAND study showing California's per-square-foot apartment construction cost exceeds Texas's by more than double, with a 49-month average timeline versus 27 months in Texas. Candidates diverged on the primary culprit. Porter emphasized permitting speed as the dominant driver; Mahan pointed to impact fees, cutting them by over two-thirds in San Jose and triggering 2,000 new starts in a single year; Villaraigosa indicted CEQA's uniquely permissive standing rules, which allow out-of-state parties to sue California projects; and Steyer argued that modular construction could cut costs but requires state-level demand guarantees to achieve the scale that bankrupted predecessors like Katerra.\n\nOn homelessness, the candidates largely converged on a critique of Housing First orthodoxy and the absence of accountability. The LAO found only rental assistance and Homekey effective among all state-funded programs. Steyer argued that only one in seven people entering homelessness has a pre-existing mental illness, but nearly everyone who remains on the street develops one—making rapid indoor placement a mental health intervention, not just a shelter policy. Porter advocated for direct cash transfers at roughly $6,000 per household as a prevention tool, contrasting it with permanent supportive housing costing $750,000–$1 million per unit in Los Angeles. Mahan offered San Jose as a proof of concept: a prevention model validated by Notre Dame longitudinal research kept over 92% of assisted households stably housed without ongoing subsidy.\n\nThe episode's deeper argument is that California's failures are not primarily ideological but structural—the product of misaligned fiscal incentives (Prop 13's fiscalization of land use), litigation-permissive environmental law, and a categorical aversion to measuring outcomes. Several candidates, notably Becerra and Villaraigosa, offered unusually candid self-indictments of Democratic governance, framing the 2026 race less as a contest between left and center than as a referendum on whether the party can translate stated values into functional institutions.",
+
+  "key_points_ko": [
+    {
+      "heading": "캘리포니아 주택 건설비용은 구조적 요인으로 텍사스의 2배 이상",
+      "body": "RAND 연구에 따르면 캘리포니아의 아파트 건설 단가는 텍사스보다 두 배 이상 높으며, 착공부터 완공까지 49개월이 소요되어 텍사스(27개월)나 콜로라도(37개월)를 크게 상회한다. 저렴 주택의 경우 비용이 텍사스 시장가격의 4배에 달하며, 이는 캘리포니아의 주택 위기가 수요 문제만이 아님을 보여준다. Porter는 속도가 핵심 변수라고 강조했고, Mahan은 산호세에서 수수료를 3분의 2 이상 삭감하자 1년 만에 2,000채가 착공되었다는 실증 사례를 제시했다. Turner Center 분석은 주거용 건설에 표준 임금(prevailing wage)을 적용할 경우 단위당 약 9만 4,000달러의 비용이 추가된다고 추산했다. 이러한 다층적 비용 요인은 어느 하나의 정책 개혁만으로는 해결될 수 없음을 시사한다.",
+      "source_chunks": [0]
+    },
+    {
+      "heading": "CEQA 소송 구조와 인허가 지연이 공급을 실질적으로 차단",
+      "body": "Villaraigosa는 CEQA가 연방법 NEPA와 달리 환경적 이해관계 없이도 누구든 소송을 제기할 수 있도록 허용한다고 지적했다—버지니아 리치먼드에 사는 사람도 캘리포니아 리치먼드의 사업을 막을 수 있다. Stone Ranch 프로젝트는 33건의 CEQA 이의신청을 받았고, 29건을 해결한 후 한 건에서 패소하자 전체를 처음부터 다시 시작해야 했다. 샌프란시스코에는 허가와 용도지역 지정이 완료된 4만 채의 주택이 건설 비용 때문에 착공되지 않고 있다. 법적 분쟁이 사실상 공급 억제 도구로 작동하고 있으며, 이는 법 개정 없이는 인센티브 정책만으로 효과를 내기 어렵다는 것을 의미한다.",
+      "source_chunks": [0, 1]
+    },
+    {
+      "heading": "240억 달러 지출에도 성과 추적 부재로 노숙자 증가",
+      "body": "캘리포니아 주는 2018년부터 2023년까지 노숙자 문제에 240억 달러를 지출했지만 노숙자 수는 오히려 늘었다. 입법분석실(LAO)의 분석에 따르면 임대 보조와 Homekey 두 프로그램만이 효과적인 것으로 확인됐다. Becerra 전 법무장관은 '성과에 집중하지 않았다, 책임이 없었다'고 인정했다. 로스앤젤레스의 영구 지원 주택 평균 단가는 85만 달러, 산타모니카는 120만 달러에 달해 비용 대비 효율성에 근본적 의문이 제기된다. 이는 Housing First 프레임워크에 대한 이념적 집착이 성과 측정을 방해했음을 시사한다.",
+      "source_chunks": [1, 2]
+    },
+    {
+      "heading": "신속한 임시 주택 배치와 현금 지원이 비용 효율적 대안",
+      "body": "Steyer는 노숙 상태에 진입할 때 정신 건강 문제를 가진 사람은 7명 중 1명에 불과하지만, 거리 생활이 장기화되면 거의 모두가 정신 질환을 발전시킨다고 주장했다—이는 신속한 실내 배치가 복지 개입이자 정신 건강 개입임을 의미한다. Porter는 현금 직접 지원을 통한 퇴거 예방 비용이 가구당 6,000달러로, 영구 지원 주택 단위당 75만~100만 달러에 비해 압도적으로 효율적이라고 제시했다. Mahan의 산호세는 노트르담대학 종단 연구를 통해 일회성 임대 지원과 사례 관리를 결합한 모델이 지원 가구의 92% 이상을 지속적 공공 보조 없이 안정적으로 주거하게 했다고 입증했다. 이러한 접근은 고비용 영구 주택 건설 위주 정책에서 예방과 임시 주거로 중심축을 이동하는 패러다임 전환을 요구한다.",
+      "source_chunks": [1, 2]
+    },
+    {
+      "heading": "민주당 자기비판: 28년 집권에도 제도 실패 반복",
+      "body": "Villaraigosa는 민주당이 28년간 캘리포니아를 통치했음에도 정신 건강 시설을 짓지 않았고, 케어코트(care courts)가 존재하지만 카운티 차원의 책임 메커니즘이 없어 실제 활용이 어렵다고 비판했다. Becerra는 24억 달러 지출에도 성과 추적 체계가 없었음을 솔직하게 인정했다. LA에서는 Measure ULA—500만 달러 이상 부동산에 부과하는 양도세—가 RAND/UCLA 연구에서 건설을 84% 감소시킨 것으로 나타났다. 이 에피소드의 전체적 논조는 캘리포니아의 주택·노숙자 위기가 이념적 문제가 아닌 제도 설계와 집행 실패의 문제이며, 2026년 선거가 그 책임을 묻는 장이 되어야 한다는 것이다.",
+      "source_chunks": [1, 2]
+    }
+  ],
+
+  "key_points_en": [
+    {
+      "heading": "California's construction cost premium is structural, not incidental",
+      "body": "A RAND study quantifies California's apartment construction cost at more than double Texas's per square foot, with a 49-month average project timeline versus 27 months in Texas. Affordable housing in California costs roughly four times the market-rate Texas benchmark, compounding the affordability gap. Candidates identified overlapping culprits: permitting speed (Porter), impact fees (Mahan, Steyer, Villaraigosa), prevailing wage mandates adding ~$94,000 per unit (Turner Center analysis cited by Klein), and CEQA litigation. San Jose's fee reduction of over two-thirds produced 2,000 new starts in one year, demonstrating that at least one lever yields rapid results. The multiplicity of cost drivers means no single reform is sufficient.",
+      "source_chunks": [0]
+    },
+    {
+      "heading": "CEQA's permissive standing rules function as a supply veto",
+      "body": "Unlike NEPA, CEQA confers legal standing on parties with no environmental nexus to a project, enabling purely obstructive litigation from any geography. Villaraigosa illustrated this with the Stone Ranch project: after resolving 29 of 33 CEQA objections, a loss on the 30th required restarting all 33. San Francisco has 40,000 permitted and zoned units that remain unbuilt, not because of legal barriers but because construction economics are unworkable at current cost levels. Modular construction was proposed as a partial cost solution, but Katerra's $2 billion failure and subsequent collapses (Veve, Intecra) show that technology alone cannot overcome insufficient order volume. State-level procurement commitments and building code changes are needed to make the model viable.",
+      "source_chunks": [0, 1]
+    },
+    {
+      "heading": "$24 billion in homelessness spending failed for want of outcome accountability",
+      "body": "California spent $24 billion on homelessness between 2018 and 2023 under a predominantly Housing First framework, yet the unsheltered population grew. The LAO found only two programs—rental assistance and Homekey—demonstrably effective. Becerra acknowledged the failure directly: 'The accountability wasn't there.' Permanent supportive housing in Los Angeles averages $850,000 per unit, rising to $1.2 million in Santa Monica, making scale mathematically implausible at current public budgets. Measure ULA in Los Angeles, a transfer tax intended to fund affordable housing, was associated with an 84% drop in construction according to a RAND/UCLA study, illustrating how well-intentioned policy can produce counterproductive supply effects.",
+      "source_chunks": [1, 2]
+    },
+    {
+      "heading": "Rapid interim housing placement and direct cash transfers outperform permanent construction on cost-effectiveness",
+      "body": "Steyer argued that while only one in seven people entering homelessness has a pre-existing mental illness, prolonged street exposure reliably produces mental illness—making swift indoor placement a public health intervention. Emergency interim housing with private rooms, pets, and wraparound services achieves roughly 70% acceptance among unsheltered individuals, far exceeding traditional shelter uptake. Porter presented direct cash transfers for eviction prevention at a median cost of $6,000 per household, compared to $750,000–$1 million per permanent assisted unit. Mahan cited a Notre Dame longitudinal study confirming San Jose's prevention model kept over 92% of assisted households stably housed without ongoing subsidy. These findings collectively argue for a reallocation from capital-intensive construction toward prevention and temporary stabilization.",
+      "source_chunks": [1, 2]
+    },
+    {
+      "heading": "Democrats offer rare self-indictment of 28 years of one-party governance failure",
+      "body": "Villaraigosa posed the sharpest internal critique: Democrats have governed California for 28 years yet failed to build mental health facilities, and care courts exist on paper without county-level enforcement mechanisms. Becerra admitted that $24 billion was spent without tracking outcomes. Mahan offered a retrospective policy correction, stating he would have prioritized acquiring existing housing stock at $300,000 per unit over new construction at $1 million, with private-market incentives producing units at $600,000 as a middle path. The episode's through-line is that California's failures are not ideological but institutional—a product of Prop 13 fiscal misalignment, litigation-weaponized environmental law, and the absence of performance measurement. The 2026 race is implicitly framed as a test of whether the Democratic Party can hold itself accountable.",
+      "source_chunks": [0, 1, 2]
+    }
+  ],
+
+  "notable_quote_ko": {
+    "text": "진보적인 것, 인도주의적인 것, 동정심 있는 것이 자신의 대변 속에서 사는 것이라고요? 밤에 두들겨 맞고 칼에 찔리는 것이요? 거기에는 진보적인 것이 아무것도 없습니다. 아무것도요.",
+    "attribution": "Antonio Villaraigosa, 전 로스앤젤레스 시장 / 주지사 후보"
+  },
+  "notable_quote_en": {
+    "text": "what is compassionate, humane or progressive about people living in their poop? About people getting beat up at night and stabbed? There is nothing progressive about that, nothing.",
+    "attribution": "Antonio Villaraigosa, Former Mayor of Los Angeles / Governor Candidate"
+  },
+  "keywords_en": [
+    "California housing construction costs",
+    "CEQA reform",
+    "Housing First accountability",
+    "impact fees",
+    "emergency interim housing",
+    "California gubernatorial race 2026"
+  ],
+  "keywords_ko": [
+    "캘리포니아 주택 건설비용",
+    "CEQA 개혁",
+    "Housing First 책임성",
+    "impact fees (영향 부담금)",
+    "긴급 임시 주택",
+    "캘리포니아 주지사 선거 2026"
+  ]
+}
+```

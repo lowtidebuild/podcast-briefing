@@ -1,0 +1,138 @@
+{
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_hash": "d490da43e933449ce8d233ffd332c754d293731315bf9923d9d210ae60186193",
+  "chunk_hash": "d153c2f870c1e75c2c2f983a0ba8323afb06d39f36ee11f9cabdd5cce4a6c390",
+  "chunk_index": 2,
+  "char_start": 67085,
+  "char_end": 80913,
+  "extraction": {
+    "chunk_index": 2,
+    "char_start": 67085,
+    "char_end": 80913,
+    "topics": [
+      "Stand Together philanthropy and bottom-up social change",
+      "Economic mobility and barriers under capitalism",
+      "AI and human empowerment",
+      "Co-authoring the book: father-son dynamic",
+      "Charles Koch's vision for America's legacy"
+    ],
+    "claims": [
+      {
+        "claim": "Stand Together's model of betting on bottom-up leaders rather than top-down programs produces dramatically better outcomes, exemplified by Scott Strode's Phoenix program achieving sub-10% relapse rates and scaling to one million people.",
+        "evidence": [
+          "Scott Strode's Phoenix combined community and exercise to achieve relapse rates below 10%",
+          "Started with a couple of gyms in Colorado impacting a few thousand people; reached one million people overcoming addiction within roughly seven to eight years",
+          "Stand Together funded and scaled his model rather than creating a top-down addiction program"
+        ],
+        "speakers": [
+          "Chase Koch"
+        ]
+      },
+      {
+        "claim": "Occupational licensing and anti-competitive regulations are primary structural barriers preventing low-income individuals from entering markets and achieving economic mobility.",
+        "evidence": [
+          "Charles Koch states hundreds of occupations have licensing requirements that make it impossible for someone starting with nothing to enter",
+          "He frames this as both parties being responsible for setting up obstacles",
+          "He links tariffs to undermining comparative advantage and making everything more expensive"
+        ],
+        "speakers": [
+          "Charles Koch"
+        ]
+      },
+      {
+        "claim": "Koch Industries has developed an AI app called Principle Companion that uses a Socratic method to help users apply Koch's market-based management principles to real problems.",
+        "evidence": [
+          "The app is available in the app store under the name 'Principle Companion'",
+          "It asks users questions rather than giving direct answers, applying a Socratic method",
+          "It is powered by principles from the new book and applied internally at Koch"
+        ],
+        "speakers": [
+          "Chase Koch"
+        ]
+      },
+      {
+        "claim": "Chase Koch argues that writing the book with his father was the most important project of his life and that he learned more in 18 months than in the previous 18 years.",
+        "evidence": [
+          "Chase states: 'I've learned more in the last 18 months than I probably have the last 18 years'",
+          "He attributes this to the depth of learning required when teaching through writing",
+          "He noted they went through 27 versions of one chapter on stewardship"
+        ],
+        "speakers": [
+          "Chase Koch"
+        ]
+      },
+      {
+        "claim": "Charles Koch believes the U.S. entitlement structure is nearly impossible to reverse without a severe economic crisis, and cites Argentina under Milei as the only near-contemporary example of attempted reversal.",
+        "evidence": [
+          "Koch states 'once you create these entitlements, you almost can never get rid of them'",
+          "He references Argentina as being 'in worse shape' and having 'gone through it'",
+          "He contrasts Argentina's situation with the U.S., which 'hasn't gone through it yet'"
+        ],
+        "speakers": [
+          "Charles Koch"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "if you believe that people aren't the problems to be solved, the people that are in the problem, they're the ones with the best ideas, and they're the source of the solution, that's a totally different mindset",
+        "speaker": "Chase Koch",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "He just hit a million people basically overcoming addiction in this last year. That's a movement, right?",
+        "speaker": "Chase Koch",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "once you create these entitlements, I mean, you almost can never get rid of them",
+        "speaker": "Charles Koch",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "we've got to work for a system where we remove the barriers that are holding people back from realizing their potential, finding their gifts, realizing their potential, and succeeding by contributing",
+        "speaker": "Charles Koch",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "you really don't know something until you have to teach it. And writing a book is a form of like trying to teach others with it.",
+        "speaker": "Chase Koch",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I want our country to more fully live up to the promise in the Declaration of Independence.",
+        "speaker": "Charles Koch",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Charles Koch",
+        "title": "Executive Chairman, Koch Industries"
+      },
+      {
+        "name": "Chase Koch",
+        "title": "President, Koch Disruptive Technologies / Koch Industries"
+      }
+    ],
+    "keyword_candidates": [
+      "Stand Together",
+      "Scott Strode",
+      "The Phoenix",
+      "Principle Companion app",
+      "market-based management",
+      "occupational licensing",
+      "permissionless innovation",
+      "Declaration of Independence"
+    ]
+  },
+  "created_at": "2026-05-14T08:57:38.469985"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "2026-05-12-all-in-podcast",
+  "episode_id": "f5d08f4f-4184-461a-933c-ad65230eb5e0",
+  "podcast": "All-In Podcast",
+  "title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
+  "published": "2026-05-12T21:03:00+00:00",
+  "stage": "episode_synthesis",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "attempts": 6,
+  "errors": [
+    "summary parsing failed"
+  ],
+  "warnings": [],
+  "generation_errors": [
+    "all 3 episode_synthesis attempts failed to produce valid JSON"
+  ],
+  "generation_warnings": [],
+  "artifacts": {
+    "chunks": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-12-all-in-podcast/chunks.json",
+    "extraction_report": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-12-all-in-podcast/extraction_report.json",
+    "raw_dir": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-12-all-in-podcast/raw",
+    "synthesis": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-12-all-in-podcast/synthesis.json"
+  },
+  "usage": {
+    "transcript_chars": 80913,
+    "chunk_count": 3,
+    "extracted_chunk_count": 3,
+    "cache_hits": 0,
+    "extraction_prompt_input_chars": 85349,
+    "synthesis_prompt_chars": 17201,
+    "synthesis_input_reduction_ratio": 0.7874
+  },
+  "raw_output_path": "/home/runner/work/podcast-briefing/podcast-briefing/data/failures/raw/2026-05-12-all-in-podcast.txt",
+  "created_at": "2026-05-14T09:02:26.453937"
+}

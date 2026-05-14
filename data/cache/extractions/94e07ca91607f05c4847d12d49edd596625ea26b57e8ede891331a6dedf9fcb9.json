@@ -1,0 +1,162 @@
+{
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_hash": "d490da43e933449ce8d233ffd332c754d293731315bf9923d9d210ae60186193",
+  "chunk_hash": "16d28664bc779abe4154ab7244545591b007c8da88591cbf657d36385745e47a",
+  "chunk_index": 1,
+  "char_start": 32638,
+  "char_end": 67085,
+  "extraction": {
+    "chunk_index": 1,
+    "char_start": 32638,
+    "char_end": 67085,
+    "topics": [
+      "Koch Industries culture and talent philosophy",
+      "Private vs. public company ownership advantages",
+      "Stand Together philanthropy and education reform",
+      "Charles Koch's political evolution and mistakes",
+      "Chase Koch's personal development and comparative advantage"
+    ],
+    "claims": [
+      {
+        "claim": "Koch Industries' talent philosophy prioritizes values first, skills second, and credentials last, contrasting with most companies that prioritize credentials from elite institutions.",
+        "evidence": [
+          "CIO Jared Benson started by striping lines in Koch's parking lot with no college degree and rose to CIO over ~20 years",
+          "Koch stayed in Wichita to hire people with a 'contribution-motivated mindset' rather than an entitlement mindset",
+          "Chase explicitly states: 'Values first, skills second, credentials last'"
+        ],
+        "speakers": [
+          "Chase Koch",
+          "Charles Koch"
+        ]
+      },
+      {
+        "claim": "Remaining private allowed Koch Industries to pursue a capability-bounded rather than industry-bounded acquisition strategy that public markets would not understand or reward.",
+        "evidence": [
+          "Charles Koch said going public would have been 'over my dead body'",
+          "Georgia-Pacific would have had a low price-earnings ratio as a public company due to its conglomerate nature",
+          "Charles contrasts Koch's integration approach with Buffett's, noting Buffett 'wasn't trying to integrate them the way we do'"
+        ],
+        "speakers": [
+          "Charles Koch",
+          "Chase Koch"
+        ]
+      },
+      {
+        "claim": "Chase Koch fired himself as president of Koch Fertilizer after nine months, recognizing he lacked comparative advantage as an operator and was better suited as a builder.",
+        "evidence": [
+          "He walked into his boss's office and resigned the role he had been promoted to",
+          "A new president was brought in and the fertilizer business became 'one of our most exciting businesses today'",
+          "Chase's departure led directly to the creation of Koch Disruptive Technologies, an innovation platform"
+        ],
+        "speakers": [
+          "Chase Koch"
+        ]
+      },
+      {
+        "claim": "Stand Together's education reform efforts helped seed over 5,000 schools since COVID, and public openness to alternative education models rose from ~20% pre-COVID to 70-80% post-COVID.",
+        "evidence": [
+          "Pre-COVID, roughly 20% of families were open to new education models",
+          "Post-COVID, 70-80% of families are open to transforming the education system",
+          "Stand Together partnered with Walton family via the Vela Fund to apply venture capital to education entrepreneurs"
+        ],
+        "speakers": [
+          "Chase Koch"
+        ]
+      },
+      {
+        "claim": "Charles Koch admits his biggest political mistake was trying to achieve principle-based policy change through one political party rather than working across party lines.",
+        "evidence": [
+          "He initially avoided major party politics for the first 50 of his 60+ years of social change work",
+          "Engagement with the Libertarian Party 'blew up in our face'",
+          "He now follows Frederick Douglass's advice: 'work with anyone to do right, no one to do wrong'"
+        ],
+        "speakers": [
+          "Charles Koch"
+        ]
+      },
+      {
+        "claim": "Viktor Frankl's insight that people without meaning resort to power or pleasure is central to Charles Koch's framework for understanding societal decline toward authoritarianism.",
+        "evidence": [
+          "Koch quotes Frankl: 'ever more people have the means to live and no meaning to live for'",
+          "Koch argues the power-seeking path leads to addiction to power and produces dictators and politicians",
+          "Koch states: 'when you have a world that is based on power and pleasure, it's a slippery slope to totalitarianism, authoritarianism and socialism'"
+        ],
+        "speakers": [
+          "Charles Koch"
+        ]
+      },
+      {
+        "claim": "Molex, acquired in 2013, required a cultural shift from top-line revenue thinking (driven by public market incentives) to bottom-line empowerment thinking after 30+ years as a public company.",
+        "evidence": [
+          "Molex is described as one of the largest connector and cabling companies in the world, making products in iPhones, MedTech, and automobiles",
+          "It had been a public company for 30-plus years prior to Koch acquisition in 2013",
+          "Chase says the paradigm shift required was from 'top-line thinking versus bottom-line thinking'"
+        ],
+        "speakers": [
+          "Chase Koch"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "Values first, skills second, credentials last. And that is a very different mindset than most companies.",
+        "speaker": "Chase Koch",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Almost every time when we fail, it comes down to ignoring the principles.",
+        "speaker": "Chase Koch",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I walked in my boss's office and fired myself and humiliating, right? It's like, especially being the boss's son.",
+        "speaker": "Chase Koch",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "the problem today is ever more people have the means to live and no meaning to live for.",
+        "speaker": "Charles Koch",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "the mistake we made or I made is trying to do it through one party. You can't do that. So now we follow Frederick Douglass's advice to work with anyone to do right and no one to do wrong.",
+        "speaker": "Charles Koch",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "If God is just, I despair for the future of our country.",
+        "speaker": "Charles Koch",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Charles Koch",
+        "title": "Chairman & CEO, Koch Industries"
+      },
+      {
+        "name": "Chase Koch",
+        "title": "President, Koch Disruptive Technologies; Co-author, Koch Industries leadership"
+      }
+    ],
+    "keyword_candidates": [
+      "Koch Industries",
+      "Stand Together",
+      "comparative advantage",
+      "Koch Disruptive Technologies",
+      "Vela Fund",
+      "Molex",
+      "Viktor Frankl",
+      "Alpha School"
+    ]
+  },
+  "created_at": "2026-05-14T08:57:13.084595"
+}

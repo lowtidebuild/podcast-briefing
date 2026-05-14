@@ -1,0 +1,19 @@
+{
+  "slug": "2026-05-12-all-in-podcast",
+  "prompt_version": "episode-synthesis-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_chars": 80913,
+  "chunk_count": 3,
+  "cache_hits": 0,
+  "synthesis_prompt_chars": 17201,
+  "synthesis_input_reduction_ratio": 0.7874,
+  "parse_succeeded": false,
+  "summary": null,
+  "errors": [
+    "all 3 episode_synthesis attempts failed to produce valid JSON"
+  ],
+  "warnings": [],
+  "raw_output_path": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-12-all-in-podcast/raw/synthesis.txt",
+  "created_at": "2026-05-14T09:02:26.453722"
+}
