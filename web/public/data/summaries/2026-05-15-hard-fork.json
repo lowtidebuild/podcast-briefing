@@ -1,0 +1,96 @@
+{
+  "id": "a6a28c49-6456-487a-861d-92ce61e17798",
+  "slug": "2026-05-15-hard-fork",
+  "podcast": "Hard Fork",
+  "category": "AI / Tech",
+  "title": "A.I. Safety Is So Back + Mythos Mayhem with Nikesh Arora + Hot Mess Express",
+  "published": "2026-05-15T11:00:00+00:00",
+  "link": "https://www.nytimes.com/column/hard-fork",
+  "podcast_url": "https://www.nytimes.com/column/hard-fork",
+  "guest": {
+    "name": "Nikesh Arora",
+    "title": "CEO & Chairman, Palo Alto Networks"
+  },
+  "summary_ko": "Claude Mythos — Anthropic의 제한적으로 공개된 사이버보안 특화 AI 모델 — 는 미국 AI 정책의 근본적인 전환을 촉발했습니다. 이 모델 하나가 단 몇 주 만에 연방정부, 사이버보안 업계, 그리고 국제 외교 무대를 동시에 흔들었다는 사실이 이 에피소드의 핵심입니다.\n\nTrump 행정부는 출범 첫날 Biden의 AI 안전 행정명령을 폐기하며 '규제는 혁신을 죽인다'는 입장을 고수해 왔습니다. 그러나 Mythos가 코드베이스에서 zero-day 취약점을 자동으로 발굴하고 daisy-chain 방식으로 연결해 공격 경로를 구성할 수 있다는 사실이 알려지자, 행정부 내 '심각한 인사들'은 태도를 급선회했습니다. 현재 행정부는 출시 전 AI 모델 검토 절차를 담은 새로운 행정명령을 검토 중입니다 — 불과 1년 전 '공산주의적 발상'이라 불렸던 바로 그 정책입니다.\n\n모순은 구조적입니다. Pentagon은 Anthropic을 공급망 위험으로 지정해 계약을 해지하는 동시에, 같은 조직 내 다른 부서는 Mythos를 취약점 탐지 목적으로 배포하고 있습니다. Trump 대통령은 Jensen Huang을 Air Force One에 태워 중국에 NVIDIA 칩 수출 확대를 논의하러 가면서도, 고위 관료들은 Mythos급 모델이 중국의 손에 들어가는 것을 막아야 한다고 주장합니다. 칩을 팔면서 모델을 막는 전략은 근본적으로 자기모순입니다 — 칩이 곧 모델을 만드는 수단이기 때문입니다.\n\nPalo Alto Networks의 Nikesh Arora는 Mythos 접근 이후 자사 시스템에서 통상 월평균 5건 수준이던 임계 취약점 패치 건수가 26건(75개 이슈)으로 급증했다고 밝혔습니다. 더 심각한 문제는 시간입니다. 기존 사이버보안 인프라는 침해 후 '일(日)' 단위 대응을 전제로 설계되었지만, AI 지원 공격은 이 시간을 '분(分)' 단위로 압축합니다. 30년치 코드 부채가 단 몇 주 만에 노출되고 있으며, 특히 병원·제조업 등 비기술 기업은 패치 자원조차 부족합니다. 90일 책임 공개 원칙은 사실상 사망 선고를 받았습니다.",
+  "summary_en": "A single AI model — Anthropic's narrowly released Claude Mythos — has done more to shift U.S. AI policy in four weeks than years of advocacy by safety researchers. That is the central story of this episode, and it carries implications well beyond cybersecurity.\n\nThe Trump administration spent its first year treating AI safety concerns as regulatory overreach by liberal alarmists, cancelling Biden's frontier model review framework on day one. Mythos changed the calculus: a model capable of autonomously discovering zero-day vulnerabilities, chaining them into attack sequences, and operating in a persistent 'ultra mode' that sustains computation far longer than conventional models forced a reckoning. The administration is now drafting an executive order that would institute pre-release model review — the very policy it mocked as communist eighteen months ago. Ted Cruz is using the phrase 'catastrophic risk.' The Overton window has moved, but the policy architecture remains incoherent.\n\nThe incoherence is structural, not incidental. The Pentagon simultaneously designated Anthropic a supply-chain risk and deployed Mythos internally. The President flew Jensen Huang to Beijing to negotiate expanded NVIDIA chip exports while senior officials warn that Mythos-class models must not reach Chinese hands — apparently unaware that chips are what produce such models. This is not a communication failure; it reflects a genuine factional war between a 'let them cook' laissez-faire camp and a newly hawkish safety bloc inside the Republican Party.\n\nNikesh Arora of Palo Alto Networks — which received early Mythos access — provided the most concrete evidence of what this inflection point means operationally: his firm patched 26 critical vulnerabilities covering 75 issues in weeks, against a baseline of under five per comparable period. The 90-day responsible disclosure window, the bedrock of cybersecurity practice for decades, is functionally obsolete when AI-assisted attacks can achieve initial access and data exfiltration in 25 minutes. Hospitals, manufacturers, and small businesses — institutions whose core competency is not technology — face the greatest exposure and have the fewest resources to respond.",
+  "key_points_ko": [
+    {
+      "heading": "Mythos 한 모델이 수십 년간의 AI 안전 논쟁을 단 4주 만에 뒤집었다",
+      "body": "Trump 행정부는 Biden의 프런티어 모델 사전 검토 제도를 '반혁신'이라 폐기했지만, Mythos가 zero-day 취약점을 자율적으로 발굴하고 연쇄 공격 경로를 구성할 수 있다는 사실이 확인된 후 동일한 정책을 재추진하고 있습니다. 이는 기술 역량이 정치적 이념보다 빠르게 움직인 사례입니다. Ted Cruz가 '파국적 위험'을 공개적으로 언급하고, 공화당 주 의회들이 이미 AI 규제 입법을 경쟁적으로 추진해 온 사실은, Trump 행정부의 '전속력' 노선이 당내에서도 소수 의견이었음을 보여줍니다. 문제는 규제의 방향입니다 — 안전 우려가 아닌 정치적 판단('woke하고 gay하다')으로 모델 출시를 막을 위험은 현실적입니다."
+    },
+    {
+      "heading": "행정부의 AI 전략은 일관된 정책이 아니라 충돌하는 파벌들의 합산이다",
+      "body": "Pentagon은 Anthropic을 공급망 위험으로 지정해 계약을 법원에서 다투는 동시에, 같은 조직 내부에서 Mythos를 취약점 스캔 목적으로 운용하고 있습니다. Trump 대통령은 Jensen Huang을 Air Force One에 동승시켜 중국에 NVIDIA 최고사양 칩 수출 확대를 논의했지만, 행정부 내 다른 인사들은 Mythos급 모델이 중국에 유출되는 것을 막아야 한다고 주장합니다. NVIDIA 칩이 곧 Mythos급 모델을 훈련시키는 수단이라는 점에서 이 두 입장은 근본적으로 양립 불가능합니다. 이 모순은 소통 실패가 아니라, '자유방임' 진영과 새롭게 부상한 '안전 강경파' 진영 사이의 실질적인 권력 투쟁을 반영합니다."
+    },
+    {
+      "heading": "Mythos는 30년치 코드 부채를 수주 만에 수면 위로 끌어올렸다",
+      "body": "Palo Alto Networks는 Mythos 접근 이후 월평균 5건 미만이던 임계 취약점을 6주 만에 26건(75개 이슈)으로 발굴했습니다. Nikesh Arora는 이를 '취약점 부채의 대청소'라고 표현했지만, 문제는 모든 기업이 이 청소를 감당할 자원을 가진 것은 아니라는 점입니다. 금융기관은 자체 엔지니어링 역량으로 대응할 수 있지만, 병원·소규모 제조업체·의사 진료소 같은 비기술 기업은 그렇지 않습니다 — Change Healthcare 침해 사태가 전체 미국 의료 청구 생태계를 마비시킨 것이 그 예입니다. AI 지원 공격이 침해부터 데이터 유출까지 25분으로 압축하는 상황에서 90일 책임 공개 원칙은 사실상 무효입니다."
+    },
+    {
+      "heading": "공격자와 방어자가 동일한 모델을 사용할 때, 구조적으로 공격자가 유리하다",
+      "body": "Arora는 이를 'Batman vs Superman' 문제로 정의했습니다: 방어자는 100% 막아야 하고, 공격자는 단 한 번만 성공하면 됩니다. Mythos가 평균 5~7배 더 많은 취약점을 발굴한다면, 공격자가 동일한 모델을 사용할 경우 패치되지 않은 코드 하나만 찾으면 충분합니다. Mythos의 'ultra mode'는 일반 모델보다 훨씬 긴 지속 연산을 허용해 daisy-chain 공격을 더 효과적으로 구성할 수 있게 합니다 — 이것이 Anthropic이 광범위 출시를 보류한 핵심 이유입니다. Mozilla가 2025년 월평균 22건이던 보안 버그 수정 건수를 2026년 4월 한 달에만 423건 처리한 것, Google이 처음으로 AI가 개발한 것으로 추정되는 zero-day 익스플로잇을 공격자가 사용한 사례를 확인한 것은 이 전환점이 이미 진행 중임을 보여줍니다."
+    },
+    {
+      "heading": "AI에 대한 젊은 세대의 반감은 정치권이 가정하는 것보다 훨씬 광범위하고 조직적이다",
+      "body": "University of Central Florida 졸업식에서 수천 명의 졸업생이 'AI는 차세대 산업혁명'이라는 연사의 발언에 야유를 보내고 'AI sucks'를 외친 사건은 단순한 해프닝이 아닙니다. 공화당·민주당 지지자 모두 AI에 깊은 회의감을 공유하고 있으며, 이는 주 의회 차원의 규제 입법 경쟁으로 이미 가시화되어 있습니다. Trump 행정부가 'AI 규제 모라토리엄'에 에너지를 쏟아야 했던 이유도 여기에 있습니다 — 규제를 원하는 유권자들을 설득하기 위해서입니다. 예술·인문학 전공 졸업생들의 반감은 AI가 창작 노동을 직접적으로 위협한다는 인식에서 비롯된 것으로, 기술 낙관론자들이 간과하는 정치적 현실입니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "One model undid years of the Trump administration's AI safety denialism in four weeks",
+      "body": "The administration cancelled Biden's pre-release model review framework on its first day in office, dismissing it as anti-innovation overreach. Mythos — capable of autonomously finding zero-day exploits, chaining them into attack sequences, and operating in a persistent compute mode unavailable to standard models — forced a reversal: an executive order re-instituting something nearly identical is now reportedly in preparation. The speed of this reversal matters because it reveals the 'let them cook' doctrine was always politically contingent rather than principled. Ted Cruz publicly invoking 'catastrophic risk,' and Republican state legislatures already racing to regulate AI, suggest the administration's maximalist posture represented a narrow factional position within its own coalition, not a settled political consensus."
+    },
+    {
+      "heading": "The administration's AI strategy is not incoherent — it is the sum of two genuinely incompatible factions",
+      "body": "The Pentagon is simultaneously litigating Anthropic's designation as a supply-chain risk and deploying Mythos internally for vulnerability scanning. The President flew Jensen Huang to Beijing to negotiate expanded NVIDIA chip exports to China while senior officials warn Mythos-class models must not reach Chinese hands — overlooking that NVIDIA chips are the means by which such models are trained. This is not a communication failure; it is a live power struggle between a laissez-faire tech-industry-aligned bloc and a newly hawkish safety faction. Which side prevails matters enormously: a safety regime captured by political loyalists could suppress model releases on ideological rather than security grounds, a risk the hosts flag explicitly."
+    },
+    {
+      "heading": "Mythos surfaced three decades of accumulated code debt in weeks — and not every institution can afford the repair bill",
+      "body": "Palo Alto Networks patched 26 critical vulnerabilities covering 75 issues after Mythos access, against a baseline of under five per comparable period — a five-to-seven-times spike that Nikesh Arora described as a 'great cleansing' of vulnerability debt. Mozilla processed 423 security bug fixes in April 2026 alone, against a monthly average of 22 throughout 2025. The problem is unevenly distributed: financial institutions have the engineering depth to respond; hospitals, small manufacturers, and medical practices — the institutions that process the most sensitive data and run the oldest code — largely do not. The Change Healthcare breach, which paralysed U.S. medical billing, is the template for what a Mythos-assisted attack on an under-resourced institution could produce at scale."
+    },
+    {
+      "heading": "When attackers and defenders share the same model, the structural advantage belongs to the attacker",
+      "body": "Arora framed this as an asymmetric contest: defenders must be right 100% of the time; attackers need to succeed once. If Mythos finds five-to-seven times more vulnerabilities than prior methods, an adversary with equivalent access needs only a single unpatched entry point. Mythos's 'ultra mode' — which sustains computation far longer than standard flash-mode models — enables more effective daisy-chaining of vulnerabilities, which is precisely why Anthropic withheld general release. Google's Threat Intelligence Group has already confirmed the first attacker-deployed zero-day exploit developed with AI assistance, meaning this is no longer a theoretical risk. The 90-day responsible disclosure window, the foundational convention of cybersecurity practice, is functionally dead when AI-assisted attacks compress breach-to-exfiltration timelines to 25 minutes."
+    },
+    {
+      "heading": "Young people's hostility to AI is broader and more politically potent than the tech industry assumes",
+      "body": "Thousands of University of Central Florida graduates booed a commencement speaker who called AI 'the next industrial revolution' — a detail that is data, not anecdote. Polling consistently shows Republicans and Democrats aligned in deep AI scepticism, a reality already visible in the bipartisan wave of state-level AI regulation that forced the Trump administration to spend political capital lobbying for a federal moratorium. The graduates in question were arts and humanities students — precisely the cohort whose labour AI most directly threatens to automate. Tech executives who model public reception of AI on the enthusiasm of early-adopter engineers are reading a biased sample; the political backlash is structurally underpriced."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "우리는 방어자로서 100% 맞아야 합니다. 나쁜 사람들은 단 한 번만 맞으면 됩니다. 그러니 이것은 처음부터 불균형한 싸움입니다.",
+    "attribution": "Nikesh Arora, CEO & Chairman, Palo Alto Networks"
+  },
+  "notable_quote_en": {
+    "text": "We have to be right 100% of the time. The bad guys are right once. So it's an uneven playing field from that perspective",
+    "attribution": "Nikesh Arora, CEO & Chairman, Palo Alto Networks"
+  },
+  "notable_quote": {
+    "source_text_en": "We have to be right 100% of the time. The bad guys are right once. So it's an uneven playing field from that perspective",
+    "translation_ko": "우리는 방어자로서 100% 맞아야 합니다. 나쁜 사람들은 단 한 번만 맞으면 됩니다. 그러니 이것은 처음부터 불균형한 싸움입니다.",
+    "speaker": "Nikesh Arora",
+    "attribution": "Nikesh Arora, CEO & Chairman, Palo Alto Networks",
+    "is_verbatim": true,
+    "translation_is_verbatim": false,
+    "source_char_start": 42590,
+    "source_char_end": 42710,
+    "match_score": 1.0
+  },
+  "keywords_ko": [
+    "Claude Mythos",
+    "zero-day 익스플로잇",
+    "AI 안전 규제",
+    "책임 공개 원칙",
+    "사이버 취약점 부채",
+    "AI 정책 파벌 갈등"
+  ],
+  "keywords_en": [
+    "Claude Mythos",
+    "zero-day exploit",
+    "AI safety regulation",
+    "responsible disclosure",
+    "cyber vulnerability debt",
+    "AI policy factionalism"
+  ],
+  "generated_at": "2026-05-18T10:04:20.060596"
+}

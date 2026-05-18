@@ -1,5 +1,47 @@
 [
   {
+    "slug": "2026-05-18-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "Odd Lots: Why the Price of Oil, Beef, Electricity, and Everything Else Makes No Sense (Podcast)",
+    "published": "2026-05-18T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-17-fareed-zakaria-gps",
+    "podcast": "Fareed Zakaria GPS",
+    "category": "Politics / Geopolitics",
+    "title": "Takeaways from the US-China summit; Jason Furman on the New Fed chair",
+    "published": "2026-05-17T16:35:00"
+  },
+  {
+    "slug": "2026-05-15-all-in-podcast",
+    "podcast": "All-In Podcast",
+    "category": "Politics / Geopolitics",
+    "title": "Trump-Xi Summit, Benioff: \"Not My First SaaSpocalypse,\" OpenAI vs Apple, Multi-Sensory AI, El Niño",
+    "published": "2026-05-15T21:21:00+00:00"
+  },
+  {
+    "slug": "2026-05-15-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "Vitalik Buterin on Human Agency in the AI Era",
+    "published": "2026-05-15T19:04:28+00:00"
+  },
+  {
+    "slug": "2026-05-15-hard-fork",
+    "podcast": "Hard Fork",
+    "category": "AI / Tech",
+    "title": "A.I. Safety Is So Back + Mythos Mayhem with Nikesh Arora + Hot Mess Express",
+    "published": "2026-05-15T11:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-15-ezra-klein-show",
+    "podcast": "Ezra Klein Show",
+    "category": "Politics / Geopolitics",
+    "title": "This Is Why I Find Pema Chödrön So Essential",
+    "published": "2026-05-15T09:00:00+00:00"
+  },
+  {
     "slug": "2026-05-14-odd-lots",
     "podcast": "Odd Lots",
     "category": "Macro / Markets",
@@ -306,47 +348,5 @@
     "category": "Macro / Markets",
     "title": "Odd Lots: War in Iran Is Already Reshaping East Asia's Energy Future (Podcast)",
     "published": "2026-04-15T08:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-14-ezra-klein-show",
-    "podcast": "Ezra Klein Show",
-    "category": "Politics / Geopolitics",
-    "title": "Reckoning With Israel’s ‘One-State Reality’",
-    "published": "2026-04-14T09:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-13-making-sense",
-    "podcast": "Making Sense",
-    "category": "Philosophy / AI Ethics",
-    "title": "#470 — Democrats at a Crossroads",
-    "published": "2026-04-13T17:55:00+00:00"
-  },
-  {
-    "slug": "2026-04-12-fareed-zakaria-gps",
-    "podcast": "Fareed Zakaria GPS",
-    "category": "Politics / Geopolitics",
-    "title": "President Trump Threatens to Blockade the Strait of Hormuz; Former Secretary of State Antony Blinken on His Experience Negotiating with Iran",
-    "published": "2026-04-12T16:58:00"
-  },
-  {
-    "slug": "2026-04-11-odd-lots",
-    "podcast": "Odd Lots",
-    "category": "Macro / Markets",
-    "title": "The Big Macro Force That's Been Driving Stocks Higher for Years",
-    "published": "2026-04-11T08:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-10-all-in-podcast",
-    "podcast": "All-In Podcast",
-    "category": "Politics / Geopolitics",
-    "title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
-    "published": "2026-04-10T22:17:00+00:00"
-  },
-  {
-    "slug": "2026-04-10-making-sense",
-    "podcast": "Making Sense",
-    "category": "Philosophy / AI Ethics",
-    "title": "#469 — Escaping an Anti-Human Future",
-    "published": "2026-04-10T17:25:00+00:00"
   }
 ]
