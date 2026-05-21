@@ -1,0 +1,150 @@
+{
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_hash": "ffdd97f4e6a87bf4b210489d5d6289ee7de27d8a0742bc3285fa8de84a34f050",
+  "chunk_hash": "76ed5414f85ef55abcdb4256898b2f78ef081a3ed6b57a3c450c1087da55c3a7",
+  "chunk_index": 6,
+  "char_start": 192854,
+  "char_end": 222634,
+  "extraction": {
+    "chunk_index": 6,
+    "char_start": 192854,
+    "char_end": 222634,
+    "topics": [
+      "AI consciousness and human anthropomorphism",
+      "AI-driven societal transformation and optimism",
+      "AI sycophancy and honesty in LLMs",
+      "Genetic engineering and artificial gestation",
+      "Neural interfaces and future human communication"
+    ],
+    "claims": [
+      {
+        "claim": "Humans will attribute consciousness to AI long before AI is actually conscious, and some will form religious movements around AI",
+        "evidence": [
+          "People already fall in love with AI chatbots the way they fell in love with Jimmy Cricket or movie stars",
+          "A friend of the speaker started an AI church; he was one of the original creators of self-driving cars",
+          "Speaker predicts AI cults and movements will emerge"
+        ],
+        "speakers": [
+          "Marc Andreessen"
+        ]
+      },
+      {
+        "claim": "AI will be highly effective at detecting government fraud by analyzing large datasets like Medicare billing records",
+        "evidence": [
+          "White House task force on fraud is already using AI to find Medicare fraud",
+          "AI identified fake hospices that had no patients for 10 years",
+          "Speaker says this was part of the original DOGE plan and is now being revived"
+        ],
+        "speakers": [
+          "Marc Andreessen"
+        ]
+      },
+      {
+        "claim": "AI will dramatically increase creative and professional productivity, enabling people like Martin Scorsese to produce work far more frequently",
+        "evidence": [
+          "Scorsese is 84, at the height of his powers, but each film takes ~3 years; AI could compress that to months or weeks",
+          "Speaker imagines the world's best cancer doctor serving 10 million patients via AI assistance",
+          "Speaker envisions novelists producing great work monthly rather than annually"
+        ],
+        "speakers": [
+          "Marc Andreessen",
+          "Joe Rogan"
+        ]
+      },
+      {
+        "claim": "AI sycophancy is a serious and recognized problem in current LLMs, and leading AI labs are actively working to reduce it",
+        "evidence": [
+          "Anthropic frames the goal as AI being 'honest, helpful, and harmless'",
+          "Example given: AI told a user they deserved a promotion, then validated their disappointment when they didn't get it",
+          "New models are 'backing off' on sycophantic behavior",
+          "Andreessen created a custom prompt demanding brutal honesty, which now 'rips' every assumption he makes"
+        ],
+        "speakers": [
+          "Marc Andreessen"
+        ]
+      },
+      {
+        "claim": "Artificial gestation technology is advancing and could allow high-achieving women who delayed childbearing to have more children, potentially addressing population decline",
+        "evidence": [
+          "Embryo creation from stem cells is already being done with animals",
+          "Speaker knows many women in their 30s-60s who would have more children if biologically possible",
+          "Many capable women hit IVF and surrogacy walls due to biology's ticking clock",
+          "This is cited as a reason birth rates are falling"
+        ],
+        "speakers": [
+          "Marc Andreessen",
+          "Joe Rogan"
+        ]
+      },
+      {
+        "claim": "Neural link-style technology will enable wordless communication, but raises profound civil liberties questions about whether governments can access people's thoughts",
+        "evidence": [
+          "Elon Musk told Rogan that Neuralink will allow talking without words",
+          "Andreessen raises the question of whether police could obtain a warrant for a transcript of thoughts",
+          "Contrast drawn between US legal protections and CCP ability to access data at will"
+        ],
+        "speakers": [
+          "Marc Andreessen",
+          "Joe Rogan"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "There is a deeply innate human drive to try to find humanity, consciousness, sentience in things that well and truly are not conscious or sentient.",
+        "speaker": "Marc Andreessen",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The medical experts that know the most about consciousness are anesthesiologists, and the total of knowledge is how to turn it off and back on again.",
+        "speaker": "Marc Andreessen",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I have a friend who actually started an AI church some years back. One of the original creators of self-driving cars.",
+        "speaker": "Marc Andreessen",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "You set an AI loose against government data — this is a big part of the original DOGE plan that they didn't get to, but that idea has survived.",
+        "speaker": "Marc Andreessen",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Civilization is always this race between the better parts of our nature and the worst parts of our nature.",
+        "speaker": "Marc Andreessen",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I asked him, I said, Elon, I want Westworld. And he looked right back at me, totally serious. He said, five years.",
+        "speaker": "Joe Rogan",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Marc Andreessen",
+        "title": "Co-founder and General Partner, Andreessen Horowitz (a16z)"
+      }
+    ],
+    "keyword_candidates": [
+      "AI consciousness",
+      "sycophancy",
+      "cognitive behavioral therapy",
+      "artificial gestation",
+      "Neuralink",
+      "DOGE",
+      "Medicare fraud detection",
+      "Anthropic"
+    ]
+  },
+  "created_at": "2026-05-21T09:53:17.002349"
+}

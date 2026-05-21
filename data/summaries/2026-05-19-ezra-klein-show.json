@@ -1,0 +1,96 @@
+{
+  "id": "52a58d21-77c2-4d41-b0aa-2ab85e2bf1e6",
+  "slug": "2026-05-19-ezra-klein-show",
+  "podcast": "Ezra Klein Show",
+  "category": "Politics / Geopolitics",
+  "title": "Is It Time to Break the Two-Party System?",
+  "published": "2026-05-19T09:00:00+00:00",
+  "link": "https://www.nytimes.com/2026/05/19/opinion/ezra-klein-podcast-lee-drutman.html",
+  "podcast_url": "https://www.nytimes.com/column/ezra-klein-podcast",
+  "guest": {
+    "name": "Lee Drutman",
+    "title": "Senior Fellow, Political Reform Program, New America; Author, 'Breaking the Two-Party Doom Loop'"
+  },
+  "summary_ko": "미국 하원은 더 이상 경쟁 선거를 치르지 않습니다. 2026년 중간선거에서 실질적인 경합 선거구는 435개 중 15개에 불과하며, 이는 20년 전 50개에서 급감한 수치입니다. 최근 연방대법원의 Calais 판결이 투표권법 Section 2를 사실상 무력화하면서, 루이지애나·미시시피·플로리다·사우스캐롤라이나·테네시 등 남부 주들이 흑인 다수 선거구를 대규모로 해체하고 있습니다. Texas의 중간 주기 재획정이 촉발한 연쇄 반응은 California·Virginia·Colorado 같은 블루 스테이트의 독립적 재획정 위원회마저 해체시키고 있으며, Lee Drutman은 이 구조가 2030년대까지 반복될 것이라고 진단합니다.\n\nDrutman의 핵심 주장은 단순한 제도 개혁이 아닙니다. 그는 단순 다수대표제(single-member district)가 양당 독점을 구조적으로 강제하며, 이 구조 자체가 '두 연합이 서로를 악마화하는 도약대' — 즉 '양당 파멸 루프'를 만들어낸다고 봅니다. 2024년 기준 상원 후보 득표율과 대통령 득표율의 상관계수는 0.9 이상, 하원에서는 0.98에 달합니다. Jon Tester나 Sherrod Brown 같은 지역 밀착형 정치인조차 당 브랜드의 중력에서 벗어날 수 없게 된 것입니다. 이 수치는 개별 후보의 역량이 결과를 바꿀 수 있다는 믿음 자체가 이미 통계적으로 붕괴했음을 보여줍니다.\n\n해법으로 Drutman은 비례대표제(proportional representation) 도입을 제안합니다. 예를 들어 뉴욕주의 26개 단일 선거구를 8~9인 복수의원 선거구 3개로 재편하면, 40%를 얻은 공화당도 2석을 확보하게 됩니다. 이는 게리맨더링의 전략적 유인을 근본적으로 제거합니다. 선거구 획정이 여전히 필요하더라도, 경계선 조작으로 얻을 수 있는 이득이 대폭 줄어들기 때문입니다. 이 구조는 또한 소수정당 진입을 가능하게 해 다당제로의 전환을 촉진하며, 이는 이스라엘·영국 등의 실패 사례가 비례대표제 자체의 문제가 아니라 설계 오류(역치 설정 실패, 단순 다수대표 유지)에서 비롯된 것임을 Drutman은 구분합니다.\n\n현실적 경로는 좁지만 존재합니다. 1967년 단일 선거구 의무화법(Uniform Congressional Districting Act)을 의회가 개정하면 됩니다. 현직 의원들의 반발을 줄이기 위해 하원 정원을 1911년 이후 고정된 435석에서 약 150석 증원하는 방안을 병행할 수 있습니다. 2030년 인구조사 이후 예정된 재획정 전쟁을 앞두고, 민주당 다수파가 형성될 경우 이 개혁이 자기 생존을 위한 합리적 선택이 될 수 있다는 것이 Drutman의 정치적 계산입니다.",
+  "summary_en": "American democracy has a structural defect that gerrymandering merely exposes but cannot fully explain. The deeper problem, argued by Lee Drutman on this episode, is that single-member winner-take-all districts mechanically produce a two-party duopoly — and that duopoly has now collapsed American politics into a binary death match where cross-party accountability has become arithmetically impossible.\n\nThe evidence is stark. Only 15 of 435 House seats are genuinely competitive in the 2026 cycle, down from roughly 50 two decades ago. The correlation between presidential and Senate voting has risen from 0.2 in 2000 to over 0.9 in 2024; for House races it stands at 0.98. Even generationally talented candidates like Jon Tester could not outperform their party brand by more than six to eight points. Meanwhile, the Supreme Court's 2026 Calais ruling effectively eliminated racial gerrymandering protections, freeing southern Republican legislatures to dismantle majority-minority districts across Louisiana, Mississippi, Florida, South Carolina, and Tennessee — potentially erasing 19 such districts and shifting roughly seven to ten House seats in Republicans' favour ahead of the midterms.\n\nDrutman's prescription is proportional representation: replacing single-member districts with multi-member constituencies (say, three eight-to-nine-seat districts in New York instead of 26 single-seat ones), where a party's seat share tracks its vote share. This surgically removes gerrymandering's strategic logic — lines still need drawing, but their manipulation yields far less reward. More consequentially, it clears the structural barrier that makes third parties arithmetically self-defeating, potentially fracturing both the Democratic and Republican coalitions into four to six competing parties.\n\nThe political path runs through the 1967 Uniform Congressional Districting Act, which Congress can amend, and would be eased by expanding the House from 435 to roughly 585 seats — avoiding zero-sum fights over incumbents' seats. The argument Drutman makes to Democratic legislators facing the 2030 redistricting cycle is essentially actuarial: the gerrymandering war escalates without limit, and they will lose it eventually. The reform window requires a Democratic trifecta willing to trade short-term incumbent security for structural insulation from an increasingly rigged map.",
+  "key_points_ko": [
+    {
+      "heading": "게리맨더링은 증상이며, 단순 다수대표제가 질병이다",
+      "body": "연방대법원은 2019년 Rucho 판결로 당파적 게리맨더링을 위헌 심사 대상에서 제외했고, 2026년 Calais 판결은 인종적 게리맨더링 금지마저 사실상 폐기했습니다. 그 결과 루이지애나 5대1, 플로리다 24대4, 사우스캐롤라이나 7대0 공화당 우세 지도가 순식간에 확정되었습니다. 그러나 Drutman은 이것이 단순 제도 남용이 아니라 단일 선거구 구조가 만들어내는 필연적 귀결이라고 봅니다. 승자독식 구조 하에서 51%는 100%의 대표권을 의미하므로, 집권 정당은 언제나 선거구를 최대한 왜곡할 합리적 유인을 갖습니다. 독립 재획정 위원회는 이 유인을 줄이는 완화책이었지만, Texas의 중간 주기 재획정이 군비 경쟁을 촉발하자 California·Virginia 등 블루 스테이트들도 위원회를 해체하기 시작했습니다."
+    },
+    {
+      "heading": "하원 투표의 상관계수 0.98: 개인 정치인의 시대는 끝났다",
+      "body": "2000년 Jim Jeffords는 버몬트에서 약 70%를 득표하며 공화당 상원의원으로 당선됐지만, 같은 주는 대통령 선거에서 Gore에게 압도적으로 쏠렸습니다. 이런 분리 투표는 이제 통계적으로 거의 소멸했습니다. 상원의 경우 대통령 득표율과의 상관관계가 2000년 0.2에서 2024년 0.9 이상으로 상승했고, 하원에서는 0.98입니다. Jon Tester처럼 세대를 대표하는 정치적 재능을 가진 후보조차 당 브랜드의 중력을 6~8%포인트 이상 벗어나지 못했습니다. 이는 '중도층 공략', '이미지 쇄신' 같은 전술적 해법이 구조적 문제의 크기에 비해 근본적으로 부족하다는 것을 수치로 증명합니다."
+    },
+    {
+      "heading": "비례대표제는 게리맨더링의 유인 자체를 제거한다",
+      "body": "비례대표제 하에서 뉴욕주의 26개 단일 선거구가 8~9인 복수의원 선거구 3개로 재편되면, 공화당이 40%를 얻어도 2석을 가져갑니다. 이때 선거구 경계선 조작으로 얻을 수 있는 최대 이득이 대폭 축소됩니다. Drutman은 이것이 비례대표제의 '최소주의적' 효과라고 부르며, 더 나아가 20%만 얻어도 의석을 확보할 수 있는 구조는 제3당 진입을 가능하게 한다고 주장합니다. Brazil에서 Bolsonaro의 쿠데타 시도 후 연립 파트너 정당들이 이탈할 수 있었던 것은 바로 이 다당제 구조 덕분이었습니다. 반면 미국 공화당은 '민주당이 더 나쁘다'는 이항 논리에 묶여 내부 책임 추궁이 불가능했습니다."
+    },
+    {
+      "heading": "1967년 법 개정 + 하원 150석 증원: 좁지만 실존하는 경로",
+      "body": "비례대표제 도입은 의회 입법만으로 가능합니다. 헌법 제1조 4항 선거 조항은 의회에 선출 방식 결정권을 부여하며, 1967년 단일 선거구 의무화법은 단순 과반으로 개정됩니다. 현직 의원 반발을 줄이기 위한 핵심 전략은 하원 정원 확대입니다. 1911년 이후 435석으로 고정된 하원은 현재 의원 1인당 76만5천 명을 대표하며, 150석 증원 시 기존 의원의 의석을 빼앗지 않고도 비례 선거구를 신설할 수 있습니다. Drutman의 정치적 계산은 2030년 인구조사 이후 재획정 전쟁을 앞두고 민주당 다수파가 이 개혁을 자기 생존 수단으로 인식하게 만드는 것입니다. 아이오와 주지사 후보 Rob Sand가 양당 독점 타파를 핵심 메시지로 내걸고 있는 것은 이 논리가 레드 스테이트에서도 공명할 수 있음을 보여줍니다."
+    },
+    {
+      "heading": "비례대표제의 국제 사례: 실패는 제도 탓이 아닌 설계 탓이다",
+      "body": "Ezra Klein은 영국·이스라엘·독일·이탈리아를 반례로 제시합니다. Drutman의 반박은 설계 문제로의 귀인입니다. 영국은 비례대표제가 아닌 단순 다수대표제를 유지하면서 다당제가 된 최악의 조합이며, 이스라엘은 의석 기준 3.25%라는 지나치게 낮은 진입 문턱과 전국 단일 선거구 구조가 과도한 파편화를 낳았습니다. Georgia Meloni의 이탈리아 사례에서는 연립 구성 과정에서 실제로 중도 포지션을 취해야 했다는 점을, AFD의 독일 사례에서는 연립 구성 불가 원칙이 일정한 방어막으로 작동한다는 점을 지적합니다. 완벽한 민주주의 설계는 없지만, 0.98의 상관계수와 15개의 경합 선거구로 귀결된 현행 미국 시스템보다 나쁘기는 어렵다는 것이 Drutman의 결론입니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Gerrymandering is the symptom; single-member districts are the disease",
+      "body": "The Supreme Court's 2019 Rucho decision removed partisan gerrymandering from constitutional review, and the 2026 Calais ruling effectively nullified racial gerrymandering protections under Section 2 of the Voting Rights Act. The immediate consequences were swift: Louisiana locked in a 5-to-1 Republican map, Florida moved to 24-to-4, South Carolina to 7-to-0. But Drutman's core argument is that this was structurally inevitable, not merely a product of bad actors. Under winner-take-all rules, 51% of the vote yields 100% of representation, so the dominant party always has a rational incentive to maximise distortion. Independent redistricting commissions were a dampener on this logic, not a cure — and Texas's mid-cycle redistricting triggered a retaliatory arms race that has now caused California and Virginia to dismantle their own commissions."
+    },
+    {
+      "heading": "A 0.98 House correlation means individual politicians can no longer outrun their party brand",
+      "body": "In 2000, the correlation between presidential and Senate voting across states was just 0.2 — Jim Jeffords won Vermont with roughly 70% while Gore carried the state overwhelmingly. By 2024, that correlation exceeded 0.9 for Senate and reached 0.98 for House races. Even a candidate of Jon Tester's generational political talent in Montana could not overperform his party by more than six to eight points. This data point is devastating for the conventional Democratic strategic debate about moderation versus boldness: the structural decay in ticket-splitting means both approaches are fighting over margins too small to overcome the party-brand penalty in unfavourable terrain."
+    },
+    {
+      "heading": "Proportional representation eliminates gerrymandering's strategic logic, not just its worst outcomes",
+      "body": "Under proportional multi-member districts — Drutman's proposed redesign of New York's 26 single-seat districts into three eight-to-nine-member constituencies — a party winning 40% of the vote still captures roughly 40% of seats. This mechanically removes the incentive to manipulate boundary lines, since even aggressive cartography cannot convert a minority of votes into a monopoly of seats. The more consequential implication is structural: a five-member district requires only 20% of the vote to win a seat, making third-party entry arithmetically viable for the first time. Drutman points to Brazil, where Bolsonaro's multi-party coalition partners were able to defect after his coup attempt precisely because they were not locked into a binary choice — a dynamic structurally impossible under American two-party conditions."
+    },
+    {
+      "heading": "A 150-seat House expansion is the political lubricant that makes proportional reform passable",
+      "body": "Proportional representation requires only a Congressional amendment to the 1967 Uniform Congressional Districting Act — no constitutional change needed. The political obstacle is incumbent self-interest: voting for the reform means some current members knowingly vote away their seats. The practical solution is to expand the House from its 1911-fixed 435 seats to roughly 585 — a restoration of the historical norm whereby the chamber grew with the population. Under this design, new proportional seats are created without eliminating existing ones, removing the zero-sum threat to incumbents. Drutman's pitch to Democratic legislators anticipating the post-2030 redistricting war is actuarial: the gerrymandering arms race escalates without limit, and minority-party Democrats will lose it. Locking in proportional rules from a position of majority control is rational self-insurance."
+    },
+    {
+      "heading": "International counterexamples fail proportional representation, not the other way around",
+      "body": "Klein challenges Drutman with the UK, Israel, Germany, and Italy — all of which show democratic dysfunction despite multi-party systems. Drutman's rebuttals are design-specific, not dismissive. The UK retains first-past-the-post single-member districts, making it the worst-case combination of multi-party competition within a winner-take-all structure — Labour won a supermajority in 2024 with just 33% of the vote. Israel's pathology is the inverse: a single national constituency with a 3.25% representation threshold produces excessive fragmentation and ungovernable coalitions. Italy's Meloni was forced toward the political centre by coalition arithmetic. Germany's AfD has been contained by coalition-exclusion norms. None of these failures are inherent to proportional representation as a design principle; each reflects a specific miscalibration that a well-designed system — moderate thresholds, multi-member regional districts — would avoid."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "여러분은 지금 이 나라에서 어떤 상황에 처해 있는지 생각해야 합니다 — 유권자의 절반이 상대 정당이 이기면 그 결과가 불법이라고 생각합니다. 모든 것이 제로섬이 되고, 이항적이 되고, 전부 아니면 전무가 될 때, 심지어 쿠데타 시도조차 용인하게 됩니다. 그것이 양당제의 위험입니다.",
+    "attribution": "Lee Drutman, Senior Fellow, New America"
+  },
+  "notable_quote_en": {
+    "text": "When things become so zero-sum, so binary, so all or nothing, that you will tolerate even an attempted coup, that's when things get really dangerous. And that is the danger of the two-party system",
+    "attribution": "Lee Drutman, Senior Fellow, New America"
+  },
+  "notable_quote": {
+    "source_text_en": "When things become so zero-sum, so binary, so all or nothing, that you will tolerate even an attempted coup, that's when things get really dangerous. And that is the danger of the two-party system",
+    "translation_ko": "여러분은 지금 이 나라에서 어떤 상황에 처해 있는지 생각해야 합니다 — 유권자의 절반이 상대 정당이 이기면 그 결과가 불법이라고 생각합니다. 모든 것이 제로섬이 되고, 이항적이 되고, 전부 아니면 전무가 될 때, 심지어 쿠데타 시도조차 용인하게 됩니다. 그것이 양당제의 위험입니다.",
+    "speaker": "Lee Drutman",
+    "attribution": "Lee Drutman, Senior Fellow, New America",
+    "is_verbatim": true,
+    "translation_is_verbatim": false,
+    "source_char_start": 51811,
+    "source_char_end": 52007,
+    "match_score": 1.0
+  },
+  "keywords_ko": [
+    "비례대표제",
+    "게리맨더링",
+    "Voting Rights Act",
+    "단일 선거구제",
+    "양당 파멸 루프",
+    "중간 주기 선거구 재획정"
+  ],
+  "keywords_en": [
+    "proportional representation",
+    "gerrymandering",
+    "Voting Rights Act",
+    "single-member districts",
+    "two-party doom loop",
+    "mid-cycle redistricting"
+  ],
+  "generated_at": "2026-05-21T10:00:56.568520"
+}

@@ -1,5 +1,33 @@
 [
   {
+    "slug": "2026-05-21-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "Odd Lots: Why Cerebras CEO Andrew Feldman Built The World's Largest Computer Chip (Podcast)",
+    "published": "2026-05-21T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-20-making-sense",
+    "podcast": "Making Sense",
+    "category": "Philosophy / AI Ethics",
+    "title": "#476 — The Bittersweet Age",
+    "published": "2026-05-20T18:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-20-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "Marc Andreessen on AI, California, and the Future of America | Joe Rogan",
+    "published": "2026-05-20T10:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-19-ezra-klein-show",
+    "podcast": "Ezra Klein Show",
+    "category": "Politics / Geopolitics",
+    "title": "Is It Time to Break the Two-Party System?",
+    "published": "2026-05-19T09:00:00+00:00"
+  },
+  {
     "slug": "2026-05-18-odd-lots",
     "podcast": "Odd Lots",
     "category": "Macro / Markets",
@@ -320,33 +348,5 @@
     "category": "Politics / Geopolitics",
     "title": "Our Tax System Should Make You Furious",
     "published": "2026-04-17T09:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-16-making-sense",
-    "podcast": "Making Sense",
-    "category": "Philosophy / AI Ethics",
-    "title": "#471 — The End of History, Revisited",
-    "published": "2026-04-16T18:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-16-exponential-view",
-    "podcast": "Exponential View",
-    "category": "AI / Tech",
-    "title": "AI, writing and artisanal media – inside Exponential View with Greg and Azeem",
-    "published": "2026-04-16T13:59:33+00:00"
-  },
-  {
-    "slug": "2026-04-15-a16z-podcast",
-    "podcast": "a16z Podcast",
-    "category": "VC / Business",
-    "title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
-    "published": "2026-04-15T10:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-15-odd-lots",
-    "podcast": "Odd Lots",
-    "category": "Macro / Markets",
-    "title": "Odd Lots: War in Iran Is Already Reshaping East Asia's Energy Future (Podcast)",
-    "published": "2026-04-15T08:00:00+00:00"
   }
 ]

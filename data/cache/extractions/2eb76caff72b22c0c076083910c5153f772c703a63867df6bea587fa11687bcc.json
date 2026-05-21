@@ -1,0 +1,162 @@
+{
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_hash": "ffdd97f4e6a87bf4b210489d5d6289ee7de27d8a0742bc3285fa8de84a34f050",
+  "chunk_hash": "61588e467c6d3556d0adde5ec12ad97211fbe870e8f7a3bebf4dd35e15f9ea52",
+  "chunk_index": 0,
+  "char_start": 0,
+  "char_end": 35993,
+  "extraction": {
+    "chunk_index": 0,
+    "char_start": 0,
+    "char_end": 35993,
+    "topics": [
+      "AI surveillance technology and crime prevention",
+      "Urban crime, politics, and policing",
+      "Wealth inequality and socialism vs. capitalism",
+      "California governance failures (LA fires, crime)",
+      "AI cognitive leverage and future capabilities"
+    ],
+    "claims": [
+      {
+        "claim": "Austin disabled its Flock AI camera system due to political pressure over surveillance concerns, which delayed capture of teenage shooting suspects by several days until they drove into an adjacent town where Flock was active.",
+        "evidence": [
+          "15 and 17-year-old suspects drove to ~12 locations and shot at buildings, people, and houses",
+          "Austin had Flock but turned it off; adjacent town with Flock active immediately tagged the suspects",
+          "Austin mayor and police chief held press conference afterward saying they need to rethink the decision"
+        ],
+        "speakers": [
+          "Marc Andreessen",
+          "Joe Rogan"
+        ]
+      },
+      {
+        "claim": "Chicago voluntarily shut down both its Flock camera system and ShotSpotter gunshot detection system, resulting in shooting victims bleeding out without emergency response.",
+        "evidence": [
+          "ShotSpotter uses precision rooftop microphones to triangulate gunshot locations in real time",
+          "Chicago organizers ran a 'fact-based campaign' claiming ShotSpotter was inaccurate",
+          "88.72% of incidents flagged by ShotSpotter ended with police finding no evidence of gun crime (cited from article)"
+        ],
+        "speakers": [
+          "Marc Andreessen",
+          "Joe Rogan"
+        ]
+      },
+      {
+        "claim": "Reported crime statistics are misleading because residents in high-crime cities like San Francisco and Los Angeles have stopped reporting crimes, knowing no effective response will follow.",
+        "evidence": [
+          "San Francisco residents leave car doors open to signal nothing worth stealing",
+          "Callers to 911 are put on hold and police arrive hours late or not at all",
+          "Washington D.C. police were caught faking crime statistics, resulting in firings and indictments"
+        ],
+        "speakers": [
+          "Marc Andreessen",
+          "Joe Rogan"
+        ]
+      },
+      {
+        "claim": "The top 1% of taxpayers contribute roughly 50% of tax revenue in both New York and California, making them critical to funding social programs while being politically targeted.",
+        "evidence": [
+          "In California in 2000, 1,000 individuals were 50% of the tax revenue",
+          "New York City mayor stood in front of Ken Griffin's home calling him out by name; Griffin is considering moving business to Florida",
+          "Ken Griffin described as a major philanthropist donating hundreds of millions to NYC healthcare"
+        ],
+        "speakers": [
+          "Marc Andreessen",
+          "Joe Rogan"
+        ]
+      },
+      {
+        "claim": "European countries with more business-hostile policies have lower per capita incomes than all 50 U.S. states, including Mississippi.",
+        "evidence": [
+          "Andreessen states several European countries rank below the 50th-ranked U.S. state in per capita income",
+          "Estonian comedian Ari Maddy's friends with university degrees choose low-income jobs because taxes above ~$60,000/year make earning more financially counterproductive",
+          "Andreessen cites slower or negative growth in European economies as result of draconian business policies"
+        ],
+        "speakers": [
+          "Marc Andreessen",
+          "Joe Rogan"
+        ]
+      },
+      {
+        "claim": "AI will soon achieve a ChatGPT-like breakthrough moment for general-purpose robots ('physical AI'), and AI systems are already solving century-old math problems no human mathematician could solve.",
+        "evidence": [
+          "Andreessen states the AI industry broadly believes a robot breakthrough is coming within 'a small number of years'",
+          "AI described as developing drugs, curing cancer, achieving new space flight physics",
+          "Metaphor: 'we've turned sand into thought' via silicon chips powering AI"
+        ],
+        "speakers": [
+          "Marc Andreessen"
+        ]
+      },
+      {
+        "claim": "The LA fires approximately one year prior destroyed an area twice the square mileage of the Nagasaki bomb, and no plan has been put in place to prevent a recurrence.",
+        "evidence": [
+          "Fires obliterated Pacific Palisades and Altadena, took out half of Malibu",
+          "Fire nearly jumped the freeway threatening Beverly Hills, Bel Air, and Santa Monica",
+          "Karen Bass's response characterized as evasive; Andreessen says nothing has been fixed"
+        ],
+        "speakers": [
+          "Marc Andreessen",
+          "Joe Rogan"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "We've turned sand into thought.",
+        "speaker": "Marc Andreessen",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "AI is already solving math problems that have been around for 100 years that no human mathematician could solve.",
+        "speaker": "Marc Andreessen",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "There's probably going to be AI religions. I believe that to be true.",
+        "speaker": "Marc Andreessen",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "We pretended to work and they pretended to pay us.",
+        "speaker": "Joe Rogan",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Crime reporting is down. We have this. And especially in Los Angeles.",
+        "speaker": "Joe Rogan",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "If you know that you're not going to get – you back off from what happens in the system. If you know the criminals aren't going to get convicted, then you know they're not going to get prosecuted. If they're not going to get prosecuted, they're not going to get arrested.",
+        "speaker": "Marc Andreessen",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Marc Andreessen",
+        "title": "Co-founder and General Partner, Andreessen Horowitz (a16z)"
+      }
+    ],
+    "keyword_candidates": [
+      "Flock Safety",
+      "ShotSpotter",
+      "physical AI",
+      "Ken Griffin",
+      "Karen Bass",
+      "Los Angeles fires",
+      "crime statistics manipulation",
+      "socialism vs capitalism"
+    ]
+  },
+  "created_at": "2026-05-21T09:49:56.154442"
+}

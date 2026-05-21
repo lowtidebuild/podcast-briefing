@@ -1,0 +1,12 @@
+{
+  "slug": "2026-05-21-odd-lots",
+  "transcript_chars": 44991,
+  "is_verbatim": false,
+  "match_score": 0.467,
+  "source_char_start": null,
+  "source_char_end": null,
+  "warnings": [
+    "notable_quote_en was not grounded in transcript (best score=0.47)"
+  ],
+  "created_at": "2026-05-21T09:35:11.125910"
+}

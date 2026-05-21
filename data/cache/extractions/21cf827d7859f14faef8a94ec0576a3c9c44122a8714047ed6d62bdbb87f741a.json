@@ -1,0 +1,146 @@
+{
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_hash": "ffdd97f4e6a87bf4b210489d5d6289ee7de27d8a0742bc3285fa8de84a34f050",
+  "chunk_hash": "67ef48131965413ce227e868afb65e64959648036d48feac3b6e4cf89a94ec7b",
+  "chunk_index": 2,
+  "char_start": 70947,
+  "char_end": 106843,
+  "extraction": {
+    "chunk_index": 2,
+    "char_start": 70947,
+    "char_end": 106843,
+    "topics": [
+      "Paid influencers and bot campaigns on social media",
+      "Too online vs. too offline media consumption dichotomy",
+      "AI data centers, energy use, and regulatory barriers",
+      "Nuclear power and US energy policy failures",
+      "Brain-computer interfaces and AR wearables"
+    ],
+    "claims": [
+      {
+        "claim": "It is currently legal to pay influencers to promote political or social ideas without disclosure, as long as there is no explicit candidate or product endorsement.",
+        "evidence": [
+          "No disclosure requirement exists for paid promotion of ideas (not candidates or products)",
+          "Influencers have accidentally copy-pasted solicitation texts including payment offers like '$5,000 per tweet'",
+          "Speaker notes payola was banned decades ago but a similar dynamic now exists online legally"
+        ],
+        "speakers": [
+          "Marc Andreessen"
+        ]
+      },
+      {
+        "claim": "Bot campaigns and paid influencer networks work together, with bots artificially amplifying influencer reach to make organic-looking engagement.",
+        "evidence": [
+          "Posts can show 22,000 likes but only 15 replies, signaling artificial amplification",
+          "Crowdsourced campaigns allow companies with many accounts to push ideas at scale legally",
+          "Bots fabricate replies to further obscure the inorganic nature of campaigns"
+        ],
+        "speakers": [
+          "Marc Andreessen",
+          "Joe Rogan"
+        ]
+      },
+      {
+        "claim": "The US failed to build a thousand nuclear power plants envisioned under Nixon's Project Independence due to the Nuclear Regulatory Commission effectively blocking new plant approvals for 40 years.",
+        "evidence": [
+          "Nixon administration created Project Independence targeting 1,000 civilian nuclear plants by 2000",
+          "The Nuclear Regulatory Commission did not approve a new nuclear plant design for 40 years",
+          "All chips used to be made in California but regulations made chip manufacturing impossible there, analogous dynamic"
+        ],
+        "speakers": [
+          "Marc Andreessen"
+        ]
+      },
+      {
+        "claim": "Three Mile Island caused zero confirmed deaths and no clearly proven radiation-caused illnesses, undermining the public panic that halted US nuclear expansion.",
+        "evidence": [
+          "No acute radiation deaths documented from Three Mile Island",
+          "50 years of epidemiological data available with no confirmed excess cancer linked to the event",
+          "Fukushima similarly attributed with zero or one affected individuals"
+        ],
+        "speakers": [
+          "Marc Andreessen"
+        ]
+      },
+      {
+        "claim": "America's inability to build major infrastructure—chip plants, power plants, refineries, pipelines, housing, data centers—stems primarily from regulatory barriers, especially environmental regulations like NEPA.",
+        "evidence": [
+          "All chip manufacturing moved from California to Taiwan due to state regulations",
+          "NEPA described as effectively banning construction across much of the country",
+          "Kevin O'Leary data center project in Utah cited as example of regulatory and political friction"
+        ],
+        "speakers": [
+          "Marc Andreessen"
+        ]
+      },
+      {
+        "claim": "Meta Ray-Ban glasses combined with a neural wristband can already allow users to type using nerve impulse detection from finger intentions without physically moving fingers.",
+        "evidence": [
+          "Meta wristband picks up nerve transmissions from finger movements",
+          "A second mode detects intention to move finger via nerve impulses at the wrist without actual movement",
+          "Demo shown of person playing Doom using only thumb via neural wristband"
+        ],
+        "speakers": [
+          "Marc Andreessen"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "it's actually legal today to pay an influencer to say whatever you want, as long as it's not an explicit endorsement of a candidate or of a product, and then there is no disclosure requirement.",
+        "speaker": "Marc Andreessen",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "the influencers and the bots go together, I think is the full picture because the bots show up and make the influencers look like they're more successful than they actually are.",
+        "speaker": "Marc Andreessen",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I follow you based on one tweet and I block you based on one tweet.",
+        "speaker": "Marc Andreessen",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "there's two ways to live life right now. It's either, you're either too online or you're too offline. And those are the two choices. Right. You have to find a comfortable medium. But nobody ever does.",
+        "speaker": "Marc Andreessen",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "the Nixon administration around the time you and I were born created something called Project Independence and Project Independence was to build a thousand new civilian nuclear power plants in the US by the year 2000.",
+        "speaker": "Marc Andreessen",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "the Nuclear Regulatory Commission did not approve a new nuclear plant designed for 40 years.",
+        "speaker": "Marc Andreessen",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Marc Andreessen",
+        "title": "Co-founder and General Partner, Andreessen Horowitz (a16z)"
+      }
+    ],
+    "keyword_candidates": [
+      "paid influencers",
+      "Project Independence",
+      "Nuclear Regulatory Commission",
+      "Three Mile Island",
+      "Meta Ray-Ban neural wristband",
+      "NEPA regulations",
+      "data centers energy consumption",
+      "Spencer Pratt"
+    ]
+  },
+  "created_at": "2026-05-21T09:51:03.799882"
+}

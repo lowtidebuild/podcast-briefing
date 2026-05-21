@@ -1,0 +1,137 @@
+```json
+{
+  "topics": [
+    "AI democratization and universal access",
+    "AI impact on software coding and productivity",
+    "Public opinion polling on AI vs. other political issues",
+    "AI bots hierarchy and future of work",
+    "Global population decline and AI as labor replacement"
+  ],
+  "claims": [
+    {
+      "claim": "AI technology has democratized faster than any technology in history, reaching approximately one billion smartphone users globally.",
+      "evidence": [
+        "A billion people online using AIs through apps on their phones",
+        "If you have a smartphone, you have access to AI",
+        "Companies are driving the technology into everybody's hands"
+      ],
+      "speakers": ["Marc Andreessen"]
+    },
+    {
+      "claim": "According to a David Shore (left-wing Democratic pollster) survey, AI ranks only 29th out of 39 political issues voters care about, while cost of living, economy, and inflation dominate.",
+      "evidence": [
+        "David Shore is described as a famous Democratic/left-wing pollster",
+        "AI ranked 29 out of 39 issues",
+        "Cost of living ranked #1, economy #2, political corruption #3",
+        "LGBT issues ranked at the very bottom"
+      ],
+      "speakers": ["Marc Andreessen", "Joe Rogan"]
+    },
+    {
+      "claim": "AI coding tools have made top programmers up to 20 times more productive, leading to a phenomenon called 'AI vampire' where coders work through the night managing up to 20 simultaneous AI coding bots.",
+      "evidence": [
+        "Leading-edge tech company coders estimated at 20 times more productive than before AI",
+        "State of the art today in the Valley is 20 bots at a time",
+        "Coders staying up all night managing bots every 10 minutes",
+        "Top coders in AI now earn $50 million a year"
+      ],
+      "speakers": ["Marc Andreessen"]
+    },
+    {
+      "claim": "The next evolution of AI coding will be bots managing bots in org-chart hierarchies, giving individual programmers control over a thousand bots simultaneously.",
+      "evidence": [
+        "Each bot should be able to itself create sub-bots",
+        "In a year, routine to have 10 to 20 bots each with 10 to 20 bots",
+        "Individual programmers overseeing a thousand bots at a time",
+        "Mirrors how company org charts and reporting chains work"
+      ],
+      "speakers": ["Marc Andreessen"]
+    },
+    {
+      "claim": "Woke/identity political issues (race, guns, abortion, LGBT) have collapsed in voter priority, replaced by economic concerns, reflecting burnout and credibility damage from movements like BLM.",
+      "evidence": [
+        "LGBT at the very bottom of the David Shore polling stack",
+        "Race, guns, abortion all below AI in voter priority",
+        "BLM leaders accused of stealing money and buying luxury houses in the whitest zip code in California",
+        "Income inequality only two notches above AI in the rankings"
+      ],
+      "speakers": ["Marc Andreessen", "Joe Rogan"]
+    },
+    {
+      "claim": "Shrinking and aging global population will necessitate AI bots as a third source of labor, alongside reproduction and immigration.",
+      "evidence": [
+        "Global population is going to shrink because people aren't having kids at historical rates",
+        "World population will get smaller and older",
+        "Three ways to get workers: reproduce, import people, or use AI"
+      ],
+      "speakers": ["Marc Andreessen"]
+    },
+    {
+      "claim": "Claims that AI is causing mass tech layoffs are misleading; companies were overstaffed and are now hiring aggressively across all roles including coding.",
+      "evidence": [
+        "Small set of companies did layoffs and blamed AI, but they were overstaffed",
+        "AI companies and tech companies are hiring like crazy",
+        "Companies have a thousand backlogged projects now being executed due to cheaper code"
+      ],
+      "speakers": ["Marc Andreessen"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "everybody gets superpowers. Right. And by the way, this technology—another thing people really worry about is that this technology is getting centralized into, like, two or three big companies, and they're not going to—you know, normal people are not going to have access. The exact opposite has happened.",
+      "speaker": "Marc Andreessen",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "universal basic superpowers. Right? Like, universal basic—everybody gets the world's best doctor or lawyer, dot, dot, dot, dot, on every domain.",
+      "speaker": "Marc Andreessen",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "the AI vampire, which is it's when AI turns you into a vampire. You're up all night doing AI coding because you are so productive, you're getting so much done that you can't turn off the opportunity cost of going to sleep is too high",
+      "speaker": "Marc Andreessen",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Never gets drunk, never gets sick, never gets high, right. Never gets depressed because his girlfriend broke up with him. Never files HR complaints.",
+      "speaker": "Marc Andreessen",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "in the companies, in the leading edge tech companies, the coders that are using AI, the estimate is right now that they're 20 times more productive than they were before they started using AI",
+      "speaker": "Marc Andreessen",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The world population is going to get smaller and older. Right. And so one is like, we're literally going to need workers. Right. And, you know, there's only basically three ways to get workers.",
+      "speaker": "Marc Andreessen",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "the bots should have bots. Oh boy. Right? Managers, right? And so you should have a bot that's overseeing bots.",
+      "speaker": "Marc Andreessen",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {"name": "Marc Andreessen", "title": "Co-founder and General Partner, Andreessen Horowitz (a16z)"}
+  ],
+  "keyword_candidates": [
+    "AI coding agents",
+    "AI vampire",
+    "David Shore polling",
+    "Claude Code / Cursor / Codex",
+    "universal basic superpowers",
+    "bot hierarchy",
+    "woke issue voter fatigue",
+    "global population decline"
+  ]
+}
+```

@@ -1297,12 +1297,12 @@
       "slug": "2026-05-15-dwarkesh-podcast",
       "status": "download_failed",
       "last_stage": "download",
-      "attempts": 1,
+      "attempts": 2,
       "last_error": "403 Client Error: Forbidden for url: https://api.substack.com/feed/podcast/197852876/5642f97b323e24b00efd0d89ace15d58.mp3",
       "warnings": [],
       "artifacts": {},
       "usage": {},
-      "updated_at": "2026-05-18T09:54:59.954116"
+      "updated_at": "2026-05-21T09:35:13.347971"
     },
     "8b6ad160-b5a8-11f0-b45b-e36b2502e357": {
       "slug": "2026-05-17-fareed-zakaria-gps",
@@ -1393,6 +1393,89 @@
         "sheets_configured": true
       },
       "updated_at": "2026-05-18T10:19:22.668621"
+    },
+    "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/vpdemgLOo_QM/v6.mp3": {
+      "slug": "2026-05-21-odd-lots",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-21-odd-lots/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-05-21-odd-lots.json"
+      },
+      "usage": {
+        "quote_is_verbatim": false,
+        "quote_match_score": 0.467,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-05-21T09:35:13.260039"
+    },
+    "a99b5b50-2b58-4dc2-b98c-d11e97cf0d43": {
+      "slug": "2026-05-20-a16z-podcast",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "chunks": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-20-a16z-podcast/chunks.json",
+        "extraction_report": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-20-a16z-podcast/extraction_report.json",
+        "raw_dir": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-20-a16z-podcast/raw",
+        "synthesis": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-20-a16z-podcast/synthesis.json",
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-20-a16z-podcast/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-05-20-a16z-podcast.json"
+      },
+      "usage": {
+        "transcript_chars": 222634,
+        "chunk_count": 7,
+        "extracted_chunk_count": 7,
+        "cache_hits": 0,
+        "extraction_prompt_input_chars": 232999,
+        "synthesis_prompt_chars": 38930,
+        "synthesis_input_reduction_ratio": 0.8251,
+        "quote_is_verbatim": true,
+        "quote_match_score": 1.0,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-05-21T09:55:05.712770"
+    },
+    "52a58d21-77c2-4d41-b0aa-2ab85e2bf1e6": {
+      "slug": "2026-05-19-ezra-klein-show",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-19-ezra-klein-show/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-05-19-ezra-klein-show.json"
+      },
+      "usage": {
+        "quote_is_verbatim": true,
+        "quote_match_score": 1.0,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-05-21T10:00:57.894457"
+    },
+    "7803daf8-f784-4650-8d9c-f1fa91528032": {
+      "slug": "2026-05-20-making-sense",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-20-making-sense/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-05-20-making-sense.json"
+      },
+      "usage": {
+        "quote_is_verbatim": true,
+        "quote_match_score": 1.0,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-05-21T10:04:52.367049"
     }
   }
 }
