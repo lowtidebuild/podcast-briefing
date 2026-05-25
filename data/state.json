@@ -1476,6 +1476,118 @@
         "sheets_configured": true
       },
       "updated_at": "2026-05-21T10:04:52.367049"
+    },
+    "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/vzXxOuHNoBuo/v14.mp3": {
+      "slug": "2026-05-25-odd-lots",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-25-odd-lots/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-05-25-odd-lots.json"
+      },
+      "usage": {
+        "quote_is_verbatim": false,
+        "quote_match_score": 0.6204,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-05-25T10:02:48.601761"
+    },
+    "substack:post:198847047": {
+      "slug": "2026-05-22-dwarkesh-podcast",
+      "status": "download_failed",
+      "last_stage": "download",
+      "attempts": 1,
+      "last_error": "403 Client Error: Forbidden for url: https://api.substack.com/feed/podcast/198847047/4554a355fabc7d08073d273fc9f192d4.mp3",
+      "warnings": [],
+      "artifacts": {},
+      "usage": {},
+      "updated_at": "2026-05-25T10:02:48.681656"
+    },
+    "8ba0deae-b5a8-11f0-b45b-d39bc8e66ecb": {
+      "slug": "2026-05-24-fareed-zakaria-gps",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-24-fareed-zakaria-gps/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-05-24-fareed-zakaria-gps.json"
+      },
+      "usage": {
+        "quote_is_verbatim": true,
+        "quote_match_score": 1.0,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-05-25T10:06:17.421685"
+    },
+    "eae61d33-b7f8-4944-b34c-fe24e145f603": {
+      "slug": "2026-05-22-hard-fork",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-22-hard-fork/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-05-22-hard-fork.json"
+      },
+      "usage": {
+        "quote_is_verbatim": true,
+        "quote_match_score": 0.9341,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-05-25T10:10:56.844460"
+    },
+    "7434b425-1ef3-4c4a-ad10-0bcac505d89d": {
+      "slug": "2026-05-22-a16z-podcast",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-22-a16z-podcast/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-05-22-a16z-podcast.json"
+      },
+      "usage": {
+        "quote_is_verbatim": false,
+        "quote_match_score": 0.4778,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-05-25T10:12:41.632580"
+    },
+    "c3affab8-5413-46ec-8d1f-00e504c0309c": {
+      "slug": "2026-05-22-all-in-podcast",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "chunks": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-22-all-in-podcast/chunks.json",
+        "extraction_report": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-22-all-in-podcast/extraction_report.json",
+        "raw_dir": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-22-all-in-podcast/raw",
+        "synthesis": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-22-all-in-podcast/synthesis.json",
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-22-all-in-podcast/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-05-22-all-in-podcast.json"
+      },
+      "usage": {
+        "transcript_chars": 96715,
+        "chunk_count": 3,
+        "extracted_chunk_count": 3,
+        "cache_hits": 0,
+        "extraction_prompt_input_chars": 101262,
+        "synthesis_prompt_chars": 18727,
+        "synthesis_input_reduction_ratio": 0.8064,
+        "quote_is_verbatim": true,
+        "quote_match_score": 1.0,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-05-25T10:23:10.791318"
     }
   }
 }

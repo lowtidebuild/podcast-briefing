@@ -1,0 +1,472 @@
+[
+  {
+    "chunk_index": 0,
+    "char_start": 0,
+    "char_end": 38910,
+    "topics": [
+      "Andrej Karpathy joining Anthropic and recursive self-improvement",
+      "AI industry PR crisis and public backlash",
+      "Autonomous vehicles and labor displacement",
+      "AI regulation and US-China tech competition",
+      "Corporate AI-driven layoffs and workforce surveillance"
+    ],
+    "claims": [
+      {
+        "claim": "Anthropic was cash-flow positive for the Wall Street Journal in the most recent quarter, signaling strong ROI for the AI sector",
+        "evidence": [
+          "Anthropic described as having reached a positive financial position in the most recent quarter",
+          "OpenAI and Anthropic combined estimated at ~$100 billion ARR with ~80% gross margins on inference",
+          "All LLM providers combined projected to reach $200-400 billion ARR by end of year"
+        ],
+        "speakers": [
+          "Gavin Baker"
+        ]
+      },
+      {
+        "claim": "Andrej Karpathy joining Anthropic to lead a pre-training team focused on recursive self-improvement could accelerate model quality improvements by an order of magnitude per year",
+        "evidence": [
+          "Karpathy coined 'vibe coding' and built Auto Research, an open-source training tool with 82,000+ GitHub stars",
+          "Gavin Baker argues Karpathy has been 'at the wave upon wave of AI' from Tesla FSD to OpenAI co-founding",
+          "Chamath's statistic of 10x-ing every year described as potentially 'conservative' if recursive self-improvement is unlocked"
+        ],
+        "speakers": [
+          "Gavin Baker",
+          "Jason Calacanis",
+          "Chamath Palihapitiya"
+        ]
+      },
+      {
+        "claim": "Public backlash against AI is driven by perceived power asymmetry, foreign state interference, and an anti-humanist psychological reaction",
+        "evidence": [
+          "Three commencement speeches booed, including Eric Schmidt's",
+          "Freeberg attributes backlash to economic asymmetry (few profiting while many are uncertain), possible CCP-funded campaigns, and AI being 'anti-humanist' like the Copernican Revolution",
+          "Gavin Baker suggests a 'CCP funded campaign against AI and data centers in America'"
+        ],
+        "speakers": [
+          "David Freeberg",
+          "Gavin Baker",
+          "Chamath Palihapitiya"
+        ]
+      },
+      {
+        "claim": "A Trump administration executive order on AI frontier models was drafted and then pulled, reportedly because the president objected to provisions requiring federal government oversight of frontier AI models",
+        "evidence": [
+          "Leaked attendee list included major Neo Lab CEOs and hyperscaler CEOs including Nikesh Arora of Palo Alto Networks",
+          "Chamath states the EO 'was scrubbed an hour ago' with the president objecting to aspects requiring 'supervision, insight, review from the federal government' of frontier models"
+        ],
+        "speakers": [
+          "Chamath Palihapitiya"
+        ]
+      },
+      {
+        "claim": "AI-driven layoffs at companies like Cloudflare and Meta are now occurring not because of overhiring but because AI is replacing measurement, management, and knowledge-worker roles",
+        "evidence": [
+          "Cloudflare CEO Matthew Prince announced 20%+ workforce reduction despite 'record revenue growth' and 'strong free cashflow', citing elimination of 'measurers'",
+          "Meta laid off ~8,000 employees concurrently with deploying recording software on employee computers to train AI models",
+          "Zuckerberg stated internal engineers are used to teach coding models because internal talent quality exceeds contractors"
+        ],
+        "speakers": [
+          "Jason Calacanis"
+        ]
+      },
+      {
+        "claim": "Google covertly installed a 4-gigabyte Gemini Nano model in Chrome without notifying users, triggering privacy concerns",
+        "evidence": [
+          "Described as happening 'about two weeks ago, very quietly'",
+          "Model performs proofreading, spelling, and autocomplete tasks locally",
+          "Chamath pushed back on the characterization of Google as a 'bad actor', arguing focus should be on user utility"
+        ],
+        "speakers": [
+          "Jason Calacanis",
+          "Chamath Palihapitiya"
+        ]
+      },
+      {
+        "claim": "Dario Amodei's public warnings about AI risk are a rational business strategy to create a regulatory moat that benefits Anthropic as an incumbent",
+        "evidence": [
+          "Chamath argues 'breathlessness has ramped up' correlating with successive fundraising rounds",
+          "Gavin Baker states Dario is 'trading his own book' and creating 'boundary conditions for a regulatory moat because he will be inside of the tent pissing out'",
+          "Gavin says a 'Nash agent' would independently derive this strategy"
+        ],
+        "speakers": [
+          "Gavin Baker",
+          "Chamath Palihapitiya"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "if OpenAI and Anthropic are at, call it a hundred billion dollars of ARR now with 80% ish gross margins on inference, like the returns are there",
+        "speaker": "Gavin Baker",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I think Chamath's statistics of, you know, 10x-ing every year, you know, might seem conservative if that comes to pass",
+        "speaker": "Gavin Baker",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Stop breathlessly asking these model makers what they think. Go to the end user and ask the person in the factory that's using the model and ask him what he or she thinks.",
+        "speaker": "Chamath Palihapitiya",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I think there is like an underlying view that technology creates leverage for a small group of people, which creates power imbalances and nothing represents that more than AI",
+        "speaker": "David Freeberg",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I do think it's incumbent on all of us as Americans who are involved in the technology industry in one way or another, to be advocates for the positive, optimistic possibilities that AI introduces to everyone in this world. Because it is starting to feel or seem like there may be a CCP funded campaign against AI and data centers in America.",
+        "speaker": "Gavin Baker",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "He said he didn't accept that as an answer. He found he did an enormous amount of research with LLM's and found an existing safe drug on the market that they thought would have a meaningful impact on his daughter's condition.",
+        "speaker": "Gavin Baker",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Gavin Baker",
+        "title": "Managing Partner, Atreides Management"
+      },
+      {
+        "name": "Andrej Karpathy",
+        "title": "Head of Pre-training, Anthropic (incoming); previously Co-founder, OpenAI; Director of AI, Tesla"
+      }
+    ],
+    "keyword_candidates": [
+      "recursive self-improvement",
+      "Anthropic",
+      "Andrej Karpathy",
+      "AI regulatory framework",
+      "Cloudflare layoffs",
+      "Gemini Nano Chrome",
+      "US-China AI competition",
+      "Flock Safety"
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "char_start": 38910,
+    "char_end": 76314,
+    "topics": [
+      "SpaceX S-1 IPO filing and valuation",
+      "Elon Web Services / AI compute business",
+      "Nvidia Q1 earnings and market position",
+      "AI-driven workforce displacement and CEO messaging",
+      "Orbital compute and Starship reusability"
+    ],
+    "claims": [
+      {
+        "claim": "SpaceX is aiming to raise $75 billion at a $1.75 trillion valuation, which would make it the largest IPO ever by more than double Saudi Aramco's $29 billion IPO.",
+        "evidence": [
+          "Largest IPO ever by more than double Aramco's $29B IPO",
+          "Expected mid-June, likely June 12, ticker SPCX",
+          "Polymarket gives 71% chance SpaceX closes first day above $2 trillion market cap"
+        ],
+        "speakers": [
+          "Jason Calacanis"
+        ]
+      },
+      {
+        "claim": "Anthropic is paying SpaceX $1.25 billion per month to rent Colossus One and parts of Colossus Two, totaling a $45 billion deal over three years ($15 billion/year).",
+        "evidence": [
+          "$45 billion deal over three years",
+          "$15 billion per year — effectively adding a second Starlink in revenue",
+          "Contract can be canceled by either party with 90 days notice"
+        ],
+        "speakers": [
+          "Jason Calacanis",
+          "Gavin Baker"
+        ]
+      },
+      {
+        "claim": "SpaceX builds data centers dramatically faster than competitors and at lower cost, with construction times dropping from 122 days to 91 days to 66 days across successive facilities.",
+        "evidence": [
+          "First data center: 122 days",
+          "Second: 91 days",
+          "Third: 66 days"
+        ],
+        "speakers": [
+          "Gavin Baker"
+        ]
+      },
+      {
+        "claim": "Cursor's Composer 2.5 model became Pareto dominant on AI coding benchmarks after only 3-4 weeks of reinforcement learning on Colossus Two using Cursor's proprietary coding data.",
+        "evidence": [
+          "Composer 2.5 is the same base model as Composer 2 (Kami k.25) with only RL applied",
+          "Cursor allegedly has more tokens of coding data than exists on the public internet",
+          "Composer 2.5 is the most selected model on Cursor"
+        ],
+        "speakers": [
+          "Gavin Baker"
+        ]
+      },
+      {
+        "claim": "Nvidia reported Q1 revenue of $81.6 billion, up 85% year-over-year and 20% quarter-over-quarter, with $58 billion net income, $48 billion free cash flow, and 75% gross margins.",
+        "evidence": [
+          "$81.6B revenue, 85% YoY growth",
+          "$58B net income, $48B free cash flow",
+          "75% gross margins, $5.3 trillion market cap"
+        ],
+        "speakers": [
+          "Jason Calacanis"
+        ]
+      },
+      {
+        "claim": "Nvidia's CPU business is expected to hit $20 billion this year, making it overnight one of the world's largest CPU manufacturers.",
+        "evidence": [
+          "Nvidia announced $20B CPU business projection for the year",
+          "Attributed to Nvidia's unique position working with every AI lab enabling co-design"
+        ],
+        "speakers": [
+          "Gavin Baker"
+        ]
+      },
+      {
+        "claim": "The AI compute market is cross-sectionally inefficient, as valuations of power/cooling/optical companies and DRAM/Nvidia cannot simultaneously be correct.",
+        "evidence": [
+          "Memory makers at 3-5x PE, Nvidia at low PE",
+          "Power, cooling, optical names discounting very different futures than chip companies",
+          "If power/cooling multiples are correct, Nvidia and memory go up a lot; if Nvidia multiples are correct, everything else underperforms"
+        ],
+        "speakers": [
+          "Gavin Baker"
+        ]
+      },
+      {
+        "claim": "Starlink generated $11.4 billion in revenue in 2024 on 50% growth with $4.4 billion in operating income and over 10 million subscribers.",
+        "evidence": [
+          "$11.4B revenue, 50% growth",
+          "$4.4B operating income",
+          "10 million paying subscribers"
+        ],
+        "speakers": [
+          "Jason Calacanis"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "the most you can hope for here is you keep this job for some amount of time and train your way out of it",
+        "speaker": "",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "You reduce humans to a label called the measurer. And then you're like, I'm going to lay off all the measurers.",
+        "speaker": "",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "We're listening too much to the inventors of AI. I know that's appealing. They're geniuses. They're smart. We need to be listening to the frontline factory workers who are using AI",
+        "speaker": "Sham Sankar",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Anthropic is paying SpaceX wait for it 1.25 billion a month to rent out Colossus one and parts of Colossus two. It's a $45 billion deal over three years 15 billion a year.",
+        "speaker": "Jason Calacanis",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "they build data centers dramatically faster than anyone else at a lower cost",
+        "speaker": "Gavin Baker",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "composer 2.5 is literally well outside the Pareto frontier. And that's after three weeks.",
+        "speaker": "Gavin Baker",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Gavin Baker",
+        "title": "Investor / Managing Partner, Atreides Management"
+      }
+    ],
+    "keyword_candidates": [
+      "SpaceX S-1 IPO",
+      "Elon Web Services",
+      "Colossus data center",
+      "Cursor Composer 2.5",
+      "Nvidia Q1 earnings",
+      "orbital compute",
+      "Starlink",
+      "Grok Build"
+    ]
+  },
+  {
+    "chunk_index": 2,
+    "char_start": 76314,
+    "char_end": 96715,
+    "topics": [
+      "GPU lifespan and financing debate",
+      "Macro inflation and bond yield concerns",
+      "AI sector fundamentals and seasonality",
+      "US-China tech diplomacy and chip sales",
+      "Geopolitical energy leverage and Taiwan"
+    ],
+    "claims": [
+      {
+        "claim": "GPUs have a useful life of 10-15 years when paired with domain-specific accelerators, making long-term asset-backed financing viable",
+        "evidence": [
+          "CoreWeave CEO Michael Intrator said customers sign six-year contracts and pay in advance",
+          "CoreWeave's lowest financing rate is 6%",
+          "Older GPUs can be used with GROK or Cerebras accelerators for decode tasks, extending their utility"
+        ],
+        "speakers": [
+          "Kevin",
+          "Jason"
+        ]
+      },
+      {
+        "claim": "Michael Burry's bear case that GPU amortization periods are too long is dismissed as uninformed by market participants",
+        "evidence": [
+          "CoreWeave CEO said customers are asking for assets coming off lease and expect year 7, 8, 9 useful life",
+          "Customers sign six-year contracts and pay in advance, implying confidence in longevity"
+        ],
+        "speakers": [
+          "Jason",
+          "Kevin"
+        ]
+      },
+      {
+        "claim": "US inflation is projected to reach 4.2–6% CPI in Q2, reversing the narrative of Fed rate cuts toward potential rate increases",
+        "evidence": [
+          "Polymarket shows 99% chance May inflation comes in at 4.2% or higher",
+          "Survey of professional forecasts projects CPI hits 6%",
+          "10-year Treasury yield hit 4.6%, above Bessent's sub-4% goal"
+        ],
+        "speakers": [
+          "Jason"
+        ]
+      },
+      {
+        "claim": "Global bond markets are flashing warning signs that could catalyze a credit crisis",
+        "evidence": [
+          "Japan's 30-year yield at a record high of 5.1%",
+          "UK yields at highest since the Great Financial Crisis",
+          "Germany yields at highest since 2011",
+          "30-year US Treasury at 5.2%"
+        ],
+        "speakers": [
+          "Jason",
+          "Friedberg"
+        ]
+      },
+      {
+        "claim": "Global debt-to-GDP at 310% creates a structural path toward currency collapse, inflation, and asset price inflation as governments print money to service debt",
+        "evidence": [
+          "Global debt to GDP is 310%",
+          "Spending problems at federal, state, and local levels across countries sustain existing leverage",
+          "Currency collapse leads to money printing which inflates asset values"
+        ],
+        "speakers": [
+          "Friedberg"
+        ]
+      },
+      {
+        "claim": "America is relatively advantaged by the Strait of Hormuz closure due to energy self-sufficiency and AI leadership",
+        "evidence": [
+          "US is the world's largest oil and gas producer and exporter",
+          "US natural gas prices (NG1) are down this year while LNG prices are up 100-200% globally",
+          "China, Japan, India, and Europe depend on oil transiting the Strait of Hormuz"
+        ],
+        "speakers": [
+          "Gavin"
+        ]
+      },
+      {
+        "claim": "Selling deprecated Nvidia GPUs to China reduces the odds of China developing its own alternative chip ecosystem, which is stabilizing for US AI leadership",
+        "evidence": [
+          "Alternative Chinese ecosystem would be more power-hungry",
+          "US chips bring in optical interconnects earlier for scale-up fabrics",
+          "Gavin argues this is the highest probability path to keeping America ahead in AI"
+        ],
+        "speakers": [
+          "Gavin"
+        ]
+      },
+      {
+        "claim": "The US-China tech CEO summit produced no grand deal, only incremental announcements including aircraft purchases, agricultural commitments, and some H100/A200 chip sales to Baidu",
+        "evidence": [
+          "Some soybeans sold, some H100s and A200s sold to Baidu",
+          "No definitive policy breakthrough on tariffs or broader chip sales",
+          "Putin met with Xi immediately after the US visit, signaling continued China-Russia alignment"
+        ],
+        "speakers": [
+          "Jason",
+          "Friedberg"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "Global debt to GDP is 310%. Reserve currency status to the side. The spending problem at the federal, state, local level. The spending problem at every country to basically keep economies growing to support existing leverage ultimately creates a cascading effect. It ultimately breaks.",
+        "speaker": "Friedberg",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The force of gravity is inevitable. The rollercoaster will roll down. We will throw our hands in the air and we will scream, whee, as we go for the ride.",
+        "speaker": "Friedberg",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "If you can get an asset-backed loan, an asset-backed financing, for GPUs at a lower rate than other chips, that's a profound advantage.",
+        "speaker": "Kevin",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "If they didn't think it had a six-year lifespan, they wouldn't be signing a six-year contract. Pretty straightforward. And they can't get enough of them.",
+        "speaker": "Jason",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I think selling deprecated Nvidia GPUs to China lowers the odds of them developing their own alternative ecosystem, which would be a lot power hungrier, because you bring in optical a lot earlier for scale-up fabrics.",
+        "speaker": "Gavin",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Every day the Strait of Hormuz is closed is relatively good for America. It's terrible for Europe. It is terrible for Asia. Japan and China need that oil.",
+        "speaker": "Gavin",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Gavin Baker",
+        "title": "Portfolio Manager / Investor, Atreides Management (implied by managing 100+ positions with 30-person team)"
+      }
+    ],
+    "keyword_candidates": [
+      "GPU lifespan financing",
+      "CoreWeave",
+      "Strait of Hormuz",
+      "Japan 30-year yield",
+      "US-China tech summit",
+      "Nvidia chip sales China",
+      "CPI inflation forecast",
+      "global debt-to-GDP"
+    ]
+  }
+]

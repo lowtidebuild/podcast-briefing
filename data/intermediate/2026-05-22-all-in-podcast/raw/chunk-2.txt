@@ -1,0 +1,174 @@
+```json
+{
+  "topics": [
+    "GPU lifespan and financing debate",
+    "Macro inflation and bond yield concerns",
+    "AI sector fundamentals and seasonality",
+    "US-China tech diplomacy and chip sales",
+    "Geopolitical energy leverage and Taiwan"
+  ],
+  "claims": [
+    {
+      "claim": "GPUs have a useful life of 10-15 years when paired with domain-specific accelerators, making long-term asset-backed financing viable",
+      "evidence": [
+        "CoreWeave CEO Michael Intrator said customers sign six-year contracts and pay in advance",
+        "CoreWeave's lowest financing rate is 6%",
+        "Older GPUs can be used with GROK or Cerebras accelerators for decode tasks, extending their utility"
+      ],
+      "speakers": ["Kevin", "Jason"]
+    },
+    {
+      "claim": "Michael Burry's bear case that GPU amortization periods are too long is dismissed as uninformed by market participants",
+      "evidence": [
+        "CoreWeave CEO said customers are asking for assets coming off lease and expect year 7, 8, 9 useful life",
+        "Customers sign six-year contracts and pay in advance, implying confidence in longevity"
+      ],
+      "speakers": ["Jason", "Kevin"]
+    },
+    {
+      "claim": "US inflation is projected to reach 4.2–6% CPI in Q2, reversing the narrative of Fed rate cuts toward potential rate increases",
+      "evidence": [
+        "Polymarket shows 99% chance May inflation comes in at 4.2% or higher",
+        "Survey of professional forecasts projects CPI hits 6%",
+        "10-year Treasury yield hit 4.6%, above Bessent's sub-4% goal"
+      ],
+      "speakers": ["Jason"]
+    },
+    {
+      "claim": "Global bond markets are flashing warning signs that could catalyze a credit crisis",
+      "evidence": [
+        "Japan's 30-year yield at a record high of 5.1%",
+        "UK yields at highest since the Great Financial Crisis",
+        "Germany yields at highest since 2011",
+        "30-year US Treasury at 5.2%"
+      ],
+      "speakers": ["Jason", "Friedberg"]
+    },
+    {
+      "claim": "Global debt-to-GDP at 310% creates a structural path toward currency collapse, inflation, and asset price inflation as governments print money to service debt",
+      "evidence": [
+        "Global debt to GDP is 310%",
+        "Spending problems at federal, state, and local levels across countries sustain existing leverage",
+        "Currency collapse leads to money printing which inflates asset values"
+      ],
+      "speakers": ["Friedberg"]
+    },
+    {
+      "claim": "America is relatively advantaged by the Strait of Hormuz closure due to energy self-sufficiency and AI leadership",
+      "evidence": [
+        "US is the world's largest oil and gas producer and exporter",
+        "US natural gas prices (NG1) are down this year while LNG prices are up 100-200% globally",
+        "China, Japan, India, and Europe depend on oil transiting the Strait of Hormuz"
+      ],
+      "speakers": ["Gavin"]
+    },
+    {
+      "claim": "Selling deprecated Nvidia GPUs to China reduces the odds of China developing its own alternative chip ecosystem, which is stabilizing for US AI leadership",
+      "evidence": [
+        "Alternative Chinese ecosystem would be more power-hungry",
+        "US chips bring in optical interconnects earlier for scale-up fabrics",
+        "Gavin argues this is the highest probability path to keeping America ahead in AI"
+      ],
+      "speakers": ["Gavin"]
+    },
+    {
+      "claim": "The US-China tech CEO summit produced no grand deal, only incremental announcements including aircraft purchases, agricultural commitments, and some H100/A200 chip sales to Baidu",
+      "evidence": [
+        "Some soybeans sold, some H100s and A200s sold to Baidu",
+        "No definitive policy breakthrough on tariffs or broader chip sales",
+        "Putin met with Xi immediately after the US visit, signaling continued China-Russia alignment"
+      ],
+      "speakers": ["Jason", "Friedberg"]
+    },
+    {
+      "claim": "Nvidia is trading at a low-to-mid teens multiple of real earnings, unlike Cisco during the tech bubble which traded at 100x forward earnings",
+      "evidence": [
+        "Cisco is described as 'the Nvidia of the tech bubble' at 100x forward earnings",
+        "Nvidia at low-to-mid teens multiple per buy-side consensus"
+      ],
+      "speakers": ["Gavin"]
+    },
+    {
+      "claim": "AI usage and revenue appear seasonal, with lower activity in summer months historically tied to college students using less ChatGPT and Claude",
+      "evidence": [
+        "College students use less ChatGPT and Claude in summer",
+        "General 'sell in May, go away' market seasonality aligns with AI fundamental seasonality",
+        "Question raised whether agentic AI will break this seasonal pattern"
+      ],
+      "speakers": ["Gavin", "Jason"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "Global debt to GDP is 310%. Reserve currency status to the side. The spending problem at the federal, state, local level. The spending problem at every country to basically keep economies growing to support existing leverage ultimately creates a cascading effect. It ultimately breaks.",
+      "speaker": "Friedberg",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The force of gravity is inevitable. The rollercoaster will roll down. We will throw our hands in the air and we will scream, whee, as we go for the ride.",
+      "speaker": "Friedberg",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "If you can get an asset-backed loan, an asset-backed financing, for GPUs at a lower rate than other chips, that's a profound advantage.",
+      "speaker": "Kevin",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "If they didn't think it had a six-year lifespan, they wouldn't be signing a six-year contract. Pretty straightforward. And they can't get enough of them.",
+      "speaker": "Jason",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "I think selling deprecated Nvidia GPUs to China lowers the odds of them developing their own alternative ecosystem, which would be a lot power hungrier, because you bring in optical a lot earlier for scale-up fabrics.",
+      "speaker": "Gavin",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Every day the Strait of Hormuz is closed is relatively good for America. It's terrible for Europe. It is terrible for Asia. Japan and China need that oil.",
+      "speaker": "Gavin",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The vicissitudes of the market don't give me anywhere near the sugar high it used to on the way up and it makes me feel horrible on the way down.",
+      "speaker": "Chamath",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "I think that this is one of those things that could be a catalyst for a credit crisis because there's a lot of people that are in this carry trade.",
+      "speaker": "Friedberg",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The greatest superpower Trump has is his ability to bond with dictators, monarchs, royal families, Gulf monarchies. He's just great at it.",
+      "speaker": "Chamath",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {
+      "name": "Gavin Baker",
+      "title": "Portfolio Manager / Investor, Atreides Management (implied by managing 100+ positions with 30-person team)"
+    }
+  ],
+  "keyword_candidates": [
+    "GPU lifespan financing",
+    "CoreWeave",
+    "Strait of Hormuz",
+    "Japan 30-year yield",
+    "US-China tech summit",
+    "Nvidia chip sales China",
+    "CPI inflation forecast",
+    "global debt-to-GDP"
+  ]
+}
+```

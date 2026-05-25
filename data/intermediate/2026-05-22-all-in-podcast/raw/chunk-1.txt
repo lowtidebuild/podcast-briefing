@@ -1,0 +1,216 @@
+```json
+{
+  "topics": [
+    "SpaceX S-1 IPO filing and valuation",
+    "Elon Web Services / AI compute business",
+    "Nvidia Q1 earnings and market position",
+    "AI-driven workforce displacement and CEO messaging",
+    "Orbital compute and Starship reusability"
+  ],
+  "claims": [
+    {
+      "claim": "SpaceX is aiming to raise $75 billion at a $1.75 trillion valuation, which would make it the largest IPO ever by more than double Saudi Aramco's $29 billion IPO.",
+      "evidence": [
+        "Largest IPO ever by more than double Aramco's $29B IPO",
+        "Expected mid-June, likely June 12, ticker SPCX",
+        "Polymarket gives 71% chance SpaceX closes first day above $2 trillion market cap"
+      ],
+      "speakers": ["Jason Calacanis"]
+    },
+    {
+      "claim": "Anthropic is paying SpaceX $1.25 billion per month to rent Colossus One and parts of Colossus Two, totaling a $45 billion deal over three years ($15 billion/year).",
+      "evidence": [
+        "$45 billion deal over three years",
+        "$15 billion per year — effectively adding a second Starlink in revenue",
+        "Contract can be canceled by either party with 90 days notice"
+      ],
+      "speakers": ["Jason Calacanis", "Gavin Baker"]
+    },
+    {
+      "claim": "SpaceX builds data centers dramatically faster than competitors and at lower cost, with construction times dropping from 122 days to 91 days to 66 days across successive facilities.",
+      "evidence": [
+        "First data center: 122 days",
+        "Second: 91 days",
+        "Third: 66 days"
+      ],
+      "speakers": ["Gavin Baker"]
+    },
+    {
+      "claim": "Cursor's Composer 2.5 model became Pareto dominant on AI coding benchmarks after only 3-4 weeks of reinforcement learning on Colossus Two using Cursor's proprietary coding data.",
+      "evidence": [
+        "Composer 2.5 is the same base model as Composer 2 (Kami k.25) with only RL applied",
+        "Cursor allegedly has more tokens of coding data than exists on the public internet",
+        "Composer 2.5 is the most selected model on Cursor"
+      ],
+      "speakers": ["Gavin Baker"]
+    },
+    {
+      "claim": "Nvidia reported Q1 revenue of $81.6 billion, up 85% year-over-year and 20% quarter-over-quarter, with $58 billion net income, $48 billion free cash flow, and 75% gross margins.",
+      "evidence": [
+        "$81.6B revenue, 85% YoY growth",
+        "$58B net income, $48B free cash flow",
+        "75% gross margins, $5.3 trillion market cap"
+      ],
+      "speakers": ["Jason Calacanis"]
+    },
+    {
+      "claim": "Nvidia's CPU business is expected to hit $20 billion this year, making it overnight one of the world's largest CPU manufacturers.",
+      "evidence": [
+        "Nvidia announced $20B CPU business projection for the year",
+        "Attributed to Nvidia's unique position working with every AI lab enabling co-design"
+      ],
+      "speakers": ["Gavin Baker"]
+    },
+    {
+      "claim": "The AI compute market is cross-sectionally inefficient, as valuations of power/cooling/optical companies and DRAM/Nvidia cannot simultaneously be correct.",
+      "evidence": [
+        "Memory makers at 3-5x PE, Nvidia at low PE",
+        "Power, cooling, optical names discounting very different futures than chip companies",
+        "If power/cooling multiples are correct, Nvidia and memory go up a lot; if Nvidia multiples are correct, everything else underperforms"
+      ],
+      "speakers": ["Gavin Baker"]
+    },
+    {
+      "claim": "Starlink generated $11.4 billion in revenue in 2024 on 50% growth with $4.4 billion in operating income and over 10 million subscribers.",
+      "evidence": [
+        "$11.4B revenue, 50% growth",
+        "$4.4B operating income",
+        "10 million paying subscribers"
+      ],
+      "speakers": ["Jason Calacanis"]
+    },
+    {
+      "claim": "SpaceX's AI business (xAI) had $3.2 billion in revenue but $6.4 billion in operating losses, and SpaceX spent over $20 billion in capex last year with over 60% for AI compute buildout.",
+      "evidence": [
+        "AI revenue: $3.2B, more than double YoY",
+        "AI operating losses: $6.4B",
+        "60%+ of $20B capex for AI compute"
+      ],
+      "speakers": ["Jason Calacanis"]
+    },
+    {
+      "claim": "Frontier AI model companies are limited to xAI (Grok 4.3, 500B parameter), Google (Gemini 3.1 Pro), OpenAI, and Anthropic — all others are not at the frontier.",
+      "evidence": [
+        "Grok 4.3 is a 500 billion parameter model",
+        "Only these four companies have dots on the Pareto frontier",
+        "Speaker frames being on the frontier vs. not as a binary"
+      ],
+      "speakers": ["Gavin Baker"]
+    },
+    {
+      "claim": "Matthew Prince's memo about layoffs was criticized as damaging because it labeled laid-off workers 'measurers,' effectively marking them with a scarlet letter that would hurt their job prospects.",
+      "evidence": [
+        "Workers labeled 'measurers' in the memo",
+        "Critics say this labeling follows workers to future job searches",
+        "Described as 'from the PR school of retards'"
+      ],
+      "speakers": ["David Sacks (implied)", "Jason Calacanis"]
+    },
+    {
+      "claim": "A working Nvidia H100 GPU is already operational in space, and Nvidia is developing a space-designed GPU variant with different heatsink and reinforcement for launch G-forces.",
+      "evidence": [
+        "Andrej Karpathy trained a model on and used the in-space H100 for inference",
+        "Space version needs different heatsink profile",
+        "Data center GPUs not built to withstand launch G-forces"
+      ],
+      "speakers": ["Gavin Baker"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "the most you can hope for here is you keep this job for some amount of time and train your way out of it",
+      "speaker": "",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "You reduce humans to a label called the measurer. And then you're like, I'm going to lay off all the measurers.",
+      "speaker": "",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "We're listening too much to the inventors of AI. I know that's appealing. They're geniuses. They're smart. We need to be listening to the frontline factory workers who are using AI",
+      "speaker": "Sham Sankar",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Anthropic is paying SpaceX wait for it 1.25 billion a month to rent out Colossus one and parts of Colossus two. It's a $45 billion deal over three years 15 billion a year.",
+      "speaker": "Jason Calacanis",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "they build data centers dramatically faster than anyone else at a lower cost",
+      "speaker": "Gavin Baker",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "composer 2.5 is literally well outside the Pareto frontier. And that's after three weeks.",
+      "speaker": "Gavin Baker",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "if you look at who's actually capable of delivering a gigawatt data center these guys are the closest like an actual gigawatt",
+      "speaker": "Chamath Palihapitiya",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "the only people who are skeptical of orbital compute are those people who are not involved in data centers or space. Google, Anthropic, Amazon, Nvidia, they are all very convinced that orbital compute is going to be reality.",
+      "speaker": "Gavin Baker",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "what he creates is a capital moat that then accelerates a technology moat that then accelerates an execution and a learning moat",
+      "speaker": "Chamath Palihapitiya",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "rapid reusability means that you can fly the same fly and land the same rocket multiple times per day",
+      "speaker": "Gavin Baker",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "if you don't fail you're not learning same way if you're not wrong you didn't learn anything in that day",
+      "speaker": "Gavin Baker",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "the AI market is cross-sectionally inefficient right now",
+      "speaker": "Gavin Baker",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "there is a working h100 and NVIDIA h100 GPU in space today",
+      "speaker": "Gavin Baker",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {
+      "name": "Gavin Baker",
+      "title": "Investor / Managing Partner, Atreides Management"
+    }
+  ],
+  "keyword_candidates": [
+    "SpaceX S-1 IPO",
+    "Elon Web Services",
+    "Colossus data center",
+    "Cursor Composer 2.5",
+    "Nvidia Q1 earnings",
+    "orbital compute",
+    "Starlink",
+    "Grok Build"
+  ]
+}
+```

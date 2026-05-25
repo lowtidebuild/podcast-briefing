@@ -1,5 +1,40 @@
 [
   {
+    "slug": "2026-05-25-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "Odd Lots: What It Takes to Run One of London's Most Popular Pubs (Podcast)",
+    "published": "2026-05-25T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-24-fareed-zakaria-gps",
+    "podcast": "Fareed Zakaria GPS",
+    "category": "Politics / Geopolitics",
+    "title": "Perspectives on Power: Analyzing Global Politics and Economic Change",
+    "published": "2026-05-24T16:35:00"
+  },
+  {
+    "slug": "2026-05-22-all-in-podcast",
+    "podcast": "All-In Podcast",
+    "category": "Politics / Geopolitics",
+    "title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+    "published": "2026-05-22T22:46:00+00:00"
+  },
+  {
+    "slug": "2026-05-22-hard-fork",
+    "podcast": "Hard Fork",
+    "category": "AI / Tech",
+    "title": "Our Field Trip to Google I/O + A Sit-Down With Sundar Pichai + System Update",
+    "published": "2026-05-22T11:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-22-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
+    "published": "2026-05-22T10:00:00+00:00"
+  },
+  {
     "slug": "2026-05-21-odd-lots",
     "podcast": "Odd Lots",
     "category": "Macro / Markets",
@@ -313,40 +348,5 @@
     "category": "Politics / Geopolitics",
     "title": "Vali Nasr on the Ceasefires in Iran and Lebanon; Orbán’s Defeat in Hungary",
     "published": "2026-04-19T16:59:00"
-  },
-  {
-    "slug": "2026-04-19-a16z-podcast",
-    "podcast": "a16z Podcast",
-    "category": "VC / Business",
-    "title": "Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
-    "published": "2026-04-19T10:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-18-odd-lots",
-    "podcast": "Odd Lots",
-    "category": "Macro / Markets",
-    "title": "Alex Imas on Why Economists Might Be Getting AI Wrong",
-    "published": "2026-04-18T08:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-17-all-in-podcast",
-    "podcast": "All-In Podcast",
-    "category": "Politics / Geopolitics",
-    "title": "OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
-    "published": "2026-04-17T20:35:00+00:00"
-  },
-  {
-    "slug": "2026-04-17-hard-fork",
-    "podcast": "Hard Fork",
-    "category": "AI / Tech",
-    "title": "A.I. Backlash Turns Violent + Kara Swisher on Healthmaxxing + The Zuck Bot Is Coming",
-    "published": "2026-04-17T11:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-17-ezra-klein-show",
-    "podcast": "Ezra Klein Show",
-    "category": "Politics / Geopolitics",
-    "title": "Our Tax System Should Make You Furious",
-    "published": "2026-04-17T09:00:00+00:00"
   }
 ]
