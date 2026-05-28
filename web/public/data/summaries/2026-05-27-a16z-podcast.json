@@ -1,0 +1,96 @@
+{
+  "id": "7cc1133c-61a7-4acb-8a73-6e4b7ba6228a",
+  "slug": "2026-05-27-a16z-podcast",
+  "podcast": "a16z Podcast",
+  "category": "VC / Business",
+  "title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
+  "published": "2026-05-27T10:00:00+00:00",
+  "link": "https://a16z.simplecast.com/episodes/marc-rowan-on-private-markets-software-repricing-and-capital-allocation-5Tq0zQ_D",
+  "podcast_url": "https://a16z.com/podcasts",
+  "guest": {
+    "name": "Marc Rowan",
+    "title": "CEO, Apollo Global Management"
+  },
+  "summary_ko": "글로벌 금융 시장의 구조적 재편이 진행 중인 지금, Apollo의 CEO Marc Rowan이 제시하는 진단은 단순한 시장 논평이 아닙니다. 그는 공개시장의 극단적 집중도—미국 S&P 500의 50%를 10개 종목이 차지—와 AI가 촉발한 산업 자본 수요의 폭발적 증가가 맞물리면서, 민간 신용시장(private credit)이 단순한 대안 투자 수단을 넘어 글로벌 경제의 핵심 자금 조달 인프라로 부상하고 있다고 주장합니다.\n\nRowan의 핵심 테제는 통념과 충돌합니다. 시장은 오랫동안 '공개시장 = 안전하고 유동적, 민간시장 = 위험하고 비유동적'이라는 이분법을 유지해왔습니다. 그러나 그는 이 프레임이 역전되고 있다고 봅니다. Anthropic, OpenAI, SpaceX, Anduril 등 수십억 달러 규모의 핵심 기업들이 모두 비상장으로 남아 있고, 데이터센터·칩·에너지·로보틱스·방위산업에 투입될 자본 수요는 '불이 발명된 이후의 모든 달러'를 합친 규모에 달한다고 표현합니다. 공개 주식시장의 자금만으로는 이 수요를 감당할 수 없으며, 투자등급 민간 신용이 그 공백을 메워야 한다는 논리입니다. Apollo가 Intel, Meta, BP 같은 투자등급 기업들에 맞춤형 장기 자금을 공급하며 은행이나 채권시장이 제공하지 못하는 복잡한 구조를 설계하는 것이 바로 이 전략의 실행입니다.\n\nAI가 기업 소프트웨어(enterprise software) 밸류에이션을 훼손하고 있다는 경고는 특히 주목할 만합니다. Rowan은 지난 10년간 사모펀드 투자의 30%가 엔터프라이즈 소프트웨어에 집중됐으며, AI 등장 이전의 성장 시나리오를 반영한 가격으로 집행된 이 투자들의 수익률이 '재앙적'일 것으로 전망합니다. 신용 손실이 이미 가시화되고 있지만, 진짜 문제는 그 위에 쌓인 equity 손실이라는 지적입니다. 반면 정답이 존재하는 영역(코딩, 회계, 거래 운영 등)에서는 AI가 인간을 대체하고, 판단이 필요한 영역에서는 증강(augmentation)이 일어날 것으로 구분합니다.\n\n투자자·창업자·정책 입안자 모두에게 이 대화의 함의는 명확합니다. 민간시장으로의 접근 없이는 진정한 포트폴리오 분산이 불가능하고, AI 인프라 투자의 규모는 벤처 에쿼티만으로 감당할 수 없으며, 엔터프라이즈 소프트웨어 중심의 포트폴리오는 지금 당장 재점검이 필요합니다. Apollo가 민간 신용 상품의 일일 시가평가(daily mark-to-market)와 표준화된 가격 공시를 추진하는 것은 이 시장을 퇴직연금·개인 자산 생태계로 개방하려는 구조적 시도이며, 업계 전반의 방향을 예고합니다.",
+  "summary_en": "Marc Rowan's argument is not a pitch for private markets—it is a structural diagnosis of where global capital formation is breaking down and why. With ten stocks comprising nearly 50% of the S&P 500, and fixed income increasingly dominated by five large banks and five large tech firms, public markets have become a vehicle for concentration, not diversification. The world's most consequential companies—Anthropic, OpenAI, SpaceX, Anduril—are entirely private. Rowan's central claim: private credit, specifically investment-grade private credit, is no longer an alternative asset class but the primary financing infrastructure for the next industrial era.\n\nThis thesis inverts conventional wisdom. The traditional narrative cast private markets as illiquid and opaque, suitable only for sophisticated institutions willing to sacrifice liquidity for return. Rowan reframes the risk: public markets carry systemic concentration risk, while private investment-grade credit offers diversification, structured complexity, and alignment that vanilla bond markets cannot provide. Apollo's client list—Intel, Meta, BP, AT&T, Air France—illustrates the point. These are not distressed borrowers; they are investment-grade companies with financing needs too complex for a standard ten-year bond, funding data centers that marry energy, chips, and offtake agreements simultaneously.\n\nHis warning on enterprise software deserves particular attention. Roughly 30% of private equity deployed over the past decade went into enterprise software, priced on growth assumptions that predate AI competition. Rowan expects returns on that vintage to be \"disastrous\"—not because these companies disappear, but because exit valuations assumed a future that no longer exists. The credit losses already visible in direct lending are, in his framing, merely the shadow of far larger equity losses yet to be recognized.\n\nThe strategic implication for investors is that access to private markets is no longer optional for meaningful diversification. For entrepreneurs, Rowan's message is that the financing stack for capital-intensive technology—robotics, defense, data infrastructure—will increasingly resemble industrial finance: layered risk, credit structures, and equipment rental economics rather than pure venture equity. Apollo's push toward daily estimated valuations and standardized price disclosure by end of 2025 signals the opening of this market to retirement and wealth channels, a structural shift that will reprice the entire alternative asset industry.",
+  "key_points_ko": [
+    {
+      "heading": "공개시장의 집중도가 분산투자를 불가능하게 만들고 있다",
+      "body": "S&P 500의 약 50%를 단 10개 종목이 차지하고 있으며, 이 종목들은 모두 동일한 AI 트렌드에 연동되어 있습니다. 채권시장 역시 5개 대형 은행과 5개 빅테크 기업으로 집중이 심화되는 구조입니다. Rowan은 이 상황에서 진정한 포트폴리오 분산은 민간시장 외에는 달성할 방법이 없다고 단언합니다. Anthropic, OpenAI, SpaceX, Anduril 등 수조 달러 가치의 핵심 성장 기업들이 모두 비상장인 상황에서, 대부분의 투자자는 이들에 대한 익스포저가 전무합니다. 공개시장이 '안전하고 유동적'이라는 통념은 이제 집중 리스크라는 더 큰 위험 앞에서 재검토가 필요합니다."
+    },
+    {
+      "heading": "AI 인프라 수요는 벤처 에쿼티가 아닌 투자등급 민간 신용으로 조달되어야 한다",
+      "body": "2026년 기준 4개 공개 빅테크 기업만으로도 연간 설비투자(CapEx)가 8,000억 달러에 달하며, 여기에 비상장 기업들의 수요까지 더하면 그 규모는 전례 없는 수준입니다. Rowan은 데이터센터, 칩, 에너지, 로보틱스, 방위산업에 투입될 자본을 '불이 발명된 이후의 모든 달러'로 표현합니다. 이 규모는 에쿼티만으로 감당할 수 없으며, 투자등급 민간 신용이 리스크를 세분화하여 적절한 비용으로 자본을 공급해야 한다는 논리입니다. Apollo는 이미 칩 파이낸싱, 에너지-데이터센터 복합 구조 등을 주요 성장 동력으로 삼고 있습니다. 이는 a16z 같은 벤처 생태계와 Apollo 같은 신용 생태계가 동일한 자본 사슬에서 협력해야 하는 구조적 이유이기도 합니다."
+    },
+    {
+      "heading": "엔터프라이즈 소프트웨어 중심 사모펀드의 수익률은 'AI 이전 가격'의 함정에 걸려 있다",
+      "body": "지난 10년간 사모펀드 투자의 약 30%가 엔터프라이즈 소프트웨어에 집중됐으며, 이 투자들의 밸류에이션은 AI 경쟁자의 등장을 반영하지 않은 성장 시나리오를 전제로 합니다. Rowan은 해당 빈티지의 사모펀드 수익률이 '재앙적'일 것으로 전망하는데, 기업이 망하기 때문이 아니라 공개시장 또는 전략적 매각으로의 출구 가격이 낮아졌기 때문입니다. 이미 다이렉트 렌딩에서 신용 손실이 가시화되고 있으나, Rowan은 이것이 더 큰 에쿼티 손실의 전조라고 봅니다. 이 진단은 직접 투자자뿐 아니라 LP(출자자)로서 사모펀드에 자금을 배분한 연기금과 기관투자자에게도 중요한 신호입니다."
+    },
+    {
+      "heading": "민간 신용의 일일 시가평가 도입은 업계 구조를 바꾸는 첫 단추다",
+      "body": "Apollo는 2025년 6월 30일까지 투자등급 민간 신용 상품에 일일 추정가(daily estimated value)를 도입하고, 9월까지 전체 신용 사업으로 확대할 계획입니다. 표준화된 식별자(CUSIP, ICE ID), 데이터 웨어하우스, 마켓 메이킹, 복수 딜러의 가격 공시 체계를 함께 구축하는 것이 핵심입니다. 이는 개인 투자자, 보험사, 401(k) 등 기존 분기 보고 구조를 수용하지 않는 5개 새로운 자본 풀을 끌어들이기 위한 인프라 작업입니다. Rowan은 '가격 투명성이 존재하는 시장은 항상 그 10배 규모로 성장했다'고 주장하며, 이 방향이 불가역적임을 시사합니다. 단기적으로는 불완전하더라도, 민간 신용이 공개 채권시장에 준하는 접근성을 갖추는 방향으로의 전환은 업계 전체의 경쟁 구도를 재편할 것입니다."
+    },
+    {
+      "heading": "Apollo의 성장은 운용 역량보다 외부 구조적 힘에 의해 결정됐다—그 힘은 지금도 작동 중이다",
+      "body": "Apollo는 2008년 약 400억 달러 수준이었던 운용자산이 현재 1조 달러를 넘어섰습니다. Rowan은 이것이 탁월한 경영보다 금융위기 이후 규제 환경 변화, 금리 사이클, 상품 다변화 같은 외부 힘이 주도한 결과라고 솔직하게 인정합니다. 현재 그 외부 힘은 AI·로보틱스·에너지 인프라·방위산업으로의 경제 구조 전환입니다. 그는 '모든 일자리가 대체되거나 강화될 것'이라는 전제 위에서 운영하며, 화이트칼라 고용의 감소와 블루칼라의 상대적 부상을 예측합니다. 이 전망이 맞다면, Apollo 같은 투자등급 민간 신용 플레이어의 성장 곡선은 향후 5년간 과거보다 더 가파를 수 있습니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Public market concentration has made genuine diversification structurally impossible",
+      "body": "Ten stocks now account for nearly half the S&P 500, all correlated to the same AI trade. Fixed income faces the same dynamic, consolidating around five large banks and five large tech firms. Rowan's argument is that private markets are no longer a yield premium play—they are the only remaining source of diversification for a portfolio concentrated by index construction. The fact that Anthropic, OpenAI, SpaceX, and Anduril—representing trillions in value—are entirely private means most institutional and retail investors have zero exposure to the economy's fastest-growing enterprises. The perceived safety of public markets now carries a hidden systemic risk that private market access partially mitigates."
+    },
+    {
+      "heading": "AI infrastructure capital demand cannot be financed by venture equity alone",
+      "body": "Four public technology companies alone will spend $800 billion in capex in 2026, before accounting for private-company demand. Rowan describes the aggregate capital requirement for data centers, chips, energy, robotics, and defense as \"every dollar since the invention of fire.\" The logical consequence is that equity financing at this scale is neither efficient nor sufficient—risk must be tranched and distributed through investment-grade private credit structures. Apollo is already executing on this: chip financing, energy-data center hybrid structures, and infrastructure offtake arrangements are its fastest-growing deal categories. This creates a structural dependency between venture ecosystems like a16z, which incubate the technology, and credit platforms like Apollo, which capitalize the physical infrastructure beneath it."
+    },
+    {
+      "heading": "Enterprise software private equity returns will prove disastrous — the AI repricing is not yet fully visible",
+      "body": "Roughly 30% of private equity capital deployed over the past decade targeted enterprise software, priced on growth assumptions that predate AI competition. Rowan expects returns on this vintage to be \"disastrous\" — not because these companies fail operationally, but because exit multiples assumed a future without a credible AI substitute. Credit losses in direct lending are already surfacing, but Rowan frames these as the visible edge of a larger equity impairment that has not yet been fully marked. The implication for LPs — pension funds, endowments, sovereign wealth funds — is that their private equity allocation may be carrying unrealized losses that quarterly NAV reporting has not yet reflected."
+    },
+    {
+      "heading": "Daily mark-to-market for private credit is infrastructure for a $50 trillion market expansion",
+      "body": "Apollo plans to implement daily estimated valuations across its investment-grade private credit suite by June 30, 2025, extending to its full credit business by September, paired with standardized identifiers, data warehouses, market-making, and multi-dealer price disclosure. The goal is not transparency for its own sake — it is admission to five capital pools (individuals, insurance companies, 401(k), traditional asset managers, and institutional debt/equity allocators) that currently refuse drawdown fund structures. Rowan's historical observation is blunt: every market that has achieved price transparency has grown to ten times its pre-transparency size. Competitors who delay will face a structural disadvantage as Apollo builds the ecosystem that others will eventually have to plug into."
+    },
+    {
+      "heading": "Apollo's trillion-dollar scale was shaped by external forces — and those forces are now accelerating again",
+      "body": "Apollo grew from roughly $40 billion in 2008 to over $1 trillion today. Rowan attributes this less to superior management than to post-GFC regulatory shifts, rate cycles, and product proliferation — external structural forces that enlarged the addressable market. He identifies the current equivalent as the AI-driven economic transition, operating under the explicit assumption that \"every job is going to be replaced or enhanced.\" His prediction of blue-collar ascendancy and white-collar decline has direct implications for credit quality, employment-linked consumption, and the political economy of cities with high concentrations of knowledge-sector workers. For investors, the takeaway is that Apollo's growth trajectory over the next five years may steepen rather than flatten."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "민간시장은 세계에서 일어나는 액션의 80%를 차지합니다. Anthropic, OpenAI, SpaceX, Anduril — 이 모든 기업이 비상장이고, 수조 달러의 가치를 지니고 있지만, 대부분의 투자자는 이들에 대한 익스포저가 전혀 없습니다.",
+    "attribution": "Marc Rowan, CEO, Apollo Global Management"
+  },
+  "notable_quote_en": {
+    "text": "Private markets are 80% of the action going on in the world. Anthropic, OpenAI, SpaceX, Anduril — every one of those companies is private, multiple trillion dollars of value, and yet most investors have zero exposure to them.",
+    "attribution": "Marc Rowan, CEO, Apollo Global Management"
+  },
+  "notable_quote": {
+    "source_text_en": "Private markets are 80% of the action going on in the world. Anthropic, OpenAI, SpaceX, Anduril — every one of those companies is private, multiple trillion dollars of value, and yet most investors have zero exposure to them.",
+    "translation_ko": "민간시장은 세계에서 일어나는 액션의 80%를 차지합니다. Anthropic, OpenAI, SpaceX, Anduril — 이 모든 기업이 비상장이고, 수조 달러의 가치를 지니고 있지만, 대부분의 투자자는 이들에 대한 익스포저가 전혀 없습니다.",
+    "speaker": "Marc Rowan",
+    "attribution": "Marc Rowan, CEO, Apollo Global Management",
+    "is_verbatim": false,
+    "translation_is_verbatim": false,
+    "source_char_start": null,
+    "source_char_end": null,
+    "match_score": 0.6422
+  },
+  "keywords_ko": [
+    "민간 신용(private credit)",
+    "투자등급 자산 발굴",
+    "엔터프라이즈 소프트웨어 재평가",
+    "AI 인프라 파이낸싱",
+    "영구 자본(permanent capital)",
+    "일일 시가평가"
+  ],
+  "keywords_en": [
+    "private credit",
+    "investment-grade origination",
+    "enterprise software repricing",
+    "AI infrastructure financing",
+    "permanent capital",
+    "daily mark-to-market"
+  ],
+  "generated_at": "2026-05-28T10:00:47.902028"
+}

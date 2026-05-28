@@ -1,0 +1,160 @@
+```json
+{
+  "topics": [
+    "Cooperation vs. power as drivers of human history",
+    "Liberalism's strengths and vulnerabilities",
+    "Israel, Zionism, and Jewish identity",
+    "Nationalism, fraternity, and political ideology",
+    "Fiction, truth, and the role of stories in cooperation"
+  ],
+  "claims": [
+    {
+      "claim": "Human progress is fundamentally driven by cooperation, not brute force, because large-scale societies cannot be built on force alone.",
+      "evidence": [
+        "If the only human reality was brute force, we would still be living in tiny hunter-gatherer bands in the African savannah.",
+        "The whole of human history is about how do you get more people to cooperate and to trust each other."
+      ],
+      "speakers": ["Yuval Noah Harari"]
+    },
+    {
+      "claim": "The post-WWII international taboo on conquering other countries by force produced historically unprecedented security dividends, reflected in government budgets shifting toward health care over defense.",
+      "evidence": [
+        "In the early 21st century, on average about 6–7% of the government budget went to defense compared to 10% on average for health care.",
+        "It's the first time in history that humanity spent more on health care than on defense, and they felt more secure than in any previous time."
+      ],
+      "speakers": ["Yuval Noah Harari"]
+    },
+    {
+      "claim": "The Trumpian vision of world order based on the strong dominating the weak has been tried for thousands of years and leads inevitably to empire and endless wars.",
+      "evidence": [
+        "The Americans thought they were stronger in the Vietnam War — they were wrong.",
+        "Putin was convinced he would crush Ukraine in 48 hours — he was wrong.",
+        "It's been tried thousands of years, and we know where it leads: empire and endless wars."
+      ],
+      "speakers": ["Yuval Noah Harari"]
+    },
+    {
+      "claim": "Liberalism's core distinguishing feature is belief in self-correcting mechanisms rather than in a final redemptive end-state.",
+      "evidence": [
+        "Liberalism does not believe in redemption — there will always be problems and tensions and conflicts.",
+        "Elections every four or five years allow people to say 'we made a mistake last time.'",
+        "All the complicated systems of checks and balances, independent courts, and freedom of press are just a complicated way to ensure a country has a robust self-correcting mechanism."
+      ],
+      "speakers": ["Yuval Noah Harari"]
+    },
+    {
+      "claim": "Liberalism lost political ground in recent decades because it neglected fraternity — the sense of national community — while emphasizing liberty and equality.",
+      "evidence": [
+        "Since 1789, the French Revolution's trio of liberty, equality, fraternity shaped all political history.",
+        "Every movement that tried to completely abandon one of these three failed.",
+        "Liberalism focused on equality and liberty but tended to forget fraternity, which proved untenable."
+      ],
+      "speakers": ["Yuval Noah Harari"]
+    },
+    {
+      "claim": "Netanyahu has done more than anyone in Israeli history to divide the nation against itself, making him the worst enemy of Israeli nationalism despite his reputation as a nationalist.",
+      "evidence": [
+        "Nationalism cannot exist without love for insiders — Netanyahu created hatreds within the nation.",
+        "Many self-proclaimed champions of nationalism put the emphasis on hatred rather than love of insiders."
+      ],
+      "speakers": ["Yuval Noah Harari"]
+    },
+    {
+      "claim": "The current direction of Israel risks nullifying 2,000 years of post-Temple Jewish thought by embracing the Roman logic of power over the Jewish tradition of learning, tolerance, and minority existence.",
+      "evidence": [
+        "After the destruction of the Second Temple in 70 CE, Yohanan Ben Zakkai established a center of learning at Yavne, beginning a 2,000-year tradition.",
+        "If after 2,000 years the Jews simply become the Romans, what was the point of the whole of Jewish history?",
+        "Netanyahu's lesson — you need to be strong, build legions, destroy cities — is a legitimate value system, but it is Rome's, not Judaism's."
+      ],
+      "speakers": ["Yuval Noah Harari"]
+    },
+    {
+      "claim": "Fiction is more powerful than truth as a cooperative tool because it is cheap, simple, flattering, and doubt-free — but the ideal is to consciously use fiction while knowing it is fiction, as exemplified by the U.S. Constitution's 'We the People' framing.",
+      "evidence": [
+        "The truth is costly to produce and often painful; fiction can be made as simple and flattering as desired.",
+        "The U.S. Constitution says 'We the people' — it honestly admits human authorship and includes an amendment mechanism.",
+        "The Ten Commandments begins 'I am the Lord your God' and has no amendment mechanism, because it claims divine rather than human origin."
+      ],
+      "speakers": ["Yuval Noah Harari"]
+    },
+    {
+      "claim": "Biblical Judaism was among the most intolerant religions of the ancient world, while 2,000 years of diaspora experience forced Jews toward a more open and tolerant worldview that is now being denied.",
+      "evidence": [
+        "The Bible contains a commandment to kill all the Canaanites and deep intolerance toward other religions.",
+        "The ancient polytheistic Roman world accepted hundreds of religions, including adopting Egyptian goddess Isis worship.",
+        "The Jews' status as a tiny minority living under domination forced them to explore and adopt a more open and tolerant worldview."
+      ],
+      "speakers": ["Yuval Noah Harari"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "If the only human reality was brute force, we would still be living in tiny hunter-gatherer bands in the African savannah. Because the whole of human history is about how do you get more people to cooperate and to trust each other? And you cannot do that only with brute force.",
+      "speaker": "Yuval Noah Harari",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "It's the first time in history that humanity spent more on health care than on defense, and they felt more secure than in any previous time in history because there was this taboo on invading and conquering other countries by force.",
+      "speaker": "Yuval Noah Harari",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Nationalism, at its core, is about loving and caring about a large number of strangers that you do not know personally, but you're nevertheless willing to make a lot of sacrifices for them.",
+      "speaker": "Yuval Noah Harari",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Liberalism does not believe in redemption. You look at the grand historical visions of religions like Christianity or Islam or Judaism, you look at ideologies, secular ideologies, like fascism and communism, they all believe in redemption. They all believe that eventually history will reach a final destination where everything will be perfect.",
+      "speaker": "Yuval Noah Harari",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "If after 2,000 years, the Jews simply become the Romans, what was the point? Why did you waste 2,000 years then? You could have just become Roman back then! It just nullifies the whole of Jewish history.",
+      "speaker": "Yuval Noah Harari",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The U.S. Constitution, it starts with we the people. We the people have come together and agreed on these texts, on these principles. It is coming from our mind. It is our creation.",
+      "speaker": "Yuval Noah Harari",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Liberalism focused on equality and liberty, but tended to forget fraternity. And this proved to be untenable.",
+      "speaker": "Yuval Noah Harari",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "It's collapsing, but it's this kind of amazing house in which all of humanity is living, and the systems are still sort of running, like the water, the sewage. Nobody takes care of them anymore, but they were built in such a robust way that even though we don't maintain them, they still function.",
+      "speaker": "Yuval Noah Harari",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Here, just look at this image. And so many people just can't do it.",
+      "speaker": "Yuval Noah Harari",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {"name": "Yuval Noah Harari", "title": "Historian and Author, Hebrew University of Jerusalem"}
+  ],
+  "keyword_candidates": [
+    "cooperation vs. power",
+    "liberalism self-correcting mechanism",
+    "nationalism fraternity",
+    "Yohanan Ben Zakkai",
+    "Ten Commandments amendment mechanism",
+    "Stephen Miller iron laws",
+    "Thirty Years War",
+    "Yoram Hazony"
+  ]
+}
+```

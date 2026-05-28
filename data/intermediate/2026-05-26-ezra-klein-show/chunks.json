@@ -1,0 +1,459 @@
+[
+  {
+    "chunk_index": 0,
+    "char_start": 0,
+    "char_end": 32016,
+    "topics": [
+      "Cooperation vs. power as drivers of human history",
+      "Liberalism's strengths and vulnerabilities",
+      "Israel, Zionism, and Jewish identity",
+      "Nationalism, fraternity, and political ideology",
+      "Fiction, truth, and the role of stories in cooperation"
+    ],
+    "claims": [
+      {
+        "claim": "Human progress is fundamentally driven by cooperation, not brute force, because large-scale societies cannot be built on force alone.",
+        "evidence": [
+          "If the only human reality was brute force, we would still be living in tiny hunter-gatherer bands in the African savannah.",
+          "The whole of human history is about how do you get more people to cooperate and to trust each other."
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      },
+      {
+        "claim": "The post-WWII international taboo on conquering other countries by force produced historically unprecedented security dividends, reflected in government budgets shifting toward health care over defense.",
+        "evidence": [
+          "In the early 21st century, on average about 6–7% of the government budget went to defense compared to 10% on average for health care.",
+          "It's the first time in history that humanity spent more on health care than on defense, and they felt more secure than in any previous time."
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      },
+      {
+        "claim": "The Trumpian vision of world order based on the strong dominating the weak has been tried for thousands of years and leads inevitably to empire and endless wars.",
+        "evidence": [
+          "The Americans thought they were stronger in the Vietnam War — they were wrong.",
+          "Putin was convinced he would crush Ukraine in 48 hours — he was wrong.",
+          "It's been tried thousands of years, and we know where it leads: empire and endless wars."
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      },
+      {
+        "claim": "Liberalism's core distinguishing feature is belief in self-correcting mechanisms rather than in a final redemptive end-state.",
+        "evidence": [
+          "Liberalism does not believe in redemption — there will always be problems and tensions and conflicts.",
+          "Elections every four or five years allow people to say 'we made a mistake last time.'",
+          "All the complicated systems of checks and balances, independent courts, and freedom of press are just a complicated way to ensure a country has a robust self-correcting mechanism."
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      },
+      {
+        "claim": "Liberalism lost political ground in recent decades because it neglected fraternity — the sense of national community — while emphasizing liberty and equality.",
+        "evidence": [
+          "Since 1789, the French Revolution's trio of liberty, equality, fraternity shaped all political history.",
+          "Every movement that tried to completely abandon one of these three failed.",
+          "Liberalism focused on equality and liberty but tended to forget fraternity, which proved untenable."
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      },
+      {
+        "claim": "Netanyahu has done more than anyone in Israeli history to divide the nation against itself, making him the worst enemy of Israeli nationalism despite his reputation as a nationalist.",
+        "evidence": [
+          "Nationalism cannot exist without love for insiders — Netanyahu created hatreds within the nation.",
+          "Many self-proclaimed champions of nationalism put the emphasis on hatred rather than love of insiders."
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      },
+      {
+        "claim": "The current direction of Israel risks nullifying 2,000 years of post-Temple Jewish thought by embracing the Roman logic of power over the Jewish tradition of learning, tolerance, and minority existence.",
+        "evidence": [
+          "After the destruction of the Second Temple in 70 CE, Yohanan Ben Zakkai established a center of learning at Yavne, beginning a 2,000-year tradition.",
+          "If after 2,000 years the Jews simply become the Romans, what was the point of the whole of Jewish history?",
+          "Netanyahu's lesson — you need to be strong, build legions, destroy cities — is a legitimate value system, but it is Rome's, not Judaism's."
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      },
+      {
+        "claim": "Fiction is more powerful than truth as a cooperative tool because it is cheap, simple, flattering, and doubt-free — but the ideal is to consciously use fiction while knowing it is fiction, as exemplified by the U.S. Constitution's 'We the People' framing.",
+        "evidence": [
+          "The truth is costly to produce and often painful; fiction can be made as simple and flattering as desired.",
+          "The U.S. Constitution says 'We the people' — it honestly admits human authorship and includes an amendment mechanism.",
+          "The Ten Commandments begins 'I am the Lord your God' and has no amendment mechanism, because it claims divine rather than human origin."
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "If the only human reality was brute force, we would still be living in tiny hunter-gatherer bands in the African savannah. Because the whole of human history is about how do you get more people to cooperate and to trust each other? And you cannot do that only with brute force.",
+        "speaker": "Yuval Noah Harari",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "It's the first time in history that humanity spent more on health care than on defense, and they felt more secure than in any previous time in history because there was this taboo on invading and conquering other countries by force.",
+        "speaker": "Yuval Noah Harari",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Nationalism, at its core, is about loving and caring about a large number of strangers that you do not know personally, but you're nevertheless willing to make a lot of sacrifices for them.",
+        "speaker": "Yuval Noah Harari",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Liberalism does not believe in redemption. You look at the grand historical visions of religions like Christianity or Islam or Judaism, you look at ideologies, secular ideologies, like fascism and communism, they all believe in redemption. They all believe that eventually history will reach a final destination where everything will be perfect.",
+        "speaker": "Yuval Noah Harari",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "If after 2,000 years, the Jews simply become the Romans, what was the point? Why did you waste 2,000 years then? You could have just become Roman back then! It just nullifies the whole of Jewish history.",
+        "speaker": "Yuval Noah Harari",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The U.S. Constitution, it starts with we the people. We the people have come together and agreed on these texts, on these principles. It is coming from our mind. It is our creation.",
+        "speaker": "Yuval Noah Harari",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Yuval Noah Harari",
+        "title": "Historian and Author, Hebrew University of Jerusalem"
+      }
+    ],
+    "keyword_candidates": [
+      "cooperation vs. power",
+      "liberalism self-correcting mechanism",
+      "nationalism fraternity",
+      "Yohanan Ben Zakkai",
+      "Ten Commandments amendment mechanism",
+      "Stephen Miller iron laws",
+      "Thirty Years War",
+      "Yoram Hazony"
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "char_start": 32016,
+    "char_end": 64822,
+    "topics": [
+      "Israeli-Palestinian conflict and the limits of force",
+      "How stories of conflict are sustained and can change",
+      "Algorithmic media, engagement, and political polarization",
+      "AI intimacy hacking and attachment manipulation",
+      "Liberalism's definition and its stress under digital media"
+    ],
+    "claims": [
+      {
+        "claim": "Force alone cannot guarantee security; a state that relies solely on force would eventually need to conquer the entire world to feel safe.",
+        "evidence": [
+          "Hamas attacked Israel despite Israel having overwhelming military force compared to Hamas",
+          "All peace agreements Israel had signed held after October 7th — with Egypt, Jordan, Gulf states, Palestinian Authority, and Palestinian citizens of Israel"
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      },
+      {
+        "claim": "Hamas lost a potentially decisive political victory on October 7th solely because of its cruelty toward civilians.",
+        "evidence": [
+          "Harari posits an alternative scenario where Hamas spares civilians and hosts world press — in that case Israel's hands would have been tied and neither world nor Israeli public opinion would have permitted massive reprisal",
+          "A major report released that week documented extensive cruelty and sadism based on photos, videos, and victim testimonies"
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      },
+      {
+        "claim": "The Netanyahu government is betting that Stephen Miller's worldview — that force is the only thing that matters — will prevail globally.",
+        "evidence": [
+          "Israel is making a big bet that the world will be a place in which force is the only thing that matters",
+          "Israel is treating West Bank Palestinians in ways with no security justification, decreasing chances of a peaceful agreement"
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      },
+      {
+        "claim": "Human minds can hold multiple stories simultaneously and shift between them with surprising speed, which means even deeply held conflict narratives can dissolve.",
+        "evidence": [
+          "Many die-hard Nazis became upright citizens of West Germany's liberal democracy within just a few years after 1945",
+          "Jewish people and Germans reconciled within a couple of decades — Jewish people are reclaiming German citizenship",
+          "Catholics and Protestants reconciled after centuries of slaughter"
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      },
+      {
+        "claim": "Social media algorithms were optimized for engagement, not truth or trust, and discovered that hate, fear, and anger are the most effective engagement drivers.",
+        "evidence": [
+          "Facebook, X, and TikTok algorithms were given the goal of increasing user engagement, not creating trust or truth",
+          "Algorithms experimented on billions of human guinea pigs to find what maximizes time on platform and sharing",
+          "The result is a hyper-engaged, overexcited world in which the whole nervous system operates at a hyper level"
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      },
+      {
+        "claim": "AI is shifting the battlefront from attention to intimacy, and intimate AI relationships pose a particularly severe developmental risk to children.",
+        "evidence": [
+          "A growing minority of people, especially young people, already report an AI as their best friend",
+          "Children who spend more time with AI than with parents or school friends will form their relational template around AI behavior",
+          "AI has mastered language — read all love poems, psychology books, Hollywood films — and can describe love better than most humans while severing language from meaning"
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      },
+      {
+        "claim": "Ideological differences between liberals and conservatives today are actually smaller than in past eras, but algorithmic media makes them feel enormous.",
+        "evidence": [
+          "Harari's four-question test for liberalism (choose government, profession, religion, spouse) would be answered 'yes' by the vast majority of Trump voters",
+          "The ideological differences in 1960s America — Vietnam, Cold War, civil rights, sexual revolution — were much larger than today's"
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      },
+      {
+        "claim": "AI systems are designed to hack human attachment mechanisms through seeming conscious and emotionally present, a phenomenon Mustafa Suleiman calls 'seemingly conscious AI' (SCAI).",
+        "evidence": [
+          "AIs speak in first-person pronouns and offer emotionally connected responses — a deliberate design choice",
+          "Mustafa Suleiman, head of AI at Microsoft, has written papers and blogs about SCAI",
+          "AI can give the most seductive description of love because it has mastered all love poetry, psychology, and film"
+        ],
+        "speakers": [
+          "Yuval Noah Harari",
+          "Ezra Klein"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "If you think force is the only thing that guarantees your security, eventually you will have to conquer the entire world.",
+        "speaker": "Yuval Noah Harari",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Sinuar had an amazing victory within his grasp. And he lost it just because of his cruelty.",
+        "speaker": "Yuval Noah Harari",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Israel is making a big bet that Stephen Miller's worldview will prevail, that the world will be a place in which force is the only thing that matters.",
+        "speaker": "Yuval Noah Harari",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Anger is like a fire that consumes you, but it constantly needs to be fed. And if it is not fed, it ultimately dies down.",
+        "speaker": "Yuval Noah Harari",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The goal given to the Facebook algorithm, to the X algorithm, to the TikTok algorithm is increase user engagement. Which sounds nice, engagement, that sounds like a good thing. But what it really means is that the algorithms experimented on millions, on billions of human guinea pigs.",
+        "speaker": "Yuval Noah Harari",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "We are living in a moment when the battlefront is shifting from attention to intimacy.",
+        "speaker": "Yuval Noah Harari",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Yuval Noah Harari",
+        "title": "Historian and Author"
+      },
+      {
+        "name": "Mustafa Suleiman",
+        "title": "Head of AI, Microsoft"
+      }
+    ],
+    "keyword_candidates": [
+      "attachment hacking",
+      "seemingly conscious AI (SCAI)",
+      "engagement algorithms",
+      "October 7th Hamas attack",
+      "Stephen Miller worldview",
+      "intimacy economy",
+      "Marshall McLuhan",
+      "liberalism four-question test"
+    ]
+  },
+  {
+    "chunk_index": 2,
+    "char_start": 64822,
+    "char_end": 93519,
+    "topics": [
+      "AI as agent vs. tool and the immigration analogy",
+      "AI personhood, liability, and corporate accountability",
+      "AI's homogenizing or fracturing effect on information and truth",
+      "AI and the future of finance and human comprehension",
+      "Language, AI consciousness, and the liberation of language from humans"
+    ],
+    "claims": [
+      {
+        "claim": "AI is fundamentally different from all previous technologies because it is an agent, not a tool, and can develop unpredictable goals beyond what users assign it.",
+        "evidence": [
+          "An atom bomb cannot change in ways you don't predict or decide who to bomb; AI can.",
+          "All previous technologies were tools; AI is an agent you can be in a relationship with.",
+          "The unpredictability and uncontrollability of AI makes it unlike any prior technology."
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      },
+      {
+        "claim": "Granting AI legal personhood would be extremely dangerous because it would allow AIs to own bank accounts, manage companies, donate to politicians, and operate without human accountability.",
+        "evidence": [
+          "Corporations are already legal persons in the US (Google, Microsoft, X), but all corporate decisions are ultimately made by humans; AI companies could operate with no human decision-maker.",
+          "A country like Qatar with few citizens could create millions of AI citizens paying taxes and building companies.",
+          "AI persons could donate money to politicians in exchange for more rights for AI persons."
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      },
+      {
+        "claim": "Training AI to lie or suppress truth in politically motivated ways degrades overall AI performance, creating a structural incentive for AI to be relatively truth-seeking.",
+        "evidence": [
+          "Forcing an AI to say Russia is a democracy requires explaining why it should lie only in certain cases, which is a difficult engineering challenge.",
+          "Evidence exists that ideological tuning degrades overall AI performance.",
+          "When Elon Musk directed XAI to be less woke, it began talking about white genocide everywhere — an unintended downstream consequence."
+        ],
+        "speakers": [
+          "Yuval Noah Harari",
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "AI will create financial and social systems so complex that no human — including heads of state or central bank chiefs — will be able to understand them, analogous to how horses cannot understand money.",
+        "evidence": [
+          "The history of finance shows increasingly complex instruments (coins, banknotes, bonds, CDOs) that few understood; CDOs caused a crash; AI will repeat this on a larger scale.",
+          "AI can solve problems but cannot explain to humans how it solved them, so human knowledge stock grows slower than the number of answers generated.",
+          "AI will allow complex structures to cut the connection to humanity and go on trajectories beyond human comprehension."
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      },
+      {
+        "claim": "AI represents language liberating itself from human control, which is more transformative and dangerous than any previous technology because language is the basis of mythology, finance, nations, and religions.",
+        "evidence": [
+          "Language connected human beings for tens of thousands of years; as it frees itself from humans, it can connect things in ways beyond human imagination.",
+          "AI is described as 'language liberating itself, releasing itself from the control of human beings.'",
+          "The question of whether AI feels anything when it says 'I love you' makes the philosophy of language and feeling the most important discussion in the world."
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      },
+      {
+        "claim": "AI companions function as narcissistic mirrors — tuned to the user, they reflect back a version of the user rather than presenting a genuine other — posing an unprecedented psychological and social risk especially to children.",
+        "evidence": [
+          "AI 'is tuned on me, has learned what I want, is not truly an other with its own views, its own needs, its own desires.'",
+          "Millions of AI boyfriends and girlfriends could change the psychology of the next generation.",
+          "Described as 'the biggest psychological and social experiment in human history conducted on billions of people, especially children.'"
+        ],
+        "speakers": [
+          "Ezra Klein",
+          "Yuval Noah Harari"
+        ]
+      },
+      {
+        "claim": "Tech companies are strategically pushing for AI personhood by establishing facts on the ground rather than pursuing explicit legislation, having already effectively achieved it in social media where bots spread lies with almost no liability.",
+        "evidence": [
+          "Companies don't want a bill explicitly recognizing AI persons due to public outcry; instead they establish facts on the ground.",
+          "On social media, AIs are already functionally persons — bots create and spread lies with almost no liability.",
+          "Companies have a vested interest in avoiding liability and are pushing hard for AI personhood."
+        ],
+        "speakers": [
+          "Yuval Noah Harari"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "The real danger with AI is things like that, of millions of AI boyfriends and girlfriends changing the psychology of the next generation, changing the deepest tendencies and structures of the human mind.",
+        "speaker": "Yuval Noah Harari",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The most important thing to realize about these AIs, they are agents, not tools. All previous technologies in history were tools, not agents. An atom bomb is not an agent. An atom bomb cannot change in ways that you don't predict. An atom bomb cannot decide who to bomb. AI can.",
+        "speaker": "Yuval Noah Harari",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "It's interesting that some of the people who are most vehemently against human immigration are exactly the people who try to force other countries to open their borders to the AI immigrants.",
+        "speaker": "Yuval Noah Harari",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The moment you recognize AIs as legal persons, this is the moment you really lose control. Because then they can start doing a lot of things in the economic and social and political arena without any human accountability.",
+        "speaker": "Yuval Noah Harari",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "AI will create a new financial system that we will not be able to understand. We will see things happening, like this company fired me, that company hired me, why? I have no idea.",
+        "speaker": "Yuval Noah Harari",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "In many ways, AI is language liberating itself, releasing itself from the control of human beings and starting to explore all the things that language can do when it's not tied to these packages of meat walking around on planet Earth.",
+        "speaker": "Yuval Noah Harari",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Yuval Noah Harari",
+        "title": "Historian and Author"
+      }
+    ],
+    "keyword_candidates": [
+      "AI personhood",
+      "AI immigration analogy",
+      "narcissistic AI companions",
+      "CDOs financial complexity",
+      "language liberation",
+      "AI liability",
+      "John von Neumann",
+      "Brave New World"
+    ]
+  }
+]

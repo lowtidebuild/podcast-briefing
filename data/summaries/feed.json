@@ -1,5 +1,26 @@
 [
   {
+    "slug": "2026-05-27-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
+    "published": "2026-05-27T10:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-26-making-sense",
+    "podcast": "Making Sense",
+    "category": "Philosophy / AI Ethics",
+    "title": "#477 — More From Sam: Iran's Unraveling, The Gaza Information War, AI-Generated Music, and More",
+    "published": "2026-05-26T18:45:00+00:00"
+  },
+  {
+    "slug": "2026-05-26-ezra-klein-show",
+    "podcast": "Ezra Klein Show",
+    "category": "Politics / Geopolitics",
+    "title": "Yuval Noah Harari on Donald Trump’s Core Delusion",
+    "published": "2026-05-26T09:00:00+00:00"
+  },
+  {
     "slug": "2026-05-25-odd-lots",
     "podcast": "Odd Lots",
     "category": "Macro / Markets",
@@ -33,6 +54,13 @@
     "category": "VC / Business",
     "title": "Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "published": "2026-05-22T10:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-22-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "Odd Lots: 'The Assassin' Fahmi Quadir on How to Survive as a Short-Seller (Podcast)",
+    "published": "2026-05-22T08:00:00+00:00"
   },
   {
     "slug": "2026-05-21-odd-lots",
@@ -320,33 +348,5 @@
     "category": "Politics / Geopolitics",
     "title": "Stewart Brand, Silicon Valley’s Favorite Prophet, on Life’s Most Important Principle",
     "published": "2026-04-24T09:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-22-a16z-podcast",
-    "podcast": "a16z Podcast",
-    "category": "VC / Business",
-    "title": "Balaji Srinivasan: Prove Correct, Not Just Go Direct",
-    "published": "2026-04-22T10:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-22-odd-lots",
-    "podcast": "Odd Lots",
-    "category": "Macro / Markets",
-    "title": "Odd Lots: Daniel Yergin Sees a 'Different World' Emerging After the Hormuz Crisis (Podcast)",
-    "published": "2026-04-22T08:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-21-ezra-klein-show",
-    "podcast": "Ezra Klein Show",
-    "category": "Politics / Geopolitics",
-    "title": "Why Are Palantir and OpenAI Scared of Alex Bores?",
-    "published": "2026-04-21T09:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-19-fareed-zakaria-gps",
-    "podcast": "Fareed Zakaria GPS",
-    "category": "Politics / Geopolitics",
-    "title": "Vali Nasr on the Ceasefires in Iran and Lebanon; Orbán’s Defeat in Hungary",
-    "published": "2026-04-19T16:59:00"
   }
 ]

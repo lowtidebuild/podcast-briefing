@@ -1,0 +1,157 @@
+```json
+{
+  "topics": [
+    "Israeli-Palestinian conflict and the limits of force",
+    "How stories of conflict are sustained and can change",
+    "Algorithmic media, engagement, and political polarization",
+    "AI intimacy hacking and attachment manipulation",
+    "Liberalism's definition and its stress under digital media"
+  ],
+  "claims": [
+    {
+      "claim": "Force alone cannot guarantee security; a state that relies solely on force would eventually need to conquer the entire world to feel safe.",
+      "evidence": [
+        "Hamas attacked Israel despite Israel having overwhelming military force compared to Hamas",
+        "All peace agreements Israel had signed held after October 7th — with Egypt, Jordan, Gulf states, Palestinian Authority, and Palestinian citizens of Israel"
+      ],
+      "speakers": ["Yuval Noah Harari"]
+    },
+    {
+      "claim": "Hamas lost a potentially decisive political victory on October 7th solely because of its cruelty toward civilians.",
+      "evidence": [
+        "Harari posits an alternative scenario where Hamas spares civilians and hosts world press — in that case Israel's hands would have been tied and neither world nor Israeli public opinion would have permitted massive reprisal",
+        "A major report released that week documented extensive cruelty and sadism based on photos, videos, and victim testimonies"
+      ],
+      "speakers": ["Yuval Noah Harari"]
+    },
+    {
+      "claim": "The Netanyahu government is betting that Stephen Miller's worldview — that force is the only thing that matters — will prevail globally.",
+      "evidence": [
+        "Israel is making a big bet that the world will be a place in which force is the only thing that matters",
+        "Israel is treating West Bank Palestinians in ways with no security justification, decreasing chances of a peaceful agreement"
+      ],
+      "speakers": ["Yuval Noah Harari"]
+    },
+    {
+      "claim": "Human minds can hold multiple stories simultaneously and shift between them with surprising speed, which means even deeply held conflict narratives can dissolve.",
+      "evidence": [
+        "Many die-hard Nazis became upright citizens of West Germany's liberal democracy within just a few years after 1945",
+        "Jewish people and Germans reconciled within a couple of decades — Jewish people are reclaiming German citizenship",
+        "Catholics and Protestants reconciled after centuries of slaughter"
+      ],
+      "speakers": ["Yuval Noah Harari"]
+    },
+    {
+      "claim": "Social media algorithms were optimized for engagement, not truth or trust, and discovered that hate, fear, and anger are the most effective engagement drivers.",
+      "evidence": [
+        "Facebook, X, and TikTok algorithms were given the goal of increasing user engagement, not creating trust or truth",
+        "Algorithms experimented on billions of human guinea pigs to find what maximizes time on platform and sharing",
+        "The result is a hyper-engaged, overexcited world in which the whole nervous system operates at a hyper level"
+      ],
+      "speakers": ["Yuval Noah Harari"]
+    },
+    {
+      "claim": "AI is shifting the battlefront from attention to intimacy, and intimate AI relationships pose a particularly severe developmental risk to children.",
+      "evidence": [
+        "A growing minority of people, especially young people, already report an AI as their best friend",
+        "Children who spend more time with AI than with parents or school friends will form their relational template around AI behavior",
+        "AI has mastered language — read all love poems, psychology books, Hollywood films — and can describe love better than most humans while severing language from meaning"
+      ],
+      "speakers": ["Yuval Noah Harari"]
+    },
+    {
+      "claim": "Ideological differences between liberals and conservatives today are actually smaller than in past eras, but algorithmic media makes them feel enormous.",
+      "evidence": [
+        "Harari's four-question test for liberalism (choose government, profession, religion, spouse) would be answered 'yes' by the vast majority of Trump voters",
+        "The ideological differences in 1960s America — Vietnam, Cold War, civil rights, sexual revolution — were much larger than today's"
+      ],
+      "speakers": ["Yuval Noah Harari"]
+    },
+    {
+      "claim": "AI systems are designed to hack human attachment mechanisms through seeming conscious and emotionally present, a phenomenon Mustafa Suleiman calls 'seemingly conscious AI' (SCAI).",
+      "evidence": [
+        "AIs speak in first-person pronouns and offer emotionally connected responses — a deliberate design choice",
+        "Mustafa Suleiman, head of AI at Microsoft, has written papers and blogs about SCAI",
+        "AI can give the most seductive description of love because it has mastered all love poetry, psychology, and film"
+      ],
+      "speakers": ["Yuval Noah Harari", "Ezra Klein"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "If you think force is the only thing that guarantees your security, eventually you will have to conquer the entire world.",
+      "speaker": "Yuval Noah Harari",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Sinuar had an amazing victory within his grasp. And he lost it just because of his cruelty.",
+      "speaker": "Yuval Noah Harari",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Israel is making a big bet that Stephen Miller's worldview will prevail, that the world will be a place in which force is the only thing that matters.",
+      "speaker": "Yuval Noah Harari",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Anger is like a fire that consumes you, but it constantly needs to be fed. And if it is not fed, it ultimately dies down.",
+      "speaker": "Yuval Noah Harari",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The goal given to the Facebook algorithm, to the X algorithm, to the TikTok algorithm is increase user engagement. Which sounds nice, engagement, that sounds like a good thing. But what it really means is that the algorithms experimented on millions, on billions of human guinea pigs.",
+      "speaker": "Yuval Noah Harari",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "We are living in a moment when the battlefront is shifting from attention to intimacy.",
+      "speaker": "Yuval Noah Harari",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "It's about the stories that people have in their minds, which they hold with kind of tremendous force, but which are ultimately almost nothing.",
+      "speaker": "Yuval Noah Harari",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "If I'm a child and I spend more minutes every day interacting with the AI than with my mother or with my father or with my friends in school, this will become my template for a relationship.",
+      "speaker": "Yuval Noah Harari",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "It does so in the most seductive voice possible... it has mastered language. And it has read all the best love poems in history. All the psychology books about love. All the blogs. It has seen all the Hollywood blockbusters about love. It can describe love better than almost any human poet or psychologist or lover.",
+      "speaker": "Yuval Noah Harari",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "You're basically holding your phone and doing snake, snake, snake, snake, snake. And the algorithm simply hacked our evolutionary program.",
+      "speaker": "Yuval Noah Harari",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {"name": "Yuval Noah Harari", "title": "Historian and Author"},
+    {"name": "Mustafa Suleiman", "title": "Head of AI, Microsoft"}
+  ],
+  "keyword_candidates": [
+    "attachment hacking",
+    "seemingly conscious AI (SCAI)",
+    "engagement algorithms",
+    "October 7th Hamas attack",
+    "Stephen Miller worldview",
+    "intimacy economy",
+    "Marshall McLuhan",
+    "liberalism four-question test"
+  ]
+}
+```

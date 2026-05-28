@@ -1,0 +1,88 @@
+{
+  "id": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/vg_.NImbhELY/v14.mp3",
+  "slug": "2026-05-22-odd-lots",
+  "podcast": "Odd Lots",
+  "category": "Macro / Markets",
+  "title": "Odd Lots: 'The Assassin' Fahmi Quadir on How to Survive as a Short-Seller (Podcast)",
+  "published": "2026-05-22T08:00:00+00:00",
+  "link": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/vg_.NImbhELY/v14.mp3",
+  "podcast_url": "https://www.bloomberg.com/oddlots",
+  "guest": {
+    "name": "Fahmi Quadir",
+    "title": "Founder and CIO, Safkhet Capital"
+  },
+  "summary_ko": "공매도 전문 펀드가 기관 투자자로부터 외면받는 시대에, Fahmi Quadir가 어떻게 생존 전략을 재정의하고 있는지는 단순한 틈새 시장 이야기가 아닙니다. 그것은 현재 시장 구조의 본질적 결함—집행 없는 규율, 서사에 가려진 사기, 그리고 가격 발견 기능의 점진적 붕괴—을 드러내는 신호입니다.\n\nQuadir의 핵심 주장은 이렇습니다. 우리는 '사기의 황금 시대'에 살고 있지만, 역설적으로 공매도는 그 어느 때보다 작동하기 어려운 환경에 처해 있습니다. GameStop 사태 이후 기관 자본 배분자들은 공매도 펀드 투자를 사실상 철수했고, SEC의 집행 조치는 2023년부터 2024년 사이 26% 감소한 데 이어 그 다음 해에도 22% 추가 감소했습니다. 규제 공백과 AI 붐에 대한 맹목적 추종이 결합되면서, 공매도가 전통적으로 수행해온 정보적 알파와 가격 발견 기능이 시장에서 힘을 잃었습니다.\n\n그럼에도 Quadir는 두 개의 구체적인 단기 테마를 제시합니다. 첫째, 미국 소비자 부문—가계 부채 서비스 비율이 소득의 11%에 달하고 있으며, 레버리지 롤업 기업과 헬스케어 서비스가 핵심 타깃입니다. 둘째, 기업 지배구조 개혁이 진행 중인 한국 시장—Quadir는 처음으로 롱 포지션을 취하며 한국에서 주주 행동주의 펀드를 준비 중입니다. 한국은 2023년 11월 공매도를 금지했고, 2024년에는 주주 권리를 상법에 명문화했으며, 금융 감독원은 KOSPI 상장사 중 장부가 이하로 거래되는 기업을 공개적으로 '명단 공개(name and shame)'하겠다고 발표했습니다.\n\nWirecard 사례는 Quadir의 방법론을 가장 잘 보여줍니다. 그녀는 회계 부정보다 앞서 자금 세탁 네트워크를 추적했고, Jan Marsalek의 절친한 친구이자 미국 사업의 핵심 인물이 체포된 시점을 결정적 촉매로 활용했습니다. 이 접근법—재무 데이터보다 행동적 압박 포인트를 먼저 읽는 것—은 그녀가 한국의 재벌 3세 경영진을 분석하는 데도 그대로 적용됩니다. 규제가 느슨한 시장에서 기업 지배구조를 판단하려는 투자자라면, 이 틀은 단순한 공매도 전략을 넘어선 보편적 분석 도구입니다.",
+  "summary_en": "Fahmi Quadir's career trajectory—from shorting Valeant and Wirecard to launching a long-side activist fund in Korea—is not a personal pivot story. It is a precise diagnosis of what has broken in market structure: enforcement has atrophied, narratives have decoupled from fundamentals, and the informational function that short-sellers once performed is no longer being priced in.\n\nQuadir's central thesis is that the \"golden age of fraud\" and the near-extinction of short-selling have arrived simultaneously, and not by coincidence. SEC enforcement actions fell 26% from 2023 to 2024 and a further 22% the following year. Post-GameStop, institutional allocators fled concentrated short funds entirely, eliminating the capital base that made fundamental short-selling viable. The result is a market where the traditional levers—regulatory referrals, sustained position-building, catalyst-driven thesis materialization—no longer function reliably. Short-sellers have been forced to behave like momentum traders, sizing in only as the narrative is already breaking.\n\nTwo actionable themes emerge. In the US, Quadir targets levered consumer roll-ups and healthcare services, arguing that businesses built on regulatory arbitrage and consumer price-gouging carry hidden structural decay—household debt servicing has reached 11% of income, and loss recognition in consumer finance securitizations is materially lagging underlying asset quality. In Korea, she is going long for the first time, building a shareholder activist strategy around chaebols undergoing third-generation succession. South Korea enshrined shareholder fiduciary duties into corporate law less than a year ago, and the financial regulator now publicly names companies trading below book value on the KOSPI—a structural shift that directly rewards the governance arbitrage Quadir intends to exploit.\n\nThe Wirecard case crystallises her methodology: she tracked the money-laundering network rather than the accounting fraud, and used the arrest of Jan Marsalek's closest American associate as the behavioural pressure-point that preceded collapse by roughly six weeks. The same logic—identify what makes management sweat beyond the stock price—applies to her Korea thesis. For any investor trying to assess corporate governance where enforcement is weak or in transition, this framework has utility well beyond short-selling.",
+  "key_points_ko": [
+    {
+      "heading": "공매도가 사라지는 것은 시장 구조의 실패이지 전략의 실패가 아닙니다",
+      "body": "Jim Chanos의 펀드 폐쇄는 개인적 실패가 아니라 기관 자본 배분 환경의 구조적 변화를 반영합니다. GameStop 사태 이후 기관 투자자들은 공매도 집중 포지션 전체를 리스크로 간주하기 시작했고, 공매도 펀드에 대한 자금 조달은 사실상 소멸했습니다. SEC 집행 조치는 2023~2024년 26%, 그 다음 해 22% 추가 감소했으며, 이는 특정 행정부의 문제가 아니라 AI 붐에 편승하려는 규제 기관의 친경기적 행태를 반영합니다. 결과적으로 가격 발견의 핵심 기능이 훼손되고 있으며, 이는 다음 시장 조정 시 충격을 증폭시킬 수 있습니다."
+    },
+    {
+      "heading": "미국 소비자 부문의 균열은 헤드라인 지표 뒤에 숨어 있습니다",
+      "body": "가계 부채 총액이 소득의 80%라는 수치보다 더 중요한 것은 부채 서비스 비율로, 이미 소득의 11%에 달하고 있으며 학자금 대출 부담이 큰 가구에서는 훨씬 높습니다. 소비자 금융 관련 주식들은 최근 강세를 보이고 있지만, 유동화 기초 자산의 질은 악화되고 있고 손실 인식은 현실보다 뒤처져 있습니다. Quadir는 이 구조적 균열이 결국 레버리지 롤업 기업과 헬스케어 서비스 기업의 재무 엔지니어링을 통한 은폐 시도로 이어진다고 봅니다. 규제 완화 테마에 올라탄 기업들이 실제로는 소비자 착취에 의존하는 취약한 구조를 갖고 있다면, 포퓰리즘 정치 환경 변화가 핵심 촉매가 될 것입니다."
+    },
+    {
+      "heading": "한국 재벌 3세 승계는 지배구조 디스카운트 해소의 창을 열었습니다",
+      "body": "한국은 2024년 주주 권리를 상법에 명문화했고, 금융 감독원은 KOSPI 상장사 중 장부가 이하 거래 기업을 공개적으로 명단 공개하겠다고 발표했습니다. 재벌들이 수십 년간 지속해온 상속세 절감을 위한 자산 가치 축소 관행이 이제 주가 관리 의무와 정면 충돌합니다. 3세 경영진은 미국 자본시장에 더 친숙하고 높은 주가에서 오는 위상을 인식하고 있어 이전 세대보다 외부 투자자의 관여에 훨씬 개방적입니다. Quadir는 Samsung이나 SK Hynix가 아닌, 해외 시장 경험이 적고 복잡한 지배구조의 역사에서 벗어나는 방법을 모르는 중소형 재벌 계열사들을 타깃으로 삼고 있습니다."
+    },
+    {
+      "heading": "Wirecard 사례는 재무 데이터보다 행동 압박 포인트를 먼저 읽어야 한다는 것을 증명합니다",
+      "body": "Quadir의 Wirecard 분석은 Financial Times의 회계 사기 접근법과 달리 자금 세탁 네트워크에 집중했습니다. 결정적 신호는 Jan Marsalek의 절친한 친구이자 미국 달러 자금 흐름의 핵심 인물에 대한 뉴욕 남부지방법원의 체포 영장이었고, 그로부터 불과 6주 후 20억 달러가 사라지며 Wirecard는 파산했습니다. 이 방법론—최고 경영진이 주가 외에 무엇을 두려워하는지 파악하는 것—은 기업 지배구조 분석의 보편적 도구입니다. 회계 수치가 의심스러울 때, 경영진에 대한 외부 법적 압박이 어디서 오고 있는지를 추적하는 것이 더 빠른 신호가 됩니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Short-selling's near-extinction is a market structure failure, not a strategy failure",
+      "body": "The collapse of institutional demand for short-biased funds after GameStop reflects a structural shift in capital allocation, not an investment performance verdict. Allocators began treating any concentrated short exposure as undiversifiable risk, regardless of the underlying thesis quality. With SEC enforcement down 26% in 2023-24 and a further 22% the year after—driven by pro-cyclical regulatory behaviour during the AI boom rather than any single administration—the traditional mechanisms for short-sellers to force price discovery have been systematically dismantled. The practical consequence is that informational alpha from fundamental research is no longer being priced in real time, building latent risk into markets that will likely surface in the next correction."
+    },
+    {
+      "heading": "US consumer stress is more severe than headline metrics suggest, and the cracks are in specific sectors",
+      "body": "Aggregate household debt at 80% of income understates the problem; debt servicing costs at 11% of income—and materially higher for student-loan-burdened households—represent a more acute constraint on spending capacity. Consumer finance equities have performed well, but Quadir argues that securitized asset quality is deteriorating while loss recognition lags significantly. Levered roll-ups in consumer discretionary and healthcare services are her primary short targets, on the thesis that businesses dependent on regulatory arbitrage and consumer price-gouging will face structural repricing as populist political pressure intensifies heading into the midterms. The deregulation investment theme, she contends, is a form of \"willful blindness.\""
+    },
+    {
+      "heading": "Korea's third-generation chaebol succession has opened a narrow window for governance arbitrage",
+      "body": "South Korea enshrined shareholder fiduciary duties into its corporate code less than a year ago—a change with no precedent in the country's modern corporate history—and the financial regulator now publicly names KOSPI companies trading below book value. For decades, chaebol families structured transactions specifically to depress asset values and minimize inheritance tax; that strategy now directly conflicts with the new legal obligation to protect shareholder value. Third-generation heirs are more globally oriented and more receptive to external investor engagement than their predecessors. Quadir is not targeting Samsung or SK Hynix; her focus is on smaller chaebol affiliates with limited international exposure that lack the tools to shed decades of value-destructive governance history."
+    },
+    {
+      "heading": "Wirecard shows that behavioural pressure-points beat financial data as early fraud indicators",
+      "body": "Quadir's Wirecard thesis was built around money laundering, not the accounting fraud that dominated FT coverage. The actionable signal was an arrest warrant issued by the Southern District of New York for Jan Marsalek's closest associate and the fixer of Wirecard's US dollar flows—a development the market was not tracking. Within six weeks of that arrest, $2 billion was declared missing and Wirecard collapsed. The methodology—identifying what forces management to sweat beyond the stock price, including external legal exposure—generalises beyond fraud detection. For any investor assessing governance in markets where enforcement is weak or transitional, tracking legal proceedings against executives' personal networks often provides faster and cleaner signals than balance sheet analysis."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "공매도는 금융적 허무주의를 향한 반도덕적 흐름에 맞서는 하나의 저항입니다. 지금 공매도자들은 시장 기반 기업 지배구조의 거의 마지막 중재자 중 하나입니다.",
+    "attribution": "Fahmi Quadir, Founder and CIO, Safkhet Capital"
+  },
+  "notable_quote_en": {
+    "text": "Short selling is pushing back against this amoral drift towards financial nihilism. Right now, short sellers are one of the only and one of the last arbiters of market-based corporate governance.",
+    "attribution": "Fahmi Quadir, Founder and CIO, Safkhet Capital"
+  },
+  "notable_quote": {
+    "source_text_en": "Short selling is pushing back against this amoral drift towards financial nihilism. Right now, short sellers are one of the only and one of the last arbiters of market-based corporate governance.",
+    "translation_ko": "공매도는 금융적 허무주의를 향한 반도덕적 흐름에 맞서는 하나의 저항입니다. 지금 공매도자들은 시장 기반 기업 지배구조의 거의 마지막 중재자 중 하나입니다.",
+    "speaker": "Fahmi Quadir",
+    "attribution": "Fahmi Quadir, Founder and CIO, Safkhet Capital",
+    "is_verbatim": false,
+    "translation_is_verbatim": false,
+    "source_char_start": null,
+    "source_char_end": null,
+    "match_score": 0.6787
+  },
+  "keywords_ko": [
+    "공매도",
+    "기업 지배구조",
+    "재벌 개혁",
+    "소비자 신용 리스크",
+    "가격 발견",
+    "회계 사기 탐지"
+  ],
+  "keywords_en": [
+    "short-selling",
+    "corporate governance",
+    "chaebol reform",
+    "consumer credit stress",
+    "price discovery",
+    "fraud detection"
+  ],
+  "generated_at": "2026-05-28T09:56:22.261806"
+}
