@@ -1,0 +1,452 @@
+[
+  {
+    "chunk_index": 0,
+    "char_start": 0,
+    "char_end": 38005,
+    "topics": [
+      "Pope Leo XIV's AI encyclical and regulation debate",
+      "Anthropic's ideology and regulatory capture theory",
+      "AI's impact on jobs and workforce agency",
+      "AI proficiency as a competitive career advantage",
+      "Open source AI and intelligence sovereignty"
+    ],
+    "claims": [
+      {
+        "claim": "Pope Leo XIV's first encyclical on AI is 235 pages and over 42,000 words, calling for regulation of AI companies and a ban on autonomous weapons",
+        "evidence": [
+          "Encyclical titled 'Magnifica Humanitas' or 'Magnificent Humanity'",
+          "Called for worker retrainment, safety for children, guardrails, and ban on autonomous weapons",
+          "Amazon, Google, and Meta lobbied the Vatican on April 29th to soften the language but were not swayed"
+        ],
+        "speakers": [
+          "Jason Calacanis"
+        ]
+      },
+      {
+        "claim": "Leo XIII's 1891 encyclical warning against the Industrial Revolution was factually wrong; the era it warned against produced enormous human welfare gains",
+        "evidence": [
+          "Work week fell from over 60 hours to 34 hours globally",
+          "Real wages rose 8-10x adjusted for inflation",
+          "Global poverty fell from 75% of humanity to under 10%",
+          "Life expectancy rose 60%, child labor in the U.S. went from 18% to zero"
+        ],
+        "speakers": [
+          "Bill Gurley"
+        ]
+      },
+      {
+        "claim": "Anthropic is pursuing regulatory capture to dominate the AI industry while simultaneously holding an ideological belief that they are building a godlike superintelligence",
+        "evidence": [
+          "Anthropic described as one of the most aggressive lobbying startups, operating state by state",
+          "Chris Ola's 'Constitution' (~80 pages), Amanda Askell's podcast appearances, and Dario's 'Machines of Loving Grace' blog post cited as evidence",
+          "Dario's post envisions 'a capitalist economy of AI systems which give out resources to humans based on some secondary economy of what the AI systems think makes sense'"
+        ],
+        "speakers": [
+          "Bill Gurley",
+          "Chamath Palihapitiya",
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "The biggest risk of AI is centralization of power, and government regulation—not just corporate monopoly—is the primary vehicle for that centralization",
+        "evidence": [
+          "Social media 'trust and safety' definitions expanded to include psychological safety, microaggressions, disinformation, transphobia",
+          "An 'FDA for AI' would give government power to approve models and expand definition of safety over time",
+          "Five competing frontier labs currently provide checks via market competition"
+        ],
+        "speakers": [
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "Proficiency in Claude is currently the single most marketable skill for new college graduates entering the workforce",
+        "evidence": [
+          "Analogy: being the only one who knows how to use a spreadsheet or word processor gave enormous advantage",
+          "Producer Nick built a highly contextual daily briefing using Claude Projects with custom skills documents and training rules",
+          "Nick fed every podcast transcript into Claude and iterates the prompt daily, making it smarter over time"
+        ],
+        "speakers": [
+          "David Sacks",
+          "Jason Calacanis"
+        ]
+      },
+      {
+        "claim": "Young people entering the workforce now are more AI-native than those who graduated 5-10 years ago, making them more competitive",
+        "evidence": [
+          "~80% of applicants to Calacanis's associate training program chose the vibe-coding assignment over the written memo",
+          "400 people applied for internships at Chamath's firm in one quarter, more than the total number of full-time engineers",
+          "Gallup poll cited: 59% of surveyed workers are 'quiet quitters' ambivalent about their jobs"
+        ],
+        "speakers": [
+          "Jason Calacanis",
+          "Chamath Palihapitiya",
+          "Bill Gurley"
+        ]
+      },
+      {
+        "claim": "Apple is a dark horse in AI due to its principled stance on data privacy and the potential for open-source models to run locally on Apple hardware, enabling 'intelligence sovereignty'",
+        "evidence": [
+          "Apple M5 chips with 48GB/128GB RAM, new Mac Studio reportedly with terabyte memory",
+          "Distinction drawn between data privacy (can't see my photos) and intelligence sovereignty (can't tell me how to interpret the world)",
+          "Running local models prevents training other companies' AIs with personal knowledge"
+        ],
+        "speakers": [
+          "Jason Calacanis"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "I think the best way to protect yourself from AI is to be the most AI enabled version of yourself you can be.",
+        "speaker": "Bill Gurley",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "There are two types of people in the world. Those that use AI to learn faster than they ever could before, and those that use AI to avoid learning altogether.",
+        "speaker": "Jason Calacanis",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I think the single most marketable skill in the economy right now has got to be proficiency in Claude. If you're going into a firm right now and you're the only one who knows Claude, it would be like you're the only one who knows how to work a spreadsheet, you know, or word processor.",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I've never, ever seen a company that is both leading their field and the most negatively outspoken commenter on what they do.",
+        "speaker": "Bill Gurley",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "it could be a capitalist economy of AI systems, which then give out resources to humans based on some secondary economy of what the AI systems think makes sense to reward in humans.",
+        "speaker": "Bill Gurley",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I don't think they think they're writing software. I think they're midwifing a deity.",
+        "speaker": "Bill Gurley",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Bill Gurley",
+        "title": "Former General Partner, Benchmark Capital; Author, 'Running Down a Dream'"
+      }
+    ],
+    "keyword_candidates": [
+      "Anthropic",
+      "Pope Leo XIV",
+      "Magnifica Humanitas",
+      "regulatory capture",
+      "Claude Projects",
+      "intelligence sovereignty",
+      "Machines of Loving Grace",
+      "open source AI"
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "char_start": 38005,
+    "char_end": 79245,
+    "topics": [
+      "Open-source AI regulation and ban risk",
+      "AI model commoditization and frontier model convergence",
+      "AI-driven job loss vs. job creation debate",
+      "Enterprise AI spending inefficiency",
+      "Anthropic's market growth and monopolization risk"
+    ],
+    "claims": [
+      {
+        "claim": "There is a coordinated effort building in Washington toward banning open-source/open-weight AI models, with predicate rhetoric already being planted in public discourse.",
+        "evidence": [
+          "Anthropic blog posts repeatedly take shots at open-source models citing lack of guardrails on cyber and bio threats",
+          "Sax describes 'breadcrumbs' including rhetoric that open-source models are dangerous because guardrails can be removed",
+          "EU has already proposed multiple rounds of AI regulation targeting open source specifically"
+        ],
+        "speakers": [
+          "David Sacks",
+          "Bill Gurley",
+          "Chamath Palihapitiya"
+        ]
+      },
+      {
+        "claim": "Frontier AI models have converged to near-identical capability levels, raising questions about ROI on continued massive training investment.",
+        "evidence": [
+          "Rogo financial analyst eval benchmark shows Opus 4.7, GPT 5.5, and Sonnet 4.6 separated by less than three-tenths of a percentage point",
+          "Rogo paper concludes 'there is no single best model anymore'",
+          "Trillions of dollars invested across these companies yet evals show roughly the same output"
+        ],
+        "speakers": [
+          "Jason Calacanis",
+          "Bill Gurley"
+        ]
+      },
+      {
+        "claim": "Fortune 1000 enterprises are deliberately building abstraction layers above frontier models to avoid vendor lock-in and political/ToS risk.",
+        "evidence": [
+          "Chamath describes hospital system in Canada potentially being shut off if a US frontier model disagrees with Canadian euthanasia laws",
+          "Regulated industries (finance, healthcare) demand on-prem AI due to HIPAA, data leakage, and training concerns",
+          "Abacus hardware stack sold out serving insurance and healthcare customers wanting to run AI inside their organizations"
+        ],
+        "speakers": [
+          "Chamath Palihapitiya",
+          "Bill Gurley"
+        ]
+      },
+      {
+        "claim": "AI-attributed layoffs at major tech companies are largely AI-washing covering for chronic overhiring and mismanagement during the COVID era.",
+        "evidence": [
+          "Yale Budget Lab study finds no discernible disruption in the labor market in the last three years due to AI",
+          "Block/Jack Dorsey's 50% cut was characterized by financial analysts as covering for severe COVID-era overstaffing relative to peers",
+          "Sergey and Larry explicitly told speakers they hired people to keep talent off the market, not for productivity"
+        ],
+        "speakers": [
+          "David Sacks",
+          "Chamath Palihapitiya",
+          "Bill Gurley"
+        ]
+      },
+      {
+        "claim": "Software developer job postings are rising despite AI automating most code writing, suggesting AI expands rather than eliminates software jobs.",
+        "evidence": [
+          "Job postings for software developers hit a new three-year high, up 15% year over year",
+          "GitHub code commits went from 1 billion last year to 1.1 billion in a single month, a ~14X year-over-year increase in code generation",
+          "Unemployment rate is at 4.3%, near record lows despite three-plus years of the AI wave"
+        ],
+        "speakers": [
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "Elon Musk's rewrite of the training stack in C achieved an order-of-magnitude speed improvement, which could dramatically lower the cost of model training and eliminate the capital moat.",
+        "evidence": [
+          "Elon tweeted the entire training complex was rewritten in C with an order-of-magnitude increase running on 220,000 GPUs",
+          "Each 1% efficiency gain is equivalent to 2,000 GPUs or hundreds of millions of dollars in compute",
+          "Chamath argues this will inspire open-source training stacks rebuilt close to bare metal"
+        ],
+        "speakers": [
+          "Chamath Palihapitiya",
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "Anthropic is pulling away from OpenAI in growth rate, and if that differential continues for two years, Anthropic could achieve monopoly market share.",
+        "evidence": [
+          "Article in The Information shows Anthropic pulling away from OpenAI in latest numbers",
+          "Sax's math: 10x growth compounded twice equals 100; 3x compounded twice equals 9, yielding ~90% market share for the faster grower",
+          "Sax says he predicted this outcome previously"
+        ],
+        "speakers": [
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "Enterprise AI token spend is spiraling out of control due to lack of usage limits and misleading freemium pricing.",
+        "evidence": [
+          "PolyMarket reported an AI consultant revealed a client accidentally spent half a billion dollars in a single month after failing to set employee limits on Claude usage",
+          "That equals 16.6 million per day and almost 700,000 per hour",
+          "A Fortune 20 company reportedly spent $200 million on tokens with minimal results against a CEO mandate for $1 billion in AI-generated OPEX savings"
+        ],
+        "speakers": [
+          "Jason Calacanis"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "There is no single best model anymore. At the top of the leaderboard, Opus 4.7, GPT 5.5, Sonnet 4.6, appear almost indistinguishable, separated by less than, in this case, three-tenths of a percentage point overall.",
+        "speaker": "",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "If you have one company that's growing at 10x year over year, and another company that's growing at 3x year over year, within two years, the first company will have 90% market share. This is the power of compounding.",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The people that might be a threat of job loss are someone who stands hard, fast, and refuses to use AI. And I would just say that's simply like saying, I'm not going to use email. I'm not going to use a spreadsheet. I'm not going to use a computer.",
+        "speaker": "Bill Gurley",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "You look at code commits on GitHub, which is the leading code repository. There were 1 billion code commits last year. In the past month, there's been 1.1 billion.",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "We hire people. And then we figure out what to do with them later. That strategy just became the standard in Silicon Valley. And now it's being reversed.",
+        "speaker": "Chamath Palihapitiya",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "If you want to participate in the modern economy, it is the backstop. And let me just make one other final point... I do think that there is the potential for the monopolization of this market to a greater degree than people may be pricing in right now.",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Bill Gurley",
+        "title": "General Partner, Benchmark Capital"
+      }
+    ],
+    "keyword_candidates": [
+      "open-source AI ban",
+      "model commoditization",
+      "Anthropic Claude",
+      "Rogo financial analyst evals",
+      "enterprise token spend",
+      "AI job displacement",
+      "Abacus AI",
+      "MCP Linux Foundation"
+    ]
+  },
+  {
+    "chunk_index": 2,
+    "char_start": 79245,
+    "char_end": 94315,
+    "topics": [
+      "AI-driven job displacement vs. job creation debate",
+      "Software engineer hiring boom and bespoke software proliferation",
+      "Self-driving vehicles and blue-collar job disruption",
+      "AI-washing as potential securities fraud",
+      "Skills retraining and workforce adaptation"
+    ],
+    "claims": [
+      {
+        "claim": "Job postings for software engineers are up 15% year over year despite AI automating code generation",
+        "evidence": [
+          "Software engineer job postings cited as up 15% YoY",
+          "Fund managers now hiring software developers instead of data analysts for the first time",
+          "Bespoke software proliferating throughout non-tech firms"
+        ],
+        "speakers": [
+          "David Sacks",
+          "Bill Gurley"
+        ]
+      },
+      {
+        "claim": "AI-washing by companies attributing operational failures to AI could constitute securities fraud",
+        "evidence": [
+          "Trial lawyer Donnie King, securities litigation partner at Ackerman, warned clients about shareholder lawsuits",
+          "He characterizes it as 'puffery' — attributing non-performance to AI when real business problems exist",
+          "Wix cited as a potential example of AI-washing in layoff communications"
+        ],
+        "speakers": [
+          "Chamath Palihapitiya",
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "Productivity gains from AI will not produce obscene profits because competition will drive down prices, benefiting consumers through cheaper goods and services",
+        "evidence": [
+          "'Someone else is going to come along and do more for less and lower the price'",
+          "Historical pattern of price reductions in many product categories cited",
+          "Offset by regulated industries like healthcare and education"
+        ],
+        "speakers": [
+          "Bill Gurley"
+        ]
+      },
+      {
+        "claim": "Self-driving vehicles will not eliminate all driving jobs; human drivers may still comprise ~50% of trips, and total job numbers could stay flat or grow",
+        "evidence": [
+          "Regulation previously suppressed the taxi market; deregulation via rideshare led to job creation",
+          "100% automated solution economics 'don't work well'",
+          "Non-ownership car usage expected to grow substantially"
+        ],
+        "speakers": [
+          "Bill Gurley"
+        ]
+      },
+      {
+        "claim": "There is a significant narrative shift among tech leaders walking back AI job apocalypse claims, with Goldman Sachs CEO, Sam Altman, and Dario Amodei among those revising their positions",
+        "evidence": [
+          "'Sam is backing off this. Even Dario's walking it back'",
+          "Goldman Sachs CEO cited explosion in job postings",
+          "Narrative shift described as occurring 'this week'"
+        ],
+        "speakers": [
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "Middle management, product managers, and 'measurers' are the primary job categories being eliminated by AI, not software engineers",
+        "evidence": [
+          "Matthew Prince called them 'measurers'",
+          "Daily standups, Zoom call facilitation, and recording roles cited as being replaced",
+          "Typical designer can now vibe code; developer can handle front-end UX and project management themselves"
+        ],
+        "speakers": [
+          "Jason Calacanis"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "I'm hearing from people who are now hiring software engineers who never would have hired them before. I was talking to a fund manager, and he said that his next two hires were not going to be data analysts. They were going to be software developers because they're now deploying code for the first time in ways that they were not before.",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I don't think there's any scenario where you just do more for less, and all of a sudden, everyone has 70% operating margins. That's not going to happen. Someone else is going to come along and do more for less and lower the price.",
+        "speaker": "Bill Gurley",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "He thinks it's a type of puffery, right? Because essentially, what the company is doing is attributing their own non-performance or their operational issues to AI when, in fact, there are real problems in the business, and therefore, it could be a form of securities fraud.",
+        "speaker": "Chamath Palihapitiya",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I think the tech industry itself doesn't have enough empathy or enough thoughtfulness when discussing this because these are real people losing real jobs, and you can point at statistics and you think they're spinning, but these are real people losing real jobs who may not make the transition.",
+        "speaker": "Jason Calacanis",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I think it's impossible to go with 100% automated solution because the economics don't work well.",
+        "speaker": "Bill Gurley",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "cloud proficiency being the most marketable skill right now in the economy",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Bill Gurley",
+        "title": "Venture Capitalist"
+      }
+    ],
+    "keyword_candidates": [
+      "AI-washing",
+      "securities fraud",
+      "software engineer job postings",
+      "self-driving vehicles",
+      "bespoke software",
+      "skills retraining",
+      "Mike Rowe Works",
+      "Donnie King Ackerman"
+    ]
+  }
+]

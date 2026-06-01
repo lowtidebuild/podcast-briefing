@@ -1,0 +1,96 @@
+{
+  "id": "ac9b5539-ffff-4492-8fb3-912754ec9cdd",
+  "slug": "2026-05-29-hard-fork",
+  "podcast": "Hard Fork",
+  "category": "AI / Tech",
+  "title": "Interesting Times: Why Are We Still Driving?",
+  "published": "2026-05-29T11:00:00+00:00",
+  "link": "https://www.nytimes.com/column/hard-fork",
+  "podcast_url": "https://www.nytimes.com/column/hard-fork",
+  "guest": {
+    "name": "Andrew Miller",
+    "title": "Author, The End of Driving; Transportation Policy Writer, Changing Lanes (Substack)"
+  },
+  "summary_ko": "자율주행차는 더 이상 미래의 기술이 아닙니다. Waymo는 현재 15개 이상의 미국 도시에서 운행 중이며, Tesla는 Austin에서 유료 로보택시 서비스를 시작했습니다. Andrew Miller의 핵심 주장은 간단하면서도 도발적입니다. 자율주행 전환은 이미 임계점을 넘었으며, 2035년경에는 대부분의 미국 주요 도시에서 로보택시가 Uber만큼 일상적인 존재가 될 것이라는 것입니다. 매년 40,000명의 미국인이 교통사고로 사망하고, 그 대부분이 운전자 과실에 의한 것임을 감안할 때, 이 전환의 속도와 규모가 결정적인 문제입니다.\n\n기술 경쟁의 구도는 명확합니다. Waymo는 카메라·레이더·LiDAR를 결합한 다중 센서 방식으로 안전성에서 앞서 있고, Tesla는 카메라만으로 대규모 저비용 확장을 노리고 있습니다. Austin에서 Tesla 로보택시의 안전 운전자 개입 빈도는 Waymo의 초기 단계보다 훨씬 높으며, 이는 Tesla의 접근법이 아직 검증되지 않았음을 시사합니다. General Motors의 Cruise가 단 한 건의 사고로 폐업에 이른 사례는, 이 산업에서 책임 소재(liability)가 단순한 법적 문제가 아니라 사업 존폐를 가르는 변수임을 보여줍니다.\n\n낙관적 시나리오와 비관적 시나리오의 분기점은 규제와 대중교통 정책에 달려 있습니다. 로보택시가 빠르게 보편화되면 가구당 자동차 보유 대수가 줄고, 주차 공간이 재활용되며, 이동 비용이 40~50% 감소할 수 있습니다. 반면 확산 속도가 대중교통 붕괴 속도를 따라가지 못하면, 교통 혼잡은 악화되고 저소득층은 오히려 더 심각한 이동 불평등에 직면하게 됩니다. 현재 아이러니한 점은, 문화적으로 개인 자유를 중시하는 텍사스·테네시 같은 공화당 성향 주들이 자율주행에 가장 개방적인 반면, 진보 성향의 주들이 더 강한 규제 장벽을 치고 있다는 것입니다. 운전이라는 행위가 지닌 성인식적 의미와 체화된 자유의 상실은 진지하게 다룰 문화적 질문이지만, Miller는 그것이 연간 40,000명의 목숨과 맞바꿀 이유는 되지 않는다고 단언합니다.",
+  "summary_en": "Autonomous vehicles have crossed from speculative to operational: Waymo runs in more than 15 American cities, Tesla has launched a paid robotaxi service in Austin, and Andrew Miller argues the industry has passed the point of no return. His central claim is that by roughly 2035, hailing a self-driving car in a major American city will feel as unremarkable as hailing an Uber does today — and that the 40,000 Americans killed annually in traffic accidents, almost all by driver error, represent the clearest possible case for urgency.\n\nThe competitive landscape is a study in trade-offs. Waymo's multi-sensor stack (cameras, radar, LiDAR) produces a demonstrably safer vehicle; Tesla's camera-only bet, if it works, produces a far cheaper and faster-to-scale one. The early evidence from Austin is not encouraging for Tesla: its safety drivers intervene far more frequently than Waymo's did at a comparable stage. The cautionary tale is Cruise, GM's now-defunct robotaxi unit, which was killed not by sustained failure but by a single incident — a pedestrian dragged after being struck — that spooked regulators and exhausted GM's willingness to fund the venture. Liability, Miller argues, is the single most important unsolved problem in the sector; he wants manufacturers to assume 100% responsibility when their automated driving system is at fault, a standard Waymo has accepted and Tesla has conspicuously avoided.\n\nThe fork between the good and bad futures runs through regulation and transit policy. In the optimistic scenario, robotaxi competition drives fares down 40-50%, households shed second cars, and freed-up parking land gets redeveloped. In the pessimistic one, partial robotaxi penetration worsens congestion without reducing car ownership, while gutting the economics of public transit and leaving low-income riders stranded. The cultural dimension — driving as American rite of passage, embodied skill, assertion of independence — is taken seriously but ultimately subordinated to the safety arithmetic. A telling political irony: red states like Texas and Tennessee are currently the most permissive toward autonomous vehicles, while blue-state regulators erect the most friction.",
+  "key_points_ko": [
+    {
+      "heading": "Waymo는 이미 수익성 있는 사업이다 — 문제는 기술이 아니라 확장 속도다",
+      "body": "자율주행 기술의 핵심 경제 논리는 초기 개발 비용은 천문학적이지만, 일단 확보하면 복제 비용이 극히 낮다는 것입니다. 로보택시는 하루 중 충전과 청소 시간을 제외한 거의 모든 시간 동안 수익을 창출할 수 있어, 개인 소유 차량보다 자산 활용률이 압도적으로 높습니다. Waymo는 현재 15개 이상 도시에서 소규모 차량대로 이 모델을 검증했으며, Miller는 이를 Uber가 수년간 적자를 감수하며 시장을 장악했던 전략과 동일한 궤적으로 봅니다. 투자자들에게 이 시점의 함의는 명확합니다. 진입 장벽은 기술이 아닌 규제 승인과 사고 한 건이 회사를 무너뜨릴 수 있는 책임 리스크입니다."
+    },
+    {
+      "heading": "Liability가 기술보다 더 큰 병목이다 — 그리고 Tesla는 이를 회피하고 있다",
+      "body": "Miller는 자율주행 확산의 최대 단일 장애물로 책임 소재의 불명확성을 꼽습니다. 그의 처방은 단순합니다. 자동화 운전 시스템이 통제 중인 상황에서 사고가 나면, 제조사가 100% 책임을 지면 됩니다. Waymo는 이 기준을 수용했지만, Tesla는 자사의 운전자 보조 시스템에 대한 책임을 명시적으로 회피하고 있습니다. Cruise의 붕괴는 이 리스크의 실체를 보여줍니다. 한 명의 보행자를 끌고 간 사건 하나가 GM의 지원 철회와 사업 폐쇄로 이어졌습니다. 역설적으로, 미국의 소비자 보호 중심 불법행위법 체계는 이 산업에서 혁신의 속도를 규제보다 더 효과적으로 억제하고 있습니다."
+    },
+    {
+      "heading": "낙관론과 비관론의 분기점은 대중교통 정책이다",
+      "body": "Miller가 제시하는 비관적 시나리오에서 최대 피해자는 저소득층입니다. 로보택시 요금이 현행 ride-hail 대비 40~50% 하락하면, 중산층은 대중교통에서 이탈하고, 대중교통 수요 감소와 운영비 증가가 동시에 발생하며 서비스는 악화됩니다. 이는 자동차를 소유하지 못하고 더 저렴해진 로보택시조차 이용하기 어려운 계층에게 이동성 박탈을 심화시킵니다. 긍정적 전환을 위한 조건은 로보택시 회사와 대중교통 기관 간의 통합입니다. 예를 들어, 버스 노선이 희박한 교외 지역에서 공공 기관이 로보택시 요금을 보조하고, 이를 간선 대중교통과 연결하는 feeder 역할로 편입시키는 모델입니다. 그러나 이는 미국에서 가장 강력하게 노조화된 산업 중 하나인 대중교통 부문의 저항을 정면으로 돌파해야 합니다."
+    },
+    {
+      "heading": "Waymo 대 Tesla: 안전성 대 확장성의 결정적 실험이 지금 진행 중이다",
+      "body": "두 회사의 기술적 베팅은 근본적으로 다릅니다. Waymo는 카메라·레이더·LiDAR 다중 센서 융합으로 신뢰성을 확보했고, Tesla는 카메라만으로 대규모 저비용 확장이 가능하다고 주장합니다. Austin에서 Tesla 로보택시의 안전 운전자 개입 빈도는 Waymo의 동일 성장 단계보다 현저히 높으며, 이는 Tesla의 접근법이 아직 Waymo 수준의 안전성에 도달하지 못했음을 시사합니다. 한편 Waymo의 '원격 지원' 시스템 — 미국 내외에 위치한 원격 운영자가 복잡한 상황에서 차량에 경로 지침을 제공하는 방식 — 이 '진정한 자율주행'인지에 대한 의문은 여전히 해소되지 않았으며, 이는 미국 상원 청문회에서도 쟁점이 되었습니다."
+    },
+    {
+      "heading": "운전이라는 문화적 가치는 진지한 질문이지만, 안전 논거를 이길 수 없다",
+      "body": "Ross Douthat은 운전을 미국적 자아 형성의 의례 — 독립성, 체화된 숙련, 성인으로의 이행 — 로 방어합니다. Miller는 이 가치를 진지하게 수용하면서도 반박합니다. 체화된 지식의 상실은 사회가 해결해야 할 문제이지만, 그 짐을 연간 40,000명의 목숨값과 맞바꾸는 수단으로서 자동차에 지울 수는 없다는 것입니다. 아이러니한 역사적 선례는 엘리베이터입니다. 엘리베이터 운전원이 사라질 때 사람들은 불안해했지만, 다섯 번째 탑승 이후엔 아무도 신경 쓰지 않았습니다. Waymo 탑승 경험을 조사한 데이터 역시 같은 패턴을 보여줍니다. 첫 탑승은 낯설고, 두 번째부터는 그냥 이동 수단입니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Waymo has already proven the business model — the constraint is now speed of deployment",
+      "body": "The fundamental economics of autonomous vehicles resemble software: massive upfront cost, near-zero marginal cost to replicate, and an asset (the robotaxi) that can generate revenue for nearly every hour of the day unlike a privately owned car sitting idle 95% of the time. Waymo has validated this model across 15-plus cities with small fleets, and Miller draws an explicit parallel to Uber's years of deliberate loss-taking to achieve market dominance. For investors and operators, the bottleneck is no longer whether the technology works at a basic level — it is whether regulatory approval and liability frameworks will allow the fleet sizes needed to make the economics compelling."
+    },
+    {
+      "heading": "Liability is a bigger obstacle than the technology — and Tesla is conspicuously dodging it",
+      "body": "Miller identifies liability as the single most important unsolved problem in the sector, and his prescription is unambiguous: if an automated driving system is in control during an accident, the manufacturer bears 100% responsibility. Waymo has accepted this standard; Tesla has not, particularly for its driver-assist systems. The stakes are illustrated by Cruise's collapse: one incident in which a pedestrian was dragged by a vehicle that pulled to a 'safe stop' without detecting a body underneath caused GM to shutter the entire operation. Paradoxically, America's plaintiff-friendly tort system — designed to protect consumers — may be the most effective brake on autonomous vehicle deployment that no regulator explicitly designed."
+    },
+    {
+      "heading": "The fork between the good and bad futures runs through transit policy, not technology",
+      "body": "Miller's pessimistic scenario is structurally plausible: robotaxi fares fall 40-50%, transit ridership collapses, agencies cut service, low-income riders face worse mobility than before. The optimistic path requires transit agencies to treat robotaxis as feeder infrastructure rather than competition — replacing low-frequency suburban bus routes with publicly subsidized robotaxi trips that connect to higher-order rail and bus lines. The obstacle is institutional: American public transit is among the most heavily unionized sectors in the economy, and the workforce displacement is real. Miller argues the productivity gains on the robotaxi side are large enough to fund buyout packages, but this is asserted rather than demonstrated."
+    },
+    {
+      "heading": "Waymo vs. Tesla is a live experiment in safety vs. scale — and the early data favors Waymo",
+      "body": "The two leading approaches represent a genuine technological fork. Waymo's multi-sensor stack (cameras, radar, LiDAR) is more expensive per vehicle but demonstrably safer; Tesla's camera-only bet, if validated, enables vastly cheaper and faster fleet expansion. Tesla's Austin robotaxi service currently requires safety driver interventions at a rate significantly higher than Waymo achieved at a comparable stage, suggesting Tesla has not yet closed the safety gap. A further complication for Waymo's 'fully autonomous' claim: its remote assistance model — operators abroad providing route guidance to confused vehicles — raised pointed questions at a U.S. Senate hearing and suggests true autonomy is a spectrum, not a binary."
+    },
+    {
+      "heading": "The cultural loss of driving is real but cannot survive the safety arithmetic",
+      "body": "The most intellectually honest part of the conversation is host Ross Douthat's challenge: isn't something genuinely lost if Americans surrender the rite of passage, embodied mastery, and open-road freedom that driving represents? Miller concedes the point — the driver's license as a marker of adulthood is already weakening, and this fits a broader trend of disembodied, screen-mediated American life. His counter is not that the loss is trivial, but that it is the wrong instrument to bear the weight of preserving embodied culture. The precedent he cites is the automatic elevator: operators were displaced, riders were briefly unsettled, and by the fifth ride nobody noticed. Early Waymo rider surveys replicate the pattern exactly — the uncanny feeling dissolves almost immediately."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "자율주행 시스템이 통제 중인 상황에서 사고가 발생하고 나중에 그 시스템의 과실이 입증된다면, 여러분이 100%의 책임을 져야 합니다. 저는 그것이 명확한 기준선이라고 생각합니다. 주장하기도 쉽고, 실행하기도 쉽습니다. 이 기준이 있다면 우리는 분명하게 앞으로 나아갈 수 있습니다.",
+    "attribution": "Andrew Miller, Author, The End of Driving"
+  },
+  "notable_quote_en": {
+    "text": "If there is an incident while the automated driving system is in control, and it is later shown that the ADS is at fault, then you've got to take on the liability. I think that is a clear, bright line — easy to argue for, easy to implement, and if we had that, we would be able to move forward very clearly.",
+    "attribution": "Andrew Miller, Author, The End of Driving"
+  },
+  "notable_quote": {
+    "source_text_en": "If there is an incident while the automated driving system is in control, and it is later shown that the ADS is at fault, then you've got to take on the liability. I think that is a clear, bright line — easy to argue for, easy to implement, and if we had that, we would be able to move forward very clearly.",
+    "translation_ko": "자율주행 시스템이 통제 중인 상황에서 사고가 발생하고 나중에 그 시스템의 과실이 입증된다면, 여러분이 100%의 책임을 져야 합니다. 저는 그것이 명확한 기준선이라고 생각합니다. 주장하기도 쉽고, 실행하기도 쉽습니다. 이 기준이 있다면 우리는 분명하게 앞으로 나아갈 수 있습니다.",
+    "speaker": "Andrew Miller",
+    "attribution": "Andrew Miller, Author, The End of Driving",
+    "is_verbatim": false,
+    "translation_is_verbatim": false,
+    "source_char_start": null,
+    "source_char_end": null,
+    "match_score": 0.8233
+  },
+  "keywords_ko": [
+    "자율주행차",
+    "로보택시 책임 소재",
+    "Waymo vs. Tesla",
+    "대중교통 붕괴",
+    "LiDAR 대 카메라 전용 방식",
+    "체화된 지식"
+  ],
+  "keywords_en": [
+    "autonomous vehicles",
+    "robotaxi liability",
+    "Waymo vs. Tesla",
+    "transit disruption",
+    "LiDAR vs. camera-only",
+    "embodied knowledge"
+  ],
+  "generated_at": "2026-06-01T11:34:00.576222"
+}

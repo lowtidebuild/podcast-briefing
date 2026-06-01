@@ -1,0 +1,88 @@
+{
+  "id": "9d4c2667-4634-4033-902f-4eeabdb96c12",
+  "slug": "2026-05-29-making-sense",
+  "podcast": "Making Sense",
+  "category": "Philosophy / AI Ethics",
+  "title": "#478 — The Psychedelic Mind",
+  "published": "2026-05-29T18:00:00+00:00",
+  "link": "https://wakingup.libsyn.com/478-the-psychedelic-mind",
+  "podcast_url": "https://www.samharris.org/podcasts",
+  "guest": {
+    "name": "Robin Carhart-Harris",
+    "title": "Professor of Neurology and Psychiatry, University of California, San Francisco"
+  },
+  "summary_ko": "사이키델릭 치료제 분야는 Michael Pollan의 2018년 베스트셀러 이후 과대 평가 국면을 지나 현재 조정기에 접어들었습니다. FDA가 MAPS의 MDMA 기반 PTSD 치료제 승인을 거부하면서 관련 기업들의 기업 가치가 수십억 달러에서 급락했고, 시장 전반에 냉각 효과가 발생했습니다. 그러나 Robin Carhart-Harris는 이러한 후퇴가 과학 자체의 실패가 아니라 규제 및 임상 절차상의 문제임을 주장합니다. 현재 가장 앞선 psilocybin 우울증 치료 임상(Compass Pathways의 Phase 3)은 FDA 승인에 가장 근접한 사례로 꼽힙니다.\n\nCarhart-Harris의 핵심 주장은 사이키델릭의 치료 효과가 약물 자체가 아닌 '맥락(context)'과의 결합에서 비롯된다는 것입니다. 그는 이를 직접 실험으로 검증 중입니다. 음악, 조명, 자연 이미지 등의 심미적 요소를 포함한 '풍요로운 조건(enriched condition)'과 이를 제거한 조건을 비교하는 연구가 현재 UCSF에서 진행 중입니다. 이 관점에서 보면, FDA가 MDMA 치료제 심사에서 치료(therapy)와 약물(drug)을 분리하지 못했다는 비판 자체가 분야의 근본적 딜레마를 드러냅니다.\n\n안전성 측면에서 가장 중요한 발견은 특정 취약 집단의 식별입니다. 성격 장애(personality disorder) 진단 이력이 있는 사람은 부정적 결과 집단에 속할 확률이 4배, 조현병 이력자는 2배 높게 나타났습니다. 문제는 대부분의 임상시험이 이들을 사전 제외함으로써 치료 효과를 과장했을 가능성이 있다는 점입니다. 회복 기억(recovered memory) 문제 또한 현실적 위험으로 지목되었습니다. 과거 최면 치료에서 반복된 유도된 기억 오류가 사이키델릭 치료에서도 재현될 수 있으며, Carhart-Harris는 이를 '최면의 스테로이드 버전'이 될 수 있다고 경고합니다.\n\n규제 및 투자 관점에서 이 분야의 다음 분기점은 Compass Pathways의 FDA rolling submission 결과입니다. 치료 효과의 일관성은 높지만, 치료사 품질 관리와 취약 집단 보호 체계 없이는 승인 이후 실제 임상 현장에서의 harm이 분야 전체의 신뢰를 무너뜨릴 수 있습니다.",
+  "summary_en": "The psychedelic therapy field is navigating a painful correction after a speculative peak — but Robin Carhart-Harris argues the science remains intact even as the commercial infrastructure has cracked. The FDA's rejection of MAPS/Lykos's MDMA-assisted PTSD therapy was the proximate trigger: company valuations collapsed, and a potential rising tide for the entire sector reversed. Yet Compass Pathways is advancing a Phase 3 psilocybin trial for treatment-resistant depression under a more orthodox regulatory strategy, and Carhart-Harris believes FDA approval remains achievable and near.\n\nHis central argument is that psychedelics function as combination treatments — the drug opens a window of neurological plasticity, but therapeutic context (set, setting, therapist quality) determines whether that window produces healing or harm. This is not merely theoretical: Carhart-Harris is currently running a controlled trial at UCSF that manipulates context as an independent variable, comparing enriched environments (music, aesthetic lighting, active emotional support) against stripped-down clinical conditions. The MAPS rejection, in his reading, was partly the FDA's failure to evaluate a drug-plus-therapy combination — a category problem that Compass is sidestepping by downplaying the therapy framing.\n\nOn safety, the empirical record surfaces two high-risk populations: people with a personality disorder history are four times more likely to deteriorate after psychedelic use; those with a schizophrenia history are twice as likely. Critically, most clinical trials screen these groups out, meaning published efficacy data reflects a cherry-picked, more resilient population. The recovered memory problem adds a further liability: Carhart-Harris explicitly warns that psychedelics could become 'hypnosis on steroids,' amplifying therapist suggestion into false autobiographical conviction — a pattern the hypnosis community spent decades trying to undo.\n\nFor investors and policymakers, the key variable is not whether psychedelics work — the evidence for that is unusually consistent across dozens of trials — but whether the field can build therapist training and patient-screening infrastructure robust enough to survive mainstreaming.",
+  "key_points_ko": [
+    {
+      "heading": "FDA 거부는 규제 범주 문제였다 — 과학의 실패가 아니다",
+      "body": "MAPS/Lykos의 MDMA 치료제 거부 결정은 데이터 품질 문제와 더불어 FDA가 '약물+심리치료' 결합 치료를 평가하는 틀을 갖추지 못했기 때문입니다. FDA는 약물을 승인하는 기관이지 심리치료를 승인하는 기관이 아니라는 이유로 혼란을 표명했으며, 이것이 심사를 결정적으로 방해했습니다. MAPS가 치료의 핵심을 솔직하게 제시한 것 자체는 옳았지만, 이는 동시에 규제 시스템의 맹점을 정면으로 드러냈습니다. Compass Pathways는 이 교훈을 흡수해 psilocybin을 보다 전통적인 약물 프레임으로 제출하는 전략을 택했습니다. 이 규제 프레이밍 차이가 두 회사의 명운을 가를 수 있습니다."
+    },
+    {
+      "heading": "치료 효과의 비밀은 약물이 아닌 맥락에 있다",
+      "body": "Carhart-Harris는 사이키델릭이 뇌의 '가소성(plasticity)'을 일시적으로 높이는 약물이며, 이 열린 상태에서 무엇을 하느냐가 치료 결과를 결정한다고 주장합니다. 유일하게 부정적 결과가 나온 주요 임상은 MRI 스캐너 안에서 심리적 지원 없이 진행된 시험이었으며, Carhart-Harris는 이를 '매우 시사적'이라고 평가합니다. 현재 UCSF에서 진행 중인 연구는 음악, 조명, 치료사의 감정적 지지 등의 요소를 독립 변수로 통제하며 이 가설을 직접 검증하고 있습니다. 이는 규제 전략뿐 아니라 치료사 양성, 치료 프로토콜 표준화에도 직접적인 함의를 갖습니다."
+    },
+    {
+      "heading": "임상시험의 선별 편향이 효과를 과장했을 수 있다",
+      "body": "현존하는 수십 건의 임상시험은 성격 장애 및 정신증 이력자를 사전에 제외했기 때문에 긍정적 결과의 일관성이 과대 표현되었을 가능성이 있습니다. 비통제 환경('wild')에서 수행된 조사에서 성격 장애 이력자는 부정적 결과 집단에 속할 확률이 4배, 조현병 이력자는 2배 높았습니다. 더 구체적으로, 성격 장애 이력자들은 치료 직후 단기적으로는 소폭 개선을 보이다가 이후 임상적으로 의미 있는 수준으로 악화되는 패턴을 보였습니다. FDA 승인 이후 일반 임상 환경에서 이 취약 집단이 스크리닝 없이 치료를 받을 경우, 부작용 사례가 집중적으로 발생해 분야 전체의 평판에 치명적 타격을 줄 수 있습니다."
+    },
+    {
+      "heading": "회복 기억 문제는 과거 최면 치료의 실패를 재현할 수 있다",
+      "body": "Carhart-Harris는 사이키델릭 상태에서 치료사의 암시가 환자의 기억을 형성할 수 있는 위험을 '최면의 스테로이드 버전'이 될 수 있다고 명시적으로 경고합니다. 그의 연구팀은 이미 아동기 성적 학대 여부가 불분명한 '회복 기억' 사례를 다수 경험했으며, Johns Hopkins를 포함한 주요 연구기관에서도 같은 문제가 발생했습니다. Carhart-Harris의 팀은 기억의 진실성을 단정하거나 부정하지 않고 '중립적으로 경청'하는 프로토콜을 채택했지만, 이 기준을 일반 치료사들에게 보급하는 것은 전혀 다른 차원의 과제입니다. 법적 분쟁 가능성까지 언급된 이 문제는 규제 당국과 보험사에게 새로운 liability 이슈가 될 것입니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "The FDA rejection was a category error, not a verdict on the science",
+      "body": "The MAPS/Lykos MDMA denial stemmed partly from data-quality failures at non-traditional trial sites, but more fundamentally from the FDA's inability to evaluate a drug-plus-psychotherapy combination — a treatment architecture its approval framework was not built to handle. MAPS's transparent framing of MDMA-assisted therapy was scientifically honest but regulatorily fatal. Compass Pathways has absorbed this lesson, deliberately downplaying the therapy component to fit the FDA's drug-centric model. The divergence in strategy — not efficacy — explains why one program is stalled and the other is advancing toward a rolling submission."
+    },
+    {
+      "heading": "Context is the active ingredient — and most trials have never tested it",
+      "body": "Carhart-Harris argues that psychedelics work by temporarily elevating neurological plasticity, making the brain more shapeable — but the shaping itself requires deliberate therapeutic context. The only major trial to produce a negative result dosed subjects inside an MRI scanner with no psychological support, which Carhart-Harris calls 'very telling.' He is currently running a controlled experiment at UCSF that isolates context as an independent variable: enriched conditions (music, aesthetic lighting, emotional support) versus stripped-down clinical rooms. If the hypothesis holds, it means the drug and the therapy are inseparable — and approving one without mandating standards for the other is a structural regulatory gap."
+    },
+    {
+      "heading": "Published efficacy data is systematically optimistic — the fragile population has been screened out",
+      "body": "Every major clinical trial has excluded patients with personality disorder or psychosis histories, meaning the consistent positive results across roughly two dozen studies reflect a deliberately selected, psychologically resilient population. In uncontrolled 'wild' settings, people with personality disorder histories were four times more likely to fall into the worst-outcome group; those with schizophrenia histories, twice as likely. The personality disorder group showed a particularly dangerous pattern: a slight short-term improvement followed by clinically meaningful deterioration at follow-up. Post-approval, when screening discipline erodes in real-world clinical settings, this latent harm will surface — and it will be concentrated enough to damage the field's credibility."
+    },
+    {
+      "heading": "Recovered memory under psychedelics could replicate hypnotherapy's worst chapter",
+      "body": "Carhart-Harris explicitly flags the risk that psychedelics, by amplifying emotional suggestibility, could become 'hypnosis on steroids' — generating false autobiographical memories shaped by therapist belief. His team has already managed multiple cases of uncertain recovered memory, including one patient who left a trial believing a parent may have attempted to smother him — a belief that produced a clinically visible deterioration in the trial's depression data. The protocol response — neither endorsing nor denying the memory's veracity — requires sophisticated therapeutic restraint that cannot be assumed across a scaled-up therapist workforce. Carhart-Harris anticipates legal professionals will eventually exploit this vulnerability, creating a liability vector that regulators and insurers have not yet priced in."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "가소적 상태를 만들었다면, 그것으로 올바른 일을 해야 합니다. 맥락이 정말로, 정말로 중요한 것은 바로 그 때문입니다.",
+    "attribution": "Robin Carhart-Harris, Professor of Neurology and Psychiatry, UCSF"
+  },
+  "notable_quote_en": {
+    "text": "You have a plastic state — you've got to do the right thing with that. It's more shapeable. So shape it right. And that's where the context really, really matters.",
+    "attribution": "Robin Carhart-Harris, Professor of Neurology and Psychiatry, UCSF"
+  },
+  "notable_quote": {
+    "source_text_en": "You have a plastic state — you've got to do the right thing with that. It's more shapeable. So shape it right. And that's where the context really, really matters.",
+    "translation_ko": "가소적 상태를 만들었다면, 그것으로 올바른 일을 해야 합니다. 맥락이 정말로, 정말로 중요한 것은 바로 그 때문입니다.",
+    "speaker": "Robin Carhart-Harris",
+    "attribution": "Robin Carhart-Harris, Professor of Neurology and Psychiatry, UCSF",
+    "is_verbatim": false,
+    "translation_is_verbatim": false,
+    "source_char_start": null,
+    "source_char_end": null,
+    "match_score": 0.372
+  },
+  "keywords_ko": [
+    "psilocybin 치료",
+    "set and setting",
+    "FDA 승인 경로",
+    "회복 기억 위험",
+    "신경 가소성",
+    "치료 저항성 우울증"
+  ],
+  "keywords_en": [
+    "psilocybin therapy",
+    "set and setting",
+    "FDA approval pathway",
+    "recovered memory risk",
+    "neuroplasticity",
+    "treatment-resistant depression"
+  ],
+  "generated_at": "2026-06-01T12:13:49.462355"
+}

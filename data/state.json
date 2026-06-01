@@ -1499,12 +1499,12 @@
       "slug": "2026-05-22-dwarkesh-podcast",
       "status": "download_failed",
       "last_stage": "download",
-      "attempts": 2,
+      "attempts": 3,
       "last_error": "403 Client Error: Forbidden for url: https://api.substack.com/feed/podcast/198847047/4554a355fabc7d08073d273fc9f192d4.mp3",
       "warnings": [],
       "artifacts": {},
       "usage": {},
-      "updated_at": "2026-05-28T09:56:23.691538"
+      "updated_at": "2026-06-01T11:25:12.537044"
     },
     "8ba0deae-b5a8-11f0-b45b-d39bc8e66ecb": {
       "slug": "2026-05-24-fareed-zakaria-gps",
@@ -1671,6 +1671,172 @@
         "sheets_configured": true
       },
       "updated_at": "2026-05-28T10:12:57.923455"
+    },
+    "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/vPZH5V6xehqA/v8.mp3": {
+      "slug": "2026-06-01-odd-lots",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-01-odd-lots/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-06-01-odd-lots.json"
+      },
+      "usage": {
+        "quote_is_verbatim": true,
+        "quote_match_score": 0.9395,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-06-01T11:25:12.468055"
+    },
+    "8bd49384-b5a8-11f0-b45b-6760c576e023": {
+      "slug": "2026-05-31-fareed-zakaria-gps",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-31-fareed-zakaria-gps/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-05-31-fareed-zakaria-gps.json"
+      },
+      "usage": {
+        "quote_is_verbatim": true,
+        "quote_match_score": 0.9106,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-06-01T11:29:07.801330"
+    },
+    "ac9b5539-ffff-4492-8fb3-912754ec9cdd": {
+      "slug": "2026-05-29-hard-fork",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-29-hard-fork/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-05-29-hard-fork.json"
+      },
+      "usage": {
+        "quote_is_verbatim": false,
+        "quote_match_score": 0.8233,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-06-01T11:34:01.772571"
+    },
+    "0de90798-284e-449f-8940-f9968f01dcfe": {
+      "slug": "2026-06-01-a16z-podcast",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-01-a16z-podcast/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-06-01-a16z-podcast.json"
+      },
+      "usage": {
+        "quote_is_verbatim": true,
+        "quote_match_score": 0.9766,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-06-01T11:37:35.037221"
+    },
+    "9ed75460-49fd-4f06-a310-781f38532667": {
+      "slug": "2026-05-29-ezra-klein-show",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-29-ezra-klein-show/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-05-29-ezra-klein-show.json"
+      },
+      "usage": {
+        "quote_is_verbatim": true,
+        "quote_match_score": 0.9364,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-06-01T11:43:53.899250"
+    },
+    "6c43a3ce-5efe-45fd-81db-29504c064b52": {
+      "slug": "2026-05-29-all-in-podcast",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "chunks": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-29-all-in-podcast/chunks.json",
+        "extraction_report": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-29-all-in-podcast/extraction_report.json",
+        "raw_dir": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-29-all-in-podcast/raw",
+        "synthesis": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-29-all-in-podcast/synthesis.json",
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-29-all-in-podcast/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-05-29-all-in-podcast.json"
+      },
+      "usage": {
+        "transcript_chars": 94315,
+        "chunk_count": 3,
+        "extracted_chunk_count": 3,
+        "cache_hits": 0,
+        "extraction_prompt_input_chars": 98844,
+        "synthesis_prompt_chars": 19786,
+        "synthesis_input_reduction_ratio": 0.7902,
+        "quote_is_verbatim": true,
+        "quote_match_score": 1.0,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-06-01T11:56:29.729454"
+    },
+    "https://lexfridman.com/?p=6457": {
+      "slug": "2026-05-29-lex-fridman-podcast",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "chunks": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-29-lex-fridman-podcast/chunks.json",
+        "extraction_report": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-29-lex-fridman-podcast/extraction_report.json",
+        "raw_dir": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-29-lex-fridman-podcast/raw",
+        "synthesis": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-29-lex-fridman-podcast/synthesis.json",
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-29-lex-fridman-podcast/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-05-29-lex-fridman-podcast.json"
+      },
+      "usage": {
+        "transcript_chars": 158969,
+        "chunk_count": 5,
+        "extracted_chunk_count": 5,
+        "cache_hits": 0,
+        "extraction_prompt_input_chars": 166425,
+        "synthesis_prompt_chars": 30290,
+        "synthesis_input_reduction_ratio": 0.8095,
+        "quote_is_verbatim": true,
+        "quote_match_score": 1.0,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-06-01T12:11:04.606444"
+    },
+    "9d4c2667-4634-4033-902f-4eeabdb96c12": {
+      "slug": "2026-05-29-making-sense",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-05-29-making-sense/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-05-29-making-sense.json"
+      },
+      "usage": {
+        "quote_is_verbatim": false,
+        "quote_match_score": 0.372,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-06-01T12:13:50.318726"
     }
   }
 }

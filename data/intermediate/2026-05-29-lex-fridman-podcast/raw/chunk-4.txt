@@ -1,0 +1,133 @@
+```json
+{
+  "topics": [
+    "Dark matter evidence and detection methods",
+    "Dark matter particle candidates and WIMP searches",
+    "Don Lincoln's personal background and career path",
+    "Science communication and inspiring future scientists",
+    "Work ethic and drive in scientific research"
+  ],
+  "claims": [
+    {
+      "claim": "The Bullet Cluster provides strong evidence that dark matter is real because gravitational distortions appear where galaxies are located, not where the gas cloud stopped.",
+      "evidence": [
+        "Galaxies pass through one another while gas clouds stop in the middle",
+        "Dark matter does not interact with gas clouds so it passes through with the galaxies",
+        "Observed distortions align with galaxy positions, not the central gas cloud"
+      ],
+      "speakers": ["Don Lincoln"]
+    },
+    {
+      "claim": "Dragonfly 2 and Dragonfly 4 galaxies, which rotate exactly according to Newton's laws without dark matter, paradoxically serve as strong evidence that dark matter is real.",
+      "evidence": [
+        "DF2 and DF4 rotate exactly according to Newton's laws",
+        "A galaxy stripped of dark matter demonstrates dark matter can be separated from ordinary matter",
+        "The ability to remove dark matter proves it is a distinct, real component"
+      ],
+      "speakers": ["Don Lincoln"]
+    },
+    {
+      "claim": "All three major detection strategies for dark matter — direct detection, annihilation signatures, and collider production — have so far yielded no confirmed evidence.",
+      "evidence": [
+        "Underground detectors have seen no evidence of dark matter wind passing through Earth",
+        "Gamma-ray searches for annihilating dark matter produce ambiguous results confounded by neutron stars and other sources",
+        "Collider searches for missing momentum events attributable to dark matter have not succeeded"
+      ],
+      "speakers": ["Don Lincoln"]
+    },
+    {
+      "claim": "The viable mass range for a dark matter particle spans from roughly the mass of an asteroid to far lighter than an electron, and only small portions of this range have been ruled out.",
+      "evidence": [
+        "Microlensing experiments like MACHO and OGLE searched for compact dark objects but found insufficient events",
+        "Minimum sensitivity for microlensing brightening corresponds to about a third of the mass of the Moon",
+        "Detectors today are a million times more sensitive than when Lincoln was a starting student, yet still no detection"
+      ],
+      "speakers": ["Don Lincoln"]
+    },
+    {
+      "claim": "Dark matter is approximately five times more prevalent than ordinary matter in the universe.",
+      "evidence": [
+        "Lincoln states dark matter 'is five times more prevalent than ordinary matter'",
+        "If dark matter were unseen black holes, there would need to be five times the number of stars worth of black holes"
+      ],
+      "speakers": ["Don Lincoln"]
+    },
+    {
+      "claim": "Don Lincoln chose particle physics over cosmology in the mid-1980s because particle physics offered the ability to do concrete experiments rather than primarily theoretical speculation.",
+      "evidence": [
+        "In the mid-80s there were far fewer cosmology measurements",
+        "Particle physics allowed him to 'actually get an answer and not just mull over what an answer might be'"
+      ],
+      "speakers": ["Don Lincoln"]
+    },
+    {
+      "claim": "Lincoln worked voluntarily from 8am to midnight Monday through Saturday and 8am to 5pm on Sunday as a graduate student at Fermilab.",
+      "evidence": [
+        "He describes Sunday afternoons from 5pm to midnight as reserved for laundry and groceries",
+        "He attributes this to having no family obligations and finding nothing he wanted to do more"
+      ],
+      "speakers": ["Don Lincoln"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "the existence of a galaxy with no dark matter is very strong evidence that dark matter is real, because you can take the dark matter out",
+      "speaker": "Don Lincoln",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "dark matter is likely a real thing. Now, that's great. I've taken you all the way to dark matter. So now you're going to ask me, you're going to say, Don, what is dark matter? I'm going to, I don't know.",
+      "speaker": "Don Lincoln",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "the range of viable dark matter ranges from something like the mass of an asteroid to far lighter than an electron and everywhere in between",
+      "speaker": "Don Lincoln",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "the experiments in today's world are a million times more sensitive than when I was a starting student. And they still haven't seen anything. And that's why people really hate dark matter.",
+      "speaker": "Don Lincoln",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "trying to measure something and having it not work just kind of ticks me off. And I am not going to let the universe in my lab or whatever beat me.",
+      "speaker": "Don Lincoln",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "there has to be some other kid out there in Iowa or Kansas, Montana, or somewhere out in some little town without a lot of access to the kinds of things that people have highly educated parents do",
+      "speaker": "Don Lincoln",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "one of your viewers might be one of the people who answer these questions that have stymied very smart people for decades",
+      "speaker": "Don Lincoln",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {
+      "name": "Don Lincoln",
+      "title": "Senior Scientist, Fermilab"
+    }
+  ],
+  "keyword_candidates": [
+    "Bullet Cluster",
+    "Dragonfly 2 and Dragonfly 4",
+    "WIMP (weakly interacting massive particle)",
+    "microlensing",
+    "MACHO OGLE experiments",
+    "dark matter direct detection",
+    "Fermilab",
+    "modified gravity"
+  ]
+}
+```

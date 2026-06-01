@@ -1,0 +1,97 @@
+```json
+{
+  "topics": [
+    "AI-driven job displacement vs. job creation debate",
+    "Software engineer hiring boom and bespoke software proliferation",
+    "Self-driving vehicles and blue-collar job disruption",
+    "AI-washing as potential securities fraud",
+    "Skills retraining and workforce adaptation"
+  ],
+  "claims": [
+    {
+      "claim": "Job postings for software engineers are up 15% year over year despite AI automating code generation",
+      "evidence": ["Software engineer job postings cited as up 15% YoY", "Fund managers now hiring software developers instead of data analysts for the first time", "Bespoke software proliferating throughout non-tech firms"],
+      "speakers": ["David Sacks", "Bill Gurley"]
+    },
+    {
+      "claim": "AI-washing by companies attributing operational failures to AI could constitute securities fraud",
+      "evidence": ["Trial lawyer Donnie King, securities litigation partner at Ackerman, warned clients about shareholder lawsuits", "He characterizes it as 'puffery' — attributing non-performance to AI when real business problems exist", "Wix cited as a potential example of AI-washing in layoff communications"],
+      "speakers": ["Chamath Palihapitiya", "David Sacks"]
+    },
+    {
+      "claim": "Productivity gains from AI will not produce obscene profits because competition will drive down prices, benefiting consumers through cheaper goods and services",
+      "evidence": ["'Someone else is going to come along and do more for less and lower the price'", "Historical pattern of price reductions in many product categories cited", "Offset by regulated industries like healthcare and education"],
+      "speakers": ["Bill Gurley"]
+    },
+    {
+      "claim": "Self-driving vehicles will not eliminate all driving jobs; human drivers may still comprise ~50% of trips, and total job numbers could stay flat or grow",
+      "evidence": ["Regulation previously suppressed the taxi market; deregulation via rideshare led to job creation", "100% automated solution economics 'don't work well'", "Non-ownership car usage expected to grow substantially"],
+      "speakers": ["Bill Gurley"]
+    },
+    {
+      "claim": "There is a significant narrative shift among tech leaders walking back AI job apocalypse claims, with Goldman Sachs CEO, Sam Altman, and Dario Amodei among those revising their positions",
+      "evidence": ["'Sam is backing off this. Even Dario's walking it back'", "Goldman Sachs CEO cited explosion in job postings", "Narrative shift described as occurring 'this week'"],
+      "speakers": ["David Sacks"]
+    },
+    {
+      "claim": "Middle management, product managers, and 'measurers' are the primary job categories being eliminated by AI, not software engineers",
+      "evidence": ["Matthew Prince called them 'measurers'", "Daily standups, Zoom call facilitation, and recording roles cited as being replaced", "Typical designer can now vibe code; developer can handle front-end UX and project management themselves"],
+      "speakers": ["Jason Calacanis"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "I'm hearing from people who are now hiring software engineers who never would have hired them before. I was talking to a fund manager, and he said that his next two hires were not going to be data analysts. They were going to be software developers because they're now deploying code for the first time in ways that they were not before.",
+      "speaker": "David Sacks",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "I don't think there's any scenario where you just do more for less, and all of a sudden, everyone has 70% operating margins. That's not going to happen. Someone else is going to come along and do more for less and lower the price.",
+      "speaker": "Bill Gurley",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "He thinks it's a type of puffery, right? Because essentially, what the company is doing is attributing their own non-performance or their operational issues to AI when, in fact, there are real problems in the business, and therefore, it could be a form of securities fraud.",
+      "speaker": "Chamath Palihapitiya",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "I think the tech industry itself doesn't have enough empathy or enough thoughtfulness when discussing this because these are real people losing real jobs, and you can point at statistics and you think they're spinning, but these are real people losing real jobs who may not make the transition.",
+      "speaker": "Jason Calacanis",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "I think it's impossible to go with 100% automated solution because the economics don't work well.",
+      "speaker": "Bill Gurley",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "cloud proficiency being the most marketable skill right now in the economy",
+      "speaker": "David Sacks",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {
+      "name": "Bill Gurley",
+      "title": "Venture Capitalist"
+    }
+  ],
+  "keyword_candidates": [
+    "AI-washing",
+    "securities fraud",
+    "software engineer job postings",
+    "self-driving vehicles",
+    "bespoke software",
+    "skills retraining",
+    "Mike Rowe Works",
+    "Donnie King Ackerman"
+  ]
+}
+```

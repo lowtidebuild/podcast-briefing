@@ -1,0 +1,174 @@
+{
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_hash": "dbf8c6626ffba281b40773ddf7ed16be4ab1800e4caada4b4b70c73d87458caa",
+  "chunk_hash": "27c8173ebd08e5a4b0312f9b64dfaa4ee3f29c1fa8366236367afdd3a21e2813",
+  "chunk_index": 1,
+  "char_start": 38005,
+  "char_end": 79245,
+  "extraction": {
+    "chunk_index": 1,
+    "char_start": 38005,
+    "char_end": 79245,
+    "topics": [
+      "Open-source AI regulation and ban risk",
+      "AI model commoditization and frontier model convergence",
+      "AI-driven job loss vs. job creation debate",
+      "Enterprise AI spending inefficiency",
+      "Anthropic's market growth and monopolization risk"
+    ],
+    "claims": [
+      {
+        "claim": "There is a coordinated effort building in Washington toward banning open-source/open-weight AI models, with predicate rhetoric already being planted in public discourse.",
+        "evidence": [
+          "Anthropic blog posts repeatedly take shots at open-source models citing lack of guardrails on cyber and bio threats",
+          "Sax describes 'breadcrumbs' including rhetoric that open-source models are dangerous because guardrails can be removed",
+          "EU has already proposed multiple rounds of AI regulation targeting open source specifically"
+        ],
+        "speakers": [
+          "David Sacks",
+          "Bill Gurley",
+          "Chamath Palihapitiya"
+        ]
+      },
+      {
+        "claim": "Frontier AI models have converged to near-identical capability levels, raising questions about ROI on continued massive training investment.",
+        "evidence": [
+          "Rogo financial analyst eval benchmark shows Opus 4.7, GPT 5.5, and Sonnet 4.6 separated by less than three-tenths of a percentage point",
+          "Rogo paper concludes 'there is no single best model anymore'",
+          "Trillions of dollars invested across these companies yet evals show roughly the same output"
+        ],
+        "speakers": [
+          "Jason Calacanis",
+          "Bill Gurley"
+        ]
+      },
+      {
+        "claim": "Fortune 1000 enterprises are deliberately building abstraction layers above frontier models to avoid vendor lock-in and political/ToS risk.",
+        "evidence": [
+          "Chamath describes hospital system in Canada potentially being shut off if a US frontier model disagrees with Canadian euthanasia laws",
+          "Regulated industries (finance, healthcare) demand on-prem AI due to HIPAA, data leakage, and training concerns",
+          "Abacus hardware stack sold out serving insurance and healthcare customers wanting to run AI inside their organizations"
+        ],
+        "speakers": [
+          "Chamath Palihapitiya",
+          "Bill Gurley"
+        ]
+      },
+      {
+        "claim": "AI-attributed layoffs at major tech companies are largely AI-washing covering for chronic overhiring and mismanagement during the COVID era.",
+        "evidence": [
+          "Yale Budget Lab study finds no discernible disruption in the labor market in the last three years due to AI",
+          "Block/Jack Dorsey's 50% cut was characterized by financial analysts as covering for severe COVID-era overstaffing relative to peers",
+          "Sergey and Larry explicitly told speakers they hired people to keep talent off the market, not for productivity"
+        ],
+        "speakers": [
+          "David Sacks",
+          "Chamath Palihapitiya",
+          "Bill Gurley"
+        ]
+      },
+      {
+        "claim": "Software developer job postings are rising despite AI automating most code writing, suggesting AI expands rather than eliminates software jobs.",
+        "evidence": [
+          "Job postings for software developers hit a new three-year high, up 15% year over year",
+          "GitHub code commits went from 1 billion last year to 1.1 billion in a single month, a ~14X year-over-year increase in code generation",
+          "Unemployment rate is at 4.3%, near record lows despite three-plus years of the AI wave"
+        ],
+        "speakers": [
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "Elon Musk's rewrite of the training stack in C achieved an order-of-magnitude speed improvement, which could dramatically lower the cost of model training and eliminate the capital moat.",
+        "evidence": [
+          "Elon tweeted the entire training complex was rewritten in C with an order-of-magnitude increase running on 220,000 GPUs",
+          "Each 1% efficiency gain is equivalent to 2,000 GPUs or hundreds of millions of dollars in compute",
+          "Chamath argues this will inspire open-source training stacks rebuilt close to bare metal"
+        ],
+        "speakers": [
+          "Chamath Palihapitiya",
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "Anthropic is pulling away from OpenAI in growth rate, and if that differential continues for two years, Anthropic could achieve monopoly market share.",
+        "evidence": [
+          "Article in The Information shows Anthropic pulling away from OpenAI in latest numbers",
+          "Sax's math: 10x growth compounded twice equals 100; 3x compounded twice equals 9, yielding ~90% market share for the faster grower",
+          "Sax says he predicted this outcome previously"
+        ],
+        "speakers": [
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "Enterprise AI token spend is spiraling out of control due to lack of usage limits and misleading freemium pricing.",
+        "evidence": [
+          "PolyMarket reported an AI consultant revealed a client accidentally spent half a billion dollars in a single month after failing to set employee limits on Claude usage",
+          "That equals 16.6 million per day and almost 700,000 per hour",
+          "A Fortune 20 company reportedly spent $200 million on tokens with minimal results against a CEO mandate for $1 billion in AI-generated OPEX savings"
+        ],
+        "speakers": [
+          "Jason Calacanis"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "There is no single best model anymore. At the top of the leaderboard, Opus 4.7, GPT 5.5, Sonnet 4.6, appear almost indistinguishable, separated by less than, in this case, three-tenths of a percentage point overall.",
+        "speaker": "",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "If you have one company that's growing at 10x year over year, and another company that's growing at 3x year over year, within two years, the first company will have 90% market share. This is the power of compounding.",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The people that might be a threat of job loss are someone who stands hard, fast, and refuses to use AI. And I would just say that's simply like saying, I'm not going to use email. I'm not going to use a spreadsheet. I'm not going to use a computer.",
+        "speaker": "Bill Gurley",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "You look at code commits on GitHub, which is the leading code repository. There were 1 billion code commits last year. In the past month, there's been 1.1 billion.",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "We hire people. And then we figure out what to do with them later. That strategy just became the standard in Silicon Valley. And now it's being reversed.",
+        "speaker": "Chamath Palihapitiya",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "If you want to participate in the modern economy, it is the backstop. And let me just make one other final point... I do think that there is the potential for the monopolization of this market to a greater degree than people may be pricing in right now.",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Bill Gurley",
+        "title": "General Partner, Benchmark Capital"
+      }
+    ],
+    "keyword_candidates": [
+      "open-source AI ban",
+      "model commoditization",
+      "Anthropic Claude",
+      "Rogo financial analyst evals",
+      "enterprise token spend",
+      "AI job displacement",
+      "Abacus AI",
+      "MCP Linux Foundation"
+    ]
+  },
+  "created_at": "2026-06-01T11:50:44.487279"
+}

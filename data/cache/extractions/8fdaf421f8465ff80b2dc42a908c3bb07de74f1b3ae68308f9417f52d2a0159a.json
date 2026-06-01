@@ -1,0 +1,168 @@
+{
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_hash": "876c92248f0d87289c58068e4acbed70765bfcaca29ea4473198d7716f62a229",
+  "chunk_hash": "3fc76e2eb33473dd464c9f8854ff29007e5da7feccbf44638fb1d99b56d14060",
+  "chunk_index": 3,
+  "char_start": 105349,
+  "char_end": 139547,
+  "extraction": {
+    "chunk_index": 3,
+    "char_start": 105349,
+    "char_end": 139547,
+    "topics": [
+      "Antimatter production and containment",
+      "Baryogenesis and matter-antimatter asymmetry",
+      "Dark energy and cosmological constant",
+      "Dark matter evidence and competing theories",
+      "Quantum gravity and space quantization"
+    ],
+    "claims": [
+      {
+        "claim": "CERN's ALPHA experiment confirmed antimatter hydrogen falls downward under gravity, measured at approximately 75% the strength of regular matter with large uncertainties consistent with 100%.",
+        "evidence": [
+          "Measured gravitational strength of antimatter: 0.75 ± ~0.29 (experimental uncertainty ±0.13, theoretical model uncertainty ±0.16)",
+          "Result is consistent with 1 (full gravitational equivalence) within error bars",
+          "Experiment performed around 2023"
+        ],
+        "speakers": [
+          "Don Lincoln"
+        ]
+      },
+      {
+        "claim": "Fermilab's antiproton production required smashing 100,000 protons to obtain one antiproton, yielding roughly one nanogram of antimatter per year at maximum output.",
+        "evidence": [
+          "Every 2.3 seconds: 10^13 protons smashed into target yielded ~10^8 antiprotons",
+          "Collected ~10^12 antiprotons every 12-24 hours",
+          "One gram of antimatter requires 10^23 antiprotons; one nanogram per year matches NASA's global estimate"
+        ],
+        "speakers": [
+          "Don Lincoln"
+        ]
+      },
+      {
+        "claim": "Producing enough antimatter for a one-megaton explosion (~25 grams) would cost approximately $1.5 quadrillion based on NASA cost estimates.",
+        "evidence": [
+          "NASA estimate: ~$62-63 trillion per gram of antihydrogen",
+          "One gram of matter + one gram of antimatter equals energy of combined Hiroshima and Nagasaki explosions",
+          "A comparable nuclear warhead costs $10-50 million"
+        ],
+        "speakers": [
+          "Lex Fridman",
+          "Don Lincoln"
+        ]
+      },
+      {
+        "claim": "The observable matter universe results from a primordial asymmetry of one extra matter particle per billion antimatter particles; the mechanism behind this asymmetry is unknown.",
+        "evidence": [
+          "Ratio derived by counting protons in galaxies and photons from the cosmic microwave background",
+          "Billions of matter-antimatter pairs annihilated; the residual one-in-a-billion surplus is all observable matter",
+          "No confirmed physical mechanism explains the asymmetry"
+        ],
+        "speakers": [
+          "Don Lincoln"
+        ]
+      },
+      {
+        "claim": "Quantum field theory predicts vacuum energy density 10^120 times larger than the observed dark energy density, representing the 'worst prediction in physics.'",
+        "evidence": [
+          "QFT calculation integrates all field wavelengths up to Planck scale; result scales to the fourth power of maximum energy",
+          "Even if new physics appears at current accelerator energy scales (10^15 below Planck), discrepancy reduces only to 10^60",
+          "Observed dark energy density is extremely small but nonzero"
+        ],
+        "speakers": [
+          "Don Lincoln"
+        ]
+      },
+      {
+        "claim": "Dark energy appears to have constant density even as the universe expands, which implies total dark energy is actually increasing and suggests dark energy is a property of space itself rather than a field within space.",
+        "evidence": [
+          "Ordinary matter density drops as universe expands; dark energy density remains constant",
+          "Constant density in expanding volume means increasing total energy",
+          "Lincoln speculates space may be quantized with each new quantum of space carrying fixed dark energy"
+        ],
+        "speakers": [
+          "Don Lincoln"
+        ]
+      },
+      {
+        "claim": "Fermilab's neutrino oscillation experiment and a competing Japanese experiment are racing to determine whether neutrinos and antineutrinos oscillate at different rates, which could explain baryogenesis via leptogenesis.",
+        "evidence": [
+          "Neutrino oscillation confirmed since 1998: three neutrino flavors interchange over distance",
+          "Leptogenesis hypothesis: asymmetric oscillation rates between neutrinos and antineutrinos could explain matter dominance",
+          "Lincoln states he would bet oscillation rates are the same, but measurement is needed"
+        ],
+        "speakers": [
+          "Don Lincoln"
+        ]
+      },
+      {
+        "claim": "Galaxy rotation speeds are too fast to be explained by observed matter alone, providing one of three independent observational pillars for dark matter.",
+        "evidence": [
+          "Galaxies spinning at observed speeds should blow apart under known gravitational laws",
+          "Other pillars: galaxy clusters moving too fast; gravitational lensing distortions inconsistent with visible matter",
+          "Searches for black holes, rogue planets, and hydrogen gas in the 1990s ruled out sufficient ordinary hidden mass"
+        ],
+        "speakers": [
+          "Don Lincoln"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "for every billion, billion with a B, antimatter particles that existed in the universe, there were a billion and one matter particles. The billions canceled, annihilated, destroyed each other, and that extra one that's left over is us.",
+        "speaker": "Don Lincoln",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "basically, in order to get a single antiproton, we needed to smash 100,000 protons into material.",
+        "speaker": "Don Lincoln",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "the expansion was speeding up. And the only way that could happen, given that gravity slows it down, is there was a repulsive force. And the name we give to that repulsive force is dark energy.",
+        "speaker": "Don Lincoln",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "that number is the rather embarrassing 10 to the 120 power times, that's a one with 120 zeros after it, bigger than the measurement of dark energy.",
+        "speaker": "Don Lincoln",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "if you're not confused, you're not doing your job.",
+        "speaker": "Don Lincoln",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Perfect cancellation, pretty easy. Theorists do that, you know, eight times before breakfast. Imperfect cancellation, much harder.",
+        "speaker": "Don Lincoln",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Don Lincoln",
+        "title": "Senior Scientist, Fermilab"
+      }
+    ],
+    "keyword_candidates": [
+      "baryogenesis",
+      "leptogenesis",
+      "neutrino oscillation",
+      "ALPHA experiment CERN",
+      "cosmological constant",
+      "dark energy density",
+      "antiproton production",
+      "bullet cluster"
+    ]
+  },
+  "created_at": "2026-06-01T12:09:02.256944"
+}

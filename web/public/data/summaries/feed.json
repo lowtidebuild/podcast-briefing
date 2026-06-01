@@ -1,5 +1,61 @@
 [
   {
+    "slug": "2026-06-01-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "Building AI Agents for Enterprise Operations",
+    "published": "2026-06-01T10:00:00+00:00"
+  },
+  {
+    "slug": "2026-06-01-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "Odd Lots: The Hidden Plumbing of Commodity Finance (Podcast)",
+    "published": "2026-06-01T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-31-fareed-zakaria-gps",
+    "podcast": "Fareed Zakaria GPS",
+    "category": "Politics / Geopolitics",
+    "title": "The Global Public Square: Navigating War, AI, and the World Cup",
+    "published": "2026-05-31T15:36:00"
+  },
+  {
+    "slug": "2026-05-29-all-in-podcast",
+    "podcast": "All-In Podcast",
+    "category": "Politics / Geopolitics",
+    "title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+    "published": "2026-05-29T22:23:00+00:00"
+  },
+  {
+    "slug": "2026-05-29-making-sense",
+    "podcast": "Making Sense",
+    "category": "Philosophy / AI Ethics",
+    "title": "#478 — The Psychedelic Mind",
+    "published": "2026-05-29T18:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-29-lex-fridman-podcast",
+    "podcast": "Lex Fridman Podcast",
+    "category": "AI / Tech",
+    "title": "#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE – Don Lincoln",
+    "published": "2026-05-29T16:22:02+00:00"
+  },
+  {
+    "slug": "2026-05-29-hard-fork",
+    "podcast": "Hard Fork",
+    "category": "AI / Tech",
+    "title": "Interesting Times: Why Are We Still Driving?",
+    "published": "2026-05-29T11:00:00+00:00"
+  },
+  {
+    "slug": "2026-05-29-ezra-klein-show",
+    "podcast": "Ezra Klein Show",
+    "category": "Politics / Geopolitics",
+    "title": "Does Trump Want to Lose the Midterms?",
+    "published": "2026-05-29T09:00:00+00:00"
+  },
+  {
     "slug": "2026-05-27-a16z-podcast",
     "podcast": "a16z Podcast",
     "category": "VC / Business",
@@ -292,61 +348,5 @@
     "category": "VC / Business",
     "title": "The Shift in Global Drug Development",
     "published": "2026-04-29T10:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-28-ezra-klein-show",
-    "podcast": "Ezra Klein Show",
-    "category": "Politics / Geopolitics",
-    "title": "What We Got Right — and Wrong — in ‘Abundance’",
-    "published": "2026-04-28T09:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-27-odd-lots",
-    "podcast": "Odd Lots",
-    "category": "Macro / Markets",
-    "title": "What's Actually Going On With Private Credit",
-    "published": "2026-04-27T08:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-26-fareed-zakaria-gps",
-    "podcast": "Fareed Zakaria GPS",
-    "category": "Politics / Geopolitics",
-    "title": "Shooting at the White House Correspondents’ Dinner",
-    "published": "2026-04-26T15:30:00"
-  },
-  {
-    "slug": "2026-04-24-all-in-podcast",
-    "podcast": "All-In Podcast",
-    "category": "Politics / Geopolitics",
-    "title": "SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
-    "published": "2026-04-24T21:20:00+00:00"
-  },
-  {
-    "slug": "2026-04-24-making-sense",
-    "podcast": "Making Sense",
-    "category": "Philosophy / AI Ethics",
-    "title": "#472 — Strange Days on the Right",
-    "published": "2026-04-24T16:15:00+00:00"
-  },
-  {
-    "slug": "2026-04-24-hard-fork",
-    "podcast": "Hard Fork",
-    "category": "AI / Tech",
-    "title": "Tim Cook’s Legacy + The Future of U.B.I. With Andrew Yang + HatGPT",
-    "published": "2026-04-24T11:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-24-a16z-podcast",
-    "podcast": "a16z Podcast",
-    "category": "VC / Business",
-    "title": "AI Inside the Enterprise",
-    "published": "2026-04-24T10:00:00+00:00"
-  },
-  {
-    "slug": "2026-04-24-ezra-klein-show",
-    "podcast": "Ezra Klein Show",
-    "category": "Politics / Geopolitics",
-    "title": "Stewart Brand, Silicon Valley’s Favorite Prophet, on Life’s Most Important Principle",
-    "published": "2026-04-24T09:00:00+00:00"
   }
 ]

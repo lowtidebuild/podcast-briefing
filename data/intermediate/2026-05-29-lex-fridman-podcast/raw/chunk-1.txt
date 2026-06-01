@@ -1,0 +1,139 @@
+```json
+{
+  "topics": [
+    "Electroweak unification and Higgs mechanism",
+    "Particle accelerators and collision physics",
+    "Higgs boson discovery at CERN (July 4, 2012)",
+    "Antimatter production and particle creation from energy",
+    "Standard Model completion and particle detection"
+  ],
+  "claims": [
+    {
+      "claim": "The electroweak unification was achieved by Weinberg, Glashow, and Salam in 1967, not 1964 as commonly stated, showing electromagnetism and the weak force merge at high energies.",
+      "evidence": [
+        "Higgs field papers were published in 1964 by three groups with six individuals",
+        "Steven Weinberg, Sheldon Glashow, and Abdus Salam unified the two forces in 1967",
+        "1964 is commonly cited but the actual unification happened over several years"
+      ],
+      "speakers": ["Don Lincoln"]
+    },
+    {
+      "claim": "The Higgs field gives mass to particles by being non-zero even in empty space; at 10^-12 seconds after the Big Bang it 'turned on,' breaking electroweak symmetry and giving mass to weak force particles but not photons.",
+      "evidence": [
+        "Higgs field's vacuum expectation value is not zero, unlike most other fields",
+        "At high energies the Higgs field strength goes to zero, so all particles are massless",
+        "Electroweak symmetry breaking occurred at 10^-12 seconds after the Big Bang"
+      ],
+      "speakers": ["Don Lincoln"]
+    },
+    {
+      "claim": "Particle accelerators convert kinetic energy into mass, producing matter-antimatter pairs, consistent with E=mc²; antimatter production is extremely costly, requiring ~100,000 protons to produce one antiproton at Fermilab.",
+      "evidence": [
+        "Antimatter electron discovered in 1932; antimatter proton discovered in 1955 at Berkeley Bevatron",
+        "Fermilab required smashing 100,000 protons to make one antiproton",
+        "Fermilab operated its antiproton program at 120 GeV until shutting it down in 2011"
+      ],
+      "speakers": ["Don Lincoln"]
+    },
+    {
+      "claim": "The LHC is approximately 7 times higher energy per collision and 100 times more collisions per second than the Fermilab Tevatron, enabling top quark production at a rate of one per second vs. ~19 in six months to a year at Fermilab.",
+      "evidence": [
+        "Top quark discovered at Fermilab in 1995 with only 38 candidates (~19 real) after months of data collection",
+        "At LHC, one top quark is made every second",
+        "LHC vs. Tevatron comparison yields roughly 1,000x more collisions per second overall"
+      ],
+      "speakers": ["Don Lincoln"]
+    },
+    {
+      "claim": "The CMS detector at CERN, described as the 'small' detector, is 70 feet long, 50 feet high, 50 feet wide, and weighs 14,000 tons; it takes pictures 40 million times per second but records only ~1,000 collisions per second after trigger filtering.",
+      "evidence": [
+        "Atlas detector is 150 feet long, 80 feet across, weighing 7,000 tons",
+        "Fast electronics reduce 40 million frames/second to 100,000 candidates, then commercial processors reduce to 1,000/second for recording",
+        "Data volumes reach petabyte scale"
+      ],
+      "speakers": ["Don Lincoln"]
+    },
+    {
+      "claim": "On July 4, 2012, CERN announced discovery of a particle consistent with the Higgs boson, but full confirmation that it matched the original 1964 Higgs theory—including spin-zero, correct decay modes, and correct decay rates—took approximately 14 more years of study.",
+      "evidence": [
+        "At announcement, alternative theories such as supersymmetry predicted five Higgs bosons, not one",
+        "Fermilab two days prior could only rule out certain mass ranges, not confirm or deny",
+        "Subsequent measurements confirmed spin-0, decays to bottom quarks, W/Z particles, and photons at predicted rates"
+      ],
+      "speakers": ["Don Lincoln"]
+    },
+    {
+      "claim": "The name 'God particle' originated from Leon Lederman's book title chosen by his publisher for marketing reasons; Lederman himself preferred 'the goddamn particle' due to the difficulty of finding it.",
+      "evidence": [
+        "Leon Lederman ran Fermilab",
+        "Lederman wrote a foreword for one of Don Lincoln's books",
+        "Lincoln spoke with Lederman directly about the origin of the name"
+      ],
+      "speakers": ["Don Lincoln"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "the Higgs field is the quantum field that fills all of space and gives many elementary particles just as you're saying their mass through their interaction with it",
+      "speaker": "Don Lincoln",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "it's a mouthful but all it says is there was a moment in time early in the history of the universe at 10 to the minus 12 seconds after the Big Bang the Higgs field turned on and particles got mass",
+      "speaker": "Don Lincoln",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Higgs theory is just a band-aid on top of electroweak symmetry theory and that is the band-aid that fixes it because it gives mass to particles at low energy",
+      "speaker": "Don Lincoln",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "in order at the Fermilab machine we would have to smash a hundred thousand protons into something to make one antimatter proton",
+      "speaker": "Don Lincoln",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "now top quarks are a background. We try to get rid of them. There's just too many of them. They get in the way of searching for the stuff we really want to search. They are like so 30 years ago.",
+      "speaker": "Don Lincoln",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "we have validated the things. We found the mass of the particle. We know the spin of the Higgs boson. It has a spin of zero.",
+      "speaker": "Don Lincoln",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "the real truth was the book was called the God particle because his publisher thought it would sell more copies",
+      "speaker": "Don Lincoln",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "in particle physics, we really absolutely want our competitors to do extremely well, just not quite as well as we do",
+      "speaker": "Don Lincoln",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {"name": "Don Lincoln", "title": "Senior Scientist, Fermilab / CMS Collaboration, CERN"}
+  ],
+  "keyword_candidates": [
+    "Higgs boson",
+    "electroweak symmetry breaking",
+    "Large Hadron Collider (LHC)",
+    "Fermilab Tevatron",
+    "CMS detector",
+    "antimatter proton",
+    "Standard Model",
+    "top quark"
+  ]
+}
+```

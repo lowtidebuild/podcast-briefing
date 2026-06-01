@@ -1,0 +1,154 @@
+{
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_hash": "876c92248f0d87289c58068e4acbed70765bfcaca29ea4473198d7716f62a229",
+  "chunk_hash": "b33061603c5b7c5c113d0ddab51b777bebd138eaafc8013644585794b63d99e6",
+  "chunk_index": 0,
+  "char_start": 0,
+  "char_end": 35474,
+  "extraction": {
+    "chunk_index": 0,
+    "char_start": 0,
+    "char_end": 35474,
+    "topics": [
+      "History of unification in physics",
+      "Newton, Maxwell, and Einstein's contributions",
+      "Space-time and special/general relativity",
+      "Philosophy of scientific discovery and genius",
+      "Practical implications of fundamental physics"
+    ],
+    "claims": [
+      {
+        "claim": "The history of physics can be told as a history of unifications, starting with Newton unifying terrestrial and celestial gravity.",
+        "evidence": [
+          "Newton's law of 'universal gravity' explicitly claims the same gravity governs falling objects on Earth and the motion of celestial bodies",
+          "Prior to Newton, 'laws of celestial gravity' and 'terrestrial gravity' were considered distinct phenomena around the 1650s"
+        ],
+        "speakers": [
+          "Don Lincoln",
+          "Lex Fridman"
+        ]
+      },
+      {
+        "claim": "Maxwell's equations in the 1860s unified electricity and magnetism, and from them the speed of light emerges mathematically.",
+        "evidence": [
+          "Maxwell's differential/integral equations have electricity terms on one side and magnetism terms on the other",
+          "Applying calculus to Maxwell's equations yields a wave equation whose propagation speed equals the speed of light",
+          "Electromagnetism also governs chemistry by holding atoms together via electromagnetic forces"
+        ],
+        "speakers": [
+          "Don Lincoln"
+        ]
+      },
+      {
+        "claim": "Einstein's special relativity rests on two premises: laws of nature are the same for all observers, and the speed of light is the same for all observers regardless of relative motion.",
+        "evidence": [
+          "Particle physics experiments measure light emitted by fast-moving decaying particles and confirm it still travels at c, not c plus the particle's speed",
+          "Newton and Galileo would have predicted velocities add, but measurements show they do not for light"
+        ],
+        "speakers": [
+          "Don Lincoln"
+        ]
+      },
+      {
+        "claim": "The concept of space-time unification originated with Minkowski, not Einstein, when Minkowski reinterpreted Einstein's equations geometrically in 1908.",
+        "evidence": [
+          "Minkowski was 'a little bit more mathematically inclined than Einstein'",
+          "Minkowski showed that one person's space and time equals some numbers times another person's space and time, establishing space-time as a unified entity"
+        ],
+        "speakers": [
+          "Don Lincoln"
+        ]
+      },
+      {
+        "claim": "General relativity unifies acceleration and gravity by describing gravity as the bending of space-time.",
+        "evidence": [
+          "Einstein recognized that a person in a quiet accelerating rocket ship feels indistinguishable from gravity",
+          "Lincoln calls Einstein's failure to receive the Nobel Prize for general relativity 'a crime against humanity'"
+        ],
+        "speakers": [
+          "Don Lincoln"
+        ]
+      },
+      {
+        "claim": "Scientific genius requires not just an intuitive spark but also historical knowledge, mathematical discipline, and rigorous self-critique.",
+        "evidence": [
+          "Einstein, despite not accepting quantum mechanics, was a 'very valuable critic' whose implications of quantum entanglement were later experimentally confirmed",
+          "Lincoln notes that many creative thinkers who lack mathematical discipline and self-critique produce ideas that 'don't play out'"
+        ],
+        "speakers": [
+          "Don Lincoln",
+          "Lex Fridman"
+        ]
+      },
+      {
+        "claim": "Fundamental physics research has historically led to transformative technologies decades or centuries later, suggesting current particle physics may yield future breakthroughs.",
+        "evidence": [
+          "Understanding electromagnetism led to the entire technological society and the internet",
+          "Understanding nuclear forces led to nuclear power as a potential energy source for humanity",
+          "Lincoln speculates antimatter research could lead to new energy sources or propulsion systems"
+        ],
+        "speakers": [
+          "Don Lincoln",
+          "Lex Fridman"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "Newton's theory is, Newton's law of universal gravity. The universal is there, and the reason is, is because he realized these two things that seemed to have nothing to do with one another were indeed one and the same.",
+        "speaker": "Don Lincoln",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "if you take Maxwell's equations and you apply a little bit of calculus, it's very easy to see that the laws of electricity and the laws of magnetism combined together make what's called a wave equation, which shows that these electric and magnetic fields oscillate... and the wave then moves. And if you do the math, you find out that the speed at which these waves move is the speed of light.",
+        "speaker": "Don Lincoln",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "the speed of light, it's the speed of light through space-time. Once you embrace that, that makes a whole ton of sense.",
+        "speaker": "Don Lincoln",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "in order to be that person who changes the way we see the world, ideas themselves are not enough. These creative ideas, that's not enough. You need it with the discipline and the critique, and it's that amalgam of those things that make you a genius that history remembers.",
+        "speaker": "Don Lincoln",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "what scientists can do is figure out how the world works. Society has to figure out how we wish to apply that or not apply that.",
+        "speaker": "Don Lincoln",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "solving the mysteries and the puzzles of the universe in itself is effing awesome.",
+        "speaker": "Lex Fridman",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Don Lincoln",
+        "title": "Particle Physicist, Fermilab"
+      }
+    ],
+    "keyword_candidates": [
+      "unification in physics",
+      "Maxwell's equations",
+      "special relativity",
+      "space-time",
+      "Minkowski",
+      "general relativity",
+      "antimatter",
+      "theory of everything"
+    ]
+  },
+  "created_at": "2026-06-01T12:07:13.088572"
+}
