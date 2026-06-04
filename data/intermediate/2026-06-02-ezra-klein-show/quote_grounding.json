@@ -1,0 +1,12 @@
+{
+  "slug": "2026-06-02-ezra-klein-show",
+  "transcript_chars": 87826,
+  "is_verbatim": false,
+  "match_score": 0.0295,
+  "source_char_start": null,
+  "source_char_end": null,
+  "warnings": [
+    "notable_quote_en was not grounded in transcript (best score=0.03)"
+  ],
+  "created_at": "2026-06-04T10:07:48.270217"
+}

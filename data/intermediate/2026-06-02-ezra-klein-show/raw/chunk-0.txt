@@ -1,0 +1,154 @@
+```json
+{
+  "topics": [
+    "Trump as symptom and cause of structural American political shifts",
+    "US-China relations and the Thucydides Trap",
+    "Economic vibes vs. macro performance divergence",
+    "Hollowing out of American communities and social mobility collapse",
+    "Technology, algorithmic media, and political destabilization"
+  ],
+  "claims": [
+    {
+      "claim": "Trump is primarily a symptom of long-term structural dissatisfaction with the American political system, not its original cause, but he becomes a cause once in power.",
+      "evidence": [
+        "Structural policies like opposition to free trade, industrial policy, nearshoring, and restrictions on immigration predated Trump and were pressures Obama and Biden also faced",
+        "Bremmer distinguishes 'structural things' from 'Trump the individual' behaviors like the Greenland obsession"
+      ],
+      "speakers": ["Ian Bremmer"]
+    },
+    {
+      "claim": "Trump represents a political revolution comparable in scale to FDR's, aimed at dismantling checks and balances on the executive, though likely to fail.",
+      "evidence": [
+        "FDR was the last president to seriously attempt upending checks and balances and transform the administrative state",
+        "Trump is described as 'maximally incompetent from a policy perspective,' 'authoritarian in impulse,' and 'personally kleptocratic' to an unprecedented degree",
+        "Bremmer says he has 'a lot of confidence that he will not succeed in the political revolution'"
+      ],
+      "speakers": ["Ian Bremmer"]
+    },
+    {
+      "claim": "The United States is not in decline, but its allies are declining due to falling productivity, contracting demographics, and underinvestment in defense and technology.",
+      "evidence": [
+        "Xi Jinping's Thucydides Trap framing incorrectly implies US decline, according to Bremmer",
+        "European allies cited as having lower productivity and growth",
+        "US described as world leader in AI"
+      ],
+      "speakers": ["Ian Bremmer"]
+    },
+    {
+      "claim": "American consumer sentiment has diverged dramatically from strong macroeconomic indicators, reaching depths comparable to the Great Recession despite relative prosperity.",
+      "evidence": [
+        "The Economist cover story noted the American economy was outperforming the rest of the world",
+        "Chinese median disposable income cited at $6,000 as comparison",
+        "Consumer sentiment described as 'at the depths of the Great Recession' despite income growth in the bottom half and normal inflation levels"
+      ],
+      "speakers": ["Ezra Klein", "Ian Bremmer"]
+    },
+    {
+      "claim": "The real driver of hollowed-out American communities is not abstract middle-class income decline but the destruction of place-based opportunity combined with the gating of superstar cities through housing restrictions.",
+      "evidence": [
+        "Silicon Valley described as strip malls and single-family homes with no housing for workers near Meta and Nvidia campuses",
+        "Richer people now move to richer places while poor people move out, reversing historical mobility patterns",
+        "Operation Varsity Blues cited as evidence of class stratification in opportunity"
+      ],
+      "speakers": ["Ezra Klein", "Ian Bremmer"]
+    },
+    {
+      "claim": "Technology has shifted from being advantageous to open societies to undermining them, benefiting closed authoritarian states like China that can control algorithmic nudging.",
+      "evidence": [
+        "Pre-2006 communications revolution enabled Arab Spring and colored revolutions, undermining authoritarians",
+        "Current technology described as 'top-down,' 'surveillance-based,' 'algorithmic nudging,' and 'addictive'",
+        "China able to 'control and nudge what patriotic behavior is' while the US suffers worse political destabilization than Europe or Japan"
+      ],
+      "speakers": ["Ian Bremmer"]
+    },
+    {
+      "claim": "American class mobility has reversed dramatically: from among the highest in the OECD in the 1970s-80s to lower than Europe and Canada today.",
+      "evidence": [
+        "Bremmer states 'Americans are far less class mobile today than the Europeans are, than the Canadians are'",
+        "'Back in the 70s and 80s the United States had some of the greatest class mobility in the OECD and in just 40 years that turned completely on its head'"
+      ],
+      "speakers": ["Ian Bremmer"]
+    },
+    {
+      "claim": "Trump's tariff and trade war policies have caused inflation that harms developing economies like the Dominican Republic, which cannot be blamed on their own governments.",
+      "evidence": [
+        "Bremmer met with Dominican Republic President Abinadar and CEOs; approval ratings dropped from 70 to 55 due to inflation",
+        "Bremmer told the room: 'do not blame your government for that. You can blame my government for that'"
+      ],
+      "speakers": ["Ian Bremmer"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "I would say he's first and foremost a symptom, not a cause, of trends that have been coming in the United States for a long time.",
+      "speaker": "Ian Bremmer",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "A political revolution does not have to succeed and a political revolution does not have to be for goals that you or I happen to agree with.",
+      "speaker": "Ian Bremmer",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "It is manifestly untrue that over the past 20, 30 years, the big structural changes in the world in terms of power is China's rising, the United States is not in decline, but American allies are declining.",
+      "speaker": "Ian Bremmer",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "We didn't hollow out the middle class. We hollowed out places.",
+      "speaker": "Ezra Klein",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Technology back in 2006 was actually advantageous to more open societies... Then you move from that system to one where technology is top-down. It's a surveillance based system, it's a data based system, it's algorithmic nudging of people by other people and even by bots... and it benefits closed societies and it undermines open societies.",
+      "speaker": "Ian Bremmer",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "do not blame your government for that. You can blame my government for that.",
+      "speaker": "Ian Bremmer",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "We hollowed out huge number communities in this country and then we gated the places where the opportunity had moved to.",
+      "speaker": "Ezra Klein",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Back in the 70s and 80s the United States had some of the greatest class mobility in the OECD and in just 40 years that turned completely on its head.",
+      "speaker": "Ian Bremmer",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "I think sentiment has become a little bit free-floating now and one reason it is not responsive to the economy getting better... is that there is something happening in the system of attention. Like I think now a system that has just moved into its grammar is angry.",
+      "speaker": "Ezra Klein",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {
+      "name": "Ian Bremmer",
+      "title": "President and Founder, Eurasia Group and GZERO Media"
+    }
+  ],
+  "keyword_candidates": [
+    "Thucydides Trap",
+    "Eurasia Group",
+    "administrative state",
+    "algorithmic media",
+    "class mobility",
+    "superstar cities",
+    "Project 2025",
+    "J curve"
+  ]
+}
+```

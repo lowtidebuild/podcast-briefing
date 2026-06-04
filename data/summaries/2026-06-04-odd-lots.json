@@ -1,0 +1,96 @@
+{
+  "id": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/ve_kcb_uTD0o/v6.mp3",
+  "slug": "2026-06-04-odd-lots",
+  "podcast": "Odd Lots",
+  "category": "Macro / Markets",
+  "title": "Goldman Sachs CEO David Solomon on Running a Bank in the Age of AI",
+  "published": "2026-06-04T08:00:00+00:00",
+  "link": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/ve_kcb_uTD0o/v6.mp3",
+  "podcast_url": "https://www.bloomberg.com/oddlots",
+  "guest": {
+    "name": "David Solomon",
+    "title": "CEO & Chairman, Goldman Sachs"
+  },
+  "summary_ko": "AI가 화이트칼라 직업을 전멸시킬 것이라는 공포가 확산되는 가운데, 월가 최대 투자은행의 수장이 직접 반론을 제기했습니다. Goldman Sachs CEO David Solomon은 AI 충격이 '과장됐다'고 주장하지만, 그의 핵심 논거는 단순한 낙관론이 아닙니다. 기술이 지식을 상품화할수록, 인간 고유의 관계 구축 능력과 감성 지능(EQ)의 희소 가치는 오히려 상승한다는 것입니다.\n\nSolomon의 중심 테제는 역사적 패턴에 근거합니다. 그는 1982년 Quotron 단말기 시절부터 Logic Pro 음악 제작 플랫폼까지 기술 전환이 일자리를 없앤 게 아니라 재편했다고 주장합니다. Goldman Sachs는 현재 약 2,500명의 인턴을 채용 중이며, 이는 코로나 이전 수준과 유사합니다. 향후 3년간 신규 채용이 '소폭' 줄어들 것을 인정하면서도, '극적인' 변화는 없을 것으로 전망합니다. 반면 3,800명이 관여하던 고객 온보딩·KYC 프로세스를 수백 명 규모로 압축하는 1GS 3.0 프로젝트처럼, 백오피스 운영 인력에서는 실질적이고 측정 가능한 감소가 이미 진행 중입니다.\n\n그의 논거에는 주목할 만한 약점이 있습니다. 진입 수준 채용 16% 감소라는 Stanford 데이터를 인용하면서도, 이를 샘플 편향 문제로 희석시키려 합니다. 또한 AI 모델의 '더티 데이터' 문제를 Masters 골프 토너먼트 예시로 설명하는데, 이는 오히려 현재 AI의 신뢰성 한계를 스스로 드러내는 셈입니다.\n\n자본 시장 측면에서 Solomon은 Alphabet의 900억 달러 주식 공모(Goldman Sachs 단독 주관)를 '전례 없는 규모의 투자자 수요 확인'으로 규정하고, 대형 빅테크 기업들이 AI 인프라 자금 조달을 위해 부채와 더불어 주식 발행을 병행하는 추세가 확대될 것으로 봅니다. SpaceX IPO 주관권 확보는 20년에 걸친 관계 구축의 산물이며, 이는 그의 핵심 테제—인간 관계는 AI로 대체 불가능하다—를 Goldman Sachs 자신의 비즈니스 모델로 증명하는 사례입니다.",
+  "summary_en": "The CEO of Goldman Sachs is arguing, in public, that AI's threat to white-collar employment is overstated — and the argument is more structurally interesting than it first appears. David Solomon's central claim is not that AI is unimportant, but that as technology commodifies knowledge work, distinctly human skills — relationship-building, emotional intelligence, persuasion — become scarcer and therefore more valuable, not less.\n\nSolomon draws on a 40-year career arc to ground this thesis. When he started at Drexel Burnham in the mid-1980s, junior bankers were valuable partly because they had access to a Quotron terminal. As information became ubiquitous, the competitive edge migrated to judgment and relationships. He sees AI as the next iteration of this shift, not a rupture from it. Goldman currently employs roughly 2,500 interns — near pre-COVID levels — and Solomon concedes that number will contract \"a little\" over three years, but not dramatically. The more concrete disruption is in back-office operations: the firm's 1GS 3.0 initiative is compressing a client onboarding and KYC process that once touched 3,800 people down to a few hundred.\n\nThe argument has identifiable weaknesses. Solomon cites a Stanford study showing a 16% decline in entry-level hiring, then immediately attempts to neutralize it by questioning the sample's representativeness — a rhetorical move that deflects rather than refutes. His Masters golf anecdote about AI hallucinating Tiger Woods's tournament history illustrates the data-quality problem well, but simultaneously undermines confidence in near-term AI reliability more broadly.\n\nOn capital markets, the episode breaks news: Goldman ran the Alphabet $90 billion equity raise — the largest secondary follow-on offering on record — as sole bookrunner for five months. Solomon expects more mega-cap tech equity issuances to follow, as companies with multi-year AI capex plans rationally diversify funding away from pure debt. The SpaceX IPO mandate, won through two decades of relationship cultivation, is the most self-referential proof point of his broader thesis about irreplaceable human capital.",
+  "key_points_ko": [
+    {
+      "heading": "AI는 지식을 상품화하지만, 그 결과 인간 관계 능력의 가격이 올라간다",
+      "body": "Solomon의 핵심 주장은 기술 진보가 항상 정보 접근성을 민주화해왔으며, 그 결과 경쟁 우위가 정보 보유에서 인간적 역량으로 이동해왔다는 역사적 패턴입니다. 1980년대 Quotron 단말기는 주가를 실시간으로 알 수 있다는 것 자체가 경쟁력이었고, 오늘날 AI는 PowerPoint 제작이나 재무 분석 같은 작업을 자동화합니다. 그는 Goldman Sachs의 신입 인력을 클라이언트 미팅과 관계 구축에 더 많이 배치할 계획을 밝히며, 이를 '기회의 역전'으로 묘사합니다. 즉, 기술이 주니어 뱅커를 루틴 작업에서 해방시킬수록, 고객과의 직접 접촉 시간이 늘어나고 이것이 차별적 역량이 된다는 논리입니다. 그러나 이 논리는 '관계 능력'이 학습 가능하거나 훈련 가능하다는 가정에 의존하며, AI가 분석 작업을 통해 습득되던 암묵지(tacit knowledge)의 전수 경로를 차단할 경우 그 가정이 흔들릴 수 있습니다."
+    },
+    {
+      "heading": "AI의 진짜 위협은 스타 뱅커가 아니라 백오피스 운영 인력이다",
+      "body": "Solomon은 AI로 인한 헤드카운트 감소가 클라이언트 대면 업무가 아닌 운영 프로세스에서 가장 명확하게 나타날 것이라고 봅니다. Goldman의 1GS 3.0 이니셔티브 하에서, 고객 온보딩·자금세탁방지(AML)·KYC 프로세스에 관여하던 3,800명 규모의 인력이 수백 명 수준으로 재편될 예정입니다. 이는 추측이 아닌 측정 가능한 생산성 지표입니다. 반면 투자은행 부문에서의 생산성은 '인당 수익'으로만 간접 측정 가능하며, Goldman은 지난 27년간 직원 수를 16,000명에서 45,000명으로 늘리는 동시에 자본 대비 수익률을 향상시켰습니다. AI는 이 생산성 곡선을 가파르게 만들 것이지만, 그 충격은 부문에 따라 현저히 다를 것입니다."
+    },
+    {
+      "heading": "Alphabet의 900억 달러 주식 공모는 빅테크의 AI 자금 조달 구조 변화를 예고한다",
+      "body": "Goldman Sachs는 Alphabet의 역대 최대 규모 주식 후속 공모(그린슈 행사 시 최대 900억 달러)를 5개월간 단독 주관했으며, Solomon은 이를 단순한 자본 조달이 아닌 '투자자 수요에 대한 전례 없는 규모의 실증적 데이터 포인트'로 정의합니다. 핵심 논리는 다음과 같습니다: 대형 빅테크 기업들의 AI 인프라 투자 계획이 수년에 걸쳐 펼쳐질 경우, 부채만으로 조달하다 시장 멀티플이 하락하면 레버리지 위험이 급증합니다. 따라서 주가 멀티플이 높은 현 시점에 주식을 발행해 자본 구조를 보강하는 것이 합리적 선택입니다. Solomon은 Alphabet이 첫 주자이며, 유사한 공모가 추가로 이어질 것으로 전망합니다. 이는 Goldman 같은 ECM(주식자본시장) 역량을 가진 은행에게 수익 확대 기회입니다."
+    },
+    {
+      "heading": "현재 주식 시장은 닷컴 버블이 아니지만, '탐욕 단계'라는 진단은 유효하다",
+      "body": "Solomon은 S&P 500 상위 10개 기업이 시가총액 기준 30% 중반대 비중을 차지하는 것이 1920년대, 1960년대, 1990년대 말에도 유사했다고 지적합니다. 중요한 차이는 밸류에이션입니다. 현재 상위 10개 기업의 선행 PER은 약 30배 초반으로, 1999~2000년의 40배 후반~50배에 비해 낮으며, 이들 기업은 실제로 막대한 현금을 창출하고 있습니다. 나머지 490개 기업의 선행 PER은 17~20배 수준으로, 기술 도입을 통한 이익 성장이 실현된다면 오히려 매력적인 수준일 수 있습니다. 그러나 그는 FOMO(fear of missing out)가 특정 종목군으로의 쏠림을 만들고 있음을 인정하며, 이것이 '탐욕 단계'의 특징이라고 말합니다. 그의 진단은 '버블이냐 아니냐'가 아닌 '어디에 쏠림이 있는가'를 묻는 더 정교한 질문입니다."
+    },
+    {
+      "heading": "SpaceX IPO 주관권은 20년 관계 투자의 회수이며, Goldman의 비즈니스 모델 자체가 Solomon의 테제를 증명한다",
+      "body": "Goldman Sachs가 SpaceX IPO의 대표 주관사 지위를 확보한 과정은 Solomon이 설파하는 '인간 관계의 복리 수익' 테제의 살아있는 사례입니다. Goldman이 Elon Musk와의 관계를 구축한 것은 SolarCity와 Tesla 시절로 거슬러 올라가며, Dan Dees가 약 10년 이상 개인적 관계를 지속해왔습니다. 이 관계는 직선적이지 않았으며—Solomon의 표현으로는 '항상 완전히 일치하지는 않는 시기도 있었다'—그럼에도 불구하고 장기적 신뢰 축적이 결국 가장 큰 거래를 가져왔습니다. Solomon이 Elon Musk에게 X(구 Twitter) DM으로 접촉한 것은 사실이지만, 딜을 직접 제안한 것은 아니며 단순한 커뮤니케이션 채널의 변화였습니다. 이 사례는 관계 자본이 AI로 대체될 수 없다는 그의 주장을 Goldman 자신의 수익 모델로 입증하는 것으로, 주장과 행동의 일관성이라는 측면에서 설득력이 있습니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "AI commodifies knowledge work, which makes relationship skills more valuable — not less",
+      "body": "Solomon's structural argument is that technology has always democratized information access, and each time it did, competitive advantage migrated from information possession to human capability. The Quotron terminal made knowing real-time stock prices a service; AI now automates financial modeling and slide decks. His response is to redeploy junior Goldman staff toward direct client contact — what he calls reversing a 30-year drift away from relationship-building. The logic is internally consistent, but it rests on the assumption that relationship skills can be trained in the absence of the analytical grunt work that traditionally built tacit financial knowledge. If AI eliminates the apprenticeship pathway, the pipeline of future senior bankers may narrow in ways that aren't yet visible in headcount numbers."
+    },
+    {
+      "heading": "AI's clearest headcount impact is in back-office operations, not client-facing roles",
+      "body": "Solomon draws a sharp distinction between where AI disruption is measurable and where it remains diffuse. Goldman's 1GS 3.0 initiative will compress its client onboarding, AML, and KYC process from 3,800 people to a few hundred — a concrete, quantifiable productivity gain. By contrast, productivity in investment banking is only indirectly measurable through revenue and profit per head, which have risen over 27 years as the firm scaled from 16,000 to 45,000 employees with capital growing from $6 billion to $110 billion. AI will steepen this curve, but the distributional impact across job types will be highly uneven, and Solomon's reassurance about junior bankers applies mainly to client-facing roles, not the operational workforce already being restructured."
+    },
+    {
+      "heading": "Alphabet's $90bn equity raise signals a structural shift in how mega-cap tech funds AI capex",
+      "body": "Goldman ran Alphabet's record-breaking secondary equity offering — up to $90 billion including the greenshoe — as sole bookrunner for five months before other banks were brought in. Solomon frames this not merely as a capital transaction but as the first large-scale empirical test of investor appetite for AI infrastructure investment at this magnitude. The underlying logic is straightforward: companies with multi-year AI capex commitments that rely entirely on debt financing face severe leverage risk if market multiples compress. Issuing equity while valuations are elevated is rational risk management. Solomon expects more mega-cap issuances to follow, representing a durable revenue opportunity for banks with strong equity capital markets franchises."
+    },
+    {
+      "heading": "Current equity valuations are stretched but not 1999-era delusional — the distinction matters for risk positioning",
+      "body": "Solomon rejects the facile dot-com-bubble comparison while acknowledging FOMO-driven crowding in a narrow set of stocks. The top 10 S&P 500 companies trade at roughly 30x forward earnings — elevated, but meaningfully below the 45-50x multiples of the 1999-2000 internet boom, and critically, these companies generate real cash. The remaining 490 companies trade at 17-20x forward earnings, which Solomon argues looks attractive if AI-driven efficiency gains materialize across the broader corporate sector. His framework — fear vs. greed, not bubble vs. not-bubble — is the more analytically useful lens, because it acknowledges the possibility that the greed phase continues for some time before correcting, rather than predicting an imminent crash."
+    },
+    {
+      "heading": "The SpaceX IPO mandate is 20 years of relationship compounding — and Goldman's own business model is the proof of Solomon's thesis",
+      "body": "Goldman's lead role on the SpaceX IPO is the most self-referential evidence in Solomon's argument that human relationships are the irreplaceable moat in financial services. The firm's connection to Elon Musk dates to SolarCity and the Tesla IPO; Dan Dees has cultivated a personal relationship with Musk for over a decade, through periods of misalignment as well as cooperation. The relationship was never transactional, and the payoff is one of the most consequential mandates in recent banking history. Solomon confirms he communicated with Musk via X DMs — because Musk stopped accepting texts — but did not pitch the deal that way. The anecdote is a precise illustration of his broader point: the technology changes how relationships are maintained, but does not substitute for the relationships themselves."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "기술이 할 수 없는 것이 있습니다. 인간이 서로 신뢰하고 관계를 맺는 방식 — 저는 그것이 '결코 대체될 수 없는 것'이라고 생각합니다. 그리고 그것은 점점 더 가치 있는 초능력이 될 것입니다.",
+    "attribution": "David Solomon, CEO & Chairman, Goldman Sachs"
+  },
+  "notable_quote_en": {
+    "text": "Unless you're in the camp that humanity is not going to be about trust and relationships, I think this is like a never thing — and it's something that's going to get more and more valuable as a superpower.",
+    "attribution": "David Solomon, CEO & Chairman, Goldman Sachs"
+  },
+  "notable_quote": {
+    "source_text_en": "Unless you're in the camp that humanity is not going to be about trust and relationships, I think this is like a never thing — and it's something that's going to get more and more valuable as a superpower.",
+    "translation_ko": "기술이 할 수 없는 것이 있습니다. 인간이 서로 신뢰하고 관계를 맺는 방식 — 저는 그것이 '결코 대체될 수 없는 것'이라고 생각합니다. 그리고 그것은 점점 더 가치 있는 초능력이 될 것입니다.",
+    "speaker": "David Solomon",
+    "attribution": "David Solomon, CEO & Chairman, Goldman Sachs",
+    "is_verbatim": false,
+    "translation_is_verbatim": false,
+    "source_char_start": null,
+    "source_char_end": null,
+    "match_score": 0.7784
+  },
+  "keywords_ko": [
+    "AI 노동 대체",
+    "화이트칼라 생산성",
+    "주식자본시장(ECM)",
+    "관계 금융",
+    "AI 데이터 품질",
+    "대형 주식 공모"
+  ],
+  "keywords_en": [
+    "AI labor displacement",
+    "white-collar productivity",
+    "equity capital markets",
+    "relationship banking",
+    "AI data quality",
+    "mega-cap equity issuance"
+  ],
+  "generated_at": "2026-06-04T09:54:44.395533"
+}

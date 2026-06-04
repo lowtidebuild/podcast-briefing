@@ -1,0 +1,127 @@
+```json
+{
+  "topics": [
+    "US-Iran war and nuclear deal failure",
+    "Erosion of US global alliances and credibility",
+    "Geopolitical realignment and trade shifts away from the US",
+    "The Gracchi trap as analogy for American democratic decline",
+    "China's strategy of filling US-vacated global institutions"
+  ],
+  "claims": [
+    {
+      "claim": "Trump's war on Iran has failed both its humanitarian purpose and its nuclear objectives, falling short of even the narrow goal of a better deal than the JCPOA.",
+      "evidence": [
+        "Iranian military leaders appeared publicly at a memorial service for the first time since the war started, showing regime resilience",
+        "Iran is far from agreeing to end enrichment beyond civilian purposes with inspections",
+        "Administration claimed to have 'obliterated' nuclear capabilities, but Iran has not conceded on enrichment"
+      ],
+      "speakers": ["Ian Bremmer"]
+    },
+    {
+      "claim": "Allied mistrust of the US is not translating into alignment with China, because China's export dumping strategy is itself hollowing out European industries.",
+      "evidence": [
+        "China's strongest economic sector is export of manufactured goods globally, described as a dumping strategy",
+        "Japan is in a major dispute with China over Taiwan, with China cutting off tourism and seafood purchases",
+        "Japanese leaders privately called US treatment of Japan 'extortionate' yet remain closer to the US than China"
+      ],
+      "speakers": ["Ian Bremmer"]
+    },
+    {
+      "claim": "US allies are redirecting defense spending away from the American military-industrial complex and toward domestic production, causing long-term economic losses for the US.",
+      "evidence": [
+        "Poland, Germany, Canada, and frontline European countries are building out their own defense industries",
+        "India is moving military procurement away from Russia and toward European suppliers rather than the US",
+        "Legacy defense systems involve decades of parts, service, and training contracts that will now go elsewhere"
+      ],
+      "speakers": ["Ian Bremmer"]
+    },
+    {
+      "claim": "Trump's tariffs directly caused the EU-Mercosur trade agreement, which will divert trade flows from Latin America away from the United States.",
+      "evidence": [
+        "The EU-Mercosur agreement would not have happened without Trump's unilateral tariffs on allies",
+        "The deal reduces tariffs between EU and Latin American Mercosur countries, facilitating greater bilateral trade",
+        "Greater EU-Latin America trade flows mean reduced trade flows with the United States"
+      ],
+      "speakers": ["Ian Bremmer"]
+    },
+    {
+      "claim": "The relevant historical trap for understanding the US today is the Gracchi trap, not the Thucydides trap—internal political dysfunction eroding norms and alliance reliability, as in the fall of the Roman Republic.",
+      "evidence": [
+        "The Gracchi brothers' populist political revolution broke Roman norms and made Rome's allies see it as unreliable",
+        "Each norm violation made subsequent violations less surprising, weakening the system cumulatively",
+        "The US is withdrawing from alliances with Ukraine, Taiwan, Japan, South Korea, and free trade architecture"
+      ],
+      "speakers": ["Ian Bremmer"]
+    },
+    {
+      "claim": "China is not building alternative global architecture but is filling the vacuum left by US withdrawal from institutions like the UN and WHO.",
+      "evidence": [
+        "China declined Trump's invitation to a border peace event, saying if the US pulls out of the UN, China becomes the most influential country there",
+        "China increased WHO donations after the US withdrew, positioning itself as the key decision-maker",
+        "Trump's 'border peace' initiative attracted Paraguay and Azerbaijan but not China"
+      ],
+      "speakers": ["Ian Bremmer"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "The United States is the principal driver of geopolitical uncertainty in the world today. President Trump and the Americans are driving it.",
+      "speaker": "Ian Bremmer",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Those things are what is driving the geopolitical risk in the world today.",
+      "speaker": "Ian Bremmer",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "They're not creating alternative architecture. They're becoming the most important country influencing our architecture that we don't care about anymore.",
+      "speaker": "Ian Bremmer",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Trump deserves credit for EU Mercosur. It would not have happened without him, without the tariffs that he put on unilaterally towards all the American allies.",
+      "speaker": "Ian Bremmer",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The enemy was inside the house. It was the political dysfunction of Rome that was defeated the first time, defeated the second time, but ultimately led to the collapse of the Roman Republic.",
+      "speaker": "Ian Bremmer",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Their top leaders have told me that directly—extortionate—in how badly the Americans have mistreated their best friend, the Japanese.",
+      "speaker": "Ian Bremmer",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "There were the Tolkien kids that were way too dorky. They were the Ayn Rand kids who you don't trust to run anything. And then there were the Douglas Adams kids.",
+      "speaker": "Ian Bremmer",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {
+      "name": "Ian Bremmer",
+      "title": "Political Scientist and President, Eurasia Group"
+    }
+  ],
+  "keyword_candidates": [
+    "Gracchi trap",
+    "JCPOA",
+    "EU-Mercosur agreement",
+    "US-Iran war",
+    "NATO defense spending",
+    "WHO withdrawal",
+    "Thucydides trap",
+    "geopolitical realignment"
+  ]
+}
+```
