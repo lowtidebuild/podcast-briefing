@@ -1,0 +1,88 @@
+{
+  "id": "86b157ca-c2be-4fc4-9b64-7523250cfed3",
+  "slug": "2026-06-04-making-sense",
+  "podcast": "Making Sense",
+  "category": "Philosophy / AI Ethics",
+  "title": "#479 — When Robots Take Over",
+  "published": "2026-06-04T17:05:00+00:00",
+  "link": "https://wakingup.libsyn.com/479-when-robots-take-over",
+  "podcast_url": "https://www.samharris.org/podcasts",
+  "guest": {
+    "name": "Vinod Khosla",
+    "title": "Founder, Khosla Ventures"
+  },
+  "summary_ko": "AI가 인간의 인지 능력 전반을 대체할 수준에 도달한다면, 역사적 선례는 무의미해집니다. 산업혁명이나 정보화 혁명과 달리 이번에는 '새로운 일자리가 생겨날 것'이라는 낙관론이 통하지 않습니다. Vinod Khosla는 그 이유를 단 하나의 논리로 압축합니다. 과거의 모든 기술은 인간이 사용하는 도구였지만, AGI는 도구를 사용하는 주체인 인간 자체를 대체합니다.\n\nKhosla의 핵심 주장은 AI의 미래를 결정할 가장 큰 변수가 기술도 자본도 아닌 정치라는 것입니다. 그는 2035년까지 50% 수준의 실업 또는 불완전 고용이 발생할 가능성을 현실적인 시나리오로 제시하며, 이에 따른 정치적 반발이 AI 발전 자체를 가로막을 수 있다고 경고합니다. 그가 실존적 AI 리스크보다 중국이나 러시아의 AI 패권을 더 우려한다는 점은, 그가 AGI의 위험 확률 자체를 낮게 본다는 것을 방증합니다.\n\n그러나 Khosla는 비관론자가 아닙니다. 그는 붕괴 이후의 경제 구조로 '마이크로 기업가(micro-entrepreneur)' 모델을 제시합니다. AI가 모든 유틸리티 재화를 사실상 무상으로 제공하는 극단적 디플레이션 환경에서, 인간은 '인간이 만든 것'에 프리미엄을 부여합니다. 목수, 제빵사, 꽃 재배자처럼 인간적 출처(provenance)가 가치를 만드는 영역에서 미국에만 5,000만 명의 마이크로 기업가가 등장할 수 있다는 것입니다. AI 의사는 시간당 1달러, AI 로봇은 시간당 2달러 수준으로 수렴하며 기본 서비스가 사실상 무료화될 것이라는 전망도 덧붙입니다.\n\n이 논의에서 가장 날카로운 미해결 질문은 Sam Harris가 제기한 것입니다. 디플레이션 경제로의 전환 과정에서 Khosla 자신 같은 AI 투자자들에게 부가 극단적으로 집중되는 시기를 어떻게 관리할 것인가. Khosla는 답변 직전에 대화가 끊겼지만, 이 질문이야말로 AI 정책 논쟁의 핵심입니다.",
+  "summary_en": "The standard reassurance about AI and jobs — that technology always creates more work than it destroys — rests on a category error. Every prior labor-displacing technology, from the steam engine to software, was a tool that amplified human capability. Artificial general intelligence, if it arrives as Vinod Khosla expects within a decade, would replace the human doing the amplifying. That distinction demolishes the historical analogy and forces a genuinely different set of questions.\n\nKhosla's central argument is that politics, not technology, is the binding constraint on AI's trajectory. He estimates that an unconstrained, efficiency-maximizing rollout of AI would produce 50% unemployment or underemployment in the United States by 2035 — a social rupture that would trigger the kind of political backlash capable of halting the technology entirely. He is more alarmed by the prospect of authoritarian states winning an AI arms race than by existential alignment risk, which implies he assigns the latter a low probability — a position he concedes but does not rigorously defend.\n\nHis preferred landing scenario is an economy of micro-entrepreneurs: 50 million Americans monetizing craft skills — baking, woodworking, floriculture — because human provenance commands a premium that pure utility cannot. Simultaneously, AI compresses the cost of professional services (medicine, law, finance, education) toward the cost of compute tokens, perhaps as low as $1–2 per hour, effectively making them free. The deflationary pressure on utility goods, he argues, reduces the income required for a dignified life.\n\nThe episode's sharpest unresolved tension is the one Harris surfaces just as the transcript ends: how does society navigate the transitional period of extreme wealth concentration — accruing to investors like Khosla himself — before the deflationary dividend reaches ordinary people? That Khosla was about to answer \"let me get really, really precise\" and was cut off is the most consequential gap in an otherwise substantive exchange.",
+  "key_points_ko": [
+    {
+      "heading": "이번 AI는 다르다 — '도구'가 아니라 '도구 사용자'를 대체한다",
+      "body": "Khosla는 역사적 기술 낙관론의 전제를 정면으로 반박합니다. 증기기관은 인간의 근육을, 소프트웨어는 인간의 두뇌 일부를 증폭시켰지만, 두 경우 모두 인간이 도구를 사용하는 주체로 남았습니다. AGI는 그 주체 자체를 대체합니다. 따라서 '새 기술이 등장하면 새 일자리가 생긴다'는 역사적 패턴은 이 경우 적용되지 않습니다. 이 구분은 단순한 수사가 아니라 정책적으로도 중대한 함의를 가집니다. AI 시대의 노동 정책을 산업혁명의 틀로 설계하면 구조적으로 실패할 수밖에 없습니다."
+    },
+    {
+      "heading": "AI 최대 리스크는 오정렬(misalignment)이 아닌 정치적 봉쇄다",
+      "body": "Khosla는 2035년까지 미국 내 실업·불완전 고용률이 50%에 달할 수 있다고 봅니다. 이 수준의 충격은 AI에 대한 광범위한 정치적 반발을 불러올 것이며, 그 결과 AI 발전 자체가 규제로 가로막힐 수 있습니다. 그는 AI에 대한 대중의 두려움이 ISIS에 대한 두려움과 맞먹는 수준이라는 점을 지적하며, 이것이 기술 리스크보다 훨씬 현실적인 위협이라고 강조합니다. 그가 중국·러시아의 AI 패권을 존재론적 리스크보다 더 우려한다는 점도 같은 맥락입니다. 서방이 'AI 억제' 정책을 택하는 순간, 권위주의 국가들이 그 공백을 채웁니다."
+    },
+    {
+      "heading": "5,000만 마이크로 기업가 — 그러나 전환기의 부의 집중 문제는 미해결",
+      "body": "Khosla가 제시하는 가장 현실적인 2035년 시나리오는 기업 일자리가 급감하는 대신 인간적 출처(provenance)에 프리미엄이 붙는 마이크로 기업가 경제입니다. AI 의사·법률가·교사의 비용이 시간당 1~2달러 수준으로 수렴하면, 기본 서비스는 사실상 무료화되고 삶의 유지에 필요한 소득 자체가 줄어듭니다. 그러나 이 논리에는 결정적 공백이 있습니다. Harris가 지적했듯, Khosla 같은 AI 투자자들에게 부가 극단적으로 집중되는 전환기를 어떻게 관리할 것인가의 문제입니다. 디플레이션 배당이 일반 시민에게 도달하기 전, 수년간의 극단적 불평등 심화를 어떤 메커니즘으로 완충할지에 대한 답은 이 대화에서 끝내 나오지 않았습니다."
+    },
+    {
+      "heading": "현재의 저임금 노동은 '존엄'이 아니다 — 그러나 이 주장은 정치적으로 위험하다",
+      "body": "Khosla는 조립라인 노동자나 농장 노동자의 일자리를 '생존을 위한 예속(servitude to survival)'이라 규정하며, AI로 인한 일자리 소멸이 반드시 존엄의 상실을 의미하지 않는다고 주장합니다. 이 관점은 철학적으로 일부 타당하지만, 실리콘밸리 억만장자가 공장 노동자에게 '당신의 일은 존엄하지 않았다'고 말하는 구조적 위험을 내포합니다. 정치적 맥락에서 이 발언은 AI 산업에 대한 반감을 오히려 강화할 수 있으며, Khosla 자신이 가장 우려하는 '정치적 AI 봉쇄' 시나리오를 자초할 수 있습니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "AGI breaks the historical job-creation analogy at the definitional level",
+      "body": "Every prior technology that displaced labor — steam, electricity, software — left humans as the irreplaceable operator of the tool. AGI removes that human from the equation entirely. Khosla makes this distinction cleanly: past innovations amplified the human brain; AGI substitutes for it. This is not rhetorical pessimism but a structural argument with direct policy consequences. Labor transition programs modeled on the Industrial Revolution assume a destination category of 'new jobs' that may not exist when the technology can perform any cognitively demanding task."
+    },
+    {
+      "heading": "Politics will constrain AI before alignment risk does",
+      "body": "Khosla's hierarchy of AI risks is deliberately inverted from the conventional AI safety discourse. He assigns low probability to existential misalignment risk and high probability to political backlash triggered by mass unemployment. His 50%-by-2035 unemployment estimate is the mechanism: a disruption of that magnitude generates the kind of electoral pressure that produces blunt regulatory responses. He draws a symmetric warning — a Bernie Sanders or AOC presidency would be as damaging to AI development as a Trump presidency — signaling that the risk is bipartisan populism, not any single ideology."
+    },
+    {
+      "heading": "The micro-entrepreneur economy is plausible but requires a distributional bridge that Khosla never builds",
+      "body": "Khosla's most constructive scenario posits 50 million new American micro-entrepreneurs monetizing craft and skill, sustained by consumer preference for human provenance over AI-produced utility. The economic logic is coherent: if AI compresses the cost of medicine, legal advice, and education toward $1–2 per hour, the income required for a dignified life falls sharply. But the model has a timing problem. Harris identifies it precisely — the period between AI-driven wealth concentration among investors and the arrival of the deflationary dividend for ordinary workers could span years or decades. Khosla was about to address this directly when the transcript ends, which is the episode's most consequential omission."
+    },
+    {
+      "heading": "Calling low-wage work 'servitude' is philosophically coherent but politically combustible",
+      "body": "Khosla argues that assembly-line and agricultural jobs are not sources of genuine human dignity but forms of 'servitude to capitalism' — and that AI displacement therefore need not be mourned as a loss of meaningful work. The argument has philosophical merit rooted in autonomy theory. However, a billionaire venture capitalist characterizing working-class labor as undignified is precisely the kind of framing that accelerates the political backlash Khosla fears most. The internal contradiction — arguing that AI's disruption is manageable while deploying rhetoric that inflames its critics — is the episode's sharpest unresolved tension."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "우리가 AI를 가장 효율적으로 활용하고 싶다면, 대규모 일자리 소멸을 감수해야 합니다. 자본주의 논리에 따라 그냥 내버려 두면, 2035년까지 실업률이 50%에 달할 것입니다. 그 상황이 엄청난 정치적 반발 없이 일어날 수는 없습니다.",
+    "attribution": "Vinod Khosla, Founder, Khosla Ventures"
+  },
+  "notable_quote_en": {
+    "text": "for AI to be fully effective, we should have large-scale job displacement. If we let things happen, just happen to be most efficient in a capitalist sense, we'd probably get to 50% unemployment or underemployment by 2035 or so. That obviously cannot happen without a lot of political pushback. So the answer is we have",
+    "attribution": "Vinod Khosla, Founder, Khosla Ventures"
+  },
+  "notable_quote": {
+    "source_text_en": "for AI to be fully effective, we should have large-scale job displacement. If we let things happen, just happen to be most efficient in a capitalist sense, we'd probably get to 50% unemployment or underemployment by 2035 or so. That obviously cannot happen without a lot of political pushback. So the answer is we have",
+    "translation_ko": "우리가 AI를 가장 효율적으로 활용하고 싶다면, 대규모 일자리 소멸을 감수해야 합니다. 자본주의 논리에 따라 그냥 내버려 두면, 2035년까지 실업률이 50%에 달할 것입니다. 그 상황이 엄청난 정치적 반발 없이 일어날 수는 없습니다.",
+    "speaker": "Vinod Khosla",
+    "attribution": "Vinod Khosla, Founder, Khosla Ventures",
+    "is_verbatim": true,
+    "translation_is_verbatim": false,
+    "source_char_start": 2700,
+    "source_char_end": 3018,
+    "match_score": 0.9349
+  },
+  "keywords_ko": [
+    "노동 대체",
+    "마이크로 기업가",
+    "AI 정치 리스크",
+    "디플레이션 경제",
+    "AGI",
+    "부의 집중"
+  ],
+  "keywords_en": [
+    "labor displacement",
+    "micro-entrepreneurs",
+    "AI political risk",
+    "deflationary economy",
+    "AGI",
+    "wealth concentration"
+  ],
+  "generated_at": "2026-06-08T11:03:47.706957"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "01f3d2e3-dbb7-4c97-849f-858edbfce2c5",
+  "slug": "2026-06-08-a16z-podcast",
+  "podcast": "a16z Podcast",
+  "category": "VC / Business",
+  "title": "AI Eats the World? A Reality Check with Benedict Evans",
+  "published": "2026-06-08T10:00:00+00:00",
+  "link": "https://a16z.simplecast.com/episodes/ai-eats-the-world-a-reality-check-with-benedict-evans-GVzr9ZaX",
+  "podcast_url": "https://a16z.com/podcasts",
+  "guest": {
+    "name": "Benedict Evans",
+    "title": "Independent Analyst & Newsletter Author (Former Partner, a16z)"
+  },
+  "summary_ko": "AI 인프라에 수천억 달러가 쏟아지고 있지만, 누가 그 가치를 실제로 가져갈 것인가라는 질문에는 여전히 답이 없습니다. Benedict Evans는 이 질문이 기술적 문제가 아니라 경제 구조의 문제라고 진단합니다. 지금 투자자와 기업이 내리는 판단의 상당수는 잘못된 전제 위에 서 있을 수 있습니다.\n\nEvans의 핵심 주장은 foundation model 기업들이 통신사나 클라우드 인프라 업체와 같은 길을 걸을 가능성이 높다는 것입니다. 즉, 엄청난 CapEx를 쏟아붓고 사용량은 폭발적으로 늘어나지만, 정작 가치는 스택 위쪽의 애플리케이션 레이어로 올라간다는 구조입니다. 그는 모바일 데이터 트래픽이 15년간 1,500~2,000배 증가하는 동안 통신사 주가가 제자리였다는 사실을 근거로 제시합니다. Google, Amazon, Microsoft, Apple의 순이익이 전 세계 통신사 전체를 합친 것보다 많다는 점은 이 구조를 단적으로 보여줍니다. Foundation model에는 네트워크 효과도 없고, OS처럼 스택을 장악할 레버리지도 불분명하며, 효율성 개선으로 인해 토큰 가격은 계속 하락 압력을 받을 것입니다.\n\n현재 명확한 product-market fit이 존재하는 영역은 소프트웨어 개발 하나뿐입니다. OpenAI의 연간 반복 수익이 연말 90억 달러에서 현재 470억 달러로 급증한 것은 사실상 전부 코딩 관련 수요입니다. 그러나 Evans는 이를 1980년대 초 PC 시대에 컴퓨터로 컴퓨터를 만들던 것과 동일한 패턴으로 봅니다. 첫 번째 유스케이스가 기술 자체를 만드는 사람들에게 집중되는 것은 역사적으로 항상 반복된 현상입니다. 법률, 금융, 컨설팅 등 전문 서비스 분야로의 확산은 기술 문제가 아니라 산업별 조직 구조와 인센티브 구조를 이해하는 사람이 누구냐의 문제입니다.\n\n투자자와 기업 전략가에게 이 분석이 의미하는 바는 명확합니다. 현재의 토큰 가격과 CapEx 성장률은 일시적 불균형 상태이며, 균형점에서의 모델 기업 수익성은 지금과 판이하게 다를 수 있습니다. Microsoft, Meta, Google이 매출의 50% 이상을 CapEx에 쏟아붓고 있다는 사실 자체가 이 불균형의 심각성을 보여줍니다. 가치를 포착할 레이어는 모델이 아니라 특정 산업의 워크플로우를 깊이 이해하고 재설계하는 애플리케이션 기업일 가능성이 높습니다.",
+  "summary_en": "Hundreds of billions of dollars are flowing into AI infrastructure, yet the central question — who actually captures the value — remains unanswered. Benedict Evans argues this is not a technology question but a structural economics question, and that most current market assumptions may be built on a faulty premise.\n\nEvans's core thesis is that foundation model companies are on a trajectory closer to mobile network operators than to Apple or Google. Enormous capex, explosive usage growth, flat returns — while value migrates up the stack to applications. He cites the mobile data analogy directly: traffic rose 1,500–2,000x over 15 years, yet telecom stocks went nowhere, and the combined net income of Google, Amazon, Microsoft, and Apple almost certainly exceeds that of the entire global telecoms industry. Foundation models lack network effects, lack the stack-control leverage of an OS, and face relentless efficiency-driven price compression from competing suppliers.\n\nThe only domain with unambiguous product-market fit today is software development. OpenAI's annualised revenue run-rate apparently surged from roughly $9bn at end-2024 to $47bn — almost entirely on the back of coding demand. Evans frames this as historically predictable: the first use case for any new compute platform is building more compute. The harder question — when and how AI achieves equivalent traction in law, finance, consulting, or advertising — is not a technology problem but an organisational one. The people who understand what a McKinsey associate actually does all day are not the same people building the tools, and that gap takes years to close.\n\nFor investors and strategists, the implication is uncomfortable: current token pricing and capex trajectories represent extreme disequilibrium, not a new normal. The equilibrium price for commoditised inference — with three to six frontier model providers, open-source competition, and on-device compute expanding — will look nothing like today's. The layer most likely to capture durable value is vertical application software built by people who understand specific industry workflows, not the infrastructure layer currently absorbing most of the capital.",
+  "key_points_ko": [
+    {
+      "heading": "Foundation model 기업은 통신사의 전철을 밟을 가능성이 높다",
+      "body": "Evans는 foundation model 기업들이 iOS나 Windows처럼 스택을 장악하는 레이어가 되기보다 통신사처럼 대규모 인프라를 깔고도 수익을 다른 곳에 빼앗기는 구조가 될 가능성이 높다고 봅니다. 핵심 근거는 세 가지입니다. 첫째, 모델 간 지속 가능한 차별화 요소가 불분명합니다. 둘째, 네트워크 효과가 없습니다. 셋째, 기업 고객은 어떤 모델 위에서 SaaS가 돌아가는지 신경 쓰지 않으며, 이는 과거 어떤 클라우드 위에서 소프트웨어가 돌아가는지 몰랐던 것과 동일합니다. 모바일 데이터 트래픽이 15년간 2,000배 성장하는 동안 통신사 주가가 제자리였다는 사실은 이 구조의 선례입니다. Google, Amazon, Microsoft, Apple의 순이익이 전 세계 통신사 합계를 압도한다는 현실이 이를 뒷받침합니다."
+    },
+    {
+      "heading": "현재의 AI CapEx 급증은 구조적 성장이 아닌 일시적 불균형이다",
+      "body": "Microsoft, Meta, Google은 올해 각각 매출의 50% 이상을 CapEx에 투입할 전망이며, 4대 기업의 합산 가이던스는 7,000억 달러입니다. 비교를 위해 Evans가 제시한 수치는 이렇습니다. 전 세계 통신 인프라 CapEx는 약 3,000억 달러, 석유·가스 업계는 7,000억~1조 달러 수준입니다. 즉 지금의 AI 투자 규모는 전례 없는 것이 아니라 대형 글로벌 인프라 사이클의 범주 안에 있습니다. 문제는 모델 효율이 매년 100~200배씩 개선되고, 오픈소스와 엣지 컴퓨팅이 확산되면서 토큰 가격이 급락할 경우, 지금의 CapEx 성장률은 지속 불가능합니다. Evans의 표현을 빌리면, '10조 달러를 AI 인프라에 쏟아부을 돈이 세상에 없기 때문에' 어느 시점에서 물리적 한계가 작동합니다."
+    },
+    {
+      "heading": "AI의 유일한 검증된 시장은 코딩이며, 다른 분야로의 확산은 기술이 아닌 조직 문제다",
+      "body": "현재 명확한 product-market fit이 존재하는 영역은 소프트웨어 개발뿐입니다. OpenAI의 연간 반복 수익이 연말 90억 달러에서 470억 달러로 급증한 것은 대부분 코딩 수요에서 비롯됩니다. Evans는 이를 역사적 패턴으로 설명합니다. PC 시대에 PC로 처음 만든 것이 컴퓨터였듯, 새 컴퓨팅 플랫폼의 첫 유스케이스는 항상 그 플랫폼 자체를 만드는 사람들이 사용하는 것이었습니다. 법률·금융·컨설팅 분야에서의 확산이 더딘 이유는 모델 성능 문제가 아닙니다. McKinsey 어소시에이트가 실제로 무엇을 하는지, 클라이언트가 실제로 무엇에 돈을 내는지를 아는 사람이 도구를 만들지 않기 때문입니다. 이 갭을 메우는 데는 기술 개선이 아니라 산업 지식이 필요하며, 그것은 수년이 걸립니다."
+    },
+    {
+      "heading": "AI가 창출하는 생산성 이득은 대부분 경쟁 압력에 의해 소멸된다",
+      "body": "Evans는 Jevons의 역설을 활용해 AI 도입의 경제적 귀결을 설명합니다. 어떤 작업이 저렴해지면, 기업들은 같은 비용으로 더 많은 작업을 수행하게 되고 결과적으로 경쟁 우위가 사라집니다. 그의 구체적 예시는 이렇습니다. McKinsey나 Bain이 AI로 분석 시간을 1주일에서 하루로 줄이면, 5배 많은 분석을 하고 고객에게 같은 요금을 청구하며 비용 기반도 변하지 않습니다. 투자은행에서 재무 분석이 자동화됐을 때도 같은 일이 벌어졌습니다. Deloitte와 Fed의 설문 조사에서 CFO들이 AI 도입 효과로 꼽은 것들, 즉 더 나은 분석, 더 빠른 슬라이드 제작, 생산성 향상은 모두 재무적 수치로 환산하기 어려운 항목들입니다. AI가 competitive necessity가 되는 순간, 그 생산성 이득은 수익이 아니라 비용이 됩니다."
+    },
+    {
+      "heading": "가치를 포착하는 레이어는 산업별 워크플로우를 재설계하는 애플리케이션이다",
+      "body": "Evans는 Netflix 사례를 통해 핵심 논점을 전달합니다. Netflix를 가능하게 한 기술은 Silicon Valley가 만들었지만, Netflix에 관한 모든 중요한 질문(어떤 콘텐츠를 만들지, 스포츠를 사야 하는지, 탤런트에 얼마를 쓸지)은 Los Angeles 질문, 즉 미디어 산업의 질문이었습니다. AI도 동일한 구조입니다. 광고와 이커머스(광고 시장 1조 달러, 리테일 시장 25조 달러)에서의 가치 창출은 AI가 상품의 의미와 구매 맥락을 이해할 수 있게 되면서 가능해지지만, 그 가치를 포착하는 것은 모델 기업이 아닙니다. 스택의 어느 위치에 LLM을 두느냐(Salesforce 안의 기능으로 넣느냐, 위에서 모든 시스템을 통합하는 레이어로 두느냐)는 여전히 열린 질문이지만, 산업 지식 없이는 그 답을 찾을 수 없습니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Foundation models are more likely to be the next telecom than the next iOS",
+      "body": "Evans's structural argument rests on three absences: no sustainable differentiation between models, no network effects, and no stack-control leverage analogous to an operating system. Enterprise customers do not choose software based on which underlying model it uses — exactly as they never knew or cared which cloud their SaaS ran on. The mobile data precedent is damning: traffic grew 1,500–2,000x over 15 years, yet operator stocks went nowhere. The combined profits of Google, Amazon, Microsoft, and Apple almost certainly dwarf those of the entire global telecoms industry — built entirely on top of infrastructure the telcos funded. The same dynamic, Evans argues, is the base case for foundation models."
+    },
+    {
+      "heading": "The current capex surge is a disequilibrium, not a new normal",
+      "body": "Microsoft, Meta, and Google are each on track to spend over 50% of revenue on capex this year, with the four largest hyperscalers guiding to $700bn combined. Evans contextualises this: global telecom capex runs around $300bn annually; oil and gas $700bn–$1trn. The scale is not unprecedented for global infrastructure cycles, but the sustainability is questionable. Model efficiency is improving roughly 100–200x per year, open-source is expanding, and on-device compute is growing. Evans's blunt constraint: there simply is not $10 trillion per year available to spend on AI infrastructure. The current pricing system — where demand vastly exceeds supply — will revert toward marginal cost, and the equilibrium price for commoditised inference will look nothing like today's."
+    },
+    {
+      "heading": "Coding is the only validated market; expansion elsewhere is an organisational problem, not a technology one",
+      "body": "OpenAI's annualised revenue run-rate apparently jumped from roughly $9bn at end-2024 to $47bn — almost entirely on coding demand. Evans frames this as a historically predictable pattern: the first use case for any new compute platform is always building more of that platform, just as the first thing people did with PCs was make computers. The barrier to AI adoption in law, finance, and consulting is not model capability — it is that the people who understand what a McKinsey associate actually does all day are not the people building the tools, and the people building the tools do not know what the client is actually paying for. That gap closes through industry knowledge accumulated over years, not through better prompting."
+    },
+    {
+      "heading": "AI productivity gains will largely be competed away, not captured as profit",
+      "body": "Evans invokes the Jevons paradox to explain why AI's productivity benefits will not translate straightforwardly into higher margins. If McKinsey can do analysis in one day instead of one week, it will do five times more analysis and charge the client the same fee — identical to what happened when financial modelling was automated in investment banks. Deloitte and Fed survey data cited in Evans's presentation show that CFOs report AI benefits primarily in hard-to-measure categories: better analytics, faster slide production, improved customer support. These become competitive necessities, not revenue generators. AI capability gets priced into competition, not into earnings."
+    },
+    {
+      "heading": "Durable value accrues to application layers built by people with deep industry knowledge",
+      "body": "Evans uses the Netflix analogy to make the point precisely: Silicon Valley built all the technology that makes Netflix possible, but every question that actually matters for Netflix — what shows, how many, what to pay for talent, whether to buy sports rights — is a Los Angeles question. AI's most significant economic opportunities (advertising at $1trn, retail at $25trn) are unlocked by models that can understand what products mean and why people buy them, but the value will be captured by application companies with genuine industry expertise. The specific question of where to position the LLM in the stack — as a feature inside Salesforce, or as a synthesis layer above all enterprise systems — remains open, but the answer requires domain knowledge that AI labs do not possess."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "칩 기업들은 가치를 포착하지 못했습니다. ISP들도 못 했고, 모바일 통신사들도 못 했습니다. Windows와 iOS는 했지만, 그것은 스택 위로 올라가는 다른 레버를 갖고 있었기 때문입니다. 그리고 물론 네트워크 효과도 있었는데, 모델에는 그게 없습니다.",
+    "attribution": "Benedict Evans, Independent Analyst & Newsletter Author (Former Partner, a16z)"
+  },
+  "notable_quote_en": {
+    "text": "chip companies didn't capture the value. ISPs didn't capture the value. Mobile network operators didn't capture the value. Windows and iOS did, but they were doing something else. They had all these levers to go up the stack. And, of course, they have network effects, which models don't have",
+    "attribution": "Benedict Evans, Independent Analyst & Newsletter Author (Former Partner, a16z)"
+  },
+  "notable_quote": {
+    "source_text_en": "chip companies didn't capture the value. ISPs didn't capture the value. Mobile network operators didn't capture the value. Windows and iOS did, but they were doing something else. They had all these levers to go up the stack. And, of course, they have network effects, which models don't have",
+    "translation_ko": "칩 기업들은 가치를 포착하지 못했습니다. ISP들도 못 했고, 모바일 통신사들도 못 했습니다. Windows와 iOS는 했지만, 그것은 스택 위로 올라가는 다른 레버를 갖고 있었기 때문입니다. 그리고 물론 네트워크 효과도 있었는데, 모델에는 그게 없습니다.",
+    "speaker": "Benedict Evans",
+    "attribution": "Benedict Evans, Independent Analyst & Newsletter Author (Former Partner, a16z)",
+    "is_verbatim": true,
+    "translation_is_verbatim": false,
+    "source_char_start": 15826,
+    "source_char_end": 16118,
+    "match_score": 1.0
+  },
+  "keywords_ko": [
+    "foundation model 상품화",
+    "AI CapEx 불균형",
+    "AI 스택 가치 포착",
+    "agentic coding product-market fit",
+    "AI와 Jevons paradox",
+    "LLM과 통신사 유사성"
+  ],
+  "keywords_en": [
+    "foundation model commoditisation",
+    "AI capex disequilibrium",
+    "value capture in AI stack",
+    "agentic coding product-market fit",
+    "Jevons paradox in AI",
+    "telco analogy for LLMs"
+  ],
+  "generated_at": "2026-06-08T10:45:22.495167"
+}

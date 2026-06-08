@@ -1,0 +1,93 @@
+{
+  "id": "e38ca112-bd9d-4ad1-88b5-3a20a4d20288",
+  "slug": "2026-06-04-exponential-view",
+  "podcast": "Exponential View",
+  "category": "AI / Tech",
+  "title": "Why AI isn’t showing up on your bottom line",
+  "published": "2026-06-04T16:40:35+00:00",
+  "link": "https://www.exponentialview.co",
+  "podcast_url": "https://www.exponentialview.co",
+  "guest": null,
+  "summary_ko": "기업들이 AI 투자 대비 수익(ROI)을 체감하지 못하는 이유는 기술이 미흡해서가 아닙니다. 문제는 기업 자체를 근본적으로 재구상하는 역량이 없기 때문입니다. 이 에피소드는 그 단절이 왜 발생하며, 어떤 기업이 결국 승자가 될지를 역사적 유추를 통해 분석합니다.\n\n핵심 주장은 AI가 전기나 증기기관처럼 '범용 기술(general purpose technology)'이라는 전제에서 출발합니다. 범용 기술은 도입 초기에 생산성이 즉각 나타나지 않습니다. 1890년대 공장들이 전기를 단순히 조명 연장에만 썼듯, 오늘날 기업들은 Microsoft Copilot 라이선스를 배포하는 '전구 단계'에 머물러 있습니다. 진정한 생산성 도약은 Henry Ford가 Highland Park 공장에서 한 것처럼—공급망, 구매자 관계, 조직 원리 전체를 재설계했을 때—비로소 나타납니다. AI 도입도 이와 동일한 구조적 전환을 요구하지만, 대부분의 기업은 아직 그 단계에 도달하지 못했습니다.\n\n화자는 기업의 AI 성숙도를 세 단계로 구분합니다. 1단계는 코파일럿과 워크플로 자동화, 2단계는 부서 간 워크플로 통합, 3단계는 자율적 의사결정 루프 구축입니다. 3단계에 도달한 기업만이 지속 가능한 경쟁 우위를 확보합니다. 1·2단계 효율화는 경쟁사가 2분기 안에 따라잡기 때문입니다. 또한 조직 내 '병목 현상(congestion)'도 지적합니다. 예컨대 AI로 주가 목표치를 실시간 업데이트할 수 있는 애널리스트라도, 컴플라이언스와 출판 프로세스가 그 속도를 따라가지 못하면 아무 소용이 없습니다.\n\n이 분석이 투자자와 경영진에게 갖는 함의는 명확합니다. AI 기업들이 'Forward Deployed Engineer'팀을 급격히 확충하는 것은 이 전환이 얼마나 어려운지를 방증합니다. OpenAI가 사모펀드와 조인트벤처를 구성해 배포 역량을 확보하려는 것도 같은 맥락입니다. 화자는 3단계 전환이 2023년 기준으로 6~7년, 즉 2029~2030년경에야 의미 있는 수준에 도달할 것으로 전망합니다. 그 이전까지는 AI 서비스 수요가 폭발적으로 성장하더라도, 그것이 경제 전체의 생산성 지표(TFP)에 반영되기까지는 상당한 시간이 걸릴 것입니다.",
+  "summary_en": "Corporate AI adoption is not stalling because the technology is unreliable. It is stalling because most organisations have no framework for the wholesale reconceptualisation that a general-purpose technology demands. That distinction matters enormously for anyone allocating capital or setting strategy in 2026.\n\nThe host's central argument rests on an analogy to electrification. Factories in the 1890s used electricity to extend working hours with more light bulbs — precisely as firms today deploy Microsoft Copilot licences. The productivity leap came only when Henry Ford redesigned every layer of his Highland Park plant: supplier relationships, inventory logic, production flow. Rolling out ten Copilot licences per employee instead of one is no different from adding ten more light bulbs. The barrier is not the technology; it is the cognitive and organisational work of reimagining what the firm actually does.\n\nThe host proposes a three-stage maturity model. Stage one covers co-pilots and workflow automation; stage two integrates those workflows across departments; stage three builds autonomous decision-making loops that continuously sense and adapt to external signals. Only stage three produces a durable moat — stages one and two are competed away within two earnings quarters. An equity analyst who can update price targets in real time still hits a wall at compliance and publishing: one accelerated node creates congestion everywhere downstream. That bottleneck problem is structural, not technical.\n\nFor markets, the implication is a prolonged J-curve. The host — who acknowledges his own 2026 revenue forecasts for AI companies came in well below reality — still places meaningful stage-three adoption at six to seven years from 2023, roughly 2029-30. AI services revenue will compound furiously in the interim, but aggregate productivity statistics will lag. Private equity, often cited as a natural vector for forced transformation, faces a structural constraint: its investment theses were written in a pre-GPT world, and deviating from the plan to pursue stage-three reconceptualisation is precisely the kind of variance PE firms are built to avoid.",
+  "key_points_ko": [
+    {
+      "heading": "AI ROI 부재의 원인은 기술 품질이 아니라 조직 재구상 능력의 부재",
+      "body": "많은 경영진이 AI가 환각(hallucination)을 일으키거나 동일 작업에 다른 결과를 내놓기 때문에 ROI가 낮다고 주장합니다. 그러나 화자는 이를 '잘못된 진단'이라고 반박합니다. 사고 실험(gedanken experiment)으로, 완벽하게 신뢰할 수 있는 AI가 있어도 기업이 Phase 1에서 Phase 3으로 전환하는 어려움은 그대로 남습니다. Henry Ford가 쓴 전기는 오늘날 중국 공장의 전기보다 훨씬 불안정했지만, 그것이 산업혁명을 막지는 않았습니다. 현장 경영진과 정기적으로 대화하는 화자에 따르면, 실제 문제는 기술 신뢰성이 아니라 '흡수(absorption)' — 즉 조직이 기술을 수용하도록 스스로를 바꾸는 능력 — 의 부재입니다."
+    },
+    {
+      "heading": "1·2단계 AI 효율화는 경쟁 우위가 아니라 비용만 늘린다",
+      "body": "AI로 영업 인력 생산성을 높인 CEO가 분기 실적 발표에서 이를 자랑하면, 경쟁사는 두 분기 안에 동일한 효율화를 달성합니다. 그 결과 기업은 차별화된 우위 없이 이전에 없던 AI 비용만 떠안게 됩니다. 지속 가능한 경쟁 우위는 3단계, 즉 외부 신호(소비자 행동 변화, 공급망 병목, 가격 변동)에 자율적으로 적응하는 의사결정 루프를 구축한 기업에서만 나타납니다. 이 루프의 핵심은 속도(speed) 자체가 아니라 그 속도의 가속(acceleration) — 루프를 점점 더 빠르게 순환하는 능력 — 입니다. William Devine이 20세기 초 미국 전기화를 분석하며 명명한 '유닛 드라이브(unit drive)' 전환이 바로 이 단계에 해당합니다."
+    },
+    {
+      "heading": "병목 현상: AI가 조직 한 부분을 가속하면 나머지가 막힌다",
+      "body": "AI가 조직의 한 노드를 가속하면 다운스트림이 즉시 병목이 됩니다. 화자가 드는 예시는 설득력 있습니다. 은행 애널리스트가 AI 에이전트 네트워크로 가격 목표치를 실시간 업데이트할 수 있어도, 컴플라이언스·출판·고객(연기금 등)이 그 빈도를 소화하지 못하면 아무 가치가 없습니다. 이는 Level 2 자율주행에서 Level 4로의 전환과 유사합니다 — 단순한 점진적 개선이 아니라 시스템 전체를 재설계해야 하는 '위상 변화(phase change)'입니다. 이 병목 문제가 해결되지 않는 한, 개별 부서의 AI 도입은 조직 전체 생산성으로 이어지지 않습니다."
+    },
+    {
+      "heading": "사모펀드(PE)는 AI 전환의 자연스러운 벡터처럼 보이지만 구조적 제약이 있다",
+      "body": "사모펀드는 기업을 이미 소유하고 있고 경영진도 교체했으며 변화에 덜 저항적이므로, AI 전환의 이상적인 실험장처럼 보입니다. 그러나 화자는 회의적입니다. PE의 투자 논리는 사전에 수립된 극도로 정밀한 가설 위에 세워지며, 3~5억 달러 규모 중견기업 포트폴리오의 운영 계획은 모두 ChatGPT 이전 세계를 전제로 합니다. Phase 3 전환을 추구하는 것은 투자위원회에 제출한 계획에서의 일탈이며, 이는 PE가 구조적으로 회피하도록 설계된 바로 그 종류의 분산(variance)입니다. OpenAI가 사모펀드와 조인트벤처를 구성해 'Forward Deployed Engineer' 풀을 만드는 것은 이 전환이 얼마나 어렵고 전문화된 작업인지를 방증합니다."
+    },
+    {
+      "heading": "의미 있는 생산성 도약은 2029~2030년 이전에 경제 지표에 나타나지 않을 것",
+      "body": "화자는 상당수 기업이 3단계에 도달하는 시점을 2023년 기준 6~7년, 즉 2029~2030년으로 전망합니다. 이는 Eric Brynjolfsson의 'J커브'와 Paul David의 전기화 연구가 보여준 패턴과 일치합니다. 그 이전까지 AI 서비스 매출은 폭발적으로 성장합니다 — 화자 자신도 2026년 수요 예측이 실제보다 크게 낮았음을 인정합니다. 그러나 이 수요 급증이 총요소생산성(TFP)이나 GDP 통계에 반영되기까지는 상당한 지연이 있을 것입니다. 투자자는 AI 기업의 매출 성장과 경제 전반의 생산성 향상을 구분해서 바라봐야 합니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "The technology is not the bottleneck — organisational reconceptualisation is",
+      "body": "The widespread claim that AI underdelivers because it hallucinates or produces inconsistent outputs fails a basic thought experiment: even a perfectly reliable AI would leave the Phase 1-to-3 transition just as difficult. Henry Ford's electricity supply in 1908-09 was far less stable than what Chinese factories receive today, and it still enabled a manufacturing revolution. The host, who speaks with dozens of executives every quarter, reports that the dominant complaint is absorption — the inability to rewire the organisation around the technology — not reliability. Diagnosing the wrong problem leads to the wrong solution: waiting for a better model rather than redesigning the firm."
+    },
+    {
+      "heading": "Stages one and two AI gains are competed away within two earnings cycles",
+      "body": "When a CEO announces on a quarterly call that AI has boosted sales-force productivity, competitors replicate the same workflow improvements within two quarters. The firm is left with an AI bill it did not have before and no durable advantage. Permanent competitive moats emerge only at stage three, where autonomous decision-making loops continuously sense and adapt to external signals — pricing shifts, supply bottlenecks, consumer behaviour changes. The key variable is not the speed of the loop but its acceleration: firms that cycle through decisions progressively faster compound an advantage that cannot be cheaply imitated. William Devine's 'unit drive' taxonomy from early-20th-century electrification is the historical analogue."
+    },
+    {
+      "heading": "Accelerating one node creates congestion everywhere downstream",
+      "body": "An equity analyst whose AI agent network updates price targets in real time still hits an immovable wall at compliance, publishing workflows, and buy-side clients who cannot process minute-by-minute revisions. This is not a marginal inefficiency; it is a structural phase-change problem analogous to the difference between Level 2 and Level 4 autonomous driving — human intervention either is or is not required, and the system architecture is entirely different in each case. Firms that deploy AI without redesigning the surrounding processes will find that faster outputs in one department simply pile up as inventory in the next, generating cost without value."
+    },
+    {
+      "heading": "Private equity looks like the natural forcing function for AI transformation but is structurally constrained",
+      "body": "PE firms own the asset, have already installed management, and face less internal resistance to change — conditions that appear ideal for forcing stage-three transformation. The host is sceptical. Every mid-market PE portfolio company (typically $300-500m in enterprise value) was underwritten against pre-GPT assumptions, and the operating plan presented to the investment committee is not designed to accommodate the variance that a wholesale reconceptualisation would introduce. PE's edge historically has come from threading the needle eight times out of eight, not from swinging for transformational outcomes. OpenAI's joint venture with private equity firms to build a pool of Forward Deployed Engineers is itself evidence of how specialised and difficult this deployment challenge is."
+    },
+    {
+      "heading": "AI revenue will compound furiously before 2030; productivity statistics will not",
+      "body": "The host places meaningful stage-three adoption at six to seven years from 2023 — approximately 2029-30 — consistent with the J-curve dynamics Eric Brynjolfsson describes and Paul David documented for electrification. In the interim, AI services demand will be staggering: the host acknowledges his own 2026 revenue forecasts were significantly too conservative. But investors should not conflate AI sector revenue growth with economy-wide TFP gains. The two metrics will diverge materially for the better part of this decade, and policy-makers or analysts expecting AI to show up in aggregate productivity statistics before 2028-29 are likely to be disappointed."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "Microsoft Copilot 라이선스를 더 많이 배포하는 것으로는 범용 기술의 진정한 혜택을 볼 수 없습니다 — 한 사람당 10개의 라이선스를 쓴다고 해서 Henry Ford가 될 수 없는 것처럼, 한 사람당 전구를 10개 더 단다고 Henry Ford가 되지 않는 것과 같습니다.",
+    "attribution": "Host, Exponential View"
+  },
+  "notable_quote_en": {
+    "text": "Rolling out more Microsoft Copilot licenses — instead of one license per person it's gonna be ten licenses per person — you're not going to really see the benefits of the general purpose technology, in the same way that you didn't get to Henry Ford with ten more light bulbs per person.",
+    "attribution": "Host, Exponential View"
+  },
+  "notable_quote": {
+    "source_text_en": "Rolling out more Microsoft Copilot licenses — instead of one license per person it's gonna be ten licenses per person — you're not going to really see the benefits of the general purpose technology, in the same way that you didn't get to Henry Ford with ten more light bulbs per person.",
+    "translation_ko": "Microsoft Copilot 라이선스를 더 많이 배포하는 것으로는 범용 기술의 진정한 혜택을 볼 수 없습니다 — 한 사람당 10개의 라이선스를 쓴다고 해서 Henry Ford가 될 수 없는 것처럼, 한 사람당 전구를 10개 더 단다고 Henry Ford가 되지 않는 것과 같습니다.",
+    "speaker": "Host",
+    "attribution": "Host, Exponential View",
+    "is_verbatim": false,
+    "translation_is_verbatim": false,
+    "source_char_start": null,
+    "source_char_end": null,
+    "match_score": 0.2466
+  },
+  "keywords_ko": [
+    "범용 기술 J커브",
+    "조직 흡수(absorption)",
+    "유닛 드라이브 전환",
+    "자율적 의사결정 루프",
+    "Forward Deployed Engineer",
+    "총요소생산성(TFP) 지연"
+  ],
+  "keywords_en": [
+    "general-purpose technology J-curve",
+    "organisational absorption",
+    "unit drive vs group drive",
+    "autonomous decision loop",
+    "forward deployed engineers",
+    "TFP productivity lag"
+  ],
+  "generated_at": "2026-06-08T11:01:46.349800"
+}

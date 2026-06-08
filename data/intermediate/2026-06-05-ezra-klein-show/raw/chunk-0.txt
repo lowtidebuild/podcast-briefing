@@ -1,0 +1,163 @@
+```json
+{
+  "topics": [
+    "Masculinism as a unifying ideology on the MAGA right",
+    "Testosterone decline and hormonal theories of politics",
+    "New right nostalgia and historical revisionism",
+    "Feminist critique of tradwife and patriarchal ideals",
+    "Bronze Age Pervert and pagan vs. Christian right split"
+  ],
+  "claims": [
+    {
+      "claim": "Masculinism functions as a unifying ideology for the MAGA coalition precisely because it bridges internal splits over Iran, Israel, and trade policy.",
+      "evidence": [
+        "Helen Lewis notes visible MAGA splits over 'the war in Iran, American support for Israel as a military ally, protectionism versus free trade'",
+        "She argues that 'do you think feminism has gone too far?' is something 'basically everybody can agree with' in the coalition",
+        "Traditional gender roles and opposition to equality serve as the one consistent thread"
+      ],
+      "speakers": ["Helen Lewis"]
+    },
+    {
+      "claim": "Bronze Age Mindset became a de facto ideological text inside the early Trump administration, circulated samizdat-style among young staffers.",
+      "evidence": [
+        "Reports that 'most young staff in the Trump administration had read it'",
+        "It 'got written up in the Claremont Review of Books'",
+        "Described as 'a piece of code passed back and forth, samizdat'"
+      ],
+      "speakers": ["Ezra Klein"]
+    },
+    {
+      "claim": "Scott Yenor's 'family wage' proposal advocates restoring legal discrimination in hiring by preferentially employing and promoting married men.",
+      "evidence": [
+        "Yenor proposes 'it's OK to preferentially hire men, married men'",
+        "It's OK to 'promote them more, to pay them higher salaries'",
+        "The goal is to restore a system where women's income is 'pin money,' secondary to men's breadwinning"
+      ],
+      "speakers": ["Helen Lewis"]
+    },
+    {
+      "claim": "The new right cannot agree on which historical era to restore, with targets ranging from 1950s suburbia to pre-19th Amendment America to Bronze Age paganism.",
+      "evidence": [
+        "Doug Wilson wants a return resembling 'Salem circa 1650'",
+        "Trump-adjacent nostalgia centers on the 1950s single-breadwinner family",
+        "Bronze Age Pervert invokes 'the ancient Hittite Empire or the ancient Mitanni Empire'"
+      ],
+      "speakers": ["Ezra Klein", "Helen Lewis"]
+    },
+    {
+      "claim": "The masculinist critique of liberal democracy rests on equating liberalism with femininity—empathy, safety-seeking, and protection of the weak—which it treats as civilizational decay.",
+      "evidence": [
+        "High testosterone is framed as correlating with risk-taking, tolerance of inequality, and dominance",
+        "Liberal democracy is described as 'inherently feminine because it's more concerned with making sure that the weak don't suffer too much'",
+        "Bronze Age Pervert argues modernity 'privileges safety and near life... at the expense of things that are exciting and great and free'"
+      ],
+      "speakers": ["Helen Lewis", "Ezra Klein"]
+    },
+    {
+      "claim": "The masculinist intellectual movement is largely composed of credentialed academics and elite-educated figures, undermining its anti-elite posture.",
+      "evidence": [
+        "Bronze Age Pervert attended Yale and taught at Emory",
+        "Charles Cornish Dale (Raw Egg Nationalist) 'has a PhD'",
+        "Lomès was an academic; the essay on the Longhouse is a key movement text"
+      ],
+      "speakers": ["Ezra Klein", "Helen Lewis"]
+    },
+    {
+      "claim": "The Longhouse concept, central to new right masculinist discourse, has no specific historical referent and is explicitly designed to resist concrete definition.",
+      "evidence": [
+        "Lomès states 'there's no specific historical reference'",
+        "He says 'one can't really define the Longhouse, lest it should lose its force to lampoon the vast constellation of social forces it imagines'",
+        "Lewis characterizes it as 'more a vibe, really'"
+      ],
+      "speakers": ["Helen Lewis"]
+    },
+    {
+      "claim": "Testosterone levels and sperm quality have measurably declined across multiple countries, a data point Lewis and Klein acknowledge as legitimate even while rejecting the political conclusions drawn from it.",
+      "evidence": [
+        "'There has been over the decades a measurable and sustained drop in testosterone in men across a number of countries'",
+        "Parallel 'drop in sperm quality and count among men across a number of countries'",
+        "Klein calls it 'an actually important one that I wish the left would take more seriously'"
+      ],
+      "speakers": ["Ezra Klein"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "The net effect of women's suffrage was not an advance in women's rights, but rather part of a push to replace covenanted entities, like families, with raw individualism.",
+      "speaker": "Doug Wilson",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Our independent women seek their purpose in life in mid-level bureaucratic jobs like human resource management, environmental protection, and marketing. They are more medicated, meddlesome, and quarrelsome than women need to be.",
+      "speaker": "Scott Yenor",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "There is all this is a very coherent ideology. And the reason I wanted to write the piece is I think people are now quite familiar with the idea of the mannersphere and the kind of Andrew Tate, you know, these provocateurs who are creatures of the algorithm. And I wanted to say, well, hang on a minute, actually, there is a really serious ideological and political project here behind this.",
+      "speaker": "Helen Lewis",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The pandemic happened, which basically, I think, demonstrated the truth of what I'm saying in the pandemic, in my view, was a mass sacrifice of the world's youth to the desires of disgusting old people who sacrificed the youth and also to women, frankly, especially, you know, the middle aged, sterile woman who made the pandemic procedures her whole life.",
+      "speaker": "Costin Alamariu (Bronze Age Pervert)",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Nietzsche never forgot that the fundamental fact of nature is inequality... The many find solace and meaning only in submission. It is good that this is so, and they shouldn't be made to feel shamed for it.",
+      "speaker": "Bronze Age Pervert",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "This is an ideology that is born out of fat modernity itself, right? The luxury that they have to play with these ever so spicy ideas are because they've never lived these lives.",
+      "speaker": "Helen Lewis",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The liberation of women was a false flag operation. The true goal was the liberation of libertine men.",
+      "speaker": "Doug Wilson",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "One can't really define the Longhouse, lest it should lose its force to lampoon the vast constellation of social forces it imagines.",
+      "speaker": "Lomès",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "So much of the modern idiocy is based on shaming those who would find true pleasure in submission. The long chain of being is held together by command and obedience.",
+      "speaker": "Bronze Age Pervert",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "There's a kind of belief that if they lived in these ancient hierarchical societies, they would be one of life's winners... if you want to go back to Roman times, you're going to be a Roman citizen, not a slave, right?",
+      "speaker": "Helen Lewis",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {
+      "name": "Helen Lewis",
+      "title": "Staff Writer, The Atlantic; Author of 'Difficult Women: A History of Feminism in Eleven Fights' and 'The Genius Myth'"
+    }
+  ],
+  "keyword_candidates": [
+    "masculinism",
+    "Bronze Age Pervert (Costin Alamariu)",
+    "Scott Yenor",
+    "family wage",
+    "thymos",
+    "Longhouse",
+    "testosterone decline",
+    "tradwife"
+  ]
+}
+```

@@ -1,0 +1,160 @@
+```json
+{
+  "topics": [
+    "Right-wing gender politics and anti-feminist policy agenda",
+    "Aesthetics, culture war, and political identity",
+    "Women leaving MAGA movement",
+    "Minoritarian policy implementation strategies",
+    "Social media, political radicalization, and coalition management"
+  ],
+  "claims": [
+    {
+      "claim": "The new right's gender agenda will advance not through sweeping legislation but through incremental policy nudges, mirroring the strategy used to erode Roe v. Wade before Dobbs.",
+      "evidence": [
+        "Comparison to anti-abortion movement imposing regulations state-by-state before Dobbs",
+        "Project 2025 proposals to restrict abortion pill production and distribution",
+        "Suggested small tweaks to tax code to favor preferred family structures"
+      ],
+      "speakers": ["Helen Lewis"]
+    },
+    {
+      "claim": "Heritage Foundation's January report called for a 'Manhattan Project' to support families and opposed dating apps, daycare, and single-parent benefits.",
+      "evidence": [
+        "Heritage Foundation report published in January",
+        "Opposition to dating apps, daycare, and single-parent benefits named explicitly",
+        "Proposal to re-gear the tax system toward preferred family types"
+      ],
+      "speakers": ["Helen Lewis"]
+    },
+    {
+      "claim": "Doug Wilson advocates for household voting in which a husband casts the vote representing the entire household, effectively controlling his wife's vote.",
+      "evidence": [
+        "Wilson's stated aspiration within 200 years for household voting",
+        "In case of disagreement, husband breaks the tie",
+        "Wilson also opposes women in combat military roles"
+      ],
+      "speakers": ["Helen Lewis"]
+    },
+    {
+      "claim": "Pete Hegseth opposes women in combat roles, arguing it has not made the military more effective or lethal and has complicated fighting.",
+      "evidence": [
+        "Direct quote from Hegseth: 'hasn't made us more effective, hasn't made us more lethal, has made fighting more complicated'",
+        "Hegseth also demands a military aesthetic: no beards",
+        "Lewis says this aligns with Doug Wilson's stated theological position on women as life-givers"
+      ],
+      "speakers": ["Helen Lewis", "Pete Hegseth"]
+    },
+    {
+      "claim": "The EEOC chair has repurposed civil rights enforcement machinery to favor white male discrimination claims, signaling an institutional reversal of DEI protections.",
+      "evidence": [
+        "EEOC chair issued a statement soliciting white male workers who experienced discrimination",
+        "Statement framed as 'ambulance chasing lawyers ad' targeting white men",
+        "Scott Yenna wants to reinstitute male-only military colleges"
+      ],
+      "speakers": ["Helen Lewis"]
+    },
+    {
+      "claim": "Women who participated in MAGA politics discovered that promises of traditionalist respect were a cover for genuine misogyny, not ironic posturing.",
+      "evidence": [
+        "Sam Adler-Bell piece in New York magazine about women leaving MAGA",
+        "Women described being treated with cruelty after expecting to be 'cherished'",
+        "Compared to Ariel Levy's 'Female Chauvinist Pigs' concept of women as 'honorary guys' who later discover they are not exempt"
+      ],
+      "speakers": ["Helen Lewis", "Ezra Klein"]
+    },
+    {
+      "claim": "Whichever side controls Twitter politically tends to overreach and pay an electoral price, as Democrats did around 2020 and Republicans risk doing now under Elon Musk.",
+      "evidence": [
+        "Liberal Twitter dominance circa 2020 coincided with Democrats losing touch with voters",
+        "Kamala Harris ads on gender reassignment surgery for immigrants cited as culturally driven overreach",
+        "Right-wing figures on X now openly airing misogyny and neo-Nazi content formerly moderated away"
+      ],
+      "speakers": ["Ezra Klein", "Helen Lewis"]
+    },
+    {
+      "claim": "The movement's norm of having 'no line' makes it impossible to police extreme voices like Nick Fuentes, because condemning them would signal weakness.",
+      "evidence": [
+        "Fuentes quoted as saying women should be put in gulags",
+        "Fuentes appeared on Tucker Carlson",
+        "Doug Wilson condemned Fuentes's language but also called him a 'Fed'—a conspiracy theory deflection"
+      ],
+      "speakers": ["Helen Lewis"]
+    },
+    {
+      "claim": "Trump's aesthetic appeal derives from having the tastes of a wealthy normie rather than elite taste, making him legible and aspirational to ordinary voters.",
+      "evidence": [
+        "Everything Trump owns is covered in gold, contrasted with elite preference for muted earth tones",
+        "Trump's desire for the ballroom to look like the Roman Forum",
+        "Contrast with left tastemakers' valorization of brutalism over accessible aesthetics"
+      ],
+      "speakers": ["Helen Lewis"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "the one thing you need when you're trying to get through a relationship if you have kids is like really this is, yes, this is a divorce, but this is also a co-parenting negotiation and turning that into an adversarial fight from the very start is unlikely to end well",
+      "speaker": "Helen Lewis",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "I'm straight up just saying we should not have women in combat roles. It hasn't made us more effective, hasn't made us more lethal, has made fighting more complicated.",
+      "speaker": "Pete Hegseth",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "what was promised to them as a return to a kind of traditionalism where they were cherished and respected and would not have to be medicated and working a useless job was actually just a way of justifying not being treated with any kind of respect or consideration at all",
+      "speaker": "Helen Lewis",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "it promised an exemption for good girls. Like if you do things right as a woman, then actually you kind of get exempted from it. And then you've crossed one of those invisible tripwires and you discover that you're on the outside now.",
+      "speaker": "Helen Lewis",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "you made your whole politics about having no line. So how in the hell is anybody supposed to now ever go back and enforce anything?",
+      "speaker": "Helen Lewis",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "I have this basic theory that whichever side controls Twitter pays for it. And I feel this very, very strongly.",
+      "speaker": "Ezra Klein",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "it was actually the liberal moderators who were solving the right wing's misogyny and neo-Nazi problem for the right. And now those people are out and Nick Fuentes and everybody else is out in public.",
+      "speaker": "Ezra Klein",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "you have to show that you are a refined person by liking brutalism. And if you just preferred a nice Doric column and I like a nice whitewash, you know, whatever it might be, that's kind of basic. That's what normal people who don't know anything about architecture like.",
+      "speaker": "Helen Lewis",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {
+      "name": "Helen Lewis",
+      "title": "Staff Writer, The Atlantic"
+    }
+  ],
+  "keyword_candidates": [
+    "no-fault divorce rollback",
+    "Heritage Foundation family policy",
+    "Doug Wilson household voting",
+    "Pete Hegseth women in combat",
+    "EEOC white male discrimination claims",
+    "Nick Fuentes",
+    "Female Chauvinist Pigs Ariel Levy",
+    "Project 2025"
+  ]
+}
+```
