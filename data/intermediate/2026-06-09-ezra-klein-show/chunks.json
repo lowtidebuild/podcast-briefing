@@ -1,0 +1,406 @@
+[
+  {
+    "chunk_index": 0,
+    "char_start": 0,
+    "char_end": 40058,
+    "topics": [
+      "Democratic Party foreign policy reckoning post-Gaza",
+      "Biden administration disinformation and Israel-Gaza policy",
+      "Left vision for U.S.-Israel policy and arms sales",
+      "Anti-war electoral politics and trust in foreign policy establishment",
+      "Abraham Accords, Palestinian issue, and October 7th context"
+    ],
+    "claims": [
+      {
+        "claim": "The Gaza debate is becoming a foreign policy rupture in the Democratic Party analogous to the Iraq War's transformation of the party in 2008.",
+        "evidence": [
+          "Brian Schatz tweeted calling for 'a whole new crop of foreign policy staffers' in the next Democratic administration",
+          "Chris Van Hollen op-ed warned primary voters won't trust candidates who voted to send Netanyahu bombs or who plan to reenlist Biden-era decision makers",
+          "Abdul El-Sayed leads polls in Michigan Democratic Senate primary partly on Gaza; Adam Hamawi won New Jersey House primary on anti-war platform; Brad Lander leading in NY primary against Dan Goldman over Israel stance"
+        ],
+        "speakers": [
+          "Ezra Klein",
+          "Matt Duss"
+        ]
+      },
+      {
+        "claim": "The Biden administration ran a campaign of disinformation by repeatedly claiming it could not assess Israeli violations of international humanitarian law, despite clear evidence visible to the rest of the world.",
+        "evidence": [
+          "Biden administration officials repeatedly said 'we have not made an assessment' of Israeli IHL violations",
+          "By contrast, Secretary Blinken assessed Russia was committing war crimes within one month of the February 2022 Ukraine invasion",
+          "Palestinian human rights groups, international NGOs, and Israeli groups were all reporting atrocities that the Biden administration claimed it could not see"
+        ],
+        "speakers": [
+          "Matt Duss"
+        ]
+      },
+      {
+        "claim": "Biden's personal commitment to 'no daylight' with Israel set guardrails that prevented staffers from arguing for real pressure on Israel, and he had called conditioning military aid a 'preposterous idea' as early as 2020.",
+        "evidence": [
+          "Biden called conditioning military aid to Israel 'a preposterous idea' during the 2020 primary when Sanders raised it",
+          "Biden only withheld one shipment of 2,000-pound bombs with no other real consequences",
+          "Duss notes staffers stop arguing once the boss sets parameters and instead shape policy within those guardrails"
+        ],
+        "speakers": [
+          "Matt Duss"
+        ]
+      },
+      {
+        "claim": "The U.S. argument that staying engaged with Israel preserves influence is not credible, as former Obama officials admitted the same rationale for supporting the Saudi-UAE war on Yemen was a mistake.",
+        "evidence": [
+          "Former Obama administration officials published a letter admitting their Yemen engagement-for-influence rationale was wrong",
+          "Some of those same officials then served in the Biden administration and offered the identical argument for continuing to support Netanyahu",
+          "Israeli security officials have stated on record that without U.S. support they could not continue their operations"
+        ],
+        "speakers": [
+          "Matt Duss"
+        ]
+      },
+      {
+        "claim": "In every U.S. presidential election since the end of the Cold War except 2004, the more anti-war candidate won, suggesting significant public appetite for a less militaristic foreign policy.",
+        "evidence": [
+          "Duss states this pattern holds from 1992 onward with the single exception of 2004",
+          "Trump won in 2024 partly by leaning hard on an anti-war, pro-peace message in weeks before Election Day",
+          "Biden in 2020 ran on ending forever wars but his administration abandoned that lane, which Trump exploited"
+        ],
+        "speakers": [
+          "Matt Duss"
+        ]
+      },
+      {
+        "claim": "The Abraham Accords contributed to Hamas's decision to act on October 7th by sidelining the Palestinian issue and reinforcing the Netanyahu-aligned argument that Palestinian statehood was not a prerequisite for regional normalization.",
+        "evidence": [
+          "The Accords normalized Israel-UAE and Israel-Bahrain relations without addressing Palestinian statehood",
+          "Netanyahu and his U.S. supporters argued the Accords proved the Palestinian issue could be pushed aside",
+          "Duss says it was 'one of the factors that led to Hamas's thinking about why they needed to take action' to put the Palestinian issue back on the agenda"
+        ],
+        "speakers": [
+          "Matt Duss"
+        ]
+      },
+      {
+        "claim": "A left foreign policy should end U.S. military aid and arms sales to Israel, apply existing U.S. law (Leahy Law, Arms Export Control Act) consistently, sanction settlement supporters, and pursue Palestinian self-governance including tacit agreement with Hamas.",
+        "evidence": [
+          "AOC called for ending aid; Rahm Emanuel followed within minutes, showing cross-party movement toward this position",
+          "Duss argues existing laws already prohibit arms sales to militaries with proven human rights abuse records but have been ignored for Israel, Egypt, Saudi Arabia",
+          "Biden administration sanctions on violent settlers described as 'just the tip of the iceberg'"
+        ],
+        "speakers": [
+          "Matt Duss"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "I want to end the mindset that got us in the war in the first place. That's the kind of leadership I intend to provide.",
+        "speaker": "Barack Obama (archival clip)",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I'm not into blacklisting anyone from future work in their area of expertise, but I do think it's fair to want a whole new crop, a whole new crop of foreign policy staffers in the next Democratic administration. It's not like the same 120 people are the only people who know anything.",
+        "speaker": "Brian Schatz",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Primary voters won't trust any Democratic presidential candidate who does not have a record of moral and strategic clarity on these issues, especially if, as a legislator, he or she voted to send Mr. Netanyahu bombs even as his government imposed a total blockade on Gaza.",
+        "speaker": "Chris Van Hollen",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "You're watching Democrats bend over backwards in the most pretzel-like way to justify the war. They're like, this is an illegal war, but if they asked me, I'd fund it.",
+        "speaker": "Abdul El-Sayed",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "If you don't have the courage to call out the moral abomination of a genocide, then what do you have the courage to call out in the first place? This is a moral Rorschach test for our party.",
+        "speaker": "Abdul El-Sayed",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The biggest divide that I see right now and how we view this problem is those who believe that Donald Trump is the cause of it versus those who believe that Donald Trump is a symptom of it.",
+        "speaker": "Jason Crow",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Matt Duss",
+        "title": "Executive Vice President, Center for International Policy; former foreign policy advisor to Senator Bernie Sanders"
+      }
+    ],
+    "keyword_candidates": [
+      "Gaza genocide",
+      "Democratic Party foreign policy reckoning",
+      "conditioning military aid Israel",
+      "Abraham Accords",
+      "Leahy Law",
+      "American primacy",
+      "Biden disinformation Israel",
+      "anti-war electoral politics"
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "char_start": 40058,
+    "char_end": 80509,
+    "topics": [
+      "American global military hegemony and its costs",
+      "Gaza as Democratic Party litmus test and elite accountability",
+      "Rules-based international order vs. unilateral American power",
+      "Foreign policy for the working/middle class and trade-offs",
+      "U.S.-China competition and coexistence"
+    ],
+    "claims": [
+      {
+        "claim": "Biden's Gaza policy constituted support for genocide, and senior officials who carried it out should be barred from future government service.",
+        "evidence": [
+          "Chris Van Hollen op-ed in the New York Times named specific Biden administration actors who should not serve in future administrations",
+          "Brian Schatz tweeted that the next Democratic administration should have full turnover in its foreign policy staff",
+          "Speaker contrasts desired accountability with the Iraq War, where 'nobody really paid a price'"
+        ],
+        "speakers": [
+          "Guest (unnamed in chunk)"
+        ]
+      },
+      {
+        "claim": "Gaza is becoming a Democratic Party litmus test akin to the Iraq War, with candidates' positions on it signaling broader credibility and authenticity to voters.",
+        "evidence": [
+          "Michigan Senate primary and New York race between Brad Lander and Dan Goldman cited as examples",
+          "Kamala Harris's language ('too many civilians have died') failed to convince voters even those who didn't deeply care about the issue",
+          "Zohran Mondani's firm stance under criticism added to his credibility even among voters less engaged on Gaza"
+        ],
+        "speakers": [
+          "Guest (unnamed in chunk)",
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "Biden's foreign policy for the middle class correctly diagnosed the problem but took the wrong path by framing trade and economics as weapons in strategic competition with China rather than building a more equitable global trade order.",
+        "evidence": [
+          "Jake Sullivan's April 2023 Brookings speech framed as a turn away from neoliberal trade theory",
+          "Guest argues Biden chose to treat trade as a weapon in U.S.-China competition instead of investing in a genuinely more equitable global trade order",
+          "Biden administration's large tariffs on Chinese EVs cited as example of prioritizing competition over consumer affordability"
+        ],
+        "speakers": [
+          "Guest (unnamed in chunk)"
+        ]
+      },
+      {
+        "claim": "Congress has repeatedly abdicated its constitutional war powers, and restoring those powers would at minimum slow military action and force public debate, reducing presidential foreign policy adventurism.",
+        "evidence": [
+          "Republicans voted against war powers resolutions on Venezuela, Iran, and Cuba",
+          "Iraq War passed because Congress gave Bush authority, but Iran war could not have gotten a congressional vote given lack of public support",
+          "Congressman Crow cited as emphasizing Congress's foundational role in foreign policy from trade to treaties to war powers"
+        ],
+        "speakers": [
+          "Guest (unnamed in chunk)",
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "The 'rules-based international order' has lost legitimacy due to double standards and hypocrisy, but the left's critique differs from the right's in that the left wants stronger, genuinely binding multilateral rules rather than unilateral American dominance.",
+        "evidence": [
+          "AOC at Munich framed the current moment as a 'pre rules-based order' and an opportunity to build one centered on democracy, human rights, and working-class trade",
+          "Guest invokes Gandhi's comment on Western civilization ('I think it'd be a great idea') to describe the rules-based order",
+          "Ezra Klein contrasts Trump/Vance zero-sum critique (America should not be bound by rules) with left positive-sum critique (rules would have kept us out of Iraq)"
+        ],
+        "speakers": [
+          "Guest (unnamed in chunk)",
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "American primacy is not necessary to keep Americans safe, prosperous, and free, and the U.S.-China relationship should be defined by coexistence and cooperation rather than strategic competition.",
+        "evidence": [
+          "Guest states China has already shown it has cards to play and the U.S. cannot assert its will on China",
+          "Trump's relative conciliatoriness toward China at their recent summit cited as evidence",
+          "Guest argues defining the relationship as competition will eventually lead to conflict"
+        ],
+        "speakers": [
+          "Guest (unnamed in chunk)"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "I think the debate has to be, OK, what are those situations and what tools should we deploy in those situations?",
+        "speaker": "Guest (unnamed in chunk)",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I think that the Biden administration's Gaza policy was beyond just a policy dispute. It was a policy of supporting genocide.",
+        "speaker": "Guest (unnamed in chunk)",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I think it's possible that we were in a pre rules based order. And we have an opportunity to explore what a world would look like if we upheld democracy, human rights, trade that actually centers working class people instead of accruing overwhelmingly the benefits of trade to the wealthiest.",
+        "speaker": "Alexandria Ocasio-Cortez",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The first question you should ever ask a member of Congress before they ever start talking about foreign policy is, are you willing to reclaim your foreign policy powers?",
+        "speaker": "Congressman Crow",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I think we have to look really, really take a very, very hard look at what this, what global military hegemony, global whatever term you want to use for it is actually delivering.",
+        "speaker": "Guest (unnamed in chunk)",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Elite impunity is at the core of our political crisis.",
+        "speaker": "Guest (unnamed in chunk)",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Unknown",
+        "title": "Progressive foreign policy analyst/commentator (name not stated in chunk)"
+      }
+    ],
+    "keyword_candidates": [
+      "rules-based international order",
+      "American primacy vs. hegemony",
+      "Gaza accountability",
+      "war powers Congress",
+      "U.S.-China strategic competition",
+      "foreign policy for the middle class",
+      "Zohran Mondani",
+      "Brian Schatz"
+    ]
+  },
+  {
+    "chunk_index": 2,
+    "char_start": 80509,
+    "char_end": 93629,
+    "topics": [
+      "Immigration policy and Democratic messaging challenges",
+      "Anti-corruption as a foreign policy framework",
+      "Foreign policy values vs. strategic trade-offs",
+      "Domestic-foreign policy boundary questions",
+      "Book recommendations and personal reflections"
+    ],
+    "claims": [
+      {
+        "claim": "The United States is the most corrupt modern democracy, even before Trump",
+        "evidence": [
+          "Attributed to Senator John Ossoff in a video described as having struck the speaker",
+          "Cited as a 'true' claim by the guest"
+        ],
+        "speakers": [
+          "Matt Duss"
+        ]
+      },
+      {
+        "claim": "South Dakota trusts are one of the main vehicles through which kleptocrats abroad hide their money",
+        "evidence": [
+          "Guest notes South Dakota is 'apparently very popular' as a destination for international money laundering"
+        ],
+        "speakers": [
+          "Matt Duss"
+        ]
+      },
+      {
+        "claim": "The Biden administration lost control of the border partly because it was caught between wanting an orderly border and projecting kindness",
+        "evidence": [
+          "Kamala Harris told migrants 'Do not come' but the broad impression of friendliness still drew large numbers",
+          "Trump maintained order through 'a constant pulse of cruelty'"
+        ],
+        "speakers": [
+          "Ezra Klein",
+          "Matt Duss"
+        ]
+      },
+      {
+        "claim": "The US and UK addressing their own roles as destinations for ill-gotten gains could have meaningful international anti-corruption impact",
+        "evidence": [
+          "New York buildings described as 'parking spaces for ill-gotten gains'",
+          "London cited as equivalent destination"
+        ],
+        "speakers": [
+          "Matt Duss"
+        ]
+      },
+      {
+        "claim": "Support for Ukraine's defense has remained fairly steady despite Trump's divergence from Biden's approach",
+        "evidence": [
+          "Guest attributes this to Americans' intuitive grasp of the justice of helping a country defend itself from a more powerful aggressor"
+        ],
+        "speakers": [
+          "Matt Duss"
+        ]
+      },
+      {
+        "claim": "Democrats must answer two hard questions on immigration: how many people should legally immigrate, and how to project an orderly border without relying on cruelty",
+        "evidence": [
+          "Trump blurred distinction between illegal and legal immigration",
+          "Biden administration example of losing operational control"
+        ],
+        "speakers": [
+          "Matt Duss"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "I want to be clear to folks in this region who are thinking about making that dangerous trek to the United States-Mexico border. Do not come. Do not come.",
+        "speaker": "Kamala Harris (quoted by Matt Duss)",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "even before Donald Trump came on the scene, the United States was the most corrupt modern democracy",
+        "speaker": "Matt Duss (quoting John Ossoff)",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "part of how Trump closed the border is a pulse of cruelty, like a constant pulse of cruelty",
+        "speaker": "Ezra Klein",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "a lot of these buildings are just, you know, they're parking spaces for ill-gotten gains",
+        "speaker": "Matt Duss",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "there is something about the justice and the morality of helping a country defend itself from the aggression of a more powerful neighbor that Americans get",
+        "speaker": "Matt Duss",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Matt Duss",
+        "title": "Foreign policy analyst / former Senate foreign policy adviser"
+      }
+    ],
+    "keyword_candidates": [
+      "anti-corruption foreign policy",
+      "campaign finance reform",
+      "kleptocracy",
+      "South Dakota trusts",
+      "John Ossoff",
+      "immigration messaging",
+      "Ukraine support",
+      "domestic-foreign policy nexus"
+    ]
+  }
+]

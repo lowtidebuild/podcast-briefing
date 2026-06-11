@@ -1,5 +1,33 @@
 [
   {
+    "slug": "2026-06-11-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "Designing the Physical World with AI",
+    "published": "2026-06-11T10:00:00+00:00"
+  },
+  {
+    "slug": "2026-06-11-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "Odd Lots: Why Tomatoes Are the Most Expensive They've Been in Four Decades (Podcast)",
+    "published": "2026-06-11T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-06-10-all-in-podcast",
+    "podcast": "All-In Podcast",
+    "category": "Politics / Geopolitics",
+    "title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
+    "published": "2026-06-10T18:05:00+00:00"
+  },
+  {
+    "slug": "2026-06-09-ezra-klein-show",
+    "podcast": "Ezra Klein Show",
+    "category": "Politics / Geopolitics",
+    "title": "What’s the Left’s Vision for Foreign Policy After Trump?",
+    "published": "2026-06-09T09:00:00+00:00"
+  },
+  {
     "slug": "2026-06-08-a16z-podcast",
     "podcast": "a16z Podcast",
     "category": "VC / Business",
@@ -320,33 +348,5 @@
     "category": "VC / Business",
     "title": "Ben Horowitz on the Next Technology Era",
     "published": "2026-05-08T16:19:02+00:00"
-  },
-  {
-    "slug": "2026-05-08-hard-fork",
-    "podcast": "Hard Fork",
-    "category": "AI / Tech",
-    "title": "Can the U.S. Rein in Prediction Markets? + Joanna Stern on Her Year of A.I. Experiments + Our Producer Goes to Attention School",
-    "published": "2026-05-08T11:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-08-ezra-klein-show",
-    "podcast": "Ezra Klein Show",
-    "category": "Politics / Geopolitics",
-    "title": "GLP-1s and the ‘Wild West’ of Wellness",
-    "published": "2026-05-08T09:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-07-making-sense",
-    "podcast": "Making Sense",
-    "category": "Philosophy / AI Ethics",
-    "title": "#474 — More From Sam: Hasan Piker, Islamism, Making Sense Community, and More",
-    "published": "2026-05-07T19:45:00+00:00"
-  },
-  {
-    "slug": "2026-05-07-odd-lots",
-    "podcast": "Odd Lots",
-    "category": "Macro / Markets",
-    "title": "How an American City Can Become a Manufacturing Hub",
-    "published": "2026-05-07T08:00:00+00:00"
   }
 ]

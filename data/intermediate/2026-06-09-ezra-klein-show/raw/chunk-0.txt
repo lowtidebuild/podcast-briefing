@@ -1,0 +1,154 @@
+```json
+{
+  "topics": [
+    "Democratic Party foreign policy reckoning post-Gaza",
+    "Biden administration disinformation and Israel-Gaza policy",
+    "Left vision for U.S.-Israel policy and arms sales",
+    "Anti-war electoral politics and trust in foreign policy establishment",
+    "Abraham Accords, Palestinian issue, and October 7th context"
+  ],
+  "claims": [
+    {
+      "claim": "The Gaza debate is becoming a foreign policy rupture in the Democratic Party analogous to the Iraq War's transformation of the party in 2008.",
+      "evidence": [
+        "Brian Schatz tweeted calling for 'a whole new crop of foreign policy staffers' in the next Democratic administration",
+        "Chris Van Hollen op-ed warned primary voters won't trust candidates who voted to send Netanyahu bombs or who plan to reenlist Biden-era decision makers",
+        "Abdul El-Sayed leads polls in Michigan Democratic Senate primary partly on Gaza; Adam Hamawi won New Jersey House primary on anti-war platform; Brad Lander leading in NY primary against Dan Goldman over Israel stance"
+      ],
+      "speakers": ["Ezra Klein", "Matt Duss"]
+    },
+    {
+      "claim": "The Biden administration ran a campaign of disinformation by repeatedly claiming it could not assess Israeli violations of international humanitarian law, despite clear evidence visible to the rest of the world.",
+      "evidence": [
+        "Biden administration officials repeatedly said 'we have not made an assessment' of Israeli IHL violations",
+        "By contrast, Secretary Blinken assessed Russia was committing war crimes within one month of the February 2022 Ukraine invasion",
+        "Palestinian human rights groups, international NGOs, and Israeli groups were all reporting atrocities that the Biden administration claimed it could not see"
+      ],
+      "speakers": ["Matt Duss"]
+    },
+    {
+      "claim": "Biden's personal commitment to 'no daylight' with Israel set guardrails that prevented staffers from arguing for real pressure on Israel, and he had called conditioning military aid a 'preposterous idea' as early as 2020.",
+      "evidence": [
+        "Biden called conditioning military aid to Israel 'a preposterous idea' during the 2020 primary when Sanders raised it",
+        "Biden only withheld one shipment of 2,000-pound bombs with no other real consequences",
+        "Duss notes staffers stop arguing once the boss sets parameters and instead shape policy within those guardrails"
+      ],
+      "speakers": ["Matt Duss"]
+    },
+    {
+      "claim": "The U.S. argument that staying engaged with Israel preserves influence is not credible, as former Obama officials admitted the same rationale for supporting the Saudi-UAE war on Yemen was a mistake.",
+      "evidence": [
+        "Former Obama administration officials published a letter admitting their Yemen engagement-for-influence rationale was wrong",
+        "Some of those same officials then served in the Biden administration and offered the identical argument for continuing to support Netanyahu",
+        "Israeli security officials have stated on record that without U.S. support they could not continue their operations"
+      ],
+      "speakers": ["Matt Duss"]
+    },
+    {
+      "claim": "In every U.S. presidential election since the end of the Cold War except 2004, the more anti-war candidate won, suggesting significant public appetite for a less militaristic foreign policy.",
+      "evidence": [
+        "Duss states this pattern holds from 1992 onward with the single exception of 2004",
+        "Trump won in 2024 partly by leaning hard on an anti-war, pro-peace message in weeks before Election Day",
+        "Biden in 2020 ran on ending forever wars but his administration abandoned that lane, which Trump exploited"
+      ],
+      "speakers": ["Matt Duss"]
+    },
+    {
+      "claim": "The Abraham Accords contributed to Hamas's decision to act on October 7th by sidelining the Palestinian issue and reinforcing the Netanyahu-aligned argument that Palestinian statehood was not a prerequisite for regional normalization.",
+      "evidence": [
+        "The Accords normalized Israel-UAE and Israel-Bahrain relations without addressing Palestinian statehood",
+        "Netanyahu and his U.S. supporters argued the Accords proved the Palestinian issue could be pushed aside",
+        "Duss says it was 'one of the factors that led to Hamas's thinking about why they needed to take action' to put the Palestinian issue back on the agenda"
+      ],
+      "speakers": ["Matt Duss"]
+    },
+    {
+      "claim": "A left foreign policy should end U.S. military aid and arms sales to Israel, apply existing U.S. law (Leahy Law, Arms Export Control Act) consistently, sanction settlement supporters, and pursue Palestinian self-governance including tacit agreement with Hamas.",
+      "evidence": [
+        "AOC called for ending aid; Rahm Emanuel followed within minutes, showing cross-party movement toward this position",
+        "Duss argues existing laws already prohibit arms sales to militaries with proven human rights abuse records but have been ignored for Israel, Egypt, Saudi Arabia",
+        "Biden administration sanctions on violent settlers described as 'just the tip of the iceberg'"
+      ],
+      "speakers": ["Matt Duss"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "I want to end the mindset that got us in the war in the first place. That's the kind of leadership I intend to provide.",
+      "speaker": "Barack Obama (archival clip)",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "I'm not into blacklisting anyone from future work in their area of expertise, but I do think it's fair to want a whole new crop, a whole new crop of foreign policy staffers in the next Democratic administration. It's not like the same 120 people are the only people who know anything.",
+      "speaker": "Brian Schatz",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Primary voters won't trust any Democratic presidential candidate who does not have a record of moral and strategic clarity on these issues, especially if, as a legislator, he or she voted to send Mr. Netanyahu bombs even as his government imposed a total blockade on Gaza.",
+      "speaker": "Chris Van Hollen",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "You're watching Democrats bend over backwards in the most pretzel-like way to justify the war. They're like, this is an illegal war, but if they asked me, I'd fund it.",
+      "speaker": "Abdul El-Sayed",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "If you don't have the courage to call out the moral abomination of a genocide, then what do you have the courage to call out in the first place? This is a moral Rorschach test for our party.",
+      "speaker": "Abdul El-Sayed",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The biggest divide that I see right now and how we view this problem is those who believe that Donald Trump is the cause of it versus those who believe that Donald Trump is a symptom of it.",
+      "speaker": "Jason Crow",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "In states all across our country, jobs were sent overseas and our children were sent to war. And somehow, a real estate developer from New York City, by the name of Donald J. Trump, was right on all of these issues while Biden was wrong.",
+      "speaker": "J.D. Vance (archival clip)",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The disarmament of Hamas will never happen under a situation of occupation. It will only conceivably happen under a situation of legitimate Palestinian self-governance.",
+      "speaker": "Matt Duss",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The idea that they could not make a similar assessment of a military into whose operations the United States has vastly more visibility, I think is just it's just not credible.",
+      "speaker": "Matt Duss",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Civilian suffering is part of the policy.",
+      "speaker": "Matt Duss",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {
+      "name": "Matt Duss",
+      "title": "Executive Vice President, Center for International Policy; former foreign policy advisor to Senator Bernie Sanders"
+    }
+  ],
+  "keyword_candidates": [
+    "Gaza genocide",
+    "Democratic Party foreign policy reckoning",
+    "conditioning military aid Israel",
+    "Abraham Accords",
+    "Leahy Law",
+    "American primacy",
+    "Biden disinformation Israel",
+    "anti-war electoral politics"
+  ]
+}
+```

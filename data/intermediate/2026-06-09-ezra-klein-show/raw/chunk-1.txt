@@ -1,0 +1,136 @@
+```json
+{
+  "topics": [
+    "American global military hegemony and its costs",
+    "Gaza as Democratic Party litmus test and elite accountability",
+    "Rules-based international order vs. unilateral American power",
+    "Foreign policy for the working/middle class and trade-offs",
+    "U.S.-China competition and coexistence"
+  ],
+  "claims": [
+    {
+      "claim": "Biden's Gaza policy constituted support for genocide, and senior officials who carried it out should be barred from future government service.",
+      "evidence": [
+        "Chris Van Hollen op-ed in the New York Times named specific Biden administration actors who should not serve in future administrations",
+        "Brian Schatz tweeted that the next Democratic administration should have full turnover in its foreign policy staff",
+        "Speaker contrasts desired accountability with the Iraq War, where 'nobody really paid a price'"
+      ],
+      "speakers": ["Guest (unnamed in chunk)"]
+    },
+    {
+      "claim": "Gaza is becoming a Democratic Party litmus test akin to the Iraq War, with candidates' positions on it signaling broader credibility and authenticity to voters.",
+      "evidence": [
+        "Michigan Senate primary and New York race between Brad Lander and Dan Goldman cited as examples",
+        "Kamala Harris's language ('too many civilians have died') failed to convince voters even those who didn't deeply care about the issue",
+        "Zohran Mondani's firm stance under criticism added to his credibility even among voters less engaged on Gaza"
+      ],
+      "speakers": ["Guest (unnamed in chunk)", "Ezra Klein"]
+    },
+    {
+      "claim": "Biden's foreign policy for the middle class correctly diagnosed the problem but took the wrong path by framing trade and economics as weapons in strategic competition with China rather than building a more equitable global trade order.",
+      "evidence": [
+        "Jake Sullivan's April 2023 Brookings speech framed as a turn away from neoliberal trade theory",
+        "Guest argues Biden chose to treat trade as a weapon in U.S.-China competition instead of investing in a genuinely more equitable global trade order",
+        "Biden administration's large tariffs on Chinese EVs cited as example of prioritizing competition over consumer affordability"
+      ],
+      "speakers": ["Guest (unnamed in chunk)"]
+    },
+    {
+      "claim": "Congress has repeatedly abdicated its constitutional war powers, and restoring those powers would at minimum slow military action and force public debate, reducing presidential foreign policy adventurism.",
+      "evidence": [
+        "Republicans voted against war powers resolutions on Venezuela, Iran, and Cuba",
+        "Iraq War passed because Congress gave Bush authority, but Iran war could not have gotten a congressional vote given lack of public support",
+        "Congressman Crow cited as emphasizing Congress's foundational role in foreign policy from trade to treaties to war powers"
+      ],
+      "speakers": ["Guest (unnamed in chunk)", "Ezra Klein"]
+    },
+    {
+      "claim": "The 'rules-based international order' has lost legitimacy due to double standards and hypocrisy, but the left's critique differs from the right's in that the left wants stronger, genuinely binding multilateral rules rather than unilateral American dominance.",
+      "evidence": [
+        "AOC at Munich framed the current moment as a 'pre rules-based order' and an opportunity to build one centered on democracy, human rights, and working-class trade",
+        "Guest invokes Gandhi's comment on Western civilization ('I think it'd be a great idea') to describe the rules-based order",
+        "Ezra Klein contrasts Trump/Vance zero-sum critique (America should not be bound by rules) with left positive-sum critique (rules would have kept us out of Iraq)"
+      ],
+      "speakers": ["Guest (unnamed in chunk)", "Ezra Klein"]
+    },
+    {
+      "claim": "American primacy is not necessary to keep Americans safe, prosperous, and free, and the U.S.-China relationship should be defined by coexistence and cooperation rather than strategic competition.",
+      "evidence": [
+        "Guest states China has already shown it has cards to play and the U.S. cannot assert its will on China",
+        "Trump's relative conciliatoriness toward China at their recent summit cited as evidence",
+        "Guest argues defining the relationship as competition will eventually lead to conflict"
+      ],
+      "speakers": ["Guest (unnamed in chunk)"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "I think the debate has to be, OK, what are those situations and what tools should we deploy in those situations?",
+      "speaker": "Guest (unnamed in chunk)",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "I think that the Biden administration's Gaza policy was beyond just a policy dispute. It was a policy of supporting genocide.",
+      "speaker": "Guest (unnamed in chunk)",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "I think it's possible that we were in a pre rules based order. And we have an opportunity to explore what a world would look like if we upheld democracy, human rights, trade that actually centers working class people instead of accruing overwhelmingly the benefits of trade to the wealthiest.",
+      "speaker": "Alexandria Ocasio-Cortez",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The first question you should ever ask a member of Congress before they ever start talking about foreign policy is, are you willing to reclaim your foreign policy powers?",
+      "speaker": "Congressman Crow",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "I think we have to look really, really take a very, very hard look at what this, what global military hegemony, global whatever term you want to use for it is actually delivering.",
+      "speaker": "Guest (unnamed in chunk)",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Elite impunity is at the core of our political crisis.",
+      "speaker": "Guest (unnamed in chunk)",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "They don't know what time it is.",
+      "speaker": "Guest (unnamed in chunk)",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The problem with the Iran war is not that Trump failed to file the appropriate paperwork. It is a manifestly stupid idea from the beginning.",
+      "speaker": "Guest (unnamed in chunk)",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "In order to develop a durable and solidaristic internationalism, it has to be rooted in an American domestic political consensus.",
+      "speaker": "Guest (unnamed in chunk)",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {"name": "Unknown", "title": "Progressive foreign policy analyst/commentator (name not stated in chunk)"}
+  ],
+  "keyword_candidates": [
+    "rules-based international order",
+    "American primacy vs. hegemony",
+    "Gaza accountability",
+    "war powers Congress",
+    "U.S.-China strategic competition",
+    "foreign policy for the middle class",
+    "Zohran Mondani",
+    "Brian Schatz"
+  ]
+}
+```

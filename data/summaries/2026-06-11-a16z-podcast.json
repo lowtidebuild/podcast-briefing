@@ -1,0 +1,96 @@
+{
+  "id": "e54a7f46-1ed4-45c2-bd44-b243a34488aa",
+  "slug": "2026-06-11-a16z-podcast",
+  "podcast": "a16z Podcast",
+  "category": "VC / Business",
+  "title": "Designing the Physical World with AI",
+  "published": "2026-06-11T10:00:00+00:00",
+  "link": "https://a16z.simplecast.com/episodes/designing-the-physical-world-with-ai-4Yt_NF_r-pmHb0Dmc",
+  "podcast_url": "https://a16z.com/podcasts",
+  "guest": {
+    "name": "Alex Modin & Davide Asnaghi",
+    "title": "CEO, Unlimited Industries & CEO, Diode Computers"
+  },
+  "summary_ko": "미국의 건설 생산성은 지난 50년간 실질적으로 하락했으며, 회로 기판 설계는 여전히 수작업에 의존한다. 소프트웨어가 개발 주기를 제로에 수렴시킨 반면, 물리적 세계는 수십 년째 제자리걸음이다. 이 팟캐스트는 그 간극을 좁히려는 두 스타트업의 접근 방식을 통해, AI가 '비트'가 아닌 '원자'를 다루는 산업에 어떻게 침투하는지를 분석한다.\n\nAlex Modin(Unlimited Industries)과 Davide Asnaghi(Diode Computers)의 공통된 핵심 논지는 하나다. 물리적 설계를 코드로 변환하면 AI가 이미 갖고 있는 방대한 학습 데이터를 그대로 활용할 수 있다는 것이다. Diode는 회로 기판 설계를 Python 프로그래밍처럼 느껴지도록 컴파일러를 구축했고, Unlimited는 대형 인프라 프로젝트 전체를 매개변수화된 코드 모델로 표현한다. 두 접근 모두 LLM이 '코드 작성'이라는 친숙한 언어로 물리 세계의 제약을 해결하도록 유도한다. 기존 CAD 소프트웨어나 설계 도구를 판매하는 대신, 두 회사 모두 최종 물리적 산출물(건설 패키지, 완성된 회로 기판)을 직접 납품하는 수직 통합 모델을 선택했다.\n\n데이터 부족은 두 분야 모두의 병목이다. Davide는 회로 기판 설계 자동화의 마지막 10%를 막는 것이 알고리즘 한계가 아니라 학습 데이터 부족이라고 진단한다. Apple, SpaceX 같은 기업들에 데이터가 사일로화되어 있으며, 개방형 협력 없이는 범용 모델 학습이 불가능하다. Diode의 전략은 오픈소스 컴파일러 툴체인(GitHub: diode-inc/pcb)으로 설계 데이터를 생성하는 플라이휠을 구축하고, 미국 내 제조 원가를 아시아 수준으로 맞춰 데이터와 제조를 동시에 확보하는 것이다. Unlimited는 시뮬레이션이 아닌 수만 가지 설계 순열을 탐색하는 에이전트 기반 최적화로 IFC(Issued for Construction) 패키지를 자동 생성한다.\n\n두 기업이 가리키는 거시적 함의는 명확하다. 미국은 반도체 팹, 데이터센터, 에너지 인프라를 빠르게 늘려야 하는 압박에 처해 있지만, 설계 및 건설 인력은 고령화·부족 상태다. Davide가 지적하듯, Microsoft는 한때 조지아주 전체 전기 기사의 3분의 1을 고용했다. AI 기반 물리 설계 자동화는 단순한 생산성 도구가 아니라, 미국 재산업화(reindustrialization)의 속도 제한 요소를 제거하는 인프라 계층이다.",
+  "summary_en": "American construction productivity has declined in real terms over the past 50 years. Circuit board design still relies heavily on manual expert labor. Software collapsed development cycles to near zero; the physical world has barely moved. This episode is a diagnostic of why that gap persists and a credible blueprint for closing it — not through robotics headlines, but through a quieter architectural insight.\n\nThe central thesis shared by Alex Modin (Unlimited Industries) and Davide Asnaghi (Diode Computers) is that the path to automating physical design runs through code, not through training models on scarce physical-world data. Diode built a compiler that makes circuit board design feel like writing Python, exploiting the vast code-training data that LLMs already possess. Unlimited encodes entire infrastructure projects — power plants, hospitals, data centers — as parametric code models that agents can manipulate, optimize, and re-run across tens of thousands of design permutations. Both companies declined to sell software tools to entrenched industries; instead they vertically integrated to deliver finished physical outputs (PCBs, Issued-for-Construction packages), selling what customers already know how to buy.\n\nThe data bottleneck is the episode's sharpest analytical thread. Davide argues the remaining 10% gap in board design automation is not an architecture problem but a data problem — the training corpus is siloed inside Apple, SpaceX, and Foxconn, unavailable to any single model. Diode's flywheel strategy is to open-source its compiler toolchain, generate design data at scale, and manufacture in the US at Asia-competitive costs, making the data problem self-solving over time. His co-founder Lenny holds the competing view: Monte Carlo tree search reinforcement learning could close the gap without more data. Both bets are live simultaneously.\n\nThe macro implication is structural. The US faces acute shortages of electricians, construction engineers, and PCB technicians precisely when it needs to double data center capacity, reindustrialize supply chains, and build critical mineral infrastructure. Microsoft once employed a third of Georgia's electricians for a single data center build. AI-native physical design automation is not a productivity tool — it is the rate-limiting layer that determines how fast America can build the physical substrate of its AI ambitions.",
+  "key_points_ko": [
+    {
+      "heading": "물리적 설계를 코드로 변환하는 것이 데이터 희소성 문제의 해법이다",
+      "body": "건설 도면과 회로 기판 설계 데이터는 Common Crawl처럼 공개된 대규모 학습 데이터가 존재하지 않는다. Diode는 이 문제를 우회하기 위해 회로 기판 설계를 Python 코드처럼 표현하는 컴파일러를 개발했다. LLM은 코드 작성에 이미 탁월하므로, 새로운 물리 도메인 데이터 없이도 회로 설계 작업을 수행할 수 있다. Unlimited 역시 동일한 원칙을 적용해 배관, 전기, 구조 시스템 전체를 매개변수화된 코드 모델로 표현하며, 에이전트가 이를 수만 가지 순열로 최적화한다. 이 접근은 '더 많은 도메인 데이터'라는 장기 과제를 우회하는 현실적 지름길이다."
+    },
+    {
+      "heading": "마지막 10%를 막는 것은 알고리즘이 아니라 데이터 사일로다",
+      "body": "Davide는 Diode가 현재 인간 전문가 대비 90% 효율을 달성했지만, 나머지 10%는 기술 한계가 아니라 학습 데이터 부족 때문이라고 진단한다. 최고 품질의 회로 기판 설계 데이터는 Apple, SpaceX, Meta 같은 기업에 사일로화되어 있으며, 이들은 데이터를 공개하지 않는다. Diode의 전략은 오픈소스 컴파일러(diode-inc/pcb)로 설계 데이터 생성 플라이휠을 구축하고, 미국 내 제조 비용을 아시아 수준으로 낮춰 데이터와 제조 역량을 동시에 축적하는 것이다. 공동창업자 Lenny는 Monte Carlo tree search 방식의 강화학습이 추가 데이터 없이도 이 간극을 닫을 수 있다고 보며, 두 전략이 동시에 진행 중이다."
+    },
+    {
+      "heading": "건설 산업의 인센티브 구조 자체가 기술 도입을 체계적으로 억압한다",
+      "body": "Alex는 건설 프로젝트 자금 조달 구조가 기술 혁신을 구조적으로 차단한다고 분석한다. 프로젝트 파이낸스 투자자들은 안정적인 IRR만을 원하며 상향 이익에는 관심이 없기 때문에, 공급망 전체에 걸쳐 새로운 기술 도입의 인센티브가 사라진다. 이는 Android 이전 시대의 국방 조달 구조와 유사하다. Unlimited가 소프트웨어 도구를 판매하지 않고 IFC(Issued for Construction) 패키지 전체를 직접 납품하는 수직 통합 모델을 선택한 이유가 바로 이것이다. 업계의 방식을 바꾸려 하는 대신, 기존 발주 방식에 맞는 인터페이스로 시장에 진입한다."
+    },
+    {
+      "heading": "설계-제조 분리가 미국의 DFM 역량을 약화시켰다",
+      "body": "Davide는 미국 전자 산업의 구조적 취약점을 '설계는 미국, 제조는 아시아'라는 수십 년간의 분업에서 찾는다. 설계자가 제조 현장을 경험하지 못하면 DFM(Design for Manufacturability) 감각이 퇴화한다. 그는 중국 엔지니어 친구의 사례를 든다. 그 친구는 보드를 양면으로 설계하면 SMT 라인을 두 번 통과해야 한다는 이유로 단면 설계를 고집했는데, 이는 제조 현장과의 물리적·인적 근접성에서 비롯된 직관이었다. AI가 이 감각을 대체하는 방향은 엔지니어를 훈련시키는 것이 아니라, Claude 같은 모델에게 150개의 DFM 체크리스트를 통과할 때까지 설계를 반복 수정하도록 지시하는 것이다."
+    },
+    {
+      "heading": "미국 재산업화의 속도는 설계 자동화에 달려 있다",
+      "body": "Microsoft는 조지아주 데이터센터 건설 당시 해당 주 전체 전기 기사의 3분의 1을 고용했다. 이는 현재 인력 구조로는 AI 인프라 수요를 감당할 수 없음을 보여주는 단적인 사례다. Alex는 미국의 건설 노동 생산성이 지난 50년간 실질적으로 하락했다고 지적하며, 이 추세를 방치하면 대규모 인프라 프로젝트를 실행하는 근육 자체를 잃게 된다고 경고한다. 데이터센터 용량 두 배 확대, 핵심 광물 공급망 구축, 첨단 제조 시설 조성은 모두 설계-건설 주기 단축에 달려 있으며, 이것이 물리 세계 AI가 단순한 생산성 도구가 아닌 국가 전략 인프라인 이유다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Reframing physical design as code bypasses the data scarcity problem entirely",
+      "body": "Neither construction nor circuit board design has anything resembling a public large-scale training corpus. Diode's solution is architectural: build a compiler that translates circuit board design into something that feels like Python, exploiting the massive code-training data LLMs already possess. Unlimited applies the same logic at macro scale, encoding entire facility systems — piping, electrical, structural — as parametric code models that agents can optimize across tens of thousands of permutations. The insight is not that AI gets better at understanding physics; it is that physical design problems get reframed as code problems where AI is already strong. This is a near-term workaround, not a long-term foundation model strategy."
+    },
+    {
+      "heading": "The last 10% of automation is blocked by data silos, not algorithmic limits",
+      "body": "Davide states Diode already achieves 90% efficiency gains over traditional board design, but the remaining 10% is not a model architecture problem — it is a missing data problem. The highest-quality PCB design data is locked inside Apple, SpaceX, and Meta, none of whom will share it. Diode's flywheel strategy: open-source its compiler toolchain (diode-inc/pcb), generate design data at scale through community use, and manufacture in the US at Asia-competitive margins to make the economics self-reinforcing. Co-founder Lenny holds a competing hypothesis — that Monte Carlo tree search reinforcement learning could close the gap without additional data. Both bets are running in parallel, which is intellectually honest but reveals genuine uncertainty about which path wins."
+    },
+    {
+      "heading": "Construction's financing structure systematically destroys incentives for technology adoption",
+      "body": "Alex's most underappreciated insight is structural, not technical. Project finance investors demand stable IRRs and have zero tolerance for downside risk, which cascades into an incentive structure where no participant in the supply chain benefits from adopting new technology. There is no upside to capture. The result is an industry where walking into a firm feels, as Alex puts it, like the late 1990s. Unlimited's response is vertical integration: own enough of the design-through-IFC-package workflow to present a clean interface to the market, selling a finished deliverable that customers already know how to buy rather than software that requires workflow change. This is the same insight Diode applies to electronics — sell the output, not the tool."
+    },
+    {
+      "heading": "The US-Asia design-manufacture split has atrophied American DFM capability",
+      "body": "Davide identifies the structural root of US electronics manufacturing weakness: decades of designing in America and manufacturing in Asia severed the feedback loop between design and production. Chinese engineers designing boards for local factories develop visceral DFM instincts — Davide's friend refused to design a double-sided board specifically because he knew the SMT line operator personally and didn't want to cause a second pass. That tacit knowledge cannot be hired back or extracted from retirees. Diode's bet is that Claude, given 150 DFM checklist items, will iterate a design to manufacturability without needing that embodied human intuition — effectively replacing cultural proximity with automated constraint satisfaction."
+    },
+    {
+      "heading": "America's reindustrialization speed is capped by design and construction throughput",
+      "body": "Microsoft once employed a third of Georgia's electricians for a single data center build — a data point that illustrates how completely current labor supply is outmatched by infrastructure demand. Alex notes US construction labor productivity has declined in real terms over 50 years, while every major national priority — AI data centers, critical minerals, advanced manufacturing — requires faster physical build cycles. Compressing a data center construction timeline from four years to two years, as Davide frames it, is not an engineering efficiency story; it is a national competitiveness story. Physical world AI automation is the rate-limiting factor in whether the US can build the hardware substrate of its AI ambitions fast enough to matter."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "우리 사회가 AI로 회로 기판을 자동화하고 싶다면, 지금 당장 생성해야 할 것은 바로 데이터입니다. 데이터가 핵심입니다.",
+    "attribution": "Davide Asnaghi, CEO, Diode Computers"
+  },
+  "notable_quote_en": {
+    "text": "The last frontier standing is we don't have enough data. The data is the thing that we need to generate as a society if we want circuit boards to be automated by AI",
+    "attribution": "Davide Asnaghi, CEO, Diode Computers"
+  },
+  "notable_quote": {
+    "source_text_en": "The last frontier standing is we don't have enough data. The data is the thing that we need to generate as a society if we want circuit boards to be automated by AI",
+    "translation_ko": "우리 사회가 AI로 회로 기판을 자동화하고 싶다면, 지금 당장 생성해야 할 것은 바로 데이터입니다. 데이터가 핵심입니다.",
+    "speaker": "Davide Asnaghi",
+    "attribution": "Davide Asnaghi, CEO, Diode Computers",
+    "is_verbatim": true,
+    "translation_is_verbatim": false,
+    "source_char_start": 534,
+    "source_char_end": 698,
+    "match_score": 1.0
+  },
+  "keywords_ko": [
+    "물리 세계 AI",
+    "제조 적합 설계(DFM)",
+    "수직 통합",
+    "PCB 자동화",
+    "건설 생산성",
+    "재산업화"
+  ],
+  "keywords_en": [
+    "physical world AI",
+    "design for manufacturability",
+    "vertical integration",
+    "PCB automation",
+    "construction productivity",
+    "reindustrialization"
+  ],
+  "generated_at": "2026-06-11T10:24:23.979671"
+}

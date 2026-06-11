@@ -1,0 +1,88 @@
+```json
+{
+  "topics": [
+    "Immigration policy and Democratic messaging challenges",
+    "Anti-corruption as a foreign policy framework",
+    "Foreign policy values vs. strategic trade-offs",
+    "Domestic-foreign policy boundary questions",
+    "Book recommendations and personal reflections"
+  ],
+  "claims": [
+    {
+      "claim": "The United States is the most corrupt modern democracy, even before Trump",
+      "evidence": ["Attributed to Senator John Ossoff in a video described as having struck the speaker", "Cited as a 'true' claim by the guest"],
+      "speakers": ["Matt Duss"]
+    },
+    {
+      "claim": "South Dakota trusts are one of the main vehicles through which kleptocrats abroad hide their money",
+      "evidence": ["Guest notes South Dakota is 'apparently very popular' as a destination for international money laundering"],
+      "speakers": ["Matt Duss"]
+    },
+    {
+      "claim": "The Biden administration lost control of the border partly because it was caught between wanting an orderly border and projecting kindness",
+      "evidence": ["Kamala Harris told migrants 'Do not come' but the broad impression of friendliness still drew large numbers", "Trump maintained order through 'a constant pulse of cruelty'"],
+      "speakers": ["Ezra Klein", "Matt Duss"]
+    },
+    {
+      "claim": "The US and UK addressing their own roles as destinations for ill-gotten gains could have meaningful international anti-corruption impact",
+      "evidence": ["New York buildings described as 'parking spaces for ill-gotten gains'", "London cited as equivalent destination"],
+      "speakers": ["Matt Duss"]
+    },
+    {
+      "claim": "Support for Ukraine's defense has remained fairly steady despite Trump's divergence from Biden's approach",
+      "evidence": ["Guest attributes this to Americans' intuitive grasp of the justice of helping a country defend itself from a more powerful aggressor"],
+      "speakers": ["Matt Duss"]
+    },
+    {
+      "claim": "Democrats must answer two hard questions on immigration: how many people should legally immigrate, and how to project an orderly border without relying on cruelty",
+      "evidence": ["Trump blurred distinction between illegal and legal immigration", "Biden administration example of losing operational control"],
+      "speakers": ["Matt Duss"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "I want to be clear to folks in this region who are thinking about making that dangerous trek to the United States-Mexico border. Do not come. Do not come.",
+      "speaker": "Kamala Harris (quoted by Matt Duss)",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "even before Donald Trump came on the scene, the United States was the most corrupt modern democracy",
+      "speaker": "Matt Duss (quoting John Ossoff)",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "part of how Trump closed the border is a pulse of cruelty, like a constant pulse of cruelty",
+      "speaker": "Ezra Klein",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "a lot of these buildings are just, you know, they're parking spaces for ill-gotten gains",
+      "speaker": "Matt Duss",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "there is something about the justice and the morality of helping a country defend itself from the aggression of a more powerful neighbor that Americans get",
+      "speaker": "Matt Duss",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {"name": "Matt Duss", "title": "Foreign policy analyst / former Senate foreign policy adviser"}
+  ],
+  "keyword_candidates": [
+    "anti-corruption foreign policy",
+    "campaign finance reform",
+    "kleptocracy",
+    "South Dakota trusts",
+    "John Ossoff",
+    "immigration messaging",
+    "Ukraine support",
+    "domestic-foreign policy nexus"
+  ]
+}
+```

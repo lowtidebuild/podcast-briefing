@@ -1,0 +1,96 @@
+{
+  "id": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/vG1mkNEnUkdg/v11.mp3",
+  "slug": "2026-06-11-odd-lots",
+  "podcast": "Odd Lots",
+  "category": "Macro / Markets",
+  "title": "Odd Lots: Why Tomatoes Are the Most Expensive They've Been in Four Decades (Podcast)",
+  "published": "2026-06-11T08:00:00+00:00",
+  "link": "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/vG1mkNEnUkdg/v11.mp3",
+  "podcast_url": "https://www.bloomberg.com/oddlots",
+  "guest": {
+    "name": "Jacob Kremple",
+    "title": "SVP of Procurement and Merchandising, Baldor Specialty Foods"
+  },
+  "summary_ko": "토마토 가격이 40년 만에 최고치를 기록했다는 헤드라인은 단순한 날씨 이변의 결과가 아니라, 미국 식품 공급망의 구조적 취약성이 한꺼번에 드러난 사건입니다. 이 에피소드에서 Baldor Specialty Foods의 조달 책임자 Jacob Kremple은 토마토 가격 급등의 실제 메커니즘을 분해하며, 소비자가 체감하는 소매 가격이 왜 도매 가격보다 훨씬 느리게 내려오는지를 냉정하게 설명합니다.\n\n핵심 주장은 이렇습니다. 2025-2026년 겨울 플로리다에서 두 차례 발생한 냉해가 플로리다 작황의 80%를 소멸시켰고, 이와 동시에 멕시코산 토마토에 대한 17%대의 반덤핑 관세가 멕시코 생산량을 약 3~4% 감소시키면서 미국 시장의 공급 충격이 극대화되었습니다. 토마토 수요는 단기적으로 비탄력적이기 때문에, 공급이 100개 중 26개 사라지면 가격은 5월 평균 한 케이스당 65달러까지 치솟았으며, 이는 5년 평균 대비 수십 퍼센트 높은 수준입니다.\n\n그러나 더 중요한 통찰은 가격 전달 구조의 비대칭성입니다. 도매 가격은 6월에 5년 평균으로 회귀했지만, 소매 가격은 여전히 높게 유지됩니다. Kremple은 이를 소매업체의 정보 우위 활용으로 설명합니다. 소비자는 USDA 도매 데이터를 실시간으로 추적하지 않지만, 미슐랭 레스토랑의 구매 담당자는 그렇게 합니다. 덕분에 식품 서비스 시장은 도매가 하락 시 즉각 반영을 요구하는 반면, 소매업체는 '로켓처럼 오르고 깃털처럼 내려오는' 가격 구조를 유지할 수 있습니다. 소매업체 마진이 4~6%로 안정된 것처럼 보이지만, 그 이면에는 홈딜리버리 인프라, 고객 데이터 수익화, SKU 다양화에 따른 비용 증가가 소비자 가격 인상으로 전가되고 있습니다.\n\n비료 비용 상승, 미국-멕시코 무역 긴장, 서부 해안발 팀 드라이브 운송비가 8개월 사이 1만 달러에서 1만6000~1만7000달러로 급등한 현실은 이번 가격 급등이 일회성 날씨 이변이 아님을 시사합니다. 신선 식품 공급망 전반에 걸친 구조적 비용 압력이 누적되고 있으며, 소비자가 체감하는 식품 가격의 '새로운 바닥'은 과거보다 높아질 가능성이 큽니다.",
+  "summary_en": "Tomato prices at a 40-year high are not a weather story — they are a stress test of American fresh produce supply chains that reveals structural fragility few consumers understand. Jacob Kremple, SVP of Procurement at Baldor Specialty Foods, dissects the episode with the precision of someone who watches wholesale data daily and buys from growers on razor-thin margins.\n\nThe proximate cause is a confluence of shocks: two Florida freezes in winter 2025-2026 that wiped out 80% of the state's tomato crop, compounded by a 17%-plus anti-dumping tariff on Mexican tomatoes implemented in July 2025 that pushed Mexican growers — who supply 70% of U.S. winter tomatoes, a complete reversal from pre-NAFTA ratios — to cut production by 3-4%. Because short-run tomato demand is inelastic, removing 26 units from a 100-unit market drove wholesale prices to $65 a case in May, well above the five-year average. By June, wholesale had returned to normal — but retail had not.\n\nKremple's most pointed observation concerns this asymmetric price transmission. Supermarkets, insulated by consumer ignorance of USDA spot prices, raise prices like a rocket and lower them like a feather. Restaurant buyers, by contrast, log onto USDA data and call growers directly, making informational arbitrage impossible on the food-service side. Retail gross margins appear stable at 4-6%, but that stability is achieved partly by not passing wholesale declines through to consumers — a behavioral subsidy financed by shoppers who lack the time or incentive to comparison-shop commodity produce.\n\nThe structural pressures behind this episode are not unwinding. Fertilizer contracts locked in now will reset at higher prices within six months. Team-drive trucking from Salinas, California hit $16,000-17,000 — a level Kremple, a career produce veteran, calls unprecedented. Greenhouse tomato production, which drives the fastest-growing snacking segment, faces recurring viral outbreaks that force complete soil replacement. Taken together, the episode argues that the 'new floor' for fresh produce prices is being ratcheted upward by compounding structural costs, and that the consumer is the last to know.",
+  "key_points_ko": [
+    {
+      "heading": "날씨가 방아쇠였다면, 관세와 공급 집중이 화약이었다",
+      "body": "플로리다 냉해 두 차례가 미국 겨울 토마토 공급의 26%를 순식간에 소멸시켰지만, 진짜 취약성은 그 이전부터 누적되어 있었습니다. NAFTA 이후 멕시코의 Sinaloa, Sonora, Jalisco 지역이 미국 겨울 토마토 공급의 70%를 담당하는 구조가 형성되었는데, 2025년 7월 시행된 17%대 반덤핑 관세가 멕시코 생산자들의 투자 의욕을 꺾어 생산량이 3~4% 감소했습니다. 이 두 충격이 동시에 발생하면서 5년 평균 대비 수십 퍼센트 높은 케이스당 65달러라는 가격이 형성되었습니다. 단일 국가 의존도가 높은 공급망에서 무역 정책과 기상 이변이 동시에 작동할 때의 위험을 구체적으로 보여줍니다."
+    },
+    {
+      "heading": "소매업체는 도매가가 내려가도 소비자 가격을 유지할 수 있다 — 그리고 실제로 그렇게 한다",
+      "body": "6월에 토마토 도매가는 5년 평균으로 회귀했지만, 소매 가격은 그렇지 않습니다. Kremple은 이를 소비자의 정보 비대칭 때문이라고 명시합니다. 미슐랭 레스토랑의 구매 담당자는 USDA 실시간 도매 데이터를 조회하고 농가에 직접 전화를 걸지만, 일반 소비자는 그렇지 않습니다. 소매업체의 EBITDA 마진은 4~6%로 외견상 안정적이지만, 그 이면에는 홈딜리버리 인프라와 고객 데이터 수익화 비용이 소비자 가격 인상으로 전가되고 있습니다. 도매와 소매 쇠고기 가격의 스프레드가 과거 30%에서 현재 40~45%로 확대된 것은 이 현상이 토마토에만 국한되지 않음을 보여줍니다."
+    },
+    {
+      "heading": "물류 비용이 전례 없는 수준으로 치솟으며 식품 공급망의 '숨겨진 세금'이 되고 있다",
+      "body": "Salinas, California에서 동부 해안까지 팀 드라이브 트럭 운송비가 8개월 만에 1만~1만1000달러에서 1만6000~1만7000달러로 50% 이상 급등했으며, Kremple은 이를 '경력 전체를 통틀어 한 번도 보지 못한 수준'이라고 표현했습니다. 유가 상승과 이민 단속에 따른 국경 통과 트럭 기사 공급 감소가 복합적으로 작용한 결과입니다. 비료 계약도 현재 물량은 잠겨 있지만 6개월 내 재계약 시점이 도래하며, 농가들은 이미 Baldor에 비용 인상을 예고하고 있습니다. 이 비용들은 소비자 가격에 시차를 두고 전가될 것입니다."
+    },
+    {
+      "heading": "온실 토마토 붐이 만든 스낵 토마토 시장은 바이러스 리스크라는 구조적 약점을 안고 있다",
+      "body": "지난 15년간 Holland에서 시작된 온실 재배 기술이 캐나다 Leamington을 거쳐 멕시코로 확산되면서 스낵 토마토 시장이 폭발적으로 성장했습니다. 에이커당 수확량이 노지 대비 3~4배에 달하는 이 시스템은 Girl and Doug, Sunset의 'Flavor Bombs' 같은 고부가가치 품종을 가능하게 했습니다. 그러나 이 바이러스에 취약한 품종들은 감염 시 토양까지 완전히 교체해야 하는 방식으로 온실 전체를 초기화해야 합니다. 이번 가격 급등 이전부터 이미 이 바이러스 문제로 스낵 토마토 가격이 수년간 불안정했으며, 새로운 내성 품종이 도입되고 있지만 이는 진화하는 자연과의 지속적인 군비 경쟁입니다."
+    },
+    {
+      "heading": "식당은 식재료 가격 변동을 소매업체보다 훨씬 효과적으로 관리한다 — 구조가 다르기 때문이다",
+      "body": "식당의 총비용 중 식재료 비율은 약 30%에 불과하지만, 소매업체에서는 70~75%에 달합니다. 이 구조적 차이가 식당으로 하여금 매일 또는 매주 단위로 가격을 변경하며 시장 하락을 적극 활용하는 전략을 가능하게 합니다. 2019년 14~15달러였던 뉴욕 버거 메뉴 가격이 현재 22~23달러로 오른 것은 식재료비 상승(약 2달러 증가) 외에도 임금, 임대료, 배달 인프라 비용이 복합적으로 작용한 결과입니다. Kremple이 HelloFresh 재직 시 장기 가격 잠금을 선호했던 반면, 대부분의 셰프는 가격 유연성을 유지하며 시장 저점을 포착하는 전략을 택한다는 점은 산업별 비용 구조가 조달 행동을 근본적으로 결정한다는 것을 보여줍니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Weather pulled the trigger, but trade policy and supply concentration loaded the gun",
+      "body": "Two Florida freezes eliminated 26% of U.S. winter tomato supply overnight, but the underlying vulnerability was structural. Post-NAFTA, Mexico's Sinaloa, Sonora, and Jalisco regions came to supply 70% of U.S. winter tomatoes — a complete reversal from the pre-NAFTA 80/20 domestic split. The 17%-plus anti-dumping tariff imposed on Mexican tomatoes in July 2025 had already suppressed Mexican production by 3-4% before the freezes hit. The simultaneous firing of both shocks drove wholesale prices to $65 a case in May, far above the five-year average. This is a textbook illustration of what happens when a single-country-dependent supply chain is hit by weather and trade policy in the same season."
+    },
+    {
+      "heading": "Retailers pocket the wholesale recovery — and consumers are too uninformed to notice",
+      "body": "Wholesale tomato prices returned to five-year averages by June, but retail prices did not follow. Kremple attributes this directly to consumer informational disadvantage: restaurant buyers pull USDA spot data and call growers; supermarket shoppers do not. The beef market makes this structural, not anecdotal — the retail-to-wholesale price spread on beef has widened from roughly 30% twenty years ago to 40-45% today. Retailers' EBITDA margins appear stable at 4-6%, but that stability is partly achieved by not passing wholesale declines through to consumers while using elevated commodity headlines as cover to establish a higher price floor."
+    },
+    {
+      "heading": "Trucking costs have hit a level that industry veterans have never seen — and they feed into every food price",
+      "body": "A team-drive truck from Salinas, California to the East Coast cost $10,000-$11,000 eight months ago; it recently hit $16,000-$17,000, a level Kremple, a career produce veteran, called unprecedented. The dual drivers are oil prices and the shrinking supply of cross-border truckers following immigration enforcement crackdowns. Fertilizer costs are currently locked in for most large growers, but those contracts roll over within six months, and growers are already flagging price increases to Baldor in contracting conversations. These compounding input-cost pressures are building a structurally higher floor for fresh produce prices across the board."
+    },
+    {
+      "heading": "The snacking tomato boom is built on greenhouse infrastructure with a virus problem it hasn't fully solved",
+      "body": "Dutch greenhouse technology, adopted by Canadian growers in Leamington, Ontario and then scaled into Mexico, created the conditions for the explosion of high-flavor snacking tomato brands — Sunset's Flavor Bombs, Girl and Doug's specialty varieties — that now anchor premium produce sections and top restaurant menus. But the same varietal characteristics that maximize flavor also increase disease susceptibility; outbreaks require complete soil replacement and greenhouse restart, a costly process that made snacking tomato prices volatile well before this year's freeze. New resistant varieties are being introduced, but this is an arms race against an evolving pathogen, not a solved problem."
+    },
+    {
+      "heading": "Restaurants and retailers face the same input shocks but manage them in structurally opposite ways",
+      "body": "Food costs represent roughly 30% of a restaurant's total cost structure but 70-75% for a retailer — a difference that produces entirely different procurement behavior. Restaurants can afford to buy on daily or weekly pricing and capture market lows precisely because food costs are not their dominant expense; labor, rent, and delivery infrastructure are. A New York burger that cost $14-15 in 2019 now runs $22-23, but the food cost component of that increase is only about $2 — the rest reflects wage, rent, and tech infrastructure inflation. Kremple's own experience at HelloFresh, where he preferred long-term price locks to hit a consistent cost-per-meal target, illustrates that procurement strategy is a direct function of cost structure, not preference."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "소매업체들은 가격을 로켓처럼 올리고 깃털처럼 내립니다. 반면 우리 셰프들이나 구매 담당자들은 소비자보다 시장에 훨씬 정통하죠. USDA 웹사이트에서 가격을 직접 조회하고, 농가에 전화해서 실제 시세를 확인합니다.",
+    "attribution": "Jacob Kremple, SVP of Procurement and Merchandising, Baldor Specialty Foods"
+  },
+  "notable_quote_en": {
+    "text": "Retailers go up like a rocket and down like a feather. Our chefs and buying teams are much more knowledgeable about markets than the average consumer — they're going to log onto the USDA website and look at prices, they're going to be talking with farmers about projections.",
+    "attribution": "Jacob Kremple, SVP of Procurement and Merchandising, Baldor Specialty Foods"
+  },
+  "notable_quote": {
+    "source_text_en": "Retailers go up like a rocket and down like a feather. Our chefs and buying teams are much more knowledgeable about markets than the average consumer — they're going to log onto the USDA website and look at prices, they're going to be talking with farmers about projections.",
+    "translation_ko": "소매업체들은 가격을 로켓처럼 올리고 깃털처럼 내립니다. 반면 우리 셰프들이나 구매 담당자들은 소비자보다 시장에 훨씬 정통하죠. USDA 웹사이트에서 가격을 직접 조회하고, 농가에 전화해서 실제 시세를 확인합니다.",
+    "speaker": "Jacob Kremple",
+    "attribution": "Jacob Kremple, SVP of Procurement and Merchandising, Baldor Specialty Foods",
+    "is_verbatim": false,
+    "translation_is_verbatim": false,
+    "source_char_start": null,
+    "source_char_end": null,
+    "match_score": 0.334
+  },
+  "keywords_ko": [
+    "신선 농산물 공급망",
+    "반덤핑 관세",
+    "소매 가격 비대칭",
+    "온실 토마토 생산",
+    "식재료 비용 구조",
+    "도매-소매 스프레드"
+  ],
+  "keywords_en": [
+    "fresh produce supply chain",
+    "anti-dumping tariff",
+    "retail price asymmetry",
+    "greenhouse tomato production",
+    "food cost structure",
+    "wholesale-retail spread"
+  ],
+  "generated_at": "2026-06-11T10:20:18.525666"
+}

@@ -1,0 +1,88 @@
+```json
+{
+  "guest": {
+    "name": "Matt Duss",
+    "title": "Executive Vice President, Center for International Policy; former foreign policy advisor to Senator Bernie Sanders"
+  },
+  "summary_ko": "이 에피소드에서 Ezra Klein은 Center for International Policy의 Matt Duss와 함께, 가자 전쟁이 민주당 내 외교정책 노선에 어떤 균열을 만들어냈는지, 그리고 좌파적 외교정책 비전이 무엇인지를 깊이 탐구한다. 핵심 논지는 다음과 같다: 가자 사태는 이라크 전쟁이 2008년 민주당을 재편했던 것처럼, 향후 민주당의 외교정책 인적 구성과 전략적 방향을 근본적으로 바꾸는 분기점이 되고 있다는 것이다.\n\nDuss는 Biden 행정부가 이스라엘의 국제인도법 위반에 대해 '평가할 수 없다'는 공식 입장을 반복함으로써 조직적 허위정보 캠페인을 펼쳤다고 비판한다. 우크라이나 침공 한 달 만에 러시아의 전쟁범죄를 선언했던 Blinken 국무장관의 사례와 비교하면, 이 이중 기준은 더욱 선명하게 드러난다. Biden 대통령 본인이 군사원조 조건화를 '터무니없는 생각'이라고 일찌감치 선을 그었고, 이것이 참모진이 대안적 정책을 논의할 공간 자체를 차단했다는 것이 Duss의 분석이다. 미시간 상원 민주당 경선에서 Abdul El-Sayed가 선두를 달리고, 뉴저지에서 Adam Hamawi가 반전 플랫폼으로 승리하는 등, 유권자들은 이미 가자 문제를 민주당 후보의 도덕적 신뢰성을 가늠하는 기준으로 삼고 있다.\n\n보다 넓은 외교정책 비전으로 나아가, Duss는 미국의 글로벌 군사패권이 안보·번영·자유를 실제로 얼마나 제공하는지 냉철하게 재검토해야 한다고 주장한다. '규칙 기반 국제질서'는 이중 기준 때문에 정당성을 잃었지만, 좌파의 해법은 우파처럼 미국이 어떤 규칙에도 구속받지 말아야 한다는 것이 아니라, 인권과 민주주의, 노동자 중심의 무역을 진정으로 구현하는 다자 체제를 건설하는 것이어야 한다고 역설한다. 의회의 전쟁 권한 회복, 미국의 클렙토크라시 자금세탁 허브 역할 근절, 그리고 U.S.-China 관계를 '전략적 경쟁'이 아닌 공존의 틀로 재정의하는 것이 구체적인 과제로 제시된다.\n\n마지막으로 에피소드는 이민과 반부패라는 국내외 교차 이슈로 확장된다. Duss는 Senator John Ossoff의 말을 인용하며 Trump 등장 이전에도 미국이 현대 민주주의 국가 중 가장 부패한 나라였다고 지적하고, South Dakota 신탁과 뉴욕 부동산이 국제 클렙토크라시의 주요 은닉처가 되고 있음을 상기시킨다. 이민 문제에서도 민주당은 합법 이민의 규모와 국경 질서를 잔혹함에 의존하지 않고 어떻게 유지할 것인지에 대해 명확한 답을 내놓아야 한다고 강조한다.",
+  "summary_en": "The core thesis of this episode is that the Gaza war represents a foreign-policy rupture for the Democratic Party comparable to the Iraq War's transformation of the party after 2003—and that Matt Duss, Executive Vice President of the Center for International Policy, believes the left now has both the obligation and the political opening to articulate a genuinely different foreign policy vision.\n\nDuss makes a pointed case that the Biden administration ran a systematic disinformation campaign by repeatedly claiming it could not assess Israeli violations of international humanitarian law, even as Secretary Blinken had assessed Russian war crimes within one month of the Ukraine invasion. Biden's personal veto of any real pressure on Israel—he called conditioning military aid 'a preposterous idea' as early as 2020—set guardrails that prevented staff from pursuing alternatives. Electoral consequences are already visible: Abdul El-Sayed leads polls in the Michigan Democratic Senate primary, Adam Hamawi won New Jersey's House primary on an anti-war platform, and Brad Lander is ahead of Dan Goldman in New York, with Gaza serving as a credibility litmus test analogous to the Iraq War vote.\n\nOn the broader vision, Duss argues American global military hegemony deserves hard scrutiny on what it is actually delivering in security, prosperity, and freedom. He distinguishes the left's critique of the 'rules-based international order' from the right's: where Trump and Vance want America unbound by any rules, the left wants genuinely binding multilateral rules—on human rights, democracy, and working-class trade—that the U.S. has itself repeatedly violated. Practically, this means restoring congressional war powers, applying existing law (Leahy Law, Arms Export Control Act) consistently to Israel and others, and reframing the U.S.-China relationship as coexistence rather than strategic competition, since treating it as competition risks eventual conflict.\n\nThe episode closes by extending the argument to anti-corruption and immigration. Duss invokes Senator John Ossoff's observation that the United States was already the most corrupt modern democracy before Trump, pointing to South Dakota trusts and New York real estate as global kleptocracy vehicles. On immigration, he argues Democrats must answer two unresolved questions—how many people should legally immigrate, and how to maintain an orderly border without relying on cruelty—if they are to credibly challenge Trump on the issue.",
+  "key_points_ko": [
+    {
+      "heading": "가자 전쟁은 민주당 외교정책의 이라크 전쟁급 분기점",
+      "body": "Duss는 가자 사태가 2003년 이라크 전쟁이 민주당을 재편했던 것과 유사한 세대적 외교정책 균열을 만들고 있다고 주장한다. Brian Schatz 상원의원은 다음 민주당 행정부에서 '완전히 새로운 외교정책 참모진'이 필요하다고 트윗했고, Chris Van Hollen은 뉴욕타임스 기고에서 Netanyahu에게 폭탄을 보내는 데 찬성표를 던진 후보는 경선에서 신뢰받지 못할 것이라고 경고했다. 미시간·뉴저지·뉴욕 경선 결과는 이 균열이 이미 선거 정치로 이어지고 있음을 보여준다. 이라크 전쟁 때와 달리 이번에는 정책 입안자들에 대한 실질적 책임 추궁이 이루어질 수 있다는 기대감이 있다.",
+      "source_chunks": [0, 1]
+    },
+    {
+      "heading": "Biden 행정부는 이스라엘 IHL 위반에 대해 조직적 허위정보를 유포했다",
+      "body": "Biden 행정부는 이스라엘의 국제인도법 위반을 '평가할 수 없다'는 입장을 반복했지만, 이는 우크라이나 침공 한 달 만에 러시아의 전쟁범죄를 선언한 Blinken의 행동과 극명하게 대비된다. 팔레스타인 인권단체, 국제 NGO, 이스라엘 단체들 모두 잔혹 행위를 보고하고 있었음에도 행정부는 '보이지 않는다'고 주장했다. Biden 대통령 본인이 군사원조 조건화를 '터무니없는 생각'이라 규정함으로써, 참모진이 실질적인 압박 방안을 논의할 공간 자체가 차단됐다. 2,000파운드 폭탄 한 차례 선적 보류 외에는 어떤 실질적 결과도 없었다.",
+      "source_chunks": [0]
+    },
+    {
+      "heading": "'규칙 기반 질서'에 대한 좌파와 우파의 비판은 근본적으로 다르다",
+      "body": "Duss와 Klein은 규칙 기반 국제질서가 이중 기준으로 인해 정당성을 상실했다는 데 동의하지만, 그 해법은 전혀 다르다고 강조한다. Trump·Vance 노선은 미국이 어떤 규칙에도 구속받지 말아야 한다는 제로섬 논리인 반면, 좌파는 인권·민주주의·노동자 중심 무역을 실질적으로 구현하는 다자 체제를 구축해야 한다고 주장한다. AOC는 뮌헨에서 현 상황을 '규칙 기반 질서 이전 단계'로 규정하며 이를 기회로 삼아야 한다고 발언했다. 이라크 전쟁이 일어나지 못하도록 막을 수 있었던 것도 바로 진정한 규칙 기반 질서였을 것이라는 점이 좌파 비판의 핵심 논거다.",
+      "source_chunks": [1]
+    },
+    {
+      "heading": "미국의 글로벌 군사패권과 U.S.-China 경쟁 프레임은 재검토가 필요하다",
+      "body": "Duss는 미국의 글로벌 군사 패권이 안보·번영·자유를 실제로 얼마나 제공하는지 냉철하게 따져봐야 한다고 주장한다. U.S.-China 관계를 '전략적 경쟁'으로 정의하면 결국 충돌로 귀결될 가능성이 높으며, 대신 공존과 협력의 틀이 필요하다고 강조한다. Biden 행정부의 중국산 전기차 고율관세는 경쟁 우선 논리가 소비자 실질 이익을 희생시킨 사례로 언급된다. 의회가 헌법상 전쟁 권한을 회복하는 것이 대통령의 외교정책 모험주의를 제어하는 최소한의 안전장치라는 점도 강조된다.",
+      "source_chunks": [1]
+    },
+    {
+      "heading": "반부패는 국내외를 연결하는 외교정책 프레임이 될 수 있다",
+      "body": "Duss는 Senator John Ossoff의 발언을 인용하며, Trump 등장 이전에도 미국이 현대 민주주의 국가 중 가장 부패한 나라였다고 지적한다. South Dakota 신탁과 뉴욕·런던 부동산은 전 세계 클렙토크라시 자금이 은닉되는 주요 경로로, 미국과 영국이 이 문제를 직접 해결한다면 국제 반부패 노력에 실질적 영향을 미칠 수 있다. 이민 문제에서도 민주당은 합법 이민 규모와 잔혹함에 의존하지 않는 국경 질서 유지 방안에 대해 명확한 답을 내놓아야 한다. 이 두 과제는 민주당이 국내 정치적 신뢰를 회복하는 동시에 외교정책의 도덕적 일관성을 갖추기 위해 반드시 해결해야 할 문제다.",
+      "source_chunks": [2]
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Gaza is a generational foreign-policy rupture for Democrats, akin to Iraq",
+      "body": "Duss argues that Gaza is fracturing the Democratic Party's foreign-policy consensus in the same way the Iraq War did after 2003, with lasting consequences for personnel and strategy. Senator Brian Schatz publicly called for 'a whole new crop of foreign policy staffers' in the next Democratic administration, while Senator Chris Van Hollen warned in the New York Times that primary voters would not trust candidates who voted to send Netanyahu bombs. Electoral evidence is already accumulating: Abdul El-Sayed leads the Michigan Democratic Senate primary, Adam Hamawi won New Jersey's House primary on an anti-war platform, and Brad Lander is ahead of Dan Goldman in New York partly on Gaza. Unlike the Iraq era, advocates see a real possibility of accountability for the officials who carried out Biden's Gaza policy.",
+      "source_chunks": [0, 1]
+    },
+    {
+      "heading": "The Biden administration ran a disinformation campaign on Israeli IHL violations",
+      "body": "Duss contends that the Biden administration's repeated claim that it 'had not made an assessment' of Israeli violations of international humanitarian law was a deliberate campaign of disinformation. The contrast with Secretary Blinken's assessment of Russian war crimes within one month of the February 2022 Ukraine invasion is stark. Palestinian human rights groups, international NGOs, and Israeli organizations were all publicly documenting atrocities that the administration claimed it could not see. Biden's personal veto on conditioning military aid—he called it 'a preposterous idea' as early as the 2020 primary—foreclosed internal debate, and only one shipment of 2,000-pound bombs was ever withheld.",
+      "source_chunks": [0]
+    },
+    {
+      "heading": "The left's critique of the rules-based order differs fundamentally from the right's",
+      "body": "While both left and right agree that the 'rules-based international order' has lost credibility through double standards, their prescriptions diverge sharply. The Trump-Vance position holds that America should be unbound by any multilateral rules—a zero-sum rejection of the framework. The left's position, articulated by Duss and illustrated by AOC's Munich speech, is that the current moment is a 'pre-rules-based order' and an opportunity to build genuinely binding rules centered on human rights, democracy, and trade that benefits working people. The left's implicit argument is that real multilateral rules would have prevented Iraq; the right's response is that rules constrain American power.",
+      "source_chunks": [1]
+    },
+    {
+      "heading": "American military hegemony and the China-competition frame need hard scrutiny",
+      "body": "Duss argues that the U.S. must take a 'very hard look' at what global military hegemony is actually delivering in terms of security, prosperity, and freedom. Defining the U.S.-China relationship as strategic competition, he warns, will eventually produce conflict; the alternative is a framework of coexistence and cooperation. Biden's large tariffs on Chinese EVs are cited as an example where competition-framing sacrificed real consumer benefits. Restoring congressional war powers—which Republicans blocked even on Venezuela, Iran, and Cuba—is identified as a minimum check on presidential foreign-policy adventurism.",
+      "source_chunks": [1]
+    },
+    {
+      "heading": "Anti-corruption offers a domestic-foreign policy bridge; immigration remains a hard problem",
+      "body": "Duss invokes Senator John Ossoff's observation that the United States was already the most corrupt modern democracy before Trump, a claim he endorses as true. South Dakota trusts and New York real estate are identified as major vehicles for international kleptocracy, and U.S.-UK action to close these loopholes could meaningfully impact global corruption flows. On immigration, Duss argues Democrats face two unresolved questions: how many people should legally immigrate, and how to project an orderly border without relying on cruelty as Trump does. The Biden administration's experience—where Kamala Harris told migrants 'do not come' but a broad impression of friendliness persisted—illustrates the difficulty of solving the second question without answering the first.",
+      "source_chunks": [2]
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "민주당 대통령 후보가 된다면, 특히 입법자로서 Netanyahu 정부가 가자지구에 완전한 봉쇄를 부과하는 동안 그에게 폭탄을 보내는 데 찬성표를 던졌다면, 이 문제들에 대한 도덕적·전략적 명확성의 기록이 없는 어떤 후보도 민주당 경선 유권자들의 신뢰를 얻지 못할 것이다.",
+    "attribution": "Chris Van Hollen, 미국 상원의원 (메릴랜드)"
+  },
+  "notable_quote_en": {
+    "text": "Primary voters won't trust any Democratic presidential candidate who does not have a record of moral and strategic clarity on these issues, especially if, as a legislator, he or she voted to send Mr. Netanyahu bombs even as his government imposed a total blockade on Gaza.",
+    "attribution": "Chris Van Hollen, U.S. Senator (Maryland)"
+  },
+  "keywords_en": [
+    "Gaza Democratic Party rupture",
+    "conditioning military aid Israel",
+    "rules-based international order",
+    "American military hegemony",
+    "anti-corruption kleptocracy",
+    "congressional war powers"
+  ],
+  "keywords_ko": [
+    "가자 민주당 균열",
+    "이스라엘 군사원조 조건화",
+    "규칙 기반 국제질서",
+    "미국 군사패권",
+    "반부패·클렙토크라시",
+    "의회 전쟁 권한"
+  ]
+}
+```
