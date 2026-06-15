@@ -1,0 +1,484 @@
+[
+  {
+    "chunk_index": 0,
+    "char_start": 0,
+    "char_end": 40797,
+    "topics": [
+      "Anthropic Fable 5 model release and developer backlash",
+      "AI censorship, surveillance, and regulatory capture",
+      "Open source AI models vs. closed proprietary models",
+      "Bernie Sanders AI Sovereign Wealth Fund proposal",
+      "Bioweapon and cybersecurity guardrails on AI models"
+    ],
+    "claims": [
+      {
+        "claim": "Anthropic's Fable 5 retains all prompt, output, and context data for at least 30 days with no exceptions, even for enterprise customers who had signed zero data retention agreements.",
+        "evidence": [
+          "Sacks states enterprise customers with zero data retention agreements have no choice but to comply or not use Fable/Mythos class models",
+          "Anthropic stores all prompt data entered for at least 30 days per the discussion",
+          "Agent platforms passing memories, files, and data in giant context windows are all subject to this retention"
+        ],
+        "speakers": [
+          "David Sacks",
+          "Jason Calacanis"
+        ]
+      },
+      {
+        "claim": "Anthropic was secretly downgrading users to lesser models without disclosure when it determined they were engaged in frontier AI or sensitive research, while still charging them full price.",
+        "evidence": [
+          "Sacks notes Anthropic would 'nerf their models' without telling users and 'still charge you for the product that you thought you were getting'",
+          "Ben Thompson from Stratechery was kicked out for asking about the relationship between cancer risk and GLP-1s",
+          "A user asking about mitochondria was downgraded",
+          "Buried in a 319-page document per Jason's summary"
+        ],
+        "speakers": [
+          "David Sacks",
+          "Jason Calacanis"
+        ]
+      },
+      {
+        "claim": "Anthropic's safety restrictions on genomic research are forcing biotech companies like Ohalo to adopt Chinese open source models, which are currently superior to American open source alternatives.",
+        "evidence": [
+          "Freeberg describes losing ability to design genetic constructs and RNA guides for gene editing using Anthropic models over the last couple of weeks",
+          "Freeberg states 'the best open source models today, they're Chinese'",
+          "Freeberg says startups and large enterprises are 'making that move' to Chinese open source models"
+        ],
+        "speakers": [
+          "David Friedberg"
+        ]
+      },
+      {
+        "claim": "Anthropic is engaged in regulatory capture by simultaneously restricting its own models and advocating for a new government regulatory agency (like an FAA or FDA) to approve all AI models, which would effectively ban open source competitors.",
+        "evidence": [
+          "Sacks said eight months ago Anthropic was engaged in 'a very sophisticated regulatory capture campaign based on fear mongering'",
+          "Dario wrote a new blog post calling for a new regulatory agency like an FAA or FDA to approve all models",
+          "Sacks argues the regulation is designed to 'scuttle and sandbag open source models because they don't have the ability to be regulated'"
+        ],
+        "speakers": [
+          "David Sacks",
+          "Chamath Palihapitiya"
+        ]
+      },
+      {
+        "claim": "Building compute infrastructure to support open source AI at scale now costs approximately $100 billion per gigawatt, a 20x increase from initial estimates of $4-5 billion, creating a massive capital moat.",
+        "evidence": [
+          "Chamath states 'a gigawatt now costs $100 billion'",
+          "He says 'when I started this project, it was like four or 5 billion. And it's increased by 20x'",
+          "Chamath bought 2,000 acres in Arizona zoned for a two-gigawatt data center and is now considering building it himself rather than flipping it"
+        ],
+        "speakers": [
+          "Chamath Palihapitiya"
+        ]
+      },
+      {
+        "claim": "Bernie Sanders proposed a one-time 50% tax on the stock of the largest AI companies, including OpenAI, Anthropic, and xAI, to create a government sovereign wealth fund with public voting rights and board representation.",
+        "evidence": [
+          "Sanders published an op-ed in the New York Times on June 1st titled 'AI is a public resource. You should own half of it.'",
+          "He announced the American AI Sovereign Wealth Fund Act",
+          "Sanders argued AI is built on 'essentially stolen' books, songs, journalism, and scientific research"
+        ],
+        "speakers": [
+          "Jason Calacanis",
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "AI safety restrictions cannot meaningfully prevent misuse because open source models are already fully published and impossible to 'turn off', making output-level regulation more practical than access-level restriction.",
+        "evidence": [
+          "Freeberg states 'the models that are open source are already fully available, fully published, and anyone can access and use them'",
+          "He compares it to publishing a book: 'once the book has been printed, anyone can use their own Xerox machine at home to make copies'",
+          "Freeberg says 'you can't turn off the internet, and you can't turn off the typewriter, and you can't turn off the Gutenberg press'"
+        ],
+        "speakers": [
+          "David Friedberg"
+        ]
+      },
+      {
+        "claim": "The International Gene Synthesis Consortium of 2009 established voluntary bioweapon screening for synthetic DNA/RNA orders, and major AI labs are now supporting mandatory codification of this existing screening system.",
+        "evidence": [
+          "Sacks says major AI labs and signatories sent a letter 'In Support of Mandatory Nucleic Acid Synthetic Screening and Recordkeeping'",
+          "The voluntary agreement has been in place for over 15 years",
+          "Oligosynthesis company CEOs have also signed on to codify this process"
+        ],
+        "speakers": [
+          "David Sacks"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "One is Anthropic has essentially shown their hand, which is that they will increasingly take in prompts, evaluate the prompts, and decide what to do with them before they generate output to you. And I think if you were a person, you should generally now think there's a risk of censorship. If you're a company, I think it's almost a non starter.",
+        "speaker": "Chamath Palihapitiya",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "What are the best open source models today? They're Chinese. Yeah, they are. That is a major concern. The American open source models are not as good as the Chinese open source models. So the restrictions that Anthropic and others are putting upon themselves and upon the industry is forcing a lot of companies to go and get open source Chinese models and run them.",
+        "speaker": "David Friedberg",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "They would degrade the product. They would degrade what they show you. They would nerf their models if it decided, in Anthropic's sole discretion, that you are not worthy of having access to that level of information. So they're creating a new level of AI haves and have-nots.",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "At the same time that Anthropic is engaging in this potentially anti-competitive behavior, they want to restrict your options. It's not good enough for them just to win in the free market. They're calling on the government to regulate and stop potential competitors and limit the number of models that you have access to.",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "A gigawatt now costs $100 billion guys. Okay, so there's a huge capital moat. That's a problem here as well, Sachs, which even if we wanted to go and endorse and breathe life into the open source model community, where the hell am I going to come up with $100 billion. Now, when I started this project, it was like four or 5 billion. And it's increased by 20x.",
+        "speaker": "Chamath Palihapitiya",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Technology is fundamentally deterministic. Whatever is possible will be tried at least once. And so we've already let this thing out of the box. So this idea that all of a sudden we can manage to get it back in and we're gonna let a private citizen or a set of private citizens adjudicate what and to whom is insane.",
+        "speaker": "David Friedberg",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [],
+    "keyword_candidates": [
+      "Anthropic Fable 5",
+      "Mythos model",
+      "regulatory capture",
+      "AI sovereign wealth fund",
+      "open source AI models",
+      "nucleic acid synthetic screening",
+      "Dario Amodei",
+      "Bernie Sanders American AI Sovereign Wealth Fund Act"
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "char_start": 40797,
+    "char_end": 80651,
+    "topics": [
+      "AI nationalization and sovereign wealth fund proposals",
+      "AI job displacement debate",
+      "US inflation and Iran war economic impact",
+      "Los Angeles mayoral election integrity concerns",
+      "Venture capital valuation scaling data"
+    ],
+    "claims": [
+      {
+        "claim": "Dario Amodei specifically predicted 50% job loss for entry-level knowledge workers in the next one to five years, which has already been refuted by data.",
+        "evidence": [
+          "May 2025 jobs report showed 172,000 new jobs, over twice what economists expected",
+          "4.3% unemployment rate described as at record lows",
+          "Software developer jobs at a three-year high"
+        ],
+        "speakers": [
+          "David Sacks",
+          "Jason Calacanis"
+        ]
+      },
+      {
+        "claim": "AI creates more economic value on the revenue side than the cost-cutting side, leading to net job creation rather than job loss.",
+        "evidence": [
+          "Freeberg's company planning to add 15 headcount to engineering squads due to AI-enabled opportunities",
+          "Dario's $40 billion revenue business grew because people are creating new products, not firing customer support reps",
+          "One engineer can now do 100-1000 times what they used to be able to do"
+        ],
+        "speakers": [
+          "David Friedberg"
+        ]
+      },
+      {
+        "claim": "The Social Security Trust Fund should be restructured into an equity-owning sovereign wealth fund with individual accounts rather than a defined benefit system.",
+        "evidence": [
+          "The Social Security Trust Fund currently holds only one certificate—a $4 trillion US Treasury bond",
+          "Trust funds are currently only allowed to own treasuries",
+          "Canadian and Australian superannuation models have proven this works at scale"
+        ],
+        "speakers": [
+          "David Friedberg",
+          "Chamath Palihapitiya"
+        ]
+      },
+      {
+        "claim": "AI companies face fundamentally different economics than internet companies because every marginal user has a real compute cost, justifying government equity stakes.",
+        "evidence": [
+          "Every new AI user taxes a GPU, needs electrons and memory",
+          "Internet companies like Facebook and Google had effectively zero marginal cost per new user",
+          "Analogy: like transportation companies riding on federally-built interstate highways"
+        ],
+        "speakers": [
+          "Chamath Palihapitiya"
+        ]
+      },
+      {
+        "claim": "California's election laws, in combination, have transformed elections into an appointment system rather than a free democratic vote.",
+        "evidence": [
+          "Assembly Bill 1921 legalized unlimited ballot harvesting—any individual can collect unlimited ballots regardless of relationship",
+          "A subsequent law made it mandatory that every registered California voter automatically receives a ballot",
+          "Voter registration requires no proof of citizenship; a gym membership card is sufficient ID"
+        ],
+        "speakers": [
+          "David Friedberg"
+        ]
+      },
+      {
+        "claim": "The statistical distribution of LA mayoral votes across in-person, pre-election mail-in, and post-election mail-in ballots shows a highly anomalous pattern.",
+        "evidence": [
+          "In-person election day: Pratt 35%, Bass 29%, Rahman 26%",
+          "Mail-in before election day: Bass 38%, Pratt 28%, Rahman 20%",
+          "Mail-in after election day: Rahman 37%, Bass 35%, Pratt 19%—Pratt's late mail-in share dropped by one third while Rahman's increased by 80%"
+        ],
+        "speakers": [
+          "David Friedberg"
+        ]
+      },
+      {
+        "claim": "CPI hit 4.2% year-over-year in May 2026, the highest since April 2023, and PPI hit 6.5%, the highest since end of 2022.",
+        "evidence": [
+          "CPI 4.2% year-over-year, highest since April 2023",
+          "PPI 6.5% year-over-year, highest since end of 2022",
+          "European Central Bank raised rates a quarter point on Thursday, its first rate hike since September 2023",
+          "Polymarket odds of Fed hiking in 2026 at 49%, up from under 10% before Iran war started"
+        ],
+        "speakers": [
+          "Jason Calacanis",
+          "Chamath Palihapitiya",
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "At the Liquidity conference, Thomas Lafonte presented data showing valuation scaling odds increase at higher valuation tiers, with 31% of centacorns reaching $1 trillion market cap.",
+        "evidence": [
+          "8% odds of unicorn ($1B) reaching decacorn ($10B)",
+          "13% odds of decacorn reaching centacorn ($100B)",
+          "31% odds of centacorn reaching $1 trillion market cap"
+        ],
+        "speakers": [
+          "David Sacks",
+          "Jason Calacanis"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "There is no job loss with AI, I will say it again, I've said it 1000 times, and I will say it again, and again, and again, what I see on the ground, and what I've seen at dozens of companies... The idea that AI is going to destroy jobs is a Luddite idea that is being disproven every single day.",
+        "speaker": "David Friedberg",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Dario said specifically 50% job loss for entry level knowledge workers in the next one to five years. And he says that one year ago. I think that's already been refuted.",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "You are in charge of this monster. But you're acting as if you can't stop the monster while you're building the monster.",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The core problem with wealth inequality in this country, the core problem with inflation in this country, the core problem, all of it roots back to excess government spending. End of story.",
+        "speaker": "Chamath Palihapitiya",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "There is nothing illegal or fraudulent going on. In fact, the system is operating exactly as intended. It has been set up and structured in a way that with the right construct, you can get an individual appointed, not elected, but appointed to a particular role in government under a, quote, free election in California.",
+        "speaker": "David Friedberg",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The incremental cost of performing AI is excessive and large. That contrasts and compares to the incremental cost before AI, which was zero.",
+        "speaker": "Chamath Palihapitiya",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Thomas Lafonte",
+        "title": "Venture Capital Analyst (presented at Liquidity and All-In Summit)"
+      },
+      {
+        "name": "Sarah Friar",
+        "title": "CFO, OpenAI"
+      }
+    ],
+    "keyword_candidates": [
+      "sovereign wealth fund",
+      "ballot harvesting",
+      "Social Security Trust Fund reform",
+      "CPI PPI inflation 2026",
+      "LA mayoral election Nipia Rahman Spencer Pratt",
+      "public benefit corporation",
+      "trillicorn",
+      "Dario Amodei job loss prediction"
+    ]
+  },
+  {
+    "chunk_index": 2,
+    "char_start": 80651,
+    "char_end": 102499,
+    "topics": [
+      "California election integrity and ballot fraud allegations",
+      "Mail-in vs walk-in ballot statistical discrepancy",
+      "Ballot harvesting legality and controversy",
+      "Media bias and election coverage",
+      "Voter ID reform and congressional solutions"
+    ],
+    "claims": [
+      {
+        "claim": "California sends ballots to approximately 23-24 million registered voters but only about 9.5 million people vote, leaving ~14 million ballots unaccounted for.",
+        "evidence": [
+          "23-24 million ballots sent out",
+          "only 9.5 million votes cast",
+          "ballots pile up in apartment building mailboxes sent to people no longer living there"
+        ],
+        "speakers": [
+          "Sacks"
+        ]
+      },
+      {
+        "claim": "California's signature verification standard is only 40% match accuracy, and witnesses on ballots are unregistered and unverifiable.",
+        "evidence": [
+          "machine approves signatures at 40% match",
+          "no database of witnesses",
+          "witnesses can sign with any squiggle",
+          "no chain of custody for ballots"
+        ],
+        "speakers": [
+          "Sacks"
+        ]
+      },
+      {
+        "claim": "Brenda Lee Brown Armstrong pled guilty in 2026 to paying people $2-$3 on Skid Row to vote.",
+        "evidence": [
+          "guilty plea in 2026",
+          "$2 or $3 payments",
+          "Nick Shirley video documenting Skid Row voting payments"
+        ],
+        "speakers": [
+          "Chamath",
+          "Sacks"
+        ]
+      },
+      {
+        "claim": "Gavin Newsom signed a law making it virtually impossible to audit California election results.",
+        "evidence": [
+          "law signed by Newsom",
+          "explicitly restricts audit capability",
+          "speakers argue this shields potential fraud from investigation"
+        ],
+        "speakers": [
+          "Sacks",
+          "Chamath"
+        ]
+      },
+      {
+        "claim": "The statistical probability of the mail-in vs walk-in ballot discrepancy in the LA mayoral race happening legitimately is approximately one in a trillion.",
+        "evidence": [
+          "speakers unable to provide a steel-man explanation for the discrepancy",
+          "upward of 10,000 votes potentially swung",
+          "walk-in and mail-in ballot split described as statistically impossible"
+        ],
+        "speakers": [
+          "Friedberg",
+          "Sacks"
+        ]
+      },
+      {
+        "claim": "Congress, not state actors, is the fundamental party responsible for fixing election integrity because federal laws could mandate voter ID and prohibit non-citizen voting.",
+        "evidence": [
+          "federal government already tracks IDs via driver's licenses and taxes",
+          "current system allows registration with a gym membership card",
+          "ballot harvesting of 100 ballots from apartment lobbies is legal"
+        ],
+        "speakers": [
+          "Friedberg"
+        ]
+      },
+      {
+        "claim": "Karen Bass's ally Karen Rahman registered to run one hour before the deadline and is friends with Bass, suggesting a coordinated strategy to box Spencer Pratt out of the general election.",
+        "evidence": [
+          "Rahman registered one hour before deadline",
+          "Bass and Rahman are described as friends",
+          "two Democrats at top of ticket would prevent Pratt from reaching general ballot"
+        ],
+        "speakers": [
+          "Chamath"
+        ]
+      },
+      {
+        "claim": "The mainstream media is failing to investigate the statistical anomaly in the LA election because doing so would appear to support Trump politically.",
+        "evidence": [
+          "media described as choosing between accountability and political alignment",
+          "questioning election integrity labeled as being 'MAGA'",
+          "speakers note media was previously self-described as 'guardians of democracy'"
+        ],
+        "speakers": [
+          "Chamath",
+          "Sacks"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "The party told you to reject the evidence of your eyes and ears. It was their final, most essential command. This is obvious. Just look at the charts. Look at the data. We know something crooked happened. It's statistically impossible.",
+        "speaker": "Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The only thing we don't know is whether it was illegal fraud or legal fraud, meaning they've created so many loopholes and so much corruption in the law that what they did is possibly legal. It is still corrupt. It is still crooked. It is ridiculous. It's unethical. It's immoral.",
+        "speaker": "Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The system itself has become a system of appointment, not a system of election.",
+        "speaker": "Friedberg",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "We are slowly seeing that that party increasingly does not have the ability to govern a state this dynamic and this complicated. They've changed the rules to make sure that that monopoly is enforced.",
+        "speaker": "Chamath",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Both sides cheat. Both sides bend the rules. One side does it by limiting access. The other does it by providing too much access.",
+        "speaker": "",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "If you can't be bothered to get a driver's license or a passport, maybe you don't need to vote.",
+        "speaker": "",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [],
+    "keyword_candidates": [
+      "ballot harvesting",
+      "voter ID",
+      "California election fraud",
+      "Spencer Pratt",
+      "Karen Rahman",
+      "Karen Bass",
+      "Skid Row voting",
+      "Brenda Lee Brown Armstrong",
+      "Heritage Foundation",
+      "Steve Hilton",
+      "mail-in ballots",
+      "voter rolls"
+    ]
+  }
+]

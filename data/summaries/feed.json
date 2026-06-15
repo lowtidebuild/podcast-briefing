@@ -1,5 +1,47 @@
 [
   {
+    "slug": "2026-06-15-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "Odd Lots: Carmen Li's Plan to Build a Futures Market for Compute",
+    "published": "2026-06-15T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-06-14-fareed-zakaria-gps",
+    "podcast": "Fareed Zakaria GPS",
+    "category": "Politics / Geopolitics",
+    "title": "US and Iran Close in on a Deal; SpaceX’s Grand Ambitions; The AI Job Panic",
+    "published": "2026-06-14T16:30:00"
+  },
+  {
+    "slug": "2026-06-13-all-in-podcast",
+    "podcast": "All-In Podcast",
+    "category": "Politics / Geopolitics",
+    "title": "Anthropic's Fable Backlash, Nationalizing AI, Inflation Heats Up & California's Broken Elections",
+    "published": "2026-06-13T04:51:00+00:00"
+  },
+  {
+    "slug": "2026-06-12-making-sense",
+    "podcast": "Making Sense",
+    "category": "Philosophy / AI Ethics",
+    "title": "#480 — The Economics of Everything",
+    "published": "2026-06-12T17:15:00+00:00"
+  },
+  {
+    "slug": "2026-06-12-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "Samo Burja on Growth, Energy, and AI",
+    "published": "2026-06-12T14:40:34+00:00"
+  },
+  {
+    "slug": "2026-06-12-hard-fork",
+    "podcast": "Hard Fork",
+    "category": "AI / Tech",
+    "title": "‘Hard Fork’ Live, Part 1: Satya Nadella and Cindy Cohn",
+    "published": "2026-06-12T11:01:20+00:00"
+  },
+  {
     "slug": "2026-06-11-a16z-podcast",
     "podcast": "a16z Podcast",
     "category": "VC / Business",
@@ -306,47 +348,5 @@
     "category": "Macro / Markets",
     "title": "Odd Lots: Martin Wolf on the 'Terrifying' Superpower That the US Wields (Podcast)",
     "published": "2026-05-14T08:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-13-a16z-podcast",
-    "podcast": "a16z Podcast",
-    "category": "VC / Business",
-    "title": "Energy, Minerals, and the Physical Stack Behind AI",
-    "published": "2026-05-13T10:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-12-making-sense",
-    "podcast": "Making Sense",
-    "category": "Philosophy / AI Ethics",
-    "title": "#475 — The Hard Problem of Consciousness",
-    "published": "2026-05-12T17:30:00+00:00"
-  },
-  {
-    "slug": "2026-05-11-odd-lots",
-    "podcast": "Odd Lots",
-    "category": "Macro / Markets",
-    "title": "The BoE's Megan Greene on Monetary Policy in a World of Supply Shocks",
-    "published": "2026-05-11T08:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-10-all-in-podcast",
-    "podcast": "All-In Podcast",
-    "category": "Politics / Geopolitics",
-    "title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
-    "published": "2026-05-10T21:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-10-fareed-zakaria-gps",
-    "podcast": "Fareed Zakaria GPS",
-    "category": "Politics / Geopolitics",
-    "title": "Former Israeli Intelligence Officer On the Prospects for Peace in Iran",
-    "published": "2026-05-10T16:28:00"
-  },
-  {
-    "slug": "2026-05-08-a16z-podcast",
-    "podcast": "a16z Podcast",
-    "category": "VC / Business",
-    "title": "Ben Horowitz on the Next Technology Era",
-    "published": "2026-05-08T16:19:02+00:00"
   }
 ]

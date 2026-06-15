@@ -1,0 +1,118 @@
+```json
+{
+  "topics": [
+    "California election integrity and ballot fraud allegations",
+    "Mail-in vs walk-in ballot statistical discrepancy",
+    "Ballot harvesting legality and controversy",
+    "Media bias and election coverage",
+    "Voter ID reform and congressional solutions"
+  ],
+  "claims": [
+    {
+      "claim": "California sends ballots to approximately 23-24 million registered voters but only about 9.5 million people vote, leaving ~14 million ballots unaccounted for.",
+      "evidence": ["23-24 million ballots sent out", "only 9.5 million votes cast", "ballots pile up in apartment building mailboxes sent to people no longer living there"],
+      "speakers": ["Sacks"]
+    },
+    {
+      "claim": "California's signature verification standard is only 40% match accuracy, and witnesses on ballots are unregistered and unverifiable.",
+      "evidence": ["machine approves signatures at 40% match", "no database of witnesses", "witnesses can sign with any squiggle", "no chain of custody for ballots"],
+      "speakers": ["Sacks"]
+    },
+    {
+      "claim": "Brenda Lee Brown Armstrong pled guilty in 2026 to paying people $2-$3 on Skid Row to vote.",
+      "evidence": ["guilty plea in 2026", "$2 or $3 payments", "Nick Shirley video documenting Skid Row voting payments"],
+      "speakers": ["Chamath", "Sacks"]
+    },
+    {
+      "claim": "Gavin Newsom signed a law making it virtually impossible to audit California election results.",
+      "evidence": ["law signed by Newsom", "explicitly restricts audit capability", "speakers argue this shields potential fraud from investigation"],
+      "speakers": ["Sacks", "Chamath"]
+    },
+    {
+      "claim": "The statistical probability of the mail-in vs walk-in ballot discrepancy in the LA mayoral race happening legitimately is approximately one in a trillion.",
+      "evidence": ["speakers unable to provide a steel-man explanation for the discrepancy", "upward of 10,000 votes potentially swung", "walk-in and mail-in ballot split described as statistically impossible"],
+      "speakers": ["Friedberg", "Sacks"]
+    },
+    {
+      "claim": "Congress, not state actors, is the fundamental party responsible for fixing election integrity because federal laws could mandate voter ID and prohibit non-citizen voting.",
+      "evidence": ["federal government already tracks IDs via driver's licenses and taxes", "current system allows registration with a gym membership card", "ballot harvesting of 100 ballots from apartment lobbies is legal"],
+      "speakers": ["Friedberg"]
+    },
+    {
+      "claim": "Karen Bass's ally Karen Rahman registered to run one hour before the deadline and is friends with Bass, suggesting a coordinated strategy to box Spencer Pratt out of the general election.",
+      "evidence": ["Rahman registered one hour before deadline", "Bass and Rahman are described as friends", "two Democrats at top of ticket would prevent Pratt from reaching general ballot"],
+      "speakers": ["Chamath"]
+    },
+    {
+      "claim": "The mainstream media is failing to investigate the statistical anomaly in the LA election because doing so would appear to support Trump politically.",
+      "evidence": ["media described as choosing between accountability and political alignment", "questioning election integrity labeled as being 'MAGA'", "speakers note media was previously self-described as 'guardians of democracy'"],
+      "speakers": ["Chamath", "Sacks"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "The party told you to reject the evidence of your eyes and ears. It was their final, most essential command. This is obvious. Just look at the charts. Look at the data. We know something crooked happened. It's statistically impossible.",
+      "speaker": "Sacks",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The only thing we don't know is whether it was illegal fraud or legal fraud, meaning they've created so many loopholes and so much corruption in the law that what they did is possibly legal. It is still corrupt. It is still crooked. It is ridiculous. It's unethical. It's immoral.",
+      "speaker": "Sacks",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The system itself has become a system of appointment, not a system of election.",
+      "speaker": "Friedberg",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "We are slowly seeing that that party increasingly does not have the ability to govern a state this dynamic and this complicated. They've changed the rules to make sure that that monopoly is enforced.",
+      "speaker": "Chamath",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Both sides cheat. Both sides bend the rules. One side does it by limiting access. The other does it by providing too much access.",
+      "speaker": "",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "If you can't be bothered to get a driver's license or a passport, maybe you don't need to vote.",
+      "speaker": "",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "registering thousands of ballots from homeless shelters that don't even have any beds. These are all known things. When you say that there's no fraud, it's like, come on, there's loopholes and all you got to do is look at the results and see that there's something crooked going on here.",
+      "speaker": "Sacks",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Donald J. Trump, you control the Department of Justice go investigate it.",
+      "speaker": "",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [],
+  "keyword_candidates": [
+    "ballot harvesting",
+    "voter ID",
+    "California election fraud",
+    "Spencer Pratt",
+    "Karen Rahman",
+    "Karen Bass",
+    "Skid Row voting",
+    "Brenda Lee Brown Armstrong",
+    "Heritage Foundation",
+    "Steve Hilton",
+    "mail-in ballots",
+    "voter rolls"
+  ]
+}
+```

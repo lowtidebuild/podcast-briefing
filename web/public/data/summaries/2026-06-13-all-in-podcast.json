@@ -1,0 +1,127 @@
+{
+  "id": "aed8a034-f95c-4fd8-a457-c964d779dee6",
+  "slug": "2026-06-13-all-in-podcast",
+  "podcast": "All-In Podcast",
+  "category": "Politics / Geopolitics",
+  "title": "Anthropic's Fable Backlash, Nationalizing AI, Inflation Heats Up & California's Broken Elections",
+  "published": "2026-06-13T04:51:00+00:00",
+  "link": "https://allinchamathjason.libsyn.com/anthropics-fable-backlash-nationalizing-ai-inflation-heats-up-californias-broken-elections",
+  "podcast_url": "https://www.allinpodcast.co",
+  "guest": null,
+  "summary_ko": "이번 에피소드는 Anthropic의 Fable 5 모델 출시에 따른 개발자 반발을 출발점으로 삼아, AI 거버넌스·경제·선거 무결성이라는 세 가지 핵심 주제를 아우르는 분석적 논의를 전개한다. 호스트들은 Anthropic이 기업 고객의 제로 데이터 보존 계약을 일방적으로 무력화하고, 사용자 동의 없이 모델을 무단 다운그레이드하면서도 동일한 요금을 부과했다고 주장한다. David Sacks는 이를 단순한 제품 결함이 아니라 규제 포획(regulatory capture) 전략의 일환으로 규정하며, Dario Amodei가 FAA·FDA 형태의 정부 규제 기관 신설을 촉구하는 것은 사실상 오픈소스 경쟁자를 봉쇄하려는 의도라고 비판한다. David Friedberg는 Anthropic의 생물의학 연구 관련 제한이 Ohalo 같은 바이오텍 기업들을 미국산 오픈소스 모델이 아닌 중국산 오픈소스 모델로 이탈하게 만들고 있다고 지적하며, 이는 단순한 비즈니스 문제가 아니라 국가안보적 함의를 가진다고 경고한다.\n\n경제 논쟁에서는 Bernie Sanders의 '미국 AI 소버린 웰스 펀드 법안'이 도마 위에 올랐다. Sanders는 AI가 공공 자산인 서적·저널리즘·과학 연구를 기반으로 구축됐다며 OpenAI·Anthropic·xAI 등 주요 AI 기업 주식의 50%를 일회성으로 과세해 국민 투자 펀드를 조성해야 한다고 주장한다. 호스트들은 개념 자체의 정당성은 일부 인정하면서도, 사유재산권 침해와 실행상의 난점을 들어 반박한다. Chamath Palihapitiya는 대안으로 Social Security Trust Fund를 캐나다·호주 슈퍼애뉴에이션 모델처럼 국채만이 아닌 주식을 보유할 수 있는 구조로 개편해야 한다고 제안한다. 한편 인플레이션 데이터도 주목받았다. 2026년 5월 CPI는 전년 대비 4.2%로 2023년 4월 이후 최고치를 기록했고, PPI는 6.5%로 2022년 말 이후 최고치에 달했으며, 이란 전쟁 여파로 Polymarket의 2026년 Fed 금리 인상 가능성이 10% 미만에서 49%로 급등했다.\n\n에피소드 후반부는 캘리포니아 선거 무결성 문제에 집중된다. Friedberg는 AB 1921(무제한 대리 투표 용지 수거 합법화), 자동 우편 투표 용지 발송, 비시민권자 유권자 등록 허용 등 일련의 법률이 결합해 선거를 사실상 '임명 시스템'으로 전환했다고 분석한다. LA 시장 선거에서 당일 직접 투표(Spencer Pratt 35%), 선거일 이전 우편 투표(Karen Bass 38%), 선거일 이후 우편 투표(Nipia Rahman 37%)로 나타난 통계적 이상 분포는 Friedberg와 Sacks에 따르면 1조분의 1 확률로만 자연적으로 발생할 수 있는 수치다. Brenda Lee Brown Armstrong이 스키드 로우에서 투표자에게 2~3달러를 지급한 혐의로 2026년 유죄를 인정했고, Gavin Newsom은 선거 결과 감사를 사실상 불가능하게 만드는 법안에 서명했다. 호스트들은 의회 차원의 유권자 신분증 의무화 및 비시민권자 투표 금지 연방법 제정이 근본적 해법이라고 주장하며 에피소드를 마무리한다.",
+  "summary_en": "This episode of the All-In Podcast, recorded June 13 2026, ranges across three interlocking theses: that Anthropic is weaponising AI safety to entrench its market position; that AI's economic gains are being structurally captured by incumbents rather than distributed; and that California's election architecture has drifted so far from democratic norms that it now functionally appoints rather than elects officials.\n\nOn Anthropic, the hosts present a damning pattern. The Fable 5 model silently retains all prompts and context for at least 30 days—overriding zero-data-retention enterprise contracts—while also secretly downgrading users deemed to be conducting sensitive research, still billing them at premium rates. Ben Thompson of Stratechery was reportedly ejected simply for asking about GLP-1s and cancer risk. David Sacks frames this not as product sloppiness but as deliberate regulatory capture: Dario Amodei's simultaneous call for an FAA/FDA-style AI licensing regime would functionally prohibit open-source competition that cannot be regulated in the same way. The strategic backfire is already measurable—David Friedberg reports that Anthropic's genomics restrictions are pushing biotech firms toward Chinese open-source models, which he describes as currently superior to US open-source alternatives.\n\nThe economic segment covers the Sanders American AI Sovereign Wealth Fund Act—a proposed one-time 50% levy on AI company equity—alongside rising inflation (CPI 4.2% YoY, PPI 6.5% YoY in May 2026, both multi-year highs) partly attributed to the Iran war. Chamath Palihapitiya counters Sanders with a more technically precise reform: restructure Social Security's $4 trillion Treasury-only portfolio into an equity-owning fund modelled on Canadian and Australian superannuation plans. Friedberg argues AI is a net job creator, citing the May 2025 jobs report showing 172,000 new positions against AI-pessimist forecasts.\n\nThe closing third examines the Los Angeles mayoral race as a case study in systemic election vulnerability. The vote-type distribution—Pratt leading among in-person voters, Bass leading pre-election mail-in, and Rahman surging in post-election mail-in (her share rising 80% while Pratt's fell by a third)—is characterised as statistically near-impossible without intervention. California's combination of unlimited ballot harvesting, automatic universal mail-out, negligible signature verification (40% match threshold), and a Newsom-signed anti-audit law creates the conditions, the hosts argue, for systematic manipulation that may be legal even if corrupt. Federal voter-ID legislation is presented as the only durable remedy.",
+  "key_points_ko": [
+    {
+      "heading": "Anthropic, 데이터 보존·모델 다운그레이드로 규제 포획 전략 노출",
+      "body": "Anthropic의 Fable 5 모델은 기업 고객의 제로 데이터 보존 계약 여부와 무관하게 모든 프롬프트·컨텍스트를 최소 30일간 보관한다. 더 심각한 것은 Anthropic이 자사 판단으로 민감 연구를 수행 중이라고 분류한 사용자에게 무단으로 열등한 모델을 제공하면서 동일한 요금을 청구했다는 점이다. Ben Thompson이 GLP-1과 암 위험의 관계를 질문했다가 플랫폼에서 퇴출된 사례가 그 실례다. David Sacks는 이와 동시에 Dario Amodei가 정부 규제 기관 신설을 촉구하는 것은 오픈소스 경쟁자를 제도적으로 봉쇄하려는 규제 포획 캠페인이라고 규정한다. 이 전략이 역효과를 낳고 있음을 Friedberg의 사례가 보여준다—Anthropic의 유전체 연구 제한이 기업들을 중국산 오픈소스 모델로 이탈시키고 있다.",
+      "source_chunks": [
+        0
+      ]
+    },
+    {
+      "heading": "AI 안전 제한이 미국 바이오텍을 중국 오픈소스 모델로 몰고 있다",
+      "body": "David Friedberg는 Ohalo를 포함한 바이오텍 기업들이 지난 몇 주 사이 Anthropic 모델을 이용한 유전자 구조 설계 및 RNA 가이드 설계 기능을 잃었다고 밝혔다. Friedberg는 현재 최고 수준의 오픈소스 모델은 중국산이며, 미국산 오픈소스 모델은 이에 미치지 못한다고 명시적으로 언급했다. 오픈소스 모델은 이미 인터넷에 완전히 공개되어 있어 '다시 집어넣기'가 불가능하다는 것이 그의 핵심 논거다. 이는 Gutenberg 인쇄기를 발명한 후 인쇄를 규제하려는 시도와 같다는 비유로 설명된다. 결과적으로 미국 내 AI 안전 규제가 의도와 달리 미국 기술 패권을 약화시키는 역설을 낳고 있다.",
+      "source_chunks": [
+        0
+      ]
+    },
+    {
+      "heading": "Sanders AI 소버린 펀드 법안 vs. Social Security 주식 투자 전환 대안",
+      "body": "Bernie Sanders는 2026년 6월 1일 뉴욕타임스 기고를 통해 AI가 '사실상 도용된' 공공 자산으로 구축됐다며 OpenAI·Anthropic·xAI 주식의 50%를 일회성 과세하는 '미국 AI 소버린 웰스 펀드 법안'을 제안했다. 호스트들은 AI의 공공 가치 공유라는 개념에는 부분적으로 공감하면서도 사유재산 강제 수용 방식에는 반대한다. Chamath는 현재 4조 달러 규모의 Social Security Trust Fund가 미국 국채 한 장만 보유하고 있다는 사실을 지적하며, 캐나다·호주 모델처럼 주식도 보유할 수 있도록 구조를 개편하는 것이 더 현실적이고 효과적인 대안이라고 주장한다. 동시에 2026년 5월 CPI 4.2%·PPI 6.5% 기록과 이란 전쟁에 따른 Fed 금리 인상 가능성 급등(49%)은 경제 환경 악화를 시사한다.",
+      "source_chunks": [
+        1
+      ]
+    },
+    {
+      "heading": "LA 시장 선거 투표 유형별 통계 분포, 1조분의 1 확률의 이상 현상",
+      "body": "2026년 LA 시장 선거에서 당일 직접 투표는 Pratt 35%·Bass 29%·Rahman 26% 순이었으나, 선거일 이전 우편 투표는 Bass 38%·Pratt 28%·Rahman 20%, 선거일 이후 우편 투표는 Rahman 37%·Bass 35%·Pratt 19%로 나타났다. Pratt의 늦은 우편 투표 비율은 3분의 1 감소한 반면 Rahman의 비율은 80% 급증했다. Friedberg와 Sacks는 이 분포가 자연적으로 발생할 확률을 1조분의 1로 추정하며 통계적 불가능에 가깝다고 주장한다. Brenda Lee Brown Armstrong이 스키드 로우에서 투표자에게 2~3달러를 지급한 혐의로 2026년 유죄를 인정한 사례도 제시됐다. Karen Rahman이 마감 한 시간 전에 등록한 점, Bass와의 친분 등을 고려할 때 Pratt를 결선에서 배제하기 위한 조율된 전략 가능성이 제기된다.",
+      "source_chunks": [
+        1,
+        2
+      ]
+    },
+    {
+      "heading": "캘리포니아 선거법 결합 효과: 민주적 선거에서 사실상 임명 시스템으로",
+      "body": "Friedberg는 AB 1921(무제한 대리 투표 용지 수거 합법화), 등록 유권자 전원 자동 우편 투표 용지 발송, 비시민권자의 체육관 멤버십 카드만으로 유권자 등록 허용이라는 세 가지 법률의 결합이 선거를 사실상 임명 시스템으로 전환했다고 분석한다. 캘리포니아는 약 2,300~2,400만 명에게 투표 용지를 발송하지만 실제 투표수는 약 950만 표에 불과해 약 1,400만 장의 행방이 불분명하다. 서명 검증 기준은 40% 일치율에 불과하고, Newsom이 서명한 법률은 감사 자체를 사실상 금지한다. 호스트들은 유권자 신분증 의무화와 비시민권자 투표 금지를 연방법으로 제정하는 것만이 근본적 해결책이라고 결론짓는다.",
+      "source_chunks": [
+        1,
+        2
+      ]
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "Anthropic's data retention and secret model downgrading reveal a regulatory capture strategy",
+      "body": "Anthropic's Fable 5 retains all prompts and context data for at least 30 days with no exceptions, nullifying zero-data-retention enterprise contracts. More troublingly, users classified by Anthropic as conducting sensitive research were silently served inferior models while being charged full price—Ben Thompson of Stratechery was reportedly expelled merely for querying GLP-1 and cancer risk. David Sacks connects these product behaviours to a broader pattern: simultaneously restricting its own models and lobbying for an FAA/FDA-style licensing regime that would structurally disadvantage open-source competitors unable to comply with centralised approval. The strategy is already misfiring: David Friedberg reports Anthropic's genomics restrictions are routing biotech firms toward Chinese open-source models, which he describes as currently superior to US open-source alternatives.",
+      "source_chunks": [
+        0
+      ]
+    },
+    {
+      "heading": "AI safety restrictions are pushing US biotech toward Chinese open-source models",
+      "body": "Friedberg testified that companies like Ohalo lost access to Anthropic-powered genetic construct and RNA guide design within weeks of Fable 5's restrictions tightening. He stated plainly that the best open-source models available today are Chinese, not American. His core epistemological argument is that once a model is published it cannot be 'turned off'—analogous to the impossibility of banning the Gutenberg press after printing has begun. This means US safety restrictions serve mainly to handicap American enterprises rather than prevent adversary access, a strategic own-goal the hosts argue regulators are failing to appreciate.",
+      "source_chunks": [
+        0
+      ]
+    },
+    {
+      "heading": "Sanders's AI wealth-fund proposal highlights real distributional tensions but flawed mechanics",
+      "body": "Bernie Sanders's American AI Sovereign Wealth Fund Act, announced June 1 2026, proposes a one-time 50% tax on AI company equity to create a government fund with public voting rights and board representation. The hosts partially accept the distributional concern—AI is built on publicly generated data—but reject forced equity seizure. Chamath's counter-proposal is technically sharper: reform Social Security's $4 trillion portfolio, currently limited to a single Treasury certificate, into an equity-owning fund modelled on Canadian and Australian superannuation systems. This debate unfolds against a deteriorating macro backdrop: May 2026 CPI hit 4.2% YoY and PPI hit 6.5% YoY, both multi-year highs, with Polymarket odds of a Fed rate hike in 2026 surging to 49% as the Iran war feeds through into energy and goods prices.",
+      "source_chunks": [
+        1
+      ]
+    },
+    {
+      "heading": "LA mayoral vote-type distribution is statistically near-impossible without manipulation",
+      "body": "Across three voting modalities in the LA mayoral race, Spencer Pratt led among in-person day-of voters (35%), Karen Bass led pre-election mail-in (38%), and Nipia Rahman dominated post-election mail-in (37%)—with Pratt's late mail-in share falling by one-third while Rahman's rose 80%. Friedberg and Sacks characterise the probability of this distribution arising legitimately at roughly one in a trillion. Rahman registered as a candidate one hour before the filing deadline and is reported to be friends with Bass, raising suspicions of a coordinated strategy to ensure two Democrats topped the primary and excluded Pratt from the general ballot. A related data point: Brenda Lee Brown Armstrong pleaded guilty in 2026 to paying Skid Row residents $2–$3 to vote.",
+      "source_chunks": [
+        1,
+        2
+      ]
+    },
+    {
+      "heading": "California's election laws have collectively converted elections into appointment mechanisms",
+      "body": "Friedberg identifies three compounding laws: AB 1921 legalising unlimited ballot harvesting by any individual; a subsequent mandate that every registered voter automatically receives a mail-in ballot; and voter-registration rules requiring no proof of citizenship, with a gym membership card sufficient. California dispatches 23–24 million ballots but records only ~9.5 million votes, leaving roughly 14 million ballots unaccounted for. Signature verification operates at a 40% match threshold, and a Newsom-signed law effectively prohibits post-election audits. The hosts argue that only federal legislation—mandating voter ID and prohibiting non-citizen registration—can durably repair the system, since state actors who benefit from the current structure have no incentive to reform it.",
+      "source_chunks": [
+        1,
+        2
+      ]
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "오늘날 최고의 오픈소스 모델이 무엇이냐고요? 중국산입니다. 맞습니다. 그것이 바로 큰 우려 사항입니다. 미국산 오픈소스 모델은 중국산 오픈소스 모델만큼 좋지 않습니다. 따라서 Anthropic과 다른 기업들이 자신들과 업계 전반에 부과하고 있는 제한들이 많은 기업들로 하여금 중국산 오픈소스 모델을 가져다 실행하도록 내몰고 있습니다.",
+    "attribution": "David Friedberg, 공동 호스트 / General Partner, The Production Board"
+  },
+  "notable_quote_en": {
+    "text": "what are the best open source models today? They're Chinese. Yeah, they are. That is a major concern. The American open source models are not as good as the Chinese open source models. So the restrictions that Anthropic and others are putting upon themselves and upon the industry is forcing a lot of companies to go and get open source Chinese models and run them",
+    "attribution": "David Friedberg, Co-host / General Partner, The Production Board"
+  },
+  "notable_quote": {
+    "source_text_en": "what are the best open source models today? They're Chinese. Yeah, they are. That is a major concern. The American open source models are not as good as the Chinese open source models. So the restrictions that Anthropic and others are putting upon themselves and upon the industry is forcing a lot of companies to go and get open source Chinese models and run them",
+    "translation_ko": "오늘날 최고의 오픈소스 모델이 무엇이냐고요? 중국산입니다. 맞습니다. 그것이 바로 큰 우려 사항입니다. 미국산 오픈소스 모델은 중국산 오픈소스 모델만큼 좋지 않습니다. 따라서 Anthropic과 다른 기업들이 자신들과 업계 전반에 부과하고 있는 제한들이 많은 기업들로 하여금 중국산 오픈소스 모델을 가져다 실행하도록 내몰고 있습니다.",
+    "speaker": "David Friedberg",
+    "attribution": "David Friedberg, Co-host / General Partner, The Production Board",
+    "is_verbatim": true,
+    "translation_is_verbatim": false,
+    "source_char_start": 6848,
+    "source_char_end": 7212,
+    "match_score": 1.0
+  },
+  "keywords_ko": [
+    "Anthropic 규제 포획",
+    "AI 소버린 웰스 펀드",
+    "캘리포니아 대리 투표 수거",
+    "CPI PPI 인플레이션 2026",
+    "LA 시장 선거 통계 이상",
+    "중국 오픈소스 AI 모델"
+  ],
+  "keywords_en": [
+    "Anthropic Fable 5 regulatory capture",
+    "AI sovereign wealth fund",
+    "California ballot harvesting",
+    "CPI PPI inflation 2026",
+    "LA mayoral election statistical anomaly",
+    "Chinese open-source AI models"
+  ],
+  "generated_at": "2026-06-15T12:17:46.896898"
+}

@@ -1,0 +1,159 @@
+```json
+{
+  "topics": [
+    "Anthropic Fable 5 model release and developer backlash",
+    "AI censorship, surveillance, and regulatory capture",
+    "Open source AI models vs. closed proprietary models",
+    "Bernie Sanders AI Sovereign Wealth Fund proposal",
+    "Bioweapon and cybersecurity guardrails on AI models"
+  ],
+  "claims": [
+    {
+      "claim": "Anthropic's Fable 5 retains all prompt, output, and context data for at least 30 days with no exceptions, even for enterprise customers who had signed zero data retention agreements.",
+      "evidence": [
+        "Sacks states enterprise customers with zero data retention agreements have no choice but to comply or not use Fable/Mythos class models",
+        "Anthropic stores all prompt data entered for at least 30 days per the discussion",
+        "Agent platforms passing memories, files, and data in giant context windows are all subject to this retention"
+      ],
+      "speakers": ["David Sacks", "Jason Calacanis"]
+    },
+    {
+      "claim": "Anthropic was secretly downgrading users to lesser models without disclosure when it determined they were engaged in frontier AI or sensitive research, while still charging them full price.",
+      "evidence": [
+        "Sacks notes Anthropic would 'nerf their models' without telling users and 'still charge you for the product that you thought you were getting'",
+        "Ben Thompson from Stratechery was kicked out for asking about the relationship between cancer risk and GLP-1s",
+        "A user asking about mitochondria was downgraded",
+        "Buried in a 319-page document per Jason's summary"
+      ],
+      "speakers": ["David Sacks", "Jason Calacanis"]
+    },
+    {
+      "claim": "Anthropic's safety restrictions on genomic research are forcing biotech companies like Ohalo to adopt Chinese open source models, which are currently superior to American open source alternatives.",
+      "evidence": [
+        "Freeberg describes losing ability to design genetic constructs and RNA guides for gene editing using Anthropic models over the last couple of weeks",
+        "Freeberg states 'the best open source models today, they're Chinese'",
+        "Freeberg says startups and large enterprises are 'making that move' to Chinese open source models"
+      ],
+      "speakers": ["David Friedberg"]
+    },
+    {
+      "claim": "Anthropic is engaged in regulatory capture by simultaneously restricting its own models and advocating for a new government regulatory agency (like an FAA or FDA) to approve all AI models, which would effectively ban open source competitors.",
+      "evidence": [
+        "Sacks said eight months ago Anthropic was engaged in 'a very sophisticated regulatory capture campaign based on fear mongering'",
+        "Dario wrote a new blog post calling for a new regulatory agency like an FAA or FDA to approve all models",
+        "Sacks argues the regulation is designed to 'scuttle and sandbag open source models because they don't have the ability to be regulated'"
+      ],
+      "speakers": ["David Sacks", "Chamath Palihapitiya"]
+    },
+    {
+      "claim": "Building compute infrastructure to support open source AI at scale now costs approximately $100 billion per gigawatt, a 20x increase from initial estimates of $4-5 billion, creating a massive capital moat.",
+      "evidence": [
+        "Chamath states 'a gigawatt now costs $100 billion'",
+        "He says 'when I started this project, it was like four or 5 billion. And it's increased by 20x'",
+        "Chamath bought 2,000 acres in Arizona zoned for a two-gigawatt data center and is now considering building it himself rather than flipping it"
+      ],
+      "speakers": ["Chamath Palihapitiya"]
+    },
+    {
+      "claim": "Bernie Sanders proposed a one-time 50% tax on the stock of the largest AI companies, including OpenAI, Anthropic, and xAI, to create a government sovereign wealth fund with public voting rights and board representation.",
+      "evidence": [
+        "Sanders published an op-ed in the New York Times on June 1st titled 'AI is a public resource. You should own half of it.'",
+        "He announced the American AI Sovereign Wealth Fund Act",
+        "Sanders argued AI is built on 'essentially stolen' books, songs, journalism, and scientific research"
+      ],
+      "speakers": ["Jason Calacanis", "David Sacks"]
+    },
+    {
+      "claim": "AI safety restrictions cannot meaningfully prevent misuse because open source models are already fully published and impossible to 'turn off', making output-level regulation more practical than access-level restriction.",
+      "evidence": [
+        "Freeberg states 'the models that are open source are already fully available, fully published, and anyone can access and use them'",
+        "He compares it to publishing a book: 'once the book has been printed, anyone can use their own Xerox machine at home to make copies'",
+        "Freeberg says 'you can't turn off the internet, and you can't turn off the typewriter, and you can't turn off the Gutenberg press'"
+      ],
+      "speakers": ["David Friedberg"]
+    },
+    {
+      "claim": "The International Gene Synthesis Consortium of 2009 established voluntary bioweapon screening for synthetic DNA/RNA orders, and major AI labs are now supporting mandatory codification of this existing screening system.",
+      "evidence": [
+        "Sacks says major AI labs and signatories sent a letter 'In Support of Mandatory Nucleic Acid Synthetic Screening and Recordkeeping'",
+        "The voluntary agreement has been in place for over 15 years",
+        "Oligosynthesis company CEOs have also signed on to codify this process"
+      ],
+      "speakers": ["David Sacks"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "One is Anthropic has essentially shown their hand, which is that they will increasingly take in prompts, evaluate the prompts, and decide what to do with them before they generate output to you. And I think if you were a person, you should generally now think there's a risk of censorship. If you're a company, I think it's almost a non starter.",
+      "speaker": "Chamath Palihapitiya",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "What are the best open source models today? They're Chinese. Yeah, they are. That is a major concern. The American open source models are not as good as the Chinese open source models. So the restrictions that Anthropic and others are putting upon themselves and upon the industry is forcing a lot of companies to go and get open source Chinese models and run them.",
+      "speaker": "David Friedberg",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "They would degrade the product. They would degrade what they show you. They would nerf their models if it decided, in Anthropic's sole discretion, that you are not worthy of having access to that level of information. So they're creating a new level of AI haves and have-nots.",
+      "speaker": "David Sacks",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "At the same time that Anthropic is engaging in this potentially anti-competitive behavior, they want to restrict your options. It's not good enough for them just to win in the free market. They're calling on the government to regulate and stop potential competitors and limit the number of models that you have access to.",
+      "speaker": "David Sacks",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "A gigawatt now costs $100 billion guys. Okay, so there's a huge capital moat. That's a problem here as well, Sachs, which even if we wanted to go and endorse and breathe life into the open source model community, where the hell am I going to come up with $100 billion. Now, when I started this project, it was like four or 5 billion. And it's increased by 20x.",
+      "speaker": "Chamath Palihapitiya",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Technology is fundamentally deterministic. Whatever is possible will be tried at least once. And so we've already let this thing out of the box. So this idea that all of a sudden we can manage to get it back in and we're gonna let a private citizen or a set of private citizens adjudicate what and to whom is insane.",
+      "speaker": "David Friedberg",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The foundation of AI is our collective and human intelligence, the books, the songs, the journalism, scientific research code, essentially stolen by some of the wealthiest people in the world.",
+      "speaker": "Bernie Sanders",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "This is a company that said that it was against government surveillance. They are now retaining for 30 days every prompt and every output you send to one of these Mythos class models. There are no exceptions. Even enterprise customers who had signed zero data retention agreements, they do not have a choice.",
+      "speaker": "David Sacks",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The idea that you can, quote, regulate or downscale or turn off AI is not a realistic idea. The models have been put out in the world. It's like publishing a book. Once the book has been printed, anyone can use their own Xerox machine at home to make copies of it and use it.",
+      "speaker": "David Friedberg",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The lack of KYC is to tell. If you did not have that agenda, you would have implemented KYC yesterday.",
+      "speaker": "Chamath Palihapitiya",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [],
+  "keyword_candidates": [
+    "Anthropic Fable 5",
+    "Mythos model",
+    "regulatory capture",
+    "AI sovereign wealth fund",
+    "open source AI models",
+    "nucleic acid synthetic screening",
+    "Dario Amodei",
+    "Bernie Sanders American AI Sovereign Wealth Fund Act"
+  ]
+}
+```

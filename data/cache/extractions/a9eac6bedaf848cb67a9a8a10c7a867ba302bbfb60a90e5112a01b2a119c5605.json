@@ -1,0 +1,177 @@
+{
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_hash": "b2bc60e2790d4c42405d1df38241577ab2ede8c924a942e89015776ab728db61",
+  "chunk_hash": "30de8e48f583f29ad2e5ed157ac37693ea0494cdc60360aefdb0b019d9342595",
+  "chunk_index": 1,
+  "char_start": 40797,
+  "char_end": 80651,
+  "extraction": {
+    "chunk_index": 1,
+    "char_start": 40797,
+    "char_end": 80651,
+    "topics": [
+      "AI nationalization and sovereign wealth fund proposals",
+      "AI job displacement debate",
+      "US inflation and Iran war economic impact",
+      "Los Angeles mayoral election integrity concerns",
+      "Venture capital valuation scaling data"
+    ],
+    "claims": [
+      {
+        "claim": "Dario Amodei specifically predicted 50% job loss for entry-level knowledge workers in the next one to five years, which has already been refuted by data.",
+        "evidence": [
+          "May 2025 jobs report showed 172,000 new jobs, over twice what economists expected",
+          "4.3% unemployment rate described as at record lows",
+          "Software developer jobs at a three-year high"
+        ],
+        "speakers": [
+          "David Sacks",
+          "Jason Calacanis"
+        ]
+      },
+      {
+        "claim": "AI creates more economic value on the revenue side than the cost-cutting side, leading to net job creation rather than job loss.",
+        "evidence": [
+          "Freeberg's company planning to add 15 headcount to engineering squads due to AI-enabled opportunities",
+          "Dario's $40 billion revenue business grew because people are creating new products, not firing customer support reps",
+          "One engineer can now do 100-1000 times what they used to be able to do"
+        ],
+        "speakers": [
+          "David Friedberg"
+        ]
+      },
+      {
+        "claim": "The Social Security Trust Fund should be restructured into an equity-owning sovereign wealth fund with individual accounts rather than a defined benefit system.",
+        "evidence": [
+          "The Social Security Trust Fund currently holds only one certificate—a $4 trillion US Treasury bond",
+          "Trust funds are currently only allowed to own treasuries",
+          "Canadian and Australian superannuation models have proven this works at scale"
+        ],
+        "speakers": [
+          "David Friedberg",
+          "Chamath Palihapitiya"
+        ]
+      },
+      {
+        "claim": "AI companies face fundamentally different economics than internet companies because every marginal user has a real compute cost, justifying government equity stakes.",
+        "evidence": [
+          "Every new AI user taxes a GPU, needs electrons and memory",
+          "Internet companies like Facebook and Google had effectively zero marginal cost per new user",
+          "Analogy: like transportation companies riding on federally-built interstate highways"
+        ],
+        "speakers": [
+          "Chamath Palihapitiya"
+        ]
+      },
+      {
+        "claim": "California's election laws, in combination, have transformed elections into an appointment system rather than a free democratic vote.",
+        "evidence": [
+          "Assembly Bill 1921 legalized unlimited ballot harvesting—any individual can collect unlimited ballots regardless of relationship",
+          "A subsequent law made it mandatory that every registered California voter automatically receives a ballot",
+          "Voter registration requires no proof of citizenship; a gym membership card is sufficient ID"
+        ],
+        "speakers": [
+          "David Friedberg"
+        ]
+      },
+      {
+        "claim": "The statistical distribution of LA mayoral votes across in-person, pre-election mail-in, and post-election mail-in ballots shows a highly anomalous pattern.",
+        "evidence": [
+          "In-person election day: Pratt 35%, Bass 29%, Rahman 26%",
+          "Mail-in before election day: Bass 38%, Pratt 28%, Rahman 20%",
+          "Mail-in after election day: Rahman 37%, Bass 35%, Pratt 19%—Pratt's late mail-in share dropped by one third while Rahman's increased by 80%"
+        ],
+        "speakers": [
+          "David Friedberg"
+        ]
+      },
+      {
+        "claim": "CPI hit 4.2% year-over-year in May 2026, the highest since April 2023, and PPI hit 6.5%, the highest since end of 2022.",
+        "evidence": [
+          "CPI 4.2% year-over-year, highest since April 2023",
+          "PPI 6.5% year-over-year, highest since end of 2022",
+          "European Central Bank raised rates a quarter point on Thursday, its first rate hike since September 2023",
+          "Polymarket odds of Fed hiking in 2026 at 49%, up from under 10% before Iran war started"
+        ],
+        "speakers": [
+          "Jason Calacanis",
+          "Chamath Palihapitiya",
+          "David Sacks"
+        ]
+      },
+      {
+        "claim": "At the Liquidity conference, Thomas Lafonte presented data showing valuation scaling odds increase at higher valuation tiers, with 31% of centacorns reaching $1 trillion market cap.",
+        "evidence": [
+          "8% odds of unicorn ($1B) reaching decacorn ($10B)",
+          "13% odds of decacorn reaching centacorn ($100B)",
+          "31% odds of centacorn reaching $1 trillion market cap"
+        ],
+        "speakers": [
+          "David Sacks",
+          "Jason Calacanis"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "There is no job loss with AI, I will say it again, I've said it 1000 times, and I will say it again, and again, and again, what I see on the ground, and what I've seen at dozens of companies... The idea that AI is going to destroy jobs is a Luddite idea that is being disproven every single day.",
+        "speaker": "David Friedberg",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Dario said specifically 50% job loss for entry level knowledge workers in the next one to five years. And he says that one year ago. I think that's already been refuted.",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "You are in charge of this monster. But you're acting as if you can't stop the monster while you're building the monster.",
+        "speaker": "David Sacks",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The core problem with wealth inequality in this country, the core problem with inflation in this country, the core problem, all of it roots back to excess government spending. End of story.",
+        "speaker": "Chamath Palihapitiya",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "There is nothing illegal or fraudulent going on. In fact, the system is operating exactly as intended. It has been set up and structured in a way that with the right construct, you can get an individual appointed, not elected, but appointed to a particular role in government under a, quote, free election in California.",
+        "speaker": "David Friedberg",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The incremental cost of performing AI is excessive and large. That contrasts and compares to the incremental cost before AI, which was zero.",
+        "speaker": "Chamath Palihapitiya",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Thomas Lafonte",
+        "title": "Venture Capital Analyst (presented at Liquidity and All-In Summit)"
+      },
+      {
+        "name": "Sarah Friar",
+        "title": "CFO, OpenAI"
+      }
+    ],
+    "keyword_candidates": [
+      "sovereign wealth fund",
+      "ballot harvesting",
+      "Social Security Trust Fund reform",
+      "CPI PPI inflation 2026",
+      "LA mayoral election Nipia Rahman Spencer Pratt",
+      "public benefit corporation",
+      "trillicorn",
+      "Dario Amodei job loss prediction"
+    ]
+  },
+  "created_at": "2026-06-15T12:15:21.811992"
+}
