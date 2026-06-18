@@ -2288,6 +2288,107 @@
         "sheets_configured": true
       },
       "updated_at": "2026-06-15T12:20:49.313928"
+    },
+    "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/virlO151MbHI/v6.mp3": {
+      "slug": "2026-06-18-odd-lots",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-18-odd-lots/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-06-18-odd-lots.json"
+      },
+      "usage": {
+        "quote_is_verbatim": true,
+        "quote_match_score": 1.0,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-06-18T10:18:06.387474"
+    },
+    "substack:post:202271948": {
+      "slug": "2026-06-16-dwarkesh-podcast",
+      "status": "download_failed",
+      "last_stage": "download",
+      "attempts": 1,
+      "last_error": "403 Client Error: Forbidden for url: https://api.substack.com/feed/podcast/202271948/4c92db6bd398d39a8e70cbea4a732f3f.mp3",
+      "warnings": [],
+      "artifacts": {},
+      "usage": {},
+      "updated_at": "2026-06-18T10:18:06.471354"
+    },
+    "7cfa1b97-c18b-442c-9a9f-5cbd5dc56da3": {
+      "slug": "2026-06-17-hard-fork",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-17-hard-fork/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-06-17-hard-fork.json"
+      },
+      "usage": {
+        "quote_is_verbatim": false,
+        "quote_match_score": 0.837,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-06-18T10:20:54.812362"
+    },
+    "4679e197-c107-4f11-8db6-435c0bbfd881": {
+      "slug": "2026-06-17-a16z-podcast",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-17-a16z-podcast/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-06-17-a16z-podcast.json"
+      },
+      "usage": {
+        "quote_is_verbatim": false,
+        "quote_match_score": 0.6698,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-06-18T10:25:21.533937"
+    },
+    "63747e74-abc1-4d4d-b49a-bc5c3bfe1a89": {
+      "slug": "2026-06-16-ezra-klein-show",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-16-ezra-klein-show/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-06-16-ezra-klein-show.json"
+      },
+      "usage": {
+        "quote_is_verbatim": false,
+        "quote_match_score": 0.6667,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-06-18T10:31:30.573574"
+    },
+    "78df413a-b3db-4bba-9a2a-6a603f10cc11": {
+      "slug": "2026-06-17-making-sense",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-17-making-sense/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-06-17-making-sense.json"
+      },
+      "usage": {
+        "quote_is_verbatim": true,
+        "quote_match_score": 0.8635,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-06-18T10:35:57.944721"
     }
   }
 }

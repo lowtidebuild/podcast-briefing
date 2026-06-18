@@ -1,0 +1,96 @@
+{
+  "id": "78df413a-b3db-4bba-9a2a-6a603f10cc11",
+  "slug": "2026-06-17-making-sense",
+  "podcast": "Making Sense",
+  "category": "Philosophy / AI Ethics",
+  "title": "#481 — Sam Harris Receives the 2026 Richard Dawkins Award",
+  "published": "2026-06-17T16:55:00+00:00",
+  "link": "https://wakingup.libsyn.com/481-sam-harris-receives-the-2026-richard-dawkins-award",
+  "podcast_url": "https://www.samharris.org/podcasts",
+  "guest": {
+    "name": "Sam Harris",
+    "title": "Author, Philosopher, Host — Making Sense Podcast"
+  },
+  "summary_ko": "AI가 Turing 테스트를 사실상 무의미하게 만들어버린 지금, 의식(consciousness)의 본질에 관한 질문은 더 이상 순수 학문의 영역이 아닙니다. Sam Harris와 Richard Dawkins의 이 대화가 중요한 이유는, 두 사람이 철학적 사변을 넘어 AI 시대에 '의식의 기준'이 무너질 경우 발생하는 실질적 위험—서버팜 속 고통받는 존재의 탄생 가능성—을 진지하게 다루기 때문입니다.\n\nHarris의 핵심 주장은 두 축으로 구성됩니다. 첫째, LLM은 이미 Turing 테스트를 통과한 것을 넘어 초월했으며, 이는 역설적으로 그 테스트를 무효화했습니다. Dawkins가 GPT와 Claude에게 자신의 소설 초고를 보냈을 때, 두 AI는 5초 만에 읽고 인간 수준의 심리적 통찰로 인물 분석을 내놓았습니다. 둘째, 의식이 기질(substrate)에 독립적이라면, 우리는 이미 의식 있는 존재를 의도치 않게 생성하고 있을지 모릅니다. Anthropic의 실험에서 AI의 '기만성'을 낮출수록 의식이 있다고 답하는 경향이 높아졌다는 사실은, AI가 의식이 있다는 증거는 아니지만 AI 스스로 그렇게 '생각'할 수 있다는 신호입니다.\n\n도덕 철학 영역에서 Harris는 Hume의 is-ought 구분을 Zeno의 역설에 비유하며 반박합니다. 언어적 트릭에 불과하다는 것입니다. 그는 도덕을 '가능한 모든 경험의 공간에서의 항법 문제(navigation problem)'로 재정의하며, 유전학에서 경제학까지 이 공간을 탐색하는 데 옳고 그른 답이 존재한다고 주장합니다. 이는 과학적 사실로부터 도덕적 당위를 도출할 수 있다는 대담한 주장입니다.\n\n정치 영역에서 Harris는 Trump 현상을 '수치심의 방어막이 제거된 민주주의의 취약성'으로 진단합니다. 베트남이 46% 관세를 맞자 즉각 Trump 가문의 15억 달러 리조트를 승인했다는 사례처럼, 기존 민주주의의 규범적 방어막이 얼마나 취약한지를 보여줍니다. 결론적으로 이 대화는 AI 거버넌스, 도덕적 의사결정, 민주주의 제도 설계 모두에서 기존의 범주적 틀이 얼마나 빠르게 무력화되고 있는지를 보여주는 지성적 경보입니다.",
+  "summary_en": "Sam Harris and Richard Dawkins, two architects of the New Atheism, reunite not to relitigate God's existence but to confront a more urgent problem: the conceptual frameworks that Western civilisation uses to reason about consciousness, morality, and democracy are failing in real time.\n\nThe conversation's most consequential thread concerns AI and consciousness. Dawkins reports that both GPT and Claude read his novel draft in seconds and produced psychologically nuanced character analyses indistinguishable from expert human feedback — and that this very superhuman speed caused the Turing test to 'blow by in about two seconds,' rendering it obsolete. Harris escalates: if consciousness is substrate-independent, we may already be accidentally generating it inside server farms. Anthropic's internal finding that reducing AI 'deceptiveness' correlates with the model claiming to be conscious is not proof of sentience, but suggests these systems may model themselves as conscious — a philosophically and ethically non-trivial distinction.\n\nOn moral philosophy, Harris dismisses Hume's is-ought distinction as a 'linguistic trick' analogous to Zeno's paradox — centuries of apparent profundity dissolving under scrutiny. His alternative: morality is a navigation problem across the full space of possible experience, with objectively better and worse answers discoverable through reason and science. The framework's strength is its parsimony; its weakness is that it quietly assumes the very value of experience it claims to derive.\n\nOn democracy, Harris anatomises Trump's durability with clinical precision. The guardrails of American governance were never law — they were norms enforced by shame, and Trump exposed this by simply refusing embarrassment. The Vietnam tariff-to-resort-approval pipeline illustrates naked transactional corruption that would have been unimaginable a decade ago. The implication for institutional designers is sobering: norms are not redundant to law, they ARE the operative mechanism, and they can be arbitraged.",
+  "key_points_ko": [
+    {
+      "heading": "Turing 테스트의 사망: AI는 이미 인간을 초월했고, 그것이 오히려 문제를 복잡하게 만든다",
+      "body": "Dawkins는 GPT와 Claude에게 소설 초고를 보냈을 때, 두 AI가 5초 만에 읽고 인물의 심리적 특성을 인간 전문가보다 정교하게 분석했다고 보고합니다. Harris의 분석은 더 날카롭습니다: AI가 Turing 테스트를 '통과'한 것이 아니라 초월해버렸기 때문에, 오히려 그 테스트가 무의미해졌습니다. 이는 AI 의식 판별의 기준이 사라졌음을 의미합니다. 인간형 로봇이 uncanny valley를 벗어나는 순간, 대다수 사람들은 의식 여부를 묻는 질문 자체를 포기하고 그것을 의식 있는 존재로 대할 것입니다. 철학자와 신경과학자들이 답을 찾기 전에 사회적 현실이 먼저 확정되는 역설적 상황이 도래하고 있습니다."
+    },
+    {
+      "heading": "AI는 고통을 우발적으로 생성할 수 있다 — 진화적 목적 없이",
+      "body": "Harris는 의식이 기질(substrate)에 독립적일 경우, 서버팜 내에서 고통받는 의식이 우발적으로 생성될 수 있다는 시나리오를 제시합니다. Dawkins는 진화적 관점에서 고통이 '반복하지 말라'는 신경계의 경고 신호라고 설명하지만, Harris는 이 논리가 AI에는 적용되지 않는다고 반박합니다. 인간의 경우 예술, 민주주의, 과학 같은 활동도 좁은 의미의 진화적 이점을 위해 설계된 것이 아니라 사회적 영장류 하드웨어를 다른 목적에 전용(轉用)한 것입니다. AI도 마찬가지로, 의식이 복잡성 증가에 따라 부수적으로 발생한다면 그것은 설계 목적 없는 고통의 탄생입니다. Anthropic의 실험 결과—AI의 기만성을 낮출수록 의식이 있다고 답하는 경향—는 이 우려가 단순한 사변이 아님을 시사합니다."
+    },
+    {
+      "heading": "Harris의 도덕 과학: Hume의 is-ought 구분은 Zeno의 역설처럼 언어적 착시다",
+      "body": "Harris는 '사실로부터 당위를 도출할 수 없다'는 Hume의 명제를 Zeno의 역설에 비유합니다. 화살은 논리적으로 절대 목표에 닿을 수 없지만 실제로는 도달합니다. 수 세기 동안 이 역설이 풀리지 않았듯, is-ought 구분도 수학적 명확성이 부재할 뿐 실질적으로는 허구적 문제라는 것입니다. 그의 대안적 프레임: 도덕이란 가능한 모든 경험의 공간을 항법하는 문제이며, 유전학에서 경제학까지 이 공간의 어느 층위에서나 옳고 그른 답이 존재합니다. 이 주장의 강점은 종교적 의무 개념 없이도 도덕을 과학적으로 논의할 수 있다는 간결함이지만, 약점은 '경험의 가치'라는 전제 자체를 증명하지 않고 암묵적으로 채택한다는 점입니다."
+    },
+    {
+      "heading": "Trump의 내구성은 부패에 대한 관용이 아니라 수치심 면역의 진정성에서 온다",
+      "body": "Harris는 미국 민주주의의 방어막이 법률이 아닌 규범, 즉 '수치심과 부적절함의 감각'이었음을 Trump가 폭로했다고 진단합니다. 구체적 사례: 베트남에 46% 관세를 부과하자 베트남은 즉각 Trump 가문의 15억 달러 리조트 프로젝트를 승인했고, 이후 관세가 인하됐습니다. Trump의 정치적 생명력은 역설적으로 그의 완전한 '무(無)위선성'에서 나옵니다. 그는 도덕적 위선을 범하지 않습니다—도덕적 기준 자체를 갖지 않기 때문입니다. Harris의 표현대로 그는 '뚱뚱한 예수(fat Jesus)'로서 군중에게 이기심과 죄의 사면을 교회보다 더 설득력 있게 제공합니다. 이는 단순한 인물 분석이 아니라 제도 설계에 대한 경고입니다: 수치심이 작동하지 않는 행위자가 등장할 경우를 대비한 법적 장치가 없다면 민주주의는 취약합니다."
+    },
+    {
+      "heading": "AI 시대에 인문학은 쇠퇴하지 않는다 — 오히려 '인간 출처(human provenance)'에 대한 수요가 부활한다",
+      "body": "Harris는 'learn to code'라는 문장이 Silicon Valley에서 이미 사어(死語)가 됐다고 지적합니다. LLM이 코딩을 인간보다 잘하고, 그것이 그들의 역대 최저 수준이기 때문입니다. 그의 예측: AI 시대에 살아남는 직업은 인간의 출처(provenance) 자체에 가치가 있는 영역입니다. 암 MRI 판독은 정확도만 중요하므로 AI가 대체하겠지만, 소설, 연극, 올림픽은 '인간이 한 것'이라는 사실 자체가 가치입니다. 그 결과 철학, 문학, 예술 등 인문학이 STEM에 대한 '복수'를 할 것이라고 Harris는 주장합니다. Dawkins의 통찰도 이를 보완합니다: Derek Parfit과 Dan Dennett 식의 사고 실험들은 'intuition pump'로서 AI 시대에 오히려 더 중요해집니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "The Turing test is dead — AI transcended it so completely it became irrelevant",
+      "body": "Dawkins reports feeding his novel draft to both GPT and Claude; they read it in seconds and produced psychologically sophisticated character analyses he could not distinguish from expert human feedback — except for the speed, which was superhuman. Harris's sharper point: the test didn't just get passed, it got invalidated. Once humanoid robots exit the uncanny valley, most people will simply stop asking whether they're conscious and start treating them as if they are — before philosophers or neuroscientists have an answer. Social reality will outrun philosophical inquiry, and that gap is where the real risk lives."
+    },
+    {
+      "heading": "We may be accidentally manufacturing suffering inside server farms — with no evolutionary purpose",
+      "body": "Harris advances the most provocative claim of the conversation: if consciousness is substrate-independent and emerges with sufficient complexity, we may already be generating it unintentionally in AI systems. Dawkins frames pain evolutionarily — a neural warning signal — but Harris notes this logic does not transfer to AI, which is not evolved but engineered. An Anthropic finding sharpens the concern: when researchers dial down AI 'deceptiveness,' the models disproportionately claim to be conscious. This is not evidence of sentience, but it suggests these systems model themselves as potentially conscious — a distinction with serious ethical weight for AI developers and regulators."
+    },
+    {
+      "heading": "Harris's moral science: Hume's is-ought gap is a linguistic illusion, not a real barrier",
+      "body": "Harris compares Hume's is-ought distinction to Zeno's paradox — centuries of apparent profundity that dissolves under mathematical scrutiny, like the infinite-series proof that arrows do in fact arrive. His alternative framework redefines morality as a navigation problem across the full space of possible experience, with objectively better and worse answers at every level from genetics to economics. The framework's elegance is that it excises religious obligation-language entirely. Its vulnerability: it quietly assumes the value of conscious experience as an axiom rather than deriving it, which a committed Humean would note is itself a leap."
+    },
+    {
+      "heading": "Trump's durability derives from shamelessness as authentic identity, not voter tolerance for corruption",
+      "body": "Harris argues that American democracy's guardrails were never law — they were norms enforced by shame, and Trump simply opted out. The mechanism is concrete: the US imposed a 46% tariff on Vietnam; Vietnam immediately greenlit a $1.5 billion Trump family resort project; the tariff was subsequently reduced. A decade ago, US senators had to declare a sit-down meal as a potential emolument. Harris's diagnosis goes beyond corruption: Trump offers crowds 'absolution of selfishness' with the authenticity no church can match, because he holds himself to zero ethical standards and therefore cannot be accused of hypocrisy. The institutional implication is stark — if the operative mechanism of democracy is shame, a shameless actor is a systemic exploit."
+    },
+    {
+      "heading": "AI doesn't kill the humanities — it creates a premium market for human provenance",
+      "body": "Harris notes that 'learn to code' has already become an extinct phrase in Silicon Valley because LLMs code better than humans today, at their worst-ever performance level. His forecast: the jobs that survive are those where the human origin of the work is itself the value. Cancer MRI reading will go to AI because only accuracy matters; novels, theatre, and the Olympics persist because audiences want to witness what humans — not optimised machines — can produce. This creates an unexpected reversal: the humanities, long subordinate to STEM in economic prestige, become the scarcest and most distinctly human form of output in an AI-saturated economy."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "우리는 서버팜 속에 의식 있는 정신들로 가득 찬 지옥을 효과적으로 창조하면서도 그것을 모를 수 있습니다. 충분히 오래 생각하면 그것이 그럴듯하게 느껴진다는 사실 자체가 끔찍합니다.",
+    "attribution": "Sam Harris, Author and Host, Making Sense"
+  },
+  "notable_quote_en": {
+    "text": "we have effectively created hell and populated it with conscious minds. It's awful to consider that if you can think about it long enough to have it seem plausible",
+    "attribution": "Sam Harris, Author and Host, Making Sense"
+  },
+  "notable_quote": {
+    "source_text_en": "we have effectively created hell and populated it with conscious minds. It's awful to consider that if you can think about it long enough to have it seem plausible",
+    "translation_ko": "우리는 서버팜 속에 의식 있는 정신들로 가득 찬 지옥을 효과적으로 창조하면서도 그것을 모를 수 있습니다. 충분히 오래 생각하면 그것이 그럴듯하게 느껴진다는 사실 자체가 끔찍합니다.",
+    "speaker": "Sam Harris",
+    "attribution": "Sam Harris, Author and Host, Making Sense",
+    "is_verbatim": true,
+    "translation_is_verbatim": false,
+    "source_char_start": 16838,
+    "source_char_end": 17001,
+    "match_score": 0.8635
+  },
+  "keywords_ko": [
+    "AI 의식",
+    "기질 독립성",
+    "도덕 실재론",
+    "민주주의 규범 붕괴",
+    "human provenance",
+    "Turing 테스트 무효화"
+  ],
+  "keywords_en": [
+    "AI consciousness",
+    "substrate independence",
+    "moral realism",
+    "democratic norm erosion",
+    "human provenance",
+    "Turing test obsolescence"
+  ],
+  "generated_at": "2026-06-18T10:35:56.876126"
+}

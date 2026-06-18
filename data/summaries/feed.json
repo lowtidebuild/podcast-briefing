@@ -1,5 +1,40 @@
 [
   {
+    "slug": "2026-06-18-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "Odd Lots: Jeremy Grantham on How to Tell If a Bubble Is About to Burst",
+    "published": "2026-06-18T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-06-17-making-sense",
+    "podcast": "Making Sense",
+    "category": "Philosophy / AI Ethics",
+    "title": "#481 — Sam Harris Receives the 2026 Richard Dawkins Award",
+    "published": "2026-06-17T16:55:00+00:00"
+  },
+  {
+    "slug": "2026-06-17-hard-fork",
+    "podcast": "Hard Fork",
+    "category": "AI / Tech",
+    "title": "‘Hard Fork’ Live Part 2: Dylan Field on Standing Out in the A.I. Era",
+    "published": "2026-06-17T11:00:00+00:00"
+  },
+  {
+    "slug": "2026-06-17-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "The Fintech Playbook for Latin America",
+    "published": "2026-06-17T10:00:00+00:00"
+  },
+  {
+    "slug": "2026-06-16-ezra-klein-show",
+    "podcast": "Ezra Klein Show",
+    "category": "Politics / Geopolitics",
+    "title": "Graham Platner, Jon Ossoff and the New Rules of Political Attention",
+    "published": "2026-06-16T09:00:00+00:00"
+  },
+  {
     "slug": "2026-06-15-odd-lots",
     "podcast": "Odd Lots",
     "category": "Macro / Markets",
@@ -313,40 +348,5 @@
     "category": "Politics / Geopolitics",
     "title": "Takeaways from the US-China summit; Jason Furman on the New Fed chair",
     "published": "2026-05-17T16:35:00"
-  },
-  {
-    "slug": "2026-05-15-all-in-podcast",
-    "podcast": "All-In Podcast",
-    "category": "Politics / Geopolitics",
-    "title": "Trump-Xi Summit, Benioff: \"Not My First SaaSpocalypse,\" OpenAI vs Apple, Multi-Sensory AI, El Niño",
-    "published": "2026-05-15T21:21:00+00:00"
-  },
-  {
-    "slug": "2026-05-15-a16z-podcast",
-    "podcast": "a16z Podcast",
-    "category": "VC / Business",
-    "title": "Vitalik Buterin on Human Agency in the AI Era",
-    "published": "2026-05-15T19:04:28+00:00"
-  },
-  {
-    "slug": "2026-05-15-hard-fork",
-    "podcast": "Hard Fork",
-    "category": "AI / Tech",
-    "title": "A.I. Safety Is So Back + Mythos Mayhem with Nikesh Arora + Hot Mess Express",
-    "published": "2026-05-15T11:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-15-ezra-klein-show",
-    "podcast": "Ezra Klein Show",
-    "category": "Politics / Geopolitics",
-    "title": "This Is Why I Find Pema Chödrön So Essential",
-    "published": "2026-05-15T09:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-14-odd-lots",
-    "podcast": "Odd Lots",
-    "category": "Macro / Markets",
-    "title": "Odd Lots: Martin Wolf on the 'Terrifying' Superpower That the US Wields (Podcast)",
-    "published": "2026-05-14T08:00:00+00:00"
   }
 ]
