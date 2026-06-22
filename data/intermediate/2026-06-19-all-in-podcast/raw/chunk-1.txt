@@ -1,0 +1,146 @@
+```json
+{
+  "topics": [
+    "Anthropic Fable model ban and White House jailbreak dispute",
+    "AI industry regulation and hyperscaler oligopoly risk",
+    "Anthropic's political alignment and relationship with Trump administration",
+    "Iran-U.S. peace deal terms and geopolitical implications",
+    "AI stack disaggregation and historical computing parallels"
+  ],
+  "claims": [
+    {
+      "claim": "Amazon's security team discovered a jailbreak in Anthropic's Fable model and escalated the finding to the White House after Anthropic failed to adequately respond",
+      "evidence": [
+        "Andy Jassy got involved, indicating Amazon's security team flagged it as a liability and national security threat",
+        "Amazon is part of Mythos preview and is testing Fable as a cloud host",
+        "As publicly reported, Amazon concluded there was a jailbreak and it was a serious security problem"
+      ],
+      "speakers": ["David Sacks"]
+    },
+    {
+      "claim": "Dario Amodei refused the White House's request to take down Fable until the jailbreak was fixed, and the Treasury Secretary personally called him",
+      "evidence": [
+        "The Treasury Secretary of the United States called Dario personally",
+        "Dario pedantically argued the jailbreak wasn't a serious issue",
+        "Dario published a blog post differentiating between 'good jailbreaks' and 'bad jailbreaks'"
+      ],
+      "speakers": ["David Sacks"]
+    },
+    {
+      "claim": "Anthropic's handling of the Fable situation creates a market opportunity for hyperscalers to become gatekeepers of AI, potentially forming an oligopoly",
+      "evidence": [
+        "Hyperscalers can argue for KYC requirements: driver's license, tax ID, social security number to access models",
+        "Amazon, Microsoft, Google have spent decades and trillions building KYC and VPC infrastructure that neo-scalers cannot replicate",
+        "Frontier lab behavior has given hyperscalers a compelling case to position themselves as 'adult supervision'"
+      ],
+      "speakers": ["Chamath Palihapitiya", "Jason Calacanis"]
+    },
+    {
+      "claim": "Anthropic captured the Biden administration's AI policy apparatus, with multiple senior Biden AI officials subsequently taking jobs at Anthropic",
+      "evidence": [
+        "Officials in charge of AI for the NSC went to Anthropic",
+        "Leaders of the AI Safety Institute, which Anthropic helped set up under Biden, went to Anthropic",
+        "The person who was Sacks's predecessor as AI czar went to work at Anthropic"
+      ],
+      "speakers": ["David Sacks"]
+    },
+    {
+      "claim": "Anthropic views competition between AI companies as a dangerous 'race condition' and seeks to create a government-sanctioned cartel of two or three approved AI companies",
+      "evidence": [
+        "Marc Andreessen was reportedly told by government officials not to waste time investing in different AI companies, as only a couple would be anointed as winners",
+        "Dario went to Washington early and convinced Biden officials that AI was extremely dangerous and needed to be controlled by a small number of hand-selected companies",
+        "Anthropic describes competition as a nefarious force that causes safety to fall by the wayside"
+      ],
+      "speakers": ["David Sacks"]
+    },
+    {
+      "claim": "The Iran peace deal is a significant achievement that includes Iran committing to not develop nuclear weapons, destroying enriched uranium stockpiles under IAEA supervision, and reopening the Strait of Hormuz, at no cost to the U.S.",
+      "evidence": [
+        "Deal signed June 19th in Geneva, mediated by Pakistan, extends ceasefire for 60 days",
+        "Iran agrees to freeze nuclear program and destroy stockpile of enriched uranium under IAEA supervision",
+        "Reconstruction fund of $300 billion funded by Gulf partners, not the U.S."
+      ],
+      "speakers": ["David Sacks", "Jason Calacanis"]
+    },
+    {
+      "claim": "The IBM mainframe-to-PC disaggregation analogy suggests AI stack fragmentation is the likely and desirable outcome, preventing a single-company oligopoly",
+      "evidence": [
+        "IBM owned the full stack—chips, hardware, OS, software—until the government forced disaggregation of the software layer, spawning the independent software vendor era",
+        "After disaggregation in the 80s, Microsoft made a better OS and the software industry proliferated",
+        "Multiple chip vendors, clouds, models, and application layers are emerging in AI, suggesting natural market diffusion"
+      ],
+      "speakers": ["David Friedberg"]
+    },
+    {
+      "claim": "Dario Amodei exhibits 'epistemic exceptionalism'—a pattern where his judgment is treated as the uncorruptible reference point and all disagreement is coded as others' error or corruption",
+      "evidence": [
+        "Claude's analysis based on 'Machines of Loving Grace' and AI policy essays concluded: 'You've built a machine that outputs me, no matter what you feed it'",
+        "Every conflict gets recoded: losing Pentagon fight becomes 'evidence the system runs on leverage instead of reason'",
+        "The word 'misunderstanding' used by Anthropic under stress 'presumes that if everyone simply understood correctly, they'd agree with him'"
+      ],
+      "speakers": ["Chamath Palihapitiya"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "once you believe your judgment is the uncorruptible reference point. Every conflict gets recoded. Government overreach isn't powerful actors have competing interests and I lost. It becomes they failed to be transparent and fair.",
+      "speaker": "Chamath Palihapitiya",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "you've built a machine that outputs me, no matter what you feed it. The act would call that a God complex. The more precise term is epistemic exceptionalism, not that I am superior, but more my reasoning is the load bearing one.",
+      "speaker": "Chamath Palihapitiya",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "instead of a diverse, robust, open ecosystem, giving a tool that is the fundamental unlock for humans, we are now going to debate gatekeeping and duopoly versus oligopoly. They have created a total mess.",
+      "speaker": "Chamath Palihapitiya",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Why wouldn't this be a five minute call? Why wouldn't Dario just say, Yes, sir, we take security more seriously than anybody else. We'll fix this problem. Thank you for taking the time to call us on your busy day. We're going to handle it right now. Click.",
+      "speaker": "David Sacks",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "These companies need to stop doom trolling. They need to stop doom trolling.",
+      "speaker": "David Friedberg",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "If John Podorat and the neocons want to do it, let them send their kids and their family. If Reza Pahlavi wants to go to Beverly Hills and muster an army for his legion of supporters, let him try and do that.",
+      "speaker": "David Sacks",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "the leaders of the frontier labs leave a lot to be desired. Okay, I think what we're seeing is a consistent pattern of evasiveness and immaturity.",
+      "speaker": "Chamath Palihapitiya",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "We all assume that this time is different and everything's about to change completely. And you know what? It doesn't. We're all part of this long-term continuum of technological and productivity improvements driven by human ingenuity.",
+      "speaker": "David Friedberg",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [],
+  "keyword_candidates": [
+    "Anthropic Fable jailbreak",
+    "Dario Amodei epistemic exceptionalism",
+    "hyperscaler KYC gatekeeper",
+    "Mythos cyber weapon",
+    "Iran peace deal Geneva",
+    "Strait of Hormuz",
+    "AI stack disaggregation",
+    "export control letter"
+  ]
+}
+```

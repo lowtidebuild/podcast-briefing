@@ -2389,6 +2389,143 @@
         "sheets_configured": true
       },
       "updated_at": "2026-06-18T10:35:57.944721"
+    },
+    "https://assets.bwbx.io/av/users/iqjWHBFdfxIU/vkE7qnVuMUIA/v15.mp3": {
+      "slug": "2026-06-22-odd-lots",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-22-odd-lots/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-06-22-odd-lots.json"
+      },
+      "usage": {
+        "quote_is_verbatim": false,
+        "quote_match_score": 0.7754,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-06-22T11:47:58.728958"
+    },
+    "substack:post:202734201": {
+      "slug": "2026-06-19-dwarkesh-podcast",
+      "status": "download_failed",
+      "last_stage": "download",
+      "attempts": 1,
+      "last_error": "403 Client Error: Forbidden for url: https://api.substack.com/feed/podcast/202734201/6bfb394237f089ea0355b8632dfa3537.mp3",
+      "warnings": [],
+      "artifacts": {},
+      "usage": {},
+      "updated_at": "2026-06-22T11:47:58.779200"
+    },
+    "8c7456c6-b5a8-11f0-b45b-8fc9719c124c": {
+      "slug": "2026-06-21-fareed-zakaria-gps",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-21-fareed-zakaria-gps/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-06-21-fareed-zakaria-gps.json"
+      },
+      "usage": {
+        "quote_is_verbatim": true,
+        "quote_match_score": 0.953,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-06-22T11:53:37.325121"
+    },
+    "13fcb6ee-12d5-48da-a00b-03a2306067f1": {
+      "slug": "2026-06-19-hard-fork",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-19-hard-fork/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-06-19-hard-fork.json"
+      },
+      "usage": {
+        "quote_is_verbatim": false,
+        "quote_match_score": 0.6799,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-06-22T11:58:21.264771"
+    },
+    "9a482167-fc1b-4d77-9be5-e4b50b9792fa": {
+      "slug": "2026-06-19-a16z-podcast",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-19-a16z-podcast/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-06-19-a16z-podcast.json"
+      },
+      "usage": {
+        "quote_is_verbatim": true,
+        "quote_match_score": 1.0,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-06-22T12:02:26.629497"
+    },
+    "1973c64e-283d-4c1e-9a8e-798d6119ee2b": {
+      "slug": "2026-06-19-ezra-klein-show",
+      "status": "published",
+      "last_stage": "sheets",
+      "attempts": 1,
+      "last_error": null,
+      "warnings": [],
+      "artifacts": {
+        "chunks": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-19-ezra-klein-show/chunks.json",
+        "extraction_report": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-19-ezra-klein-show/extraction_report.json",
+        "raw_dir": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-19-ezra-klein-show/raw",
+        "synthesis": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-19-ezra-klein-show/synthesis.json",
+        "quote_grounding": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-19-ezra-klein-show/quote_grounding.json",
+        "summary": "/home/runner/work/podcast-briefing/podcast-briefing/data/summaries/2026-06-19-ezra-klein-show.json"
+      },
+      "usage": {
+        "transcript_chars": 81060,
+        "chunk_count": 2,
+        "extracted_chunk_count": 2,
+        "cache_hits": 0,
+        "extraction_prompt_input_chars": 84012,
+        "synthesis_prompt_chars": 15169,
+        "synthesis_input_reduction_ratio": 0.8129,
+        "quote_is_verbatim": true,
+        "quote_match_score": 1.0,
+        "sheets_configured": true
+      },
+      "updated_at": "2026-06-22T12:12:23.068098"
+    },
+    "fe009dce-e1b0-43e5-b9c3-ac8169bd39eb": {
+      "slug": "2026-06-19-all-in-podcast",
+      "status": "summary_failed",
+      "last_stage": "episode_synthesis",
+      "attempts": 1,
+      "last_error": "all 3 episode_synthesis attempts failed to produce valid JSON; summary parsing failed",
+      "warnings": [],
+      "artifacts": {
+        "chunks": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-19-all-in-podcast/chunks.json",
+        "extraction_report": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-19-all-in-podcast/extraction_report.json",
+        "raw_dir": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-19-all-in-podcast/raw",
+        "synthesis": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-19-all-in-podcast/synthesis.json",
+        "failure": "/home/runner/work/podcast-briefing/podcast-briefing/data/failures/2026-06-19-all-in-podcast.json"
+      },
+      "usage": {
+        "transcript_chars": 86009,
+        "chunk_count": 3,
+        "extracted_chunk_count": 3,
+        "cache_hits": 0,
+        "extraction_prompt_input_chars": 90520,
+        "synthesis_prompt_chars": 18469,
+        "synthesis_input_reduction_ratio": 0.7853
+      },
+      "updated_at": "2026-06-22T12:24:59.096796"
     }
   }
 }

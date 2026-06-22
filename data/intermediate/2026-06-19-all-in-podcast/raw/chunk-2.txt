@@ -1,0 +1,104 @@
+```json
+{
+  "topics": [
+    "Iran nuclear deal MOU terms",
+    "Enriched uranium removal and timeline",
+    "Sanctions relief and US-Iran normalization",
+    "Iran strike debate and containment strategy",
+    "North Korea nuclear containment comparison"
+  ],
+  "claims": [
+    {
+      "claim": "Even if Iran restarted its nuclear program after the deal, it would take years to a decade or 15+ years to build enough enriched uranium for a nuclear weapon.",
+      "evidence": [
+        "Restarting would require re-acquiring equipment, rebuilding intelligence infrastructure",
+        "Described as a 'natural setback' providing defense for key conditions"
+      ],
+      "speakers": ["Unknown speaker (non-J.Cal)"]
+    },
+    {
+      "claim": "The Iran deal at this stage is only at the MOU level of high-level principles and the exact program details have yet to be defined.",
+      "evidence": [
+        "Described as 'at the MOU stage'",
+        "Exact mechanisms for uranium removal still to be defined",
+        "Iran gets sanctions relief and normalized US relationship in exchange"
+      ],
+      "speakers": ["Unknown speaker"]
+    },
+    {
+      "claim": "J.Cal believes the full-scale war with Iran was not worth it and that a containment/incremental strike approach (like Israel had used) was the superior strategy.",
+      "evidence": [
+        "References Israel's 'trimming of the grass, hedging of the garden approach'",
+        "Argues bombing facilities every 18 months was working and did not require full-scale war",
+        "States 'we don't know what information Trump had' but still calls the escalation unnecessary"
+      ],
+      "speakers": ["J.Cal"]
+    },
+    {
+      "claim": "J.Cal argues the US cannot enforce democracy in the Middle East and the Iranian people must lead their own revolution.",
+      "evidence": [
+        "References repeated failures of externally facilitated democracy in the Middle East",
+        "States 'the people have to lead their own revolution. We can't facilitate it.'"
+      ],
+      "speakers": ["J.Cal"]
+    },
+    {
+      "claim": "Allowing North Korea to develop nuclear weapons was a mistake by prior administrations, and the same mistake nearly happened with Iran.",
+      "evidence": [
+        "References a prior discussion with Graham Allison about why North Korea wasn't contained earlier",
+        "Argues Iran containment via periodic strikes was working before the full-scale war"
+      ],
+      "speakers": ["J.Cal"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "it's gonna take years to a decade to 15 years plus to build enough enriched uranium to build a nuclear weapon.",
+      "speaker": "",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "This is at the MOU stage. It's at the level of high-level principles.",
+      "speaker": "",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "we don't see what Trump sees, right? So you have to be humble enough to know we don't know what information he had in all of this",
+      "speaker": "J.Cal",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Isolating dictators, waiting them out is always the better approach than starting full-scale wars with them, because you don't know what could happen in an escalation.",
+      "speaker": "J.Cal",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "we can't enforce democracy in the Middle East. We've learned that over and over and over again. The people have to take, they have to lead their own revolution.",
+      "speaker": "J.Cal",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Every 18 months, we bombed the facilities. It was fine. We didn't need to start a full-scale war.",
+      "speaker": "J.Cal",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [],
+  "keyword_candidates": [
+    "Iran nuclear deal",
+    "enriched uranium",
+    "MOU",
+    "sanctions relief",
+    "containment strategy",
+    "North Korea",
+    "Graham Allison",
+    "nuclear proliferation"
+  ]
+}
+```

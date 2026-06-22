@@ -1,0 +1,12 @@
+{
+  "slug": "2026-06-19-hard-fork",
+  "transcript_chars": 56000,
+  "is_verbatim": false,
+  "match_score": 0.6799,
+  "source_char_start": null,
+  "source_char_end": null,
+  "warnings": [
+    "notable_quote_en was not grounded in transcript (best score=0.68)"
+  ],
+  "created_at": "2026-06-22T11:58:20.459034"
+}

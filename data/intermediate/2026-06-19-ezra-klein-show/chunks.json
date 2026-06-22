@@ -1,0 +1,300 @@
+[
+  {
+    "chunk_index": 0,
+    "char_start": 0,
+    "char_end": 40548,
+    "topics": [
+      "Predictive dystopian fiction and contemporary reality",
+      "Longevity/biohacking culture and the severing of desire from joy",
+      "Social media, ranking culture, and loss of interiority",
+      "Demographic decline and techno-exhaustion in East Asia",
+      "Literary culture, craft, and the decline of pleasure in modern writing"
+    ],
+    "claims": [
+      {
+        "claim": "Super Sad True Love Story predicted key features of contemporary life—pervasive ranking, hyper-visual culture, longevity obsession, and political authoritarianism—roughly 10-15 years earlier than expected.",
+        "evidence": [
+          "Book written mid-aughts, published 2010; Shteyngart expected a 30-year corridor but it happened in 14-15 years",
+          "Book features an invasion of Venezuela and a Smotrich-like ruling party in Israel called 'Security State Israel'",
+          "The Apparat device ranks people continuously on looks, finances, and every metric"
+        ],
+        "speakers": [
+          "Gary Shteyngart",
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "Rate Me Plus technology in the novel—and its real-world analogs—creates psychological dependency so severe that young people in the book commit suicide when the ranking system goes offline.",
+        "evidence": [
+          "Klein quotes the novel: 'one wrote quite eloquently about how he reached out to life, but found there only walls and thoughts and faces which weren't enough. He needed to be ranked to know his place in this world.'",
+          "Shteyngart says he felt 'a little chilled' writing it, recognizing his own withdrawal when cut off from internet in Uzbekistan-like countries"
+        ],
+        "speakers": [
+          "Gary Shteyngart",
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "Biohacking and looks-maxing culture (exemplified by Brian Johnson and Clavicular) severs biological urges from their intended purposes, producing infertility and joylessness.",
+        "evidence": [
+          "Brian Johnson described as taking testosterone to attract mates while causing shrunken testicles and infertility",
+          "Clavicular states that giving a woman an orgasm has 'not much ROI'",
+          "Bone-smashing trend cited as physical self-harm for metric-based attractiveness rather than actual social connection"
+        ],
+        "speakers": [
+          "Gary Shteyngart",
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "Social media platforms have made publicly performed mental illness financially profitable, which Shteyngart links to a broader cultural and political phenomenon including Trump.",
+        "evidence": [
+          "Shteyngart says platforms 'have made being openly mentally ill a profitable thing'",
+          "States this 'reaches up to our commander in chief' through 'humor and trolling' in a 'carnivalesque atmosphere'",
+          "Notes that parasocial followers would quickly move on if a content creator died, showing relationships are not real"
+        ],
+        "speakers": [
+          "Gary Shteyngart"
+        ]
+      },
+      {
+        "claim": "South Korea represents an extreme endpoint of the ranking/metric-obsessed society depicted in Super Sad True Love Story, with geometric population decline and worker exhaustion as consequences.",
+        "evidence": [
+          "Shteyngart describes Koreans as 'exhausted,' working 80-hour weeks, drinking to stupor while discussing A/B/C team rankings at work",
+          "Child-rearing costs consume half a paycheck; fertility rate effectively near zero with one-child norm",
+          "Government directs entire industries (flat screens, then robotics) in coordinated national competition"
+        ],
+        "speakers": [
+          "Gary Shteyngart"
+        ]
+      },
+      {
+        "claim": "Contemporary literary fiction by young writers has largely abandoned sex, pleasure, and humor in favor of neurosis and anxiety, which Shteyngart sees as a symptom of broader cultural despair.",
+        "evidence": [
+          "Shteyngart has taught creative writing at Columbia for ~20 years and notes the shift",
+          "'Half of what my students write, if not more, is speculative fiction' with 'low key horrible' vibes",
+          "Students call the dominant mode the 'sad girl novel'; Shteyngart contrasts with Cheever/Updike/Roth era that treated sex as 'a major life force'"
+        ],
+        "speakers": [
+          "Gary Shteyngart"
+        ]
+      },
+      {
+        "claim": "Marc Andreessen's public rejection of introspection represents a Silicon Valley anti-interiority trend that Shteyngart links to neurodivergence combined with traumatic or neglectful parenting.",
+        "evidence": [
+          "Andreessen quoted saying he wants 'zero' levels of introspection and that dwelling on the past 'is a real problem at work and at home'",
+          "Shteyngart connects this to Elon Musk, describing him as neurodivergent and raised by 'possibly the worst father this side of Woody Allen'",
+          "Shteyngart argues these individuals were never given opportunity by school or parents to develop inward-looking skills"
+        ],
+        "speakers": [
+          "Gary Shteyngart",
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "The internet's 'porn theory'—that all content now must deliver an instant surge of sensation—is destroying the capacity for long-form reading and deep interiority.",
+        "evidence": [
+          "Klein cites Ryan Broderick's 'porn theory of the internet'",
+          "Shteyngart says he cannot read two pages without checking Instagram likes",
+          "Klein quotes Super Sad: 'Kundera had put too many words around the fetish for her to gain what our generation required from any form of content, a ready surge of excitement'"
+        ],
+        "speakers": [
+          "Ezra Klein",
+          "Gary Shteyngart"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "he reached out to life, but found there only walls and thoughts and faces which weren't enough. He needed to be ranked to know his place in this world.",
+        "speaker": "Gary Shteyngart",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I fell into that trap so quickly. I have friends, relatives who work in Silicon Valley that they really create barriers between their kids and this technology. They know exactly what they're making and they want their kids as far away from it as possible.",
+        "speaker": "Gary Shteyngart",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "the need to know to the infinitesimal decimal point... none of these people are enjoying life. You know, when you look at all these men who are measuring their cheekbone to the millimeter, this isn't a good way to live.",
+        "speaker": "Gary Shteyngart",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "We want to live because we want to enjoy. We want to be hot because we want love and children. And this severing of all of these urges from the things the urges are supposed to do, the severing of the pursuit of desire from the thing the desire is supposed to.",
+        "speaker": "Ezra Klein",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "what our society has done, what these platforms have done, have done is that they have made being mentally ill a very profitable thing, being openly mentally ill, a profitable thing. And I think that reaches up to our commander in chief.",
+        "speaker": "Gary Shteyngart",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I felt that Kundera had put too many words around the fetish for her to gain what our generation required from any form of content, a ready surge of excitement, a temporary lease on satisfaction.",
+        "speaker": "Gary Shteyngart",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Gary Shteyngart",
+        "title": "Novelist and Creative Writing Professor, Columbia University"
+      }
+    ],
+    "keyword_candidates": [
+      "Super Sad True Love Story",
+      "Rate Me Plus",
+      "Brian Johnson biohacking",
+      "Clavicular looks-maxing",
+      "bone smashing",
+      "South Korea fertility decline",
+      "Marc Andreessen anti-introspection",
+      "porn theory of the internet"
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "char_start": 40548,
+    "char_end": 81060,
+    "topics": [
+      "Fertility decline and competitive parenting culture",
+      "Sensualism, pleasure, and the politics of joy",
+      "US vs. European quality of life and social safety nets",
+      "Beauty, craft, and inefficiency as values",
+      "Democratic Party culture and the problem of joylessness"
+    ],
+    "claims": [
+      {
+        "claim": "Fertility decline in wealthy countries is driven by positional competition and the high cost of raising children in status-conscious environments, not solely by economic poverty.",
+        "evidence": [
+          "South Korea cited as extreme case where having even one child is 'a gigantic undertaking' and two is 'basically an impossibility'",
+          "Speaker observes that very rich and very poor populations have more children; the middle is where it becomes too expensive",
+          "Palo Alto and Manhattan described as places where raising a child feels like managing 'a mini corporation'"
+        ],
+        "speakers": [
+          "Gary Shteyngart",
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "Elite optimization culture—tracking sleep, glucose, alcohol—represents a joyless form of positional competition that has become politically problematic for Democrats.",
+        "evidence": [
+          "Viral clip of a podcast host describing how two glasses of wine 'ruined three days' via a domino effect on sleep, diet, and performance",
+          "Mention of the Oura ring and glucose monitors worn by non-diabetics",
+          "Speaker says 'so much of this is a part of what you hear and see in certain elite democratic precincts'"
+        ],
+        "speakers": [
+          "Gary Shteyngart",
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "Spain and southern Europe offer a higher experiential quality of life than the US despite lower GDP, because strong social safety nets and communal culture reduce the need for precautionary saving and status competition.",
+        "evidence": [
+          "Speaker argues Americans and Chinese share a lack of safety net requiring constant saving against medical bankruptcy",
+          "Andalusia described as one of Spain's poorest regions yet with strong communal connections and celebrated pleasures",
+          "Spain's transit system and immigration policy cited as structural advantages enabling lower-cost, higher-quality living"
+        ],
+        "speakers": [
+          "Gary Shteyngart"
+        ]
+      },
+      {
+        "claim": "Trump's political success is partly attributable to his sensualism and humor, which contrasts with Democratic candidates' performative and joyless self-presentation.",
+        "evidence": [
+          "Emily Nussbaum's New Yorker piece cited as arguing Trump appropriated the humor of Jewish Borscht Belt comics",
+          "Kamala Harris criticized for 'telling, not showing' joy—repeating the word joy without embodying it",
+          "Contrast drawn: 'J.D. Vance is not a sensualist. Marco Rubio is not a sensualist. Trump is.'"
+        ],
+        "speakers": [
+          "Gary Shteyngart",
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "Beauty and efficiency are in fundamental tension, and public policy choices—like Japan's tolerance of low-volume specialty shops—determine whether beauty survives in a society.",
+        "evidence": [
+          "Tokyo cited as having public policy that makes it affordable to run shops and restaurants that not many people use, deliberately not maximizing retail efficiency",
+          "Senator Chris Murphy's commencement speech quoted: 'the most beautiful things are not going to be efficient'",
+          "Japanese craft culture described as valuing artisans above merchants, unlike many other societies"
+        ],
+        "speakers": [
+          "Gary Shteyngart",
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "Extreme wealth correlates with reduced happiness, as the ultra-wealthy replace all activities with competition and have no capacity for appreciation.",
+        "evidence": [
+          "Hedge fund managers described as spending leisure time playing poker for $10 million stakes, continuing competition outside work",
+          "Speaker says very wealthy people are 'some of the least happy people I know, by far'",
+          "Research with 'very, very wealthy people' cited as source"
+        ],
+        "speakers": [
+          "Gary Shteyngart"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "You're not just having a child, you're having a kind of, I don't know, you're having a corporation, a mini corporation that has to do really, really well.",
+        "speaker": "Gary Shteyngart",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "There's like grief maxing now where people talk on, you know, about all the grief that they've suffered, which I guess is called a novel, but right. But now it's also a TikTok.",
+        "speaker": "Gary Shteyngart",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Claris, she talked about joy so much that you knew that there wasn't that much joy going on. It's what we call in fiction telling, not showing joy, joy, joy.",
+        "speaker": "Gary Shteyngart",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "You are about to step into a world that prizes efficiency and the annihilation of drift and friction above all else.",
+        "speaker": "Chris Murphy",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I also don't know. I make my own martinis. They're pretty good. But there's skills and proprietary formulas that just make for a better martini in both directions.",
+        "speaker": "Gary Shteyngart",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "He approaches it like a Talmudic scholar, you know, and he sniffs here. He sniffs there. Yes. Rocco was here at twelve thirty. That's right.",
+        "speaker": "Gary Shteyngart",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Gary Shteyngart",
+        "title": "Novelist and Essayist, Author of 'The Sensualist' (forthcoming)"
+      }
+    ],
+    "keyword_candidates": [
+      "sensualism",
+      "positional competition",
+      "fertility decline",
+      "optimization culture",
+      "Glashutte watchmaking",
+      "Andalusia quality of life",
+      "Emily Nussbaum Trump humor",
+      "Chris Murphy efficiency speech"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "slug": "2026-06-19-all-in-podcast",
+  "episode_id": "fe009dce-e1b0-43e5-b9c3-ac8169bd39eb",
+  "podcast": "All-In Podcast",
+  "title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
+  "published": "2026-06-19T22:07:00+00:00",
+  "stage": "episode_synthesis",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "attempts": 6,
+  "errors": [
+    "summary parsing failed"
+  ],
+  "warnings": [],
+  "generation_errors": [
+    "all 3 episode_synthesis attempts failed to produce valid JSON"
+  ],
+  "generation_warnings": [],
+  "artifacts": {
+    "chunks": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-19-all-in-podcast/chunks.json",
+    "extraction_report": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-19-all-in-podcast/extraction_report.json",
+    "raw_dir": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-19-all-in-podcast/raw",
+    "synthesis": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-19-all-in-podcast/synthesis.json"
+  },
+  "usage": {
+    "transcript_chars": 86009,
+    "chunk_count": 3,
+    "extracted_chunk_count": 3,
+    "cache_hits": 0,
+    "extraction_prompt_input_chars": 90520,
+    "synthesis_prompt_chars": 18469,
+    "synthesis_input_reduction_ratio": 0.7853
+  },
+  "raw_output_path": "/home/runner/work/podcast-briefing/podcast-briefing/data/failures/raw/2026-06-19-all-in-podcast.txt",
+  "created_at": "2026-06-22T12:24:59.094982"
+}

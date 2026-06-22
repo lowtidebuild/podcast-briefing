@@ -1,5 +1,40 @@
 [
   {
+    "slug": "2026-06-22-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "Odd Lots: How Chinese Tech Companies See AI Differently",
+    "published": "2026-06-22T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-06-21-fareed-zakaria-gps",
+    "podcast": "Fareed Zakaria GPS",
+    "category": "Politics / Geopolitics",
+    "title": "Navigating Global Challenges: AI, Oil, and Political Dynamics",
+    "published": "2026-06-21T16:33:00"
+  },
+  {
+    "slug": "2026-06-19-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
+    "published": "2026-06-19T16:35:00+00:00"
+  },
+  {
+    "slug": "2026-06-19-hard-fork",
+    "podcast": "Hard Fork",
+    "category": "AI / Tech",
+    "title": "‘Hard Fork’ Live, Part 3: Differing Visions of an A.I. Future",
+    "published": "2026-06-19T11:00:00+00:00"
+  },
+  {
+    "slug": "2026-06-19-ezra-klein-show",
+    "podcast": "Ezra Klein Show",
+    "category": "Politics / Geopolitics",
+    "title": "I Keep Telling People We’re Living in This Dystopian Novel",
+    "published": "2026-06-19T09:00:00+00:00"
+  },
+  {
     "slug": "2026-06-18-odd-lots",
     "podcast": "Odd Lots",
     "category": "Macro / Markets",
@@ -313,40 +348,5 @@
     "category": "Macro / Markets",
     "title": "Odd Lots: Why Cerebras CEO Andrew Feldman Built The World's Largest Computer Chip (Podcast)",
     "published": "2026-05-21T08:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-20-making-sense",
-    "podcast": "Making Sense",
-    "category": "Philosophy / AI Ethics",
-    "title": "#476 — The Bittersweet Age",
-    "published": "2026-05-20T18:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-20-a16z-podcast",
-    "podcast": "a16z Podcast",
-    "category": "VC / Business",
-    "title": "Marc Andreessen on AI, California, and the Future of America | Joe Rogan",
-    "published": "2026-05-20T10:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-19-ezra-klein-show",
-    "podcast": "Ezra Klein Show",
-    "category": "Politics / Geopolitics",
-    "title": "Is It Time to Break the Two-Party System?",
-    "published": "2026-05-19T09:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-18-odd-lots",
-    "podcast": "Odd Lots",
-    "category": "Macro / Markets",
-    "title": "Odd Lots: Why the Price of Oil, Beef, Electricity, and Everything Else Makes No Sense (Podcast)",
-    "published": "2026-05-18T08:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-17-fareed-zakaria-gps",
-    "podcast": "Fareed Zakaria GPS",
-    "category": "Politics / Geopolitics",
-    "title": "Takeaways from the US-China summit; Jason Furman on the New Fed chair",
-    "published": "2026-05-17T16:35:00"
   }
 ]

@@ -1,0 +1,149 @@
+{
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_hash": "7dbbdc100f7a8947b4ee9468d1c3020dbcd4f7392b1462c74b8fe9a822b17531",
+  "chunk_hash": "76b8a3baff2bea94e7826297c5f9369244ca685a9382bb4172d0335b373442d8",
+  "chunk_index": 1,
+  "char_start": 40548,
+  "char_end": 81060,
+  "extraction": {
+    "chunk_index": 1,
+    "char_start": 40548,
+    "char_end": 81060,
+    "topics": [
+      "Fertility decline and competitive parenting culture",
+      "Sensualism, pleasure, and the politics of joy",
+      "US vs. European quality of life and social safety nets",
+      "Beauty, craft, and inefficiency as values",
+      "Democratic Party culture and the problem of joylessness"
+    ],
+    "claims": [
+      {
+        "claim": "Fertility decline in wealthy countries is driven by positional competition and the high cost of raising children in status-conscious environments, not solely by economic poverty.",
+        "evidence": [
+          "South Korea cited as extreme case where having even one child is 'a gigantic undertaking' and two is 'basically an impossibility'",
+          "Speaker observes that very rich and very poor populations have more children; the middle is where it becomes too expensive",
+          "Palo Alto and Manhattan described as places where raising a child feels like managing 'a mini corporation'"
+        ],
+        "speakers": [
+          "Gary Shteyngart",
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "Elite optimization culture—tracking sleep, glucose, alcohol—represents a joyless form of positional competition that has become politically problematic for Democrats.",
+        "evidence": [
+          "Viral clip of a podcast host describing how two glasses of wine 'ruined three days' via a domino effect on sleep, diet, and performance",
+          "Mention of the Oura ring and glucose monitors worn by non-diabetics",
+          "Speaker says 'so much of this is a part of what you hear and see in certain elite democratic precincts'"
+        ],
+        "speakers": [
+          "Gary Shteyngart",
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "Spain and southern Europe offer a higher experiential quality of life than the US despite lower GDP, because strong social safety nets and communal culture reduce the need for precautionary saving and status competition.",
+        "evidence": [
+          "Speaker argues Americans and Chinese share a lack of safety net requiring constant saving against medical bankruptcy",
+          "Andalusia described as one of Spain's poorest regions yet with strong communal connections and celebrated pleasures",
+          "Spain's transit system and immigration policy cited as structural advantages enabling lower-cost, higher-quality living"
+        ],
+        "speakers": [
+          "Gary Shteyngart"
+        ]
+      },
+      {
+        "claim": "Trump's political success is partly attributable to his sensualism and humor, which contrasts with Democratic candidates' performative and joyless self-presentation.",
+        "evidence": [
+          "Emily Nussbaum's New Yorker piece cited as arguing Trump appropriated the humor of Jewish Borscht Belt comics",
+          "Kamala Harris criticized for 'telling, not showing' joy—repeating the word joy without embodying it",
+          "Contrast drawn: 'J.D. Vance is not a sensualist. Marco Rubio is not a sensualist. Trump is.'"
+        ],
+        "speakers": [
+          "Gary Shteyngart",
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "Beauty and efficiency are in fundamental tension, and public policy choices—like Japan's tolerance of low-volume specialty shops—determine whether beauty survives in a society.",
+        "evidence": [
+          "Tokyo cited as having public policy that makes it affordable to run shops and restaurants that not many people use, deliberately not maximizing retail efficiency",
+          "Senator Chris Murphy's commencement speech quoted: 'the most beautiful things are not going to be efficient'",
+          "Japanese craft culture described as valuing artisans above merchants, unlike many other societies"
+        ],
+        "speakers": [
+          "Gary Shteyngart",
+          "Ezra Klein"
+        ]
+      },
+      {
+        "claim": "Extreme wealth correlates with reduced happiness, as the ultra-wealthy replace all activities with competition and have no capacity for appreciation.",
+        "evidence": [
+          "Hedge fund managers described as spending leisure time playing poker for $10 million stakes, continuing competition outside work",
+          "Speaker says very wealthy people are 'some of the least happy people I know, by far'",
+          "Research with 'very, very wealthy people' cited as source"
+        ],
+        "speakers": [
+          "Gary Shteyngart"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "You're not just having a child, you're having a kind of, I don't know, you're having a corporation, a mini corporation that has to do really, really well.",
+        "speaker": "Gary Shteyngart",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "There's like grief maxing now where people talk on, you know, about all the grief that they've suffered, which I guess is called a novel, but right. But now it's also a TikTok.",
+        "speaker": "Gary Shteyngart",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "Claris, she talked about joy so much that you knew that there wasn't that much joy going on. It's what we call in fiction telling, not showing joy, joy, joy.",
+        "speaker": "Gary Shteyngart",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "You are about to step into a world that prizes efficiency and the annihilation of drift and friction above all else.",
+        "speaker": "Chris Murphy",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "I also don't know. I make my own martinis. They're pretty good. But there's skills and proprietary formulas that just make for a better martini in both directions.",
+        "speaker": "Gary Shteyngart",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "He approaches it like a Talmudic scholar, you know, and he sniffs here. He sniffs there. Yes. Rocco was here at twelve thirty. That's right.",
+        "speaker": "Gary Shteyngart",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Gary Shteyngart",
+        "title": "Novelist and Essayist, Author of 'The Sensualist' (forthcoming)"
+      }
+    ],
+    "keyword_candidates": [
+      "sensualism",
+      "positional competition",
+      "fertility decline",
+      "optimization culture",
+      "Glashutte watchmaking",
+      "Andalusia quality of life",
+      "Emily Nussbaum Trump humor",
+      "Chris Murphy efficiency speech"
+    ]
+  },
+  "created_at": "2026-06-22T12:09:07.812473"
+}
