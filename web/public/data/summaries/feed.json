@@ -1,5 +1,26 @@
 [
   {
+    "slug": "2026-06-25-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "Odd Lots: How the 1994 World Cup Transformed the Business of Football Forever (Podcast)",
+    "published": "2026-06-25T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-06-24-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "What Happens to Design After AI?",
+    "published": "2026-06-24T10:00:00+00:00"
+  },
+  {
+    "slug": "2026-06-23-all-in-podcast",
+    "podcast": "All-In Podcast",
+    "category": "Politics / Geopolitics",
+    "title": "GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
+    "published": "2026-06-23T20:52:00+00:00"
+  },
+  {
     "slug": "2026-06-22-odd-lots",
     "podcast": "Odd Lots",
     "category": "Macro / Markets",
@@ -327,26 +348,5 @@
     "category": "AI / Tech",
     "title": "Our Field Trip to Google I/O + A Sit-Down With Sundar Pichai + System Update",
     "published": "2026-05-22T11:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-22-a16z-podcast",
-    "podcast": "a16z Podcast",
-    "category": "VC / Business",
-    "title": "Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
-    "published": "2026-05-22T10:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-22-odd-lots",
-    "podcast": "Odd Lots",
-    "category": "Macro / Markets",
-    "title": "Odd Lots: 'The Assassin' Fahmi Quadir on How to Survive as a Short-Seller (Podcast)",
-    "published": "2026-05-22T08:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-21-odd-lots",
-    "podcast": "Odd Lots",
-    "category": "Macro / Markets",
-    "title": "Odd Lots: Why Cerebras CEO Andrew Feldman Built The World's Largest Computer Chip (Podcast)",
-    "published": "2026-05-21T08:00:00+00:00"
   }
 ]

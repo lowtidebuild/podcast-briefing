@@ -1,0 +1,96 @@
+{
+  "id": "1d6e6319-449a-458d-b740-174eb6bb17d6",
+  "slug": "2026-06-23-all-in-podcast",
+  "podcast": "All-In Podcast",
+  "category": "Politics / Geopolitics",
+  "title": "GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
+  "published": "2026-06-23T20:52:00+00:00",
+  "link": "https://allinchamathjason.libsyn.com/gamestop-ceo-ryan-cohens-56b-plan-to-take-over-ebay",
+  "podcast_url": "https://www.allinpodcast.co",
+  "guest": {
+    "name": "Ryan Cohen",
+    "title": "CEO, GameStop; Founder, Chewy"
+  },
+  "summary_ko": "Ryan Cohen이 $56B 규모의 eBay 인수를 시도하고 있다는 사실은 단순한 기업 M&A 뉴스가 아닙니다. 이는 창업자 주도 경영(founder-led operations)이 전문 경영인 체제(professional management)보다 실질적으로 우월하다는 명제를 시장에서 직접 검증하는 실험입니다. Cohen은 Chewy를 $3.35B에 매각한 뒤 GameStop의 CEO로 취임해 수익성을 회복시켰고, 이제 같은 논리를 eBay에 적용하려 합니다.\n\nCohen의 핵심 주장은 이렇습니다. eBay는 사업 모델이 망가진 것이 아니라 경영이 망가진 것이라는 겁니다. GMV는 코로나 이후 하락했고, 활성 사용자는 3,000만 명 감소했으며, 매출 대비 운영비 비율은 50%를 초과합니다. 반면 $2.4B의 마케팅 지출은 실질적인 사용자 성장을 만들어내지 못했습니다. 그의 처방은 세 가지입니다. 첫째, $2B의 비용 절감. 둘째, TAM이 $400B에 달하는 live commerce 카테고리 공략. 셋째, AAA 게임 내 아이템(스킨, 무기 등)을 위한 디지털 마켓플레이스 구축. 세 번째는 이번 인터뷰에서 처음 공개된 전략으로, NFT의 실패를 반면교사 삼아 실제 유틸리티를 가진 in-game 아이템에 유동성을 제공한다는 구상입니다.\n\n제안 구조는 현금 50%, GameStop 주식 50%이며, eBay 이사회는 이미 거절했습니다. Cohen은 자신이 이 거래에 $500M을 직접 투자하겠다고 밝혔고, GameStop CEO로서 회사로부터 단 한 푼도 인출하지 않았다고 강조합니다. 반면 eBay 현 경영진 수장의 퇴직금은 $100M을 초과합니다. 이 대비는 Cohen의 논리에서 가장 강력한 감정적 논거입니다.\n\n그러나 이 거래에는 구조적 취약점이 있습니다. $56B 전액 현금 조달이 불가능하다는 점은 협상력을 제한하며, eBay 주주들이 GameStop 주식을 '동등한 가치'로 받아들일지는 불확실합니다. GameStop 자체가 여전히 meme stock의 낙인을 지우지 못했기 때문입니다. eBay 이사회가 특별 주주총회 소집 요건(현재 20% 임계값)을 낮추려는 시도가 최근 부결된 것도 Cohen의 경로를 좁힙니다. 결국 이 거래의 성패는 eBay 기관 주주들이 현 경영진의 실적 부진을 더 이상 용인할 의사가 있느냐에 달려 있습니다.",
+  "summary_en": "Ryan Cohen's $56bn bid for eBay is best understood as a live stress-test of a single proposition: that founder-operators with genuine skin in the game systematically outperform professional management teams that are paid regardless of performance. Cohen built Chewy from zero to a $3.35bn sale, turned GameStop profitable through brutal cost discipline and a pivot to collectibles, and is now arguing the same logic applies to a business with $9bn in annual revenue that has spent a decade going nowhere.\n\nHis diagnosis of eBay is surgical. GMV has declined since COVID, active users have fallen by 30 million, operating expenses now consume more than half of revenue, and $2.4bn in annual marketing spend has produced no measurable user growth. His three-part prescription: extract $2bn in costs immediately; build eBay Live into a serious live-commerce platform (TAM: $400bn) by opening GameStop's 1,600 stores as creator studios and fulfillment nodes; and — disclosed here for the first time — construct a digital marketplace for in-game items, capturing the liquidity gap that NFTs promised but never delivered.\n\nThe deal structure, 50% cash and 50% GameStop stock at a premium, is where the argument weakens. Cohen cannot raise a full-cash offer, which makes rejection easy and removes the coercive pressure that all-cash bids generate. eBay's board has already declined to engage, and a shareholder vote to lower the special meeting threshold from 20% to 10% recently failed, narrowing Cohen's escalation paths. The $500m of his own capital he is committing — against a CEO whose golden parachute reportedly exceeds $100m — is a rhetorically powerful contrast, but rhetoric does not replace leverage.\n\nFor investors, the relevant question is not whether Cohen is right about eBay's operational failures (he almost certainly is) but whether institutional shareholders will conclude that the certainty of his cost-cutting outweighs the uncertainty of owning a combined GameStop-eBay entity. That calculus is still open.",
+  "key_points_ko": [
+    {
+      "heading": "eBay의 문제는 사업 모델이 아니라 경영 태만이다",
+      "body": "Cohen의 핵심 진단은 eBay가 구조적으로 망가진 것이 아니라 운영적으로 방치됐다는 것입니다. COVID 이후 GMV는 하락했고, 활성 사용자는 3,000만 명 감소했으며, 매출 대비 운영비 비율은 50%를 초과했습니다. $2.4B의 마케팅 예산은 실질적인 사용자 성장을 만들어내지 못했습니다. 더 구체적으로, eBay의 셀러들은 플랫폼 외부의 서드파티 툴 없이는 사업 운영이 불가능하다고 토로합니다. Amazon Seller Central이 원스톱으로 제공하는 기능을 eBay는 제공하지 못하고 있으며, 이는 단순한 기능 격차가 아니라 경영진이 셀러를 고객이 아닌 종속 변수로 취급하고 있다는 증거입니다."
+    },
+    {
+      "heading": "Live commerce와 디지털 게임 아이템이 진짜 성장 논거다",
+      "body": "Cohen이 제시하는 성장 전략 중 가장 주목할 부분은 비용 절감이 아니라 두 가지 신규 카테고리입니다. 첫째, live commerce입니다. TAM은 $400B이고 아시아에서는 이미 주류이나, eBay Live는 수백 명의 시청자 수준에 머물러 있습니다. GameStop의 1,600개 매장을 크리에이터 스튜디오와 풀필먼트 허브로 전환하면 콘텐츠 공급과 물류를 동시에 해결할 수 있습니다. 둘째, 게임 내 디지털 아이템 마켓플레이스입니다. 이번 인터뷰에서 처음 공개된 이 전략은 AAA 타이틀의 스킨·무기 등 in-game 아이템에 유동성을 제공하는 것으로, NFT의 실패(실제 유틸리티 부재)를 극복한 형태입니다. 이 시장은 현재 누구도 장악하지 못한 공백 지대입니다."
+    },
+    {
+      "heading": "50% 주식 거래 구조가 인수의 가장 큰 약점이다",
+      "body": "Cohen의 제안은 현금 50%, GameStop 주식 50%로 구성됩니다. 전액 현금 조달이 불가능하다는 점은 이사회가 거절하기 쉽게 만드는 결정적 약점입니다. 전액 현금 공개매수(tender offer)는 이사회 동의 없이 주주에게 직접 접근할 수 있지만, 주식 스왑 구조는 주주들이 GameStop 주식의 가치를 신뢰해야 성립합니다. GameStop은 아직 meme stock의 낙인을 완전히 벗지 못했고, 이 불확실성은 기관 투자자들에게 실질적인 장벽입니다. 특별 주주총회 소집 임계값을 20%에서 10%로 낮추려는 시도가 부결된 것도 Cohen의 압박 수단을 제한합니다."
+    },
+    {
+      "heading": "Chewy와 GameStop의 성공은 창업자 집중 경영의 재현 가능성을 보여준다",
+      "body": "Cohen의 경쟁 우위는 운영 방법론에 있습니다. Chewy에서 그는 새벽 4-5시까지 직접 Google AdWords 캠핑을 관리하고, 공급업체 협상에서 '다시는 당신과 이야기하고 싶지 않다'는 말을 칭찬으로 받아들이는 문화를 구축했습니다. GameStop에서는 e-commerce 플레이북을 물리적 리테일에 그대로 적용했다가 실패한 뒤, 빠르게 수정해 중고 거래 모델과 수집품 카테고리로 피벗했습니다. 현재 GameStop의 수집품 매출은 전체의 42%, $350M 수준이며, Q1 매출은 전년 대비 14% 성장했고, $9.7B의 현금을 보유하고 있습니다. 이 결과는 Cohen이 eBay에서 주장하는 '비용 절감 + 셀러 우선주의'가 실제로 작동한다는 증거입니다."
+    },
+    {
+      "heading": "미디어의 반감은 서사적 매몰 비용(narrative sunk cost)의 문제다",
+      "body": "Cohen은 왜 모든 미디어가 GameStop의 실패를 원하느냐고 묻습니다. 인터뷰어 Dave Morin의 분석이 더 정확합니다. 미디어가 GameStop을 meme stock으로 규정한 순간, 그 서사를 수정하는 것은 자신들의 판단력을 부정하는 일이 됩니다. Cohen의 성공을 인정하는 것은 곧 자신들이 틀렸음을 인정하는 것이므로, 실패 서사를 유지하는 것이 개인 신뢰도 유지에 합리적입니다. 이 역학은 eBay 거래에도 동일하게 적용됩니다. Cohen이 eBay에서 성과를 내면, 전문 경영인 체제에 우호적인 월스트리트와 미디어의 통념 전체가 흔들립니다."
+    }
+  ],
+  "key_points_en": [
+    {
+      "heading": "eBay's problem is managerial neglect, not a broken business model",
+      "body": "Cohen's core diagnostic is that eBay's marketplace moat remains intact but has been allowed to erode through operational indifference. Since COVID, GMV has declined, active users have dropped by 30 million, and operating expenses now exceed 50% of revenue — remarkable for a business that carries no inventory. The $2.4bn annual marketing budget has produced no measurable user growth. Most tellingly, eBay's top sellers are forced to rely on third-party tools for functions that Amazon Seller Central handles natively. This is not a technology gap; it reflects a management culture that treats sellers as a captive resource rather than the primary customer of a marketplace business."
+    },
+    {
+      "heading": "Live commerce and in-game digital items are the real growth thesis, not cost-cutting",
+      "body": "Cohen's $2bn cost-extraction plan is the near-term earnings story, but his two growth vectors are the strategic argument. eBay Live currently reaches a few hundred concurrent viewers despite a $400bn addressable live-commerce market that is already mainstream in Asia. Cohen proposes converting GameStop's 1,600 stores into creator studios and fulfillment nodes, solving the content and logistics bottleneck simultaneously. His second vector — disclosed for the first time in this interview — is a marketplace for in-game digital items: skins, weapons, and AAA-title assets that have real utility unlike NFTs but currently have no liquid secondary market. Both opportunities exist today; neither requires Cohen to go head-to-head with Amazon."
+    },
+    {
+      "heading": "The 50% stock component is the transaction's structural vulnerability",
+      "body": "A 50% cash, 50% GameStop stock offer is far easier for a board to reject than an all-cash tender, because it shifts the burden of proof onto the acquirer's currency. eBay shareholders must believe that GameStop stock — still carrying meme-stock associations — represents fair value, which is a higher bar than accepting a cash premium. Cohen acknowledges he cannot finance a full-cash offer of this size, which removes the most coercive tool in a hostile acquirer's toolkit. The recent failure to lower eBay's special shareholder meeting threshold from 20% to 10% further constrains his escalation options, meaning the transaction currently depends on gradual institutional shareholder persuasion rather than structural pressure."
+    },
+    {
+      "heading": "Chewy and GameStop together validate a repeatable operating method",
+      "body": "Cohen's credibility rests on a track record that is harder to dismiss than his critics prefer. At Chewy, he managed Google AdWords campaigns personally until 4am, treated supplier hostility as a pricing indicator, and scaled to billions in revenue with negative working capital. At GameStop, he correctly diagnosed that the Chewy e-commerce playbook did not translate to physical retail, reversed course, and rebuilt around the pre-owned and collectibles model. Q1 2026 revenue grew 14% year-over-year to $835m; collectibles now account for 42% of revenue at $350m; the company holds $9.7bn in cash. These numbers make the 'meme stock' framing increasingly untenable."
+    },
+    {
+      "heading": "Media hostility toward Cohen reflects narrative sunk cost, not objective analysis",
+      "body": "Cohen's frustration with media coverage is genuine but underanalysed in the interview. The interviewer's explanation is more precise: every outlet that characterised GameStop as a pure meme phenomenon in 2021 faces a credibility cost if Cohen is vindicated. Acknowledging his competence at eBay requires acknowledging that the original 'going to zero' consensus was wrong, which is a reputational loss most institutional journalists will avoid by maintaining the dismissive framing. This dynamic has a direct market implication: if institutional shareholders are making decisions partly based on media-shaped sentiment, Cohen's real battle is not with eBay's board but with the information environment in which that board's shareholders are operating."
+    }
+  ],
+  "notable_quote_ko": {
+    "text": "자본을 직접 걸고 위험을 감수하는 것보다 더 미국적인 것은 없습니다. 그런데 왜 모든 사람이 우리의 실패를 바라는 걸까요?",
+    "attribution": "Ryan Cohen, CEO, GameStop"
+  },
+  "notable_quote_en": {
+    "text": "There's nothing more American than basically risking your own capital So why does everyone want us to fail",
+    "attribution": "Ryan Cohen, CEO, GameStop"
+  },
+  "notable_quote": {
+    "source_text_en": "There's nothing more American than basically risking your own capital So why does everyone want us to fail",
+    "translation_ko": "자본을 직접 걸고 위험을 감수하는 것보다 더 미국적인 것은 없습니다. 그런데 왜 모든 사람이 우리의 실패를 바라는 걸까요?",
+    "speaker": "Ryan Cohen",
+    "attribution": "Ryan Cohen, CEO, GameStop",
+    "is_verbatim": true,
+    "translation_is_verbatim": false,
+    "source_char_start": 375,
+    "source_char_end": 481,
+    "match_score": 1.0
+  },
+  "keywords_ko": [
+    "창업자 경영 프리미엄",
+    "eBay 적대적 인수",
+    "live commerce",
+    "게임 아이템 디지털 마켓플레이스",
+    "행동주의 투자",
+    "GameStop 턴어라운드"
+  ],
+  "keywords_en": [
+    "founder-operator premium",
+    "eBay hostile takeover",
+    "live commerce",
+    "in-game digital marketplace",
+    "activist investing",
+    "GameStop turnaround"
+  ],
+  "generated_at": "2026-06-25T09:07:00.951798"
+}
