@@ -1,5 +1,47 @@
 [
   {
+    "slug": "2026-06-29-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "Beyond P(doom): Marc Andreessen - Betting on America",
+    "published": "2026-06-29T10:00:00+00:00"
+  },
+  {
+    "slug": "2026-06-29-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "Odd Lots: Baidu's CFO on How It Became a Full-Stack AI Player (Podcast)",
+    "published": "2026-06-29T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-06-28-fareed-zakaria-gps",
+    "podcast": "Fareed Zakaria GPS",
+    "category": "Politics / Geopolitics",
+    "title": "Navigating Global Challenges: From Political Shifts to Space Exploration",
+    "published": "2026-06-28T15:58:00"
+  },
+  {
+    "slug": "2026-06-26-all-in-podcast",
+    "podcast": "All-In Podcast",
+    "category": "Politics / Geopolitics",
+    "title": "Socialists Sweep NYC, China Catches Up in Coding, AI Memory Crunch, Micron's Blowout Quarter",
+    "published": "2026-06-26T23:53:00+00:00"
+  },
+  {
+    "slug": "2026-06-26-hard-fork",
+    "podcast": "Hard Fork",
+    "category": "AI / Tech",
+    "title": "‘The Daily’ and ‘The Opinions’: How A.I. Is Changing Loneliness and Taste",
+    "published": "2026-06-26T11:00:00+00:00"
+  },
+  {
+    "slug": "2026-06-25-making-sense",
+    "podcast": "Making Sense",
+    "category": "Philosophy / AI Ethics",
+    "title": "#482 — More From Sam: The Iran Deal, College in the AI Age, Mamdani's DSA, and More",
+    "published": "2026-06-25T18:10:00+00:00"
+  },
+  {
     "slug": "2026-06-25-odd-lots",
     "podcast": "Odd Lots",
     "category": "Macro / Markets",
@@ -306,47 +348,5 @@
     "category": "VC / Business",
     "title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "published": "2026-05-27T10:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-26-making-sense",
-    "podcast": "Making Sense",
-    "category": "Philosophy / AI Ethics",
-    "title": "#477 — More From Sam: Iran's Unraveling, The Gaza Information War, AI-Generated Music, and More",
-    "published": "2026-05-26T18:45:00+00:00"
-  },
-  {
-    "slug": "2026-05-26-ezra-klein-show",
-    "podcast": "Ezra Klein Show",
-    "category": "Politics / Geopolitics",
-    "title": "Yuval Noah Harari on Donald Trump’s Core Delusion",
-    "published": "2026-05-26T09:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-25-odd-lots",
-    "podcast": "Odd Lots",
-    "category": "Macro / Markets",
-    "title": "Odd Lots: What It Takes to Run One of London's Most Popular Pubs (Podcast)",
-    "published": "2026-05-25T08:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-24-fareed-zakaria-gps",
-    "podcast": "Fareed Zakaria GPS",
-    "category": "Politics / Geopolitics",
-    "title": "Perspectives on Power: Analyzing Global Politics and Economic Change",
-    "published": "2026-05-24T16:35:00"
-  },
-  {
-    "slug": "2026-05-22-all-in-podcast",
-    "podcast": "All-In Podcast",
-    "category": "Politics / Geopolitics",
-    "title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-    "published": "2026-05-22T22:46:00+00:00"
-  },
-  {
-    "slug": "2026-05-22-hard-fork",
-    "podcast": "Hard Fork",
-    "category": "AI / Tech",
-    "title": "Our Field Trip to Google I/O + A Sit-Down With Sundar Pichai + System Update",
-    "published": "2026-05-22T11:00:00+00:00"
   }
 ]

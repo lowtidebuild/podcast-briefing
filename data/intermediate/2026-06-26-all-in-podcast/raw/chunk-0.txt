@@ -1,0 +1,142 @@
+```json
+{
+  "topics": [
+    "DSA socialist sweep in NYC Democratic primaries",
+    "AI as economic equalizer vs. Silicon Valley credibility",
+    "DSA platform and takeover of Democratic Party",
+    "Israel/Palestine as wedge issue in Democratic politics",
+    "Social media bans for minors and free speech tradeoffs"
+  ],
+  "claims": [
+    {
+      "claim": "NYC Mayor Mamdani went three for three in endorsed congressional primary candidates, all of whom won despite Polymarket odds of just 26% for the sweep.",
+      "evidence": [
+        "Brad Lander defeated two-term incumbent Dan Goldman in NY-10",
+        "Chevalier beat a five-term incumbent backed by House Speaker Hakeem Jeffries in NY-13",
+        "Claire Valdez won the open seat in NY-7",
+        "Polymarket odds for the Mamdani sweep were 26% before election day"
+      ],
+      "speakers": ["Jason Calacanis", "David Sacks"]
+    },
+    {
+      "claim": "The DSA's voting base is predominantly wealthy, downwardly mobile white liberals, not the working class, Black, or Hispanic Americans the Democratic Party historically represented.",
+      "evidence": [
+        "Gavin Baker stated DSA is losing votes with working class people, poor people, Black Americans, and Hispanic Americans",
+        "Sacks noted the NY-13 DSA candidate Chevalier is an unemployed 32-year-old PhD candidate who has never held a job"
+      ],
+      "speakers": ["Gavin Baker", "David Sacks"]
+    },
+    {
+      "claim": "AI represents the greatest economic equalizer of our lifetime by transforming the world's knowledge into accessible expertise for every person.",
+      "evidence": [
+        "Chamath compared AI's role to Google's harvesting of world knowledge but adding the missing layer of turning information into actionable intelligence",
+        "Chamath argued AI gives every person the equivalent of a brilliant co-founder with no gatekeeping"
+      ],
+      "speakers": ["Chamath Palihapitiya"]
+    },
+    {
+      "claim": "The DSA explicitly uses the Democratic Party as a ballot access vehicle rather than sharing its goals, and views the Democratic establishment as an obstacle.",
+      "evidence": [
+        "DSA co-chair Josh Bloch quoted: 'We're using the Democratic Party as a ballot access vehicle. Not because we share its goals. We build our own organization, get elected under the Democratic label, caucus with Democrats when it's useful, and push our own agenda from the inside.'"
+      ],
+      "speakers": ["David Sacks"]
+    },
+    {
+      "claim": "80% of Democrats now disapprove of Israel, and even among Republicans under 50, disapproval of Israel stands at 57%, making Israel/Palestine a decisive primary issue.",
+      "evidence": [
+        "Dan Goldman, a pro-Israel two-term congressman who led Trump's impeachment, lost to Brad Lander primarily over the Israel issue",
+        "Lander attended a mosque to denounce what he called the genocide in Gaza"
+      ],
+      "speakers": ["David Sacks"]
+    },
+    {
+      "claim": "Social media bans for under-16s in Canada, UK, and Australia, while potentially beneficial for youth, are primarily motivated by governments seeking to de-anonymize adults and build censorship regimes.",
+      "evidence": [
+        "Travis Kalanick argued the real point is 'force adults to identify themselves and de-anonymize themselves so you can set up a full scale censorship regime'",
+        "Gavin Baker agreed the cost is restricting anonymous accounts on X that governments disfavor"
+      ],
+      "speakers": ["Travis Kalanick", "Gavin Baker"]
+    },
+    {
+      "claim": "Zohran Mamdani is considered the most singularly talented politician Gavin Baker has seen in his lifetime, surpassing AOC, and is the primary driver of DSA ascendancy rather than their ideas.",
+      "evidence": [
+        "Baker: 'He is one of the most talented politicians I've ever seen in my lifetime'",
+        "Baker described Mamdani as a 'chameleon who can shift' across generations",
+        "Chamath added Mamdani, AOC, and Chevalier all share being good-looking, charismatic, and social-media fluent"
+      ],
+      "speakers": ["Gavin Baker", "Chamath Palihapitiya"]
+    },
+    {
+      "claim": "Electing a Republican DA correlates with a 7% drop in all-cause mortality for young Black men in that city.",
+      "evidence": [
+        "Gavin Baker cited 'a study that is uncontested' linking Republican DA elections to this outcome"
+      ],
+      "speakers": ["Gavin Baker"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "We're using the Democratic Party as a ballot access vehicle. Not because we share its goals. We build our own organization, get elected under the Democratic label, caucus with Democrats when it's useful, and push our own agenda from the inside. We see the Democratic establishment as an obstacle, not a home.",
+      "speaker": "David Sacks (quoting DSA co-chair Josh Bloch)",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "AI is the greatest economic leveler we'll ever find in our lifetime. I think it's the thing that can create the greatest amount of equality. I think that it can even the starting line for every single person on earth.",
+      "speaker": "Chamath Palihapitiya",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "truth and justice is the immune system for society. When the immune system is suppressed, all the social ills flare up.",
+      "speaker": "Travis Kalanick",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "communism isn't all of us. Communism is in our blood as humans... Have you ever in your life been lazy? Have you ever in your life wanted something for nothing? The difference is, do you make that a way of life?",
+      "speaker": "Travis Kalanick",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Elon has done more to decarbonize the planet than every activist combined.",
+      "speaker": "Gavin Baker",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "folks who can afford to be socialist",
+      "speaker": "Jason Calacanis",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "It's the Coke light. It's a Coke zero of socialism. It's actually just communism. They want to literally seize people's assets.",
+      "speaker": "Gavin Baker",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The real point of banning under 16 is so that you can force adults to identify themselves and de-anonymize themselves so you can set up a full scale censorship regime.",
+      "speaker": "Travis Kalanick",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {"name": "Travis Kalanick", "title": "Founder, Adams (formerly Uber)"},
+    {"name": "Gavin Baker", "title": "Managing Partner, Atreides Management"}
+  ],
+  "keyword_candidates": [
+    "DSA Democratic Socialists of America",
+    "Zohran Mamdani",
+    "Brad Lander",
+    "Dan Goldman",
+    "AI economic equalizer",
+    "social media ban under-16",
+    "Israel Palestine Democratic primaries",
+    "ballot harvesting"
+  ]
+}
+```

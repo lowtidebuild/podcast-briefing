@@ -1,0 +1,203 @@
+```json
+{
+  "topics": [
+    "Chinese AI open source models catching up to US frontier models",
+    "HBM/DRAM memory bottleneck and Micron earnings",
+    "AI infrastructure costs and orbital compute economics",
+    "DSA/socialist infiltration of the Democratic Party",
+    "Modular/edge AI data center hardware (Megapod)"
+  ],
+  "claims": [
+    {
+      "claim": "GLM 5.2 from Z.AI is the highest-scoring open weight model ever on the artificial analysis intelligence index, scoring 51 points, nearly matching frontier models from Anthropic and OpenAI.",
+      "evidence": [
+        "744 billion parameters, 1 million token context window, MIT license",
+        "Scored 51 points on artificial analysis intelligence index—highest of any open weight model",
+        "Trails Claude Opus 4.8 by less than one percentage point on SWE coding benchmark; 85% cheaper than GPT 5.5"
+      ],
+      "speakers": ["Chamath", "David Sacks", "Gavin"]
+    },
+    {
+      "claim": "China used model distillation—harvesting reasoning traces from cloud API queries at scale—to rapidly close the gap with US frontier AI models at a fraction of the cost.",
+      "evidence": [
+        "Chinese iPhone farms with tens of thousands of devices querying masked API accounts",
+        "Reasoning traces fed back into reinforcement learning and pre-training",
+        "Gavin: 'This is for sure going on and has gone on for a long time'"
+      ],
+      "speakers": ["Gavin"]
+    },
+    {
+      "claim": "Z.AI claims GLM 5.2 was trained entirely on Huawei Ascend 910B chips, and its inference is optimized for Huawei hardware, signaling China's indigenization push.",
+      "evidence": [
+        "Z.AI stated GLM5 family trained on clusters of Huawei Ascend 910B chips",
+        "DeepSeek V4 also claimed to be trained on Huawei chips",
+        "Inference optimized for Huawei chips; plan to package as 'AI in a box' for global export"
+      ],
+      "speakers": ["David Sacks"]
+    },
+    {
+      "claim": "China is approximately six months behind US frontier AI models and 24 months behind on silicon, but only a few months behind in total capability, putting the US on a very short competitive shot clock.",
+      "evidence": [
+        "Z.AI founder told Elon Musk open weight fable-level capabilities will arrive before Q1 2027",
+        "Sacks: 'Chinese have been nine months behind our models, plus or minus three months'",
+        "GLM 5.2 already at Opus 4.8 level in open weight form"
+      ],
+      "speakers": ["David Sacks", "Gavin"]
+    },
+    {
+      "claim": "Anthropic's rollback of Claude Fable and delays to GPT 5.6 approval created a window where a Chinese open weight model is now as capable as the currently available US frontier models.",
+      "evidence": [
+        "Fable rolled back after credible jailbreak report from trusted partner",
+        "GPT 5.6 navigating new government approval hoops",
+        "Sacks: 'We now have a Chinese open weight model that is as good as the currently available models from OpenAI and Anthropic'"
+      ],
+      "speakers": ["David Sacks"]
+    },
+    {
+      "claim": "Micron's revenue grew 4X year-over-year to $42 billion, beat expectations by 16%, and their entire 2026 HBM supply is sold out, with new supply chain agreements setting floor prices above prior cycle peaks.",
+      "evidence": [
+        "Revenue up from $9 billion to $42 billion year-over-year",
+        "Q4 guidance raised to $50 billion versus $43 billion expected",
+        "SCAs with floor/ceiling pricing cover ~50% of revenue with just four customers; floor pricing ahead of prior cycle gross margin peaks"
+      ],
+      "speakers": ["Chamath", "Gavin", "David Sacks"]
+    },
+    {
+      "claim": "DRAM/HBM is the most critical AI infrastructure bottleneck, likely representing 30–40% of all hyperscaler CapEx next year, and only three companies globally can manufacture it at the required quality.",
+      "evidence": [
+        "Only Micron, SK Hynix, and Samsung make HBM",
+        "Gavin: 'DRAM is probably going to be 30 to 40 percent of all hyperscaler CapEx next year—hundreds of billions of dollars'",
+        "HBM3 stacks eight dies high; moving to 12 and 16 stacks"
+      ],
+      "speakers": ["Gavin", "David Sacks"]
+    },
+    {
+      "claim": "Building a 1-gigawatt terrestrial data center costs approximately $60 billion total ($35B in semiconductors, $25B in power/cooling), while orbital compute via reusable Starship could cost ~$40 billion with deflationary launch economics.",
+      "evidence": [
+        "$35 billion in NVIDIA semiconductors plus $25 billion in power and cooling for 1GW ground data center",
+        "Five billion dollars in Starship launch costs to put 1GW of compute into orbit when reusable",
+        "Gavin: 'In three or four years it's 70 billion versus 40 billion' terrestrially vs. orbital"
+      ],
+      "speakers": ["Gavin"]
+    },
+    {
+      "claim": "DSA co-chair Gustavo Gordillo openly stated the DSA is operating inside the Democratic Party to build independent movement infrastructure while rejecting the party's billionaire donor model.",
+      "evidence": [
+        "Quote: 'We're part of the Democratic Party caucus, but we don't agree with the way the Democratic Party runs its apparatus'",
+        "'They are funded by billionaire donors, and at the same time, they're trying to represent the working class'",
+        "DSA described as intentionally using the Democratic Party as a host organism to capture its voting base"
+      ],
+      "speakers": ["Chamath", "Jason Calacanis"]
+    },
+    {
+      "claim": "Apple has begun passing DRAM cost inflation on to consumers, raising prices on MacBook Neo by 14% and Mac Studio by 25%, as AI data centers outcompete consumer electronics for HBM supply.",
+      "evidence": [
+        "MacBook Neo up from $699 to $799 (14% increase)",
+        "Mac Studio up 25%",
+        "Microsoft raised Xbox prices; Nintendo Switch and PlayStation prices expected to follow"
+      ],
+      "speakers": ["Chamath", "David Sacks"]
+    },
+    {
+      "claim": "Tesla's 'Megapod' trademark filing describes modular, self-contained AI computing hardware, likely intended for deployment at Supercharger network locations where land and power already exist.",
+      "evidence": [
+        "Trademark filed June 18, 2026 for 'modular data center hardware for artificial intelligence computing'",
+        "Described as 'self-contained modular computing hardware systems for artificial intelligence workloads'",
+        "Rumored to be deployed at Supercharger stations with existing land and power infrastructure"
+      ],
+      "speakers": ["Jason Calacanis", "Chamath"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "We're part of the Democratic Party caucus, but we don't agree with the way the Democratic Party runs its apparatus, so we're trying to build our own independence by focusing on volunteer-led movement.",
+      "speaker": "Gustavo Gordillo (quoted by host)",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "In our opinion, you have to choose between the billionaire class and the working class.",
+      "speaker": "Gustavo Gordillo (quoted by host)",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Distillation is when you have, you know, a, a, like, you know, we all have seen videos of these Chinese iPhone farms, just picture a farm like that. Tens of thousands of phones, iPads, and computers that are asking the cloud API through masked accounts, very specific questions.",
+      "speaker": "Gavin",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "We now have a Chinese open weight model that is as good as the currently available models from OpenAI and Anthropic.",
+      "speaker": "David Sacks",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "We do not have months to give away in this race.",
+      "speaker": "David Sacks",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "They're six months behind on the model and they're 24 months behind on the silicon, yet they're only a few months behind in total. So what game are we playing? This is insane. We are going to lose if we keep doing this stuff to ourselves.",
+      "speaker": "Gavin",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "DRAM is probably going to be 30 to 40 percent of all hyperscaler CapEx next year. Hundreds of billions of dollars that are spent going straight to DRAM.",
+      "speaker": "Gavin",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "If you can get the cost of launch significantly below that twenty five billion dollars, then the math starts to really math.",
+      "speaker": "Gavin",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "The future is composable models and you're going to every enterprise. You're going to have what Andrej Karpathy called the council of LLMs.",
+      "speaker": "Gavin",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "I do think Dario got hoisted on his own petard here, or it could be a FAFO situation.",
+      "speaker": "David Sacks",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "It's hard to build a new fab in a deep blue state.",
+      "speaker": "David Sacks",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "America is awesome. And we're the only vaguely successful multicultural society on planet Earth.",
+      "speaker": "Chamath",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {"name": "David Sacks", "title": "Former AI & Crypto Czar; Chair, PCAST"},
+    {"name": "Gavin Baker", "title": "CIO, Atreides Management (inferred from context as 'Gavin')"},
+    {"name": "Travis Kalanick", "title": "Founder, Adams (startup)"}
+  ],
+  "keyword_candidates": [
+    "GLM 5.2",
+    "Z.AI",
+    "high bandwidth memory (HBM)",
+    "Micron",
+    "Huawei Ascend 910B",
+    "model distillation",
+    "orbital compute",
+    "Megapod",
+    "DSA (Democratic Socialists of America)",
+    "composable models"
+  ]
+}
+```

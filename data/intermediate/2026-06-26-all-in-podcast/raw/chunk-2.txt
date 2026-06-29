@@ -1,0 +1,141 @@
+```json
+{
+  "topics": [
+    "Distributed inference and GPU compute economics",
+    "AI IPO market dynamics (Cerebras, SpaceX, Anthropic)",
+    "Inference disaggregation (prefill vs. decode)",
+    "Private-to-public capital market transitions",
+    "Cerebras post-IPO stock performance"
+  ],
+  "claims": [
+    {
+      "claim": "Anthropic would trade at approximately $3 trillion as a public company, with revenue well over $100 billion by end of year and ~85% gross margins on inference.",
+      "evidence": [
+        "Speaker states 'I think Anthropic is worth $3 trillion today'",
+        "'They're going to end this year well over $100 billion'",
+        "'people are reporting they have 85% gross margins on inference'"
+      ],
+      "speakers": ["Gavin"]
+    },
+    {
+      "claim": "Cerebras broke deal price after its first public earnings report, triggering price-insensitive selling by portfolio managers who have a rule to sell any stock that breaks deal price.",
+      "evidence": [
+        "'if a stock breaks deal price, they sell no matter what'",
+        "'shorts, if a stock gets close to deal price, they short it because they want to break deal price'",
+        "Cerebras 'had a tough two days since they reported their first quarter as a public company'"
+      ],
+      "speakers": ["Gavin"]
+    },
+    {
+      "claim": "The impact of Cerebras's transformational OpenAI contract (signed December 2025, worth ~$20-25 billion) won't appear in financials until around Labor Day at earliest, due to a ~7-month chip production and deployment timeline.",
+      "evidence": [
+        "'It takes four months to make the chip... two months to turn that chip into a server... a month to energize that chip'",
+        "'The first time you're going to see the impact of this OpenAI deal, at the earliest, is probably around Labor Day'",
+        "Contract signed 'December of 2025'"
+      ],
+      "speakers": ["Gavin"]
+    },
+    {
+      "claim": "If Cerebras can add 50 megawatts per month in 2027, they could exit that year at roughly a $9 billion cloud computing run rate, against a sub-$40 billion market cap.",
+      "evidence": [
+        "'let's take some NVIDIA numbers. It takes them $35 billion to bring on a gigawatt. And $15 billion, that you can generate $15 billion in token revenue... out of that gigawatt'",
+        "'If they could add 50 megawatts a month in 2027... that means they exit the year at roughly a $9 billion cloud computing run rate'",
+        "'we're at less than $40 billion of market cap'"
+      ],
+      "speakers": ["Gavin"]
+    },
+    {
+      "claim": "Physical proximity between GPUs is critical for distributed training; even two kilometers of separation causes dramatic efficiency loss, potentially an order of magnitude or more.",
+      "evidence": [
+        "'even if it's on your own fiber connected, like, two kilometers away, you're screwed'",
+        "'you get, like, multiple orders of value, at least an order of magnitude type efficiency, maybe plus, plus, plus'"
+      ],
+      "speakers": ["Chamath"]
+    },
+    {
+      "claim": "Inference disaggregation into prefill and decode stages allows old H100/A100 GPUs to be paired with Groq or Cerebras decode-optimized chips to create competitive, cost-effective inference solutions.",
+      "evidence": [
+        "'you can put Grok or Cerebrus decode, you know, optimized chips... in front of old NVIDIA GPUs like H100s'",
+        "'lift H100s, A100s out of some old data center, put them in one of these mega pods... put a Grok or a Cerebrus in front of it, and you can get a very competitive solution'"
+      ],
+      "speakers": ["Jason"]
+    },
+    {
+      "claim": "The large upcoming AI IPOs (SpaceX, Anthropic, OpenAI, Cerebras) do not represent a market absorption problem because only a small float (~5%) is offered publicly, which global capital markets can easily absorb.",
+      "evidence": [
+        "'it's not hard for global capital markets to absorb $15 billion of an offering'",
+        "'it's a 5% flow to $150 billion'",
+        "'the market's already absorbed it. It's just shifting from private to public'"
+      ],
+      "speakers": ["Gavin"]
+    },
+    {
+      "claim": "SpaceX employees and investors have had regular liquidity opportunities every six months for about 10 years, meaning the IPO lockup unlock may not create the large selling wall some short reports anticipate.",
+      "evidence": [
+        "'everybody who is a SpaceX investor or employee has had a chance to sell every six months for the last 10 years'",
+        "'almost half the employees at SpaceX bought on the IPO'",
+        "A New York hedge fund short report predicted shorting SpaceX on the lockup, but speaker questions this thesis"
+      ],
+      "speakers": ["Gavin"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "I think Anthropic is worth $3 trillion today. And it's very important.",
+      "speaker": "Gavin",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "if a stock breaks deal price, they sell no matter what. And so if stock breaks deal price, it can sometimes, you know, go to places you wouldn't think it would go.",
+      "speaker": "Gavin",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "tell your bankers, price this in such a way that we're not going to break deal price in our first nine months as a public company. And that's what I always advise everyone to do.",
+      "speaker": "Gavin",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "everything that cuts against training works for inference.",
+      "speaker": "Chamath",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "the market's already absorbed it. It's just shifting from private to public. And so in the scale of global capital markets, these seem like really big numbers. You're just moving from the private markets to the public markets, which are even bigger.",
+      "speaker": "Gavin",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "outside of the hyperscalers, the only companies that have ever brought on more than a gigawatt, I think, are Corweave, Crusoe, and SpaceX AI. So bringing on 600 megawatts, it's really hard.",
+      "speaker": "Gavin",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "whoever figures that out as a Pan-American idea, I think is really on to something.",
+      "speaker": "Chamath",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {"name": "Gavin", "title": "Investor / IPO market commentator (last name not stated in chunk)"},
+    {"name": "Travis", "title": "Speaker / entrepreneur (last name not stated in chunk)"}
+  ],
+  "keyword_candidates": [
+    "Cerebras IPO",
+    "Anthropic valuation",
+    "inference disaggregation",
+    "prefill decode",
+    "distributed inference",
+    "SpaceX IPO lockup",
+    "BitTensor",
+    "Groq NVIDIA acquisition"
+  ]
+}
+```

@@ -1,0 +1,15 @@
+{
+  "slug": "2026-06-26-all-in-podcast",
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_chars": 96148,
+  "chunk_count": 3,
+  "extracted_chunk_count": 3,
+  "cache_hits": 0,
+  "attempts": 3,
+  "prompt_input_chars": 100677,
+  "errors": [],
+  "warnings": [],
+  "created_at": "2026-06-29T11:14:02.166389"
+}
