@@ -1,0 +1,140 @@
+```json
+{
+  "topics": [
+    "White nationalism and the American right",
+    "Tucker Carlson and racialist media influence",
+    "Haitian immigrants and the Springfield cats/dogs story",
+    "Radicalization of young right-wing men",
+    "Hyper-real political spectacle vs. real political power"
+  ],
+  "claims": [
+    {
+      "claim": "Tucker Carlson was not laundering white nationalist talking points on Fox in 2021; conflating mainstream immigration opposition with white nationalism is dishonest.",
+      "evidence": [
+        "Rufo argues Scott Greer and Richard Spencer overstated their relationship with mainstream right figures out of narcissism and wishful thinking",
+        "Rufo says Spencer's 2016 claim that Trump was a 'creation of the alt-right' was 'completely delusional'"
+      ],
+      "speakers": ["Chris Rufo"]
+    },
+    {
+      "claim": "Scott Greer, former deputy editor of Daily Caller, said Tucker Carlson was 'on our side' and getting millions to nod along with talking points previously only seen on VDare or American Renaissance.",
+      "evidence": [
+        "Greer left Daily Caller in 2018 after past writings for white nationalist sites were dug up",
+        "VDare and American Renaissance are identified as white nationalist sites"
+      ],
+      "speakers": ["Ezra Klein"]
+    },
+    {
+      "claim": "The SPLC was giving money to neo-nazis and white nationalists to keep them afloat, suggesting the real supply of racism in the US had dwindled so much they had to artificially sustain it.",
+      "evidence": [
+        "Rufo claims SPLC simultaneously put him on a 'hate list' and funded white nationalist groups",
+        "ACLU allegedly subpoenaed Rufo in a 'law-fare campaign'"
+      ],
+      "speakers": ["Chris Rufo"]
+    },
+    {
+      "claim": "Young right-wing men became racialist not out of genuine white nationalism but because the George Floyd era's anti-white institutional messaging programmed them to think racially, and they reversed the polarity.",
+      "evidence": [
+        "Rufo describes conversations with young DC conservatives who came of age during COVID and George Floyd 'hysteria'",
+        "He says teachers, media, and government told young white men 'you're the problem, you're the oppressor'"
+      ],
+      "speakers": ["Chris Rufo"]
+    },
+    {
+      "claim": "The Haitian cats-and-dogs story spread from a Facebook post all the way to Donald Trump in a presidential debate, with no hard evidence it occurred in the Haitian community in Springfield, Ohio.",
+      "evidence": [
+        "Klein says neither he nor Rufo has found hard evidence Haitians were eating cats/dogs",
+        "JD Vance explicitly said cat memes were used to make American media pay attention to Springfield"
+      ],
+      "speakers": ["Ezra Klein", "Chris Rufo"]
+    },
+    {
+      "claim": "Nick Fuentes is not a fundamentally political figure but a hyper-real spectacle optimized for digital algorithms, not oriented toward actual political outcomes.",
+      "evidence": [
+        "Rufo distinguishes between media streamers whose goal is personal attention versus Trump who actually ran for and won the presidency",
+        "Rufo cautions against being 'scandalized' by figures who say things like 'I love Hitler' as this plays into algorithmic harvesting"
+      ],
+      "speakers": ["Chris Rufo"]
+    },
+    {
+      "claim": "Elon Musk endorsed a tweet invoking the 'great replacement' theory by replying 'you have spoken the truth,' and subsequently visited Auschwitz.",
+      "evidence": [
+        "Klein describes Musk writing under a tweet saying 'Jews have been funding the great replacement'",
+        "Klein calls it the 'Auschwitz apology tour'"
+      ],
+      "speakers": ["Ezra Klein"]
+    },
+    {
+      "claim": "Ideas that were considered fringe or marginal in Trump's first term have moved significantly toward the center by 2026, with figures like Bronze Age Pervert being widely read among Trump staffers.",
+      "evidence": [
+        "Klein says a large number of workers in House and Senate offices read Bronze Age Pervert",
+        "Klein notes Trump's appointments of RFK Jr. as HHS secretary, Tulsi Gabbard as DNI, and attempted nomination of Matt Gaetz as AG would have seemed 'unhinged' predictions earlier"
+      ],
+      "speakers": ["Ezra Klein"]
+    }
+  ],
+  "quote_candidates": [
+    {
+      "text": "Tucker is ultimately on our side. He can get millions and millions of boomers to nod along with talking points that would have only been seen on VDare or American Renaissance a few years ago.",
+      "speaker": "Scott Greer (quoted by Ezra Klein)",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "the supply of racism in the United States and including racism on the right in the United States has dwindled to such a small degree in real life that it took the SPLC to actually inject cash into that ecosystem merely to keep it alive",
+      "speaker": "Chris Rufo",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "if I have to mean create Stories so that the American media actually pays attention to the suffering of the American people then that's what I'm gonna do",
+      "speaker": "JD Vance (quoted by Ezra Klein)",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "They were programmed by the kind of George Floyd hysteria Into thinking racially and instead of what I think is the the proper and the correct response which is to say We've got to move beyond this. We're going to fight this racialist thinking on the left on the right wherever it comes from They essentially psychologically submitted to it But then reverse the polarity.",
+      "speaker": "Chris Rufo",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "Identity activates under threat and so the more you tell people that their identity is a problem The more they're going to begin to defend That identity and feel that identity and begin to self-define around that identity",
+      "speaker": "Ezra Klein",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "what I'm saying is I actually don't think The balance is right That I think for some time people have been you know, and Donald Trump himself is like the king of this",
+      "speaker": "Ezra Klein",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "When someone goes on video and says, you know, I love Hitler Obviously, we don't love Hitler. We're not neither of us are fans of Hitler, but you should resist the temptation to be Scandalized and shocked and lose your capacity to reason and perceive it correctly Because what this is it is a hyper real spectacle Optimized for digital algorithms to harvest attention and to harvest clicks",
+      "speaker": "Chris Rufo",
+      "char_start": null,
+      "char_end": null
+    },
+    {
+      "text": "there's like a conveyor belt of these ideas and they go from the fringe To the far right to the slightly less far right to Donald Trump",
+      "speaker": "Ezra Klein",
+      "char_start": null,
+      "char_end": null
+    }
+  ],
+  "guest_candidates": [
+    {"name": "Chris Rufo", "title": "Conservative activist and writer"}
+  ],
+  "keyword_candidates": [
+    "white nationalism",
+    "Tucker Carlson",
+    "Nick Fuentes",
+    "Springfield Ohio Haitians",
+    "great replacement",
+    "James Fishback",
+    "hyper-real spectacle",
+    "Bronze Age Pervert"
+  ]
+}
+```

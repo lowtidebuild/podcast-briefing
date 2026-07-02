@@ -1,5 +1,40 @@
 [
   {
+    "slug": "2026-07-02-odd-lots",
+    "podcast": "Odd Lots",
+    "category": "Macro / Markets",
+    "title": "What Dan Wang Saw on His Last Trip to China",
+    "published": "2026-07-02T08:00:00+00:00"
+  },
+  {
+    "slug": "2026-07-01-making-sense",
+    "podcast": "Making Sense",
+    "category": "Philosophy / AI Ethics",
+    "title": "#483 — The Knots We Tie Ourselves Into",
+    "published": "2026-07-01T17:00:00+00:00"
+  },
+  {
+    "slug": "2026-07-01-a16z-podcast",
+    "podcast": "a16z Podcast",
+    "category": "VC / Business",
+    "title": "Rick Rubin on AI, Creativity, and The Way of Code",
+    "published": "2026-07-01T10:00:00+00:00"
+  },
+  {
+    "slug": "2026-06-30-lex-fridman-podcast",
+    "podcast": "Lex Fridman Podcast",
+    "category": "AI / Tech",
+    "title": "#498 – Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise & Fall of Empires",
+    "published": "2026-06-30T21:33:40+00:00"
+  },
+  {
+    "slug": "2026-06-29-all-in-podcast",
+    "podcast": "All-In Podcast",
+    "category": "Politics / Geopolitics",
+    "title": "Nate Silver Predicts: Democrats Take the House, Newsom Is Fading & AOC Might Win It All in 2028",
+    "published": "2026-06-29T15:47:00+00:00"
+  },
+  {
     "slug": "2026-06-29-a16z-podcast",
     "podcast": "a16z Podcast",
     "category": "VC / Business",
@@ -313,40 +348,5 @@
     "category": "Politics / Geopolitics",
     "title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
     "published": "2026-05-29T22:23:00+00:00"
-  },
-  {
-    "slug": "2026-05-29-making-sense",
-    "podcast": "Making Sense",
-    "category": "Philosophy / AI Ethics",
-    "title": "#478 — The Psychedelic Mind",
-    "published": "2026-05-29T18:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-29-lex-fridman-podcast",
-    "podcast": "Lex Fridman Podcast",
-    "category": "AI / Tech",
-    "title": "#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE – Don Lincoln",
-    "published": "2026-05-29T16:22:02+00:00"
-  },
-  {
-    "slug": "2026-05-29-hard-fork",
-    "podcast": "Hard Fork",
-    "category": "AI / Tech",
-    "title": "Interesting Times: Why Are We Still Driving?",
-    "published": "2026-05-29T11:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-29-ezra-klein-show",
-    "podcast": "Ezra Klein Show",
-    "category": "Politics / Geopolitics",
-    "title": "Does Trump Want to Lose the Midterms?",
-    "published": "2026-05-29T09:00:00+00:00"
-  },
-  {
-    "slug": "2026-05-27-a16z-podcast",
-    "podcast": "a16z Podcast",
-    "category": "VC / Business",
-    "title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
-    "published": "2026-05-27T10:00:00+00:00"
   }
 ]

@@ -1,0 +1,156 @@
+{
+  "prompt_version": "chunk-extraction-v1",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "transcript_hash": "130cac79071b0b7ce48e61845b19c8264cb56f4a33ac2777a7b50085a651b63d",
+  "chunk_hash": "3fe6836b1e4e2f67828c4eeefd601daa17aa2e1635eee6ca4e656ad8074d8d08",
+  "chunk_index": 1,
+  "char_start": 34621,
+  "char_end": 71188,
+  "extraction": {
+    "chunk_index": 1,
+    "char_start": 34621,
+    "char_end": 71188,
+    "topics": [
+      "Roman imperial legitimacy and civil war dynamics",
+      "Edict of Caracalla and Roman citizenship expansion",
+      "Crisis of the Third Century and Diocletian's reforms",
+      "The Hippodrome as political barometer in Constantinople",
+      "Taxation as the foundation of the Eastern Roman Empire"
+    ],
+    "claims": [
+      {
+        "claim": "Approximately 46% of emperors of Constantinople were overthrown through violence, making every emperor perpetually insecure.",
+        "evidence": [
+          "'Something like forty six percent of the emperors of Constantinople are overthrown through violence'",
+          "This created an ongoing incentive for emperors to maintain popular goodwill rather than rule by fear"
+        ],
+        "speakers": [
+          "Anthony Kaldellis"
+        ]
+      },
+      {
+        "claim": "The Hippodrome functioned as a de facto ongoing referendum on imperial legitimacy, where crowd reactions served as real-time opinion polls for emperors.",
+        "evidence": [
+          "100,000 people could gather in the Hippodrome to chant acclamations or boo emperors",
+          "Emperor Alexius III publicly reversed the 'German tax' after crowd uproar in the Hippodrome in the 1190s",
+          "Tepid or absent cheering signaled policy problems emperors needed to address"
+        ],
+        "speakers": [
+          "Anthony Kaldellis"
+        ]
+      },
+      {
+        "claim": "The Edict of Caracalla (212 AD) was uniquely implemented in practice, unlike other empires' citizenship extensions, enabling provincials to hold the highest offices within a generation.",
+        "evidence": [
+          "Within a generation of the edict, all emperors were provincial",
+          "Explosion of people named 'Aurelius' across provinces confirms immediate uptake",
+          "Contrasted with the British Empire never meaningfully extending citizenship to Indians"
+        ],
+        "speakers": [
+          "Anthony Kaldellis"
+        ]
+      },
+      {
+        "claim": "The crisis of the Third Century saw 26 emperors murdered in 50 years, compounded by hyperinflation, a plague killing up to 5,000 people per day in Rome alone, and the empire fracturing into three parts.",
+        "evidence": [
+          "26 emperors in 50 years",
+          "Plague from 249 to 262 AD, possibly smallpox or Ebola",
+          "Empire fractured into three pieces before Aurelian reconquered them in five years"
+        ],
+        "speakers": [
+          "Lex Fridman",
+          "Anthony Kaldellis"
+        ]
+      },
+      {
+        "claim": "Diocletian resolved the Third Century crisis by institutionalizing bigger government, universal taxation (including ending Italy's tax exemption), and a universal census, creating the fiscal framework the Eastern Roman Empire used for centuries.",
+        "evidence": [
+          "Italy had been tax-exempt as 'the land of the conquerors' until Diocletian",
+          "Universal census catalogued every taxable asset in the empire",
+          "Illyrian emperors from the Balkans saw no reason for Italian tax privilege"
+        ],
+        "speakers": [
+          "Anthony Kaldellis"
+        ]
+      },
+      {
+        "claim": "The Roman civil wars of the Byzantine period were never ideological—all factions shared the same political values and competed solely over who should hold power.",
+        "evidence": [
+          "'Something like 120 civil wars' in the thousand years Kaldellis studies",
+          "'They're never about ideology... They're solely about who has the power. All sides have the same ideology'",
+          "Contrasted with modern civil wars fought over slavery or rights of kings"
+        ],
+        "speakers": [
+          "Anthony Kaldellis"
+        ]
+      },
+      {
+        "claim": "Diocletian's social mobility restrictions (farmers bound to land, soldiers' sons obligated to serve) were primarily tax enforcement mechanisms, and in practice the empire remained a society of high physical mobility.",
+        "evidence": [
+          "Farmers were fiscally responsible for land taxes but not physically prevented from leaving",
+          "No recorded complaints of unwilling sons forced into military service",
+          "Shipping guilds' hereditary obligations tied to asset transfer, not coercion"
+        ],
+        "speakers": [
+          "Anthony Kaldellis"
+        ]
+      }
+    ],
+    "quote_candidates": [
+      {
+        "text": "Something like forty six percent of the emperors of Constantinople are overthrown through violence. Forty six percent. That's almost half.",
+        "speaker": "Anthony Kaldellis",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "We don't have those kinds of institutions. We have instead an ongoing referendum. We just call it a perpetual referendum.",
+        "speaker": "Anthony Kaldellis",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "No modern empire has ever done this, really. What's significant about the Roman case is that not only did they extend citizenship to everybody, but they meant it.",
+        "speaker": "Anthony Kaldellis",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "The problem is the land who owns it that owns the people.",
+        "speaker": "Anthony Kaldellis",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "If you asked me to put my finger on one factor, it would be that. Taxation is the heart of it.",
+        "speaker": "Anthony Kaldellis",
+        "char_start": null,
+        "char_end": null
+      },
+      {
+        "text": "He turns the problem into its own solution. The problem is too many emperors... So what he does is he deputizes some of his colleagues.",
+        "speaker": "Anthony Kaldellis",
+        "char_start": null,
+        "char_end": null
+      }
+    ],
+    "guest_candidates": [
+      {
+        "name": "Anthony Kaldellis",
+        "title": "Historian of Byzantine/Eastern Roman Empire, University (specialist in Byzantine studies)"
+      }
+    ],
+    "keyword_candidates": [
+      "Edict of Caracalla",
+      "Constitutio Antoniniana",
+      "Hippodrome of Constantinople",
+      "Diocletian tetrarchy",
+      "Crisis of the Third Century",
+      "Illyrian emperors",
+      "perpetual referendum",
+      "Roman citizenship"
+    ]
+  },
+  "created_at": "2026-07-02T09:34:45.923559"
+}

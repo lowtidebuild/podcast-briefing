@@ -1,0 +1,36 @@
+{
+  "slug": "2026-06-30-ezra-klein-show",
+  "episode_id": "83544da5-2212-47c5-a66c-218fe5101c68",
+  "podcast": "Ezra Klein Show",
+  "title": "Chris Rufo Thinks the Right Can Control This. I Don’t.",
+  "published": "2026-06-30T09:00:00+00:00",
+  "stage": "episode_synthesis",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "attempts": 6,
+  "errors": [
+    "summary parsing failed"
+  ],
+  "warnings": [],
+  "generation_errors": [
+    "all 3 episode_synthesis attempts failed to produce valid JSON"
+  ],
+  "generation_warnings": [],
+  "artifacts": {
+    "chunks": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-30-ezra-klein-show/chunks.json",
+    "extraction_report": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-30-ezra-klein-show/extraction_report.json",
+    "raw_dir": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-30-ezra-klein-show/raw",
+    "synthesis": "/home/runner/work/podcast-briefing/podcast-briefing/data/intermediate/2026-06-30-ezra-klein-show/synthesis.json"
+  },
+  "usage": {
+    "transcript_chars": 114821,
+    "chunk_count": 3,
+    "extracted_chunk_count": 3,
+    "cache_hits": 0,
+    "extraction_prompt_input_chars": 119240,
+    "synthesis_prompt_chars": 21995,
+    "synthesis_input_reduction_ratio": 0.8084
+  },
+  "raw_output_path": "/home/runner/work/podcast-briefing/podcast-briefing/data/failures/raw/2026-06-30-ezra-klein-show.txt",
+  "created_at": "2026-07-02T09:13:14.801313"
+}

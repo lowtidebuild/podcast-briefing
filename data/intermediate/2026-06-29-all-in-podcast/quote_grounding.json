@@ -1,0 +1,12 @@
+{
+  "slug": "2026-06-29-all-in-podcast",
+  "transcript_chars": 61142,
+  "is_verbatim": false,
+  "match_score": 0.804,
+  "source_char_start": null,
+  "source_char_end": null,
+  "warnings": [
+    "notable_quote_en was not grounded in transcript (best score=0.80)"
+  ],
+  "created_at": "2026-07-02T09:18:51.575657"
+}
